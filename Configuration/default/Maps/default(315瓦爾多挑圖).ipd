@@ -1,0 +1,379 @@
+﻿//地圖打針
+
+[Quality] <= "16" && [Rarity] == "Normal" # [UpgradeQuality] == "true"
+
+//別動
+[MapTier] >= "1" && [MapTier] <= "16" # [RunMap] == "true"
+
+[Rarity] == "Normal" # [UpgradeToRare] == "true" //使用點金石
+//[Rarity] == "Normal" 	# [UpgradeToMagic] == "true" //使用蛻變石
+//[Rarity] == "Magic" 	# [AugmentIfPossible] == "true" //使用增幅石
+
+[Type] == "Basilica Map" # [SkipBossArena] == "true" // Innocence boss 聖殿 善 有三階段轉換
+[Type] == "Belfry Map" # [SkipBossArena] == "true" // A5 Kitava boss 雲頂鐘樓 尾王打心臟 拖檯錢 三階段轉換
+[Type] == "Core Map" # [SkipBossArena] == "true" // A9 Trio boss 核心 王會跑來跑去 打不到
+[Type] == "Dark Forest Map" # [SkipBossArena] == "true" // Wolf boss 夜語幽林 狼王 會轉型態無敵
+[Type] == "Desert Spring Map" # [SkipBossArena] == "true" // Pantheon scorpion boss 硫磺荒漠 蠍子會躲沙子內無敵
+[Type] == "Graveyard Map" # [SkipBossArena] == "true" // Wolf boss 餓獸巢穴 狼王無敵
+[Type] == "Lava Chamber Map" # [SkipBossArena] == "true" // Buttons on the arena to press 熔岩之室 王會傳送跑來跑去 王房有火
+[Type] == "Malformation Map" # [SkipBossArena] == "true" // Corrupted Piety boss 畸形亡域 機制會造成流血傷害 大噴血
+[Type] == "Pier Map" # [SkipBossArena] == "true" // Traps 怒浪之港 王會逃跑三次 機關太多
+[Type] == "Racecourse Map" # [SkipBossArena] == "true" // Mini-boss with damage reflection aura 古競速場 三王其中一隻會反傷
+[Type] == "Reef Map" # [SkipBossArena] == "true" // (\/)!_!(\/) boss 危機海礁 螃蟹王 你知道的
+[Type] == "Siege Map" # [SkipBossArena] == "true" // Tukokhama boss 禁斷圍城 王會召圖騰 圖騰沒打掉 王會無敵 打不死
+[Type] == "Terrace Map" # [SkipBossArena] == "true" // Yugul boss, bot doesn't wait for spawns 露台花園 王會跳進水池 無敵 打不到
+[Type] == "Vaal Temple Map" # [SkipBossArena] == "true" // don't even try this 瓦爾密殿 王會轉階段 打不到 而且會被球撞死
+[Type] == "Infested Valley Map" # [SkipBossArena] == "true" // Gets stuck attacking nothing 病疫林谷 要先打死三隻毒蟲才能打王 EB笨笨的
+[Type] == "Residence Map" # [SkipBossArena] == "true" // 神主居所卡樓梯
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////// 3.15後 新的瓦爾多//////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+[Type] == "Lair Map" # [RunMap] == "true" //餓獸巢穴
+[Type] == "Basilica Map" # [RunMap] == "true" //聖殿
+[Type] == "Wharf Map" # [RunMap] == "true" //毒牙海港
+[Type] == "Estuary Map" # [RunMap] == "true" //熔火炎灘
+[Type] == "Grotto Map" # [RunMap] == "true" //幽暗地穴
+[Type] == "Port Map" # [RunMap] == "true" //失落船屋
+
+
+[Type] == "Arena Map" # [UpgradeMapTier] == "true" //競技場 不打升級
+[Type] == "Channel Map" # [UpgradeMapTier] == "true" //秘密通道 不打升級
+[Type] == "Channel Map" # [IgnoreMap] == "true" //秘密通道 不打升級
+[Type] == "Excavation Map" # [UpgradeMapTier] == "true" //挖掘場不打升級
+
+//避開王房 不要亂改
+
+[Type] == "Lair Map" # [SkipBossArena] == "true" // 無敵王
+[Type] == "Basilica Map" # [SkipBossArena] == "true" //聖殿轉型王
+[Type] == "Port Map" # [SkipBossArena] == "true" //失落船屋
+
+// 只打峽谷 瓦爾其他遮蔽  需要的自己改 [RunMap] == "true" 
+
+
+///////////////////////////////////3.15普拉克斯馬////////////////////////////////////////////
+
+[Type] == "Ashen Wood Map" # [RunMap] == "true" //林地 11
+[Type] == "Mesa Map" # [RunMap] == "true" //平頂 10
+[Type] == "Iceberg Map" # [RunMap] == "true" //冰帽 11
+[Type] == "Bog Map" # [RunMap] == "true" //瘴氣 10
+[Type] == "Racecourse" # [RunMap] == "true" // 古競速場
+
+[Type] == "Mesa Map" # [SkipBossArena] == "true" //平頂 10
+[Type] == "Iceberg Map" # [SkipBossArena] == "true" //冰帽 11
+[Type] == "Bog Map" # [SkipBossArena] == "true" //瘴氣 10
+[Type] == "Racecourse" # [SkipBossArena] == "true" // 古競速場
+
+
+[Type] == "Acid Caverns Map" # [UpgradeMapTier] == "true" //酸岩酸嶼 瓦爾金字塔 牢籠 不打升級
+[Type] == "Vaal Pyramid Map" # [UpgradeMapTier] == "true" //酸岩酸嶼 瓦爾金字塔 牢籠 不打升級
+[Type] == "Cage Map" # [UpgradeMapTier] == "true" //酸岩酸嶼 瓦爾金字塔 牢籠 不打升級
+[Type] == "Haunted Mansion Map" # [UpgradeMapTier] == "true" //酸岩酸嶼 瓦爾金字塔 牢籠 不打升級
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+// Unique maps 傳奇地圖 預設不打
+[Type] == "Overgrown Shrine Map" 	&& [Rarity] == "Unique" # [IgnoreMap] == "true" // Acton's Nightmare 輪迴的夢魘
+[Type] == "Siege Map" 				&& [Rarity] == "Unique" # [IgnoreMap] == "true" // Altered Distant Memory 遙遠記憶：編造
+[Type] == "Courthouse Map" 			&& [Rarity] == "Unique" # [IgnoreMap] == "true" // Augmented Distant Memory 遙遠記憶：增幅
+[Type] == "Underground River Map" 	&& [Rarity] == "Unique" # [IgnoreMap] == "true" // Caer Blaidd, Wolfpack's Den 塞爾．佈雷德狼穴
+[Type] == "Relic Chambers Map" 		&& [Rarity] == "Unique" # [IgnoreMap] == "true" // Cortex 深沉記憶
+[Type] == "Necropolis Map" 			&& [Rarity] == "Unique" # [IgnoreMap] == "true" // Death and Taxes 亡者之財
+[Type] == "Maze Map" 				&& [Rarity] == "Unique" # [IgnoreMap] == "true" // Doryani's Machinarium 多里亞尼的機械迷城
+[Type] == "Promenade Map" 			&& [Rarity] == "Unique" # [IgnoreMap] == "true" // Hall of Grandmasters 元帥殿堂
+[Type] == "Cemetery Map" 			&& [Rarity] == "Unique" # [IgnoreMap] == "true" // Hallowed Ground 萬聖之地
+[Type] == "Atoll Map" 				&& [Rarity] == "Unique" # [IgnoreMap] == "true" // Maelström of Chaos 混沌之淵
+[Type] == "Shore Map" 				&& [Rarity] == "Unique" # [IgnoreMap] == "true" // Mao Kun 賊窩
+[Type] == "Underground Sea Map" 	&& [Rarity] == "Unique" # [IgnoreMap] == "true" // Oba's Cursed Trove 歐霸的咒怨寶庫
+[Type] == "Bone Crypt Map" 			&& [Rarity] == "Unique" # [IgnoreMap] == "true" // Olmec's Sanctum 遠古之印
+[Type] == "Dunes Map" 				&& [Rarity] == "Unique" # [IgnoreMap] == "true" // Pillars of Arun 艾倫之柱
+[Type] == "Temple Map" 				&& [Rarity] == "Unique" # [IgnoreMap] == "true" // Poorjoy's Asylum 沉淪之間
+[Type] == "Basilica Map" 			&& [Rarity] == "Unique" # [IgnoreMap] == "true" // Rewritten Distant Memory 遙遠記憶：改寫
+[Type] == "Harbinger Map" 			&& [Rarity] == "Unique" # [IgnoreMap] == "true" // The Beachhead, Infused Beachhead 神域之殿．煉獄
+[Type] == "Cursed Crypt Map" 		&& [Rarity] == "Unique" # [IgnoreMap] == "true" // The Coward's Trial 懦者的試驗
+[Type] == "Chateau Map" 			&& [Rarity] == "Unique" # [IgnoreMap] == "true" // The Perandus Manor 普蘭德斯莊園
+[Type] == "Museum Map" 				&& [Rarity] == "Unique" # [IgnoreMap] == "true" // The Putrid Cloister 腐臭迴廊
+[Type] == "Moon Temple Map" 		&& [Rarity] == "Unique" # [IgnoreMap] == "true" // The Twilight Temple 暮色神廟
+[Type] == "Courtyard Map" 			&& [Rarity] == "Unique" # [IgnoreMap] == "true" // The Vinktar Square 維克塔廣場
+[Type] == "Park Map" 				&& [Rarity] == "Unique" # [IgnoreMap] == "true" // Twisted Distant Memory 遙遠記憶：扭曲
+[Type] == "Tropical Island Map" 	&& [Rarity] == "Unique" # [IgnoreMap] == "true" // Untainted Paradise 純淨樂園
+[Type] == "Vaal Pyramid Map" 		&& [Rarity] == "Unique" # [IgnoreMap] == "true" // Vaults of Atziri 阿茲里的秘寶庫
+[Type] == "Strand Map" 				&& [Rarity] == "Unique" # [IgnoreMap] == "true" // Whakawairua Tuahu 禁閉祭壇
+
+// === 5 Map mods - reroll === 地圖詞綴重骰 預設 物反、元反、重骰
+
+[map_player_has_level_X_vulnerability] >= "1" && [Rarity] == "Magic" # [RerollMods] == "true" // Of Vulnerability -- Players are cursed with Vulnerability 玩家受到脆弱詛咒
+[map_player_has_level_X_vulnerability] >= "1" && [Rarity] == "Rare" # [RerollMods] == "true" // Of Vulnerability -- Players are cursed with Vulnerability 玩家受到脆弱詛咒
+
+[map_player_has_level_X_elemental_weakness] >= "1" && [Rarity] == "Magic" # [RerollMods] == "true" // Of Elemental Weakness -- Players are cursed with Elemental Weakness 玩家受到元素要害詛咒影響
+[map_player_has_level_X_elemental_weakness] >= "1" && [Rarity] == "Rare" # [RerollMods] == "true" // Of Elemental Weakness -- Players are cursed with Elemental Weakness 玩家受到元素要害詛咒影響
+
+// [map_monsters_reflect_%_elemental_damage] >= "1" && [Rarity] == "Magic" # [RerollMods] == "true" // Mirrored -- Monsters Reflect % Elemental Damage 怪物反射_%_元素傷害
+// [map_monsters_reflect_%_elemental_damage] >= "1" && [Rarity] == "Rare" # [RerollMods] == "true" // Mirrored -- Monsters Reflect % Elemental Damage 怪物反射_%_元素傷害
+
+[map_monsters_reflect_%_physical_damage] >= "1" && [Rarity] == "Magic" # [RerollMods] == "true" // Punishing -- Monsters Reflect % Physical Damage 怪物反射_%_物理傷害
+[map_monsters_reflect_%_physical_damage] >= "1" && [Rarity] == "Rare" # [RerollMods] == "true" // Punishing -- Monsters Reflect % Physical Damage 怪物反射_%_物理傷害
+
+//[map_players_no_regeneration_including_es] >= "1" && [Rarity] == "Magic" # [IgnoreMap] == "true" // Of Statis -- Players have no Life or Mana Regeneration
+[map_players_no_regeneration_including_es] >= "1" && [Rarity] == "Magic" # [RerollMods] == "true" // Of Statis -- Players have no Life or Mana Regeneration 玩家無法回復生命、魔力和能量護盾
+[map_players_no_regeneration_including_es] >= "1" && [Rarity] == "Rare" # [RerollMods] == "true" // Of Statis -- Players have no Life or Mana Regeneration 玩家無法回復生命、魔力和能量護盾
+
+// How to Roll Pack Size - Simple leave appropriate (suffix only) pack size reroll checks (has packsize in description) COMMENTED, and uncomment the rest.
+// This will force bot to reroll/aug until packsize is rolled. 
+
+// Prefix 地圖前綴
+// [map_packs_are_abomination_monsters] >= "1" && [Rarity] == "Magic" # [RerollMods] == "true" // Abhorrent - Monsters are abominations 怪物有憎恨屬性
+// [map_spawn_extra_exiles] >= "1" && [Rarity] == "Magic" # [RerollMods] == "true" // Anarchic -- 2+ Rogue Exiles 地圖裡有額外 # 個盜賊流亡者
+// [map_rare_monsters_have_nemesis_mod] >= "1" && [Rarity] == "Magic" # [RerollMods] == "true" // Antagonist's -- Nemesis Mod 稀有怪有復仇屬性
+// [map_packs_are_humanoids] >= "1" && [Rarity] == "Magic" # [RerollMods] == "true" // Bipedal -- Humanoid Mobs 地圖裡有許多人型生物
+// [map_packs_are_goatmen] >= "1" && [Rarity] == "Magic" # [RerollMods] == "true" // Capricious -- Goatmen Mobs 地圖裡有許多羊男
+// [map_packs_are_totems] >= "1" && [Rarity] == "Magic" # [RerollMods] == "true" // Ceremonial -- Contains Totems 地圖裡有許多圖騰
+// [map_monster_skills_chain_X_additional_times] >= "1" && [Rarity] == "Magic" # [RerollMods] == "true" // Chaining -- Chain +2 Times 怪物的技能附加_#_次連鎖
+// [map_monsters_always_ignite] >= "1" && [Rarity] == "Magic" # [RerollMods] == "true" // Conflagrating -- All Monster Damage from Hits always Ignites 怪物傷害必定造成點燃
+// [map_packs_are_demons] >= "1" && [Rarity] == "Magic" # [RerollMods] == "true" // Demonic -- Demon Mobs 地圖裡有許多惡魔
+// [map_packs_fire_projectiles] >= "1" && [Rarity] == "Magic" # [RerollMods] == "true" // Emanant -- Nemesis Mod 地圖小怪都是Act4獸腹的怪物
+// [map_packs_are_kitava] >= "1" && [Rarity] == "Magic" # [RerollMods] == "true" // Feasting - not sure it works 區域內有許多奇塔弗的信徒
+// [map_packs_are_animals] >= "1" && [Rarity] == "Magic" # [RerollMods] == "true" // Feral -- Animal Mobs 地圖裡有許多動物
+// [map_packs_are_ghosts] >= "1" && [Rarity] == "Magic" # [RerollMods] == "true" // Haunting - Ghosts 區域內有許多鬼魂
+// [map_packs_are_lunaris] >= "1" && [Rarity] == "Magic" # [RerollMods] == "true" // Lunar - Lunaris mobs 區域內有許多月影神信徒
+// [map_additional_number_of_packs_to_choose] >= "1" && [Rarity] == "Magic" # [RerollMods] == "true" // Multifarious -- Increased Variety Mobs 地圖裡的怪物種類被增加了
+// [map_beyond_chance_%] >= "1"  && [Rarity] == "Magic" # [RerollMods] == "true" // Otherworldly -- Beyond Spawned Mobs 擊殺群聚的敵人有機率吸引來自超越的怪物_%
+// [map_packs_are_skeletons] >= "1" && [Rarity] == "Magic" # [RerollMods] == "true" // Skeletal -- Skeleton Mobs 地圖裡有許多骷髏
+// [map_packs_are_sea_witches_and_spawn] >= "1" && [Rarity] == "Magic" # [RerollMods] == "true" // Slithering -- Sea Witches & Spawn Mobs 地圖裡有許多海巫和它的召喚物
+// [map_packs_are_solaris] >= "1" && [Rarity] == "Magic" # [RerollMods] == "true" // Solar -- Solaris mobs 區域內有許多日耀神信徒
+// [map_packs_fire_projectiles] >= "2" && [Rarity] == "Magic" # [RerollMods] == "true" // Splitting -- Monsters fire 2 additional Projectiles 怪物可發射多重投射物
+// [is_twinned_unique_boss] >= "1" && [Rarity] == "Magic" # [RerollMods] == "true" // Twinned -- 2X Unique Bosses 兩個傳奇頭目
+// [map_packs_are_undead_and_necromancers] >= "1" && [Rarity] == "Magic" # [RerollMods] == "true" // Undead -- Undead Mobs 地圖裡有亡靈
+// [map_monsters_cannot_be_taunted] >= "1" && [Rarity] == "Magic" # [RerollMods] == "true" // Unstoppable -- Mobs cannot be slowed/taunted 怪物不能被減速/嘲諷
+// Scaled/Tiered Prefix Mods -- Percentages/Values Increase with Map Tiers 地圖前綴 會隨地圖等級不同 而增加%數
+// [map_monsters_additional_physical_damage_reduction] >= "1" && [Rarity] == "Magic" # [RerollMods] == "true" // Armoured -- +% Monster Phys Dmg Reduction 增加怪物的物理減傷
+// [map_monsters_%_physical_damage_to_add_as_fire] >= "1" && [Rarity] == "Magic" # [RerollMods] == "true" // Burning -- Monsters Deal +% Extra Fire Dmg 怪物造成_%_額外火焰傷害
+// [map_monsters_life_+%] >= "20" && [Rarity] == "Magic" # [RerollMods] == "true" // Fecund -- +% More Monsters Life 增加怪物生命_+%
+// [map_monsters_%_chance_to_inflict_status_ailments] >= "20" && [Rarity] == "Magic" # [RerollMods] == "true" //  怪物擊中時有_%_機率造成元素異常狀態
+// [map_monsters_movement_speed_+%] >= "1" && [Rarity] == "Magic" # [RerollMods] == "true" // Fleet -- +% Increased Monster Movement/Attack/Cast Speed 增加怪物移動/攻擊/施放速度_+%
+// [map_monsters_%_physical_damage_to_add_as_cold] >= "1" && [Rarity] == "Magic" # [RerollMods] == "true" // Freezing -- Monsters Deal +% Extra Cold Dmg 怪物造成_%_額外冰冷傷害
+// [map_monsters_are_hexproof] >= "1" && [Rarity] == "Magic" # [RerollMods] == "true" // Hexproof -- Monsters are Hexproof 怪物對詛咒效果減少
+// [map_monsters_curse_effect_on_self_+%_final] < "0" && [Rarity] == "Magic" # [RerollMods] == "true" // Hexwarded -- Less effect of curses on mobs 怪物無法受到詛咒
+// [map_monsters_avoid_poison_blind_bleed_%] >= "1" && [Rarity] == "Magic" # [RerollMods] == "true" // Impervious -- Mobs have chance to avoid Poison/Blind/Bleed 怪物有機率避免中毒、致盲和流血_%
+
+// [map_boss_attack_and_cast_speed_+%] >= "1" && [Rarity] == "Magic" # [RerollMods] == "true" // Overlord's -- Unique Boss Deals +% Dmg/ Has +% Attack & Cast Speed 傳奇頭目增加攻擊速度及施放速度_+%
+// [map_monsters_additional_chaos_resistance] >= "1" && [Rarity] == "Magic" # [RerollMods] == "true" // Resistant -- Mobs have Chaos/Ele Resistance 怪物的混沌抗性
+// [map_monsters_damage_+%] >= "1" && [Rarity] == "Magic" # [RerollMods] == "true" // Savage -- +% Monster Dmg 增加怪物傷害_+%
+// [map_monsters_%_physical_damage_to_add_as_lightning] >= "1" && [Rarity] == "Magic" # [RerollMods] == "true" // Shocking -- Monsters Deal +% Extra Lightning Dmg 怪物造成_%_額外閃電傷害
+// [map_boss_maximum_life_+%] >= "1" && [Rarity] == "Magic" # [RerollMods] == "true" // Titan's -- Unique Boss Has +% Life/ Area of Effect 傳奇頭目增加血量
+// [map_monsters_cannot_be_stunned] >= "1" && [Rarity] == "Magic" # [RerollMods] == "true" // Unwavering -- Monsters Cannot Be Stunned/ +% More Monster Life 怪物不會被暈眩 增加怪物血量
+
+// Suffix 地圖後綴
+// [map_player_has_elemental_equilibrium_keystone] >= "1" && [Rarity] == "Magic" # [RerollMods] == "true" // Of Balance -- Player Has Elemental Equilibrium 玩家有元素之相
+// [map_magic_pack_mod_rules] >= "1" && [Rarity] == "Magic" # [RerollMods] == "true" // Of Bloodlines -- More Magic Monsters/ Magic Monsters Have Bloodline Mod 更多的藍色怪物
+// [map_monsters_add_endurance_charge_on_hit_%] >= "1" && [Rarity] == "Magic" # [RerollMods] == "true" // Of Endurance -- Monsters Gain Endurance Charge on Hit 怪物擊中時獲得顆耐力球
+// [map_monsters_add_frenzy_charge_on_hit_%] >= "1" && [Rarity] == "Magic" # [RerollMods] == "true" // Of Frenzy -- Monsters Gain Frenzy Charge on Hit 怪物擊中時獲得狂怒球
+// [map_monsters_add_power_charge_on_hit_%] >= "1" && [Rarity] == "Magic" # [RerollMods] == "true" // Of Power -- Monsters Gain Power Charge on Hit 怪物暴擊獲得暴擊球
+// [map_players_have_point_blank] >= "1" && [Rarity] == "Magic" # [RerollMods] == "true" // Of Skirmishing -- Players have Point Blank 玩家有零點射擊
+// [map_monsters_poison_on_hit] >= "1" && [Rarity] == "Magic" # [RerollMods] == "true" // Of Venom -- Monsters Poison on Hit 被怪物擊中時中毒
+
+// Scaled/Tiered Suffix Mods -- Percentages/Values Increase with Map Tiers 地圖後綴 會隨地圖等級不同 而增加%數
+// [map_monsters_life_leech_resistance_%] >= "1" && [Rarity] == "Magic" # [RerollMods] == "true" // Of Congealment -- Cannot Leech Life/Mana From Monsters 無法從怪物身上偷取生命/法力
+// [map_monsters_critical_strike_chance_+%] >= "1" && [Rarity] == "Magic" # [RerollMods] == "true" // Of Deadliness -- Monsters have +% Crit Chance/ +% Crit Multiplier 怪物增加暴擊率
+// [map_base_ground_desecration_damage_to_deal_per_minute] >= "1" && [Rarity] == "Magic" # [RerollMods] == "true" // Of Desecration -- Area Has Patches of Desecrated Ground 地圖裡有汙染地面
+// [map_player_charges_gained_+%] < "0" && [Rarity] == "Magic" # [RerollMods] == "true" // Of Drought - Players gain reduced Flask Charges 玩家的藥劑充能獲取減少
+
+// [map_player_has_level_X_enfeeble] >= "1" && [Rarity] == "Magic" # [RerollMods] == "true" // Of Enfeeblement -- Players are cursed with Enfeeble 玩家受到衰弱詛咒影響
+// [map_additional_player_maximum_resistances_%] < "0" && [Rarity] == "Magic" # [RerollMods] == "true" // Of Exposure -- (-X to -X)% maximum Player Resistances 玩家–#%最大抗性
+// [map_base_ground_fire_damage_to_deal_per_minute] >= "1" && [Rarity] == "Magic" # [RerollMods] == "true" // Of Flames -- Area has patches of burning ground 地圖裡有燃燒地面
+// [map_monsters_area_of_effect_+%] >= "1" && [Rarity] == "Magic" # [RerollMods] == "true" // Of Giants -- Monsters have % increased Area of Effect 怪物增加範圍效果
+// [map_ground_ice] >= "1" && [Rarity] == "Magic" # [RerollMods] == "true" // Of Ice -- Area has patches of chilled ground 地圖裡有冰緩地面
+// [map_players_skill_area_of_effect_+%_final] < "0" && [Rarity] == "Magic" # [RerollMods] == "true" // Of Impotence -- Players have % less Area of Effect 玩家有較少的範圍效果
+// [map_monsters_avoid_ailments_%] >= "1" && [Rarity] == "Magic" # [RerollMods] == "true" // Of Insulation -- Monsters have +% Chance to Avoid Status Elemental Ailments 怪物有+％機率避免狀態元素異常
+// [map_ground_lightning] >= "1" && [Rarity] == "Magic" # [RerollMods] == "true" // Of Lightning -- Area has patches of shocking ground 地圖裡有感電地面
+// [map_monsters_accuracy_rating_+%] >= "1" && [Rarity] == "Magic" # [RerollMods] == "true" // Of Miring -- Players Dodge chance in unlucky/Mobs have +% Accuracy 玩家在閃避時特別不幸
+// [map_players_block_chance_+%] < "0" && [Rarity] == "Magic" # [RerollMods] == "true" // Of Rust -- Players have -% Block Chance/ -% Less Armour 玩家減少格擋率
+// [map_player_life_and_es_recovery_speed_+%_final] < "0" && [Rarity] == "Magic" # [RerollMods] == "true" // Of Smothering -- Players Recover Life, Mana and Energy Shield % slower 玩家有較少生命和能量護盾回復速度
+
+
+
+// [map_player_has_level_X_temporal_chains] >= "1" && [Rarity] == "Magic" # [RerollMods] == "true" // Of Temporal Chains -- Players are cursed with Temporal Chains 玩家受到時空鎖鍊詛咒影響
+// [map_monsters_base_self_critical_strike_multiplier_-%] >= "1" && [Rarity] == "Magic" # [RerollMods] == "true" // Of Toughness -- Mobs take reduced Crit Damage 怪物暴擊加成
+// [map_player_has_level_X_vulnerability] >= "1" && [Rarity] == "Magic" # [RerollMods] == "true" // Of Vulnerability -- Players are cursed with Vulnerability 玩家受到脆弱詛咒
+
+
+// === 6 Map mods - ignore === 地圖詞綴忽略不打 預設 物反、元反、無回 不打
+
+// Ignore Map - (Select Map Rarity for each mod to ignore) 可以選擇藍圖 or 黃圖相關詞綴不打 Magic=藍圖 Rare=黃圖
+// Prefix 地圖前綴
+// [map_packs_are_abomination_monsters] >= "1" && [Rarity] == "Magic" # [IgnoreMap] == "true" // Abhorrent - Monsters are abominations 怪物有憎恨屬性
+// [map_packs_are_abomination_monsters] >= "1" && [Rarity] == "Rare" # [IgnoreMap] == "true" // Abhorrent - Monsters are abominations 怪物有憎恨屬性
+// [map_spawn_extra_exiles] >= "1" && [Rarity] == "Magic" # [IgnoreMap] == "true" // Anarchic -- 2+ Rogue Exiles 地圖裡有額外 # 個盜賊流亡者
+// [map_spawn_extra_exiles] >= "1" && [Rarity] == "Rare" # [IgnoreMap] == "true" // Anarchic -- 2+ Rogue Exiles 地圖裡有額外 # 個盜賊流亡者
+// [map_rare_monsters_have_nemesis_mod] >= "1" && [Rarity] == "Magic" # [IgnoreMap] == "true" // Antagonist's -- Nemesis Mod 稀有怪有復仇屬性
+// [map_rare_monsters_have_nemesis_mod] >= "1" && [Rarity] == "Rare" # [IgnoreMap] == "true" // Antagonist's -- Nemesis Mod 稀有怪有復仇屬性
+// [map_packs_are_humanoids] >= "1" && [Rarity] == "Magic" # [IgnoreMap] == "true" // Bipedal -- Humanoid Mobs 地圖裡有許多人型生物
+// [map_packs_are_humanoids] >= "1" && [Rarity] == "Rare" # [IgnoreMap] == "true" // Bipedal -- Humanoid Mobs 地圖裡有許多人型生物
+// [map_packs_are_goatmen] >= "1" && [Rarity] == "Magic" # [IgnoreMap] == "true" // Capricious -- Goatmen Mobs 地圖裡有許多羊男
+// [map_packs_are_goatmen] >= "1" && [Rarity] == "Rare" # [IgnoreMap] == "true" // Capricious -- Goatmen Mobs 地圖裡有許多羊男
+// [map_packs_are_totems] >= "1" && [Rarity] == "Magic" # [IgnoreMap] == "true" // Ceremonial -- Contains Totems 地圖裡有許多圖騰
+// [map_packs_are_totems] >= "1" && [Rarity] == "Rare" # [IgnoreMap] == "true" // Ceremonial -- Contains Totems 地圖裡有許多圖騰
+// [map_monster_skills_chain_X_additional_times] >= "1" && [Rarity] == "Magic" # [IgnoreMap] == "true" // Chaining -- Chain +2 Times 怪物的技能附加_#_次連鎖
+// [map_monster_skills_chain_X_additional_times] >= "1" && [Rarity] == "Rare" # [IgnoreMap] == "true" // Chaining -- Chain +2 Times 怪物的技能附加_#_次連鎖
+// [map_monsters_always_ignite] >= "1" && [Rarity] == "Magic" # [IgnoreMap] == "true" // Conflagrating -- All Monster Damage from Hits always Ignites 怪物傷害必定造成點燃
+// [map_monsters_always_ignite] >= "1" && [Rarity] == "Rare" # [IgnoreMap] == "true" // Conflagrating -- All Monster Damage from Hits always Ignites 怪物傷害必定造成點燃
+// [map_packs_are_demons] >= "1" && [Rarity] == "Magic" # [IgnoreMap] == "true" // Demonic -- Demon Mobs 地圖裡有許多惡魔
+// [map_packs_are_demons] >= "1" && [Rarity] == "Rare" # [IgnoreMap] == "true" // Demonic -- Demon Mobs 地圖裡有許多惡魔
+// [map_packs_fire_projectiles] >= "1" && [Rarity] == "Magic" # [IgnoreMap] == "true" // Emanant -- Nemesis Mod 地圖小怪都是Act4獸腹的怪物
+// [map_packs_fire_projectiles] >= "1" && [Rarity] == "Rare" # [IgnoreMap] == "true" // Emanant -- Nemesis Mod 地圖小怪都是Act4獸腹的怪物
+// [map_packs_are_kitava] >= "1" && [Rarity] == "Magic" # [IgnoreMap] == "true" // Feasting - not sure it works 區域內有許多奇塔弗的信徒
+// [map_packs_are_kitava] >= "1" && [Rarity] == "Rare" # [IgnoreMap] == "true" // Feasting - not sure it works 區域內有許多奇塔弗的信徒
+// [map_packs_are_animals] >= "1" && [Rarity] == "Magic" # [IgnoreMap] == "true" // Feral -- Animal Mobs 地圖裡有許多動物
+// [map_packs_are_animals] >= "1" && [Rarity] == "Rare" # [IgnoreMap] == "true" // Feral -- Animal Mobs 地圖裡有許多動物
+// [map_packs_are_ghosts] >= "1" && [Rarity] == "Magic" # [IgnoreMap] == "true" // Haunting - Ghosts 區域內有許多鬼魂
+// [map_packs_are_ghosts] >= "1" && [Rarity] == "Rare" # [IgnoreMap] == "true" // Haunting - Ghosts 區域內有許多鬼魂
+// [map_packs_are_lunaris] >= "1" && [Rarity] == "Magic" # [IgnoreMap] == "true" // Lunar - Lunaris mobs 區域內有許多月影神信徒
+// [map_packs_are_lunaris] >= "1" && [Rarity] == "Rare" # [IgnoreMap] == "true" // Lunar - Lunaris mobs 區域內有許多月影神信徒
+// [map_additional_number_of_packs_to_choose] >= "1" && [Rarity] == "Magic" # [IgnoreMap] == "true" // Multifarious -- Increased Variety Mobs 地圖裡的怪物種類被增加了
+// [map_additional_number_of_packs_to_choose] >= "1" && [Rarity] == "Rare" # [IgnoreMap] == "true" // Multifarious -- Increased Variety Mobs 地圖裡的怪物種類被增加了
+// [map_beyond_chance_%] >= "1" && [Rarity] == "Magic" # [IgnoreMap] == "true" // Otherworldly -- Beyond Spawned Mobs 擊殺群聚的敵人有機率吸引來自超越的怪物
+// [map_beyond_chance_%] >= "1" && [Rarity] == "Rare" # [IgnoreMap] == "true" // Otherworldly -- Beyond Spawned Mobs 擊殺群聚的敵人有機率吸引來自超越的怪物
+// [map_packs_are_skeletons] >= "1" && [Rarity] == "Magic" # [IgnoreMap] == "true" // Skeletal -- Skeleton Mobs 地圖裡有許多骷髏
+// [map_packs_are_skeletons] >= "1" && [Rarity] == "Rare" # [IgnoreMap] == "true" // Skeletal -- Skeleton Mobs 地圖裡有許多骷髏
+// [map_packs_are_sea_witches_and_spawn] >= "1" && [Rarity] == "Magic" # [IgnoreMap] == "true" // Slithering -- Sea Witches & Spawn Mobs 地圖裡有許多海巫和它的召喚物
+// [map_packs_are_sea_witches_and_spawn] >= "1" && [Rarity] == "Rare" # [IgnoreMap] == "true" // Slithering -- Sea Witches & Spawn Mobs 地圖裡有許多海巫和它的召喚物
+// [map_packs_are_solaris] >= "1" && [Rarity] == "Magic" # [IgnoreMap] == "true" // Solar -- Solaris mobs 區域內有許多日耀神信徒
+// [map_packs_are_solaris] >= "1" && [Rarity] == "Rare" # [IgnoreMap] == "true" // Solar -- Solaris mobs 區域內有許多日耀神信徒
+// [map_packs_fire_projectiles] >= "2" && [Rarity] == "Magic" # [IgnoreMap] == "true" // Splitting -- Monsters fire 2 additional Projectiles 怪物可發射多重投射物
+// [map_packs_fire_projectiles] >= "2" && [Rarity] == "Rare" # [IgnoreMap] == "true" // Splitting -- Monsters fire 2 additional Projectiles 怪物可發射多重投射物
+// [is_twinned_unique_boss] >= "1" && [Rarity] == "Magic" # [IgnoreMap] == "true" // Twinned -- 2X Unique Bosses 兩個傳奇頭目
+// [is_twinned_unique_boss] >= "1" && [Rarity] == "Rare" # [IgnoreMap] == "true" // Twinned -- 2X Unique Bosses 兩個傳奇頭目
+// [map_packs_are_undead_and_necromancers] >= "1" && [Rarity] == "Magic" # [IgnoreMap] == "true" // Undead -- Undead Mobs 地圖裡有亡靈
+// [map_packs_are_undead_and_necromancers] >= "1" && [Rarity] == "Rare" # [IgnoreMap] == "true" // Undead -- Undead Mobs 地圖裡有亡靈
+// [map_monsters_cannot_be_taunted] >= "1" && [Rarity] == "Magic" # [IgnoreMap] == "true" // Unstoppable -- Mobs cannot be slowed/taunted 怪物不能被減速/嘲諷
+// [map_monsters_cannot_be_taunted] >= "1" && [Rarity] == "Rare" # [IgnoreMap] == "true" // Unstoppable -- Mobs cannot be slowed/taunted 怪物不能被減速/嘲諷
+
+// Scaled/Tiered Prefix Mods -- Percentages/Values Increase with Map Tiers 地圖前綴 會隨地圖等級不同 而增加%數
+// [map_monsters_additional_physical_damage_reduction] >= "1" && [Rarity] == "Magic" # [IgnoreMap] == "true" // Armoured -- +% Monster Phys Dmg Reduction 增加怪物的物理減傷
+// [map_monsters_additional_physical_damage_reduction] >= "1" && [Rarity] == "Rare" # [IgnoreMap] == "true" // Armoured -- +% Monster Phys Dmg Reduction 增加怪物的物理減傷
+// [map_monsters_%_physical_damage_to_add_as_fire] >= "1" && [Rarity] == "Magic" # [IgnoreMap] == "true" // Burning -- Monsters Deal +% Extra Fire Dmg 怪物造成_%_額外火焰傷害
+// [map_monsters_%_physical_damage_to_add_as_fire] >= "1" && [Rarity] == "Rare" # [IgnoreMap] == "true" // Burning -- Monsters Deal +% Extra Fire Dmg 怪物造成_%_額外火焰傷害
+// [map_monsters_%_chance_to_inflict_status_ailments] >= "20" && [Rarity] == "Magic" # [IgnoreMap] == "true" // Empowered -- Mobs have % chance to cause status ailments 怪物擊中時有_%_機率造成元素異常狀態
+// [map_monsters_%_chance_to_inflict_status_ailments] >= "20" && [Rarity] == "Rare" # [IgnoreMap] == "true" // Empowered -- Mobs have % chance to cause status ailments 怪物擊中時有_%_機率造成元素異常狀態
+// [map_monsters_life_+%] >= "20" && [Rarity] == "Magic" # [IgnoreMap] == "true" // Fecund -- +% More Monsters Life 增加怪物生命
+// [map_monsters_life_+%] >= "20" && [Rarity] == "Rare" # [IgnoreMap] == "true" // Fecund -- +% More Monsters Life 增加怪物生命
+// [map_monsters_movement_speed_+%] >= "1" && [Rarity] == "Magic" # [IgnoreMap] == "true" // Fleet -- +% Increased Monster Movement/Attack/Cast Speed 增加怪物移動/攻擊/施放速度
+// [map_monsters_movement_speed_+%] >= "1" && [Rarity] == "Rare" # [IgnoreMap] == "true" // Fleet -- +% Increased Monster Movement/Attack/Cast Speed 增加怪物移動/攻擊/施放速度
+// [map_monsters_%_physical_damage_to_add_as_cold] >= "1" && [Rarity] == "Magic" # [IgnoreMap] == "true" // Freezing -- Monsters Deal +% Extra Cold Dmg 怪物造成_%_額外冰冷傷害
+// [map_monsters_%_physical_damage_to_add_as_cold] >= "1" && [Rarity] == "Rare" # [IgnoreMap] == "true" // Freezing -- Monsters Deal +% Extra Cold Dmg 怪物造成_%_額外冰冷傷害
+// [map_monsters_are_hexproof] >= "1" && [Rarity] == "Magic" # [IgnoreMap] == "true" // Hexproof -- Curse Immune 怪物對詛咒效果減少
+// [map_monsters_are_hexproof] >= "1" && [Rarity] == "Rare" # [IgnoreMap] == "true" // Hexproof -- Curse Immune 怪物對詛咒效果減少
+// [map_monsters_curse_effect_on_self_+%_final] < "0" && [Rarity] == "Magic" # [IgnoreMap] == "true" // Hexwarded -- Less effect of curses on mobs 怪物無法受到詛咒
+// [map_monsters_curse_effect_on_self_+%_final] < "0" && [Rarity] == "Rare" # [IgnoreMap] == "true" // Hexwarded -- Less effect of curses on mobs 怪物無法受到詛咒
+// [map_monsters_avoid_poison_blind_bleed_%] >= "1" && [Rarity] == "Magic" # [IgnoreMap] == "true" // Impervious -- Mobs have chance to avoid Poison/Blind/Bleed 怪物有機率避免中毒、致盲和流血
+// [map_monsters_avoid_poison_blind_bleed_%] >= "1" && [Rarity] == "Rare" # [IgnoreMap] == "true" // Impervious -- Mobs have chance to avoid Poison/Blind/Bleed 怪物有機率避免中毒、致盲和流血
+
+// [map_monsters_reflect_%_elemental_damage] >= "1" && [Rarity] == "Magic" # [IgnoreMap] == "true" // Mirrored -- Monsters Reflect % Elemental Damage 怪物反射_%_元素傷害
+// [map_monsters_reflect_%_elemental_damage] >= "1" && [Rarity] == "Rare" # [IgnoreMap] == "true" // Mirrored -- Monsters Reflect % Elemental Damage 怪物反射_%_元素傷害
+
+// [map_monsters_reflect_%_physical_damage] >= "1" && [Rarity] == "Magic" # [IgnoreMap] == "true" // Punishing -- Monsters Reflect % Physical Damage 怪物反射_%_物理傷害
+// [map_monsters_reflect_%_physical_damage] >= "1" && [Rarity] == "Rare" # [IgnoreMap] == "true" // Punishing -- Monsters Reflect % Physical Damage 怪物反射_%_物理傷害
+
+// [map_boss_attack_and_cast_speed_+%] >= "1" && [Rarity] == "Magic" # [IgnoreMap] == "true" // Overlord's -- Unique Boss Deals +% Dmg/ Has +% Attack & Cast Speed 傳奇頭目增加攻擊速度及施放速度
+// [map_boss_attack_and_cast_speed_+%] >= "1" && [Rarity] == "Rare" # [IgnoreMap] == "true" // Overlord's -- Unique Boss Deals +% Dmg/ Has +% Attack & Cast Speed 傳奇頭目增加攻擊速度及施放速度
+// [map_monsters_additional_chaos_resistance] >= "1" && [Rarity] == "Magic" # [IgnoreMap] == "true" // Resistant -- Mobs have Chaos/Ele Resistance 怪物的混沌抗性
+// [map_monsters_additional_chaos_resistance] >= "1" && [Rarity] == "Rare" # [IgnoreMap] == "true" // Resistant -- Mobs have Chaos/Ele Resistance 怪物的混沌抗性
+// [map_monsters_damage_+%] >= "1" && [Rarity] == "Magic" # [IgnoreMap] == "true" // Savage -- +% Monster Dmg 增加怪物傷害
+// [map_monsters_damage_+%] >= "1" && [Rarity] == "Rare" # [IgnoreMap] == "true" // Savage -- +% Monster Dmg 增加怪物傷害
+// [map_monsters_%_physical_damage_to_add_as_lightning] >= "1" && [Rarity] == "Magic" # [IgnoreMap] == "true" // Shocking -- Monsters Deal +% Extra Lightning Dmg 怪物造成_%_額外閃電傷害
+// [map_monsters_%_physical_damage_to_add_as_lightning] >= "1" && [Rarity] == "Rare" # [IgnoreMap] == "true" // Shocking -- Monsters Deal +% Extra Lightning Dmg 怪物造成_%_額外閃電傷害
+// [map_monsters_additional_number_of_projecitles] >= "1" && [Rarity] == "Magic" # [IgnoreMap] == "true" // Splitting -- Monsters Fire X Additional Projectiles 怪物增加元素投射物
+// [map_monsters_additional_number_of_projecitles] >= "1" && [Rarity] == "Rare" # [IgnoreMap] == "true" // Splitting -- Monsters Fire X Additional Projectiles 怪物增加元素投射物
+// [map_boss_damage_+%] >= "1" && [Rarity] == "Magic" # [IgnoreMap] == "true" // Titan's -- Unique Boss Has +% Life/ Area of Effect 傳奇頭目增加血量
+// [map_boss_damage_+%] >= "1" && [Rarity] == "Rare" # [IgnoreMap] == "true" // Titan's -- Unique Boss Has +% Life/ Area of Effect 傳奇頭目增加血量
+// [map_monsters_cannot_be_stunned] >= "1" && [Rarity] == "Magic" # [IgnoreMap] == "true" // Unwavering -- Monsters Cannot Be Stunned/ +% More Monster Life 怪物不會被暈眩 增加怪物血量
+// [map_monsters_cannot_be_stunned] >= "1" && [Rarity] == "Rare" # [IgnoreMap] == "true" // Unwavering -- Monsters Cannot Be Stunned/ +% More Monster Life 怪物不會被暈眩 增加怪物血量
+
+// Suffix 地圖後綴
+// [map_player_has_elemental_equilibrium_keystone] >= "1" && [Rarity] == "Magic" # [IgnoreMap] == "true" // Of Balance -- Player Has Elemental Equilibrium 玩家有元素之相
+// [map_player_has_elemental_equilibrium_keystone] >= "1" && [Rarity] == "Rare" # [IgnoreMap] == "true" // Of Balance -- Player Has Elemental Equilibrium 玩家有元素之相
+// [map_magic_pack_mod_rules] >= "1" && [Rarity] == "Magic" # [IgnoreMap] == "true" // Of Bloodlines -- More Magic Monsters/ Magic Monsters Have Bloodline Mod 更多的藍色怪物
+// [map_magic_pack_mod_rules] >= "1" && [Rarity] == "Rare" # [IgnoreMap] == "true" // Of Bloodlines -- More Magic Monsters/ Magic Monsters Have Bloodline Mod 更多的藍色怪物
+// [map_monsters_add_endurance_charge_on_hit_%] >= "1" && [Rarity] == "Magic" # [IgnoreMap] == "true" // Of Endurance -- Monsters Gain Endurance Charge on Hit 怪物擊中時獲得顆耐力球
+// [map_monsters_add_endurance_charge_on_hit_%] >= "1" && [Rarity] == "Rare" # [IgnoreMap] == "true" // Of Endurance -- Monsters Gain Endurance Charge on Hit 怪物擊中時獲得顆耐力球
+// [map_monsters_add_frenzy_charge_on_hit_%] >= "1" && [Rarity] == "Magic" # [IgnoreMap] == "true" // Of Frenzy -- Monsters Gain Frenzy Charge on Hit 怪物擊中時獲得狂怒球
+// [map_monsters_add_frenzy_charge_on_hit_%] >= "1" && [Rarity] == "Rare" # [IgnoreMap] == "true" // Of Frenzy -- Monsters Gain Frenzy Charge on Hit 怪物擊中時獲得狂怒球
+// [map_monsters_add_power_charge_on_hit_%] >= "1" && [Rarity] == "Magic" # [IgnoreMap] == "true" // Of Power -- Monsters Gain Power Charge on Hit 怪物暴擊獲得暴擊球
+// [map_monsters_add_power_charge_on_hit_%] >= "1" && [Rarity] == "Rare" # [IgnoreMap] == "true" // Of Power -- Monsters Gain Power Charge on Hit 怪物暴擊獲得暴擊球
+// [map_players_have_point_blank] >= "1" && [Rarity] == "Magic" # [IgnoreMap] == "true" // Of Skirmishing -- Players have Point Blank 玩家有零點射擊
+// [map_players_have_point_blank] >= "1" && [Rarity] == "Rare" # [IgnoreMap] == "true" // Of Skirmishing -- Players have Point Blank 玩家有零點射擊
+// [map_monsters_poison_on_hit] >= "1" && [Rarity] == "Magic" # [IgnoreMap] == "true" // Of Venom -- Monsters Poison on Hit 被怪物擊中時中毒
+// [map_monsters_poison_on_hit] >= "1" && [Rarity] == "Rare" # [IgnoreMap] == "true" // Of Venom -- Monsters Poison on Hit 被怪物擊中時中毒
+
+// Scaled/Tiered Suffix Mods -- Percentages/Values Increase with Map Tiers 地圖後綴 會隨地圖等級不同 而增加%數
+// [map_monsters_life_leech_resistance_%] >= "1" && [Rarity] == "Magic" # [IgnoreMap] == "true" // Of Congealment -- Cannot Leech Life/Mana From Monsters 無法從怪物身上偷取生命/法力
+// [map_monsters_life_leech_resistance_%] >= "1" && [Rarity] == "Rare" # [IgnoreMap] == "true" // Of Congealment -- Cannot Leech Life/Mana From Monsters 無法從怪物身上偷取生命/法力
+// [map_monsters_critical_strike_chance_+%] >= "1" && [Rarity] == "Magic" # [IgnoreMap] == "true" // Of Deadliness -- Monsters have +% Crit Chance/ +% Crit Multiplier 怪物增加暴擊率
+// [map_monsters_critical_strike_chance_+%] >= "1" && [Rarity] == "Rare" # [IgnoreMap] == "true" // Of Deadliness -- Monsters have +% Crit Chance/ +% Crit Multiplier 怪物增加暴擊率
+// [map_base_ground_desecration_damage_to_deal_per_minute] >= "1" && [Rarity] == "Magic" # [IgnoreMap] == "true" // Of Desecration -- Area Has Patches of Desecrated Ground 地圖裡有汙染地面
+// [map_base_ground_desecration_damage_to_deal_per_minute] >= "1" && [Rarity] == "Rare" # [IgnoreMap] == "true" // Of Desecration -- Area Has Patches of Desecrated Ground 地圖裡有汙染地面
+// [map_player_charges_gained_+%] < "0" && [Rarity] == "Magic" # [IgnoreMap] == "true" // Of Drought - Players gain reduced Flask Charges 玩家的藥劑充能獲取減少
+// [map_player_charges_gained_+%] < "0" && [Rarity] == "Rare" # [IgnoreMap] == "true" // Of Drought - Players gain reduced Flask Charges 玩家的藥劑充能獲取減少
+// [map_player_has_level_X_elemental_weakness] >= "1" && [Rarity] == "Magic" # [IgnoreMap] == "true" // Of Elemental Weakness -- Players are cursed with Elemental Weakness 玩家受到元素要害詛咒影響
+// [map_player_has_level_X_elemental_weakness] >= "1" && [Rarity] == "Rare" # [IgnoreMap] == "true" // Of Elemental Weakness -- Players are cursed with Elemental Weakness 玩家受到元素要害詛咒影響
+// [map_player_has_level_X_enfeeble] >= "1" && [Rarity] == "Magic" # [IgnoreMap] == "true" // Of Enfeeblement -- Players are cursed with Enfeeble 玩家受到衰弱詛咒影響
+// [map_player_has_level_X_enfeeble] >= "1" && [Rarity] == "Rare" # [IgnoreMap] == "true" // Of Enfeeblement -- Players are cursed with Enfeeble 玩家受到衰弱詛咒影響
+// [map_additional_player_maximum_resistances_%] < "0" && [Rarity] == "Magic" # [IgnoreMap] == "true" // Of Exposure -- (-X to -X)% maximum Player Resistances 玩家–#%最大抗性
+// [map_additional_player_maximum_resistances_%] < "0" && [Rarity] == "Rare" # [IgnoreMap] == "true" // Of Exposure -- (-X to -X)% maximum Player Resistances 玩家–#%最大抗性
+// [map_base_ground_fire_damage_to_deal_per_minute] >= "1" && [Rarity] == "Magic" # [IgnoreMap] == "true" // Of Flames -- Area has patches of burning ground 地圖裡有燃燒地面
+// [map_base_ground_fire_damage_to_deal_per_minute] >= "1" && [Rarity] == "Rare" # [IgnoreMap] == "true" // Of Flames -- Area has patches of burning ground 地圖裡有燃燒地面
+// [map_monsters_area_of_effect_+%] >= "1" && [Rarity] == "Magic" # [IgnoreMap] == "true" // Of Giants -- Monsters have % increased Area of Effect 怪物增加範圍效果
+// [map_monsters_area_of_effect_+%] >= "1" && [Rarity] == "Rare" # [IgnoreMap] == "true" // Of Giants -- Monsters have % increased Area of Effect 怪物增加範圍效果
+// [map_ground_ice] >= "1" && [Rarity] == "Magic" # [IgnoreMap] == "true" // Of Ice -- Area has patches of chilled ground 地圖裡有冰緩地面
+// [map_ground_ice] >= "1" && [Rarity] == "Rare" # [IgnoreMap] == "true" // Of Ice -- Area has patches of chilled ground 地圖裡有冰緩地面
+// [map_players_skill_area_of_effect_+%_final] < "0" && [Rarity] == "Magic" # [IgnoreMap] == "true" // Of Impotence -- Players have % less Area of Effect 玩家有較少的範圍效果
+// [map_players_skill_area_of_effect_+%_final] < "0" && [Rarity] == "Rare" # [IgnoreMap] == "true" // Of Impotence -- Players have % less Area of Effect 玩家有較少的範圍效果
+// [map_monsters_avoid_ailments_%] >= "1" && [Rarity] == "Magic" # [IgnoreMap] == "true" // Of Insulation -- Monsters have +% Chance to Avoid Status Elemental Ailments 怪物有+％機率避免狀態元素異常
+// [map_monsters_avoid_ailments_%] >= "1" && [Rarity] == "Rare" # [IgnoreMap] == "true" // Of Insulation -- Monsters have +% Chance to Avoid Status Elemental Ailments 怪物有+％機率避免狀態元素異常
+// [map_ground_lightning] >= "1" && [Rarity] == "Magic" # [IgnoreMap] == "true" // Of Lightning -- Area has patches of shocking ground 地圖裡有感電地面
+// [map_ground_lightning] >= "1" && [Rarity] == "Rare" # [IgnoreMap] == "true" // Of Lightning -- Area has patches of shocking ground 地圖裡有感電地面
+// [map_player_life_and_es_recovery_speed_+%_final] < "0" && [Rarity] == "Magic" # [IgnoreMap] == "true" // Of Smothering -- Players Recover Life, Mana and Energy Shield % slower 玩家有較少生命和能量護盾回復速度
+// [map_player_life_and_es_recovery_speed_+%_final] < "0" && [Rarity] == "Rare" # [IgnoreMap] == "true" // Of Smothering -- Players Recover Life, Mana and Energy Shield % slower 玩家有較少生命和能量護盾回復速度
+// [map_monsters_accuracy_rating_+%] >= "1" && [Rarity] == "Magic" # [IgnoreMap] == "true" // Of Miring -- Players Dodge chance in unlucky/Mobs have +% Accuracy 玩家在閃避時特別不幸
+// [map_monsters_accuracy_rating_+%] >= "1" && [Rarity] == "Rare" # [IgnoreMap] == "true" // Of Miring -- Players Dodge chance in unlucky/Mobs have +% Accuracy 玩家在閃避時特別不幸
+// [map_players_block_chance_+%] < "0" && [Rarity] == "Magic" # [IgnoreMap] == "true" // Of Rust -- Players have -% Block Chance/ -% Less Armour 玩家減少格擋率
+// [map_players_block_chance_+%] < "0" && [Rarity] == "Rare" # [IgnoreMap] == "true" // Of Rust -- Players have -% Block Chance/ -% Less Armour 玩家減少格擋率
+
+//[map_players_no_regeneration_including_es] >= "1" && [Rarity] == "Magic" # [IgnoreMap] == "true" // Of Statis -- Players have no Life or Mana Regeneration 玩家無法回復生命、魔力和能量護盾
+//[map_players_no_regeneration_including_es] >= "1" && [Rarity] == "Rare" # [IgnoreMap] == "true" // Of Statis -- Players have no Life or Mana Regeneration 玩家無法回復生命、魔力和能量護盾
+
+
+
+// [map_player_has_level_X_temporal_chains] >= "1" && [Rarity] == "Magic" # [IgnoreMap] == "true" // Of Temporal Chains -- Players are cursed with Temporal Chains 玩家受到時空鎖鍊詛咒影響
+// [map_player_has_level_X_temporal_chains] >= "1" && [Rarity] == "Rare" # [IgnoreMap] == "true" // Of Temporal Chains -- Players are cursed with Temporal Chains 玩家受到時空鎖鍊詛咒影響
+// [map_monsters_base_self_critical_strike_multiplier_-%] >= "1" && [Rarity] == "Magic" # [IgnoreMap] == "true" // Of Toughness -- Mobs take reduced Crit Damage 怪物暴擊加成
+// [map_monsters_base_self_critical_strike_multiplier_-%] >= "1" && [Rarity] == "Rare" # [IgnoreMap] == "true" // Of Toughness -- Mobs take reduced Crit Damage 怪物暴擊加成
+
+//
+
+// === 7 Original intro === 最初設定簡介
+// ====================================
+// Welcome to the map runner configuration file. Syntax is the same as in Pickit/default.ipd.  歡迎使用地圖運行規則設定文件。 語法與Pickit / default.ipd中的相同。
+// Keys available: [RunMap], [IgnoreMap], [MapTier], [UpgradeQuality], [UpgradeToMagic], [UpgradeToRare], [RerollMods], [UpgradeMapTier], [SkipBossArena]. 可以使用的相關語法
+// Please note that [IgnoreMap] has higher priority than other keys. 請注意，[IgnoreMap]的優先度高於其他規則。
+// Please note that [SkipBossArena] needs bot to open map for it to work, if you open it and then start the bot it won't work. 請注意，[SkipBossArena]需要機器人打開地圖才能正常工作，如果先打開地圖然後啟動機器人，它將無法正常工作。
+// Whenever you use the "less than" symbol (<) for MapTier, you'll need to add [MapTier] >= "66" (could be more than 66 but never less). This is to avoid bug, sry about that. 每當對MapTier使用“小於”符號（<）時，都需要添加[MapTier]> =“ 66”（可以大於66，但絕不能少於）。 這是為了避免錯誤。 這應該是舊語法 不予理會 現行版本用t=1~16進行設定
+// Map upgrading will only be made on a map that has been selected by the bot to farm. 地圖升級動作僅在EB bot設定運行的地圖上執行
+// All the map mods can be found in ModsList.html file. 所有地圖mod都可以在ModsList.html文件中找到。
+// Big thanks to jps42 for updating and improving this file. 非常感謝jps42更新和改進了此文件。
+// Example: Run rare maps level less than 3 範例：運行稀有地圖階級小於3
+// [MapTier] >= "1" && [MapTier] < "3" && [Rarity] == "Rare" # [RunMap] == "true" 這是上述的語法範例
+// ====================================
+
+
+// === 8 PS ===
+// Priority list of actions is: [UpgradeMapTier](3) >> [IgnoreMap] >> [UpgradeToRare] >> [UpgradeToMagic] >> [RunMap] 語法優先級列表為：[UpgradeMapTier]（3）>> [IgnoreMap] >> [UpgradeToRare] >> [UpgradeToMagic] >> [RunMap]
+// If you enabled UpgradeMapTier and RunMap simultaneously for a map, the bot will run that map 如果您同時為地圖啟用了UpgradeMapTier和RunMap，EB bot將運行該地圖
+// 
+// ver. for 3.13, updated by Impuls. 版本。 適用於3.13，由Impuls更新。
+
+// All the map mods can be found in ModsList.html file. //所有地圖mod都可以在ModsList.html文件中找到。
