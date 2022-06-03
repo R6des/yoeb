@@ -1276,7 +1276,7 @@
 	[Type] == "Riveted Boots" && [Rarity] == "Unique" # [ForceSellItem] == "true" // Ralakesh's Impatience				//儀式短靴	拾取且售出																						
 	[Type] == "Soldier Boots" && [Rarity] == "Unique" # [base_number_of_skeletons_allowed] >= "1" && [ForceSellItem] == "true" // Alberon's Warpath				//阿爾貝隆的征途 戰士之靴	拾取且售出																						
 	[Type] == "Two-Toned Boots" && [Rarity] == "Unique" # [immune_to_elemental_status_ailments_while_affected_by_glorious_madness] >= "1" && [ForceSellItem] == "true" // Beacon of Madness Fire/Lightning res, Ele conflux/Ele Ailment Immunity				//異色鞋	拾取且售出																						
-	[Type]== "Moonstone Ring" && [Rarity] == "Unique" # [ForceSellItem] == "true" // Heartbound Loop / Shavronne's Revelation / Timeclasp / Timetwist / Valyrium				//戰日 月光石戒指	拾取且售出																						
+	[Type]== "Moonstone Ring" && [Rarity] == "Unique" # [StashItem] == "true" // Heartbound Loop / Shavronne's Revelation / Timeclasp / Timetwist / Valyrium				//戰日 月光石戒指	拾取且售出																						
 	[Type]== "Opal Ring" && [Rarity] == "Unique" # [ForceSellItem] == "true" // Mark of the Shaper / Stormfire				//烈風暴 蛋白石戒指	拾取且售出																						
 	[Type]== "Paua Ring" && [Rarity] == "Unique" # [ForceSellItem] == "true" // Doedre's Damning / Fated End / Perandus Signet / Praxis				//普拉克斯 海靈戒指	拾取且售出																						
 	[Type]== "Prismatic Ring" && [Rarity] == "Unique" # [ForceSellItem] == "true" // Lori's Lantern / Precursor's Emblem / The Taming / Thief's Torment				//竊罪 三相戒指	拾取且售出																						
