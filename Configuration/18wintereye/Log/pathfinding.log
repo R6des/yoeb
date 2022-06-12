@@ -1,6 +1,0 @@
-2022-06-03 16:35:40 [pathfinding] -> Total runtime: 15 minutes
-2022-06-03 16:35:40 [pathfinding] -> Computing A* path from P(104, 304)->Pos(113, 280)
-2022-06-03 16:35:40 [pathfinding] -> A* from P(104, 304)->Pos(113, 280) took: 0 ms, cost: 27.690001
-2022-06-03 16:35:40 [pathfinding] -> MoveToEntity call, priority: 9, pathsize: 25
-2022-06-03 16:35:40 [pathfinding] -> Reached destination: Position: 0, 24, Path size: 25.
-2022-06-03 16:35:40 [pathfinding] -> LoadStashTab call pathsize: 0
