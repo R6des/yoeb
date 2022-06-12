@@ -1,6 +1,6 @@
 ﻿# Script edited with Filtration - https://github.com/ben-wallis/Filtration
 # EnableBlockGroups
-
+#
 #============
 # 【===總目錄===】
 # 【特殊語法】0000
@@ -1881,7 +1881,7 @@ Show # 聯盟 - 3.8凋落 - 漆黑/乳白/純銀/金黃/汙染油瓶
 
 # 【聯盟-3.7戰亂】3015
 
-Show # 聯盟 - 3.7戰亂 - 培育器 - 低階培育器(先祖/附魔/尊師/探險/深淵/低語)
+Hide # 聯盟 - 3.7戰亂 - 培育器 - 低階培育器(先祖/附魔/尊師/探險/深淵/低語)
     Class "Incubator"
     BaseType "Primal Incubator" "Enchanted Incubator" "Eldritch Incubator" "Kalguuran Incubator" "Abyssal Incubator" "Whispering Incubator"
     SetTextColor 0 0 0
@@ -1889,7 +1889,7 @@ Show # 聯盟 - 3.7戰亂 - 培育器 - 低階培育器(先祖/附魔/尊師/探
     SetBorderColor 0 0 0
     SetFontSize 45
 
-Show # 聯盟 - 3.7戰亂 - 培育器 - 中階培育器(飛掠/卓越/超凡/朦朧/神秘/注能/寶石匠/化石/諭示/製圖/命運/眾星/凋落/鍊魔/譫妄)
+Hide # 聯盟 - 3.7戰亂 - 培育器 - 中階培育器(飛掠/卓越/超凡/朦朧/神秘/注能/寶石匠/化石/諭示/製圖/命運/眾星/凋落/鍊魔/譫妄)
     Class "Incubator"
     BaseType "Skittering Incubator" "Singular Incubator" "Otherworldly Incubator" "Obscured Incubator" "Mysterious Incubator" "Infused Incubator" "Gemcutter's Incubator" "Fragmented Incubator" "Fossilised Incubator" "Foreboding Incubator" "Cartographer's Incubator" "Celestial Armoursmith's Incubator" "Celestial Blacksmith's Incubator" "Diviner's Incubator" "Celestial Jeweller's Incubator" "Blighted Incubator" "Morphing Incubator" "Maddening Incubator"
     SetTextColor 0 0 0
@@ -1899,7 +1899,7 @@ Show # 聯盟 - 3.7戰亂 - 培育器 - 中階培育器(飛掠/卓越/超凡/朦
     PlayAlertSound 2 300
     MinimapIcon 0 Yellow Star
 
-Show # 聯盟 - 3.7戰亂 - 培育器 - 高階培育器(時間遺忘/幻術師/華麗/占卜/精緻)
+Hide # 聯盟 - 3.7戰亂 - 培育器 - 高階培育器(時間遺忘/幻術師/華麗/占卜/精緻)
     Class "Incubator"
     BaseType "Time-Lost Incubator" "Thaumaturge's Incubator" "Ornate Incubator" "Geomancer's Incubator" "Fine Incubator"
     SetTextColor 0 0 0
@@ -4057,178 +4057,178 @@ Hide # 藥劑 - 複合藥劑 - 高階(聖語/祝福)
 
 # 【裝備-高T詞綴裝備】
 
-Show # 裝備 - 高T詞綴裝備 - 魔法 - 單物傷詞綴
-	  Corrupted False
-	  Rarity = Magic
+Hide # 裝備 - 高T詞綴裝備 - 魔法 - 單物傷詞綴
+    Corrupted False
+    Rarity = Magic
     HasExplicitMod "Merciless"
-	  SetBorderColor 180 255 0
-	  SetFontSize 43
-    PlayAlertSound 9 300
-    MinimapIcon 2 Blue Hexagon
-    PlayEffect Blue
-
-Show # 裝備 - 高T詞綴裝備 - 魔法 - 雙物理詞綴
-	  Corrupted False
-	  Rarity = Magic
-	  Class "Dagger" "Wands" "Claws" "One Hand" "Bow"
-	  HasExplicitMod "Merciless" "Dictator's" "Flaring" "Tyrannical" "Emperor's" "Tempered" "Cremating" "Entombing" "Electrocuting" "Malicious"
-    HasExplicitMod "of Incision" "of Destruction" "of Celebration" "of Renown" "of Penetrating" "of Ferocity"
-	  SetBorderColor 180 255 0
-	  SetFontSize 43
-    PlayAlertSound 9 300
-    MinimapIcon 2 Blue Hexagon
-    PlayEffect Blue  
-
-Show # 裝備 - 高T詞綴裝備 - 魔法 - 單法傷詞綴
-	  Corrupted False
-	  Rarity = Magic  
-    Class "Dagger" "Wands" "Sceptres"
-	  HasExplicitMod "Runic" "Xoph's" "Tul's" "Esh's"
     SetBorderColor 180 255 0
     SetFontSize 43
     PlayAlertSound 9 300
     MinimapIcon 2 Blue Hexagon
     PlayEffect Blue
 
-Show # 裝備 - 高T詞綴裝備 - 魔法 - 雙法傷詞綴
-	  Corrupted False
-	  Rarity = Magic  
-    Class "Dagger" "Wands" "Sceptres"
-	  HasExplicitMod "Glyphic" "Runic" "Xoph's" "Tul's" "Esh's" "Lich's" "Electrocuting" "Entombing" "Cremating"
-	  HasExplicitMod "of Ashes" "of Glaciation" "of Arcing" "of Unmaking" "of Ruin" "of Incision" "of Finesse" "of Sortilege" "of Destruction" "of Ferocity"
-	  SetBorderColor 180 255 0
-	  SetFontSize 42
-    PlayAlertSound 9 300
-    MinimapIcon 2 Blue Hexagon
-    PlayEffect Blue      
-
-Show # 裝備 - 高T詞綴裝備 - 魔法 - 頭盔1
-	  Corrupted False
+Hide # 裝備 - 高T詞綴裝備 - 魔法 - 雙物理詞綴
+    Corrupted False
     Rarity = Magic
-    Class "Helmets"
-    HasExplicitMod "Necromancer's"
-	  SetBorderColor 180 255 0
-	  SetFontSize 42
+    Class "Dagger" "Wands" "Claws" "One Hand" "Bow"
+    HasExplicitMod "Merciless" "Dictator's" "Flaring" "Tyrannical" "Emperor's" "Tempered" "Cremating" "Entombing" "Electrocuting" "Malicious"
+    HasExplicitMod "of Incision" "of Destruction" "of Celebration" "of Renown" "of Penetrating" "of Ferocity"
+    SetBorderColor 180 255 0
+    SetFontSize 43
     PlayAlertSound 9 300
     MinimapIcon 2 Blue Hexagon
     PlayEffect Blue
 
-Show # 裝備 - 高T詞綴裝備 - 魔法 - 頭盔2
-	  Corrupted False
+Hide # 裝備 - 高T詞綴裝備 - 魔法 - 單法傷詞綴
+    Corrupted False
+    Rarity = Magic
+    Class "Dagger" "Wands" "Sceptres"
+    HasExplicitMod "Runic" "Xoph's" "Tul's" "Esh's"
+    SetBorderColor 180 255 0
+    SetFontSize 43
+    PlayAlertSound 9 300
+    MinimapIcon 2 Blue Hexagon
+    PlayEffect Blue
+
+Hide # 裝備 - 高T詞綴裝備 - 魔法 - 雙法傷詞綴
+    Corrupted False
+    Rarity = Magic
+    Class "Dagger" "Wands" "Sceptres"
+    HasExplicitMod "Glyphic" "Runic" "Xoph's" "Tul's" "Esh's" "Lich's" "Electrocuting" "Entombing" "Cremating"
+    HasExplicitMod "of Ashes" "of Glaciation" "of Arcing" "of Unmaking" "of Ruin" "of Incision" "of Finesse" "of Sortilege" "of Destruction" "of Ferocity"
+    SetBorderColor 180 255 0
+    SetFontSize 42
+    PlayAlertSound 9 300
+    MinimapIcon 2 Blue Hexagon
+    PlayEffect Blue
+
+Hide # 裝備 - 高T詞綴裝備 - 魔法 - 頭盔1
+    Corrupted False
+    Rarity = Magic
+    Class "Helmets"
+    HasExplicitMod "Necromancer's"
+    SetBorderColor 180 255 0
+    SetFontSize 42
+    PlayAlertSound 9 300
+    MinimapIcon 2 Blue Hexagon
+    PlayEffect Blue
+
+Hide # 裝備 - 高T詞綴裝備 - 魔法 - 頭盔2
+    Corrupted False
     Rarity = Magic
     Class "Helmets"
     HasExplicitMod "Fecund" "Blazing" "Unassailable"
     HasExplicitMod "of the Magma" "of Tzteosh" "of the Ice" "of Haast" "of the Lightning" "of Ephij" "of Lioneye"
-	  SetBorderColor 180 255 0
-	  SetFontSize 42
+    SetBorderColor 180 255 0
+    SetFontSize 42
     PlayAlertSound 9 300
     MinimapIcon 2 Blue Hexagon
-    PlayEffect Blue   
+    PlayEffect Blue
 
-Show # 裝備 - 高T詞綴裝備 - 魔法 - 手套1
-	  Corrupted False
+Hide # 裝備 - 高T詞綴裝備 - 魔法 - 手套1
+    Corrupted False
     Rarity = Magic
     Class "Gloves"
     HasExplicitMod "Athlete's" "Seething" "Unassailable"
-	  HasExplicitMod "of the Magma" "of Tzteosh" "of the Ice" "of Haast" "of the Lightning" "of Ephij" "of Grandmastery" "of Lioneye" "of the Assassin" 
-	  SetBorderColor 180 255 0
-	  SetFontSize 42
+    HasExplicitMod "of the Magma" "of Tzteosh" "of the Ice" "of Haast" "of the Lightning" "of Ephij" "of Grandmastery" "of Lioneye" "of the Assassin"
+    SetBorderColor 180 255 0
+    SetFontSize 42
     PlayAlertSound 9 300
     MinimapIcon 2 Blue Hexagon
-    PlayEffect Blue           
+    PlayEffect Blue
 
-Show # 裝備 - 高T詞綴裝備 - 魔法 - 鞋子
-	  Corrupted False
+Hide # 裝備 - 高T詞綴裝備 - 魔法 - 鞋子
+    Corrupted False
     Rarity = Magic
     Class "Boots"
     HasExplicitMod "Athlete's" "Virile" "Seething" "Unassailable" "Hellion's" "Cheetah's"
-	  HasExplicitMod "of the Magma" "of Tzteosh" "of the Ice" "of Haast" "of the Lightning" "of Ephij" 
-	  SetBorderColor 180 255 0
-	  SetFontSize 42
+    HasExplicitMod "of the Magma" "of Tzteosh" "of the Ice" "of Haast" "of the Lightning" "of Ephij"
+    SetBorderColor 180 255 0
+    SetFontSize 42
     PlayAlertSound 9 300
     MinimapIcon 2 Blue Hexagon
-    PlayEffect Blue 
+    PlayEffect Blue
 
-Show # 裝備 - 高T詞綴裝備 - 魔法 - 衣服
-	  Corrupted False
+Hide # 裝備 - 高T詞綴裝備 - 魔法 - 衣服
+    Corrupted False
     Rarity = Magic
     Class "Body Armours"
     HasExplicitMod "Prime" "Resplendent" "Resplendent" "Unfaltering"
-	  HasExplicitMod "of the Magma" "of Tzteosh" "of the Ice" "of Haast" "of the Lightning" "of Ephij" 
-	  SetBorderColor 180 255 0
-	  SetFontSize 42
+    HasExplicitMod "of the Magma" "of Tzteosh" "of the Ice" "of Haast" "of the Lightning" "of Ephij"
+    SetBorderColor 180 255 0
+    SetFontSize 42
     PlayAlertSound 9 300
     MinimapIcon 2 Blue Hexagon
     PlayEffect Blue
 
-Show # 裝備 - 高T詞綴裝備 - 魔法 - 盾牌
-	  Corrupted False
+Hide # 裝備 - 高T詞綴裝備 - 魔法 - 盾牌
+    Corrupted False
     Rarity = Magic
     Class "Shields"
     HasExplicitMod "Vigorous" "Incandescent" "Unfaltering" "Runic" "Xoph's" "Tul's" "Esh's"
-	  HasExplicitMod "of the Magma" "of Tzteosh" "of the Ice" "of Haast" "of the Lightning" "of Ephij" "of the Span" "of Unmaking" "of Expertise"
-	  SetBorderColor 180 255 0
-	  SetFontSize 42
+    HasExplicitMod "of the Magma" "of Tzteosh" "of the Ice" "of Haast" "of the Lightning" "of Ephij" "of the Span" "of Unmaking" "of Expertise"
+    SetBorderColor 180 255 0
+    SetFontSize 42
     PlayAlertSound 9 300
     MinimapIcon 2 Blue Hexagon
     PlayEffect Blue
 
-Show # 裝備 - 高T詞綴裝備 - 魔法 - 箭袋
-	  Corrupted False
-	  Rarity = Magic
+Hide # 裝備 - 高T詞綴裝備 - 魔法 - 箭袋
+    Corrupted False
+    Rarity = Magic
     Class "Quivers"
     BaseType "Penetrating Arrow Quiver" "Spike-Point Arrow Quiver" "Broadhead Arrow Quiver"
     HasExplicitMod "Fecund" "Overpowering" "Devastating" "of Destruction"
-	  HasExplicitMod "of Ease" "of Rending" 
-	  SetBorderColor 180 255 0
-	  SetFontSize 42
+    HasExplicitMod "of Ease" "of Rending"
+    SetBorderColor 180 255 0
+    SetFontSize 42
     PlayAlertSound 9 300
     MinimapIcon 2 Blue Hexagon
     PlayEffect Blue
 
-Show # 裝備 - 高T詞綴裝備 - 魔法 - 項鍊
-	  Corrupted False
-	  Rarity = Magic
+Hide # 裝備 - 高T詞綴裝備 - 魔法 - 項鍊
+    Corrupted False
+    Rarity = Magic
     Class "Amulets"
     HasExplicitMod "Athlete's" "Virile" "Dazzling" "Flaring" "Cremating" "Entombing" "Electrocuting" "Unassailable" "Wizard's" "Devastating"
-	  HasExplicitMod "of Expertise" "of the Assassin" "of Incision" "of Tzteosh" "of Haast" "of Ephij" "of the Rainbow" "of the Span" "of Destruction" "of Immolation" "of Floe" "of Discharge" "of the Gods" "of the Wind" "of the Genius" "of the Multiverse"   
-	  SetBorderColor 180 255 0
-	  SetFontSize 42
+    HasExplicitMod "of Expertise" "of the Assassin" "of Incision" "of Tzteosh" "of Haast" "of Ephij" "of the Rainbow" "of the Span" "of Destruction" "of Immolation" "of Floe" "of Discharge" "of the Gods" "of the Wind" "of the Genius" "of the Multiverse"
+    SetBorderColor 180 255 0
+    SetFontSize 42
     PlayAlertSound 9 300
     MinimapIcon 2 Blue Hexagon
     PlayEffect Blue
 
-Show # 裝備 - 高T詞綴裝備 - 魔法 - 戒指
-	  Corrupted False
-	  Rarity = Magic
+Hide # 裝備 - 高T詞綴裝備 - 魔法 - 戒指
+    Corrupted False
+    Rarity = Magic
     Class "Rings"
-    HasExplicitMod "Rotund" "Virile" "Resplendent" "Annealed" "Cremating" "Entombing" "Electrocuting" "Overpowering" "Flawless"   
-	  HasExplicitMod "of the Gods" "of the Wind" "of the Genius" "of the Comet" "of Talent" "of Skill" "of the Assassin" "of Incision" "of Tzteosh" "of Haast" "of Ephij" "of the Rainbow" "of Flames" "of Rime" "of Voltage"      
-	  SetBorderColor 180 255 0
-	  SetFontSize 42
+    HasExplicitMod "Rotund" "Virile" "Resplendent" "Annealed" "Cremating" "Entombing" "Electrocuting" "Overpowering" "Flawless"
+    HasExplicitMod "of the Gods" "of the Wind" "of the Genius" "of the Comet" "of Talent" "of Skill" "of the Assassin" "of Incision" "of Tzteosh" "of Haast" "of Ephij" "of the Rainbow" "of Flames" "of Rime" "of Voltage"
+    SetBorderColor 180 255 0
+    SetFontSize 42
     PlayAlertSound 9 300
     MinimapIcon 2 Blue Hexagon
     PlayEffect Blue
 
-Show # 裝備 - 高T詞綴裝備 - 魔法 - 腰帶
-	  Corrupted False
-	  Rarity = Magic
+Hide # 裝備 - 高T詞綴裝備 - 魔法 - 腰帶
+    Corrupted False
+    Rarity = Magic
     Class "Belts"
-    HasExplicitMod "Fecund" "Dazzling" "Enveloped" "Overpowering" "Devastating"  
-	  HasExplicitMod "of Tzteosh" "of Haast" "of Ephij" "of the Gods" "of the Godslayer" "of Overflowing" "of Sipping" "of Savouring"    
-	  SetBorderColor 180 255 0
-	  SetFontSize 42
+    HasExplicitMod "Fecund" "Dazzling" "Enveloped" "Overpowering" "Devastating"
+    HasExplicitMod "of Tzteosh" "of Haast" "of Ephij" "of the Gods" "of the Godslayer" "of Overflowing" "of Sipping" "of Savouring"
+    SetBorderColor 180 255 0
+    SetFontSize 42
     PlayAlertSound 9 300
     MinimapIcon 2 Blue Hexagon
     PlayEffect Blue
 
-Show # 裝備 - 高T詞綴裝備 - 魔法 - 珠寶
-	  Corrupted False
-	  Rarity = Magic
+Hide # 裝備 - 高T詞綴裝備 - 魔法 - 珠寶
+    Corrupted False
+    Rarity = Magic
     Class "Jewel"
-    HasExplicitMod "Vivid" "Shimmering"  
-	  SetBorderColor 180 255 0
-	  SetFontSize 42
+    HasExplicitMod "Vivid" "Shimmering"
+    SetBorderColor 180 255 0
+    SetFontSize 42
     PlayAlertSound 9 300
     PlayEffect Blue Temp
 
@@ -4429,49 +4429,49 @@ Hide # 裝備 - 高T詞綴裝備 - 稀有 - 頭盔
 
 # 【裝備-特殊裝備】
 
-Show # 裝備 - 特殊裝備 - 5L物品
+Hide # 裝備 - 特殊裝備 - 5L物品
     LinkedSockets = 5
-    SetBackgroundColor 0 0 0 240
+    SetBackgroundColor 0 0 0
     SetBorderColor 30 187 255
     SetFontSize 45
     PlayAlertSound 9 300
     PlayEffect White Temp
 
-Show # 裝備 - 特殊裝備 - 高品質物品    
-    Corrupted False
+Hide # 裝備 - 特殊裝備 - 高品質物品
     Quality >= 25
+    Corrupted False
     ItemLevel >= 75
     DropLevel >= 50
-    SetBackgroundColor 0 0 0 240
+    SetBackgroundColor 0 0 0
     SetBorderColor 0 255 175
     SetFontSize 40
     PlayAlertSound 9 300
     MinimapIcon 2 Blue Hexagon
-    PlayEffect Blue    
+    PlayEffect Blue
 
-Show # 裝備 - 特殊裝備 - 3色連洞 (1*3體積)
+Hide # 裝備 - 特殊裝備 - 3色連洞 (1*3體積)
     LinkedSockets >= 3
     LinkedSockets <= 4
+    SocketGroup "RGB"
     Height = 3
     Width = 1
-    SocketGroup "RGB"
     SetTextColor 255 0 0
     SetBackgroundColor 255 255 255
     SetBorderColor 0 0 0
     SetFontSize 45
 
-Show # 裝備 - 特殊裝備 - 3色連洞 (2*2體積)
+Hide # 裝備 - 特殊裝備 - 3色連洞 (2*2體積)
     LinkedSockets >= 3
     LinkedSockets <= 4
+    SocketGroup "RGB"
     Height = 2
     Width = 2
-    SocketGroup "RGB"
     SetTextColor 255 0 0
     SetBackgroundColor 255 255 255
     SetBorderColor 0 0 0
     SetFontSize 45
 
-Show # 裝備 - 特殊裝備 - 石錘、破岩錘、堅錘Q10+
+Hide # 裝備 - 特殊裝備 - 石錘、破岩錘、堅錘Q10+
     Quality >= 10
     Rarity = Normal
     Class "One Hand Maces"
@@ -4480,7 +4480,7 @@ Show # 裝備 - 特殊裝備 - 石錘、破岩錘、堅錘Q10+
     SetBackgroundColor 150 150 200 60
     SetBorderColor 255 255 255
 
-Show # 裝備 - 特殊裝備 - 石錘、破岩錘、堅錘
+Hide # 裝備 - 特殊裝備 - 石錘、破岩錘、堅錘
     Rarity = Normal
     Class "One Hand Maces"
     BaseType "Stone Hammer" "Rock Breaker" "Gavel"
@@ -4496,7 +4496,7 @@ Show # 裝備 - 特殊裝備 - 魚竿
     MinimapIcon 0 Red Star
     PlayEffect Red
 
-Show # 裝備 - 特殊裝備 - 祭禮束衣
+Hide # 裝備 - 特殊裝備 - 祭禮束衣
     Class "Body Armours"
     BaseType "Sacrificial Garb"
 
