@@ -1,0 +1,1001 @@
+Abyssal Axe
+Abyssal Sceptre
+Acid Weapon Effect
+Added Chaos Damage
+Added Cold Damage
+Added Fire Damage
+Added Lightning Damage
+Additional Accuracy
+Albino Rhoa Feather
+Alchemy Shard
+Alder Spike Shield
+Alira's Amulet
+Allflame
+Alloyed Spike Shield
+Alteration Shard
+Alternate Raise Spectre
+Alternate Raise Zombie
+Alternate Totem
+Amber Amulet
+Ambush Boots
+Ambush Mitts
+Ambusher
+Amethyst Flask
+Amethyst Ring
+Ammonite Glyph
+Ancestral Club
+Ancient Gauntlets
+Ancient Greaves
+Ancient Spirit Shield
+Ancient Sword
+Angel Kite Shield
+Anger
+Annihilator Casque
+Antique Gauntlets
+Antique Greaves
+Antique Rapier
+Apex Rapier
+Arachnid Nest Map
+Arc
+Arcade Map
+Arcane Weapon Effect
+Arcanist Gloves
+Arcanist Slippers
+Archon Kite Shield
+Arctic Breath
+Arena Plate
+Armageddon Casque
+Arming Axe
+Armourer's Scrap
+Assassin Mask
+Assassin's Boots
+Assassin's Garb
+Assassin's Mitts
+Astral Plate
+Aureate Halo
+Auric Mace
+Awl
+Azure Weapon Effect
+Backstab
+Baleful Gem
+Bandit Mask
+Barbed Club
+Baroque Round Shield
+Baselard
+Basket Rapier
+Bastard Sword
+Battered Cap
+Battered Foil
+Battle Buckler
+Battle Hammer
+Battle Lamellar
+Battle Plate
+Battle Sword
+Bear Trap
+Bent Horns
+Beryl Rain of Arrows Effect
+Black Scorpion Pet
+Black Weapon Effect
+Blacksmith's Whetstone
+Bladed Helmet
+Bladed Mace
+Blessed Orb
+Blind
+Blinder
+Blood Magic
+Blood Rage
+Blood Raiment
+Blood Sceptre
+Blood Slam
+Blue Frog Pet
+Boarding Axe
+Bog Map
+Bone Armor
+Bone Bow
+Bone Spirit Shield
+Boot Blade
+Boot Knife
+Branded Kite Shield
+Brass Maul
+Brass Spirit Shield
+Broad Axe
+Broad Sword
+Bronze Gauntlets
+Bronze Kiwi Pet
+Bronze Plate
+Bronze Sceptre
+Bronze Tower Shield
+Bronzescale Boots
+Bronzescale Gauntlets
+Buckskin Tower Shield
+Buckskin Tunic
+Burning Arrow
+Burnished Foil
+Burnished Spike Shield
+Bust of Gaius Sentari
+Bust of Hector Titucius
+Bust of Marceus Lioneye
+Butcher Knife
+Butcher Sword
+Cabalist Regalia
+Canyon Map
+Cardinal Round Shield
+Carnal Armor
+Carnal Boots
+Carnal Mitts
+Carnal Sceptre
+Cartographer's Chisel
+Carved Circlet
+Carved Wand
+Carving Knife
+Cast When Damage Taken
+Catacomb Map
+Cat's Paw
+Cedar Tower Shield
+Cells Map
+Cemetery Map
+Ceremonial Axe
+Ceremonial Kite Shield
+Ceremonial Mace
+Ceremonial Mask
+Chain
+Chain Belt
+Chain Boots
+Chain Gloves
+Chain Hauberk
+Chainmail Coif
+Chainmail Doublet
+Chainmail Tunic
+Chainmail Vest
+Champion Kite Shield
+Chance to Flee
+Chance to Ignite
+Chaos Orb
+Chest Splitter
+Chestplate
+Chiming Spirit Shield
+Chromatic Orb
+Chrome Scorpion Pet
+Citadel Bow
+Clarity
+Clasped Boots
+Clasped Mitts
+Cleave
+Cleaver
+Cloth Belt
+Cobalt Halo
+Coiled Staff
+Cold Grasp Effect
+Cold Penetration
+Cold Snap
+Cold to Fire
+Colossal Hybrid Flask
+Colossal Life Flask
+Colossal Mana Flask
+Colossal Tower Shield
+Colossal Weta Pet
+Colosseum Plate
+Colossus Mallet
+Commander's Brigandine
+Commander's Ring Coif
+Composite Bow
+Compound Bow
+Compound Spiked Shield
+Concentrated Effect
+Conductive Quiver
+Conductivity
+Conjurer Boots
+Conjurer Gloves
+Conjurer's Vestment
+Conquest Chainmail
+Conversion Trap
+Coolus Helmet
+Copper Circlet
+Copper Kris
+Copper Mask
+Copper Plate
+Copper Sword
+Copper Tower Shield
+Coral Amulet
+Coral Ring
+Coronal Leather
+Corroded Blade
+Corroded Chain Coif
+Corroded Tower Shield
+Corrugated Buckler
+Corsair Sword
+Coves Map
+Crematorium Map
+Crested Helmet
+Crested Tower Shield
+Crimson Portal
+Crimson Raiment
+Crimson Round Shield
+Crimson Weapon Effect
+Critical Weakness
+Crude Bow
+Crusader Boots
+Crusader Buckler
+Crusader Chainmail
+Crusader Gloves
+Crusader Plate
+Crusader's Chain Coif
+Crypt Armor
+Crypt Map
+Crystal Sceptre
+Crystal Wand
+Culling Strike
+Cured Quiver
+Curved Horns
+Cutlass
+Cutthroat's Garb
+Cyclone
+Damage Infusion
+Dance - Duelist
+Dance - Marauder
+Dance - Ranger
+Dance - Shadow
+Dance - Templar
+Dance - Witch
+Dark Forest Map
+Darkwood Sceptre
+Death Bow
+Decimation Bow
+Decorative Axe
+Decoy Totem
+Decurve Bow
+Deerskin Boots
+Deerskin Gloves
+Demon Dagger
+Demon's Horn
+Desert Brigandine
+Despot Axe
+Destiny Leather
+Destroyer Casque
+Destroyer Regalia
+Determination
+Detonate Dead
+Devouring Totem
+Devout Chainmail
+Diamond Flask
+Diamond Kiwi Pet
+Diamond Ring
+Discharge
+Discipline
+Divine Orb
+Dominating Blow
+Double Axe
+Double Strike
+Dragon Fireball Effect
+Dragonbone Rapier
+Dragonscale Boots
+Dragonscale Doublet
+Dragonscale Gauntlets
+Dread Maul
+Dream Mace
+Dried Lake Map
+Driftwood Club
+Driftwood Maul
+Driftwood Sceptre
+Driftwood Spiked Shield
+Driftwood Wand
+Dry Peninsula
+Dry Woods Map
+Dual Strike
+Dunes Map
+Dungeon Map
+Dusk Blade
+Eagle Claw
+Ebony Tower Shield
+Eelskin Boots
+Eelskin Gloves
+Eelskin Tunic
+Elder Sword
+Elegant Foil
+Elegant Ringmail
+Elegant Round Shield
+Elegant Sword
+Elemental Hit
+Elemental Proliferation
+Elemental Weakness
+Embroidered Gloves
+Emerald Weapon Effect
+Enameled Buckler
+Enduring Cry
+Enfeeble
+Engraved Greatsword
+Engraved Wand
+Estoc
+Etched Greatsword
+Etched Shield
+Eternal Sword
+Ethereal Knives
+Exalted Orb
+Executioner Casque
+Explosive Arrow
+Exquisite Leather
+Extra Gore
+Eye Gouger
+Ezomyte Axe
+Ezomyte Axe
+Ezomyte Blade
+Ezomyte Dagger
+Ezomyte Spiked Shield
+Ezomyte Staff
+Ezomyte Tower Shield
+Fancy Foil
+Faster Attacks
+Faster Casting
+Faster Projectiles
+Faun's Horn
+Field Lamellar
+Fiend Dagger
+Fiery Visage
+Finned Helmet
+Fir Round Shield
+Fire Penetration
+Fire Trap
+Fire Weapon
+Fireball
+Firestorm
+Fishscale Gauntlets
+Flame Totem
+Flammability
+Flanged Helmet
+Flanged Mace
+Flaying Knife
+Flicker Strike
+Footman Sword
+Footman's Casque
+Forest Hood
+Fork
+Fossilized Spirit Shield
+Foul Staff
+Freeze Mine
+Freezing Pulse
+Frenzy
+Fright Claw
+Fright Maul
+Frontier Leather
+Frost Wall
+Frostbite
+Full Chainmail
+Full Dragonscale
+Full Leather
+Full Plate
+Full Ringmail
+Full Scale Armor
+Full Wyrmscale
+Gavel
+Gemcutter's Prism
+Gemmed Circlet
+Gemstone Sword
+General's Brigandine
+Ghetto Map
+Giant Life Flask
+Giant Mana Flask
+Giant Weta Pet
+Gilded Axe
+Gilded Buckler
+Gilded Circlet
+Gilded Helmet
+Girded Tower Shield
+Glacial Hammer
+Gladiator Casque
+Gladiator Plate
+Gladius
+Glass Shank
+Glassblower's Bauble
+Gleaming Circlet
+Glorious Leather
+Glorious Plate
+Gnarled Branch
+Goathide Boots
+Goathide Buckler
+Goathide Gloves
+Goat's Horn
+Gold Amulet
+Gold Kiwi Pet
+Gold Ring
+Golden Buckler
+Golden Hand
+Golden Kris
+Golden Plate
+Golden Wreath
+Goliath Gauntlets
+Goliath Greaves
+Gorge Map
+Gouger
+Grace
+Graceful Sword
+Grand Life Flask
+Grand Mana Flask
+Granite Flask
+Graveyard Map
+Great Mallet
+Great White Claw
+Greater Life Flask
+Greater Mana Flask
+Greater Multiple Projectiles
+Green Basilisk Pet
+Green Frog Pet
+Grinning Fetish
+Grotto Map
+Ground Slam
+Grove Bow
+Grove Hood
+Gut Ripper
+Gutting Knife
+Haliotis Glyph
+Hallowed Hybrid Flask
+Hallowed Life Flask
+Hallowed Mana Flask
+Hammered Buckler
+Harbinger Bow
+Harlequin Mask
+Harmonic Spirit Shield
+Harpy Rapier
+Haste
+Hatred
+Headman's Sword
+Headsman Axe
+Heathen Mask
+Heavy Belt
+Heavy Quiver
+Heavy Strike
+Hellion's Paw
+Highborn Bow
+Highborn Staff
+Highland Blade
+Holy Chainmail
+Hubris Circlet
+Hunter Cap
+Huntress Cap
+Hussar Brigandine
+Hydrascale Boots
+Hydrascale Gauntlets
+Ice Crown
+Ice Nova
+Ice Shield
+Ice Shot
+Ice Spear
+Ignite
+Imbued Wand
+Immortal Call
+Imp Dagger
+Imperial Bow
+Imperial Buckler
+Imperial Casque
+Imperial Chain Coif
+Imperial Claw
+Imperial Maul
+Imperial Skean
+Imperial Staff
+Increased Area of Effect
+Increased Critical Damage
+Increased Critical Strikes
+Increased Duration
+Infantry Brigandine
+Infernal Axe
+Infernal Basilisk Pet
+Infernal Blow
+Infernal Sword
+Infernal Talc
+Inlaid Chain Coif
+Iron Gauntlets
+Iron Greaves
+Iron Grip
+Iron Mask
+Iron Ring
+Iron Sceptre
+Iron Staff
+Iron Will
+Ironscale Boots
+Ironscale Gauntlets
+Ironwood Buckler
+Item Quantity
+Item Rarity
+Ivory Bow
+Ivory Spirit Shield
+Jade Amulet
+Jade Chopper
+Jade Hatchet
+Jagged Foil
+Jasper Axe
+Jasper Chopper
+Jeweled Foil
+Jeweller's Orb
+Jingling Spirit Shield
+Judgement Staff
+Jungle Hood
+Jungle Valley Map
+Kaom's Greaves
+Kaom's Plate
+Karui Axe
+Karui Chopper
+Karui Maul
+Karui Sceptre
+Keyblade
+Kiwi Pet
+Knockback
+Kraityn's Amulet
+Labrys
+Lacewood Spirit Shield
+Lacquered Buckler
+Lacquered Garb
+Lacquered Helmet
+Laminated Kite Shield
+Lapis Amulet
+Large Hybrid Flask
+Large Life Flask
+Large Mana Flask
+Lathi
+Latticed Ringmail
+Lavender Weapon Effect
+Layered Kite Shield
+Lead Sceptre
+Leap Slam
+Leather Belt
+Leather Cap
+Leather Hood
+Leatherscale Boots
+Legion Boots
+Legion Gloves
+Legion Hammer
+Legion Sword
+Lesser Multiple Projectiles
+Life Gain on Hit
+Life Leech
+Light Brigandine
+Light Quiver
+Lightning Arrow
+Lightning Penetration
+Lightning Strike
+Lightning Warp
+Linden Kite Shield
+Lion Sword
+Long Bow
+Long Staff
+Longsword
+Lordly Plate
+Loricated Ringmail
+Maelström Staff
+Mage's Vestment
+Mahogany Tower Shield
+Majestic Plate
+Maligaro's Spike
+Mallet
+Mana Leech
+Maple Round Shield
+Maraketh Bow
+Mark of the Phoenix
+Maze Map
+Meatgrinder
+Medicine Chest
+Medium Hybrid Flask
+Medium Life Flask
+Medium Mana Flask
+Melee Damage on Full Life
+Melee Physical Damage
+Mercenary Casque
+Mesh Boots
+Mesh Gloves
+Midnight Blade
+Military Staff
+Abandoned Cavern Map
+Minion Damage
+Minion Life
+Minion Speed
+Mirror of Kalandra
+Mirrored Spiked Shield
+Molten Shell
+Mosaic Kite Shield
+Mountain Ledge Map
+Mud Geyser Map
+Multistrike
+Murder Boots
+Murder Mask
+Murder Mitts
+Nailed Fist
+Necromancer Silks
+Necropolis Map
+Necrotic Weapon Effect
+Nightmare Mace
+Noble Axe
+Noble Claw
+Nubuck Boots
+Nubuck Gloves
+Oak Buckler
+Oak's Amulet
+Occultist's Vestment
+Ochre Sceptre
+Oiled Coat
+Oiled Vest
+Omen Wand
+Onyx Amulet
+Opal Sceptre
+Opal Wand
+Orb of Alchemy
+Orb of Alteration
+Orb of Augmentation
+Orb of Chance
+Orb of Fusing
+Orb of Regret
+Orb of Scouring
+Orb of Transmutation
+Ornate Mace
+Ornate Ringmail
+Ornate Spiked Shield
+Ornate Sword
+Overgrown Ruin Map
+Overgrown Shrine Map
+Padded Jacket
+Padded Vest
+Pagan Mask
+Painted Buckler
+Painted Tower Shield
+Paua Amulet
+Paua Ring
+Pecoraro
+Pernarch
+Petrified Club
+Phantom Mace
+Phase Run
+Pier
+Pierce
+Piledriver
+Pine Buckler
+Pinnacle Tower Shield
+Plank Kite Shield
+Plate Vest
+Plateau Map
+Plated Gauntlets
+Plated Greaves
+Plated Maul
+Platinum Kris
+Platinum Sceptre
+Playtest Bow
+Playtest Maul
+Playtest Rapier
+Playtest Wand
+Plinth Warp
+Poignard
+Point Blank
+Poison Arrow
+Poleaxe
+Polished Helmet
+Polished Spiked Shield
+Portal
+Portal Scroll
+Power Siphon
+Prehistoric Claw
+Primeval Rapier
+Primitive Staff
+Primordial Staff
+Prismatic Ring
+Projectile Weakness
+Promenade Map
+Prophecy Wand
+Puncture
+Punishment
+Purity
+Purple Scorpion Pet
+Quarterstaff
+Quartz Sceptre
+Quartz Wand
+Quicksilver Flask
+Quilted Jacket
+Radiant Weapon Effect
+Rain of Arrows
+Raise Spectre
+Raise Zombie
+Ranged Attack Totem
+Ranger Bow
+Rawhide Boots
+Rawhide Gloves
+Rawhide Tower Shield
+Reaver Axe
+Reaver Casque
+Reaver Sword
+Recover Cosmetic Effect
+Recurve Bow
+Red Frog Pet
+Red Scorpion Pet
+Reduced Mana
+Redwood Spiked Shield
+Reef Map
+Regal Orb
+Reinforced Greaves
+Reinforced Kite Shield
+Reinforced Tower Shield
+Rejuvenation Totem
+Remote Mine
+Return Projectiles
+Ribbed Helmet
+Ribbon Spool
+Righteous Fire
+Ringmail Boots
+Ringmail Coat
+Ringmail Coif
+Ringmail Gloves
+Ritual Sceptre
+Riveted Boots
+Riveted Gloves
+Rock Breaker
+Roseus Glyph
+Rotted Round Shield
+Royal Axe
+Royal Blue Frog Pet
+Royal Bow
+Royal Circlet
+Royal Green Frog Pet
+Royal Red Frog Pet
+Royal Sceptre
+Royal Skean
+Royal Staff
+Ruby Flask
+Ruby Ring
+Rugged Quiver
+Russell's Blade
+Russell's Bludgeoner
+Russell's Cleaver
+Russell's Greatsword
+Russell's Shank
+Russell's Smasher
+Russell's Wand
+Rusted Casque
+Rusted Hatchet
+Rusted Helmet
+Rusted Spike
+Rusted Sword
+Rustic Sash
+Sabre
+Sacred Hybrid Flask
+Sacred Life Flask
+Sacred Mana Flask
+Sadist Garb
+Sage Wand
+Sage's Robe
+Saintly Chainmail
+Saint's Hauberk
+Samite Gloves
+Samite Slippers
+Sapphire Flask
+Sapphire Ring
+Satin Gloves
+Satin Slippers
+Savant's Robe
+Scale Doublet
+Scale Vest
+Scarlet Raiment
+Scarlet Round Shield
+Scholar Boots
+Scholar's Robe
+Scroll Fragment
+Scroll of Wisdom
+Sekhem
+Sentinel Jacket
+Serpent Wand
+Serpentine Staff
+Serpentscale Boots
+Serpentscale Gauntlets
+Serrated Foil
+Sewer Keys
+Sewer Map
+Shabby Jerkin
+Shackled Boots
+Shadow Axe
+Shadow Sceptre
+Shagreen Boots
+Shagreen Gloves
+Shagreen Tower Shield
+Sharkskin Boots
+Sharkskin Gloves
+Sharkskin Tunic
+Sharktooth Claw
+Shield Charge
+Shock Nova
+Shockwave Totem
+Shore Map
+Short Bow
+Siege Axe
+Siege Firestorm Effect
+Silk Gloves
+Silk Robe
+Silk Slippers
+Silken Garb
+Silken Vest
+Silken Wrap
+Silver Kiwi Pet
+Simple Robe
+Skean
+Skinning Knife
+Slaughter Knife
+Sledgehammer
+Sleek Coat
+Slink Boots
+Slink Gloves
+Small Hybrid Flask
+Small Life Flask
+Small Mana Flask
+Snipe
+Sniper Bow
+Solaris Circlet
+Soldier Boots
+Soldier Gloves
+Soldier's Brigandine
+Sorcerer Boots
+Sorcerer Gloves
+Sovereign Spiked Shield
+Spark
+Sparkling Claw
+Spectral Axe
+Spectral Basilisk Pet
+Spectral Sword
+Spell Totem
+Spider Forest Map
+Spider Lair Map
+Spidersilk Robe
+Spiked Bundle
+Spiked Club
+Spiked Maul
+Spiked Round Shield
+Spine Bow
+Spiny Maul
+Spiny Round Shield
+Spiraled Foil
+Spiraled Wand
+Splendid Round Shield
+Splintered Tower Shield
+Split Arrow
+Split Projectiles
+Springs Map
+Stealth Boots
+Stealth Gloves
+Steel Circlet
+Steel Gauntlets
+Steel Greaves
+Steel Kite Shield
+Steelhead
+Steelscale Boots
+Steelscale Gauntlets
+Stiletto
+Stone Axe
+Stone Hammer
+Strand Map
+Strapped Boots
+Strapped Leather
+Strapped Mitts
+Studded Belt
+Studded Hood
+Studded Round Shield
+Stun
+Summon Skeletons
+Summon Statues Skin
+Sun Leather
+Sun Plate
+Sundering Axe
+Supreme Spiked Shield
+Sweep
+Tarnished Mask
+Tarnished Spirit Shield
+Teak Round Shield
+Tempered Foil
+Tempest Shield
+Temporal Chains
+Tenderizer
+Terror Claw
+Terror Maul
+Thaumetic Sulphite
+The Apex
+Thicket Bow
+Thicket Hood
+Thicket Map
+Thief's Garb
+Thorium Spirit Shield
+Thorn Rapier
+Thresher Claw
+Throat Stabber
+Tiger Sword
+Tiger's Paw
+Timber Axe
+Timeworn Claw
+Titan Gauntlets
+Titan Greaves
+Titanium Spirit Shield
+Tolman's Bracelet
+Tomahawk
+Topaz Flask
+Topaz Ring
+Tornado Wand
+Torture Chamber Map
+Totemic Maul
+Tower Key
+Transmutation Shard
+Trap
+Trapper Boots
+Trapper Mitts
+Tribal Circlet
+Tribal Club
+Tribal Maul
+Triumphant Lamellar
+Tropical Island Map
+Tunnel Map
+Turquoise Weapon Effect
+Twig Spirit Shield
+Twilight Blade
+Two-Handed Sword
+Tyrant's Sekhem
+Underground River Map
+Underground Sea Map
+Vaal Axe
+Vaal Blade
+Vaal Buckler
+Vaal Casque
+Vaal Claw
+Vaal Gauntlets
+Vaal Greatsword
+Vaal Greaves
+Vaal Hatchet
+Vaal Pyramid Map
+Vaal Rapier
+Vaal Regalia
+Vaal Sceptre
+Vaal Spirit Shield
+Vampiric Weapon Effect
+Vanishing Dye
+Variscite Blade
+Varnished Coat
+Velvet Gloves
+Velvet Slippers
+Verdant Weapon Effect
+Vile Staff
+Vine Circlet
+Viper Strike
+Vitality
+Void Axe
+Void Sceptre
+Vulnerability
+Walnut Spirit Shield
+War Axe
+War Buckler
+War Hammer
+War Plate
+War Sword
+Warlord's Mark
+Waste Pool Map
+Water Nova Effect
+Waxed Garb
+Weapon Elemental Damage
+Weta Pet
+Whalebone Rapier
+Wharf
+Whirling Blades
+White Scorpion Pet
+White Weapon Effect
+Widowsilk Robe
+Wild Leather
+Wooden Mask
+Woodful Staff
+Woodsplitter
+Wool Gloves
+Wool Shoes
+Woven Ring Coif
+Wraith Axe
+Wraith Sword
+Wrapped Boots
+Wrapped Mitts
+Wrath
+Wrist Chopper
+Wyrmbone Rapier
+Wyrmscale Boots
+Wyrmscale Doublet
+Wyrmscale Gauntlets
+Yellow Scorpion Pet
+Yellow Weapon Effect
+Yew Spirit Shield
+Zealot Boots
+Zealot Gloves
+Zealot Helmet
+Zealot's Chain Coif
+Zodiac Leather
