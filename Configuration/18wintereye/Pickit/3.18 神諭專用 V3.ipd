@@ -46,43 +46,43 @@
 //	[Type] == "Blacksmith's Whetstone" # 	[StashItem]	 == "true"	//	//磨刀石	不撿不存倉																						
 //	[Type] == "Armourer's Scrap" # 	[StashItem]	 == "true"	//	//護甲片	不撿不存倉																						
 //	[Type] == "Glassblower's Bauble" # 	[StashItem]	 == "true"	//	//玻璃彈珠	不撿不存倉																						
-	[Type] == "Blessed Orb" # 	[StashItem]	 == "true"	//	//祝福石	拾取且存倉																						
+//	[Type] == "Blessed Orb" # 	[StashItem]	 == "true"	//	//祝福石	拾取且存倉																						
 	[Type] == "Chaos Orb" # 	[StashItem]	 == "true"	//	//混沌石	拾取且存倉																						
-	[Type] == "Chromatic Orb" # 	[StashItem]	 == "true"	//	//幻色石	拾取且存倉																						
+//	[Type] == "Chromatic Orb" # 	[StashItem]	 == "true"	//	//幻色石	拾取且存倉																						
 	[Type] == "Divine Orb" # 	[StashItem]	 == "true"	//	//神聖石	拾取且存倉																						
 	[Type] == "Exalted Orb" # 	[StashItem]	 == "true"	//	//崇高石	拾取且存倉																						
 	[Type] == "Gemcutter's Prism" # 	[StashItem]	 == "true"	//	//寶石匠的稜鏡	拾取且存倉																						
-	[Type] == "Jeweller's Orb" # 	[StashItem]	 == "true"	//	//工匠石	拾取且存倉																						
+//	[Type] == "Jeweller's Orb" # 	[StashItem]	 == "true"	//	//工匠石	拾取且存倉																						
 	[Type] == "Mirror of Kalandra" # 	[StashItem]	 == "true"	//	//卡蘭德的魔鏡	拾取且存倉																						
-	[Type] == "Orb of Alchemy" # 	[StashItem]	 == "true"	//	//點金石	拾取且存倉																						
-	[Type] == "Orb of Alteration" # 	[StashItem]	 == "true"	//	//改造石	拾取且存倉																						
-	[Type] == "Orb of Transmutation" # 	[StashItem]	 == "true"	//	//蛻變石	拾取且存倉																						
-	[Type] == "Orb of Augmentation" # 	[StashItem]	 == "true"	//	//增幅石	拾取且存倉																						
-	[Type] == "Orb of Chance" # 	[StashItem]	 == "true"	//	//機會石	拾取且存倉																						
-	[Type] == "Orb of Fusing" # 	[StashItem]	 == "true"	//	//鏈結石	拾取且存倉																						
-	[Type] == "Orb of Regret" # 	[StashItem]	 == "true"	//	//後悔石	拾取且存倉																						
-	[Type] == "Orb of Scouring" # 	[StashItem]	 == "true"	//	//重鑄石	拾取且存倉																						
+//	[Type] == "Orb of Alchemy" # 	[StashItem]	 == "true"	//	//點金石	拾取且存倉																						
+//	[Type] == "Orb of Alteration" # 	[StashItem]	 == "true"	//	//改造石	拾取且存倉																						
+//	[Type] == "Orb of Transmutation" # 	[StashItem]	 == "true"	//	//蛻變石	拾取且存倉																						
+//	[Type] == "Orb of Augmentation" # 	[StashItem]	 == "true"	//	//增幅石	拾取且存倉																						
+//	[Type] == "Orb of Chance" # 	[StashItem]	 == "true"	//	//機會石	拾取且存倉																						
+//	[Type] == "Orb of Fusing" # 	[StashItem]	 == "true"	//	//鏈結石	拾取且存倉																						
+//	[Type] == "Orb of Regret" # 	[StashItem]	 == "true"	//	//後悔石	拾取且存倉																						
+//	[Type] == "Orb of Scouring" # 	[StashItem]	 == "true"	//	//重鑄石	拾取且存倉																						
 	[Type] == "Perandus Coin" # 	[StashItem]	 == "true"	//	//普蘭德斯金幣	拾取且存倉																						
 	[Type] == "Regal Orb" # 	[StashItem]	 == "true"	//	//富豪石	拾取且存倉																						
 	[Type] == "Silver Coin" # 	[StashItem]	 == "true"	//	//銀幣	拾取且存倉																						
 	[Type] == "Vaal Orb" # 	[StashItem]	 == "true"	//	//瓦爾寶珠	拾取且存倉																						
 //	[Type] == "Cartographer's Chisel" # 	[StashItem]	 == "true"	//	//製圖釘	不撿不存倉																						
-	[Type] == "Orb of Annulment"         # 	[StashItem]	 == "true"	//	//無效石	拾取且存倉																						
+//	[Type] == "Orb of Annulment"         # 	[StashItem]	 == "true"	//	//無效石	拾取且存倉																						
 	[Type] == "Orb of Binding"                 # 	[StashItem]	 == "true"	//	//束縛石	拾取且存倉																						
-	[Type] == "Orb of Horizons"         # 	[StashItem]	 == "true"	//	//地平石	拾取且存倉																						
+//	[Type] == "Orb of Horizons"         # 	[StashItem]	 == "true"	//	//地平石	拾取且存倉																						
 	[Type] == "Harbinger's Orb"         # 	[StashItem]	 == "true"	//	//神諭石	拾取且存倉																						
 //	[Type] == "Engineer's Orb"                 # 	[StashItem]	 == "true"	//	//工程石	不撿不存倉																						
 	[Type] == "Ancient Orb"                 # 	[StashItem]	 == "true"	//	//古變石	拾取且存倉																						
 	[Type] == "Annulment Shard"         # 	[StashItem]	 == "true"	//	//無效石碎片	拾取且存倉																						
 //	[Type] == "Binding Shard"                 # 	[StashItem]	 == "true"	//	//束縛石碎片	不撿不存倉																						
 //	[Type] == "Horizon Shard"                 # 	[StashItem]	 == "true"	//	//地平石碎片	不撿不存倉																						
-	[Type] == "Harbinger's Shard"         # 	[StashItem]	 == "true"	//	//神諭石碎片	拾取且存倉																						
+//	[Type] == "Harbinger's Shard"         # 	[StashItem]	 == "true"	//	//神諭石碎片	拾取且存倉																						
 //	[Type] == "Engineer's Shard"         # 	[StashItem]	 == "true"	//	//工程石碎片	不撿不存倉																						
 	[Type] == "Ancient Shard"                 # 	[StashItem]	 == "true"	//	//古變石碎片	拾取且存倉																						
 	[Type] == "Chaos Shard"                 # 	[StashItem]	 == "true"	//	//混沌石碎片	拾取且存倉																						
 	[Type] == "Mirror Shard"                 # 	[StashItem]	 == "true"	//	//魔鏡碎片	拾取且存倉																						
 	[Type] == "Exalted Shard"                 # 	[StashItem]	 == "true"	//	//崇高石碎片	拾取且存倉																						
-	[Type] == "Regal Shard"                 # 	[StashItem]	 == "true"	//	//富豪石碎片	拾取且存倉																						
+//	[Type] == "Regal Shard"                 # 	[StashItem]	 == "true"	//	//富豪石碎片	拾取且存倉																						
 	[Type] == "Veiled Chaos Orb"	[StashItem]	 == "true"	//	//隱匿混沌石	拾取且存倉																						
 	[Type] == "Journeyman Cartographer's Seal" # 	[StashItem]	 == "true"	//	//製圖封印．學者	拾取且存倉																						
 	[Type] == "Master Cartographer's Seal" # 	[StashItem]	 == "true"	//	//製圖封印．大師	拾取且存倉																						
@@ -227,142 +227,142 @@
 	[Type] == "Timeless Maraketh Emblem"         # 	[StashItem]	 == "true"	//	//永恆馬拉克斯徽印	拾取且存倉																						
 	[Type] == "Timeless Templar Emblem"         # 	[StashItem]	 == "true"	//	//永恆聖宗徽印	拾取且存倉																						
 	[Type] == "Timeless Vaal Emblem"                 # 	[StashItem]	 == "true"	//	//永恆瓦爾徽印	拾取且存倉																						
-	[Type] == "Abyssal Incubator" #	[ForceSellItem]	 == "true"	//	//深淵的培育器	拾取且售出																						
-	[Type] == "Blighted Incubator" #	[ForceSellItem]	 == "true"	//	//凋落的培育器	拾取且售出																						
-	[Type] == "Cartographer's Incubator" #	[ForceSellItem]	 == "true"	//	//製圖師的培育器	拾取且售出																						
-	[Type] == "Celestial Armoursmith's Incubator" #	[ForceSellItem]	 == "true"	//	//眾星．鐵匠的培育器	拾取且售出																						
-	[Type] == "Celestial Blacksmith's Incubator" #	[ForceSellItem]	 == "true"	//	//眾星．鑄鐵的培育器	拾取且售出																						
-	[Type] == "Celestial Jeweller's Incubator" #	[ForceSellItem]	 == "true"	//	//眾星．珠寶匠的培育器	拾取且售出																						
-	[Type] == "Diviner's Incubator" #	[ForceSellItem]	 == "true"	//	//聖者的培育器	拾取且售出																						
-	[Type] == "Eldritch Incubator" #	[ForceSellItem]	 == "true"	//	//異界尊師的培育器	拾取且售出																						
-	[Type] == "Enchanted Incubator" #	[ForceSellItem]	 == "true"	//	//附魔的培育器	拾取且售出																						
-	[Type] == "Foreboding Incubator" #	[ForceSellItem]	 == "true"	//	//預示的培育器	拾取且售出																						
-	[Type] == "Fossilised Incubator" #	[ForceSellItem]	 == "true"	//	//化石的培育器	拾取且售出																						
-	[Type] == "Fragmented Incubator" #	[ForceSellItem]	 == "true"	//	//碎片培育器	拾取且售出																						
-	[Type] == "Gemcutter's Incubator" #	[ForceSellItem]	 == "true"	//	//寶石匠的培育器	拾取且售出																						
-	[Type] == "Geomancer's Incubator" #	[ForceSellItem]	 == "true"	//	//占卜師的培育器	拾取且售出																						
-	[Type] == "Infused Incubator" #	[ForceSellItem]	 == "true"	//	//注能的培育器	拾取且售出																						
-	[Type] == "Kalguuran Incubator" #	[ForceSellItem]	 == "true"	//		拾取且售出																						
-	[Type] == "Maddening Incubator" #	[ForceSellItem]	 == "true"	//	//瘋狂的培育器	拾取且售出																						
-	[Type] == "Morphing Incubator" #	[ForceSellItem]	 == "true"	//	//變形的培育器	拾取且售出																						
-	[Type] == "Mysterious Incubator" #	[ForceSellItem]	 == "true"	//	//神祕的培育器	拾取且售出																						
-	[Type] == "Obscured Incubator" #	[ForceSellItem]	 == "true"	//	//朦朧的培育器	拾取且售出																						
-	[Type] == "Ornate Incubator" #	[ForceSellItem]	 == "true"	//	//華麗的孵育器	拾取且售出																						
-	[Type] == "Otherworldly Incubator" #	[ForceSellItem]	 == "true"	//	//超凡的培育器	拾取且售出																						
-	[Type] == "Primal Incubator" #	[ForceSellItem]	 == "true"	//	//先祖培育器	拾取且售出																						
-	[Type] == "Singular Incubator" #	[ForceSellItem]	 == "true"	//	//卓越的培育器	拾取且售出																						
-	[Type] == "Skittering Incubator" #	[ForceSellItem]	 == "true"	//	//飛掠的培育器	拾取且售出																						
-	[Type] == "Thaumaturge's Incubator" #	[ForceSellItem]	 == "true"	//	//幻術師的培育器	拾取且售出																						
-	[Type] == "Time-Lost Incubator" #	[ForceSellItem]	 == "true"	//	//時間遺忘的培育器	拾取且售出																						
+//	[Type] == "Abyssal Incubator" #	[ForceSellItem]	 == "true"	//	//深淵的培育器	拾取且售出																						
+//	[Type] == "Blighted Incubator" #	[ForceSellItem]	 == "true"	//	//凋落的培育器	拾取且售出																						
+//	[Type] == "Cartographer's Incubator" #	[ForceSellItem]	 == "true"	//	//製圖師的培育器	拾取且售出																						
+//	[Type] == "Celestial Armoursmith's Incubator" #	[ForceSellItem]	 == "true"	//	//眾星．鐵匠的培育器	拾取且售出																						
+//	[Type] == "Celestial Blacksmith's Incubator" #	[ForceSellItem]	 == "true"	//	//眾星．鑄鐵的培育器	拾取且售出																						
+//	[Type] == "Celestial Jeweller's Incubator" #	[ForceSellItem]	 == "true"	//	//眾星．珠寶匠的培育器	拾取且售出																						
+//	[Type] == "Diviner's Incubator" #	[ForceSellItem]	 == "true"	//	//聖者的培育器	拾取且售出																						
+//	[Type] == "Eldritch Incubator" #	[ForceSellItem]	 == "true"	//	//異界尊師的培育器	拾取且售出																						
+//	[Type] == "Enchanted Incubator" #	[ForceSellItem]	 == "true"	//	//附魔的培育器	拾取且售出																						
+//	[Type] == "Foreboding Incubator" #	[ForceSellItem]	 == "true"	//	//預示的培育器	拾取且售出																						
+//	[Type] == "Fossilised Incubator" #	[ForceSellItem]	 == "true"	//	//化石的培育器	拾取且售出																						
+//	[Type] == "Fragmented Incubator" #	[ForceSellItem]	 == "true"	//	//碎片培育器	拾取且售出																						
+//	[Type] == "Gemcutter's Incubator" #	[ForceSellItem]	 == "true"	//	//寶石匠的培育器	拾取且售出																						
+//	[Type] == "Geomancer's Incubator" #	[ForceSellItem]	 == "true"	//	//占卜師的培育器	拾取且售出																						
+//	[Type] == "Infused Incubator" #	[ForceSellItem]	 == "true"	//	//注能的培育器	拾取且售出																						
+//	[Type] == "Kalguuran Incubator" #	[ForceSellItem]	 == "true"	//		拾取且售出																						
+//	[Type] == "Maddening Incubator" #	[ForceSellItem]	 == "true"	//	//瘋狂的培育器	拾取且售出																						
+//	[Type] == "Morphing Incubator" #	[ForceSellItem]	 == "true"	//	//變形的培育器	拾取且售出																						
+//	[Type] == "Mysterious Incubator" #	[ForceSellItem]	 == "true"	//	//神祕的培育器	拾取且售出																						
+//	[Type] == "Obscured Incubator" #	[ForceSellItem]	 == "true"	//	//朦朧的培育器	拾取且售出																						
+//	[Type] == "Ornate Incubator" #	[ForceSellItem]	 == "true"	//	//華麗的孵育器	拾取且售出																						
+//	[Type] == "Otherworldly Incubator" #	[ForceSellItem]	 == "true"	//	//超凡的培育器	拾取且售出																						
+//	[Type] == "Primal Incubator" #	[ForceSellItem]	 == "true"	//	//先祖培育器	拾取且售出																						
+//	[Type] == "Singular Incubator" #	[ForceSellItem]	 == "true"	//	//卓越的培育器	拾取且售出																						
+//	[Type] == "Skittering Incubator" #	[ForceSellItem]	 == "true"	//	//飛掠的培育器	拾取且售出																						
+//	[Type] == "Thaumaturge's Incubator" #	[ForceSellItem]	 == "true"	//	//幻術師的培育器	拾取且售出																						
+//	[Type] == "Time-Lost Incubator" #	[ForceSellItem]	 == "true"	//	//時間遺忘的培育器	拾取且售出																						
 	//// 11F 精髓			//																								
 	// Tier 1			//																								
-	[Type] == "Whispering Essence of Hatred" # 	[StashItem]	 == "true"	//	//憎恨之低語精髓	拾取且存倉																						
-	[Type] == "Whispering Essence of Woe" # 	[StashItem]	 == "true"	//	//悲痛之低語精髓	拾取且存倉																						
-	[Type] == "Whispering Essence of Greed" # 	[StashItem]	 == "true"	//	//貪婪之低語精髓	拾取且存倉																						
-	[Type] == "Whispering Essence of Contempt" # 	[StashItem]	 == "true"	//	//輕視之低語精髓	拾取且存倉																						
+//	[Type] == "Whispering Essence of Hatred" # 	[StashItem]	 == "true"	//	//憎恨之低語精髓	拾取且存倉																						
+//	[Type] == "Whispering Essence of Woe" # 	[StashItem]	 == "true"	//	//悲痛之低語精髓	拾取且存倉																						
+//	[Type] == "Whispering Essence of Greed" # 	[StashItem]	 == "true"	//	//貪婪之低語精髓	拾取且存倉																						
+//	[Type] == "Whispering Essence of Contempt" # 	[StashItem]	 == "true"	//	//輕視之低語精髓	拾取且存倉																						
 	// Tier 2			//		拾取且																						
-	[Type] == "Muttering Essence of Hatred" # 	[StashItem]	 == "true"	//	//憎恨之呢喃精髓	拾取且存倉																						
-	[Type] == "Muttering Essence of Woe" # 	[StashItem]	 == "true"	//	//悲痛之呢喃精髓	拾取且存倉																						
-	[Type] == "Muttering Essence of Greed" # 	[StashItem]	 == "true"	//	//貪婪之呢喃精髓	拾取且存倉																						
-	[Type] == "Muttering Essence of Contempt" # 	[StashItem]	 == "true"	//	//輕視之呢喃精髓	拾取且存倉																						
-	[Type] == "Muttering Essence of Sorrow" # 	[StashItem]	 == "true"	//	//哀惜之呢喃精髓	拾取且存倉																						
-	[Type] == "Muttering Essence of Anger" # 	[StashItem]	 == "true"	//	//憤怒之呢喃精髓	拾取且存倉																						
-	[Type] == "Muttering Essence of Torment" # 	[StashItem]	 == "true"	//	//折磨之呢喃精髓	拾取且存倉																						
-	[Type] == "Muttering Essence of Fear" # 	[StashItem]	 == "true"	//	//恐懼之呢喃精髓	拾取且存倉																						
+//	[Type] == "Muttering Essence of Hatred" # 	[StashItem]	 == "true"	//	//憎恨之呢喃精髓	拾取且存倉																						
+//	[Type] == "Muttering Essence of Woe" # 	[StashItem]	 == "true"	//	//悲痛之呢喃精髓	拾取且存倉																						
+//	[Type] == "Muttering Essence of Greed" # 	[StashItem]	 == "true"	//	//貪婪之呢喃精髓	拾取且存倉																						
+//	[Type] == "Muttering Essence of Contempt" # 	[StashItem]	 == "true"	//	//輕視之呢喃精髓	拾取且存倉																						
+//	[Type] == "Muttering Essence of Sorrow" # 	[StashItem]	 == "true"	//	//哀惜之呢喃精髓	拾取且存倉																						
+//	[Type] == "Muttering Essence of Anger" # 	[StashItem]	 == "true"	//	//憤怒之呢喃精髓	拾取且存倉																						
+//	[Type] == "Muttering Essence of Torment" # 	[StashItem]	 == "true"	//	//折磨之呢喃精髓	拾取且存倉																						
+//	[Type] == "Muttering Essence of Fear" # 	[StashItem]	 == "true"	//	//恐懼之呢喃精髓	拾取且存倉																						
 	// Tier 3			//																								
-	[Type] == "Weeping Essence of Hatred" # 	[StashItem]	 == "true"	//	//憎恨之啼泣精髓	拾取且存倉																						
-	[Type] == "Weeping Essence of Woe" # 	[StashItem]	 == "true"	//	//悲痛之啼泣精髓	拾取且存倉																						
-	[Type] == "Weeping Essence of Greed" # 	[StashItem]	 == "true"	//	//貪婪之啼泣精髓	拾取且存倉																						
-	[Type] == "Weeping Essence of Contempt" # 	[StashItem]	 == "true"	//	//輕視之啼泣精髓	拾取且存倉																						
-	[Type] == "Weeping Essence of Sorrow" # 	[StashItem]	 == "true"	//	//哀惜之啼泣精髓	拾取且存倉																						
-	[Type] == "Weeping Essence of Anger" # 	[StashItem]	 == "true"	//	//憤怒之啼泣精髓	拾取且存倉																						
-	[Type] == "Weeping Essence of Torment" # 	[StashItem]	 == "true"	//	//折磨之啼泣精髓	拾取且存倉																						
-	[Type] == "Weeping Essence of Fear" # 	[StashItem]	 == "true"	//	//恐懼之啼泣精髓	拾取且存倉																						
-	[Type] == "Weeping Essence of Suffering" # 	[StashItem]	 == "true"	//	//苦難之啼泣精髓	拾取且存倉																						
-	[Type] == "Weeping Essence of Rage" # 	[StashItem]	 == "true"	//	//肆虐之啼泣精髓	拾取且存倉																						
-	[Type] == "Weeping Essence of Wrath" # 	[StashItem]	 == "true"	//	//雷霆之啼泣精髓	拾取且存倉																						
-	[Type] == "Weeping Essence of Doubt" # 	[StashItem]	 == "true"	//	//疑惑之啼泣精髓	拾取且存倉																						
-	// Tier 4			//																								
-	[Type] == "Wailing Essence of Hatred" # 	[StashItem]	 == "true"	//	//憎恨之哀嚎精髓	拾取且存倉																						
-	[Type] == "Wailing Essence of Woe" # 	[StashItem]	 == "true"	//	//悲痛之哀嚎精髓	拾取且存倉																						
-	[Type] == "Wailing Essence of Greed" # 	[StashItem]	 == "true"	//	//貪婪之哀嚎精髓	拾取且存倉																						
-	[Type] == "Wailing Essence of Contempt" # 	[StashItem]	 == "true"	//	//輕視之哀嚎精髓	拾取且存倉																						
-	[Type] == "Wailing Essence of Sorrow" # 	[StashItem]	 == "true"	//	//哀惜之哀嚎精髓	拾取且存倉																						
-	[Type] == "Wailing Essence of Anger" # 	[StashItem]	 == "true"	//	//憤怒之哀嚎精髓	拾取且存倉																						
-	[Type] == "Wailing Essence of Torment" # 	[StashItem]	 == "true"	//	//折磨之哀嚎精髓	拾取且存倉																						
-	[Type] == "Wailing Essence of Fear" # 	[StashItem]	 == "true"	//	//恐懼之哀嚎精髓	拾取且存倉																						
-	[Type] == "Wailing Essence of Suffering" # 	[StashItem]	 == "true"	//	//苦難之哀嚎精髓	拾取且存倉																						
-	[Type] == "Wailing Essence of Rage" # 	[StashItem]	 == "true"	//	//肆虐之哀嚎精髓	拾取且存倉																						
-	[Type] == "Wailing Essence of Wrath" # 	[StashItem]	 == "true"	//	//雷霆之哀嚎精髓	拾取且存倉																						
-	[Type] == "Wailing Essence of Doubt" # 	[StashItem]	 == "true"	//	//疑惑之哀嚎精髓	拾取且存倉																						
-	[Type] == "Wailing Essence of Anguish" # 	[StashItem]	 == "true"	//	//煎熬之哀嚎精髓	拾取且存倉																						
-	[Type] == "Wailing Essence of Loathing" # 	[StashItem]	 == "true"	//	//厭惡之哀嚎精髓	拾取且存倉																						
-	[Type] == "Wailing Essence of Spite" # 	[StashItem]	 == "true"	//	//刻毒之哀嚎精髓	拾取且存倉																						
-	[Type] == "Wailing Essence of Zeal" # 	[StashItem]	 == "true"	//	//熱情之哀嚎精髓	拾取且存倉																						
-	// Tier 5			//																								
-	[Type] == "Screaming Essence of Hatred" # 	[StashItem]	 == "true"	//	//憎恨之咆哮精髓	拾取且存倉																						
-	[Type] == "Screaming Essence of Woe" # 	[StashItem]	 == "true"	//	//悲痛之咆哮精髓	拾取且存倉																						
-	[Type] == "Screaming Essence of Greed" # 	[StashItem]	 == "true"	//	//貪婪之咆哮精髓	拾取且存倉																						
-	[Type] == "Screaming Essence of Contempt" # 	[StashItem]	 == "true"	//	//輕視之咆哮精髓	拾取且存倉																						
-	[Type] == "Screaming Essence of Sorrow" # 	[StashItem]	 == "true"	//	//哀惜之咆哮精髓	拾取且存倉																						
-	[Type] == "Screaming Essence of Anger" # 	[StashItem]	 == "true"	//	//憤怒之咆哮精髓	拾取且存倉																						
-	[Type] == "Screaming Essence of Torment" # 	[StashItem]	 == "true"	//	//折磨之咆哮精髓	拾取且存倉																						
-	[Type] == "Screaming Essence of Fear" # 	[StashItem]	 == "true"	//	//恐懼之咆哮精髓	拾取且存倉																						
-	[Type] == "Screaming Essence of Suffering" # 	[StashItem]	 == "true"	//	//苦難之咆哮精髓	拾取且存倉																						
-	[Type] == "Screaming Essence of Rage" # 	[StashItem]	 == "true"	//	//肆虐之咆哮精髓	拾取且存倉																						
-	[Type] == "Screaming Essence of Wrath" # 	[StashItem]	 == "true"	//	//雷霆之咆哮精髓	拾取且存倉																						
-	[Type] == "Screaming Essence of Doubt" # 	[StashItem]	 == "true"	//	//疑惑之咆哮精髓	拾取且存倉																						
-	[Type] == "Screaming Essence of Anguish" # 	[StashItem]	 == "true"	//	//煎熬之咆哮精髓	拾取且存倉																						
-	[Type] == "Screaming Essence of Loathing" # 	[StashItem]	 == "true"	//	//厭惡之咆哮精髓	拾取且存倉																						
-	[Type] == "Screaming Essence of Spite" # 	[StashItem]	 == "true"	//	//刻毒之咆哮精髓	拾取且存倉																						
-	[Type] == "Screaming Essence of Zeal" # 	[StashItem]	 == "true"	//	//熱情之咆哮精髓	拾取且存倉																						
-	[Type] == "Screaming Essence of Misery" # 	[StashItem]	 == "true"	//	//悽慘之咆哮精髓	拾取且存倉																						
-	[Type] == "Screaming Essence of Dread" # 	[StashItem]	 == "true"	//	//忌憚之咆哮精髓	拾取且存倉																						
-	[Type] == "Screaming Essence of Scorn" # 	[StashItem]	 == "true"	//	//傲視之咆哮精髓	拾取且存倉																						
-	[Type] == "Screaming Essence of Envy" # 	[StashItem]	 == "true"	//	//忌妒之咆哮精髓	拾取且存倉																						
-	// Tier 6			//																								
-	[Type] == "Shrieking Essence of Hatred" # 	[StashItem]	 == "true"	//	//憎恨之尖嘯精髓	拾取且存倉																						
-	[Type] == "Shrieking Essence of Woe" # 	[StashItem]	 == "true"	//	//悲痛之尖嘯精髓	拾取且存倉																						
-	[Type] == "Shrieking Essence of Greed" # 	[StashItem]	 == "true"	//	//貪婪之尖嘯精髓	拾取且存倉																						
-	[Type] == "Shrieking Essence of Contempt" # 	[StashItem]	 == "true"	//	//輕視之尖嘯精髓	拾取且存倉																						
-	[Type] == "Shrieking Essence of Sorrow" # 	[StashItem]	 == "true"	//	//哀惜之尖嘯精髓	拾取且存倉																						
-	[Type] == "Shrieking Essence of Anger" # 	[StashItem]	 == "true"	//	//憤怒之尖嘯精髓	拾取且存倉																						
-	[Type] == "Shrieking Essence of Torment" # 	[StashItem]	 == "true"	//	//折磨之尖嘯精髓	拾取且存倉																						
-	[Type] == "Shrieking Essence of Fear" # 	[StashItem]	 == "true"	//	//恐懼之尖嘯精髓	拾取且存倉																						
-	[Type] == "Shrieking Essence of Suffering" # 	[StashItem]	 == "true"	//	//苦難之尖嘯精髓	拾取且存倉																						
-	[Type] == "Shrieking Essence of Rage" # 	[StashItem]	 == "true"	//	//肆虐之尖嘯精髓	拾取且存倉																						
-	[Type] == "Shrieking Essence of Wrath" # 	[StashItem]	 == "true"	//	//雷霆之尖嘯精髓	拾取且存倉																						
-	[Type] == "Shrieking Essence of Doubt" # 	[StashItem]	 == "true"	//	//疑惑之尖嘯精髓	拾取且存倉																						
-	[Type] == "Shrieking Essence of Anguish" # 	[StashItem]	 == "true"	//	//煎熬之尖嘯精髓	拾取且存倉																						
-	[Type] == "Shrieking Essence of Loathing" # 	[StashItem]	 == "true"	//	//厭惡之尖嘯精髓	拾取且存倉																						
-	[Type] == "Shrieking Essence of Spite" # 	[StashItem]	 == "true"	//	//刻毒之尖嘯精髓	拾取且存倉																						
-	[Type] == "Shrieking Essence of Zeal" # 	[StashItem]	 == "true"	//	//熱情之尖嘯精髓	拾取且存倉																						
-	[Type] == "Shrieking Essence of Misery" # 	[StashItem]	 == "true"	//	//悽慘之尖嘯精髓	拾取且存倉																						
-	[Type] == "Shrieking Essence of Dread" # 	[StashItem]	 == "true"	//	//忌憚之尖嘯精髓	拾取且存倉																						
-	[Type] == "Shrieking Essence of Scorn" # 	[StashItem]	 == "true"	//	//傲視之尖嘯精髓	拾取且存倉																						
-	[Type] == "Shrieking Essence of Envy" # 	[StashItem]	 == "true"	//	//忌妒之尖嘯精髓	拾取且存倉																						
-	// Tier 7			//																								
-	[Type] == "Deafening Essence of Hatred" # 	[StashItem]	 == "true"	//	//憎恨之破空精髓	拾取且存倉																						
-	[Type] == "Deafening Essence of Woe" # 	[StashItem]	 == "true"	//	//悲痛之破空精髓	拾取且存倉																						
-	[Type] == "Deafening Essence of Greed" # 	[StashItem]	 == "true"	//	//貪婪之破空精髓	拾取且存倉																						
-	[Type] == "Deafening Essence of Contempt" # 	[StashItem]	 == "true"	//	//輕視之破空精髓	拾取且存倉																						
-	[Type] == "Deafening Essence of Sorrow" # 	[StashItem]	 == "true"	//	//哀惜之破空精髓	拾取且存倉																						
-	[Type] == "Deafening Essence of Anger" # 	[StashItem]	 == "true"	//	//憤怒之破空精髓	拾取且存倉																						
-	[Type] == "Deafening Essence of Torment" # 	[StashItem]	 == "true"	//	//折磨之破空精髓	拾取且存倉																						
-	[Type] == "Deafening Essence of Fear" # 	[StashItem]	 == "true"	//	//恐懼之破空精髓	拾取且存倉																						
-	[Type] == "Deafening Essence of Suffering" # 	[StashItem]	 == "true"	//	//苦難之破空精髓	拾取且存倉																						
-	[Type] == "Deafening Essence of Rage" # 	[StashItem]	 == "true"	//	//肆虐之破空精髓	拾取且存倉																						
-	[Type] == "Deafening Essence of Wrath" # 	[StashItem]	 == "true"	//	//雷霆之破空精髓	拾取且存倉																						
-	[Type] == "Deafening Essence of Doubt" # 	[StashItem]	 == "true"	//	//疑惑之破空精髓	拾取且存倉																						
-	[Type] == "Deafening Essence of Anguish" # 	[StashItem]	 == "true"	//	//煎熬之破空精髓	拾取且存倉																						
-	[Type] == "Deafening Essence of Loathing" # 	[StashItem]	 == "true"	//	//厭惡之破空精髓	拾取且存倉																						
-	[Type] == "Deafening Essence of Spite" # 	[StashItem]	 == "true"	//	//刻毒之破空精髓	拾取且存倉																						
-	[Type] == "Deafening Essence of Zeal" # 	[StashItem]	 == "true"	//	//熱情之破空精髓	拾取且存倉																						
-	[Type] == "Deafening Essence of Misery" # 	[StashItem]	 == "true"	//	//悽慘之破空精髓	拾取且存倉																						
-	[Type] == "Deafening Essence of Dread" # 	[StashItem]	 == "true"	//	//忌憚之破空精髓	拾取且存倉																						
-	[Type] == "Deafening Essence of Scorn" # 	[StashItem]	 == "true"	//	//傲視之破空精髓	拾取且存倉																						
-	[Type] == "Deafening Essence of Envy" # 	[StashItem]	 == "true"	//	//忌妒之破空精髓	拾取且存倉																						
-	[Type] =="Remnant of Corruption" #	[StashItem]	 == "true"	//	//遺忘的污染器皿	拾取且存倉																						
+//	[Type] == "Weeping Essence of Hatred" # 	[StashItem]	 == "true"	//	//憎恨之啼泣精髓	拾取且存倉																						
+//	[Type] == "Weeping Essence of Woe" # 	[StashItem]	 == "true"	//	//悲痛之啼泣精髓	拾取且存倉																						
+//	[Type] == "Weeping Essence of Greed" # 	[StashItem]	 == "true"	//	//貪婪之啼泣精髓	拾取且存倉																						
+//	[Type] == "Weeping Essence of Contempt" # 	[StashItem]	 == "true"	//	//輕視之啼泣精髓	拾取且存倉																						
+//	[Type] == "Weeping Essence of Sorrow" # 	[StashItem]	 == "true"	//	//哀惜之啼泣精髓	拾取且存倉																						
+//	[Type] == "Weeping Essence of Anger" # 	[StashItem]	 == "true"	//	//憤怒之啼泣精髓	拾取且存倉																						
+//	[Type] == "Weeping Essence of Torment" # 	[StashItem]	 == "true"	//	//折磨之啼泣精髓	拾取且存倉																						
+//	[Type] == "Weeping Essence of Fear" # 	[StashItem]	 == "true"	//	//恐懼之啼泣精髓	拾取且存倉																						
+//	[Type] == "Weeping Essence of Suffering" # 	[StashItem]	 == "true"	//	//苦難之啼泣精髓	拾取且存倉																						
+//	[Type] == "Weeping Essence of Rage" # 	[StashItem]	 == "true"	//	//肆虐之啼泣精髓	拾取且存倉																						
+//	[Type] == "Weeping Essence of Wrath" # 	[StashItem]	 == "true"	//	//雷霆之啼泣精髓	拾取且存倉																						
+//	[Type] == "Weeping Essence of Doubt" # 	[StashItem]	 == "true"	//	//疑惑之啼泣精髓	拾取且存倉																						
+//	// Tier 4			//																								
+//	[Type] == "Wailing Essence of Hatred" # 	[StashItem]	 == "true"	//	//憎恨之哀嚎精髓	拾取且存倉																						
+//	[Type] == "Wailing Essence of Woe" # 	[StashItem]	 == "true"	//	//悲痛之哀嚎精髓	拾取且存倉																						
+//	[Type] == "Wailing Essence of Greed" # 	[StashItem]	 == "true"	//	//貪婪之哀嚎精髓	拾取且存倉																						
+//	[Type] == "Wailing Essence of Contempt" # 	[StashItem]	 == "true"	//	//輕視之哀嚎精髓	拾取且存倉																						
+//	[Type] == "Wailing Essence of Sorrow" # 	[StashItem]	 == "true"	//	//哀惜之哀嚎精髓	拾取且存倉																						
+//	[Type] == "Wailing Essence of Anger" # 	[StashItem]	 == "true"	//	//憤怒之哀嚎精髓	拾取且存倉																						
+//	[Type] == "Wailing Essence of Torment" # 	[StashItem]	 == "true"	//	//折磨之哀嚎精髓	拾取且存倉																						
+//	[Type] == "Wailing Essence of Fear" # 	[StashItem]	 == "true"	//	//恐懼之哀嚎精髓	拾取且存倉																						
+//	[Type] == "Wailing Essence of Suffering" # 	[StashItem]	 == "true"	//	//苦難之哀嚎精髓	拾取且存倉																						
+//	[Type] == "Wailing Essence of Rage" # 	[StashItem]	 == "true"	//	//肆虐之哀嚎精髓	拾取且存倉																						
+//	[Type] == "Wailing Essence of Wrath" # 	[StashItem]	 == "true"	//	//雷霆之哀嚎精髓	拾取且存倉																						
+//	[Type] == "Wailing Essence of Doubt" # 	[StashItem]	 == "true"	//	//疑惑之哀嚎精髓	拾取且存倉																						
+//	[Type] == "Wailing Essence of Anguish" # 	[StashItem]	 == "true"	//	//煎熬之哀嚎精髓	拾取且存倉																						
+//	[Type] == "Wailing Essence of Loathing" # 	[StashItem]	 == "true"	//	//厭惡之哀嚎精髓	拾取且存倉																						
+//	[Type] == "Wailing Essence of Spite" # 	[StashItem]	 == "true"	//	//刻毒之哀嚎精髓	拾取且存倉																						
+//	[Type] == "Wailing Essence of Zeal" # 	[StashItem]	 == "true"	//	//熱情之哀嚎精髓	拾取且存倉																						
+//	// Tier 5			//																								
+//	[Type] == "Screaming Essence of Hatred" # 	[StashItem]	 == "true"	//	//憎恨之咆哮精髓	拾取且存倉																						
+//	[Type] == "Screaming Essence of Woe" # 	[StashItem]	 == "true"	//	//悲痛之咆哮精髓	拾取且存倉																						
+//	[Type] == "Screaming Essence of Greed" # 	[StashItem]	 == "true"	//	//貪婪之咆哮精髓	拾取且存倉																						
+//	[Type] == "Screaming Essence of Contempt" # 	[StashItem]	 == "true"	//	//輕視之咆哮精髓	拾取且存倉																						
+//	[Type] == "Screaming Essence of Sorrow" # 	[StashItem]	 == "true"	//	//哀惜之咆哮精髓	拾取且存倉																						
+//	[Type] == "Screaming Essence of Anger" # 	[StashItem]	 == "true"	//	//憤怒之咆哮精髓	拾取且存倉																						
+//	[Type] == "Screaming Essence of Torment" # 	[StashItem]	 == "true"	//	//折磨之咆哮精髓	拾取且存倉																						
+//	[Type] == "Screaming Essence of Fear" # 	[StashItem]	 == "true"	//	//恐懼之咆哮精髓	拾取且存倉																						
+//	[Type] == "Screaming Essence of Suffering" # 	[StashItem]	 == "true"	//	//苦難之咆哮精髓	拾取且存倉																						
+//	[Type] == "Screaming Essence of Rage" # 	[StashItem]	 == "true"	//	//肆虐之咆哮精髓	拾取且存倉																						
+//	[Type] == "Screaming Essence of Wrath" # 	[StashItem]	 == "true"	//	//雷霆之咆哮精髓	拾取且存倉																						
+//	[Type] == "Screaming Essence of Doubt" # 	[StashItem]	 == "true"	//	//疑惑之咆哮精髓	拾取且存倉																						
+//	[Type] == "Screaming Essence of Anguish" # 	[StashItem]	 == "true"	//	//煎熬之咆哮精髓	拾取且存倉																						
+//	[Type] == "Screaming Essence of Loathing" # 	[StashItem]	 == "true"	//	//厭惡之咆哮精髓	拾取且存倉																						
+//	[Type] == "Screaming Essence of Spite" # 	[StashItem]	 == "true"	//	//刻毒之咆哮精髓	拾取且存倉																						
+//	[Type] == "Screaming Essence of Zeal" # 	[StashItem]	 == "true"	//	//熱情之咆哮精髓	拾取且存倉																						
+//	[Type] == "Screaming Essence of Misery" # 	[StashItem]	 == "true"	//	//悽慘之咆哮精髓	拾取且存倉																						
+//	[Type] == "Screaming Essence of Dread" # 	[StashItem]	 == "true"	//	//忌憚之咆哮精髓	拾取且存倉																						
+//	[Type] == "Screaming Essence of Scorn" # 	[StashItem]	 == "true"	//	//傲視之咆哮精髓	拾取且存倉																						
+//	[Type] == "Screaming Essence of Envy" # 	[StashItem]	 == "true"	//	//忌妒之咆哮精髓	拾取且存倉																						
+//	// Tier 6			//																								
+//	[Type] == "Shrieking Essence of Hatred" # 	[StashItem]	 == "true"	//	//憎恨之尖嘯精髓	拾取且存倉																						
+//	[Type] == "Shrieking Essence of Woe" # 	[StashItem]	 == "true"	//	//悲痛之尖嘯精髓	拾取且存倉																						
+//	[Type] == "Shrieking Essence of Greed" # 	[StashItem]	 == "true"	//	//貪婪之尖嘯精髓	拾取且存倉																						
+//	[Type] == "Shrieking Essence of Contempt" # 	[StashItem]	 == "true"	//	//輕視之尖嘯精髓	拾取且存倉																						
+//	[Type] == "Shrieking Essence of Sorrow" # 	[StashItem]	 == "true"	//	//哀惜之尖嘯精髓	拾取且存倉																						
+//	[Type] == "Shrieking Essence of Anger" # 	[StashItem]	 == "true"	//	//憤怒之尖嘯精髓	拾取且存倉																						
+//	[Type] == "Shrieking Essence of Torment" # 	[StashItem]	 == "true"	//	//折磨之尖嘯精髓	拾取且存倉																						
+//	[Type] == "Shrieking Essence of Fear" # 	[StashItem]	 == "true"	//	//恐懼之尖嘯精髓	拾取且存倉																						
+//	[Type] == "Shrieking Essence of Suffering" # 	[StashItem]	 == "true"	//	//苦難之尖嘯精髓	拾取且存倉																						
+//	[Type] == "Shrieking Essence of Rage" # 	[StashItem]	 == "true"	//	//肆虐之尖嘯精髓	拾取且存倉																						
+//	[Type] == "Shrieking Essence of Wrath" # 	[StashItem]	 == "true"	//	//雷霆之尖嘯精髓	拾取且存倉																						
+//	[Type] == "Shrieking Essence of Doubt" # 	[StashItem]	 == "true"	//	//疑惑之尖嘯精髓	拾取且存倉																						
+//	[Type] == "Shrieking Essence of Anguish" # 	[StashItem]	 == "true"	//	//煎熬之尖嘯精髓	拾取且存倉																						
+//	[Type] == "Shrieking Essence of Loathing" # 	[StashItem]	 == "true"	//	//厭惡之尖嘯精髓	拾取且存倉																						
+//	[Type] == "Shrieking Essence of Spite" # 	[StashItem]	 == "true"	//	//刻毒之尖嘯精髓	拾取且存倉																						
+//	[Type] == "Shrieking Essence of Zeal" # 	[StashItem]	 == "true"	//	//熱情之尖嘯精髓	拾取且存倉																						
+//	[Type] == "Shrieking Essence of Misery" # 	[StashItem]	 == "true"	//	//悽慘之尖嘯精髓	拾取且存倉																						
+//	[Type] == "Shrieking Essence of Dread" # 	[StashItem]	 == "true"	//	//忌憚之尖嘯精髓	拾取且存倉																						
+//	[Type] == "Shrieking Essence of Scorn" # 	[StashItem]	 == "true"	//	//傲視之尖嘯精髓	拾取且存倉																						
+//	[Type] == "Shrieking Essence of Envy" # 	[StashItem]	 == "true"	//	//忌妒之尖嘯精髓	拾取且存倉																						
+//	// Tier 7			//																								
+//	[Type] == "Deafening Essence of Hatred" # 	[StashItem]	 == "true"	//	//憎恨之破空精髓	拾取且存倉																						
+//	[Type] == "Deafening Essence of Woe" # 	[StashItem]	 == "true"	//	//悲痛之破空精髓	拾取且存倉																						
+//	[Type] == "Deafening Essence of Greed" # 	[StashItem]	 == "true"	//	//貪婪之破空精髓	拾取且存倉																						
+//	[Type] == "Deafening Essence of Contempt" # 	[StashItem]	 == "true"	//	//輕視之破空精髓	拾取且存倉																						
+//	[Type] == "Deafening Essence of Sorrow" # 	[StashItem]	 == "true"	//	//哀惜之破空精髓	拾取且存倉																						
+//	[Type] == "Deafening Essence of Anger" # 	[StashItem]	 == "true"	//	//憤怒之破空精髓	拾取且存倉																						
+//	[Type] == "Deafening Essence of Torment" # 	[StashItem]	 == "true"	//	//折磨之破空精髓	拾取且存倉																						
+//	[Type] == "Deafening Essence of Fear" # 	[StashItem]	 == "true"	//	//恐懼之破空精髓	拾取且存倉																						
+//	[Type] == "Deafening Essence of Suffering" # 	[StashItem]	 == "true"	//	//苦難之破空精髓	拾取且存倉																						
+//	[Type] == "Deafening Essence of Rage" # 	[StashItem]	 == "true"	//	//肆虐之破空精髓	拾取且存倉																						
+//	[Type] == "Deafening Essence of Wrath" # 	[StashItem]	 == "true"	//	//雷霆之破空精髓	拾取且存倉																						
+//	[Type] == "Deafening Essence of Doubt" # 	[StashItem]	 == "true"	//	//疑惑之破空精髓	拾取且存倉																						
+//	[Type] == "Deafening Essence of Anguish" # 	[StashItem]	 == "true"	//	//煎熬之破空精髓	拾取且存倉																						
+//	[Type] == "Deafening Essence of Loathing" # 	[StashItem]	 == "true"	//	//厭惡之破空精髓	拾取且存倉																						
+//	[Type] == "Deafening Essence of Spite" # 	[StashItem]	 == "true"	//	//刻毒之破空精髓	拾取且存倉																						
+//	[Type] == "Deafening Essence of Zeal" # 	[StashItem]	 == "true"	//	//熱情之破空精髓	拾取且存倉																						
+//	[Type] == "Deafening Essence of Misery" # 	[StashItem]	 == "true"	//	//悽慘之破空精髓	拾取且存倉																						
+//	[Type] == "Deafening Essence of Dread" # 	[StashItem]	 == "true"	//	//忌憚之破空精髓	拾取且存倉																						
+//	[Type] == "Deafening Essence of Scorn" # 	[StashItem]	 == "true"	//	//傲視之破空精髓	拾取且存倉																						
+//	[Type] == "Deafening Essence of Envy" # 	[StashItem]	 == "true"	//	//忌妒之破空精髓	拾取且存倉																						
+//	[Type] =="Remnant of Corruption" #	[StashItem]	 == "true"	//	//遺忘的污染器皿	拾取且存倉																						
 	//// 12F 技能寶石			//																								
 	[Type] == "Empower Support"         #	[StashItem]	 == "true"	//	//賦予輔助	拾取且存倉																						
 	[Type] == "Enhance Support"         #	[StashItem]	 == "true"	//	//增幅輔助	拾取且存倉																						
@@ -766,25 +766,25 @@
 																												
 				//																								
 	//// 14F 星團珠寶			//																								
-	[Type] == "Large Cluster Jewel" && [Rarity] == "Unique"   # 	[StashItem]	 == "true" 	//	大型星團傳奇	拾取且存倉																						
-	[Type] == "Medium Cluster Jewel" && [Rarity] == "Unique"  # 	[StashItem]	 == "true" 	//	中型星團傳奇	拾取且存倉																						
-	[Type] == "Small Cluster Jewel" && [Rarity] == "Unique"   # 	[StashItem]	 == "true" 	//	小型星團傳奇	拾取且存倉																						
+//	[Type] == "Large Cluster Jewel" && [Rarity] == "Unique"   # 	[StashItem]	 == "true" 	//	大型星團傳奇	拾取且存倉																						
+//	[Type] == "Medium Cluster Jewel" && [Rarity] == "Unique"  # 	[StashItem]	 == "true" 	//	中型星團傳奇	拾取且存倉																						
+//	[Type] == "Small Cluster Jewel" && [Rarity] == "Unique"   # 	[StashItem]	 == "true" 	//	小型星團傳奇	拾取且存倉																						
 				//																								
-	[Type] == "Large Cluster Jewel" && [Rarity] == "Rare" # [local_jewel_expansion_passive_node_count] <= "8" && 	[StashItem]	 == "true" 	//	8天賦 大型 稀有	拾取且存倉																						
-	[Type] == "Large Cluster Jewel" && [Rarity] == "Magic" # [local_jewel_expansion_passive_node_count] <= "8" && 	[StashItem]	 == "true" 	//	8天賦 大型 魔法	拾取且存倉																						
-	[Type] == "Large Cluster Jewel" && [Rarity] == "Normal" # [local_jewel_expansion_passive_node_count] <= "8" && 	[StashItem]	 == "true" 	//	8天賦 大型 普通	拾取且存倉																						
+//	[Type] == "Large Cluster Jewel" && [Rarity] == "Rare" # [local_jewel_expansion_passive_node_count] <= "8" && 	[StashItem]	 == "true" 	//	8天賦 大型 稀有	拾取且存倉																						
+//	[Type] == "Large Cluster Jewel" && [Rarity] == "Magic" # [local_jewel_expansion_passive_node_count] <= "8" && 	[StashItem]	 == "true" 	//	8天賦 大型 魔法	拾取且存倉																						
+//	[Type] == "Large Cluster Jewel" && [Rarity] == "Normal" # [local_jewel_expansion_passive_node_count] <= "8" && 	[StashItem]	 == "true" 	//	8天賦 大型 普通	拾取且存倉																						
 				//																								
-	[Type] == "Medium Cluster Jewel" && [Rarity] == "Rare" # [local_jewel_expansion_passive_node_count] <= "5" && 	[StashItem]	 == "true" 	//	4-5天賦 中型 稀有	拾取且存倉																						
-	[Type] == "Medium Cluster Jewel" && [Rarity] == "Magic" # [local_jewel_expansion_passive_node_count] <= "5" && 	[StashItem]	 == "true" 	//	4-5天賦 中型 魔法	拾取且存倉																						
-	[Type] == "Medium Cluster Jewel" && [Rarity] == "Normal" # [local_jewel_expansion_passive_node_count] <= "5" && 	[StashItem]	 == "true" 	//	4-5天賦 中型 普通	拾取且存倉																						
+//	[Type] == "Medium Cluster Jewel" && [Rarity] == "Rare" # [local_jewel_expansion_passive_node_count] <= "5" && 	[StashItem]	 == "true" 	//	4-5天賦 中型 稀有	拾取且存倉																						
+//	[Type] == "Medium Cluster Jewel" && [Rarity] == "Magic" # [local_jewel_expansion_passive_node_count] <= "5" && 	[StashItem]	 == "true" 	//	4-5天賦 中型 魔法	拾取且存倉																						
+//	[Type] == "Medium Cluster Jewel" && [Rarity] == "Normal" # [local_jewel_expansion_passive_node_count] <= "5" && 	[StashItem]	 == "true" 	//	4-5天賦 中型 普通	拾取且存倉																						
 				//																								
-	[Type] == "Small Cluster Jewel" && [Rarity] == "Rare" # [local_jewel_expansion_passive_node_count] <= "2" && 	[StashItem]	 == "true" 	//	2天賦 小型 稀有	拾取且存倉																						
-	[Type] == "Small Cluster Jewel" && [Rarity] == "Magic" # [local_jewel_expansion_passive_node_count] <= "2" && 	[StashItem]	 == "true" 	//	2天賦 小型 魔法	拾取且存倉																						
-	[Type] == "Small Cluster Jewel" && [Rarity] == "Normal" # [local_jewel_expansion_passive_node_count] <= "2" && 	[StashItem]	 == "true" 	//	2天賦 小型 普通	拾取且存倉																						
+//	[Type] == "Small Cluster Jewel" && [Rarity] == "Rare" # [local_jewel_expansion_passive_node_count] <= "2" && 	[StashItem]	 == "true" 	//	2天賦 小型 稀有	拾取且存倉																						
+//	[Type] == "Small Cluster Jewel" && [Rarity] == "Magic" # [local_jewel_expansion_passive_node_count] <= "2" && 	[StashItem]	 == "true" 	//	2天賦 小型 魔法	拾取且存倉																						
+//	[Type] == "Small Cluster Jewel" && [Rarity] == "Normal" # [local_jewel_expansion_passive_node_count] <= "2" && 	[StashItem]	 == "true" 	//	2天賦 小型 普通	拾取且存倉																						
 																												
-	[Type] == "Small Cluster Jewel" && [Rarity] == "Rare" # [local_jewel_expansion_passive_node_count] = "3" && 	[StashItem]	 == "true" 	//	3天賦 小型 稀有	拾取且存倉																						
-	[Type] == "Small Cluster Jewel" && [Rarity] == "Magic" # [local_jewel_expansion_passive_node_count] = "3" && 	[StashItem]	 == "true" 	//	3天賦 小型 魔法	拾取且存倉																						
-	[Type] == "Small Cluster Jewel" && [Rarity] == "Normal" # [local_jewel_expansion_passive_node_count] = "3" && 	[StashItem]	 == "true" 	//	3天賦 小型 普通	拾取且存倉																						
+//	[Type] == "Small Cluster Jewel" && [Rarity] == "Rare" # [local_jewel_expansion_passive_node_count] = "3" && 	[StashItem]	 == "true" 	//	3天賦 小型 稀有	拾取且存倉																						
+//	[Type] == "Small Cluster Jewel" && [Rarity] == "Magic" # [local_jewel_expansion_passive_node_count] = "3" && 	[StashItem]	 == "true" 	//	3天賦 小型 魔法	拾取且存倉																						
+//	[Type] == "Small Cluster Jewel" && [Rarity] == "Normal" # [local_jewel_expansion_passive_node_count] = "3" && 	[StashItem]	 == "true" 	//	3天賦 小型 普通	拾取且存倉																						
 				//																								
 	//// 15F 輿圖			//																								
 	[Category] == "Map" && [MapTier] >= "1"         # [StashItem] == "true" // Take all Maps & Ignore all Contract/Blueprints/Incubators			//	//輿圖	撿取所有地圖																						
@@ -821,22 +821,22 @@
 	// Other			//	//其它																							
 	[Type] == "Divine Vessel"            # 	[ForceSellItem]	 == "true" 	//	//眾神聖器	拾取且售出																						
 	[Type] =="Incandescent Invitation" #	[StashItem]	 == "true" 	//	//熾熱之邀	拾取且存倉																						
-	[Type] =="Polaric Invitation" #	[StashItem]	 == "true" 	//	//極地之邀	拾取且存倉																						
+//	[Type] =="Polaric Invitation" #	[StashItem]	 == "true" 	//	//極地之邀	拾取且存倉																						
 	[Type] == "Screaming Invitation" #	[StashItem]	 == "true" 	//	//尖哮之邀	拾取且存倉																						
-	[Type] =="Writhing Invitation" #	[StashItem]	 == "true" 	//	//纏繞之邀	拾取且存倉																						
+//	[Type] =="Writhing Invitation" #	[StashItem]	 == "true" 	//	//纏繞之邀	拾取且存倉																						
 	//// 16F 六洞裝、六連裝 （不建議更動）			//																								
 	[Sockets] == "6" && [Linked] >= "6"                          # [StashItem] =="true"     // Keep 6L6S			//																								
-//撿取//	 [Sockets] == "6" && [Linked] >= "6"  && [Rarity] == "Normal" # [ForceSellItem] =="true" // Sell Normal 6L6S			//																								
-//撿取//	 [Sockets] == "6" && [Linked] >= "6"  && [Rarity] == "Magic"  # [ForceSellItem] =="true" // Sell Magic 6L6S			//																								
-//撿取//	 [Sockets] == "6" && [Linked] >= "6"  && [Rarity] == "Rare"   # [ForceSellItem] =="true" // Sell Rare 6L6S			//																								
-	 [Sockets] == "6" && [Linked] <= "5" && [Rarity] == "Normal"  # [SellUnid] == "true"     // Sell 6S Whites			//																								
-	 [Sockets] == "6" && [Linked] <= "5" && [Rarity] == "Magic"          # [SellUnid] == "true"     // Sell 6S Magic			//																								
-	 [Sockets] == "6" && [Linked] <= "5" && [Rarity] == "Rare"          # [SellUnid] == "true"     // Sell 6S Rare			//																								
+	 [Sockets] == "6" && [Linked] >= "6"  && [Rarity] == "Normal" # [ForceSellItem] =="true" // Sell Normal 6L6S			//																								
+	 [Sockets] == "6" && [Linked] >= "6"  && [Rarity] == "Magic"  # [ForceSellItem] =="true" // Sell Magic 6L6S			//																								
+	 [Sockets] == "6" && [Linked] >= "6"  && [Rarity] == "Rare"   # [ForceSellItem] =="true" // Sell Rare 6L6S			//																								
+//	 [Sockets] == "6" && [Linked] <= "5" && [Rarity] == "Normal"  # [SellUnid] == "true"     // Sell 6S Whites			//																								
+//	 [Sockets] == "6" && [Linked] <= "5" && [Rarity] == "Magic"          # [SellUnid] == "true"     // Sell 6S Magic			//																								
+//	 [Sockets] == "6" && [Linked] <= "5" && [Rarity] == "Rare"          # [SellUnid] == "true"     // Sell 6S Rare			//																								
 				//																								
 	//// 17F 機會石點裝備 (機會石不足會造成爆倉 請謹慎開啟）			//																								
-	[Type] == "Leather Belt"                # [ChanceItem] == "true" && [Rarity] == "Normal" // Headhunter(獵首)			//	//自動撿皮革點獵首	關閉中																						
-	[Type] == "Heavy Belt"                # [ChanceItem] == "true" && [Rarity] == "Normal" // BloodMage			//	//自動撿重革點魔血	關閉中																						
-	[Type] == "Champion Kite Shield"                # [ChanceItem] == "true" && [Rarity] == "Normal" // AA盾			//																								
+//	[Type] == "Leather Belt"                # [ChanceItem] == "true" && [Rarity] == "Normal" // Headhunter(獵首)			//	//自動撿皮革點獵首	關閉中																						
+//	[Type] == "Heavy Belt"                # [ChanceItem] == "true" && [Rarity] == "Normal" // BloodMage			//	//自動撿重革點魔血	關閉中																						
+				//																								
 	//// 18F 藥水（預設關閉）			//																								
 				//																								
 //	[Type] == "Quicksilver Flask" # 	[StashItem]	 == "true" 	//	//水銀藥劑	不撿不存倉																						
@@ -2019,26 +2019,26 @@
 	[Type]  == "Charged Compass" # 	[StashItem]	 == "true" // 		充能的羅盤	拾取且存倉																						
 	[Type]  == "Exceptional Eldritch Ember" # 	[StashItem]	 == "true" // 		宏偉異能灰燼	拾取且存倉																						
 	[Type]  == "Grand Eldritch Ember" # 	[StashItem]	 == "true" // 		卓越	拾取且存倉																						
-	[Type]  == "Greater Eldritch Ember" # 	[StashItem]	 == "true" // 		高階	拾取且存倉																						
-	[Type]  == "Lesser Eldritch Ember" # 	[StashItem]	 == "true" // 		低階	拾取且存倉																						
+//	[Type]  == "Greater Eldritch Ember" # 	[StashItem]	 == "true" // 		高階	拾取且存倉																						
+//	[Type]  == "Lesser Eldritch Ember" # 	[StashItem]	 == "true" // 		低階	拾取且存倉																						
 	[Type]  == "Exceptional Eldritch Ichor" # 	[StashItem]	 == "true" // 		宏偉異能靈液	拾取且存倉																						
 	[Type]  == "Grand Eldritch Ichor" # 	[StashItem]	 == "true" // 		卓越	拾取且存倉																						
-	[Type]  == "Greater Eldritch Ichor" # 	[StashItem]	 == "true" // 		高階	拾取且存倉																						
-	[Type]  == "Lesser Eldritch Ichor" # 	[StashItem]	 == "true" // 		低階	拾取且存倉																						
+//	[Type]  == "Greater Eldritch Ichor" # 	[StashItem]	 == "true" // 		高階	拾取且存倉																						
+//	[Type]  == "Lesser Eldritch Ichor" # 	[StashItem]	 == "true" // 		低階	拾取且存倉																						
 	[Type]  == "Orb of Conflict" # 	[StashItem]	 == "true" // 		衝突寶珠	拾取且存倉																						
 	[Type]  == "Orb of Dominance" # 	[StashItem]	 == "true" // 		統領之玉(原釋界之玉)	拾取且存倉																						
 	[Type]  == "Eldritch Exalted Orb" # 	[StashItem]	 == "true" // 		異能崇高石	拾取且存倉																						
 	[Type]  == "Eldritch Orb of Annulment" # 	[StashItem]	 == "true" // 		異能無效石	拾取且存倉																						
 	[Type]  == "Eldritch Chaos Orb" # 	[StashItem]	 == "true" // 		異能混沌石	拾取且存倉																						
-	[Type]  == "Singular Scouting Report" # 	[StashItem]	 == "true" // 		偵查報告	拾取且存倉																						
-	[Type]  == "Otherworldly Scouting Report" # 	[StashItem]	 == "true" // 		偵查報告	拾取且存倉																						
-	[Type]  == "Comprehensive Scouting Report" # 	[StashItem]	 == "true" // 		偵查報告	拾取且存倉																						
-	[Type]  == "Vaal Scouting Report" # 	[StashItem]	 == "true" // 		偵查報告	拾取且存倉																						
-	[Type]  == "Delirious Scouting Report" # 	[StashItem]	 == "true" // 		偵查報告	拾取且存倉																						
-	[Type]  == "Operative's Scouting Report" # 	[StashItem]	 == "true" // 		偵查報告	拾取且存倉																						
-	[Type]  == "Blighted Scouting Report" # 	[StashItem]	 == "true" // 		偵查報告	拾取且存倉																						
-	[Type]  == "Influenced Scouting Report" # 	[StashItem]	 == "true" // 		偵查報告	拾取且存倉																						
-	[Type]  == "Explorer's Scouting Report" # 	[StashItem]	 == "true" // 		偵查報告	拾取且存倉																						
+//	[Type]  == "Singular Scouting Report" # 	[StashItem]	 == "true" // 		偵查報告	拾取且存倉																						
+//	[Type]  == "Otherworldly Scouting Report" # 	[StashItem]	 == "true" // 		偵查報告	拾取且存倉																						
+//	[Type]  == "Comprehensive Scouting Report" # 	[StashItem]	 == "true" // 		偵查報告	拾取且存倉																						
+//	[Type]  == "Vaal Scouting Report" # 	[StashItem]	 == "true" // 		偵查報告	拾取且存倉																						
+//	[Type]  == "Delirious Scouting Report" # 	[StashItem]	 == "true" // 		偵查報告	拾取且存倉																						
+//	[Type]  == "Operative's Scouting Report" # 	[StashItem]	 == "true" // 		偵查報告	拾取且存倉																						
+//	[Type]  == "Blighted Scouting Report" # 	[StashItem]	 == "true" // 		偵查報告	拾取且存倉																						
+//	[Type]  == "Influenced Scouting Report" # 	[StashItem]	 == "true" // 		偵查報告	拾取且存倉																						
+//	[Type]  == "Explorer's Scouting Report" # 	[StashItem]	 == "true" // 		偵查報告	拾取且存倉																						
 	[Type]  == "Oil Extractor" # 	[StashItem]	 == "true" // 		採油器	拾取且存倉																						
 	[Type]  == "Drox's Crest" # 	[StashItem]	 == "true" // 		總督軍碎片	拾取且存倉																						
 	[Type]  == "Baran's Crest" # 	[StashItem]	 == "true" // 		聖戰士碎片	拾取且存倉																						
@@ -2052,29 +2052,4 @@
 	[Type]  == "Augmenting Power Core" # 	[StashItem]	 == "true" // 		//提升動力核心	拾取且存倉																						
 	[Type]  == "Armour Recombinator" # 	[StashItem]	 == "true" // 		//護甲重組裝置	拾取且存倉																						
 	[Type]  == "Amplifying Power Core" # 	[StashItem]	 == "true" // 		//增強動力核心	拾取且存倉																						
-	[Type] == "Ancient Apex Sentinel" && [Rarity] == "Rare"#	[ForceSellItem]	 == "true" // 		//古代的巔峰守望	拾取且售出																						
-	[Type] == "Ancient Pandemonium Sentinel" && [Rarity] == "Rare"#	[ForceSellItem]	 == "true" // 		//古代的萬劫守望	拾取且售出																						
-	[Type] == "Ancient Stalker Sentinel" && [Rarity] == "Rare"#	[ForceSellItem]	 == "true" // 		//古代的潛行守望	拾取且售出																						
-	[Type] == "Brimstone Apex Sentinel" && [Rarity] == "Rare"#	[ForceSellItem]	 == "true" // 		//硫磺的巔峰守望	拾取且售出																						
-	[Type] == "Brimstone Pandemonium Sentinel" && [Rarity] == "Rare"#	[ForceSellItem]	 == "true" // 		//硫磺的萬劫守望	拾取且售出																						
-	[Type] == "Brimstone Stalker Sentinel" && [Rarity] == "Rare"#	[ForceSellItem]	 == "true" // 		//硫磺的潛行守望	拾取且售出																						
-	[Type] == "Bronze Apex Sentinel" && [Rarity] == "Rare"#	[ForceSellItem]	 == "true" // 		//青銅的巔峰守望	拾取且售出																						
-	[Type] == "Bronze Pandemonium Sentinel" && [Rarity] == "Rare"#	[ForceSellItem]	 == "true" // 		//青銅的萬劫守望	拾取且售出																						
-	[Type] == "Bronze Stalker Sentinel" && [Rarity] == "Rare"#	[ForceSellItem]	 == "true" // 		//青銅的潛行守望	拾取且售出																						
-	[Type] == "Cobalt Apex Sentinel" && [Rarity] == "Rare"#	[ForceSellItem]	 == "true" // 		//鈷藍的巔峰守望	拾取且售出																						
-	[Type] == "Cobalt Pandemonium Sentinel" && [Rarity] == "Rare"#	[ForceSellItem]	 == "true" // 		//鈷藍的萬劫守望	拾取且售出																						
-	[Type] == "Cobalt Stalker Sentinel" && [Rarity] == "Rare"#	[ForceSellItem]	 == "true" // 		//鈷藍的潛行守望	拾取且售出																						
-	[Type] == "Cosmic Apex Sentinel" && [Rarity] == "Rare"#	[ForceSellItem]	 == "true" // 		//宇宙的巔峰守望	拾取且售出																						
-	[Type] == "Cryptic Apex Sentinel" && [Rarity] == "Rare"#	[ForceSellItem]	 == "true" // 		//神秘的巔峰守望	拾取且售出																						
-	[Type] == "Cryptic Pandemonium Sentinel" && [Rarity] == "Rare"#	[ForceSellItem]	 == "true" // 		//神秘的萬劫守望	拾取且售出																						
-	[Type] == "Cryptic Stalker Sentinel" && [Rarity] == "Rare"#	[ForceSellItem]	 == "true" // 		//神秘的潛行守望	拾取且售出																						
-	[Type] == "Emberstone Apex Sentinel" && [Rarity] == "Rare"#	[ForceSellItem]	 == "true" // 		//灰石的巔峰守望	拾取且售出																						
-	[Type] == "Emberstone Pandemonium Sentinel" && [Rarity] == "Rare"#	[ForceSellItem]	 == "true" // 		//灰石的萬劫守望	拾取且售出																						
-	[Type] == "Emberstone Stalker Sentinel" && [Rarity] == "Rare"#	[ForceSellItem]	 == "true" // 		//灰石的潛行守望	拾取且售出																						
-	[Type] == "Obsidian Apex Sentinel" && [Rarity] == "Rare"#	[ForceSellItem]	 == "true" // 		//黑曜的巔峰守望	拾取且售出																						
-	[Type] == "Obsidian Pandemonium Sentinel" && [Rarity] == "Rare"#	[ForceSellItem]	 == "true" // 		//黑曜的萬劫守望	拾取且售出																						
-	[Type] == "Obsidian Stalker Sentinel" && [Rarity] == "Rare"#	[ForceSellItem]	 == "true" // 		//黑曜的潛行守望	拾取且售出																						
-	[Type] == "Primeval Apex Sentinel" && [Rarity] == "Rare"#	[ForceSellItem]	 == "true" // 		//原始的巔峰守望	拾取且售出																						
-	[Type] == "Primeval Pandemonium Sentinel" && [Rarity] == "Rare"#	[ForceSellItem]	 == "true" // 		//原始的萬劫守望	拾取且售出																						
-	[Type] == "Primeval Stalker Sentinel" && [Rarity] == "Rare"#	[ForceSellItem]	 == "true" // 		//原始的潛行守望	拾取且售出																						
-	[Type] == "Rusted Stalker Sentinel" && [Rarity] == "Rare"#	[ForceSellItem]	 == "true" // 		//鏽蝕的潛行守望	拾取且售出																						
+																				
