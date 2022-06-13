@@ -788,7 +788,7 @@
 				//																								
 	//// 15F 輿圖			//																								
 	[Category] == "Map" && [MapTier] >= "1"         # [StashItem] == "true" // Take all Maps & Ignore all Contract/Blueprints/Incubators			//	//輿圖	撿取所有地圖																						
-	[Category] == "Map" && [MapTier] >= "1" && [Rarity] == "Rare"        # [StashItem] == "true" //				//黃圖全部賣掉																							
+	[Category] == "Map" && [MapTier] >= "1" && [Rarity] == "Rare"        # [ForceSellItem] == "true" //				//黃圖全部賣掉																							
 	// Sacrifice Set			//																								
 	[Type] == "Sacrifice at Dawn"        # 	[StashItem]	 == "true" 	//	//黎明的奉獻	拾取且存倉																						
 	[Type] == "Sacrifice at Noon"        # 	[StashItem]	 == "true" 	//	//正午的奉獻	拾取且存倉																						
