@@ -1,4 +1,8 @@
-	////3.18 刷門票超效率！注意你倉庫可能會很空		//更動後請看這邊會提示	//		存倉或售出																						
+//[Type] == "Writhing Invitation" # [StashItem] == "true" //任務道具  小藍 
+[Type] == "Screaming Invitation" # [StashItem] == "true" //任務道具  藍 
+//[Type] == "Polaric Invitation" # [StashItem] == "true" //任務道具  小洪 
+[Type] == "Incandescent Invitation" # [StashItem] == "true" //任務道具  洪
+////3.18 刷門票超效率！注意你倉庫可能會很空		//更動後請看這邊會提示	//		存倉或售出																						
 //	//// 目錄 請使用CTRL＋F 搜尋樓層		建議使用無黃裝過濾器	//																								
 //	1F 黃裝鑑定換改造		9	//																								
 //	2F 基礎通貨		22F 基拉客物品	//																								
