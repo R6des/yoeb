@@ -36,9 +36,9 @@
 				//																								
 	//// 2F 基礎通貨			//	
 
-[Type] == "Writhing Invitation" # [StashItem] == "true" //任務道具	 小藍	
+//[Type] == "Writhing Invitation" # [StashItem] == "true" //任務道具	 小藍	
 [Type] == "Screaming Invitation" # [StashItem] == "true" //任務道具	 藍	
-[Type] == "Polaric Invitation" # [StashItem] == "true" //任務道具	 小洪	
+//[Type] == "Polaric Invitation" # [StashItem] == "true" //任務道具	 小洪	
 [Type] == "Incandescent Invitation" # [StashItem] == "true" //任務道具	 洪	
 
 																					
