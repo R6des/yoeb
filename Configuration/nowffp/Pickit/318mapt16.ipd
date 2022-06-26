@@ -1760,7 +1760,7 @@
 	[Type] == "Lathi" && [Rarity] == "Unique" # [fire_spell_skill_gem_level_+] >= "1" && [ForceSellItem] == "true" // The Searing Touch				//熾炎之使 武術長杖	拾取且售出																						
 	[Type] == "Maelström Staff" && [Rarity] == "Unique" # [keystone_battlemage] >= "1" && [ForceSellItem] == "true" // Disintegrator				//滅碎獠杖 風暴長杖	拾取且售出																						
 	[Type]== "Void Axe" && [Rarity] == "Unique" # [enemies_explode_on_kill] >= "1" && [ForceSellItem] == "true" // Kitava's Feast				//奇塔弗之盛宴 虛影巨斧	拾取且售出																						
-	[Type] == "Maelström Staff" && [Rarity] == "Unique" # [base_chance_to_freeze_+%] >= "1" && [ForceSellItem] == "true" // Taryn's Shiver				//塔林的顫慄之語 風暴長杖	拾取且售出																						
+	[Type] == "Maelström Staff" && [Rarity] == "Unique" # [base_cast_speed_+%] >= "1" && [ForceSellItem] == "true" // Taryn's Shiver				//塔林的顫慄之語 風暴長杖	拾取且售出																						
 	[Type] == "Military Staff" && [Rarity] == "Unique" # [mine_extra_uses] >= "1" && [ForceSellItem] == "true" // Tremor Rod				//顫抖之杖 軍用長杖	拾取且售出																						
 	[Type] == "Primordial Staff" && [Rarity] == "Unique" # [additional_attack_block_%_per_summoned_skeleton] >= "1" && [ForceSellItem] == "true" // Femurs of the Saints				//史典長杖	拾取且售出																						
 	[Type] == "Royal Staff" && [Rarity] == "Unique" # [avoid_shock_%_while_chilled] >= "1" && [ForceSellItem] == "true" // The Stormheart				//風暴之眼 皇家長杖	拾取且售出																						
