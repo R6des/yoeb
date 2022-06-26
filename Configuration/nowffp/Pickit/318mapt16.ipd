@@ -1,4 +1,9 @@
-	////3.18 刷門票超效率！注意你倉庫可能會很空		//更動後請看這邊會提示	//		存倉或售出																						
+[Type] == "Leather Hood" && [Rarity] == "Unique" # [fire_and_cold_damage_resistance_+%] >= "1" && [ForceSellItem] == "true" // Frostferno    //霜獄 革兜 拾取且售出   
+[Type] == "Royal Bow" && [Rarity] == "Unique" # [weapon_physical_damage_+%_to_add_as_random_element] >= "1" && [ForceSellItem] == "true" // Doomfletch - [Ancient Doom] - Doomfletch     //滅世 皇家獵弓 及 滅世之獄 皇家獵弓 拾取且售出
+
+
+
+////3.18 刷門票超效率！注意你倉庫可能會很空		//更動後請看這邊會提示	//		存倉或售出																						
 //	//// 目錄 請使用CTRL＋F 搜尋樓層		建議使用無黃裝過濾器	//																								
 //	1F 黃裝鑑定換改造		9	//																								
 //	2F 基礎通貨		22F 基拉客物品	//																								
@@ -1755,7 +1760,7 @@
 	[Type] == "Lathi" && [Rarity] == "Unique" # [fire_spell_skill_gem_level_+] >= "1" && [ForceSellItem] == "true" // The Searing Touch				//熾炎之使 武術長杖	拾取且售出																						
 	[Type] == "Maelström Staff" && [Rarity] == "Unique" # [keystone_battlemage] >= "1" && [ForceSellItem] == "true" // Disintegrator				//滅碎獠杖 風暴長杖	拾取且售出																						
 	[Type]== "Void Axe" && [Rarity] == "Unique" # [enemies_explode_on_kill] >= "1" && [ForceSellItem] == "true" // Kitava's Feast				//奇塔弗之盛宴 虛影巨斧	拾取且售出																						
-	[Type] == "Maelström Staff" && [Rarity] == "Unique" # [frozen_monsters_take_increased_damage] >= "1" && [ForceSellItem] == "true" // Taryn's Shiver				//塔林的顫慄之語 風暴長杖	拾取且售出																						
+	[Type] == "Maelström Staff" && [Rarity] == "Unique" # [base_chance_to_freeze_+%] >= "1" && [ForceSellItem] == "true" // Taryn's Shiver				//塔林的顫慄之語 風暴長杖	拾取且售出																						
 	[Type] == "Military Staff" && [Rarity] == "Unique" # [mine_extra_uses] >= "1" && [ForceSellItem] == "true" // Tremor Rod				//顫抖之杖 軍用長杖	拾取且售出																						
 	[Type] == "Primordial Staff" && [Rarity] == "Unique" # [additional_attack_block_%_per_summoned_skeleton] >= "1" && [ForceSellItem] == "true" // Femurs of the Saints				//史典長杖	拾取且售出																						
 	[Type] == "Royal Staff" && [Rarity] == "Unique" # [avoid_shock_%_while_chilled] >= "1" && [ForceSellItem] == "true" // The Stormheart				//風暴之眼 皇家長杖	拾取且售出																						
@@ -2018,15 +2023,15 @@
 	// Utility FlasksUtility Flasks																											
 	[Type] == "Amethyst Flask" && [Rarity] == "Unique" # [local_unique_flask_physical_damage_%_to_add_as_chaos_while_healing] >= "1" && [local_unique_flask_elemental_damage_%_to_add_as_chaos_while_healing] >= "1" && [ForceSellItem] == "true" // Atziri's PromiseAtziri's Promise				//垃圾藥劑或eb無法取得之藥劑	拾取且售出																						
 	[Type] == "Bismuth Flask" && [Rarity] == "Unique" # [local_unique_flask_elemental_penetration_%_of_highest_uncapped_resistance_type] >= "1" && [ForceSellItem] == "true" // The Wise OakThe Wise Oak				//垃圾藥劑或eb無法取得之藥劑	拾取且售出																						
-	[Type] == "Diamond Flask" && [Rarity] == "Unique" # [local_poison_duration_+%_during_flask_effect] >= "1" && [ForceSellItem] == "true" // Coralito's SignatureCoralito's Signature				//垃圾藥劑或eb無法取得之藥劑	拾取且售出																						
+	[Type] == "Diamond Flask" && [Rarity] == "Unique" # [local_chance_to_poison_on_hit_+%_during_flask_effect] >= "1" && [ForceSellItem] == "true" // Coralito's SignatureCoralito's Signature				//垃圾藥劑或eb無法取得之藥劑	拾取且售出																						
 	[Type] == "Quartz Flask" && [Rarity] == "Unique" # [local_unique_flask_instantly_recovers_%_maximum_life] >= "1" && [ForceSellItem] == "true" // Forbidden TasteForbidden Taste				//垃圾藥劑或eb無法取得之藥劑	拾取且售出																						
 	[Type] == "Quartz Flask" && [Rarity] == "Unique" # [local_unique_flask_vaal_skill_damage_+%_during_flask_effect] >= "1" && [ForceSellItem] == "true" // Soul CatcherSoul Catcher				//垃圾藥劑或eb無法取得之藥劑	拾取且售出																						
 	[Type] == "Quicksilver Flask" && [Rarity] == "Unique" # [local_charges_used_+%] >= "1" && [local_flask_movement_speed_+%_while_healing] >= "1" && [ForceSellItem] == "true" // RotgutRotgut				//垃圾藥劑或eb無法取得之藥劑	拾取且售出																						
 	[Type] == "Ruby Flask" && [Rarity] == "Unique" # [local_unique_chaos_damage_does_not_bypass_energy_shield_during_flask_effect] >= "1" && [ForceSellItem] == "true" // Coruscating ElixirCoruscating Elixir				//垃圾藥劑或eb無法取得之藥劑	拾取且售出																						
 	[Type] == "Silver Flask" && [Rarity] == "Unique" # [local_unique_flask_kiaras_determination] >= "1" && [ForceSellItem] == "true" // Kiara's DeterminationKiara's Determination				//垃圾藥劑或eb無法取得之藥劑	拾取且售出																						
 	[Type] == "Stibnite Flask" && [Rarity] == "Unique" # [local_unique_flask_damage_over_time_+%_during_flask_effect] >= "1" && [ForceSellItem] == "true" // Witchfire BrewWitchfire Brew				//垃圾藥劑或eb無法取得之藥劑	拾取且售出																						
-	[Type] == "Sulphur Flask" && [Rarity] == "Unique" # [local_flask_duration_+%] >= "1" && [local_unique_overflowing_chalice_flask_cannot_gain_flask_charges_during_flask_effect] >= "1" && [ForceSellItem] == "true" //The Overflowing ChaliceThe Overflowing Chalice				//垃圾藥劑或eb無法取得之藥劑	拾取且售出																						
-	[Type] == "Sulphur Flask" && [Rarity] == "Unique" # [local_flask_duration_+%] >= "1" && [local_flask_zealots_oath] >= "1" && [ForceSellItem] == "true" // The Sorrow of the DivineThe Sorrow of the Divine				//垃圾藥劑或eb無法取得之藥劑	拾取且售出																						
+	[Type] == "Sulphur Flask" && [Rarity] == "Unique" # [local_unique_overflowing_chalice_flask_cannot_gain_flask_charges_during_flask_effect] >= "1" && [ForceSellItem] == "true" //The Overflowing Chalice		//垃圾藥劑或eb無法取得之藥劑	拾取且售出																						
+	[Type] == "Sulphur Flask" && [Rarity] == "Unique" # [local_flask_zealots_oath] >= "1" && [ForceSellItem] == "true" // The Sorrow of the DivineThe Sorrow of the Divine				//垃圾藥劑或eb無法取得之藥劑	拾取且售出																						
 	//// 22F 基拉克物品																											
 	[Type]  == "Surveyors Compass" #  	[StashItem]	 == "true" // 		測量員的羅盤	拾取且存倉																						
 	[Type]  == "Charged Compass" # 	[StashItem]	 == "true" // 		充能的羅盤	拾取且存倉																						
