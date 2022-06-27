@@ -1,5 +1,10 @@
 [Type] == "Leather Hood" && [Rarity] == "Unique" # [fire_and_cold_damage_resistance_+%] >= "1" && [ForceSellItem] == "true" // Frostferno    //霜獄 革兜 拾取且售出   
 [Type] == "Royal Bow" && [Rarity] == "Unique" # [weapon_physical_damage_+%_to_add_as_random_element] >= "1" && [ForceSellItem] == "true" // Doomfletch - [Ancient Doom] - Doomfletch     //滅世 皇家獵弓 及 滅世之獄 皇家獵弓 拾取且售出
+[Type] == "Wyrmscale Doublet" && [Rarity] == "Unique" # [physical_damage_+%] >= "1" && [ForceSellItem] == "true" // Gruthkul's Pelt // 葛魯斯寇真皮 龍鱗戰甲 拾取且售出
+[Type] == "lack Maw Talisman" && [Rarity] == "Unique" # [local_socketed_gem_level_+] >= "1" && [ForceSellItem] == "true" // Night's Hold // 夜守 黑牙魔符 拾取且售出
+[Type] == "Simple Robe" && [Rarity] == "Unique" # [local_unique_tabula_rasa_no_requirement_or_energy_shield] >= "1" && [ForceSellItem] == "true" // Tabula Rasa // 白袍 拾取且售出
+[Type] == "Stibnite Flask" && [Rarity] == "Unique" # [local_charges_used_+%] >= "-10" && [ForceSellItem] == "true" // Witchfire Brew // 巫火秘釀 拾取賣出
+[Type] == "Quicksilver Flask" && [Rarity] == "Unique" # [local_flask_movement_speed_+%_while_healing] >= "1" && [ForceSellItem] == "true" // Rotgut傷胃酒拾取賣出				//垃圾藥劑或eb無法取得之藥劑	拾取且售出																						
 
 
 
@@ -9,7 +14,6 @@
 //	2F 基礎通貨		22F 基拉客物品	//																								
 //	3F 瞻妄物品		23F 3.18新增通貨物品	//																								
 //	4F 裂痕物品			//																								
-//	5F 祭祀物品			//																								
 //	6F 劫盜物品			//																								
 //	7F 鍊魔器官			//																								
 //	8F 凋落油瓶			//																								
@@ -2026,7 +2030,7 @@
 	[Type] == "Diamond Flask" && [Rarity] == "Unique" # [local_chance_to_poison_on_hit_+%_during_flask_effect] >= "1" && [ForceSellItem] == "true" // Coralito's SignatureCoralito's Signature				//垃圾藥劑或eb無法取得之藥劑	拾取且售出																						
 	[Type] == "Quartz Flask" && [Rarity] == "Unique" # [local_unique_flask_instantly_recovers_%_maximum_life] >= "1" && [ForceSellItem] == "true" // Forbidden TasteForbidden Taste				//垃圾藥劑或eb無法取得之藥劑	拾取且售出																						
 	[Type] == "Quartz Flask" && [Rarity] == "Unique" # [local_unique_flask_vaal_skill_damage_+%_during_flask_effect] >= "1" && [ForceSellItem] == "true" // Soul CatcherSoul Catcher				//垃圾藥劑或eb無法取得之藥劑	拾取且售出																						
-	[Type] == "Quicksilver Flask" && [Rarity] == "Unique" # [local_charges_used_+%] >= "1" && [local_flask_movement_speed_+%_while_healing] >= "1" && [ForceSellItem] == "true" // RotgutRotgut				//垃圾藥劑或eb無法取得之藥劑	拾取且售出																						
+	[Type] == "Quicksilver Flask" && [Rarity] == "Unique" # [local_flask_movement_speed_+%_while_healing] >= "1" && [ForceSellItem] == "true" // RotgutRotgut				//垃圾藥劑或eb無法取得之藥劑	拾取且售出																						
 	[Type] == "Ruby Flask" && [Rarity] == "Unique" # [local_unique_chaos_damage_does_not_bypass_energy_shield_during_flask_effect] >= "1" && [ForceSellItem] == "true" // Coruscating ElixirCoruscating Elixir				//垃圾藥劑或eb無法取得之藥劑	拾取且售出																						
 	[Type] == "Silver Flask" && [Rarity] == "Unique" # [local_unique_flask_kiaras_determination] >= "1" && [ForceSellItem] == "true" // Kiara's DeterminationKiara's Determination				//垃圾藥劑或eb無法取得之藥劑	拾取且售出																						
 	[Type] == "Stibnite Flask" && [Rarity] == "Unique" # [local_unique_flask_damage_over_time_+%_during_flask_effect] >= "1" && [ForceSellItem] == "true" // Witchfire BrewWitchfire Brew				//垃圾藥劑或eb無法取得之藥劑	拾取且售出																						
