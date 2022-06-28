@@ -1,3 +1,4 @@
+[Type] == "Carved Wand" && [Rarity] == "Unique" # [local_socketed_skill_gem_level_+1_per_X_player_levels] >= "1" && [ForceSellItem] == "true" // The Poet's Pen				//學富之筆 粗紋法杖	拾取且存倉																						
 [Type] == "Leather Hood" && [Rarity] == "Unique" # [fire_and_cold_damage_resistance_+%] >= "1" && [ForceSellItem] == "true" // Frostferno    //霜獄 革兜 拾取且售出   
 [Type] == "Royal Bow" && [Rarity] == "Unique" # [weapon_physical_damage_+%_to_add_as_random_element] >= "1" && [ForceSellItem] == "true" // Doomfletch - [Ancient Doom] - Doomfletch     //滅世 皇家獵弓 及 滅世之獄 皇家獵弓 拾取且售出
 [Type] == "Wyrmscale Doublet" && [Rarity] == "Unique" # [physical_damage_+%] >= "1" && [ForceSellItem] == "true" // Gruthkul's Pelt // 葛魯斯寇真皮 龍鱗戰甲 拾取且售出
@@ -784,7 +785,7 @@
 	//// 14F 星團珠寶			//																								
 //	[Type] == "Large Cluster Jewel" && [Rarity] == "Unique"   # 	[StashItem]	 == "true" 	//	大型星團傳奇	不撿不存倉																						
 //	[Type] == "Medium Cluster Jewel" && [Rarity] == "Unique"  # 	[StashItem]	 == "true" 	//	中型星團傳奇	不撿不存倉																						
-//	[Type] == "Small Cluster Jewel" && [Rarity] == "Unique"   # 	[StashItem]	 == "true" 	//	小型星團傳奇	不撿不存倉																						
+	[Type] == "Small Cluster Jewel" && [Rarity] == "Unique"   # 	[ForceSellItem]	 == "true" 	//	小型星團傳奇	不撿不存倉																						
 //				//																								
 //	[Type] == "Large Cluster Jewel" && [Rarity] == "Rare" # [local_jewel_expansion_passive_node_count] <= "8" && 	[StashItem]	 == "true" 	//	8天賦 大型 稀有	不撿不存倉																						
 //	[Type] == "Large Cluster Jewel" && [Rarity] == "Magic" # [local_jewel_expansion_passive_node_count] <= "8" && 	[StashItem]	 == "true" 	//	8天賦 大型 魔法	不撿不存倉																						
@@ -1092,7 +1093,7 @@
 //基底勿動//	[Type] == "Heavy Belt" && [Rarity] == "Unique" # [ForceSellItem] == "true" // Belt of the Deceiver / Bisco's Leash / Doryani's Invitation / Dyadian Dawn / Meginord's Girdle / Mother's Embrace / Siegebreaker / String of Servitude / Survivor's Guilt				//重革腰帶 魔血基底勿動	拾取且存倉																						
 	[Type] == "Heavy Belt" && [Rarity] == "Unique" # [local_display_nearby_enemies_are_intimidated] >= "1" && [ForceSellItem] == "true" // Belt of the Deceiver				//重革腰帶	拾取且售出																						
 //	[Type] == "Heavy Belt" && [Rarity] == "Unique" # [item_found_rarity_+1%_per_X_rampage_stacks] >= "1" && [ForceSellItem] == "true" // Bisco's Leash				//畢斯寇繫帶 重革腰帶	拾取且存倉																						
-//	[Type] == "Heavy Belt" && [Rarity] == "Unique" # [faster_burn_from_attacks_%] >= "1" && [ForceSellItem] == "true" // Dyadian Dawn				//戴亞迪安的晨曦 重革腰帶	拾取且存倉																						
+	[Type] == "Heavy Belt" && [Rarity] == "Unique" # [faster_burn_from_attacks_+%] >= "1" && [ForceSellItem] == "true" // Dyadian Dawn				//戴亞迪安的晨曦 重革腰帶	拾取且存倉																						
 	[Type] == "Heavy Belt" && [Rarity] == "Unique" # [flask_life_recovery_rate_+%] >= "1" && [ForceSellItem] == "true" // Meginord's Girdle				//梅吉諾德的力量泉源 重革腰帶	拾取且售出																						
 	[Type] == "Heavy Belt" && [Rarity] == "Unique" # [minions_use_parents_flasks_on_summon] >= "1" && [ForceSellItem] == "true" // Mother's Embrace				//母親的擁抱 重革腰帶	拾取且售出																						
 	[Type] == "Heavy Belt" && [Rarity] == "Unique" # [minion_caustic_cloud_on_death_maximum_life_per_minute_to_deal_as_chaos_damage_%] >= "1" && [ForceSellItem] == "true" // Siegebreaker				//突圍 重革腰帶	拾取且售出																						
@@ -1722,7 +1723,7 @@
 	[Type] == "Royal Sceptre" && [Rarity] == "Unique" # [summoned_phantasms_grant_buff] >= "1" && [ForceSellItem] == "true" // The Black Cane				//黑藤 皇家權杖	拾取且售出																						
 	[Type] == "Shadow Sceptre" && [Rarity] == "Unique" # [local_display_socketed_gems_supported_by_x_reduced_mana_cost] >= "1" && [ForceSellItem] == "true" // Bitterdream				//苦夢 影語權杖	拾取且售出																						
 	[Type] == "Shadow Sceptre" && [Rarity] == "Unique" # [enemies_blinded_by_you_while_blinded_have_malediction] >= "1" && [ForceSellItem] == "true" // The Dark Seer				//黯黑賢者 影語權杖	拾取且售出																						
-	[Type] == "Tyrant's Sekhem" && [Rarity] == "Unique" # [redirect_elemental_ailments_to_aura_owner] >= "1" && [ForceSellItem] == "true" // Sign of the Sin Eater				//暴君之統	拾取且售出																						
+	[Type] == "Tyrant's Sekhem" && [Rarity] == "Unique" # [elemental_damage_+%] >= "1" && [ForceSellItem] == "true" // Sign of the Sin Eater				//暴君之統	拾取且售出																						
 	[Type] == "Vaal Sceptre" && [Rarity] == "Unique" # [local_display_socketed_gems_get_iron_will_level] >= "1" && [ForceSellItem] == "true" // Doon Cuebiyari				//黑鋼 瓦爾權杖	拾取且售出																						
 	[Type] == "Vaal Sceptre" && [Rarity] == "Unique" # [local_display_socketed_gems_get_elemental_proliferation_level] >= "1" && [ForceSellItem] == "true" // Doryani's Catalyst				//多里亞尼的幻化之杖 瓦爾權杖	拾取且售出																						
 	[Type] == "Void Sceptre" && [Rarity] == "Unique" # [elemental_overload_rotation_active] >= "1" && [ForceSellItem] == "true" // Augyre				//相星占卜 虛影權杖	拾取且售出																						
@@ -2052,15 +2053,15 @@
 	[Type]  == "Eldritch Exalted Orb" # 	[StashItem]	 == "true" // 		異能崇高石	拾取且存倉																						
 	[Type]  == "Eldritch Orb of Annulment" # 	[StashItem]	 == "true" // 		異能無效石	拾取且存倉																						
 	[Type]  == "Eldritch Chaos Orb" # 	[StashItem]	 == "true" // 		異能混沌石	拾取且存倉																						
-//	[Type]  == "Singular Scouting Report" # 	[StashItem]	 == "true" // 		偵查報告	不撿不存倉																						
-//	[Type]  == "Otherworldly Scouting Report" # 	[StashItem]	 == "true" // 		偵查報告	不撿不存倉																						
-//	[Type]  == "Comprehensive Scouting Report" # 	[StashItem]	 == "true" // 		偵查報告	不撿不存倉																						
-//	[Type]  == "Vaal Scouting Report" # 	[StashItem]	 == "true" // 		偵查報告	不撿不存倉																						
-//	[Type]  == "Delirious Scouting Report" # 	[StashItem]	 == "true" // 		偵查報告	不撿不存倉																						
-//	[Type]  == "Operative's Scouting Report" # 	[StashItem]	 == "true" // 		偵查報告	不撿不存倉																						
-//	[Type]  == "Blighted Scouting Report" # 	[StashItem]	 == "true" // 		偵查報告	不撿不存倉																						
-//	[Type]  == "Influenced Scouting Report" # 	[StashItem]	 == "true" // 		偵查報告	不撿不存倉																						
-//	[Type]  == "Explorer's Scouting Report" # 	[StashItem]	 == "true" // 		偵查報告	不撿不存倉																						
+	[Type]  == "Singular Scouting Report" # 	[ForceSellItem]	 == "true" // 		偵查報告	不撿不存倉																						
+	[Type]  == "Otherworldly Scouting Report" # 	[ForceSellItem]	 == "true" // 		偵查報告	不撿不存倉																						
+	[Type]  == "Comprehensive Scouting Report" # 	[ForceSellItem]	 == "true" // 		偵查報告	不撿不存倉																						
+	[Type]  == "Vaal Scouting Report" # 	[ForceSellItem]	 == "true" // 		偵查報告	不撿不存倉																						
+	[Type]  == "Delirious Scouting Report" # 	[ForceSellItem]	 == "true" // 		偵查報告	不撿不存倉																						
+	[Type]  == "Operative's Scouting Report" # 	[ForceSellItem]	 == "true" // 		偵查報告	不撿不存倉																						
+	[Type]  == "Blighted Scouting Report" # 	[ForceSellItem]	 == "true" // 		偵查報告	不撿不存倉																						
+	[Type]  == "Influenced Scouting Report" # 	[ForceSellItem]	 == "true" // 		偵查報告	不撿不存倉																						
+	[Type]  == "Explorer's Scouting Report" # 	[ForceSellItem]	 == "true" // 		偵查報告	不撿不存倉																						
 //	[Type]  == "Oil Extractor" # 	[StashItem]	 == "true" // 		採油器	不撿不存倉																						
 	[Type]  == "Drox's Crest" # 	[StashItem]	 == "true" // 		總督軍碎片	拾取且存倉																						
 	[Type]  == "Baran's Crest" # 	[StashItem]	 == "true" // 		聖戰士碎片	拾取且存倉																						
