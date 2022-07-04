@@ -1,7 +1,7 @@
 // 0704 //
 [Type] == "Stibnite Flask" && [Rarity] == "Unique" # [local_flask_ignite_immunity_if_ignited_and_remove_burning] >= "1" && [ForceSellItem] == "true" // Sin's Rebirth				//再生的罪惡 // 拾取且賣出																	
 [Type] == "Eternal Burgonet" && [Rarity] == "Unique" # [local_physical_damage_reduction_rating_+%] >= "1" && [ForceSellItem] == "true" // 篡位者的懺悔 拾取且賣出				//學富之筆 粗紋法杖	拾取且存倉																						
-[Type] == "Granite Flask" && [Rarity] == "Unique" # [local_unique_lions_roar_melee_physical_damage_+%_final_during_flask_effect] >= "1" && [ForceSellItem] == "true" // lino's roar				//獅吼精華	拾取且售出																						
+[Type] == "Granite Flask" && [Rarity] == "Unique" # [local_unique_lions_roar_melee_physical_damage_+%_final_during_flask_effect] >= "1" && [ForceSellItem] == "true" // lio's roar				//獅吼精華	拾取且售出																						
 [Type] == "Clutching Tailsman" && [Rarity] == "Unique" # [base_fire_damage_resistance_+%] >= "1"  && [ForceSellItem] == "true" //  枯井 咒箍魔符// 拾取且賣出	
 [Type] == "Wereclaw Tailsman" && [Rarity] == "Unique" #   [base_melee_critical_strike_chance_while_unarmed_+%] >= "1"  && [ForceSellItem] == "true"//   瑞佛祖咒 亡爪魔符// 拾取且賣出
 [Type] == "Rotfeather Tailsman" && [Rarity] == "Unique" # [physical_damage_+%] >= "1"  && [ForceSellItem] == "true" //   自然組織 死羽魔符// 拾取且賣出
