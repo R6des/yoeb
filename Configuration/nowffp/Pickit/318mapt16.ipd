@@ -1,6 +1,12 @@
-[Type] == "Carved Wand" && [Rarity] == "Unique" # [local_socketed_skill_gem_level_+1_per_X_player_levels] >= "1" && [ForceSellItem] == "true" // The Poet's Pen				//學富之筆 粗紋法杖	拾取且存倉																						
+// 0704 //
+[Type] == "Stibnite Flask" && [Rarity] == "Unique" # [local_flask_ignite_immunity_if_ignited_and_remove_burning] >= "1" && [ForceSellItem] == "true" // Sin's Rebirth				//再生的罪惡 // 拾取且賣出																	
 [Type] == "Eternal Burgonet" && [Rarity] == "Unique" # [local_physical_damage_reduction_rating_+%] >= "1" && [ForceSellItem] == "true" // 篡位者的懺悔 拾取且賣出				//學富之筆 粗紋法杖	拾取且存倉																						
 [Type] == "Granite Flask" && [Rarity] == "Unique" # [local_unique_lions_roar_melee_physical_damage_+%_final_during_flask_effect] >= "1" && [ForceSellItem] == "true" // lino's roar				//獅吼精華	拾取且售出																						
+[Type] == "Clutching Tailsman" && [Rarity] == "Unique" # [ForceSellItem] == "true" //  枯井 咒哭魔符// 拾取且賣出	
+[Type] == "Black Maw Talisman" && [Rarity] == "Unique" # [ForceSellItem] == "true" //  夜守 黑牙魔符// 拾取且售出
+[Type] == "Wereclaw Tailsman" && [Rarity] == "Unique" # [ForceSellItem] == "true" //   瑞佛祖咒 亡爪魔符// 拾取且賣出
+
+[Type] == "Carved Wand" && [Rarity] == "Unique" # [local_socketed_skill_gem_level_+1_per_X_player_levels] >= "1" && [ForceSellItem] == "true" // The Poet's Pen				//學富之筆 粗紋法杖	拾取且存倉																						
 [Type] == "Leather Hood" && [Rarity] == "Unique" # [fire_and_cold_damage_resistance_+%] >= "1" && [ForceSellItem] == "true" // Frostferno    //霜獄 革兜 拾取且售出   
 [Type] == "Royal Bow" && [Rarity] == "Unique" # [weapon_physical_damage_+%_to_add_as_random_element] >= "1" && [ForceSellItem] == "true" // Doomfletch - [Ancient Doom] - Doomfletch     //滅世 皇家獵弓 及 滅世之獄 皇家獵弓 拾取且售出
 [Type] == "Wyrmscale Doublet" && [Rarity] == "Unique" # [physical_damage_+%] >= "1" && [ForceSellItem] == "true" // Gruthkul's Pelt // 葛魯斯寇真皮 龍鱗戰甲 拾取且售出
@@ -112,41 +118,41 @@
 //	[Type] == "Stacked Deck" # 	[StashItem]	 == "true"	//	//豐裕牌組	不撿不存倉																						
 	[Type] == "Unshaping Orb" # 	[StashItem]	 == "true"	//	//還原玉	拾取且存倉																						
 	[Type] == "Albino Rhoa Feather" # 	[StashItem]	 == "true"	//	//白化的羽毛	拾取且存倉																						
-	[Type] == "Offering to the Goddess" # 	[StashItem]	 == "true"	//	//女神祭品	拾取且存倉																						
-	[Type] == "Dedication to the Goddess" # 	[StashItem]	 == "true"	//	//女神奉獻	拾取且存倉																						
-	[Type] == "Tribute to the Goddess" # 	[StashItem]	 == "true"	//		拾取且存倉																						
-	[Type] == "Gift to the Goddess" # 	[StashItem]	 == "true"	//	//女神之贈	拾取且存倉																						
+//	[Type] == "Offering to the Goddess" # 	[StashItem]	 == "true"	//	//女神祭品	拾取且存倉																						
+//	[Type] == "Dedication to the Goddess" # 	[StashItem]	 == "true"	//	//女神奉獻	拾取且存倉																						
+//	[Type] == "Tribute to the Goddess" # 	[StashItem]	 == "true"	//		拾取且存倉																						
+//	[Type] == "Gift to the Goddess" # 	[StashItem]	 == "true"	//	//女神之贈	拾取且存倉																						
 	[Type] == "Awakener's Orb" # 	[StashItem]	 == "true"	//	//喚醒者之玉	拾取且存倉																						
 	[Type] == "Crusader's Exalted Orb" # 	[StashItem]	 == "true"	//	//聖戰士的崇高石	拾取且存倉																						
 	[Type] == "Hunter's Exalted Orb" # 	[StashItem]	 == "true"	//	//狩獵者的崇高石	拾取且存倉																						
 	[Type] == "Redeemer's Exalted Orb" # 	[StashItem]	 == "true"	//	//救贖者的崇高石	拾取且存倉																						
 	[Type] == "Warlord's Exalted Orb" # 	[StashItem]	 == "true"	//	//總督軍的崇高石	拾取且存倉																						
 	//// 3F 瞻妄物品			//																								
-	[Type] == "Abyssal Delirium Orb" # 	[StashItem]	 == "true"	//	//深淵之譫妄玉	拾取且存倉																						
-	[Type] == "Blighted Delirium Orb" # 	[StashItem]	 == "true"	//	//凋落之譫妄玉	拾取且存倉																						
-	[Type] == "Diviner's Delirium Orb" # 	[StashItem]	 == "true"	//	//聖人之譫妄玉	拾取且存倉																						
-	[Type] == "Fine Delirium Orb" # 	[StashItem]	 == "true"	//	//精良之譫妄玉	拾取且存倉																						
-	[Type] == "Fossilised Delirium Orb" # 	[StashItem]	 == "true"	//	//石化之譫妄玉	拾取且存倉																						
-	[Type] == "Imperial Delirium Orb" # 	[StashItem]	 == "true"	//	//帝王之譫妄玉	拾取且存倉																						
-	[Type] == "Portentous Delirium Orb" # 	[StashItem]	 == "true"	//	//預兆之譫妄玉	拾取且存倉																						
-	[Type] == "Singular Delirium Orb" # 	[StashItem]	 == "true"	//	//卓越之譫妄玉	拾取且存倉																						
-	[Type] == "Skittering Delirium Orb" # 	[StashItem]	 == "true"	//	//飛掠之譫妄玉	拾取且存倉																						
-	[Type] == "Thaumaturge's Delirium Orb" # 	[StashItem]	 == "true"	//	//奇術之譫妄玉	拾取且存倉																						
-	[Type] == "Timeless Delirium Orb" # 	[StashItem]	 == "true"	//	//永恆之譫妄玉	拾取且存倉																						
-	[Type] == "Whispering Delirium Orb" # 	[StashItem]	 == "true"	//	//低語之譫妄玉	拾取且存倉																						
-	[Type] == "Amorphous Delirium Orb" # 	[StashItem]	 == "true"	//	//變態之譫妄玉	拾取且存倉																						
-	[Type] == "Armoursmith's Delirium Orb" # 	[StashItem]	 == "true"	//	//護甲之譫妄玉	拾取且存倉																						
-	[Type] == "Blacksmith's Delirium Orb" # 	[StashItem]	 == "true"	//	//鐵匠之譫妄玉	拾取且存倉																						
-	[Type] == "Cartographer's Delirium Orb" # 	[StashItem]	 == "true"	//	//製圖之譫妄玉	拾取且存倉																						
-	[Type] == "Decadent Delirium Orb" # 	[StashItem]	 == "true"	//	//墮落之譫妄玉	拾取且存倉																						
-	[Type] == "Delirium Orb" # 	[StashItem]	 == "true"	//	//譫妄玉	拾取且存倉																						
-	[Type] == "Foreboding Delirium Orb" # 	[StashItem]	 == "true"	//	//預感之譫妄玉	拾取且存倉																						
-	[Type] == "Fragmented Delirium Orb" # 	[StashItem]	 == "true"	//	//碎片之譫妄玉	拾取且存倉																						
-	[Type] == "Jeweller's Delirium Orb" # 	[StashItem]	 == "true"	//	//飾品之譫妄玉	拾取且存倉																						
-	[Type] == "Obscured Delirium Orb" # 	[StashItem]	 == "true"	//	//晦澀之譫妄玉	拾取且存倉																						
-	[Type] == "Primal Delirium Orb" # 	[StashItem]	 == "true"	//	//初始之譫妄玉	拾取且存倉																						
-	[Type] == "Simulacrum Splinter" # 	[StashItem]	 == "true"	//	//幻像斷片	拾取且存倉																						
-	[Type] == "Simulacrum" # 	[StashItem]	 == "true"	//	//幻像異界	拾取且存倉																						
+//	[Type] == "Abyssal Delirium Orb" # 	[StashItem]	 == "true"	//	//深淵之譫妄玉	拾取且存倉																						
+//	[Type] == "Blighted Delirium Orb" # 	[StashItem]	 == "true"	//	//凋落之譫妄玉	拾取且存倉																						
+//	[Type] == "Diviner's Delirium Orb" # 	[StashItem]	 == "true"	//	//聖人之譫妄玉	拾取且存倉																						
+//	[Type] == "Fine Delirium Orb" # 	[StashItem]	 == "true"	//	//精良之譫妄玉	拾取且存倉																						
+//	[Type] == "Fossilised Delirium Orb" # 	[StashItem]	 == "true"	//	//石化之譫妄玉	拾取且存倉																						
+//	[Type] == "Imperial Delirium Orb" # 	[StashItem]	 == "true"	//	//帝王之譫妄玉	拾取且存倉																						
+//	[Type] == "Portentous Delirium Orb" # 	[StashItem]	 == "true"	//	//預兆之譫妄玉	拾取且存倉																						
+//	[Type] == "Singular Delirium Orb" # 	[StashItem]	 == "true"	//	//卓越之譫妄玉	拾取且存倉																						
+//	[Type] == "Skittering Delirium Orb" # 	[StashItem]	 == "true"	//	//飛掠之譫妄玉	拾取且存倉																						
+//	[Type] == "Thaumaturge's Delirium Orb" # 	[StashItem]	 == "true"	//	//奇術之譫妄玉	拾取且存倉																						
+//	[Type] == "Timeless Delirium Orb" # 	[StashItem]	 == "true"	//	//永恆之譫妄玉	拾取且存倉																						
+//	[Type] == "Whispering Delirium Orb" # 	[StashItem]	 == "true"	//	//低語之譫妄玉	拾取且存倉																						
+//	[Type] == "Amorphous Delirium Orb" # 	[StashItem]	 == "true"	//	//變態之譫妄玉	拾取且存倉																						
+//	[Type] == "Armoursmith's Delirium Orb" # 	[StashItem]	 == "true"	//	//護甲之譫妄玉	拾取且存倉																						
+//	[Type] == "Blacksmith's Delirium Orb" # 	[StashItem]	 == "true"	//	//鐵匠之譫妄玉	拾取且存倉																						
+//	[Type] == "Cartographer's Delirium Orb" # 	[StashItem]	 == "true"	//	//製圖之譫妄玉	拾取且存倉																						
+//	[Type] == "Decadent Delirium Orb" # 	[StashItem]	 == "true"	//	//墮落之譫妄玉	拾取且存倉																						
+//	[Type] == "Delirium Orb" # 	[StashItem]	 == "true"	//	//譫妄玉	拾取且存倉																						
+//	[Type] == "Foreboding Delirium Orb" # 	[StashItem]	 == "true"	//	//預感之譫妄玉	拾取且存倉																						
+//	[Type] == "Fragmented Delirium Orb" # 	[StashItem]	 == "true"	//	//碎片之譫妄玉	拾取且存倉																						
+//	[Type] == "Jeweller's Delirium Orb" # 	[StashItem]	 == "true"	//	//飾品之譫妄玉	拾取且存倉																						
+//	[Type] == "Obscured Delirium Orb" # 	[StashItem]	 == "true"	//	//晦澀之譫妄玉	拾取且存倉																						
+//	[Type] == "Primal Delirium Orb" # 	[StashItem]	 == "true"	//	//初始之譫妄玉	拾取且存倉																						
+//	[Type] == "Simulacrum Splinter" # 	[StashItem]	 == "true"	//	//幻像斷片	拾取且存倉																						
+//	[Type] == "Simulacrum" # 	[StashItem]	 == "true"	//	//幻像異界	拾取且存倉																						
 	//// 4F 裂痕物品			//																								
 //	[Type] == "Splinter of Chayula"         # 	[StashItem]	 == "true"		//夏烏拉裂片	拾取且存倉																						
 //	[Type] == "Splinter of Esh"                 # 	[StashItem]	 == "true"		//艾許裂片	不撿不存倉																						
@@ -1080,7 +1086,7 @@
 //預設//	[Type]== "Saint's Hauberk" && [Rarity] == "Unique" # [local_display_trigger_level_x_create_fungal_ground_on_kill] >= "1" && [ForceSellItem] == "true" // Sporeguard				//毒孢守衛 聖者鏈甲	拾取且存倉																						
 	[Type] == "Chain Belt" && [Rarity] == "Unique" # [energy_shield_recharge_rate_+%] >= "1" && [ForceSellItem] == "true" // Bated Breath				//凝息 扣鏈腰帶	拾取且售出																						
 	[Type] == "Chain Belt" && [Rarity] == "Unique" # [shocks_reflected_to_self] >= "1" && [ForceSellItem] == "true" // Maligaro's Restraint				//扣鏈腰帶	拾取且售出																						
-//預設//	[Type]== "Sadist Garb" && [Rarity] == "Unique" # [ForceSellItem] == "true" // Inpulsa's Broken Heart / Doppelg?nger Guise*				//達佩爾甘格偽裝 狂虐者束衣	拾取且存倉																						
+	[Type]== "Sadist Garb" && [Rarity] == "Unique" # [ForceSellItem] == "true" // Inpulsa's Broken Heart / Doppelg?nger Guise*				//達佩爾甘格偽裝 狂虐者束衣	拾取且存倉																						
 	[Type]== "Titan Greaves" && [Rarity] == "Unique" # [ForceSellItem] == "true" // Doryani's Delusion / Kaom's Roots / The Red Trail				//赤紅蹤跡 巨人脛甲	拾取且售出																						
 	[Type] == "Cloth Belt" && [Rarity] == "Unique" # [gain_absorption_charges_instead_of_power_charges] >= "1" && [ForceSellItem] == "true" // Graven's Secret				//飾布腰帶	拾取且售出																						
 	[Type] == "Cloth Belt" && [Rarity] == "Unique" # [gain_affliction_charges_instead_of_frenzy_charges] >= "1" && [ForceSellItem] == "true" // Olesya's Delight				//飾布腰帶	拾取且售出																						
@@ -1376,7 +1382,7 @@
 //	// Evasion Chests																											
 	[Type]== "Exquisite Leather" && [Rarity] == "Unique" # [ForceSellItem] == "true" // Kintsugi / Yreiel's Fostering				//伊瑞的栽培 精製皮甲	拾取且售出																						
 //	// Energy Shield Chests																											
-//基底勿改//	[Type]== "Occultist's Vestment" && [Rarity] == "Unique" # [ForceSellItem] == "true" // Shavronne's Wrappings				//秘術長衣	拾取且存倉																						
+	[Type]== "Occultist's Vestment" && [Rarity] == "Unique" # [ForceSellItem] == "true" // Shavronne's Wrappings				//秘術長衣	拾取且存倉																						
 	[Type] == "Zealot Gloves" && [Rarity] == "Unique" # [overwhelm_phys_reduction_%_while_have_sacrificial_zeal] >= "1" && [ForceSellItem] == "true" // Hand of the Fervent				//狂熱者手套	拾取且售出																						
 	[Type]== "Savant's Robe" && [Rarity] == "Unique" # [ForceSellItem] == "true" // Cloak of Tawm'r Isley / Garb of the Ephemeral				//智者之袍	拾取且售出																						
 	[Type] == "Ambush Mitts" && [Rarity] == "Unique" # [cannot_penetrate_or_ignore_elemental_resistances] >= "1" && [ForceSellItem] == "true" // Abhorrent Interrogation				//伏擊護手	拾取且售出																						
