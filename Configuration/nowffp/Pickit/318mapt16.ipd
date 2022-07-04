@@ -5,6 +5,8 @@
 [Type] == "Clutching Tailsman" && [Rarity] == "Unique" # [ForceSellItem] == "true" //  枯井 咒哭魔符// 拾取且賣出	
 [Type] == "Black Maw Talisman" && [Rarity] == "Unique" # [ForceSellItem] == "true" //  夜守 黑牙魔符// 拾取且售出
 [Type] == "Wereclaw Tailsman" && [Rarity] == "Unique" # [ForceSellItem] == "true" //   瑞佛祖咒 亡爪魔符// 拾取且賣出
+[Type] == "Rotfeather Tailsman" && [Rarity] == "Unique" # [ForceSellItem] == "true" //   自然組織 死羽魔符// 拾取且賣出
+
 
 [Type] == "Carved Wand" && [Rarity] == "Unique" # [local_socketed_skill_gem_level_+1_per_X_player_levels] >= "1" && [ForceSellItem] == "true" // The Poet's Pen				//學富之筆 粗紋法杖	拾取且存倉																						
 [Type] == "Leather Hood" && [Rarity] == "Unique" # [fire_and_cold_damage_resistance_+%] >= "1" && [ForceSellItem] == "true" // Frostferno    //霜獄 革兜 拾取且售出   
@@ -2061,15 +2063,15 @@
 	[Type]  == "Eldritch Exalted Orb" # 	[StashItem]	 == "true" // 		異能崇高石	拾取且存倉																						
 	[Type]  == "Eldritch Orb of Annulment" # 	[StashItem]	 == "true" // 		異能無效石	拾取且存倉																						
 	[Type]  == "Eldritch Chaos Orb" # 	[StashItem]	 == "true" // 		異能混沌石	拾取且存倉																						
-	[Type]  == "Singular Scouting Report" # 	[ForceSellItem]	 == "true" // 		偵查報告	不撿不存倉																						
-	[Type]  == "Otherworldly Scouting Report" # 	[ForceSellItem]	 == "true" // 		偵查報告	不撿不存倉																						
-	[Type]  == "Comprehensive Scouting Report" # 	[ForceSellItem]	 == "true" // 		偵查報告	不撿不存倉																						
-	[Type]  == "Vaal Scouting Report" # 	[ForceSellItem]	 == "true" // 		偵查報告	不撿不存倉																						
-	[Type]  == "Delirious Scouting Report" # 	[ForceSellItem]	 == "true" // 		偵查報告	不撿不存倉																						
-	[Type]  == "Operative's Scouting Report" # 	[ForceSellItem]	 == "true" // 		偵查報告	不撿不存倉																						
-	[Type]  == "Blighted Scouting Report" # 	[ForceSellItem]	 == "true" // 		偵查報告	不撿不存倉																						
-	[Type]  == "Influenced Scouting Report" # 	[ForceSellItem]	 == "true" // 		偵查報告	不撿不存倉																						
-	[Type]  == "Explorer's Scouting Report" # 	[ForceSellItem]	 == "true" // 		偵查報告	不撿不存倉																						
+//	[Type]  == "Singular Scouting Report" # 	[ForceSellItem]	 == "true" // 		偵查報告	不撿不存倉																						
+//	[Type]  == "Otherworldly Scouting Report" # 	[ForceSellItem]	 == "true" // 		偵查報告	不撿不存倉																						
+//	[Type]  == "Comprehensive Scouting Report" # 	[ForceSellItem]	 == "true" // 		偵查報告	不撿不存倉																						
+//	[Type]  == "Vaal Scouting Report" # 	[ForceSellItem]	 == "true" // 		偵查報告	不撿不存倉																						
+//	[Type]  == "Delirious Scouting Report" # 	[ForceSellItem]	 == "true" // 		偵查報告	不撿不存倉																						
+//	[Type]  == "Operative's Scouting Report" # 	[ForceSellItem]	 == "true" // 		偵查報告	不撿不存倉																						
+//	[Type]  == "Blighted Scouting Report" # 	[ForceSellItem]	 == "true" // 		偵查報告	不撿不存倉																						
+//	[Type]  == "Influenced Scouting Report" # 	[ForceSellItem]	 == "true" // 		偵查報告	不撿不存倉																						
+//	[Type]  == "Explorer's Scouting Report" # 	[ForceSellItem]	 == "true" // 		偵查報告	不撿不存倉																						
 //	[Type]  == "Oil Extractor" # 	[StashItem]	 == "true" // 		採油器	不撿不存倉																						
 	[Type]  == "Drox's Crest" # 	[StashItem]	 == "true" // 		總督軍碎片	拾取且存倉																						
 	[Type]  == "Baran's Crest" # 	[StashItem]	 == "true" // 		聖戰士碎片	拾取且存倉																						
@@ -2077,12 +2079,12 @@
 	[Type]  == "Veritania's Crest" # 	[StashItem]	 == "true" // 		救贖者碎片	拾取且存倉																						
 	////23F 3.18 物品/////																											
 	[Type]  == "Weapon Recombinator" # 	[StashItem]	 == "true" // 		//武器重組裝置(通貨)	拾取且存倉																						
-	[Type]  == "Transforming Power Core" # 	[StashItem]	 == "true" // 		//改造動力核心(通貨)	拾取且存倉																						
-	[Type]  == "Power Core" # 	[StashItem]	 == "true" // 		//動力核心(通貨)	拾取且存倉																						
+//	[Type]  == "Transforming Power Core" # 	[StashItem]	 == "true" // 		//改造動力核心(通貨)	拾取且存倉																						
+//	[Type]  == "Power Core" # 	[StashItem]	 == "true" // 		//動力核心(通貨)	拾取且存倉																						
 	[Type]  == "Jewellery Recombinator" # 	[StashItem]	 == "true" // 		//飾品重組裝置	拾取且存倉																						
-	[Type]  == "Augmenting Power Core" # 	[StashItem]	 == "true" // 		//提升動力核心	拾取且存倉																						
+//	[Type]  == "Augmenting Power Core" # 	[StashItem]	 == "true" // 		//提升動力核心	拾取且存倉																						
 	[Type]  == "Armour Recombinator" # 	[StashItem]	 == "true" // 		//護甲重組裝置	拾取且存倉																						
-	[Type]  == "Amplifying Power Core" # 	[StashItem]	 == "true" // 		//增強動力核心	拾取且存倉																						
+//	[Type]  == "Amplifying Power Core" # 	[StashItem]	 == "true" // 		//增強動力核心	拾取且存倉																						
 //	[Type] == "Ancient Apex Sentinel" && [Rarity] == "Rare"#	[ForceSellItem]	 == "true" // 		//古代的巔峰守望	不撿不售出																						
 //	[Type] == "Ancient Pandemonium Sentinel" && [Rarity] == "Rare"#	[ForceSellItem]	 == "true" // 		//古代的萬劫守望	不撿不售出																						
 //	[Type] == "Ancient Stalker Sentinel" && [Rarity] == "Rare"#	[ForceSellItem]	 == "true" // 		//古代的潛行守望	不撿不售出																						
