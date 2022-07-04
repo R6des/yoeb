@@ -1,6 +1,6 @@
 // 0704 //
 [Type] == "Stibnite Flask" && [Rarity] == "Unique" # [local_flask_ignite_immunity_if_ignited_and_remove_burning] >= "1" && [ForceSellItem] == "true" // Sin's Rebirth				//再生的罪惡 // 拾取且賣出																	
-[Type] == "Eternal Burgonet" && [Rarity] == "Unique" # [local_physical_damage_reduction_rating_+%] >= "1" && [ForceSellItem] == "true" // 篡位者的懺悔 拾取且賣出				//學富之筆 粗紋法杖	拾取且存倉																						
+[Type] == "Eternal Burgonet" && [Rarity] == "Unique" # [local_physical_damage_reduction_rating_+%] >= "1" && [ForceSellItem] == "true" // 篡位者的懺悔 拾取且賣出																							
 [Type] == "Granite Flask" && [Rarity] == "Unique" # [local_unique_lions_roar_melee_physical_damage_+%_final_during_flask_effect] >= "1" && [ForceSellItem] == "true" // lio's roar				//獅吼精華	拾取且售出																						
 [Type]== "Clutching Talisman" && [Rarity] == "Unique" # [ForceSellItem] == "true"  //  枯井 咒箍魔符// 拾取且賣出
 [Type]== "Wereclaw Talisman" && [Rarity] == "Unique" # [ForceSellItem] == "true"  //   瑞佛祖咒 亡爪魔符// 拾取且賣出
@@ -72,9 +72,9 @@
 //	[Type] == "Armourer's Scrap" # 	[StashItem]	 == "true"	//	//護甲片	不撿不存倉																						
 //	[Type] == "Glassblower's Bauble" # 	[StashItem]	 == "true"	//	//玻璃彈珠	不撿不存倉																						
 //	[Type] == "Blessed Orb" # 	[StashItem]	 == "true"	//	//祝福石	不撿不存倉																						
-	[Type] == "Chaos Orb" # 	[StashItem]	 == "true"	//	//混沌石	拾取且存倉																						
+//	[Type] == "Chaos Orb" # 	[StashItem]	 == "true"	//	//混沌石	拾取且存倉																						
 //	[Type] == "Chromatic Orb" # 	[StashItem]	 == "true"	//	//幻色石	不撿不存倉																						
-	[Type] == "Divine Orb" # 	[StashItem]	 == "true"	//	//神聖石	拾取且存倉																						
+//	[Type] == "Divine Orb" # 	[StashItem]	 == "true"	//	//神聖石	拾取且存倉																						
 	[Type] == "Exalted Orb" # 	[StashItem]	 == "true"	//	//崇高石	拾取且存倉																						
 //	[Type] == "Gemcutter's Prism" # 	[StashItem]	 == "true"	//	//寶石匠的稜鏡	不撿不存倉																						
 //	[Type] == "Jeweller's Orb" # 	[StashItem]	 == "true"	//	//工匠石	不撿不存倉																						
@@ -98,17 +98,17 @@
 //	[Type] == "Harbinger's Orb"         # 	[StashItem]	 == "true"	//	//神諭石	不撿不存倉																						
 //	[Type] == "Engineer's Orb"                 # 	[StashItem]	 == "true"	//	//工程石	不撿不存倉																						
 	[Type] == "Ancient Orb"                 # 	[StashItem]	 == "true"	//	//古變石	拾取且存倉																						
-	[Type] == "Annulment Shard"         # 	[StashItem]	 == "true"	//	//無效石碎片	拾取且存倉																						
+//	[Type] == "Annulment Shard"         # 	[StashItem]	 == "true"	//	//無效石碎片	拾取且存倉																						
 //	[Type] == "Binding Shard"                 # 	[StashItem]	 == "true"	//	//束縛石碎片	不撿不存倉																						
 //	[Type] == "Horizon Shard"                 # 	[StashItem]	 == "true"	//	//地平石碎片	不撿不存倉																						
 //	[Type] == "Harbinger's Shard"         # 	[StashItem]	 == "true"	//	//神諭石碎片	不撿不存倉																						
 //	[Type] == "Engineer's Shard"         # 	[StashItem]	 == "true"	//	//工程石碎片	不撿不存倉																						
-	[Type] == "Ancient Shard"                 # 	[StashItem]	 == "true"	//	//古變石碎片	拾取且存倉																						
-	[Type] == "Chaos Shard"                 # 	[StashItem]	 == "true"	//	//混沌石碎片	拾取且存倉																						
+//	[Type] == "Ancient Shard"                 # 	[StashItem]	 == "true"	//	//古變石碎片	拾取且存倉																						
+//	[Type] == "Chaos Shard"                 # 	[StashItem]	 == "true"	//	//混沌石碎片	拾取且存倉																						
 	[Type] == "Mirror Shard"                 # 	[StashItem]	 == "true"	//	//魔鏡碎片	拾取且存倉																						
 	[Type] == "Exalted Shard"                 # 	[StashItem]	 == "true"	//	//崇高石碎片	拾取且存倉																						
 //	[Type] == "Regal Shard"                 # 	[StashItem]	 == "true"	//	//富豪石碎片	不撿不存倉																						
-	[Type] == "Veiled Chaos Orb"	[StashItem]	 == "true"	//	//隱匿混沌石	拾取且存倉																						
+//	[Type] == "Veiled Chaos Orb"	[StashItem]	 == "true"	//	//隱匿混沌石	拾取且存倉																						
 //	[Type] == "Journeyman Cartographer's Seal" # 	[StashItem]	 == "true"	//	//製圖封印．學者	不撿不存倉																						
 //	[Type] == "Master Cartographer's Seal" # 	[StashItem]	 == "true"	//	//製圖封印．大師	不撿不存倉																						
 //	[Type] == "Simple Sextant" # 	[StashItem]	 == "true"	//	//製圖六分儀．簡易	不撿不存倉																						
@@ -185,13 +185,13 @@
 	[Type] == "Chayula's Enriched Breachstone"         # 	[StashItem]	 == "true"		//夏烏拉富裕裂痕石	拾取且存倉																						
 	[Type] == "Chayula's Pure Breachstone"                 # 	[StashItem]	 == "true"		//夏烏拉純淨裂痕石	拾取且存倉																						
 	//// 5F 祭祀物品																											
-	[Type] == "Orb of Unmaking"    # 	[StashItem]	 == "true"		//撤銷石	拾取且存倉																						
+//	[Type] == "Orb of Unmaking"    # 	[StashItem]	 == "true"		//撤銷石	拾取且存倉																						
 	[Type] == "Maven's Orb"        # 	[StashItem]	 == "true"		//釋界之玉	拾取且存倉																						
-	[Type] == "Ritual Splinter"    # 	[StashItem]	 == "true"		//祭祀裂片	拾取且存倉																						
-	[Type] == "Ritual Vessel"      # 	[StashItem]	 == "true"		//祭祀碑器	拾取且存倉																						
-	[Type] == "Crescent Splinter"  # 	[StashItem]	 == "true"		//新月裂片	拾取且存倉																						
+//	[Type] == "Ritual Splinter"    # 	[StashItem]	 == "true"		//祭祀裂片	拾取且存倉																						
+//	[Type] == "Ritual Vessel"      # 	[StashItem]	 == "true"		//祭祀碑器	拾取且存倉																						
+//	[Type] == "Crescent Splinter"  # 	[StashItem]	 == "true"		//新月裂片	拾取且存倉																						
 	//// 6F 劫盜物品																											
-	[Type] == "Rogue's Marker" # 	[StashItem]	 == "true"	//	//盜賊之印	拾取且存倉																						
+//	[Type] == "Rogue's Marker" # 	[StashItem]	 == "true"	//	//盜賊之印	拾取且存倉																						
 	[Type] == "Tailoring Orb" # 	[StashItem]	 == "true"	//	//裁縫石	拾取且存倉																						
 	[Type] == "Tempering Orb" # 	[StashItem]	 == "true"	//	//淬鍊石	拾取且存倉																						
 	[Type] == "Prime Regrading Lens" # 	[StashItem]	 == "true"	//	//初階篩分之鏡	拾取且存倉																						
@@ -2076,12 +2076,12 @@
 	[Type]  == "Al-Hezmin's Crest" # 	[StashItem]	 == "true" // 		狩獵者碎片	拾取且存倉																						
 	[Type]  == "Veritania's Crest" # 	[StashItem]	 == "true" // 		救贖者碎片	拾取且存倉																						
 	////23F 3.18 物品/////																											
-	[Type]  == "Weapon Recombinator" # 	[StashItem]	 == "true" // 		//武器重組裝置(通貨)	拾取且存倉																						
+//	[Type]  == "Weapon Recombinator" # 	[StashItem]	 == "true" // 		//武器重組裝置(通貨)	拾取且存倉																						
 //	[Type]  == "Transforming Power Core" # 	[StashItem]	 == "true" // 		//改造動力核心(通貨)	拾取且存倉																						
 //	[Type]  == "Power Core" # 	[StashItem]	 == "true" // 		//動力核心(通貨)	拾取且存倉																						
-	[Type]  == "Jewellery Recombinator" # 	[StashItem]	 == "true" // 		//飾品重組裝置	拾取且存倉																						
+//	[Type]  == "Jewellery Recombinator" # 	[StashItem]	 == "true" // 		//飾品重組裝置	拾取且存倉																						
 //	[Type]  == "Augmenting Power Core" # 	[StashItem]	 == "true" // 		//提升動力核心	拾取且存倉																						
-	[Type]  == "Armour Recombinator" # 	[StashItem]	 == "true" // 		//護甲重組裝置	拾取且存倉																						
+//	[Type]  == "Armour Recombinator" # 	[StashItem]	 == "true" // 		//護甲重組裝置	拾取且存倉																						
 //	[Type]  == "Amplifying Power Core" # 	[StashItem]	 == "true" // 		//增強動力核心	拾取且存倉																						
 //	[Type] == "Ancient Apex Sentinel" && [Rarity] == "Rare"#	[ForceSellItem]	 == "true" // 		//古代的巔峰守望	不撿不售出																						
 //	[Type] == "Ancient Pandemonium Sentinel" && [Rarity] == "Rare"#	[ForceSellItem]	 == "true" // 		//古代的萬劫守望	不撿不售出																						
