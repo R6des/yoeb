@@ -765,7 +765,7 @@ Show # 通貨 - 特殊 - 充能的羅盤
     MinimapIcon 2 Red Diamond
     PlayEffect Red
 
-Show # 通貨 - 特殊 - 偵查報告
+Hide # 通貨 - 特殊 - 偵查報告
     Class "Currency"
     BaseType "Scouting Report"
     SetTextColor 100 50 0
@@ -978,7 +978,7 @@ Show # 地圖 - 勢力地圖 - 火鳳凰熔核
 
 # 【地圖-譫妄地圖】2003
 
-Show # 地圖 - 譫妄地圖 - T14+
+Hide # 地圖 - 譫妄地圖 - T14+
     AnyEnchantment True
     MapTier >= 14
     Class "Maps"
@@ -990,7 +990,7 @@ Show # 地圖 - 譫妄地圖 - T14+
     PlayEffect Red
     PlayAlertSound 3 250
 
-Show # 地圖 - 譫妄地圖 - T11~13
+Hide # 地圖 - 譫妄地圖 - T11~13
     AnyEnchantment True
     MapTier >= 11
     Class "Maps"
@@ -1002,7 +1002,7 @@ Show # 地圖 - 譫妄地圖 - T11~13
     PlayEffect Red
     PlayAlertSound 3 250
 
-Show # 地圖 - 譫妄地圖 - T6~10
+Hide # 地圖 - 譫妄地圖 - T6~10
     AnyEnchantment True
     MapTier >= 6
     Class "Maps"
@@ -1014,7 +1014,7 @@ Show # 地圖 - 譫妄地圖 - T6~10
     PlayEffect Yellow
     PlayAlertSound 3 250
 
-Show # 地圖 - 譫妄地圖 - T1~5
+Hide # 地圖 - 譫妄地圖 - T1~5
     AnyEnchantment True
     MapTier >= 1
     SetBackgroundColor 83 83 83
@@ -1346,7 +1346,7 @@ Show # 聯盟 - 3.14通牒 - 通牒雕刻
 
 # 【聯盟-3.13祭祀】3021
 
-Show # 聯盟 - 3.13祭祀 - 祭祀碑器/祭祀裂片
+Hide # 聯盟 - 3.13祭祀 - 祭祀碑器/祭祀裂片
     Class "Currency"
     BaseType "Ritual Splinter" "Ritual Vessel"
     SetTextColor 255 255 255
@@ -1356,7 +1356,7 @@ Show # 聯盟 - 3.13祭祀 - 祭祀碑器/祭祀裂片
     PlayAlertSound 9 300
     MinimapIcon 0 Brown Star
 
-Show # 聯盟 - 3.13祭祀 - 浸血碑器
+Hide # 聯盟 - 3.13祭祀 - 浸血碑器
     Class "Map Fragments"
     BaseType "Blood-filled Vessel"
     SetTextColor 210 0 0
@@ -1431,7 +1431,7 @@ Show # 聯盟 - 3.13祭祀 - 鞋子 - 攻擊格擋鞋
 
 # 【聯盟-3.12劫盜】3020
 
-Show # 聯盟 - 3.12劫盜 - 盜賊之印
+Hide # 聯盟 - 3.12劫盜 - 盜賊之印
     Class "Currency"
     BaseType "Rogue's Marker"
     SetTextColor 255 178 102
@@ -1762,7 +1762,7 @@ Show # 聯盟 - 3.11花園 - 神聖之花
 
 # 【聯盟-3.10譫妄】3018
 
-Show # 聯盟 - 3.10譫妄 - 譫妄玉
+Hide # 聯盟 - 3.10譫妄 - 譫妄玉
     Class "Currency"
     BaseType "Delirium Orb"
     SetTextColor 0 0 0
@@ -1773,7 +1773,7 @@ Show # 聯盟 - 3.10譫妄 - 譫妄玉
     MinimapIcon 1 Grey Diamond
     PlayEffect Grey
 
-Show # 聯盟 - 3.10譫妄 - 幻像斷片
+Hide # 聯盟 - 3.10譫妄 - 幻像斷片
     Class "Currency"
     BaseType "Simulacrum Splinter"
     SetTextColor 0 0 0
@@ -1830,7 +1830,7 @@ Show # 聯盟 - 3.10譫妄 - 幻象異界
 
 # 【聯盟-3.9鍊魔】3017
 
-Show # 聯盟 - 3.9鍊魔 - 洶湧/充能/研磨/冶煉/本質/毒性催化劑
+Hide # 聯盟 - 3.9鍊魔 - 洶湧/充能/研磨/冶煉/本質/毒性催化劑
     Class "Currency"
     BaseType "Turbulent Catalyst" "Imbued Catalyst" "Abrasive Catalyst" "Tempering Catalyst" "Intrinsic Catalyst" "Noxious Catalyst"
     SetTextColor 0 0 0
@@ -1838,7 +1838,7 @@ Show # 聯盟 - 3.9鍊魔 - 洶湧/充能/研磨/冶煉/本質/毒性催化劑
     SetBorderColor 255 215 0
     SetFontSize 40
 
-Show # 聯盟 - 3.9鍊魔 - 多棱/富饒/加速/易變催化劑
+Hide # 聯盟 - 3.9鍊魔 - 多棱/富饒/加速/易變催化劑
     Class "Currency"
     BaseType "Prismatic Catalyst" "Fertile Catalyst" "Accelerating Catalyst" "Unstable Catalyst"
     SetTextColor 255 61 0
@@ -1860,7 +1860,7 @@ Show # 聯盟 - 3.9鍊魔 - 器官
 
 # 【聯盟-3.8凋落】3016
 
-Show # 聯盟 - 3.8凋落 - 清透/深褐/琥珀/翠綠/清綠/碧藍/奼紫/緋紅/靛青油瓶
+Hide # 聯盟 - 3.8凋落 - 清透/深褐/琥珀/翠綠/清綠/碧藍/奼紫/緋紅/靛青油瓶
     Class "Currency"
     BaseType "Clear Oil" "Sepia Oil" "Amber Oil" "Verdant Oil" "Teal Oil" "Azure Oil" "Violet Oil" "Crimson Oil" "Indigo Oil"
     SetTextColor 0 0 0
@@ -1908,7 +1908,7 @@ Hide # 聯盟 - 3.7戰亂 - 培育器 - 高階培育器(時間遺忘/幻術師/�
     SetFontSize 45
     MinimapIcon 0 Yellow Star
 
-Show # 聯盟 - 3.7戰亂 - 軍團裂片 - 不朽/卡魯/瓦爾
+Hide # 聯盟 - 3.7戰亂 - 軍團裂片 - 不朽/卡魯/瓦爾
     Class "Currency"
     BaseType "Timeless Eternal Empire Splinter" "Timeless Karui Splinter" "Timeless Vaal Splinter"
     SetTextColor 255 215 222 
@@ -1916,7 +1916,7 @@ Show # 聯盟 - 3.7戰亂 - 軍團裂片 - 不朽/卡魯/瓦爾
     SetFontSize 45
     MinimapIcon 0 Purple Star
 
-Show # 聯盟 - 3.7戰亂 - 軍團裂片 - 馬拉克斯/聖宗
+Hide # 聯盟 - 3.7戰亂 - 軍團裂片 - 馬拉克斯/聖宗
     Class "Currency"
     BaseType "Timeless Maraketh Splinter" "Timeless Templar Splinter"
     SetTextColor 255 255 119
@@ -1925,7 +1925,7 @@ Show # 聯盟 - 3.7戰亂 - 軍團裂片 - 馬拉克斯/聖宗
     SetFontSize 45
     MinimapIcon 0 Purple Star
 
-Show # 聯盟 - 3.7戰亂 - 軍團印記
+Hide # 聯盟 - 3.7戰亂 - 軍團印記
     Class "Map Fragments"
     BaseType "Timeless Eternal Emblem" "Timeless Karui Emblem" "Timeless Maraketh Emblem" "Timeless Templar Emblem" "Timeless Vaal Emblem"
     SetTextColor 255 255 255
@@ -1977,7 +1977,7 @@ Show # 聯盟 - 3.5密教 - 密教詞綴物品
     PlayAlertSound 16 200
     MinimapIcon 2 White Hexagon
 
-Show # 聯盟 - 3.5密教 - 鍍金聖甲蟲
+Hide # 聯盟 - 3.5密教 - 鍍金聖甲蟲
     Class "Map Fragments"
     BaseType "Gilded"
     SetTextColor 0 0 0
@@ -1988,7 +1988,7 @@ Show # 聯盟 - 3.5密教 - 鍍金聖甲蟲
     MinimapIcon 0 Yellow Hexagon
     PlayEffect Yellow
 
-Show # 聯盟 - 3.5密教 - 圓滑聖甲蟲
+Hide # 聯盟 - 3.5密教 - 圓滑聖甲蟲
     Class "Map Fragments"
     BaseType "Polished"
     SetTextColor 0 0 0
@@ -1999,7 +1999,7 @@ Show # 聯盟 - 3.5密教 - 圓滑聖甲蟲
     MinimapIcon 1 Yellow Hexagon
     PlayEffect Yellow
 
-Show # 聯盟 - 3.5密教 - 鏽蝕聖甲蟲
+Hide # 聯盟 - 3.5密教 - 鏽蝕聖甲蟲
     Class "Map Fragments"
     BaseType "Rusted"
     SetTextColor 0 0 0
@@ -2052,7 +2052,7 @@ Show # 聯盟 - 3.4掘獄 - 1S/2S/3S混沌鑄新儀(黃色)
     MinimapIcon 2 White Triangle
     PlayEffect White
 
-Show # 聯盟 - 3.4掘獄 - 化石 -高階化石(血漬/破裂/雕琢/鑲金/鏤空/雕紋/暴擊/能力/無瑕化石)
+Hide # 聯盟 - 3.4掘獄 - 化石 -高階化石(血漬/破裂/雕琢/鑲金/鏤空/雕紋/暴擊/能力/無瑕化石)
     Class "Currency"
     BaseType "Bloodstained Fossil" "Fractured Fossil" "Faceted Fossil" "Gilded Fossil" "Hollow Fossil" "Glyphic Fossil" "Sanctified Fossil" "Deft Fossil" "Fundamental Fossil" "Perfect Fossil"
     SetTextColor 0 0 0
@@ -2063,7 +2063,7 @@ Show # 聯盟 - 3.4掘獄 - 化石 -高階化石(血漬/破裂/雕琢/鑲金/鏤
     MinimapIcon 0 Yellow Star
     PlayEffect Yellow
 
-Show # 聯盟 - 3.4掘獄 - 化石 -一般化石
+Hide # 聯盟 - 3.4掘獄 - 化石 -一般化石
     Class "Currency"
     BaseType "Fossil"
     SetTextColor 0 0 0
@@ -2332,7 +2332,7 @@ Show # 聯盟 - 2.6不朽 - 古典遺鑰/古朽遺鑰/瓦爾遺鑰
 
 # 【聯盟-2.5裂痕】3006
 
-Show # 聯盟 - 2.5裂痕 - 裂痕石
+Hide # 聯盟 - 2.5裂痕 - 裂痕石
     Class "Map Fragments"
     BaseType "Xoph's Breachstone" "Tul's Breachstone" "Esh's Breachstone" "Uul-Netol's Breachstone" "Chayula's Breachstone"
     SetTextColor 255 255 255
@@ -2343,7 +2343,7 @@ Show # 聯盟 - 2.5裂痕 - 裂痕石
     MinimapIcon 1 Red Circle
     PlayEffect Red
 
-Show # 聯盟 - 2.5裂痕 - 裂痕裂片
+Hide # 聯盟 - 2.5裂痕 - 裂痕裂片
     Class "Currency"
     BaseType "Splinter of Xoph" "Splinter of Tul" "Splinter of Esh" "Splinter of Uul-Netol" "Splinter of Chayula"
     SetTextColor 255 192 203
@@ -2374,28 +2374,28 @@ Show # 聯盟 - 2.4精髓 - 精髓 -污染精華&污染器皿
     PlayAlertSound 9 300
     PlayEffect Red
 
-Show # 聯盟 - 2.4精髓 - 精髓 -T1
+Hide # 聯盟 - 2.4精髓 - 精髓 -T1
     Class "Currency"
     BaseType "Deafening Essence of"
     SetTextColor 150 255 255
     SetFontSize 40
     PlayAlertSound 9 300
 
-Show # 聯盟 - 2.4精髓 - 精髓 -T2
+Hide # 聯盟 - 2.4精髓 - 精髓 -T2
     Class "Currency"
     BaseType "Shrieking Essence of"
     SetTextColor 65 255 255
     SetFontSize 40
     PlayAlertSound 9 200
 
-Show # 聯盟 - 2.4精髓 - 精髓 -T3
+Hide # 聯盟 - 2.4精髓 - 精髓 -T3
     Class "Currency"
     BaseType "Screaming Essence of"
     SetTextColor 0 255 255
     SetFontSize 39
     PlayAlertSound 9 150
 
-Show # 聯盟 - 2.4精髓 - 精髓 -T4
+Hide # 聯盟 - 2.4精髓 - 精髓 -T4
     Class "Currency"
     BaseType "Wailing Essence of" "Weeping Essence of" "Muttering Essence of" "Whispering Essence of"
     SetTextColor 0 210 255
@@ -2404,7 +2404,7 @@ Show # 聯盟 - 2.4精髓 - 精髓 -T4
 
 # 【聯盟-2.1魔符】3002
 
-Show # 聯盟 - 2.1魔符 - 魔符 - T1普通
+Hide # 聯盟 - 2.1魔符 - 魔符 - T1普通
     Rarity = Normal
     Class "Amulets"
     BaseType "Breakrib Talisman" "Ashscale Talisman" "Deep One Talisman" "Lone Antler Talisman" "Deadhand Talisman" "Bonespire Talisman" "Black Maw Talisman" "Undying Flesh Talisman" "Rot Head Talisman" "Mandible Talisman" "Writhing Talisman" "Chrysalis Talisman"
@@ -2413,7 +2413,7 @@ Show # 聯盟 - 2.1魔符 - 魔符 - T1普通
     SetBorderColor 0 0 0
     SetFontSize 37
 
-Show # 聯盟 - 2.1魔符 - 魔符 - T1魔法
+Hide # 聯盟 - 2.1魔符 - 魔符 - T1魔法
     Rarity = Magic
     Class "Amulets"
     BaseType "Breakrib Talisman" "Ashscale Talisman" "Deep One Talisman" "Lone Antler Talisman" "Deadhand Talisman" "Bonespire Talisman" "Black Maw Talisman" "Undying Flesh Talisman" "Rot Head Talisman" "Mandible Talisman" "Writhing Talisman" "Chrysalis Talisman"
@@ -2422,7 +2422,7 @@ Show # 聯盟 - 2.1魔符 - 魔符 - T1魔法
     SetBorderColor 0 0 0
     SetFontSize 37
 
-Show # 聯盟 - 2.1魔符 - 魔符 - T1稀有
+Hide # 聯盟 - 2.1魔符 - 魔符 - T1稀有
     Rarity = Rare
     Class "Amulets"
     BaseType "Breakrib Talisman" "Ashscale Talisman" "Deep One Talisman" "Lone Antler Talisman" "Deadhand Talisman" "Bonespire Talisman" "Black Maw Talisman" "Undying Flesh Talisman" "Rot Head Talisman" "Mandible Talisman" "Writhing Talisman" "Chrysalis Talisman"
@@ -2431,7 +2431,7 @@ Show # 聯盟 - 2.1魔符 - 魔符 - T1稀有
     SetFontSize 37
     PlayAlertSound 9 300
 
-Show # 聯盟 - 2.1魔符 - 魔符 - T2普通
+Hide # 聯盟 - 2.1魔符 - 魔符 - T2普通
     Rarity = Normal
     Class "Amulets"
     BaseType "Fangjaw Talisman" "Avian Twins Talisman" "Splitnewt Talisman" "Hexclaw Talisman" "Wereclaw Talisman" "Clutching Talisman" "Primal Skull Talisman" "Horned Talisman"
@@ -2440,7 +2440,7 @@ Show # 聯盟 - 2.1魔符 - 魔符 - T2普通
     SetBorderColor 0 0 0
     SetFontSize 38
 
-Show # 聯盟 - 2.1魔符 - 魔符 - T2魔法
+Hide # 聯盟 - 2.1魔符 - 魔符 - T2魔法
     Rarity = Magic
     Class "Amulets"
     BaseType "Fangjaw Talisman" "Avian Twins Talisman" "Splitnewt Talisman" "Hexclaw Talisman" "Wereclaw Talisman" "Clutching Talisman" "Primal Skull Talisman" "Horned Talisman"
@@ -2449,7 +2449,7 @@ Show # 聯盟 - 2.1魔符 - 魔符 - T2魔法
     SetBorderColor 0 0 0
     SetFontSize 38
 
-Show # 聯盟 - 2.1魔符 - 魔符 - T2稀有
+Hide # 聯盟 - 2.1魔符 - 魔符 - T2稀有
     Rarity = Rare
     Class "Amulets"
     BaseType "Fangjaw Talisman" "Avian Twins Talisman" "Splitnewt Talisman" "Hexclaw Talisman" "Wereclaw Talisman" "Clutching Talisman" "Primal Skull Talisman" "Horned Talisman"
@@ -2458,7 +2458,7 @@ Show # 聯盟 - 2.1魔符 - 魔符 - T2稀有
     SetFontSize 38
     PlayAlertSound 9 300
 
-Show # 聯盟 - 2.1魔符 - 魔符 - T3普通
+Hide # 聯盟 - 2.1魔符 - 魔符 - T3普通
     Rarity = Normal
     Class "Amulets"
     BaseType "Monkey Twins Talisman" "Three Rat Talisman" "Longtooth Talisman" "Rotfeather Talisman" "Three Hands Talisman" "Spinefuse Talisman" "Monkey Paw Talisman"
@@ -2467,7 +2467,7 @@ Show # 聯盟 - 2.1魔符 - 魔符 - T3普通
     SetBorderColor 0 0 0
     SetFontSize 39
 
-Show # 聯盟 - 2.1魔符 - 魔符 - T3魔法
+Hide # 聯盟 - 2.1魔符 - 魔符 - T3魔法
     Rarity = Magic
     Class "Amulets"
     BaseType "Monkey Twins Talisman" "Three Rat Talisman" "Longtooth Talisman" "Rotfeather Talisman" "Three Hands Talisman" "Spinefuse Talisman" "Monkey Paw Talisman"
@@ -2476,7 +2476,7 @@ Show # 聯盟 - 2.1魔符 - 魔符 - T3魔法
     SetBorderColor 0 0 0
     SetFontSize 39
 
-Show # 聯盟 - 2.1魔符 - 魔符 - T3稀有
+Hide # 聯盟 - 2.1魔符 - 魔符 - T3稀有
     Rarity = Rare
     Class "Amulets"
     BaseType "Monkey Twins Talisman" "Three Rat Talisman" "Longtooth Talisman" "Rotfeather Talisman" "Three Hands Talisman" "Spinefuse Talisman" "Monkey Paw Talisman"
@@ -2485,7 +2485,7 @@ Show # 聯盟 - 2.1魔符 - 魔符 - T3稀有
     SetFontSize 39
     PlayAlertSound 9 300
 
-Show # 聯盟 - 2.1魔符 - 魔符 - T4普通
+Hide # 聯盟 - 2.1魔符 - 魔符 - T4普通
     Rarity = Normal
     Class "Amulets"
     BaseType "Greatwolf Talisman"
@@ -2494,7 +2494,7 @@ Show # 聯盟 - 2.1魔符 - 魔符 - T4普通
     SetBorderColor 0 0 0
     SetFontSize 40
 
-Show # 聯盟 - 2.1魔符 - 魔符 - T4魔法
+Hide # 聯盟 - 2.1魔符 - 魔符 - T4魔法
     Rarity = Magic
     Class "Amulets"
     BaseType "Greatwolf Talisman"
@@ -2503,7 +2503,7 @@ Show # 聯盟 - 2.1魔符 - 魔符 - T4魔法
     SetBorderColor 0 0 0
     SetFontSize 40
 
-Show # 聯盟 - 2.1魔符 - 魔符 - T4稀有
+Hide # 聯盟 - 2.1魔符 - 魔符 - T4稀有
     Rarity = Rare
     Class "Amulets"
     BaseType "Greatwolf Talisman"
