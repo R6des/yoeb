@@ -1,4 +1,6 @@
 [Type] == "Carved Wand" && [Rarity] == "Unique" # [local_socketed_skill_gem_level_+1_per_X_player_levels] >= "1" && [ForceSellItem] == "true" // The Poet's Pen				//學富之筆 粗紋法杖	拾取且存倉																						
+[Type] == "Eternal Burgonet" && [Rarity] == "Unique" # [local_physical_damage_reduction_rating_+%] >= "1" && [ForceSellItem] == "true" // 篡位者的懺悔 拾取且賣出				//學富之筆 粗紋法杖	拾取且存倉																						
+[Type] == "Granite Flask" && [Rarity] == "Unique" # [local_unique_lions_roar_melee_physical_damage_+%_final_during_flask_effect] >= "1" && [ForceSellItem] == "true" // lino's roar				//獅吼精華	拾取且售出																						
 [Type] == "Leather Hood" && [Rarity] == "Unique" # [fire_and_cold_damage_resistance_+%] >= "1" && [ForceSellItem] == "true" // Frostferno    //霜獄 革兜 拾取且售出   
 [Type] == "Royal Bow" && [Rarity] == "Unique" # [weapon_physical_damage_+%_to_add_as_random_element] >= "1" && [ForceSellItem] == "true" // Doomfletch - [Ancient Doom] - Doomfletch     //滅世 皇家獵弓 及 滅世之獄 皇家獵弓 拾取且售出
 [Type] == "Wyrmscale Doublet" && [Rarity] == "Unique" # [physical_damage_+%] >= "1" && [ForceSellItem] == "true" // Gruthkul's Pelt // 葛魯斯寇真皮 龍鱗戰甲 拾取且售出
@@ -146,7 +148,7 @@
 	[Type] == "Simulacrum Splinter" # 	[StashItem]	 == "true"	//	//幻像斷片	拾取且存倉																						
 	[Type] == "Simulacrum" # 	[StashItem]	 == "true"	//	//幻像異界	拾取且存倉																						
 	//// 4F 裂痕物品			//																								
-	[Type] == "Splinter of Chayula"         # 	[StashItem]	 == "true"		//夏烏拉裂片	拾取且存倉																						
+//	[Type] == "Splinter of Chayula"         # 	[StashItem]	 == "true"		//夏烏拉裂片	拾取且存倉																						
 //	[Type] == "Splinter of Esh"                 # 	[StashItem]	 == "true"		//艾許裂片	不撿不存倉																						
 //	[Type] == "Splinter of Tul"                 # 	[StashItem]	 == "true"		//托沃裂片	不撿不存倉																						
 //	[Type] == "Splinter of Uul-Netol"         # 	[StashItem]	 == "true"		//烏爾尼多裂片	不撿不存倉																						
@@ -217,28 +219,28 @@
 	[Type] == "Tainted Oil" # 	[StashItem]	 == "true"	//	污染油瓶	拾取且存倉																						
 	[Type] == "Golden Oil"                 # 	[StashItem]	 == "true"	//	//金黃油瓶	拾取且存倉																						
 	[Type] == "Silver Oil"                 # 	[StashItem]	 == "true"	//	//純銀油瓶	拾取且存倉																						
-	[Type] == "Opalescent Oil"         # 	[StashItem]	 == "true"	//	//乳白油瓶	拾取且存倉																						
-	[Type] == "Crimson Oil"         # 	[StashItem]	 == "true"	//	//緋紅油瓶	拾取且存倉																						
-	[Type] == "Black Oil"                 # 	[StashItem]	 == "true"	//	//漆黑油瓶	拾取且存倉																						
-	[Type] == "Azure Oil"                 # 	[StashItem]	 == "true"	//	//碧藍油瓶	拾取且存倉																						
-	[Type] == "Violet Oil"                 # 	[StashItem]	 == "true"	//	//奼紫油瓶	拾取且存倉																						
+//	[Type] == "Opalescent Oil"         # 	[StashItem]	 == "true"	//	//乳白油瓶	拾取且存倉																						
+//	[Type] == "Crimson Oil"         # 	[StashItem]	 == "true"	//	//緋紅油瓶	拾取且存倉																						
+//	[Type] == "Black Oil"                 # 	[StashItem]	 == "true"	//	//漆黑油瓶	拾取且存倉																						
+//	[Type] == "Azure Oil"                 # 	[StashItem]	 == "true"	//	//碧藍油瓶	拾取且存倉																						
+//	[Type] == "Violet Oil"                 # 	[StashItem]	 == "true"	//	//奼紫油瓶	拾取且存倉																						
 	//// 9F 催化劑			//																								
-	[Type] == "Abrasive Catalyst"         # 	[StashItem]	 == "true"	//	//研磨的催化劑	拾取且存倉																						
-	[Type] == "Fertile Catalyst"         # 	[StashItem]	 == "true"	//	//富饒的催化劑	拾取且存倉																						
-	[Type] == "Imbued Catalyst"         # 	[StashItem]	 == "true"	//	//充能的催化劑	拾取且存倉																						
-	[Type] == "Intrinsic Catalyst"         # 	[StashItem]	 == "true"	//	//本質的催化劑	拾取且存倉																						
-	[Type] == "Prismatic Catalyst"         # 	[StashItem]	 == "true"	//	//多稜的催化劑	拾取且存倉																						
-	[Type] == "Tempering Catalyst"         # 	[StashItem]	 == "true"	//	//冶鍊的催化劑	拾取且存倉																						
-	[Type] == "Turbulent Catalyst"         # 	[StashItem]	 == "true"	//	//洶湧的催化劑	拾取且存倉																						
-	[Type] == "Noxious Catalyst"      # 	[StashItem]	 == "true"	//	//毒性催化劑	拾取且存倉																						
-	[Type] == "Unstable Catalyst"     # 	[StashItem]	 == "true"	//		拾取且存倉																						
-	[Type] == "Accelerating Catalyst" # 	[StashItem]	 == "true"		//加速催化劑	拾取且存倉																						
+//	[Type] == "Abrasive Catalyst"         # 	[StashItem]	 == "true"	//	//研磨的催化劑	拾取且存倉																						
+//	[Type] == "Fertile Catalyst"         # 	[StashItem]	 == "true"	//	//富饒的催化劑	拾取且存倉																						
+//	[Type] == "Imbued Catalyst"         # 	[StashItem]	 == "true"	//	//充能的催化劑	拾取且存倉																						
+//	[Type] == "Intrinsic Catalyst"         # 	[StashItem]	 == "true"	//	//本質的催化劑	拾取且存倉																						
+//	[Type] == "Prismatic Catalyst"         # 	[StashItem]	 == "true"	//	//多稜的催化劑	拾取且存倉																						
+//	[Type] == "Tempering Catalyst"         # 	[StashItem]	 == "true"	//	//冶鍊的催化劑	拾取且存倉																						
+//	[Type] == "Turbulent Catalyst"         # 	[StashItem]	 == "true"	//	//洶湧的催化劑	拾取且存倉																						
+//	[Type] == "Noxious Catalyst"      # 	[StashItem]	 == "true"	//	//毒性催化劑	拾取且存倉																						
+//	[Type] == "Unstable Catalyst"     # 	[StashItem]	 == "true"	//		拾取且存倉																						
+//	[Type] == "Accelerating Catalyst" # 	[StashItem]	 == "true"		//加速催化劑	拾取且存倉																						
 	//// 10F 軍團裂片&培育器(被視為通貨故無法售出）			//																								
-	[Type] == "Timeless Eternal Empire Splinter"         # 	[StashItem]	 == "true"	//	//永恆不朽帝國裂片	拾取且存倉																						
-	[Type] == "Timeless Karui Splinter"                         # 	[StashItem]	 == "true"	//	//永恆卡魯裂片	拾取且存倉																						
-	[Type] == "Timeless Maraketh Splinter"                         # 	[StashItem]	 == "true"	//	//永恆馬拉克斯裂片	拾取且存倉																						
-	[Type] == "Timeless Templar Splinter"                         # 	[StashItem]	 == "true"	//	//永恆聖宗裂片	拾取且存倉																						
-	[Type] == "Timeless Vaal Splinter"                                 # 	[StashItem]	 == "true"	//	//永恆瓦爾裂片	拾取且存倉																						
+//	[Type] == "Timeless Eternal Empire Splinter"         # 	[StashItem]	 == "true"	//	//永恆不朽帝國裂片	拾取且存倉																						
+//	[Type] == "Timeless Karui Splinter"                         # 	[StashItem]	 == "true"	//	//永恆卡魯裂片	拾取且存倉																						
+//	[Type] == "Timeless Maraketh Splinter"                         # 	[StashItem]	 == "true"	//	//永恆馬拉克斯裂片	拾取且存倉																						
+//	[Type] == "Timeless Templar Splinter"                         # 	[StashItem]	 == "true"	//	//永恆聖宗裂片	拾取且存倉																						
+//	[Type] == "Timeless Vaal Splinter"                                 # 	[StashItem]	 == "true"	//	//永恆瓦爾裂片	拾取且存倉																						
 	[Type] == "Timeless Eternal Emblem"         # 	[StashItem]	 == "true"	//	//永恆不朽帝國徽印	拾取且存倉																						
 	[Type] == "Timeless Karui Emblem"                 # 	[StashItem]	 == "true"	//	//永恆卡魯徽印	拾取且存倉																						
 	[Type] == "Timeless Maraketh Emblem"         # 	[StashItem]	 == "true"	//	//永恆馬拉克斯徽印	拾取且存倉																						
@@ -1140,7 +1142,7 @@
 	[Type]== "Carnal Mitts" && [Rarity] == "Unique" # [local_display_grants_skill_spider_aspect_level] >= "1" && [ForceSellItem] == "true" // Fenumus' Weave				//菲恩絲夜織 禁禮護手	拾取且售出																						
 	[Type]== "Clasped Mitts" && [Rarity] == "Unique" # [ForceSellItem] == "true" // Aukuna's Will / Shadows and Dust				//沙塵之影 環帶護手	拾取且售出																						
 	[Type]== "Murder Mitts" && [Rarity] == "Unique" # [ForceSellItem] == "true" // Machina Mitts / Malachai's Mark / Thunderfist				//轟天雷 暗殺者護手	拾取且售出																						
-//預設//	[Type]== "Sinner Tricorne" && [Rarity] == "Unique" # [local_socketed_aura_gem_level_+] >= "1" && [ForceSellItem] == "true" // Alpha's howl				//極地之嗥 罪者之帽	拾取且存倉																						
+	[Type]== "Sinner Tricorne" && [Rarity] == "Unique" # [local_socketed_aura_gem_level_+] >= "1" && [ForceSellItem] == "true" // Alpha's howl				//極地之嗥 罪者之帽	拾取且存倉																						
 	[Type]== "Hubris Circlet" && [Rarity] == "Unique" # [non_instant_mana_recovery_from_flasks_also_recovers_life] >= "1" && [ForceSellItem] == "true" // Indigon				//地印之環 靈主之環	拾取且售出																						
 	[Type]== "Necromancer Circlet" && [Rarity] == "Unique" # [chance_to_gain_power_charge_on_hitting_enemy_affected_by_spiders_web_%] >= "1" && [ForceSellItem] == "true" // Fenumus' Toxins				//菲恩絲獠牙 操靈者之冠	拾取且售出																						
 	[Type]== "Great Crown" && [Rarity] == "Unique" # [local_has_X_abyss_sockets] >= "1" && [ForceSellItem] == "true" // Lightpoacher				//光明獵盜者 強化巨盔	拾取且售出																						
@@ -1744,7 +1746,7 @@
 //	// One-Handed Axes																											
 	[Type] == "Coiled Staff" && [Rarity] == "Unique" # [spell_skill_gem_level_+] >= "1" && [ForceSellItem] == "true" // Xirgil's Crank				//舍吉的手柄 強化長杖	拾取且售出																						
 	[Type] == "Ezomyte Staff" && [Rarity] == "Unique" # [local_display_gain_power_charge_on_spending_mana] >= "1" && [ForceSellItem] == "true" // Cane of Unravelling				//初惡枝枒 艾茲麥長杖	拾取且售出																						
-//預設//	[Type] == "Ezomyte Staff" && [Rarity] == "Unique" # [local_display_trigger_level_x_summon_phantasm_on_corpse_consume] >= "1" && [ForceSellItem] == "true" // Soulwrest				//鑄影 艾茲麥長杖	拾取且存倉																						
+	[Type] == "Ezomyte Staff" && [Rarity] == "Unique" # [local_display_trigger_level_x_summon_phantasm_on_corpse_consume] >= "1" && [ForceSellItem] == "true" // Soulwrest				//鑄影 艾茲麥長杖	拾取且存倉																						
 //預設//	[Type]== "Siege Axe" && [Rarity] == "Unique" # [melee_attacks_usable_without_mana_cost] >= "1" && [ForceSellItem] == "true" // Soul Taker				//開膛斧 破城斧	拾取且存倉																						
 	[Type] == "Gnarled Branch" && [Rarity] == "Unique" # [curse_on_block_level_5_vulnerability] >= "1" && [ForceSellItem] == "true" // The Blood Thorn				//血棘 朽木之幹	拾取且售出																						
 	[Type] == "Gnarled Branch" && [Rarity] == "Unique" # [local_display_socketed_gems_get_trap_level] >= "1" && [ForceSellItem] == "true" // Fencoil				//綠藤 朽木之幹	拾取且售出																						
@@ -1798,7 +1800,7 @@
 	[Type] == "Vaal Blade" && [Rarity] == "Unique" # [local_varunastra_weapon_counts_as_all_1h_melee_weapon_types] >= "1" && [ForceSellItem] == "true" // Varunastra				//黑鯊 瓦爾軍刃	拾取且售出																						
 	[Type] == "Variscite Blade" && [Rarity] == "Unique" # [local_hits_always_inflict_elemental_ailments] >= "1" && [ForceSellItem] == "true" // Story of the Vaal				//瓦爾之序 碧銅短劍	拾取且售出																						
 	[Type] == "War Sword" && [Rarity] == "Unique" # [local_always_hit] >= "1" && [ForceSellItem] == "true" // The Tempestuous Steel				//征戰之劍	拾取且售出																						
-//預設//	[Type]== "Ezomyte Dagger" && [Rarity] == "Unique" # [physical_spell_skill_gem_level_+] >= "1" && [ForceSellItem] == "true" // Cold Iron Point				//寒鋼之刃 艾茲麥短匕	拾取且存倉																						
+	[Type]== "Ezomyte Dagger" && [Rarity] == "Unique" # [physical_spell_skill_gem_level_+] >= "1" && [ForceSellItem] == "true" // Cold Iron Point				//寒鋼之刃 艾茲麥短匕	拾取且存倉																						
 	[Type] == "Antique Rapier" && [Rarity] == "Unique" # [attacks_num_of_additional_chains_when_in_main_hand] >= "1" && [ForceSellItem] == "true" // Ewar's Mirage				//伊沃幻像 古代細劍	拾取且售出																						
 	[Type] == "Basket Rapier" && [Rarity] == "Unique" # [base_resist_all_elements_%] >= "1" && [ForceSellItem] == "true" // Aurumvorax				//靈護 練武者細劍	拾取且售出																						
 	[Type] == "Elegant Foil" && [Rarity] == "Unique" # [local_weapon_range_+] >= "1" && [ForceSellItem] == "true" // Chitus' Needle				//切特斯之針 貴族細劍	拾取且售出																						
