@@ -1130,7 +1130,7 @@
 	[Type]== "Assassin's Boots" && [Rarity] == "Unique" # [ForceSellItem] == "true" // Fenumus' Spinnerets / The Stampede				//潰逃之靴 刺殺者之靴	拾取且售出																						
 	[Type]== "Assassin's Boots" && [Rarity] == "Unique" # [aspect_of_the_spider_web_count_+] >= "1" && [ForceSellItem] == "true" // Fenumus' Spinnerets				//菲恩絲刺靴 刺殺者之靴	拾取且售出																						
 	[Type]== "Assassin's Boots" && [Rarity] == "Unique" # [travel_skill_cooldown_speed_+%] >= "1" && [ForceSellItem] == "true" // The Stampede				//潰逃之靴 刺殺者之靴	拾取且售出																						
-//基底勿動//	[Type]== "Carnal Boots" && [Rarity] == "Unique" # [ForceSellItem] == "true" // Corpsewalker / Omeyocan				//歐門悠根 禁禮之靴	拾取且存倉																						
+	[Type]== "Carnal Boots" && [Rarity] == "Unique" # [ForceSellItem] == "true" // Corpsewalker / Omeyocan				//歐門悠根 禁禮之靴	拾取且存倉																						
 //基底勿動//	[Type]== "Carnal Boots" && [Rarity] == "Unique" # [gain_onslaught_while_not_on_low_mana] >= "1" && [ForceSellItem] == "true" // Omeyocan				//歐門悠根 禁禮之靴	拾取且存倉																						
 	[Type]== "Titan Gauntlets" && [Rarity] == "Unique" # [ForceSellItem] == "true" // Veruso's Battering Rams / Craiceann's Pincers				//奎爾珊堅鉗 巨人護手	拾取且售出																						
 	[Type]== "Vaal Gauntlets" && [Rarity] == "Unique" # [ForceSellItem] == "true" // Atziri's Acuity / Doryani's Fist				//多里亞尼之拳 瓦爾護手	拾取且售出																						
@@ -1312,7 +1312,7 @@
 	[Type]== "Paua Ring" && [Rarity] == "Unique" # [ForceSellItem] == "true" // Doedre's Damning / Fated End / Perandus Signet / Praxis				//普拉克斯 海靈戒指	拾取且售出																						
 	[Type]== "Prismatic Ring" && [Rarity] == "Unique" # [ForceSellItem] == "true" // Lori's Lantern / Precursor's Emblem / The Taming / Thief's Torment				//竊罪 三相戒指	拾取且售出																						
 	[Type]== "Ruby Ring" && [Rarity] == "Unique" # [ForceSellItem] == "true" // Ahkeli's Meadow/Mountain/Valley / Circle of Anguish / Emberwake / Mokou's Embrace / Ngamahu's Sign / Precursor's Emblem / Warrior's Legacy				//戰士遺物 紅玉戒指	拾取且售出																						
-//基底勿改//	[Type] == "Carnal Boots" && [Rarity] == "Unique" # [local_display_trigger_corpse_walk_on_equip_level] >= "1" && [ForceSellItem] == "true" // Corpsewalker				//禁禮之靴(行屍走肉)	拾取且存倉																						
+	[Type] == "Carnal Boots" && [Rarity] == "Unique" # [local_display_trigger_corpse_walk_on_equip_level] >= "1" && [ForceSellItem] == "true" // Corpsewalker				//禁禮之靴(行屍走肉)	拾取且存倉																						
 	[Type]== "Sapphire Ring" && [Rarity] == "Unique" # [ForceSellItem] == "true" // Circle of Fear / Dream Fragments / Precursor's Emblem / Pyre / Snakepit / Tasalio's Sign / Uzaza's Meadow/Mountain/Valley				//藍玉戒指	拾取且售出																						
 	[Type] == "Clasped Boots" && [Rarity] == "Unique" # [base_item_found_rarity_+%] >= "1" && [ForceSellItem] == "true" // Sundance				//日耀 環帶長靴	拾取且售出																						
 	[Type] == "Murder Boots" && [Rarity] == "Unique" # [ForceSellItem] == "true" // Bubonic Trail / Voidwalker				//虛空行者 暗殺者長靴	拾取且售出																						
