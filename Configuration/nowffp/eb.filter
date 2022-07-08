@@ -2881,7 +2881,7 @@ Show # 輿圖物品 - 凡人的碎片
     MinimapIcon 2 Yellow Triangle
     PlayEffect Yellow
 
-Show # 輿圖物品 - 午夜的奉獻
+Hide # 輿圖物品 - 午夜的奉獻
     Class "Map Fragments"
     BaseType "Sacrifice at Midnight"
     SetTextColor 0 0 0 
@@ -2892,7 +2892,7 @@ Show # 輿圖物品 - 午夜的奉獻
     MinimapIcon 2 Yellow Triangle
     PlayEffect Yellow
 
-Show # 輿圖物品 - 正午黃昏黎明的奉獻
+Hide # 輿圖物品 - 正午黃昏黎明的奉獻
     Class "Map Fragments"
     BaseType "Sacrifice at Dawn" "Sacrifice at Dusk" "Sacrifice at Noon"
     SetTextColor 200 0 255
