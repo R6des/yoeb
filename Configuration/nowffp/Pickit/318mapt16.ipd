@@ -90,7 +90,7 @@
 //	[Type] == "Orb of Augmentation" # 	[StashItem]	 == "true"	//	//增幅石	不撿不存倉																						
 //	[Type] == "Orb of Chance" # 	[StashItem]	 == "true"	//	//機會石	不撿不存倉																						
 //	[Type] == "Orb of Fusing" # 	[StashItem]	 == "true"	//	//鏈結石	不撿不存倉																						
-//	[Type] == "Orb of Regret" # 	[StashItem]	 == "true"	//	//後悔石	不撿不存倉																						
+	[Type] == "Orb of Regret" # 	[StashItem]	 == "true"	//	//後悔石	不撿不存倉																						
 //	[Type] == "Orb of Scouring" # 	[StashItem]	 == "true"	//	//重鑄石	不撿不存倉																						
 //	[Type] == "Perandus Coin" # 	[StashItem]	 == "true"	//	//普蘭德斯金幣	不撿不存倉																						
 //	[Type] == "Regal Orb" # 	[StashItem]	 == "true"	//	//富豪石	不撿不存倉																						
