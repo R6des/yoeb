@@ -15,7 +15,7 @@
 2¡¢º¯ÊıĞÍ£ºº¯ÊıÃû(²ÎÊı1,²ÎÊı2) ÕâÑùµÄ¾ÍÊÇº¯ÊıĞÍ ÓÉº¯ÊıÃûÓëÈô¸É¸ö²ÎÊı×é³É ²ÎÊı±»°ë½ÇÀ¨ºÅ()Ì×ÆğÀ´
 ]]
 ------------------»ù±¾ÉèÖÃ
-g_needMinimizeGame=false			--×îĞ¡»¯ß[‘ò´°¿Ú trueÎª×îĞ¡»¯ false»ònilÎª²»×îĞ¡»¯
+g_needMinimizeGame=nil			--×îĞ¡»¯ß[‘ò´°¿Ú trueÎª×îĞ¡»¯ false»ònilÎª²»×îĞ¡»¯
 g_imBoss=false			--Èç¹ûÊÇ²Ö¿âºÅÒªÎªtrue ¹Ò»úºÅÎªfalse
 g_attackDis=50					--¹¥»÷¾àÀë
 g_yiJieTimeOut=15*60			--Òì½çµØÍ¼ÄÚµÄ³¬Ê±Ê±¼ä µ¥Î»ÎªÃë Èç¹ûÎ´ÉèÖÃ¾Í»áÓÃg_timeOut *ÊÇ³ËºÅ ÕâÀïÎª15³ËÒÔ60=15·ÖÖÓ
@@ -141,7 +141,7 @@ SetNeedFlaskData(5,"Ä§Á¦Ò©¼Á","ÕÏµKÎïÖ®,LocalManaFlaskHinderNearbyEnemies2",48)
 AddNotMakeTaskData("a2q5")--ÃÎÖĞÊ¥µØ
 AddNotMakeTaskData("a2q10")--°×É«¾ŞÊŞ
 AddNotMakeTaskData("a3q13")--ÖØÉúµÄ¿ÊÍû
---AddNotMakeTaskData("a3q12")--ÃüÔËÖ®Óï
+AddNotMakeTaskData("a3q12")--ÃüÔËÖ®Óï
 AddNotMakeTaskData("a6q5")--±ÏË¹ÌØ´«Ææ
 AddNotMakeTaskData("a7q5")--ÒøÉ«µõ×¹
 --AddNotMakeTaskData("a7q8")--¹ÅË¹ÌØµÄÄ¹±®
@@ -378,21 +378,21 @@ SetGoodsCaoZuo("Ö÷¶¯¼¼ÄÜ±¦Ê¯|¸¨Öú¼¼ÄÜ±¦Ê¯","0|2",nil,nil,nil,nil,5)--Ê°È¡Æ·ÖÊ³¬¹
 SetGoodsCaoZuo(nil,"0|1|4",nil,nil,nil,nil,nil,nil,"3")--Ê°È¡ ¼ø¶¨ ³öÊÛ³ÈÉ«ÎïÆ·
 SetGoodsCaoZuo(nil,nil,"ÖªÊ¶¾íÖá","Metadata/Items/Currency/CurrencyIdentification",nil,nil,nil,40)--¹»ÁË¾Í²»¼ñÁË
 SetGoodsCaoZuo(nil,nil,"´«ËÍ¾íÖá","Metadata/Items/Currency/CurrencyPortal",nil,nil,nil,80)--¹»ÁË¾Í²»¼ñÁË
-SetGoodsCaoZuo(nil,"0","µã½ğÊ¯","Metadata/Items/Currency/CurrencyUpgradeToRare",nil,nil,nil,nil)
+SetGoodsCaoZuo(nil,"0|2","µã½ğÊ¯","Metadata/Items/Currency/CurrencyUpgradeToRare",nil,nil,nil,20)
 SetGoodsCaoZuo(nil,"0|1",nil,nil,nil,nil,nil,nil,"0|1|2",6)--6¶´×°ÉèÖÃ¼ñÂô
 SetGoodsCaoZuo(nil,"0|1",nil,nil,nil,nil,nil,nil,"0|1|2",nil,6)--6Á¬¶´×°ÉèÖÃ¼ñÂô
-SetGoodsCaoZuo("×¦|·ûÎÄØ°Ê×|µ¥ÊÖ½£|Ï¸½£|µ¥ÊÖ¸«|µ¥ÊÖ´¸","0|1",nil,nil,nil,nil,nil,nil,"2")--¼ñÂô»ÆÎä
-SetGoodsCaoZuo("Öé±¦|ÉîÔ¨Öé±¦|·¨ÕÈ|Ø°Ê×|·ûÎÄØ°Ê×|¶ÌÕÈ|Õ½ÕÈ|¹­|³¤ÕÈ|Ë«ÊÖ½£|Ë«ÊÖ¸«|Ë«ÊÖ´¸","0|1|4",nil,nil,nil,nil,nil,nil,"2")--Ê°È¡ ¼ø¶¨ ³öÊÛ»ÆÉ«ÎïÆ·Öé±¦
+SetGoodsCaoZuo("×¦","0|1|4",nil,nil,nil,nil,5,nil,"2")--¼ñÂô¾«Á¼µÄ»Æ×¦×Ó
+SetGoodsCaoZuo("Öé±¦|ÉîÔ¨Öé±¦|·ûÎÄØ°Ê×|Ø°Ê×|·¨ÕÈ|µ¥ÊÖ½£|Ï¸½£","0|1|4",nil,nil,nil,nil,nil,nil,"2")--Ê°È¡ ¼ø¶¨ ³öÊÛ»ÆÉ«ÎïÆ·Öé±¦
 SetGoodsCaoZuo(nil,"1|3","ÖÜÄê¸£´ü","Metadata/Items/MicrotransactionCurrency/MicrotransactionTencentEventCoin")--
 SetGoodsCaoZuo(nil,"1|3","²£Á§µ¯Öé","Metadata/Items/Currency/CurrencyFlaskQuality")--
 SetGoodsCaoZuo(nil,"3","¾íÖáËéÆ¬","Metadata/Items/Currency/CurrencyIdentificationShard")--¾íÖáËéÆ¬¶ª
 SetGoodsCaoZuo(nil,"2|3","Ô¤ÑÔ","Metadata/Items/Currency/CurrencyItemisedProphecy")--¶ªÔ¤ÑÔ
 SetGoodsCaoZuo(nil,"0|2","ÌmËş¶äÃÔã¯Ö®Û","Metadata/Items/DivinationCards/DivinationCardLantadorsLostLove")
 SetGoodsCaoZuo(nil,"0|2","×£¸£Ê¯","Metadata/Items/Currency/CurrencyRerollImplicit",nil,nil,nil,nil)--×£¸£Ê¯
-SetGoodsCaoZuo(nil,"0|2","Êø¿`Ê¯","Metadata/Items/Currency/CurrencyUpgradeToRareAndSetSockets",nil,nil,nil,nil)--Êø¿`Ê¯
+SetGoodsCaoZuo(nil,"0|2","Êø¿`Ê¯","Metadata/Items/Currency/CurrencyUpgradeToRareAndSetSockets",nil,nil,nil,10)--Êø¿`Ê¯
 SetGoodsCaoZuo(nil,"3","¹¤³ÌÊ¯","Metadata/Items/Currency/CurrencyStrongboxQuality",nil,nil,nil,0)--¹¤³ÌÊ¯
 SetGoodsCaoZuo(nil,"0","Ä¥µ¶Ê¯","Metadata/Items/Currency/CurrencyWeaponQuality")--Ä¥µ¶Ê¯²»´æ
-SetGoodsCaoZuo(nil,"0|1","»¤¼×Æ¬","Metadata/Items/Currency/CurrencyArmourQuality")--»¤¼×Æ¬²»´æ
+SetGoodsCaoZuo(nil,"0","»¤¼×Æ¬","Metadata/Items/Currency/CurrencyArmourQuality")--»¤¼×Æ¬²»´æ
 --SetJiaoYiGoods(nil,nil,"Metadata/Items/Currency/CurrencyWeaponQuality")--Ä¥µ¶Ê¯
 --SetJiaoYiGoods(nil,nil,"Metadata/Items/Currency/CurrencyArmourQuality")--×o¼×Æ¬
 
