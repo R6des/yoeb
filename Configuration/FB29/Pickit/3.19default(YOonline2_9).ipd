@@ -819,3 +819,152 @@
 	 [Sockets] == "6" && [Linked] <= "5" && [Rarity] == "Normal"  # [SellUnid] == "true"     // Sell 6S Whites			//																								
 	 [Sockets] == "6" && [Linked] <= "5" && [Rarity] == "Magic"          # [SellUnid] == "true"     // Sell 6S Magic			//																								
 	 [Sockets] == "6" && [Linked] <= "5" && [Rarity] == "Rare"          # [SellUnid] == "true"     // Sell 6S Rare			//	
+	 	//// 17F 機會石點裝備 (機會石不足會造成爆倉 請謹慎開啟）			//																								
+//	[Type] == "Leather Belt"                # [ChanceItem] == "true" && [Rarity] == "Normal" // Headhunter(獵首)			//	//自動撿皮革點獵首	關閉中																						
+//	[Type] == "Heavy Belt"                # [ChanceItem] == "true" && [Rarity] == "Normal" // BloodMage			//	//自動撿重革點魔血	關閉中																						
+//	[Type] == "Champion Kite Shield"                # [ChanceItem] == "true" && [Rarity] == "Normal" // AA盾			//	//自動撿鬥士鳶盾點AA盾	關閉中																						
+	//// 18F 藥水（預設關閉）			//																								
+				//																								
+	[Type] == "Quicksilver Flask" # 	[StashItem]	 == "true" 	//	//水銀藥劑	不撿不存倉																						
+	[Type] == "Gold Flask"     # 	[StashItem]	 == "true" 	//	//黃金藥劑	不撿不存倉																						
+				//																								
+//	 [Type] == "Small Life Flask" # 	[StashItem]	 == "true" 	//	//小型生命藥劑	不撿不存倉																						
+//	 [Type] == "Medium Life Flask" # 	[StashItem]	 == "true" 	//	//生命藥劑（中）	不撿不存倉																						
+//	 [Type] == "Large Life Flask" # 	[StashItem]	 == "true" 	//	//生命藥劑（大）	不撿不存倉																						
+//	 [Type] == "Greater Life Flask" # 	[StashItem]	 == "true" 	//	//良質生命藥劑	不撿不存倉																						
+//	 [Type] == "Grand Life Flask" # 	[StashItem]	 == "true" 	//	//優質生命藥劑	不撿不存倉																						
+//	 [Type] == "Giant Life Flask" # 	[StashItem]	 == "true" 	//	//巨型生命藥劑	不撿不存倉																						
+//	 [Type] == "Colossal Life Flask" # 	[StashItem]	 == "true" 	//	//高階生命藥劑	不撿不存倉																						
+//	 [Type] == "Sacred Life Flask" # 	[StashItem]	 == "true" 	//	//聖語生命藥劑	不撿不存倉																						
+//	 [Type] == "Hallowed Life Flask" # 	[StashItem]	 == "true" 	//	//祝福生命藥劑	不撿不存倉																						
+//	 [Type] == "Sanctified Life Flask" # 	[StashItem]	 == "true" 	//	//聖化生命藥劑	不撿不存倉																						
+	 [Type] == "Divine Life Flask" # 	[StashItem]	 == "true" 	//	//不朽生命藥劑	不撿不存倉																						
+//	 [Type] == "Eternal Life Flask" # 	[StashItem]	 == "true" 	//	//永恆生命藥劑	不撿不存倉																						
+//	 [Type] == "Small Mana Flask" # 	[StashItem]	 == "true" 	//	//小型魔力藥劑	不撿不存倉																						
+//	 [Type] == "Medium Mana Flask" # 	[StashItem]	 == "true" 	//	//中型魔力藥劑	不撿不存倉																						
+//	 [Type] == "Large Mana Flask" # 	[StashItem]	 == "true" 	//	//大型魔力藥劑	不撿不存倉																						
+//	 [Type] == "Greater Mana Flask" # 	[StashItem]	 == "true" 	//	//良質魔力藥劑	不撿不存倉																						
+//	 [Type] == "Grand Mana Flask" # 	[StashItem]	 == "true" 	//	//優質魔力藥劑	不撿不存倉																						
+//	 [Type] == "Giant Mana Flask" # 	[StashItem]	 == "true" 	//	//巨型魔力藥劑	不撿不存倉																						
+//	 [Type] == "Colossal Mana Flask" # 	[StashItem]	 == "true" 	//	//高階魔力藥劑	不撿不存倉																						
+//	 [Type] == "Sacred Mana Flask" # 	[StashItem]	 == "true" 	//	//聖語魔力藥劑	不撿不存倉																						
+//	 [Type] == "Hallowed Mana Flask" # 	[StashItem]	 == "true" 	//	//祝福魔力藥劑	不撿不存倉																						
+//	 [Type] == "Sanctified Mana Flask" # 	[StashItem]	 == "true" 	//	//聖化魔力藥劑	不撿不存倉																						
+//	 [Type] == "Divine Mana Flask" # 	[StashItem]	 == "true" 	//	//不朽魔力藥劑	不撿不存倉																						
+//	 [Type] == "Eternal Mana Flask" # 	[StashItem]	 == "true" 	//	//永恆魔力藥劑	不撿不存倉																						
+//	 [Type] == "Small Hybrid Flask" # 	[StashItem]	 == "true" 	//	//小型複合藥劑	不撿不存倉																						
+//	 [Type] == "Medium Hybrid Flask" # 	[StashItem]	 == "true" 	//	//中型複合藥劑	不撿不存倉																						
+//	 [Type] == "Large Hybrid Flask" # 	[StashItem]	 == "true" 	//	//大型複合藥劑	不撿不存倉																						
+//	 [Type] == "Colossal Hybrid Flask" # 	[StashItem]	 == "true" 	//	//高階複合藥劑	不撿不存倉																						
+//	 [Type] == "Sacred Hybrid Flask" # 	[StashItem]	 == "true" 	//	//聖語複合藥劑	不撿不存倉																						
+//	 [Type] == "Hallowed Hybrid Flask" # 	[StashItem]	 == "true" 	//	//祝福複合藥劑	不撿不存倉																						
+//	 [Type] == "Bismuth Flask" # 	[StashItem]	 == "true" 	//	//灰岩藥劑	不撿不存倉																						
+//	 [Type] == "Stibnite Flask" # 	[StashItem]	 == "true" 	//	//迷霧藥劑	不撿不存倉																						
+//	 [Type] == "Amethyst Flask" # 	[StashItem]	 == "true" 	//	//紫晶藥劑	不撿不存倉																						
+//	 [Type] == "Ruby Flask" # 	[StashItem]	 == "true" 	//	//紅玉藥劑	不撿不存倉																						
+//	 [Type] == "Sapphire Flask" # 	[StashItem]	 == "true" 	//	//藍玉藥劑	不撿不存倉																						
+//	 [Type] == "Topaz Flask" # 	[StashItem]	 == "true" 	//	//黃玉藥劑	不撿不存倉																						
+//	 [Type] == "Silver Flask" # 	[StashItem]	 == "true" 	//	//真銀藥劑	不撿不存倉																						
+//	 [Type] == "Aquamarine Flask" # 	[StashItem]	 == "true" 	//	//海藍藥劑	不撿不存倉																						
+	 [Type] == "Diamond Flask" # 	[StashItem]	 == "true" 	//	//寶鑽藥劑	不撿不存倉																						
+//	 [Type] == "Granite Flask" # 	[StashItem]	 == "true" 	//	//堅岩藥劑	不撿不存倉																						
+//	 [Type] == "Jade Flask" # 	[StashItem]	 == "true" 	//	//翠玉藥劑	不撿不存倉																						
+//	 [Type] == "Quartz Flask" # 	[StashItem]	 == "true" 	//	//石英藥劑	不撿不存倉																						
+	 [Type] == "Sulphur Flask" # 	[StashItem]	 == "true" 	//	//硫磺藥劑	不撿不存倉																						
+//	 [Type] == "Basalt Flask" # 	[StashItem]	 == "true" 	//	//石化藥劑	不撿不售出																						
+				//																								
+	//// 19F 聖甲蟲			//																								
+//	[Type] == "Rusted Ambush Scarab"        # [StashItem] == "true"			//	//聖甲蟲：鏽蝕伏擊	不拾取																						
+//	[Type] == "Polished Ambush Scarab"      # [StashItem] == "true"			//	//聖甲蟲：圓滑伏擊	不拾取																						
+//	[Type] == "Gilded Ambush Scarab"        # [StashItem] == "true"			//	//聖甲蟲：鍍金伏擊	不拾取																						
+//	[Type] == "Winged Ambush Scarab"        # [StashItem] == "true"			//		不拾取																						
+//	[Type] == "Rusted Bestiary Scarab"      # [StashItem] == "true"			//	//聖甲蟲：鏽蝕獸獵	不拾取																						
+//	[Type] == "Polished Bestiary Scarab"    # [StashItem] == "true"			//	//聖甲蟲：圓滑獸獵	不拾取																						
+//	[Type] == "Gilded Bestiary Scarab"      # [StashItem] == "true"			//	//聖甲蟲：鍍金獸獵	不拾取																						
+//	[Type] == "Winged Bestiary Scarab"      # [StashItem] == "true"			//		不拾取																						
+//	[Type] == "Rusted Breach Scarab"        # [StashItem] == "true"			//	//聖甲蟲：鏽蝕裂痕	不拾取																						
+//	[Type] == "Polished Breach Scarab"      # [StashItem] == "true"			//	//聖甲蟲：圓滑裂痕	不拾取																						
+//	[Type] == "Gilded Breach Scarab"        # [StashItem] == "true"			//	//聖甲蟲：鍍金裂痕	不拾取																						
+//	[Type] == "Winged Breach Scarab"        # [StashItem] == "true"			//		不拾取																						
+//	[Type] == "Rusted Cartography Scarab"   # [StashItem] == "true"			//	//聖甲蟲：鏽蝕製圖	不拾取																						
+//	[Type] == "Polished Cartography Scarab" # [StashItem] == "true"			//	//聖甲蟲：圓滑製圖	不拾取																						
+//	[Type] == "Gilded Cartography Scarab"   # [StashItem] == "true"			//	//聖甲蟲：鍍金製圖	不拾取																						
+//	[Type] == "Winged Cartography Scarab"   # [StashItem] == "true"			//		不拾取																						
+//	[Type] == "Rusted Divination Scarab"    # [StashItem] == "true"			//	//聖甲蟲：鏽蝕命運	不拾取																						
+//	[Type] == "Polished Divination Scarab"  # [StashItem] == "true"			//	//聖甲蟲：圓滑命運	不拾取																						
+//	[Type] == "Gilded Divination Scarab"    # [StashItem] == "true"			//	//聖甲蟲：鍍金命運	不拾取																						
+//	[Type] == "Winged Divination Scarab"    # [StashItem] == "true"			//		不拾取																						
+//	[Type] == "Rusted Elder Scarab"         # [StashItem] == "true"			//	//聖甲蟲：鏽蝕尊師	不拾取																						
+//	[Type] == "Polished Elder Scarab"       # [StashItem] == "true"			//	//聖甲蟲：圓滑尊師	不拾取																						
+//	[Type] == "Gilded Elder Scarab"         # [StashItem] == "true"			//	//聖甲蟲：鍍金尊師	不拾取																						
+//	[Type] == "Winged Elder Scarab"         # [StashItem] == "true"			//		不拾取																						
+//	[Type] == "Rusted Harbinger Scarab"     # [StashItem] == "true"			//	//聖甲蟲：鏽蝕神諭	不拾取																						
+//	[Type] == "Polished Harbinger Scarab"   # [StashItem] == "true"			//	//聖甲蟲：圓滑神諭	不拾取																						
+//	[Type] == "Gilded Harbinger Scarab"     # [StashItem] == "true"			//	//聖甲蟲：鍍金神諭	不拾取																						
+//	[Type] == "Winged Harbinger Scarab"     # [StashItem] == "true"			//		不拾取																						
+//	[Type] == "Rusted Legion Scarab"        # [StashItem] == "true"			//	//聖甲蟲：鏽蝕戰亂	不拾取																						
+//	[Type] == "Polished Legion Scarab"      # [StashItem] == "true"			//	//聖甲蟲：圓滑戰亂	不拾取																						
+//	[Type] == "Gilded Legion Scarab"        # [StashItem] == "true"			//	//聖甲蟲：鍍金戰亂	不拾取																						
+//	[Type] == "Winged Legion Scarab"        # [StashItem] == "true"			//		不拾取																						
+//	[Type] == "Rusted Metamorph Scarab"     # [StashItem] == "true"			//	//聖甲蟲：鏽蝕鍊魔	不拾取																						
+//	[Type] == "Polished Metamorph Scarab"   # [StashItem] == "true"			//	//聖甲蟲：圓滑鍊魔	不拾取																						
+//	[Type] == "Gilded Metamorph Scarab"     # [StashItem] == "true"			//	//聖甲蟲：鍍金鍊魔	不拾取																						
+//	[Type] == "Winged Metamorph Scarab"     # [StashItem] == "true"			//		不拾取																						
+//	[Type] == "Rusted Perandus Scarab"      # [StashItem] == "true"			//	//聖甲蟲：鏽蝕普蘭德斯	不拾取																						
+//	[Type] == "Polished Perandus Scarab"    # [StashItem] == "true"			//	//聖甲蟲：圓滑普蘭德斯	不拾取																						
+//	[Type] == "Gilded Perandus Scarab"      # [StashItem] == "true"			//	//聖甲蟲：鍍金普蘭德斯	不拾取																						
+//	[Type] == "Winged Perandus Scarab"      # [StashItem] == "true"			//		不拾取																						
+//	[Type] == "Rusted Reliquary Scarab"     # [StashItem] == "true"			//	//聖甲蟲：鏽蝕聖物	不拾取																						
+//	[Type] == "Polished Reliquary Scarab"   # [StashItem] == "true"			//	//聖甲蟲：圓滑聖物	不拾取																						
+//	[Type] == "Gilded Reliquary Scarab"     # [StashItem] == "true"			//	//聖甲蟲：鍍金聖物	不拾取																						
+//	[Type] == "Winged Reliquary Scarab"     # [StashItem] == "true"			//		不拾取																						
+//	[Type] == "Rusted Shaper Scarab"        # [StashItem] == "true"			//	//聖甲蟲：鏽蝕塑者	不拾取																						
+//	[Type] == "Polished Shaper Scarab"      # [StashItem] == "true"			//	//聖甲蟲：圓滑塑者	不拾取																						
+//	[Type] == "Gilded Shaper Scarab"        # [StashItem] == "true"			//	//聖甲蟲：鍍金塑者	不拾取																						
+//	[Type] == "Winged Shaper Scarab"        # [StashItem] == "true"			//		不拾取																						
+//	[Type] == "Rusted Sulphite Scarab"      # [StashItem] == "true"			//	//聖甲蟲：鏽蝕硫酸	不拾取																						
+//	[Type] == "Polished Sulphite Scarab"    # [StashItem] == "true"			//	//聖甲蟲：圓滑硫酸	不拾取																						
+//	[Type] == "Gilded Sulphite Scarab"      # [StashItem] == "true"			//	//聖甲蟲：鍍金硫酸	不拾取																						
+//	[Type] == "Winged Sulphite Scarab"      # [StashItem] == "true"			//		不拾取																						
+//	[Type] == "Rusted Torment Scarab"       # [StashItem] == "true"			//	//聖甲蟲：鏽蝕苦痛	不拾取																						
+//	[Type] == "Polished Torment Scarab"     # [StashItem] == "true"			//	//聖甲蟲：圓滑苦痛	不拾取																						
+//	[Type] == "Gilded Torment Scarab"       # [StashItem] == "true"			//	//聖甲蟲：鍍金苦痛	不拾取																						
+//	[Type] == "Winged Torment Scarab"       # [StashItem] == "true"			//		不拾取																						
+//	[Type] == "Gilded Abyss Scarab"    # [StashItem] == "true"			//	//聖甲蟲：鍍金深淵	不拾取																						
+//	[Type] == "Gilded Blight Scarab"   # [StashItem] == "true"			//	//聖甲蟲：鍍金凋落	不拾取																						
+//	[Type] == "Polished Abyss Scarab"  # [StashItem] == "true"			//		不拾取																						
+//	[Type] == "Polished Blight Scarab" # [StashItem] == "true"			//		不拾取																						
+//	[Type] == "Rusted Abyss Scarab"    # [StashItem] == "true"			//		不拾取																						
+//	[Type] == "Rusted Blight Scarab"   # [StashItem] == "true"			//		不拾取																						
+//	[Type] == "Winged Abyss Scarab"    # [StashItem] == "true"			//		不拾取																						
+//	[Type] == "Winged Blight Scarab"   # [StashItem] == "true"			//		不拾取																						
+//	[Type] == "Gilded Expedition Scarab" # [StashItem] == "true"				//探險鏽蝕	不拾取																						
+//	[Type] == "Polished Expedition Scarab" # [StashItem] == "true"			//	//探險圓滑	不拾取																						
+//	[Type] == "Rusted Expedition Scarab" # [StashItem] == "true"			//	//探險鍍金	不拾取																						
+//	[Type] == "Winged Expedition Scarab" # [StashItem] == "true"			//	//探險展翅	不拾取																						
+	//// 20F 化石			//																								
+//	[Type] == "Aberrant Fossil"     # [StashItem] == "true"			//	//特異化石	不拾取																						
+//	[Type] == "Aetheric Fossil"     # [StashItem] == "true"			//	//神幻化石	不拾取																						
+//	[Type] == "Bloodstained Fossil" # [StashItem] == "true"			//	//血漬化石	不拾取																						
+//	[Type] == "Bound Fossil"        # [StashItem] == "true"			//	//畛域化石	不拾取																						
+//	[Type] == "Corroded Fossil"     # [StashItem] == "true"			//	//斑駁化石	不拾取																						
+//	[Type] == "Dense Fossil"        # [StashItem] == "true"			//	//稠密化石	不拾取																						
+//	[Type] == "Enchanted Fossil"    # [StashItem] == "true"			//	//附魔化石	不拾取																						
+//	[Type] == "Encrusted Fossil"    # [StashItem] == "true"			//	//鑲飾化石	不拾取																						
+//	[Type] == "Faceted Fossil"      # [StashItem] == "true"			//	//雕琢化石	不拾取																						
+//	[Type] == "Fractured Fossil"    # [StashItem] == "true"			//	//破裂化石	不拾取																						
+//	[Type] == "Frigid Fossil"       # [StashItem] == "true"			//	//寒風化石	不拾取																						
+//	[Type] == "Gilded Fossil"       # [StashItem] == "true"			//	//鑲金化石	不拾取																						
+//	[Type] == "Glyphic Fossil"      # [StashItem] == "true"			//	//雕紋化石	不拾取																						
+//	[Type] == "Hollow Fossil"       # [StashItem] == "true"			//	//鏤空化石	不拾取																						
+//	[Type] == "Jagged Fossil"       # [StashItem] == "true"			//	//鋸齒化石	不拾取																						
+//	[Type] == "Lucent Fossil"       # [StashItem] == "true"			//	//明透化石	不拾取																						
+//	[Type] == "Metallic Fossil"     # [StashItem] == "true"			//	//金鋼化石	不拾取																						
+//	[Type] == "Perfect Fossil"      # [StashItem] == "true"			//	//無瑕化石	不拾取																						
+//	[Type] == "Prismatic Fossil"    # [StashItem] == "true"			//	//三相化石	不拾取																						
+//	[Type] == "Pristine Fossil"     # [StashItem] == "true"			//	//原始化石	不拾取																						
+//	[Type] == "Sanctified Fossil"   # [StashItem] == "true"			//	//神聖化石	不拾取																						
+//	[Type] == "Scorched Fossil"     # [StashItem] == "true"			//	//暴炎化石	不拾取																						
+//	[Type] == "Serrated Fossil"     # [StashItem] == "true"			//	//利齒化石	不拾取																						
+//	[Type] == "Shuddering Fossil"   # [StashItem] == "true"			//	//顫慄化石	不拾取																						
+//	[Type] == "Tangled Fossil"      # [StashItem] == "true"			//	//紊亂化石	不拾取																						
