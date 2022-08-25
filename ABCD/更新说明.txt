@@ -1,4 +1,25 @@
 所有命令的使用设置请看 使用说明 必看.chm
+7.27
+1、SetNeedSkillLineData命令新增技能打品质功能 详情见说明书
+2、SetAtuoChangeEquipData命令新增DPS属性名
+3、新增变量型命令 g_changeHunDunLv=nil--多少级前不换C  他就不会换C和捡换C装备了 如果只搬改造的话非常好用
+4、新增药剂打品质功能，详情见说明书
+5、SetJiaoYiGoods 命令的 属性限制 参数 已经支持判断基底属性与随机属性了 详情见说明书
+6、支持空手技能，不需要任何设置
+7、新增变量型命令 g_useMinLvMapTianFuCnt 取图时，地图天赋满多少点后 就从低阶地图开始取
+8、新增变量型命令 g_openQlkMaxMapTianFuCnt 满多少天赋后不开奇拉克任务 nil为一直开
+6.15
+1、修复搬改造时会和凑C有冲突的情况
+2、没有地图时会去购买地图，没有能拿天赋的地图了会去购买能拿天赋的地图
+3、会自动使用平行石把地图点到没拿天赋的地图
+6.6
+1、SetNeedHuWeiGoods新增了3个参数可以分别设置每个颜色的护卫最多留几个 
+2、SetNeedHuWeiCfg新增了1个能数可单独设置周边满多少只怪时使用蓝护卫 
+3、添加了留多少护卫后 必须使用下面的设置 免得捡多余的护卫浪费时间
+SetGoodsCaoZuo("SentinelDrone","0|4",nil,nil,nil,nil,nil,nil,"1|2|3",nil,nil,nil,nil,2,IsNeedShiQuHuWei)--异界时仓库护卫没达到设置留下来的数量时捡 鉴定 蓝 黄 橙 护卫
+SetGoodsCaoZuo("SentinelDrone","0|2|4",nil,nil,nil,nil,nil,nil,"1|2|3",nil,nil,nil,nil,2,IsNeedHuWei)--异界时捡 存 鉴定 有指定属性的 蓝 黄 橙 护卫
+SetGoodsCaoZuo("SentinelDrone","1|3",nil,nil,nil,nil,nil,nil,"1|2|3",nil,nil,nil,nil,2,function(gd)return not IsNeedHuWei(gd) end)--异界时 卖 丢 没有指定属性的 蓝 黄 橙 护卫
+4、由于优化了异界跑图算法，需要替换dll
 5.26
 1、AddJiaoYiBossName 和 SetZhuangBeiBoss 新增一个参数 支持以仓库号所在的电脑名来设置仓库号，详情见说明书 需要更新mypoe64.dll
 2、新增新赛季内容命令SetNeedHuWeiCfg 和SetNeedHuWeiGoods ，使用示例如下  详情见说明书
