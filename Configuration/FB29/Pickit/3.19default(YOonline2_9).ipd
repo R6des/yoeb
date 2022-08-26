@@ -838,7 +838,7 @@
 //	 [Type] == "Sacred Life Flask" # 	[StashItem]	 == "true" 	//	//聖語生命藥劑	不撿不存倉																						
 //	 [Type] == "Hallowed Life Flask" # 	[StashItem]	 == "true" 	//	//祝福生命藥劑	不撿不存倉																						
 //	 [Type] == "Sanctified Life Flask" # 	[StashItem]	 == "true" 	//	//聖化生命藥劑	不撿不存倉																						
-	 [Type] == "Divine Life Flask" # 	[StashItem]	 == "true" 	//	//不朽生命藥劑	不撿不存倉																						
+//	 [Type] == "Divine Life Flask" # 	[StashItem]	 == "true" 	//	//不朽生命藥劑	不撿不存倉																						
 //	 [Type] == "Eternal Life Flask" # 	[StashItem]	 == "true" 	//	//永恆生命藥劑	不撿不存倉																						
 //	 [Type] == "Small Mana Flask" # 	[StashItem]	 == "true" 	//	//小型魔力藥劑	不撿不存倉																						
 //	 [Type] == "Medium Mana Flask" # 	[StashItem]	 == "true" 	//	//中型魔力藥劑	不撿不存倉																						
