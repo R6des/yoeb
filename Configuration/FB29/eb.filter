@@ -1,6 +1,6 @@
 ﻿# Script edited with Filtration - https://github.com/ben-wallis/Filtration
 # EnableBlockGroups
-#
+
 #============
 # 【===總目錄===】
 # 【特殊語法】0000
@@ -551,7 +551,7 @@ Show # 通貨 - 初始 - 知識卷軸
     SetTextColor 248 172 184 255
     SetBackgroundColor 0 0 0 255
     SetBorderColor 248 172 184 255
-    SetFontSize 5
+    SetFontSize 40
     MinimapIcon 2 Red Diamond
 
 Show # 通貨 - 初始 - 傳送卷軸
@@ -1431,7 +1431,7 @@ Show # 聯盟 - 3.13祭祀 - 鞋子 - 攻擊格擋鞋
 
 # 【聯盟-3.12劫盜】3020
 
-Hide # 聯盟 - 3.12劫盜 - 盜賊之印
+Show # 聯盟 - 3.12劫盜 - 盜賊之印
     Class "Currency"
     BaseType "Rogue's Marker"
     SetTextColor 255 178 102
@@ -1439,7 +1439,7 @@ Hide # 聯盟 - 3.12劫盜 - 盜賊之印
     SetBorderColor 255 178 102
     SetFontSize 40
 
-Hide # 聯盟 - 3.12劫盜 - 劫盜目標
+Show # 聯盟 - 3.12劫盜 - 劫盜目標
     Class "Heist Target"
     SetTextColor 74 230 58
     SetBackgroundColor 0 0 0 150
@@ -1447,7 +1447,7 @@ Hide # 聯盟 - 3.12劫盜 - 劫盜目標
     SetFontSize 45
     MinimapIcon 2 Green Star
 
-Hide # 聯盟 - 3.12劫盜 - 盜賊飾品
+Show # 聯盟 - 3.12劫盜 - 盜賊飾品
     Class "Trinket"
     BaseType "Thief's Trinket"
     SetTextColor 0 51 0
@@ -1458,14 +1458,14 @@ Hide # 聯盟 - 3.12劫盜 - 盜賊飾品
     MinimapIcon 0 Green Triangle
     PlayEffect Green
 
-Hide # 聯盟 - 3.12劫盜 - 契約書
+Show # 聯盟 - 3.12劫盜 - 契約書
     BaseType "Contract"
     SetTextColor 100 50 0
     SetBackgroundColor 255 178 102
     SetBorderColor 204 102 0
     SetFontSize 40
 
-Hide # 聯盟 - 3.12劫盜 - 合同
+Show # 聯盟 - 3.12劫盜 - 合同
     Class "Quest Item"
     BaseType "Contract"
     SetTextColor 0 255 0
@@ -1476,7 +1476,7 @@ Hide # 聯盟 - 3.12劫盜 - 合同
     MinimapIcon 0 Green Triangle
     PlayEffect Green
 
-Hide # 聯盟 - 3.12劫盜 - 藍圖
+Show # 聯盟 - 3.12劫盜 - 藍圖
     BaseType "Blueprint"
     SetTextColor 0 0 204
     SetBackgroundColor 255 178 102
@@ -1486,7 +1486,7 @@ Hide # 聯盟 - 3.12劫盜 - 藍圖
     MinimapIcon 2 Red Circle
     PlayEffect Red
 
-Hide # 聯盟 - 3.12劫盜 - 劫盜裝備
+Show # 聯盟 - 3.12劫盜 - 劫盜裝備
     Class "Heist Cloak" "Heist Brooch" "Heist Tool" "Heist Gear"
     SetTextColor 254 186 255
     SetBackgroundColor 128 0 128 255
@@ -1496,7 +1496,7 @@ Hide # 聯盟 - 3.12劫盜 - 劫盜裝備
     MinimapIcon 2 Red Star
     PlayEffect Red
 
-Hide # 聯盟 - 3.12劫盜 - 替代技能
+Show # 聯盟 - 3.12劫盜 - 替代技能
     AlternateQuality True
     SetTextColor 0 255 255
     SetBorderColor 0 255 255
@@ -1505,7 +1505,7 @@ Hide # 聯盟 - 3.12劫盜 - 替代技能
     MinimapIcon 0 Blue Star
     PlayEffect Blue
 
-Hide # 聯盟 - 3.12劫盜 - 贗品裝備
+Show # 聯盟 - 3.12劫盜 - 贗品裝備
     Replica True
     SetTextColor 255 165 0 255
     SetBackgroundColor 177 123 63 111
@@ -1515,7 +1515,7 @@ Hide # 聯盟 - 3.12劫盜 - 贗品裝備
     MinimapIcon 0 Orange UpsideDownHouse
     PlayEffect Orange
 
-Hide # 聯盟 - 3.12劫盜 - 裝備 - 能量法杖
+Show # 聯盟 - 3.12劫盜 - 裝備 - 能量法杖
     Class "Wands"
     BaseType "Assembler Wand" "Congregator Wand" "Accumulator Wand"
     SetBorderColor 180 255 0
@@ -1524,7 +1524,7 @@ Hide # 聯盟 - 3.12劫盜 - 裝備 - 能量法杖
     MinimapIcon 2 Blue Hexagon
     PlayEffect Blue
 
-Hide # 聯盟 - 3.12劫盜 - 裝備 - 中毒匕首
+Show # 聯盟 - 3.12劫盜 - 裝備 - 中毒匕首
     Class "Daggers"
     BaseType "Hollowpoint Dagger" "Pressurised Dagger" "Pneumatic Dagger"
     SetBorderColor 180 255 0
@@ -1533,7 +1533,7 @@ Hide # 聯盟 - 3.12劫盜 - 裝備 - 中毒匕首
     MinimapIcon 2 Blue Hexagon
     PlayEffect Blue
 
-Hide # 聯盟 - 3.12劫盜 - 裝備 - 烈衝匕首
+Show # 聯盟 - 3.12劫盜 - 裝備 - 烈衝匕首
     Class "Rune Daggers"
     BaseType "Flickerflame Blade" "Flashfire Blade" "Infernal Blade"
     SetBorderColor 180 255 0
@@ -1542,7 +1542,7 @@ Hide # 聯盟 - 3.12劫盜 - 裝備 - 烈衝匕首
     MinimapIcon 2 Blue Hexagon
     PlayEffect Blue
 
-Hide # 聯盟 - 3.12劫盜 - 裝備 - 混點爪
+Show # 聯盟 - 3.12劫盜 - 裝備 - 混點爪
     Class "Claws"
     BaseType "Shadow Fangs" "Malign Fangs" "Void Fangs"
     SetBorderColor 180 255 0
@@ -1551,7 +1551,7 @@ Hide # 聯盟 - 3.12劫盜 - 裝備 - 混點爪
     MinimapIcon 2 Blue Hexagon
     PlayEffect Blue
 
-Hide # 聯盟 - 3.12劫盜 - 裝備 - 盛怒斧
+Show # 聯盟 - 3.12劫盜 - 裝備 - 盛怒斧
     Class "One Hand Axes"
     BaseType "Maltreatment Axe" "Disapprobation Axe" "Psychotic Axe"
     SetBorderColor 180 255 0
@@ -1560,7 +1560,7 @@ Hide # 聯盟 - 3.12劫盜 - 裝備 - 盛怒斧
     MinimapIcon 2 Blue Hexagon
     PlayEffect Blue
 
-Hide # 聯盟 - 3.12劫盜 - 裝備 - 物轉元劍
+Show # 聯盟 - 3.12劫盜 - 裝備 - 物轉元劍
     Class "One Hand Swords"
     BaseType "Fickle Spiritblade" "Capricious Spiritblade" "Anarchic Spiritblade"
     SetBorderColor 180 255 0
@@ -1569,7 +1569,7 @@ Hide # 聯盟 - 3.12劫盜 - 裝備 - 物轉元劍
     MinimapIcon 2 Blue Hexagon
     PlayEffect Blue
 
-Hide # 聯盟 - 3.12劫盜 - 裝備 - 熾熱衝擊錘
+Show # 聯盟 - 3.12劫盜 - 裝備 - 熾熱衝擊錘
     Class "One Hand Maces"
     BaseType "Flare Mace" "Crack Mace" "Boom Mace"
     SetBorderColor 180 255 0
@@ -1881,7 +1881,7 @@ Show # 聯盟 - 3.8凋落 - 漆黑/乳白/純銀/金黃/汙染油瓶
 
 # 【聯盟-3.7戰亂】3015
 
-Hide # 聯盟 - 3.7戰亂 - 培育器 - 低階培育器(先祖/附魔/尊師/探險/深淵/低語)
+Show # 聯盟 - 3.7戰亂 - 培育器 - 低階培育器(先祖/附魔/尊師/探險/深淵/低語)
     Class "Incubator"
     BaseType "Primal Incubator" "Enchanted Incubator" "Eldritch Incubator" "Kalguuran Incubator" "Abyssal Incubator" "Whispering Incubator"
     SetTextColor 0 0 0
@@ -1889,7 +1889,7 @@ Hide # 聯盟 - 3.7戰亂 - 培育器 - 低階培育器(先祖/附魔/尊師/探
     SetBorderColor 0 0 0
     SetFontSize 45
 
-Hide # 聯盟 - 3.7戰亂 - 培育器 - 中階培育器(飛掠/卓越/超凡/朦朧/神秘/注能/寶石匠/化石/諭示/製圖/命運/眾星/凋落/鍊魔/譫妄)
+Show # 聯盟 - 3.7戰亂 - 培育器 - 中階培育器(飛掠/卓越/超凡/朦朧/神秘/注能/寶石匠/化石/諭示/製圖/命運/眾星/凋落/鍊魔/譫妄)
     Class "Incubator"
     BaseType "Skittering Incubator" "Singular Incubator" "Otherworldly Incubator" "Obscured Incubator" "Mysterious Incubator" "Infused Incubator" "Gemcutter's Incubator" "Fragmented Incubator" "Fossilised Incubator" "Foreboding Incubator" "Cartographer's Incubator" "Celestial Armoursmith's Incubator" "Celestial Blacksmith's Incubator" "Diviner's Incubator" "Celestial Jeweller's Incubator" "Blighted Incubator" "Morphing Incubator" "Maddening Incubator"
     SetTextColor 0 0 0
@@ -1899,7 +1899,7 @@ Hide # 聯盟 - 3.7戰亂 - 培育器 - 中階培育器(飛掠/卓越/超凡/朦
     PlayAlertSound 2 300
     MinimapIcon 0 Yellow Star
 
-Hide # 聯盟 - 3.7戰亂 - 培育器 - 高階培育器(時間遺忘/幻術師/華麗/占卜/精緻)
+Show # 聯盟 - 3.7戰亂 - 培育器 - 高階培育器(時間遺忘/幻術師/華麗/占卜/精緻)
     Class "Incubator"
     BaseType "Time-Lost Incubator" "Thaumaturge's Incubator" "Ornate Incubator" "Geomancer's Incubator" "Fine Incubator"
     SetTextColor 0 0 0
@@ -2693,9 +2693,10 @@ Show # 輿圖物品 - 釋界之邀
     SetTextColor 0 0 0
     SetBackgroundColor 253 204 255
     SetBorderColor 255 94 255
-    SetFontSize 60
+    SetFontSize 45
+    PlayAlertSound 6 250
     MinimapIcon 0 Red Diamond
-
+    PlayEffect Red
 
 Show # 輿圖物品 - 新月裂片
     Class "Currency"
@@ -3009,7 +3010,7 @@ Show # 技能 - 技能品質15~19
     PlayEffect White Temp
 
 Show # 技能 - 技能品質1~14
-    Quality >= 15
+    Quality >= 1
     Class "Gems"
     SetTextColor 10 230 230
     SetFontSize 40
@@ -3026,7 +3027,7 @@ Show # 技能 - 瓦爾技能
     Class "Gems"
     BaseType "Vaal"
 
-Hide # 技能 - 一般技能
+Show # 技能 - 一般技能
     Class "Gems"
 
 # 【裝備】
@@ -3988,7 +3989,7 @@ Hide # 藥劑 - 生命藥劑 - 中階(高階/聖語/祝福)
     SetBorderColor 153 0 0
     SetFontSize 40
 
-Hide # 藥劑 - 生命藥劑 - 高階(聖化/不朽/永恆)
+Show # 藥劑 - 生命藥劑 - 高階(聖化/不朽/永恆)
     Class "Life Flasks"
     BaseType "Sanctified Life Flask" "Divine Life Flask" "Eternal Life Flask"
     SetTextColor 153 0 0
@@ -4016,7 +4017,7 @@ Hide # 藥劑 - 魔力藥劑 - 中階(高階/聖語/祝福)
     SetBorderColor 0 102 204
     SetFontSize 40
 
-Hide # 藥劑 - 魔力藥劑 - 高階(聖化/不朽/永恆)
+Show # 藥劑 - 魔力藥劑 - 高階(聖化/不朽/永恆)
     Rarity <= Magic
     Class "Mana Flasks"
     BaseType "Sanctified Mana Flask" "Divine Mana Flask" "Eternal Mana Flask"
@@ -4045,7 +4046,7 @@ Hide # 藥劑 - 複合藥劑 - 中階(大型/高階)
     SetBorderColor 76 0 153
     SetFontSize 40
 
-Hide # 藥劑 - 複合藥劑 - 高階(聖語/祝福)
+Show # 藥劑 - 複合藥劑 - 高階(聖語/祝福)
     Rarity <= Magic
     Class "Hybrid Flasks"
     BaseType "Sacred Hybrid Flask" "Hallowed Hybrid Flask"
@@ -4056,260 +4057,260 @@ Hide # 藥劑 - 複合藥劑 - 高階(聖語/祝福)
 
 # 【裝備-高T詞綴裝備】
 
-Hide # 裝備 - 高T詞綴裝備 - 魔法 - 單物傷詞綴
-    Corrupted False
-    Rarity = Magic
+Show # 裝備 - 高T詞綴裝備 - 魔法 - 單物傷詞綴
+	  Corrupted False
+	  Rarity = Magic
     HasExplicitMod "Merciless"
-    SetBorderColor 180 255 0
-    SetFontSize 43
+	  SetBorderColor 180 255 0
+	  SetFontSize 43
     PlayAlertSound 9 300
     MinimapIcon 2 Blue Hexagon
     PlayEffect Blue
 
-Hide # 裝備 - 高T詞綴裝備 - 魔法 - 雙物理詞綴
-    Corrupted False
-    Rarity = Magic
-    Class "Dagger" "Wands" "Claws" "One Hand" "Bow"
-    HasExplicitMod "Merciless" "Dictator's" "Flaring" "Tyrannical" "Emperor's" "Tempered" "Cremating" "Entombing" "Electrocuting" "Malicious"
+Show # 裝備 - 高T詞綴裝備 - 魔法 - 雙物理詞綴
+	  Corrupted False
+	  Rarity = Magic
+	  Class "Dagger" "Wands" "Claws" "One Hand" "Bow"
+	  HasExplicitMod "Merciless" "Dictator's" "Flaring" "Tyrannical" "Emperor's" "Tempered" "Cremating" "Entombing" "Electrocuting" "Malicious"
     HasExplicitMod "of Incision" "of Destruction" "of Celebration" "of Renown" "of Penetrating" "of Ferocity"
+	  SetBorderColor 180 255 0
+	  SetFontSize 43
+    PlayAlertSound 9 300
+    MinimapIcon 2 Blue Hexagon
+    PlayEffect Blue  
+
+Show # 裝備 - 高T詞綴裝備 - 魔法 - 單法傷詞綴
+	  Corrupted False
+	  Rarity = Magic  
+    Class "Dagger" "Wands" "Sceptres"
+	  HasExplicitMod "Runic" "Xoph's" "Tul's" "Esh's"
     SetBorderColor 180 255 0
     SetFontSize 43
     PlayAlertSound 9 300
     MinimapIcon 2 Blue Hexagon
     PlayEffect Blue
 
-Hide # 裝備 - 高T詞綴裝備 - 魔法 - 單法傷詞綴
-    Corrupted False
-    Rarity = Magic
+Show # 裝備 - 高T詞綴裝備 - 魔法 - 雙法傷詞綴
+	  Corrupted False
+	  Rarity = Magic  
     Class "Dagger" "Wands" "Sceptres"
-    HasExplicitMod "Runic" "Xoph's" "Tul's" "Esh's"
-    SetBorderColor 180 255 0
-    SetFontSize 43
+	  HasExplicitMod "Glyphic" "Runic" "Xoph's" "Tul's" "Esh's" "Lich's" "Electrocuting" "Entombing" "Cremating"
+	  HasExplicitMod "of Ashes" "of Glaciation" "of Arcing" "of Unmaking" "of Ruin" "of Incision" "of Finesse" "of Sortilege" "of Destruction" "of Ferocity"
+	  SetBorderColor 180 255 0
+	  SetFontSize 42
     PlayAlertSound 9 300
     MinimapIcon 2 Blue Hexagon
-    PlayEffect Blue
+    PlayEffect Blue      
 
-Hide # 裝備 - 高T詞綴裝備 - 魔法 - 雙法傷詞綴
-    Corrupted False
-    Rarity = Magic
-    Class "Dagger" "Wands" "Sceptres"
-    HasExplicitMod "Glyphic" "Runic" "Xoph's" "Tul's" "Esh's" "Lich's" "Electrocuting" "Entombing" "Cremating"
-    HasExplicitMod "of Ashes" "of Glaciation" "of Arcing" "of Unmaking" "of Ruin" "of Incision" "of Finesse" "of Sortilege" "of Destruction" "of Ferocity"
-    SetBorderColor 180 255 0
-    SetFontSize 42
-    PlayAlertSound 9 300
-    MinimapIcon 2 Blue Hexagon
-    PlayEffect Blue
-
-Hide # 裝備 - 高T詞綴裝備 - 魔法 - 頭盔1
-    Corrupted False
+Show # 裝備 - 高T詞綴裝備 - 魔法 - 頭盔1
+	  Corrupted False
     Rarity = Magic
     Class "Helmets"
     HasExplicitMod "Necromancer's"
-    SetBorderColor 180 255 0
-    SetFontSize 42
+	  SetBorderColor 180 255 0
+	  SetFontSize 42
     PlayAlertSound 9 300
     MinimapIcon 2 Blue Hexagon
     PlayEffect Blue
 
-Hide # 裝備 - 高T詞綴裝備 - 魔法 - 頭盔2
-    Corrupted False
+Show # 裝備 - 高T詞綴裝備 - 魔法 - 頭盔2
+	  Corrupted False
     Rarity = Magic
     Class "Helmets"
     HasExplicitMod "Fecund" "Blazing" "Unassailable"
     HasExplicitMod "of the Magma" "of Tzteosh" "of the Ice" "of Haast" "of the Lightning" "of Ephij" "of Lioneye"
-    SetBorderColor 180 255 0
-    SetFontSize 42
+	  SetBorderColor 180 255 0
+	  SetFontSize 42
     PlayAlertSound 9 300
     MinimapIcon 2 Blue Hexagon
-    PlayEffect Blue
+    PlayEffect Blue   
 
-Hide # 裝備 - 高T詞綴裝備 - 魔法 - 手套1
-    Corrupted False
+Show # 裝備 - 高T詞綴裝備 - 魔法 - 手套1
+	  Corrupted False
     Rarity = Magic
     Class "Gloves"
     HasExplicitMod "Athlete's" "Seething" "Unassailable"
-    HasExplicitMod "of the Magma" "of Tzteosh" "of the Ice" "of Haast" "of the Lightning" "of Ephij" "of Grandmastery" "of Lioneye" "of the Assassin"
-    SetBorderColor 180 255 0
-    SetFontSize 42
+	  HasExplicitMod "of the Magma" "of Tzteosh" "of the Ice" "of Haast" "of the Lightning" "of Ephij" "of Grandmastery" "of Lioneye" "of the Assassin" 
+	  SetBorderColor 180 255 0
+	  SetFontSize 42
     PlayAlertSound 9 300
     MinimapIcon 2 Blue Hexagon
-    PlayEffect Blue
+    PlayEffect Blue           
 
-Hide # 裝備 - 高T詞綴裝備 - 魔法 - 鞋子
-    Corrupted False
+Show # 裝備 - 高T詞綴裝備 - 魔法 - 鞋子
+	  Corrupted False
     Rarity = Magic
     Class "Boots"
     HasExplicitMod "Athlete's" "Virile" "Seething" "Unassailable" "Hellion's" "Cheetah's"
-    HasExplicitMod "of the Magma" "of Tzteosh" "of the Ice" "of Haast" "of the Lightning" "of Ephij"
-    SetBorderColor 180 255 0
-    SetFontSize 42
+	  HasExplicitMod "of the Magma" "of Tzteosh" "of the Ice" "of Haast" "of the Lightning" "of Ephij" 
+	  SetBorderColor 180 255 0
+	  SetFontSize 42
     PlayAlertSound 9 300
     MinimapIcon 2 Blue Hexagon
-    PlayEffect Blue
+    PlayEffect Blue 
 
-Hide # 裝備 - 高T詞綴裝備 - 魔法 - 衣服
-    Corrupted False
+Show # 裝備 - 高T詞綴裝備 - 魔法 - 衣服
+	  Corrupted False
     Rarity = Magic
     Class "Body Armours"
     HasExplicitMod "Prime" "Resplendent" "Resplendent" "Unfaltering"
-    HasExplicitMod "of the Magma" "of Tzteosh" "of the Ice" "of Haast" "of the Lightning" "of Ephij"
-    SetBorderColor 180 255 0
-    SetFontSize 42
+	  HasExplicitMod "of the Magma" "of Tzteosh" "of the Ice" "of Haast" "of the Lightning" "of Ephij" 
+	  SetBorderColor 180 255 0
+	  SetFontSize 42
     PlayAlertSound 9 300
     MinimapIcon 2 Blue Hexagon
     PlayEffect Blue
 
-Hide # 裝備 - 高T詞綴裝備 - 魔法 - 盾牌
-    Corrupted False
+Show # 裝備 - 高T詞綴裝備 - 魔法 - 盾牌
+	  Corrupted False
     Rarity = Magic
     Class "Shields"
     HasExplicitMod "Vigorous" "Incandescent" "Unfaltering" "Runic" "Xoph's" "Tul's" "Esh's"
-    HasExplicitMod "of the Magma" "of Tzteosh" "of the Ice" "of Haast" "of the Lightning" "of Ephij" "of the Span" "of Unmaking" "of Expertise"
-    SetBorderColor 180 255 0
-    SetFontSize 42
+	  HasExplicitMod "of the Magma" "of Tzteosh" "of the Ice" "of Haast" "of the Lightning" "of Ephij" "of the Span" "of Unmaking" "of Expertise"
+	  SetBorderColor 180 255 0
+	  SetFontSize 42
     PlayAlertSound 9 300
     MinimapIcon 2 Blue Hexagon
     PlayEffect Blue
 
-Hide # 裝備 - 高T詞綴裝備 - 魔法 - 箭袋
-    Corrupted False
-    Rarity = Magic
+Show # 裝備 - 高T詞綴裝備 - 魔法 - 箭袋
+	  Corrupted False
+	  Rarity = Magic
     Class "Quivers"
     BaseType "Penetrating Arrow Quiver" "Spike-Point Arrow Quiver" "Broadhead Arrow Quiver"
     HasExplicitMod "Fecund" "Overpowering" "Devastating" "of Destruction"
-    HasExplicitMod "of Ease" "of Rending"
-    SetBorderColor 180 255 0
-    SetFontSize 42
+	  HasExplicitMod "of Ease" "of Rending" 
+	  SetBorderColor 180 255 0
+	  SetFontSize 42
     PlayAlertSound 9 300
     MinimapIcon 2 Blue Hexagon
     PlayEffect Blue
 
-Hide # 裝備 - 高T詞綴裝備 - 魔法 - 項鍊
-    Corrupted False
-    Rarity = Magic
+Show # 裝備 - 高T詞綴裝備 - 魔法 - 項鍊
+	  Corrupted False
+	  Rarity = Magic
     Class "Amulets"
     HasExplicitMod "Athlete's" "Virile" "Dazzling" "Flaring" "Cremating" "Entombing" "Electrocuting" "Unassailable" "Wizard's" "Devastating"
-    HasExplicitMod "of Expertise" "of the Assassin" "of Incision" "of Tzteosh" "of Haast" "of Ephij" "of the Rainbow" "of the Span" "of Destruction" "of Immolation" "of Floe" "of Discharge" "of the Gods" "of the Wind" "of the Genius" "of the Multiverse"
-    SetBorderColor 180 255 0
-    SetFontSize 42
+	  HasExplicitMod "of Expertise" "of the Assassin" "of Incision" "of Tzteosh" "of Haast" "of Ephij" "of the Rainbow" "of the Span" "of Destruction" "of Immolation" "of Floe" "of Discharge" "of the Gods" "of the Wind" "of the Genius" "of the Multiverse"   
+	  SetBorderColor 180 255 0
+	  SetFontSize 42
     PlayAlertSound 9 300
     MinimapIcon 2 Blue Hexagon
     PlayEffect Blue
 
-Hide # 裝備 - 高T詞綴裝備 - 魔法 - 戒指
-    Corrupted False
-    Rarity = Magic
+Show # 裝備 - 高T詞綴裝備 - 魔法 - 戒指
+	  Corrupted False
+	  Rarity = Magic
     Class "Rings"
-    HasExplicitMod "Rotund" "Virile" "Resplendent" "Annealed" "Cremating" "Entombing" "Electrocuting" "Overpowering" "Flawless"
-    HasExplicitMod "of the Gods" "of the Wind" "of the Genius" "of the Comet" "of Talent" "of Skill" "of the Assassin" "of Incision" "of Tzteosh" "of Haast" "of Ephij" "of the Rainbow" "of Flames" "of Rime" "of Voltage"
-    SetBorderColor 180 255 0
-    SetFontSize 42
+    HasExplicitMod "Rotund" "Virile" "Resplendent" "Annealed" "Cremating" "Entombing" "Electrocuting" "Overpowering" "Flawless"   
+	  HasExplicitMod "of the Gods" "of the Wind" "of the Genius" "of the Comet" "of Talent" "of Skill" "of the Assassin" "of Incision" "of Tzteosh" "of Haast" "of Ephij" "of the Rainbow" "of Flames" "of Rime" "of Voltage"      
+	  SetBorderColor 180 255 0
+	  SetFontSize 42
     PlayAlertSound 9 300
     MinimapIcon 2 Blue Hexagon
     PlayEffect Blue
 
-Hide # 裝備 - 高T詞綴裝備 - 魔法 - 腰帶
-    Corrupted False
-    Rarity = Magic
+Show # 裝備 - 高T詞綴裝備 - 魔法 - 腰帶
+	  Corrupted False
+	  Rarity = Magic
     Class "Belts"
-    HasExplicitMod "Fecund" "Dazzling" "Enveloped" "Overpowering" "Devastating"
-    HasExplicitMod "of Tzteosh" "of Haast" "of Ephij" "of the Gods" "of the Godslayer" "of Overflowing" "of Sipping" "of Savouring"
-    SetBorderColor 180 255 0
-    SetFontSize 42
+    HasExplicitMod "Fecund" "Dazzling" "Enveloped" "Overpowering" "Devastating"  
+	  HasExplicitMod "of Tzteosh" "of Haast" "of Ephij" "of the Gods" "of the Godslayer" "of Overflowing" "of Sipping" "of Savouring"    
+	  SetBorderColor 180 255 0
+	  SetFontSize 42
     PlayAlertSound 9 300
     MinimapIcon 2 Blue Hexagon
     PlayEffect Blue
 
-Hide # 裝備 - 高T詞綴裝備 - 魔法 - 珠寶
-    Corrupted False
-    Rarity = Magic
+Show # 裝備 - 高T詞綴裝備 - 魔法 - 珠寶
+	  Corrupted False
+	  Rarity = Magic
     Class "Jewel"
-    HasExplicitMod "Vivid" "Shimmering"
-    SetBorderColor 180 255 0
-    SetFontSize 42
+    HasExplicitMod "Vivid" "Shimmering"  
+	  SetBorderColor 180 255 0
+	  SetFontSize 42
     PlayAlertSound 9 300
     PlayEffect Blue Temp
 
-Hide # 裝備 - 高T詞綴裝備 - 稀有 - 匕首、爪、單手劍、細劍（偏物傷）
-    Corrupted False
-    Rarity = Rare
-    Class "Daggers" "Claws" "One Hand Swords" "Thrusting One Hand Swords"
-    HasExplicitMod "Merciless" "Tyrannical" "Cruel"
-    HasExplicitMod "Flaring" "Tempered" "Razor-sharp" "Annealed"
-    HasExplicitMod "Dictator's" "Emperor's" "Conqueror's" "Champion's" "of Destruction" "of Ferocity" "of Fury" "of Incision" "of Penetrating" "of Puncturing" "of Celebration" "of Infamy" "of Fame"
-    SetBorderColor 180 255 0
-    SetFontSize 42
+Show # 裝備 - 高T詞綴裝備 - 稀有 - 匕首、爪、單手劍、細劍（偏物傷）
+	  Corrupted False
+	  Rarity = Rare
+    Class "Daggers" "Claws" "One Hand Swords"  "Thrusting One Hand Swords"
+	  HasExplicitMod "Merciless" "Tyrannical" "Cruel"
+	  HasExplicitMod "Flaring" "Tempered" "Razor-sharp" "Annealed"
+	  HasExplicitMod "Dictator's" "Emperor's" "Conqueror's" "Champion's" "of Destruction" "of Ferocity" "of Fury" "of Incision" "of Penetrating" "of Puncturing" "of Celebration" "of Infamy" "of Fame"
+	  SetBorderColor 180 255 0
+	  SetFontSize 42
     PlayAlertSound 9 200
     MinimapIcon 2 Yellow Hexagon
     PlayEffect Yellow
 
-Hide # 裝備 - 高T詞綴裝備 - 稀有 - 匕首、爪、單手劍、細劍（偏物暴）
-    Corrupted False
-    Rarity = Rare
-    Class "Daggers" "Claws" "One Hand Swords" "Thrusting One Hand Swords"
-    HasExplicitMod "of Destruction" "of Ferocity" "of Fury"
-    HasExplicitMod "of Incision" "of Penetrating" "of Puncturing"
-    HasExplicitMod "Merciless" "Tyrannical" "Cruel" "Flaring" "Tempered" "Razor-sharp" "Annealed" "Dictator's" "Emperor's" "Conqueror's" "Champion's" "of Celebration" "of Infamy" "of Fame"
-    SetBorderColor 180 255 0
-    SetFontSize 42
+Show # 裝備 - 高T詞綴裝備 - 稀有 - 匕首、爪、單手劍、細劍（偏物暴）
+	  Corrupted False
+	  Rarity = Rare
+    Class "Daggers" "Claws" "One Hand Swords"  "Thrusting One Hand Swords"
+	  HasExplicitMod "of Destruction" "of Ferocity" "of Fury"
+	  HasExplicitMod "of Incision" "of Penetrating" "of Puncturing"
+	  HasExplicitMod "Merciless" "Tyrannical" "Cruel" "Flaring" "Tempered" "Razor-sharp" "Annealed" "Dictator's" "Emperor's" "Conqueror's" "Champion's" "of Celebration" "of Infamy" "of Fame"
+	  SetBorderColor 180 255 0
+	  SetFontSize 42
     PlayAlertSound 9 200
     MinimapIcon 2 Yellow Hexagon
     PlayEffect Yellow
 
-Hide # 裝備 - 高T詞綴裝備 - 稀有 - 魔杖（偏物傷）
-    Corrupted False
-    Rarity = Rare
+Show # 裝備 - 高T詞綴裝備 - 稀有 - 魔杖（偏物傷）
+	  Corrupted False
+	  Rarity = Rare
     Class "Wands"
-    HasExplicitMod "Merciless" "Tyrannical" "Cruel"
-    HasExplicitMod "Flaring" "Tempered" "Razor-sharp" "Annealed"
-    HasExplicitMod "Dictator's" "Emperor's" "Conqueror's" "Champion's" "of Destruction" "of Ferocity" "of Fury" "of Incision" "of Penetrating" "of Puncturing" "of Renown" "of Mastery"
-    SetBorderColor 180 255 0
-    SetFontSize 42
+	  HasExplicitMod "Merciless" "Tyrannical" "Cruel"
+	  HasExplicitMod "Flaring" "Tempered" "Razor-sharp" "Annealed"
+	  HasExplicitMod "Dictator's" "Emperor's" "Conqueror's" "Champion's" "of Destruction" "of Ferocity" "of Fury" "of Incision" "of Penetrating" "of Puncturing" "of Renown" "of Mastery"
+	  SetBorderColor 180 255 0
+	  SetFontSize 42
     PlayAlertSound 9 200
     MinimapIcon 2 Yellow Hexagon
     PlayEffect Yellow
 
-Hide # 裝備 - 高T詞綴裝備 - 稀有 - 魔杖（偏物暴）
-    Corrupted False
-    Rarity = Rare
+Show # 裝備 - 高T詞綴裝備 - 稀有 - 魔杖（偏物暴）    
+	  Corrupted False
+	  Rarity = Rare
     Class "Wands"
     HasExplicitMod "of Destruction" "of Ferocity" "of Fury"
-    HasExplicitMod "of Incision" "of Penetrating" "of Puncturing"
+	  HasExplicitMod "of Incision" "of Penetrating" "of Puncturing"
     HasExplicitMod "Merciless" "Tyrannical" "Cruel" "Flaring" "Tempered" "Razor-sharp" "Annealed" "Dictator's" "Emperor's" "Conqueror's" "Champion's" "of Renown" "of Mastery"
-    SetBorderColor 180 255 0
-    SetFontSize 42
+	  SetBorderColor 180 255 0
+	  SetFontSize 42
     PlayAlertSound 9 200
     MinimapIcon 2 Yellow Hexagon
     PlayEffect Yellow
 
-Hide # 裝備 - 高T詞綴裝備 - 稀有 - 匕首 魔杖 權杖（偏法傷）
-    Corrupted False
-    Rarity = Rare
+Show # 裝備 - 高T詞綴裝備 - 稀有 - 匕首 魔杖 權杖（偏法傷）
+	  Corrupted False
+	  Rarity = Rare
     Class "Daggers" "Wands" "Sceptres"
     HasExplicitMod "Runic" "Glyphic" "Incanter's" "Xoph's" "Pyroclastic" "Magmatic" "Tul's" "Cryomancer's" "Crystalline" "Esh's" "Ionising" "Smiting"
     HasExplicitMod "Lich's" "Archmage's" "Mage's" "Cremating" "Blasting" "Incinerating" "Entombing" "Polar" "Glaciated" "Electrocuting" "Discharging" "Shocking"
     HasExplicitMod "of Ashes" "of Immolation" "of Flames" "of Glaciation" "of Floe" "of Rime" "of Arcing" "of Discharge" "of Voltage"
     SetBorderColor 180 255 0
-    SetFontSize 42
+	  SetFontSize 42
     PlayAlertSound 9 200
     MinimapIcon 2 Yellow Hexagon
-    PlayEffect Yellow
+    PlayEffect Yellow    
 
-Hide # 裝備 - 高T詞綴裝備 - 稀有 - 匕首 魔杖 權杖（偏法暴）
-    Corrupted False
-    Rarity = Rare
+Show # 裝備 - 高T詞綴裝備 - 稀有 - 匕首 魔杖 權杖（偏法暴）
+	  Corrupted False
+	  Rarity = Rare
     Class "Daggers" "Wands" "Sceptres"
     HasExplicitMod "of Unmaking" "of Ruin" "of Calamity"
     HasExplicitMod "of Destruction" "of Ferocity" "of Fury"
     HasExplicitMod "Runic" "Glyphic" "Incanter's" "Xoph's" "Pyroclastic" "Magmatic" "Tul's" "Cryomancer's" "Crystalline" "Esh's" "Ionising" "Smiting" "of Ashes" "of Immolation" "of Flames" "of Glaciation" "of Floe" "of Rime" "of Arcing" "of Discharge" "of Voltage"
     SetBorderColor 180 255 0
-    SetFontSize 42
+	  SetFontSize 42
     PlayAlertSound 9 200
     MinimapIcon 2 Yellow Hexagon
     PlayEffect Yellow
 
-Hide # 裝備 - 高T詞綴裝備 - 稀有 - 弓（偏物傷）
+Show # 裝備 - 高T詞綴裝備 - 稀有 - 弓（偏物傷）
     Corrupted False
     Rarity = Rare
     Class "Bow"
@@ -4322,155 +4323,155 @@ Hide # 裝備 - 高T詞綴裝備 - 稀有 - 弓（偏物傷）
     MinimapIcon 2 Yellow Hexagon
     PlayEffect Yellow
 
-Hide # 裝備 - 高T詞綴裝備 - 稀有 - 弓（偏物暴）
-    Corrupted False
-    Rarity = Rare
+Show # 裝備 - 高T詞綴裝備 - 稀有 - 弓（偏物暴）
+	  Corrupted False
+	  Rarity = Rare
     Class "Bow"
-    HasExplicitMod "Merciless" "Tyrannical" "Cruel"
-    HasExplicitMod "Flaring" "Tempered" "Razor-sharp" "Annealed"
-    HasExplicitMod "Dictator's" "Emperor's" "Conqueror's" "Champion's" "of Destruction" "of Ferocity" "of Fury" "of Incision" "of Penetrating" "of Puncturing" "of Renown" "of Mastery" "of the Assassin" "of the Ranger"
-    SetBorderColor 180 255 0
-    SetFontSize 42
+	  HasExplicitMod "Merciless" "Tyrannical" "Cruel"
+	  HasExplicitMod "Flaring" "Tempered" "Razor-sharp" "Annealed"
+	  HasExplicitMod "Dictator's" "Emperor's" "Conqueror's" "Champion's" "of Destruction" "of Ferocity" "of Fury" "of Incision" "of Penetrating" "of Puncturing" "of Renown" "of Mastery" "of the Assassin" "of the Ranger"
+	  SetBorderColor 180 255 0
+	  SetFontSize 42
     PlayAlertSound 9 200
     MinimapIcon 2 Yellow Hexagon
     PlayEffect Yellow
 
-Hide # 裝備 - 高T詞綴裝備 - 稀有 - 弓（偏元素）
-    Corrupted False
-    Rarity = Rare
+Show # 裝備 - 高T詞綴裝備 - 稀有 - 弓（偏元素）
+	  Corrupted False
+	  Rarity = Rare
     Class "Bow"
     HasExplicitMod "Overpowering" "Unleashed" "Empowering"
-    HasExplicitMod "Cremating" "Blasting" "Incinerating" "Entombing" "Polar" "Glaciated" "Electrocuting" "Discharging" "Shocking"
+	  HasExplicitMod "Cremating" "Blasting" "Incinerating" "Entombing" "Polar" "Glaciated" "Electrocuting" "Discharging" "Shocking"
     HasExplicitMod "Merciless" "Tyrannical" "Cruel" "of Renown" "of Mastery" "of the Assassin" "of the Ranger" "of the Deadeye" "of Incision" "of Penetrating" "of Puncturing" "of Destruction" "of Ferocity" "of Fury"
     SetBorderColor 180 255 0
-    SetFontSize 42
+	  SetFontSize 42
     PlayAlertSound 9 200
     MinimapIcon 2 Yellow Hexagon
     PlayEffect Yellow
 
-Hide # 裝備 - 高T詞綴裝備 - 稀有 - 弓（偏混沌）
-    Corrupted False
-    Rarity = Rare
+Show # 裝備 - 高T詞綴裝備 - 稀有 - 弓（偏混沌）
+	  Corrupted False
+	  Rarity = Rare
     Class "Bow"
     HasExplicitMod "Paragon's"
     HasExplicitMod "Sharpshooter's"
     HasExplicitMod "Malicious" "of Virulence" "of Venom" "of Poison" "of Putrefaction" "of Rot" "of the Assassin" "of the Ranger" "of the Deadeye"
-    SetBorderColor 180 255 0
-    SetFontSize 42
+	  SetBorderColor 180 255 0
+	  SetFontSize 42
     PlayAlertSound 9 200
     MinimapIcon 2 Yellow Hexagon
     PlayEffect Yellow
 
-Hide # 裝備 - 高T詞綴裝備 - 稀有 - 弓（+3）
-    Corrupted False
-    Rarity = Rare
+Show # 裝備 - 高T詞綴裝備 - 稀有 - 弓（+3）
+	  Corrupted False
+	  Rarity = Rare
     Class "Bow"
     HasExplicitMod "Paragon's"
     HasExplicitMod "Sharpshooter's"
     SetBorderColor 180 255 0
-    SetFontSize 42
+	  SetFontSize 42
     PlayAlertSound 9 200
     MinimapIcon 2 Yellow Hexagon
     PlayEffect Yellow
 
-Hide # 裝備 - 高T詞綴裝備 - 稀有 - 鞋子1
-    Corrupted False
-    Rarity = Rare
+Show # 裝備 - 高T詞綴裝備 - 稀有 - 鞋子1
+	  Corrupted False
+	  Rarity = Rare
     Class "Boots"
     HasExplicitMod "Athlete's" "Virile" "Rotund" "Seething" "Pulsing" "Radiating" "Unassailable" "Indomitable" "Dauntless"
-    HasExplicitMod "of the Furnace" "of the Volcano" "of the Magma" "of Tzteosh" "of the Walrus" "of the Polar Bear" "of the Ice" "of Haast" "of the Tempest" "of the Maelstrom" "of the Lightning" "of Ephij" "of Expulsion" "of Exile" "of Bameth"
-    HasExplicitMod "of the Furnace" "of the Volcano" "of the Magma" "of Tzteosh" "of the Walrus" "of the Polar Bear" "of the Ice" "of Haast" "of the Tempest" "of the Maelstrom" "of the Lightning" "of Ephij" "of Expulsion" "of Exile" "of Bameth"
-    HasExplicitMod "Hellion's" "Cheetah's" "Gazelle's" "Stallion's"
+    HasExplicitMod "of the Furnace" "of the Volcano" "of the Magma" "of Tzteosh" "of the Walrus" "of the Polar Bear" "of the Ice" "of Haast"  "of the Tempest" "of the Maelstrom" "of the Lightning" "of Ephij" "of Expulsion" "of Exile" "of Bameth"
+	  HasExplicitMod "of the Furnace" "of the Volcano" "of the Magma" "of Tzteosh" "of the Walrus" "of the Polar Bear" "of the Ice" "of Haast"  "of the Tempest" "of the Maelstrom" "of the Lightning" "of Ephij" "of Expulsion" "of Exile" "of Bameth"
+	  HasExplicitMod "Hellion's" "Cheetah's" "Gazelle's" "Stallion's"
     SetBorderColor 180 255 0
-    SetFontSize 42
+	  SetFontSize 42
     PlayAlertSound 9 200
     MinimapIcon 2 Yellow Hexagon
     PlayEffect Yellow
 
-Hide # 裝備 - 高T詞綴裝備 - 稀有 - 鞋子2
-    Corrupted False
-    Rarity = Rare
+Show # 裝備 - 高T詞綴裝備 - 稀有 - 鞋子2
+	  Corrupted False
+	  Rarity = Rare
     Class "Boots"
-    HasExplicitMod "of the Furnace" "of the Volcano" "of the Magma" "of Tzteosh" "of the Walrus" "of the Polar Bear" "of the Ice" "of Haast" "of the Tempest" "of the Maelstrom" "of the Lightning" "of Ephij" "of Expulsion" "of Exile" "of Bameth"
-    HasExplicitMod "of the Furnace" "of the Volcano" "of the Magma" "of Tzteosh" "of the Walrus" "of the Polar Bear" "of the Ice" "of Haast" "of the Tempest" "of the Maelstrom" "of the Lightning" "of Ephij" "of Expulsion" "of Exile" "of Bameth"
-    HasExplicitMod "Hellion's" "Cheetah's" "Gazelle's" "Stallion's"
+    HasExplicitMod "of the Furnace" "of the Volcano" "of the Magma" "of Tzteosh" "of the Walrus" "of the Polar Bear" "of the Ice" "of Haast"  "of the Tempest" "of the Maelstrom" "of the Lightning" "of Ephij" "of Expulsion" "of Exile" "of Bameth"
+	  HasExplicitMod "of the Furnace" "of the Volcano" "of the Magma" "of Tzteosh" "of the Walrus" "of the Polar Bear" "of the Ice" "of Haast"  "of the Tempest" "of the Maelstrom" "of the Lightning" "of Ephij" "of Expulsion" "of Exile" "of Bameth"
+	  HasExplicitMod "Hellion's" "Cheetah's" "Gazelle's" "Stallion's"
     SetBorderColor 180 255 0
-    SetFontSize 42
+	  SetFontSize 42
     PlayAlertSound 9 200
     MinimapIcon 2 Yellow Hexagon
     PlayEffect Yellow
 
-Hide # 裝備 - 高T詞綴裝備 - 稀有 - 手套
-    Corrupted False
+Show # 裝備 - 高T詞綴裝備 - 稀有 - 手套
+	  Corrupted False
     Rarity = Rare
     Class "Gloves"
     HasExplicitMod "Athlete's" "Virile" "Rotund" "Seething" "Pulsing" "Radiating" "Unassailable" "Indomitable" "Dauntless"
-    HasExplicitMod "of the Furnace" "of the Volcano" "of the Magma" "of Tzteosh" "of the Walrus" "of the Polar Bear" "of the Ice" "of Haast" "of the Tempest" "of the Maelstrom" "of the Lightning" "of Ephij" "of Expulsion" "of Exile" "of Bameth"
-    HasExplicitMod "of the Furnace" "of the Volcano" "of the Magma" "of Tzteosh" "of the Walrus" "of the Polar Bear" "of the Ice" "of Haast" "of the Tempest" "of the Maelstrom" "of the Lightning" "of Ephij" "of Expulsion" "of Exile" "of Bameth"
-    SetBorderColor 180 255 0
-    SetFontSize 42
+	  HasExplicitMod "of the Furnace" "of the Volcano" "of the Magma" "of Tzteosh" "of the Walrus" "of the Polar Bear" "of the Ice" "of Haast"  "of the Tempest" "of the Maelstrom" "of the Lightning" "of Ephij" "of Expulsion" "of Exile" "of Bameth"
+	  HasExplicitMod "of the Furnace" "of the Volcano" "of the Magma" "of Tzteosh" "of the Walrus" "of the Polar Bear" "of the Ice" "of Haast"  "of the Tempest" "of the Maelstrom" "of the Lightning" "of Ephij" "of Expulsion" "of Exile" "of Bameth" 
+	  SetBorderColor 180 255 0
+	  SetFontSize 42
     PlayAlertSound 9 300
     MinimapIcon 2 Yellow Hexagon
     PlayEffect Yellow
 
-Hide # 裝備 - 高T詞綴裝備 - 稀有 - 頭盔
-    Corrupted False
+Show # 裝備 - 高T詞綴裝備 - 稀有 - 頭盔 
+	  Corrupted False
     Rarity = Rare
     Class "Helmets"
     HasExplicitMod "Fecund" "Athlete's" "Virile" "Rotund" "Blazing" "Seething" "Pulsing" "Radiating" "Unassailable" "Indomitable" "Dauntless"
-    HasExplicitMod "of the Furnace" "of the Volcano" "of the Magma" "of Tzteosh" "of the Walrus" "of the Polar Bear" "of the Ice" "of Haast" "of the Tempest" "of the Maelstrom" "of the Lightning" "of Ephij" "of Expulsion" "of Exile" "of Bameth"
-    HasExplicitMod "of the Furnace" "of the Volcano" "of the Magma" "of Tzteosh" "of the Walrus" "of the Polar Bear" "of the Ice" "of Haast" "of the Tempest" "of the Maelstrom" "of the Lightning" "of Ephij" "of Expulsion" "of Exile" "of Bameth"
-    SetBorderColor 180 255 0
-    SetFontSize 42
+    HasExplicitMod "of the Furnace" "of the Volcano" "of the Magma" "of Tzteosh" "of the Walrus" "of the Polar Bear" "of the Ice" "of Haast"  "of the Tempest" "of the Maelstrom" "of the Lightning" "of Ephij" "of Expulsion" "of Exile" "of Bameth"
+	  HasExplicitMod "of the Furnace" "of the Volcano" "of the Magma" "of Tzteosh" "of the Walrus" "of the Polar Bear" "of the Ice" "of Haast"  "of the Tempest" "of the Maelstrom" "of the Lightning" "of Ephij" "of Expulsion" "of Exile" "of Bameth"
+	  SetBorderColor 180 255 0
+	  SetFontSize 42
     PlayAlertSound 9 300
     MinimapIcon 2 Yellow Hexagon
     PlayEffect Yellow
 
 # 【裝備-特殊裝備】
 
-Hide # 裝備 - 特殊裝備 - 5L物品
+Show # 裝備 - 特殊裝備 - 5L物品
     LinkedSockets = 5
-    SetBackgroundColor 0 0 0
+    SetBackgroundColor 0 0 0 240
     SetBorderColor 30 187 255
     SetFontSize 45
     PlayAlertSound 9 300
     PlayEffect White Temp
 
-Hide # 裝備 - 特殊裝備 - 高品質物品
-    Quality >= 25
+Show # 裝備 - 特殊裝備 - 高品質物品    
     Corrupted False
+    Quality >= 25
     ItemLevel >= 75
     DropLevel >= 50
-    SetBackgroundColor 0 0 0
+    SetBackgroundColor 0 0 0 240
     SetBorderColor 0 255 175
     SetFontSize 40
     PlayAlertSound 9 300
     MinimapIcon 2 Blue Hexagon
-    PlayEffect Blue
+    PlayEffect Blue    
 
-Hide # 裝備 - 特殊裝備 - 3色連洞 (1*3體積)
+Show # 裝備 - 特殊裝備 - 3色連洞 (1*3體積)
     LinkedSockets >= 3
     LinkedSockets <= 4
-    SocketGroup "RGB"
     Height = 3
     Width = 1
+    SocketGroup "RGB"
     SetTextColor 255 0 0
     SetBackgroundColor 255 255 255
     SetBorderColor 0 0 0
     SetFontSize 45
 
-Hide # 裝備 - 特殊裝備 - 3色連洞 (2*2體積)
+Show # 裝備 - 特殊裝備 - 3色連洞 (2*2體積)
     LinkedSockets >= 3
     LinkedSockets <= 4
-    SocketGroup "RGB"
     Height = 2
     Width = 2
+    SocketGroup "RGB"
     SetTextColor 255 0 0
     SetBackgroundColor 255 255 255
     SetBorderColor 0 0 0
     SetFontSize 45
 
-Hide # 裝備 - 特殊裝備 - 石錘、破岩錘、堅錘Q10+
+Show # 裝備 - 特殊裝備 - 石錘、破岩錘、堅錘Q10+
     Quality >= 10
     Rarity = Normal
     Class "One Hand Maces"
@@ -4479,7 +4480,7 @@ Hide # 裝備 - 特殊裝備 - 石錘、破岩錘、堅錘Q10+
     SetBackgroundColor 150 150 200 60
     SetBorderColor 255 255 255
 
-Hide # 裝備 - 特殊裝備 - 石錘、破岩錘、堅錘
+Show # 裝備 - 特殊裝備 - 石錘、破岩錘、堅錘
     Rarity = Normal
     Class "One Hand Maces"
     BaseType "Stone Hammer" "Rock Breaker" "Gavel"
@@ -4495,644 +4496,645 @@ Show # 裝備 - 特殊裝備 - 魚竿
     MinimapIcon 0 Red Star
     PlayEffect Red
 
-Hide # 裝備 - 特殊裝備 - 祭禮束衣
+Show # 裝備 - 特殊裝備 - 祭禮束衣
     Class "Body Armours"
     BaseType "Sacrificial Garb"
 
 # 【裝備-高亮基底-單手武器-匕首】
 
-Hide # 裝備 - 高亮基底 - 單手武器 - 匕首 - 伏擊刺刃
-    Rarity = Rare
+Show # 裝備 - 高亮基底 - 單手武器 - 匕首 - 伏擊刺刃
     Class "Daggers"
     BaseType "Ambusher"
+    Rarity = Rare
     SetTextColor 255 255 0 255
     SetFontSize 40
 
 # 【裝備-高亮基底-單手武器-符紋匕首】
 
-Hide # 裝備 - 高亮基底 - 單手武器 - 符紋匕首 - 白金波刃(50%全域暴率)
-    Rarity = Rare
+Show # 裝備 - 高亮基底 - 單手武器 - 符紋匕首 - 白金波刃(50%全域暴率)
     Class "Rune Daggers"
-    BaseType "Platinum Kris"
+    BaseType "Platinum Kris" 
+    Rarity = Rare
     SetTextColor 255 255 0 255
     SetFontSize 40
 
-Hide # 裝備 - 高亮基底 - 單手武器 - 符紋匕首 - 惡魔短匕(40%全域暴率)
-    Rarity = Rare
+Show # 裝備 - 高亮基底 - 單手武器 - 符紋匕首 - 惡魔短匕(40%全域暴率)
     Class "Rune Daggers"
     BaseType "Demon Dagger"
+    Rarity = Rare
     SetTextColor 255 255 0 255
     SetFontSize 40
 
-Hide # 裝備 - 高亮基底 - 單手武器 - 符紋匕首 - 帝國雙刃匕(30%全域暴率)
-    Rarity = Rare
+Show # 裝備 - 高亮基底 - 單手武器 - 符紋匕首 - 帝國雙刃匕(30%全域暴率) 
     Class "Rune Daggers"
     BaseType "Imperial Skean"
+    Rarity = Rare
     SetTextColor 255 255 0 255
     SetFontSize 40
 
 # 【裝備-高亮基底-單手武器-法杖】
 
-Hide # 裝備 - 高亮基底 - 單手武器 - 法杖 - 召喚法杖(骰召喚物詞綴)
-    Rarity = Rare
+Show # 裝備 - 高亮基底 - 單手武器 - 法杖 - 召喚法杖(骰召喚物詞綴)
     Class "Wands"
     BaseType "Convoking Wand"
+    Rarity = Rare
     SetTextColor 255 255 0 255
     SetFontSize 40
 
-Hide # 裝備 - 高亮基底 - 單手武器 - 法杖 - 褻瀆法杖(14%施放速度)
-    Rarity = Rare
+Show # 裝備 - 高亮基底 - 單手武器 - 法杖 - 褻瀆法杖(14%施放速度)
     Class "Wands"
     BaseType "Profane Wand"
+    Rarity = Rare
     SetTextColor 255 255 0 255
     SetFontSize 40
 
-Hide # 裝備 - 高亮基底 - 單手武器 - 法杖 - 箴言法杖(36~40%法傷)
-    Rarity = Rare
+Show # 裝備 - 高亮基底 - 單手武器 - 法杖 - 箴言法杖(36~40%法傷)
     Class "Wands"
     BaseType "Prophecy Wand"
+    Rarity = Rare
     SetTextColor 255 255 0 255
     SetFontSize 40
 
-Hide # 裝備 - 高亮基底 - 單手武器 - 法杖 - 狂風法杖(35~39%法傷)
-    Rarity = Rare
+Show # 裝備 - 高亮基底 - 單手武器 - 法杖 - 狂風法杖(35~39%法傷)
     Class "Wands"
     BaseType "Tornado Wand"
+    Rarity = Rare
     SetTextColor 255 255 0 255
     SetFontSize 40
 
-Hide # 裝備 - 高亮基底 - 單手武器 - 法杖 - 靈石法杖(38~42%法傷)
-    Rarity = Rare
+Show # 裝備 - 高亮基底 - 單手武器 - 法杖 - 靈石法杖(38~42%法傷)
     Class "Wands"
     BaseType "Opal Wand"
+    Rarity = Rare
     SetTextColor 255 255 0 255
     SetFontSize 40
 
 # 【裝備-高亮基底-單手武器-爪】
 
-Hide # 裝備 - 高亮基底 - 單手武器 - 爪 - 雙子戰爪(攻擊魔回14生回38)
-    Rarity = Rare
+Show # 裝備 - 高亮基底 - 單手武器 - 爪 - 雙子戰爪(攻擊魔回14生回38)
     Class "Claws"
     BaseType "Gemini Claw"
+    Rarity = Rare
     SetTextColor 255 255 0 255
     SetFontSize 40
 
-Hide # 裝備 - 高亮基底 - 單手武器 - 爪 - 帝國戰爪(攻擊生回46)
-    Rarity = Rare
+Show # 裝備 - 高亮基底 - 單手武器 - 爪 - 帝國戰爪(攻擊生回46)
     Class "Claws"
     BaseType "Imperial Claw"
+    Rarity = Rare
     SetTextColor 255 255 0 255
     SetFontSize 40
 
-Hide # 裝備 - 高亮基底 - 單手武器 - 爪 - 刺眼鉤(攻擊生回50)
-    Rarity = Rare
+Show # 裝備 - 高亮基底 - 單手武器 - 爪 - 刺眼鉤(攻擊生回50)
     Class "Claws"
     BaseType "Eye Gouger"
+    Rarity = Rare
     SetTextColor 255 255 0 255
     SetFontSize 40
 
 # 【裝備-高亮基底-單手武器-細劍】
 
-Hide # 裝備 - 高亮基底 - 單手武器 - 細劍 - 寶飾細劍(25%全域暴加)
-    Rarity = Rare
+Show # 裝備 - 高亮基底 - 單手武器 - 細劍 - 寶飾細劍(25%全域暴加)
     Class "Thrusting One Hand Swords"
     BaseType "Jewelled Foil"
+    Rarity = Rare
     SetTextColor 255 255 0 255
     SetFontSize 40
 
 # 【裝備-高亮基底-單手武器-單手斧】
 
-Hide # 裝備 - 高亮基底 - 單手武器 - 單手斧 - 密文之斧(12%物理傷害)
-    Rarity = Rare
+Show # 裝備 - 高亮基底 - 單手武器 - 單手斧 - 密文之斧(12%物理傷害) 
     Class "One Hand Axes"
     BaseType "Runic Hatchet"
+    Rarity = Rare
     SetTextColor 255 255 0 255
     SetFontSize 40
 
-Hide # 裝備 - 高亮基底 - 單手武器 - 單手斧 - 殘暴之斧(最高點傷)
-    Rarity = Rare
+Show # 裝備 - 高亮基底 - 單手武器 - 單手斧 - 殘暴之斧(最高點傷)
     Class "One Hand Axes"
     BaseType "Reaver Axe"
+    Rarity = Rare
     SetTextColor 255 255 0 255
     SetFontSize 40
 
-Hide # 裝備 - 高亮基底 - 單手武器 - 單手斧 - 破城斧(最高攻速)
-    Rarity = Rare
+Show # 裝備 - 高亮基底 - 單手武器 - 單手斧 - 破城斧(最高攻速)
     Class "One Hand Axes"
     BaseType "Siege Axe"
+    Rarity = Rare
     SetTextColor 255 255 0 255
     SetFontSize 40
 
 # 【裝備-高亮基底-單手武器-權杖】
 
-Hide # 裝備 - 高亮基底 - 單手武器 - 權杖 - 惡魔權杖(6%元素穿透)
-    Rarity = Rare
+Show # 裝備 - 高亮基底 - 單手武器 - 權杖 - 惡魔權杖(6%元素穿透)
     Class "Sceptres"
     BaseType "Sambar Sceptre"
+    Rarity = Rare
     SetTextColor 255 255 0 255
     SetFontSize 40
 
-Hide # 裝備 - 高亮基底 - 單手武器 - 權杖 - 虛影權杖(40%元素傷害)
-    Rarity = Rare
+Show # 裝備 - 高亮基底 - 單手武器 - 權杖 - 虛影權杖(40%元素傷害)
     Class "Sceptres"
     BaseType "Void Sceptre"
+    Rarity = Rare
     SetTextColor 255 255 0
     SetFontSize 40
 
-Hide # 裝備 - 高亮基底 - 單手武器 - 權杖 - 靈石權杖(40%元素傷害)
-    Rarity = Rare
+Show # 裝備 - 高亮基底 - 單手武器 - 權杖 - 靈石權杖(40%元素傷害)
     Class "Sceptres"
     BaseType "Opal Sceptre"
+    Rarity = Rare
     SetTextColor 255 255 0
     SetFontSize 40
 
 # 【裝備-高亮基底-雙手武器-弓箭】
 
-Hide # 裝備 - 高亮基底 - 雙手武器 - 弓箭 - 馬拉克斯弓(10%移動速度)
-    Rarity = Rare
+Show # 裝備 - 高亮基底 - 雙手武器 - 弓箭 - 馬拉克斯弓(10%移動速度)
     Class "Bow"
     BaseType "Maraketh Bow"
+    Rarity = Rare
     SetTextColor 255 255 0
     SetFontSize 40
 
-Hide # 裝備 - 高亮基底 - 雙手武器 - 弓箭 - 帝國之弓(攻擊24%元傷)
-    Rarity = Rare
+Show # 裝備 - 高亮基底 - 雙手武器 - 弓箭 - 帝國之弓(攻擊24%元傷)
     Class "Bow"
     BaseType "Imperial Bow"
+    Rarity = Rare
     SetTextColor 255 255 0
     SetFontSize 40
 
-Hide # 裝備 - 高亮基底 - 雙手武器 - 弓箭 - 脊弓(6.5%暴率)
-    Rarity = Rare
+Show # 裝備 - 高亮基底 - 雙手武器 - 弓箭 - 脊弓(6.5%暴率)
     Class "Bow"
     BaseType "Spine Bow"
+    Rarity = Rare
+    Rarity = Rare
     SetTextColor 255 255 0 255
     SetFontSize 40
 
-Hide # 裝備 - 高亮基底 - 雙手武器 - 弓箭 - 暗殺弓(25%全域暴加)
-    Rarity = Rare
+Show # 裝備 - 高亮基底 - 雙手武器 - 弓箭 - 暗殺弓(25%全域暴加)
     Class "Bow"
     BaseType "Assassin Bow"
+    Rarity = Rare
     SetTextColor 255 255 0
     SetFontSize 40
 
-Hide # 裝備 - 高亮基底 - 雙手武器 - 弓箭 - 林野獵弓(1.5攻速)
-    Rarity = Rare
+Show # 裝備 - 高亮基底 - 雙手武器 - 弓箭 - 林野獵弓(1.5攻速)
     Class "Bow"
     BaseType "Thicket Bow"
+    Rarity = Rare
     SetTextColor 255 255 0
     SetFontSize 40
 
 # 【裝備-高亮基底-雙手武器-長杖】
 
-Hide # 裝備 - 高亮基底 - 雙手武器 - 長杖 - 月蝕長杖(100%暴率)
-    Rarity = Rare
+Show # 裝備 - 高亮基底 - 雙手武器 - 長杖 - 月蝕長杖(100%暴率)
     Class "Staves"
     BaseType "Eclipse Staff"
+    Rarity = Rare
     SetTextColor 255 255 0
     SetFontSize 40
 
-Hide # 裝備 - 高亮基底 - 雙手武器 - 長杖 - 帝國長杖(18%攻擊格擋)
-    Rarity = Rare
+Show # 裝備 - 高亮基底 - 雙手武器 - 長杖 - 帝國長杖(18%攻擊格擋)
     Class "Staves"
     BaseType "Imperial Staff"
+    Rarity = Rare
     SetTextColor 255 255 0
     SetFontSize 40
 
 # 【裝備-高亮基底-雙手武器-雙手劍】
 
-Hide # 裝備 - 高亮基底 - 雙手武器 - 雙手劍 - 精緻之刃(+50%暴加)
-    Rarity = Rare
+Show # 裝備 - 高亮基底 - 雙手武器 - 雙手劍 - 精緻之刃(+50%暴加)
     Class "Two Hand Swords"
     BaseType "Exquisite Blade"
+    Rarity = Rare
     SetTextColor 255 255 0
     SetFontSize 40
 
 # 【裝備-高亮基底-雙手武器-雙手斧】
 
-Hide # 裝備 - 高亮基底 - 雙手武器 - 雙手斧 - 裂肉者(50%暴率)
-    Rarity = Rare
+Show # 裝備 - 高亮基底 - 雙手武器 - 雙手斧 - 裂肉者(50%暴率)
     Class "Two Hand Axes"
     BaseType "Fleshripper"
+    Rarity = Rare
     SetTextColor 255 255 0
     SetFontSize 40
 
 # 【裝備-高亮基底-雙手武器-雙手錘】
 
-Hide # 裝備 - 高亮基底 - 雙手武器 - 雙手錘 - 花冠重錘(20%範圍效果)
-    Rarity = Rare
+Show # 裝備 - 高亮基底 - 雙手武器 - 雙手錘 - 花冠重錘(20%範圍效果)
     Class "Two Hand Maces"
     BaseType "Coronal Maul"
+    Rarity = Rare
     SetTextColor 255 255 0
     SetFontSize 40
 
 # 【裝備-高亮基底-副手-箭袋】
 
-Hide # 裝備 - 高亮基底 - 副手 - 箭袋 - 箭袋(30%元傷)
-    Rarity = Rare
+Show # 裝備 - 高亮基底 - 副手 - 箭袋 - 箭袋(30%元傷)
     Class "Quivers"
     BaseType "Primal Arrow Quiver"
+    Rarity = Rare
     SetTextColor 255 255 0
     SetFontSize 40
 
-Hide # 裝備 - 高亮基底 - 副手 - 箭袋 - 箭袋(物點傷)
-    Rarity = Rare
+Show # 裝備 - 高亮基底 - 副手 - 箭袋 - 箭袋(物點傷)
     Class "Quivers"
     BaseType "Heavy Arrow Quiver"
+    Rarity = Rare
     SetTextColor 255 255 0
     SetFontSize 40
 
-Hide # 裝備 - 高亮基底 - 副手 - 箭袋 - 箭袋(額外混)
-    Rarity = Rare
+Show # 裝備 - 高亮基底 - 副手 - 箭袋 - 箭袋(額外混)
     Class "Quivers"
     BaseType "Vile Arrow Quiver"
+    Rarity = Rare
     SetTextColor 255 255 0
     SetFontSize 40
 
-Hide # 裝備 - 高亮基底 - 副手 - 箭袋 - 寬矢箭袋(攻速)
-    Rarity = Rare
+Show # 裝備 - 高亮基底 - 副手 - 箭袋 - 寬矢箭袋(攻速)
     Class "Quivers"
     BaseType "Broadhead Arrow Quiver"
+    Rarity = Rare
     SetTextColor 255 255 0
     SetFontSize 40
 
-Hide # 裝備 - 高亮基底 - 副手 - 箭袋 - 刺鋒箭袋(30%暴率)
-    Rarity = Rare
+Show # 裝備 - 高亮基底 - 副手 - 箭袋 - 刺鋒箭袋(30%暴率)
     Class "Quivers"
     BaseType "Spike-Point Arrow Quiver"
+    Rarity = Rare
     SetTextColor 255 255 0
     SetFontSize 40
 
-Hide # 裝備 - 高亮基底 - 副手 - 箭袋 - 穿射箭袋(+1穿透)
-    Rarity = Rare
+Show # 裝備 - 高亮基底 - 副手 - 箭袋 - 穿射箭袋(+1穿透)
     Class "Quivers"
     BaseType "Penetrating Arrow Quiver"
+    Rarity = Rare
     SetTextColor 255 255 0
     SetFontSize 40
 
 # 【裝備-高亮基底-副手-盾牌】
 
-Hide # 裝備 - 高亮基底 - 副手 - 盾牌 - 巨人魔盾(ES最高)
-    Rarity = Rare
+Show # 裝備 - 高亮基底 - 副手 - 盾牌 - 巨人魔盾(ES最高)
     Class "Shields"
     BaseType "Titanium Spirit Shield"
+    Rarity = Rare
     SetTextColor 255 255 0
     SetFontSize 40
 
-Hide # 裝備 - 高亮基底 - 副手 - 盾牌 - 和諧魔盾(15%魔法傷害)
-    Rarity = Rare
+Show # 裝備 - 高亮基底 - 副手 - 盾牌 - 和諧魔盾(15%魔法傷害)
     Class "Shields"
     BaseType "Harmonic Spirit Shield"
+    Rarity = Rare
     SetTextColor 255 255 0
     SetFontSize 40
 
-Hide # 裝備 - 高亮基底 - 副手 - 盾牌 - 漆彩輕盾(6%移動速度/閃避最高)
-    Rarity = Rare
+Show # 裝備 - 高亮基底 - 副手 - 盾牌 - 漆彩輕盾(6%移動速度/閃避最高)
     Class "Shields"
     BaseType "Lacquered Buckler"
+    Rarity = Rare
     SetTextColor 255 255 0
     SetFontSize 40
 
-Hide # 裝備 - 高亮基底 - 副手 - 盾牌 - 霸者刺盾(4%躲避法術)
-    Rarity = Rare
+Show # 裝備 - 高亮基底 - 副手 - 盾牌 - 霸者刺盾(4%躲避法術)
     Class "Shields"
     BaseType "Supreme Spiked Shield"
+    Rarity = Rare
     SetTextColor 255 255 0
     SetFontSize 40
 
-Hide # 裝備 - 高亮基底 - 副手 - 盾牌 - 巨型塔盾(20生命/護甲最高)
-    Rarity = Rare
+Show # 裝備 - 高亮基底 - 副手 - 盾牌 - 巨型塔盾(20生命/護甲最高)
     Class "Shields"
     BaseType "Colossal Tower Shield"
+    Rarity = Rare
     SetTextColor 255 255 0
     SetFontSize 40
 
-Hide # 裝備 - 高亮基底 - 副手 - 盾牌 - 威能鳶盾(12元抗)
-    Rarity = Rare
+Show # 裝備 - 高亮基底 - 副手 - 盾牌 - 威能鳶盾(12元抗)
     Class "Shields"
     BaseType "Archon Kite Shield"
+    Rarity = Rare
     SetTextColor 255 255 0
     SetFontSize 40
 
 # 【裝備-高亮基底-防具-頭盔】
 
-Hide # 裝備 - 高亮基底 - 防具 - 頭盔 - 喚骨頭盔(召喚物20%傷害)
-    Rarity = Rare
+Show # 裝備 - 高亮基底 - 防具 - 頭盔 - 喚骨頭盔(召喚物20%傷害)
     Class "Helmets"
     BaseType "Bone Helmet"
+    Rarity = Rare
     SetTextColor 255 255 0
     SetFontSize 40
 
-Hide # 裝備 - 高亮基底 - 防具 - 頭盔 - 靈主之環(ES最高)
-    Rarity = Rare
+Show # 裝備 - 高亮基底 - 防具 - 頭盔 - 靈主之環(ES最高)
     Class "Helmets"
     BaseType "Hubris Circlet"
+    Rarity = Rare
     SetTextColor 255 255 0
     SetFontSize 40
 
-Hide # 裝備 - 高亮基底 - 防具 - 頭盔 - 獅首皮盔(閃避最高)
-    Rarity = Rare
+Show # 裝備 - 高亮基底 - 防具 - 頭盔 - 獅首皮盔(閃避最高)
     Class "Helmets"
     BaseType "Lion Pelt"
+    Rarity = Rare
     SetTextColor 255 255 0
     SetFontSize 40
 
-Hide # 裝備 - 高亮基底 - 防具 - 頭盔 - 皇室堅盔(護甲最高)
-    Rarity = Rare
+Show # 裝備 - 高亮基底 - 防具 - 頭盔 - 皇室堅盔(護甲最高)
     Class "Helmets"
     BaseType "Royal Burgonet"
+    Rarity = Rare
     SetTextColor 255 255 0
     SetFontSize 40
 
-Hide # 裝備 - 高亮基底 - 防具 - 頭盔 - 夢魘戰盔(護閃最高)
-    Rarity = Rare
+Show # 裝備 - 高亮基底 - 防具 - 頭盔 - 夢魘戰盔(護閃最高)
     Class "Helmets"
     BaseType "Nightmare Bascinet"
+    Rarity = Rare
     SetTextColor 255 255 0
     SetFontSize 40
 
-Hide # 裝備 - 高亮基底 - 防具 - 頭盔 - 領主戰冠(護能最高)
-    Rarity = Rare
+Show # 裝備 - 高亮基底 - 防具 - 頭盔 - 領主戰冠(護能最高) 
     Class "Helmets"
     BaseType "Praetor Crown"
+    Rarity = Rare
     SetTextColor 255 255 0
     SetFontSize 40
 
-Hide # 裝備 - 高亮基底 - 防具 - 頭盔 - 弒神之面(閃能最高)
-    Rarity = Rare
+Show # 裝備 - 高亮基底 - 防具 - 頭盔 - 弒神之面(閃能最高)
     Class "Helmets"
     BaseType "Deicide Mask"
+    Rarity = Rare
     SetTextColor 255 255 0
     SetFontSize 40
 
 # 【裝備-高亮基底-防具-手套】
 
-Hide # 裝備 - 高亮基底 - 防具 - 手套 - 靈藥手套(18%持續傷害)
-    Rarity = Rare
+Show # 裝備 - 高亮基底 - 防具 - 手套 - 靈藥手套(18%持續傷害)
     Class "Gloves"
     BaseType "Apothecary's Gloves"
+    Rarity = Rare
     SetTextColor 255 255 0
     SetFontSize 40
 
-Hide # 裝備 - 高亮基底 - 防具 - 手套 - 魔指手套(16%魔法手套)
-    Rarity = Rare
+Show # 裝備 - 高亮基底 - 防具 - 手套 - 魔指手套(16%魔法手套)
     Class "Gloves"
     BaseType "Fingerless Silk Gloves"
+    Rarity = Rare
     SetTextColor 255 255 0
     SetFontSize 40
 
-Hide # 裝備 - 高亮基底 - 防具 - 手套 - 擒拿手套(18%攻擊投射傷)
-    Rarity = Rare
+Show # 裝備 - 高亮基底 - 防具 - 手套 - 擒拿手套(18%攻擊投射傷)
     Class "Gloves"
     BaseType "Gripped Gloves"
+    Rarity = Rare
     SetTextColor 255 255 0
     SetFontSize 40
 
-Hide # 裝備 - 高亮基底 - 防具 - 手套 - 釦釘手套(20%近戰傷害)
-    Rarity = Rare
+Show # 裝備 - 高亮基底 - 防具 - 手套 - 釦釘手套(20%近戰傷害)
     Class "Gloves"
     BaseType "Spiked Gloves"
+    Rarity = Rare
     SetTextColor 255 255 0
     SetFontSize 40
 
-Hide # 裝備 - 高亮基底 - 防具 - 手套 - 術士手套(能盾最高)
-    Rarity = Rare
+Show # 裝備 - 高亮基底 - 防具 - 手套 - 術士手套(能盾最高)
     Class "Gloves"
     BaseType "Sorcerer Gloves"
+    Rarity = Rare
     SetTextColor 255 255 0
     SetFontSize 40
 
-Hide # 裝備 - 高亮基底 - 防具 - 手套 - 迷蹤手套(閃避最高)
-    Rarity = Rare
+Show # 裝備 - 高亮基底 - 防具 - 手套 - 迷蹤手套(閃避最高)
     Class "Gloves"
     BaseType "Slink Gloves"
+    Rarity = Rare
     SetTextColor 255 255 0
     SetFontSize 40
 
-Hide # 裝備 - 高亮基底 - 防具 - 手套 - 巨人護手(護甲最高)
-    Rarity = Rare
+Show # 裝備 - 高亮基底 - 防具 - 手套 - 巨人護手(護甲最高)
     Class "Gloves"
     BaseType "Titan Gauntlets"
+    Rarity = Rare
     SetTextColor 255 255 0
     SetFontSize 40
 
-Hide # 裝備 - 高亮基底 - 防具 - 手套 - 龍鱗手套(護閃最高)
-    Rarity = Rare
+Show # 裝備 - 高亮基底 - 防具 - 手套 - 龍鱗手套(護閃最高)
     Class "Gloves"
     BaseType "Dragonscale Gauntlets"
+    Rarity = Rare
     SetTextColor 255 255 0
     SetFontSize 40
 
-Hide # 裝備 - 高亮基底 - 防具 - 手套 - 聖戰手套(護能最高)
-    Rarity = Rare
+Show # 裝備 - 高亮基底 - 防具 - 手套 - 聖戰手套(護能最高)
     Class "Gloves"
     BaseType "Crusader Gloves"
+    Rarity = Rare
     SetTextColor 255 255 0
     SetFontSize 40
 
-Hide # 裝備 - 高亮基底 - 防具 - 手套 - 暗殺者護手(閃能最高)
-    Rarity = Rare
+Show # 裝備 - 高亮基底 - 防具 - 手套 - 暗殺者護手(閃能最高)
     Class "Gloves"
     BaseType "Murder Mitts"
+    Rarity = Rare
     SetTextColor 255 255 0
     SetFontSize 40
 
 # 【裝備-高亮基底-防具-鞋子】
 
-Hide # 裝備 - 高亮基底 - 防具 - 鞋子 - 逃難短靴(17混抗)
-    Rarity = Rare
+Show # 裝備 - 高亮基底 - 防具 - 鞋子 - 逃難短靴(17混抗)
     Class "Boots"
     BaseType "Fugitive Boots"
+    Rarity = Rare
     SetTextColor 255 255 0
     SetFontSize 40
 
-Hide # 裝備 - 高亮基底 - 防具 - 鞋子 - 異色鞋(12雙元抗)
-    Rarity = Rare
+Show # 裝備 - 高亮基底 - 防具 - 鞋子 - 異色鞋(12雙元抗)
     Class "Boots"
     BaseType "Two-Toned Boots"
+    Rarity = Rare
     SetTextColor 255 255 0
     SetFontSize 40
 
-Hide # 裝備 - 高亮基底 - 防具 - 鞋子 - 術士長靴(能盾最高)
-    Rarity = Rare
+Show # 裝備 - 高亮基底 - 防具 - 鞋子 - 術士長靴(能盾最高)
     Class "Boots"
     BaseType "Sorcerer Boots"
+    Rarity = Rare
     SetTextColor 255 255 0
     SetFontSize 40
 
-Hide # 裝備 - 高亮基底 - 防具 - 鞋子 - 巨人脛甲(護甲最高)
-    Rarity = Rare
+Show # 裝備 - 高亮基底 - 防具 - 鞋子 - 巨人脛甲(護甲最高)
     Class "Boots"
     BaseType "Titan Greaves"
+    Rarity = Rare
     SetTextColor 255 255 0
     SetFontSize 40
 
-Hide # 裝備 - 高亮基底 - 防具 - 鞋子 - 迷蹤短靴(閃避最高)
-    Rarity = Rare
+Show # 裝備 - 高亮基底 - 防具 - 鞋子 - 迷蹤短靴(閃避最高)
     Class "Boots"
     BaseType "Slink Boots"
+    Rarity = Rare
     SetTextColor 255 255 0
     SetFontSize 40
 
-Hide # 裝備 - 高亮基底 - 防具 - 鞋子 - 龍鱗長靴(護閃最高)
-    Rarity = Rare
+Show # 裝備 - 高亮基底 - 防具 - 鞋子 - 龍鱗長靴(護閃最高)
     Class "Boots"
     BaseType "Dragonscale Boots"
+    Rarity = Rare
     SetTextColor 255 255 0
     SetFontSize 40
 
-Hide # 裝備 - 高亮基底 - 防具 - 鞋子 - 聖戰長靴(護能最高)
-    Rarity = Rare
+Show # 裝備 - 高亮基底 - 防具 - 鞋子 - 聖戰長靴(護能最高)
     Class "Boots"
     BaseType "Crusader Boots"
+    Rarity = Rare
     SetTextColor 255 255 0
     SetFontSize 40
 
-Hide # 裝備 - 高亮基底 - 防具 - 鞋子 - 暗殺者長靴(閃能最高)
-    Rarity = Rare
+Show # 裝備 - 高亮基底 - 防具 - 鞋子 - 暗殺者長靴(閃能最高)
     Class "Boots"
     BaseType "Murder Boots"
+    Rarity = Rare
     SetTextColor 255 255 0
     SetFontSize 40
 
 # 【裝備-高亮基底-防具-衣服】
 
-Hide # 裝備 - 高亮基底 - 防具 - 衣服 - 瓦爾法衣(能盾最高)
-    Rarity = Rare
+Show # 裝備 - 高亮基底 - 防具 - 衣服 - 瓦爾法衣(能盾最高)
     Class "Body Armours"
     BaseType "Vaal Regalia"
+    Rarity = Rare
     SetTextColor 255 255 0
     SetFontSize 40
 
-Hide # 裝備 - 高亮基底 - 防具 - 衣服 - 秘術長衣(10%法傷)
-    Rarity = Rare
+Show # 裝備 - 高亮基底 - 防具 - 衣服 - 秘術長衣(10%法傷)
     Class "Body Armours"
     BaseType "Occultist's Vestment"
+    Rarity = Rare
     SetTextColor 255 255 0
     SetFontSize 40
 
-Hide # 裝備 - 高亮基底 - 防具 - 衣服 - 榮耀戰鎧(護甲最高)
-    Rarity = Rare
+Show # 裝備 - 高亮基底 - 防具 - 衣服 - 榮耀戰鎧(護甲最高)
     Class "Body Armours"
     BaseType "Glorious Plate"
+    Rarity = Rare
     SetTextColor 255 255 0
     SetFontSize 40
 
-Hide # 裝備 - 高亮基底 - 防具 - 衣服 - 星芒戰鎧(12元抗)
-    Rarity = Rare
+Show # 裝備 - 高亮基底 - 防具 - 衣服 - 星芒戰鎧(12元抗)
     Class "Body Armours"
     BaseType "Astral Plate"
+    Rarity = Rare
     SetTextColor 255 255 0
     SetFontSize 40
 
-Hide # 裝備 - 高亮基底 - 防具 - 衣服 - 星辰皮甲(閃避最高)
-    Rarity = Rare
+Show # 裝備 - 高亮基底 - 防具 - 衣服 - 星辰皮甲(閃避最高)
     Class "Body Armours"
     BaseType "Zodiac Leather"
+    Rarity = Rare
     SetTextColor 255 255 0
     SetFontSize 40
 
-Hide # 裝備 - 高亮基底 - 防具 - 衣服 - 刺殺者之裝(3%移動速度)
-    Rarity = Rare
+Show # 裝備 - 高亮基底 - 防具 - 衣服 - 刺殺者之裝(3%移動速度)
     Class "Body Armours"
     BaseType "Assassin's Garb"
+    Rarity = Rare
     SetTextColor 255 255 0
     SetFontSize 40
 
-Hide # 裝備 - 高亮基底 - 防具 - 衣服 - 連身龍鱗鎧(護閃最高)
-    Rarity = Rare
+Show # 裝備 - 高亮基底 - 防具 - 衣服 - 連身龍鱗鎧(護閃最高)
     Class "Body Armours"
     BaseType "Full Dragonscale"
+    Rarity = Rare
     SetTextColor 255 255 0
     SetFontSize 40
 
-Hide # 裝備 - 高亮基底 - 防具 - 衣服 - 聖潔鎖甲(護能最高)
-    Rarity = Rare
+Show # 裝備 - 高亮基底 - 防具 - 衣服 - 聖潔鎖甲(護能最高)
     Class "Body Armours"
     BaseType "Saintly Chainmail"
+    Rarity = Rare
     SetTextColor 255 255 0
     SetFontSize 40
 
-Hide # 裝備 - 高亮基底 - 防具 - 衣服 - 狂虐者束衣(閃能最高)
-    Rarity = Rare
+Show # 裝備 - 高亮基底 - 防具 - 衣服 - 狂虐者束衣(閃能最高)
     Class "Body Armours"
     BaseType "Sadist Garb"
+    Rarity = Rare
     SetTextColor 255 255 0
     SetFontSize 40
 
 # 【裝備-高亮基底-飾品-戒指】
 
-Hide # 裝備 - 高亮基底 - 飾品 - 戒指 - 碧藍戒指(10%魔力)
-    Rarity = Rare
+Show # 裝備 - 高亮基底 - 飾品 - 戒指 - 碧藍戒指(10%魔力)
     Class "Rings"
     BaseType "Cerulean Ring"
+    Rarity = Rare
     SetTextColor 255 255 0
     SetFontSize 40
 
-Hide # 裝備 - 高亮基底 - 飾品 - 戒指 - 朱紅戒指(7%生命)
-    Rarity = Rare
+Show # 裝備 - 高亮基底 - 飾品 - 戒指 - 朱紅戒指(7%生命)
     Class "Rings"
     BaseType "Vermillion Ring"
+    Rarity = Rare
     SetTextColor 255 255 0
     SetFontSize 40
 
-Hide # 裝備 - 高亮基底 - 飾品 - 戒指 - 混青石戒指(23%混沌傷害)
-    Rarity = Rare
+Show # 裝備 - 高亮基底 - 飾品 - 戒指 - 混青石戒指(23%混沌傷害)
     Class "Rings"
     BaseType "Iolite Ring"
+    Rarity = Rare
     SetTextColor 255 255 0
     SetFontSize 40
 
-Hide # 裝備 - 高亮基底 - 飾品 - 戒指 - 蛋白石戒指(25%元素傷害)
-    Rarity = Rare
+Show # 裝備 - 高亮基底 - 飾品 - 戒指 - 蛋白石戒指(25%元素傷害)
     Class "Rings"
     BaseType "Opal Ring"
+    Rarity = Rare
     SetTextColor 255 255 0
     SetFontSize 40
 
-Hide # 裝備 - 高亮基底 - 飾品 - 戒指 - 鋼鑄戒指(攻擊物點傷)
-    Rarity = Rare
+Show # 裝備 - 高亮基底 - 飾品 - 戒指 - 鋼鑄戒指(攻擊物點傷)
     Class "Rings"
     BaseType "Steel Ring"
+    Rarity = Rare
     SetTextColor 255 255 0
     SetFontSize 40
 
 # 【裝備-高亮基底-飾品-項鍊】
 
-Hide # 裝備 - 高亮基底 - 飾品 - 項鍊 - 夕暮護身符
-    Rarity = Rare
+Show # 裝備 - 高亮基底 - 飾品 - 項鍊 - 夕暮護身符
     Class "Amulets"
     BaseType "Unset Amulet"
+    Rarity = Rare
     SetTextColor 255 255 0
     SetFontSize 40
 
-Hide # 裝備 - 高亮基底 - 飾品 - 項鍊 - 碧珠護身符(56%魔回)
-    Rarity = Rare
+Show # 裝備 - 高亮基底 - 飾品 - 項鍊 - 碧珠護身符(56%魔回)
     Class "Amulets"
     BaseType "Blue Pearl Amulet"
+    Rarity = Rare
     SetTextColor 255 255 0
     SetFontSize 40
 
-Hide # 裝備 - 高亮基底 - 飾品 - 項鍊 - 海鏡項鍊(15%提前回盾)
-    Rarity = Rare
+Show # 裝備 - 高亮基底 - 飾品 - 項鍊 - 海鏡項鍊(15%提前回盾)
     Class "Amulets"
     BaseType "Seaglass Amulet"
+    Rarity = Rare
     SetTextColor 255 255 0
     SetFontSize 40
 
-Hide # 裝備 - 高亮基底 - 飾品 - 項鍊 - 理石護身符(1.6%生命回復)
-    Rarity = Rare
+Show # 裝備 - 高亮基底 - 飾品 - 項鍊 - 理石護身符(1.6%生命回復)
     Class "Amulets"
     BaseType "Marble Amulet"
+    Rarity = Rare
     SetTextColor 255 255 0
     SetFontSize 40
 
 # 【裝備-高亮基底-飾品-腰帶】
 
-Hide # 裝備 - 高亮基底 - 飾品 - 腰帶 - 水晶腰帶(80能量護盾)
-    Rarity = Rare
+Show # 裝備 - 高亮基底 - 飾品 - 腰帶 - 水晶腰帶(80能量護盾)
     Class "Belts"
     BaseType "Crystal Belt"
+    Rarity = Rare
     SetTextColor 255 255 0
     SetFontSize 40
 
@@ -5152,30 +5154,31 @@ Hide # 裝備 - 高亮基底 獵首 魔血 # 汙染隱藏
     SetTextColor 255 255 0
     SetFontSize 40
 
-Hide # 裝備 - 高亮基底 獵首 魔血 AA盾 # 
+Show # 裝備 - 高亮基底 獵首 魔血 AA盾 # 
     Rarity = Normal
     Class "Belts"
-    BaseType "Leather Belt" "Heavy Belt"
+    BaseType "Leather Belt" "Heavy Belt" 
     SetTextColor 255 255 0
     SetFontSize 40
-
-Hide # 裝備 - 高亮基底  AA盾 # 
+	
+Show # 裝備 - 高亮基底  AA盾 # 
     Rarity = Normal
     Class "Shields"
     BaseType  "Champion Kite Shield"
     SetTextColor 255 255 0
     SetFontSize 40
 
-Hide # 裝備 - 高亮基底 - 飾品 - 腰帶 - 先鋒腰帶(320護甲和閃避)
-    Rarity = Rare
+
+Show # 裝備 - 高亮基底 - 飾品 - 腰帶 - 先鋒腰帶(320護甲和閃避)
     Class "Belts"
     BaseType "Vanguard Belt"
+    Rarity = Rare
     SetTextColor 255 255 0
     SetFontSize 40
 
 # 【裝備-飾品裝備】
 
-Hide # 裝備 - 飾品裝備 - 84+
+Show # 裝備 - 飾品裝備 - 84+
     ItemLevel >= 84
     Rarity = Rare
     Class "Amulets" "Rings" "Belts"
@@ -5183,7 +5186,7 @@ Hide # 裝備 - 飾品裝備 - 84+
     SetBorderColor 128 0 128 255
     SetFontSize 40
 
-Hide # 裝備 - 飾品裝備 - 75~83
+Show # 裝備 - 飾品裝備 - 75~83
     ItemLevel >= 75
     ItemLevel <= 83
     Rarity = Rare
@@ -5192,7 +5195,7 @@ Hide # 裝備 - 飾品裝備 - 75~83
     SetBorderColor 27 162 155
     SetFontSize 40
 
-Hide # 裝備 - 飾品裝備 - 60~74
+Show # 裝備 - 飾品裝備 - 60~74
     ItemLevel >= 60
     ItemLevel <= 74
     Rarity = Rare
@@ -5201,19 +5204,19 @@ Hide # 裝備 - 飾品裝備 - 60~74
     SetBorderColor 0 0 255 255
     SetFontSize 40
 
-Hide # 裝備 - 飾品裝備 - 1~59
+Show # 裝備 - 飾品裝備 - 1~59
+    Class "Amulets" "Rings" "Belts"
     ItemLevel < 60
     Rarity = Rare
-    Class "Amulets" "Rings" "Belts"
     SetBackgroundColor 0 0 0 160
     SetBorderColor 176 138 80
     SetFontSize 40
 
 # 【裝備-一般珠寶】
 
-Hide # 裝備 - 稀有珠寶
-    Rarity = Rare
+Show # 裝備 - 稀有珠寶
     Class "Jewel"
+    Rarity = Rare
     SetFontSize 40
 
 Hide # 裝備 - 魔法珠寶
@@ -5229,16 +5232,16 @@ Hide # 裝備 - 普通珠寶
 
 # 【裝備-一般裝備】
 
-Hide # 裝備 - 一般裝備 - 84+
+Show # 裝備 - 一般裝備 - 84+
+    Class "Bow" "Wands" "Claws" "Daggers" "One Hand" "Staves" "Two Hand" "Sceptres" "Gloves" "Boots" "Body Armours" "Helmets" "Shields" "Quivers" "Rune Daggers" "Warstaves" "Jewel"
     ItemLevel >= 84
     Rarity = Rare
-    Class "Bow" "Wands" "Claws" "Daggers" "One Hand" "Staves" "Two Hand" "Sceptres" "Gloves" "Boots" "Body Armours" "Helmets" "Shields" "Quivers" "Rune Daggers" "Warstaves" "Jewel"
     SetTextColor 255 255 0 255
     SetBackgroundColor 0 0 0 255
     SetBorderColor 128 0 128 255
     SetFontSize 35
 
-Hide # 裝備 - 一般裝備 - 75~83
+Show # 裝備 - 一般裝備 - 75~83
     ItemLevel >= 75
     ItemLevel <= 83
     Rarity = Rare
@@ -5248,7 +5251,7 @@ Hide # 裝備 - 一般裝備 - 75~83
     SetBorderColor 27 162 155
     SetFontSize 35
 
-Hide # 裝備 - 一般裝備 - 60~74
+Show # 裝備 - 一般裝備 - 60~74
     ItemLevel >= 60
     ItemLevel <= 74
     Rarity = Rare
@@ -5258,7 +5261,7 @@ Hide # 裝備 - 一般裝備 - 60~74
     SetBorderColor 0 0 255 255
     SetFontSize 35
 
-Hide # 裝備 - 一般裝備 - 1~59
+Show # 裝備 - 一般裝備 - 1~59
     ItemLevel < 60
     Rarity = Rare
     Class "Bow" "Wands" "Claws" "Daggers" "One Hand" "Staves" "Two Hand" "Sceptres" "Gloves" "Boots" "Body Armours" "Helmets" "Shields" "Quivers" "Rune Daggers" "Warstaves" "Jewel"
@@ -5453,91 +5456,11 @@ Hide # 裝備 - 隱藏裝備 - 隱藏的白、藍裝 "弓" "法杖" "爪" "匕�
     SetBorderColor 255 255 255 0
     SetFontSize 32
 
-
-Hide 
-	Class "Sentinel"
-    BaseType "Ancient Apex Sentinel"
-Hide 
-	Class "Sentinel"
-    BaseType "Ancient Pandemonium Sentinel" 		
-Hide 
-	Class "Sentinel"
-    BaseType "Ancient Stalker Sentinel" 		
-Hide 
-	Class "Sentinel"
-    BaseType "Brimstone Apex Sentinel" 		
-Hide 
-	Class "Sentinel"
-    BaseType "Brimstone Pandemonium Sentinel" 		
-Hide 
-	Class "Sentinel"
-    BaseType "Brimstone Stalker Sentinel" 		
-Hide 
-	Class "Sentinel"
-    BaseType "Bronze Apex Sentinel" 		
-Hide 
-	Class "Sentinel"
-    BaseType "Bronze Pandemonium Sentinel" 		
-Hide 
-	Class "Sentinel"
-    BaseType "Bronze Stalker Sentinel" 		
-Hide 
-	Class "Sentinel"
-    BaseType "Cobalt Apex Sentinel" 		
-Hide 
-	Class "Sentinel"
-    BaseType "Cobalt Pandemonium Sentinel" 		
-Hide 
-	Class "Sentinel"
-    BaseType "Cobalt Stalker Sentinel" 		
-Hide 
-	Class "Sentinel"
-    BaseType "Cosmic Apex Sentinel" 		
-Hide 
-	Class "Sentinel"
-    BaseType "Cryptic Apex Sentinel" 		
-Hide 
-	Class "Sentinel"
-    BaseType "Cryptic Pandemonium Sentinel" 		
-Hide 
-	Class "Sentinel"
-    BaseType "Cryptic Stalker Sentinel" 		
-Hide 
-	Class "Sentinel"
-    BaseType "Emberstone Apex Sentinel" 		
-Hide 
-	Class "Sentinel"
-    BaseType "Emberstone Pandemonium Sentinel" 		
-Hide 
-	Class "Sentinel"
-    BaseType "Emberstone Stalker Sentinel" 		
-Hide 
-	Class "Sentinel"
-    BaseType "Obsidian Apex Sentinel" 		
-Hide 
-	Class "Sentinel"
-    BaseType "Obsidian Pandemonium Sentinel" 		
-Hide 
-	Class "Sentinel"
-    BaseType "Obsidian Stalker Sentinel" 		
-Hide 
-	Class "Sentinel"
-    BaseType "Primeval Apex Sentinel" 		
-Hide 
-	Class "Sentinel"
-    BaseType "Primeval Pandemonium Sentinel" 		
-Hide 
-	Class "Sentinel"
-    BaseType "Primeval Stalker Sentinel" 		
-Hide 
-	Class "Sentinel"
-    BaseType "Rusted Stalker Sentinel" 		
-
 # 【裝備-新物品防漏】
-
 
 Show # 新物品防漏 - 若遊戲更新添加新物品（新裝備基底除外）都會以此式樣顯示，所以當你看到此式樣的物品時，說明你的過濾需要更新了。
     SetTextColor 255 0 0
     SetBorderColor 255 255 255
     SetFontSize 40
     PlayAlertSound 15 200
+
