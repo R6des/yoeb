@@ -1,1 +1,24 @@
-{}
+{
+  "FollowPlayerName": "卡蘭爪_阿柳",
+  "AutoParty": true,
+  "AutoAccpet": true,
+  "AutoUpSkillLevel": true,
+  "AutoPickItem": false,
+  "AutoHP": true,
+  "MoveSkillEnable": false,
+  "Say": false,
+  "StartGetMessage": true,
+  "Start": "1",
+  "Stop": "2",
+  "GoHome": "回家",
+  "AutoWP": "3",
+  "Fly": "4",
+  "Re": "5",
+  "ReWhere": 0,
+  "ReDo": 0,
+  "IsTopMost": false,
+  "Log": false,
+  "Delay": 2000,
+  "FindDoor": false,
+  "FindDoorRang": 200
+}
