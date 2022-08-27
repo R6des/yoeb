@@ -80,16 +80,16 @@
 	//水道仔或閃打仔會用到的散件																											
 	//熊頭 鳥頭																											
 	[Type] == "Silken Hood" && [Rarity] == "Unique" # 	[StashItem]	 == "true" // 																									
-//	[Type] == "Silken Hood" && [Rarity] == "Unique" # [evasion_rating_+%_when_on_low_life] >= "1" && 	[ForceSellItem]	 == "true" // 		//斯塔空加之首 綢緞之兜																							
-//	[Type] == "Silken Hood" && [Rarity] == "Unique" # [local_display_trigger_level_20_tornado_when_you_gain_avians_flight_or_avians_might_%] >= "1" && 	[ForceSellItem]	 == "true" // 		//斯卡沃之徒 綢緞之兜																							
+	[Type] == "Silken Hood" && [Rarity] == "Unique" # [evasion_rating_+%_when_on_low_life] >= "1" && 	[ForceSellItem]	 == "true" // 		//斯塔空加之首 綢緞之兜																							
+	[Type] == "Silken Hood" && [Rarity] == "Unique" # [local_display_trigger_level_20_tornado_when_you_gain_avians_flight_or_avians_might_%] >= "1" && 	[ForceSellItem]	 == "true" // 		//斯卡沃之徒 綢緞之兜																							
 	[Type] == "Silken Hood" && [Rarity] == "Unique" # [local_item_can_have_x_additional_enchantments] >= "1" && 	[ForceSellItem]	 == "true" // 		//酷寒斗篷 綢緞之兜																							
 	//白風																											
 	[Type] == "Imperial Skean" && [Rarity] == "Unique" # 	[StashItem]	 == "true" // 																									
 	[Type] == "Imperial Skean" && [Rarity] == "Unique" # [critical_strike_chance_+%_for_spells_if_you_have_killed_recently] >= "1" && 	[ForceSellItem]	 == "true" // 		//戒律之影 帝國雙刃匕																							
-//	[Type] == "Imperial Skean" && [Rarity] == "Unique" # [cold_damage_+%_while_off_hand_is_empty] >= "1" && 	[ForceSellItem]	 == "true" // 		//白風 帝國雙刃匕																							
+	[Type] == "Imperial Skean" && [Rarity] == "Unique" # [cold_damage_+%_while_off_hand_is_empty] >= "1" && 	[ForceSellItem]	 == "true" // 		//白風 帝國雙刃匕																							
 	//畢斯扣項鍊																											
 	[Type] == "Gold Amulet" && [Rarity] == "Unique" # 	[StashItem]	 == "true" // 																									
-//	[Type] == "Gold Amulet" && [Rarity] == "Unique" # [normal_monster_dropped_item_quantity_+%] >= "1" && 	[ForceSellItem]	 == "true" // 		//畢斯寇的項圈 帝金護身符																							
+	[Type] == "Gold Amulet" && [Rarity] == "Unique" # [normal_monster_dropped_item_quantity_+%] >= "1" && 	[ForceSellItem]	 == "true" // 		//畢斯寇的項圈 帝金護身符																							
 	[Type] == "Gold Amulet" && [Rarity] == "Unique" # [local_display_nearby_allies_extra_damage_rolls] >= "1" && 	[ForceSellItem]	 == "true" // 		//珀奎爾的指頭 帝金護身符																							
 	[Type] == "Gold Amulet" && [Rarity] == "Unique" # [item_found_quantity_+%_if_wearing_a_magic_item] >= "1" && 	[ForceSellItem]	 == "true" // 		//苦行 帝金護身符																							
 	[Type] == "Gold Amulet" && [Rarity] == "Unique" # [attack_maximum_added_fire_damage] >= "1" && 	[ForceSellItem]	 == "true" // 		//帝金護身符																							
@@ -829,7 +829,7 @@
 	//// 18F 藥水（預設關閉）			//																								
 				//																								
 //	[Type] == "Quicksilver Flask" # 	[StashItem]	 == "true" 	//	//水銀藥劑	不撿不存倉																						
-	[Type] == "Gold Flask"     # 	[StashItem]	 == "true" 	//	//黃金藥劑	不撿不存倉																						
+//	[Type] == "Gold Flask"     # 	[StashItem]	 == "true" 	//	//黃金藥劑	不撿不存倉																						
 				//																								
 //	 [Type] == "Small Life Flask" # 	[StashItem]	 == "true" 	//	//小型生命藥劑	不撿不存倉																						
 //	 [Type] == "Medium Life Flask" # 	[StashItem]	 == "true" 	//	//生命藥劑（中）	不撿不存倉																						
