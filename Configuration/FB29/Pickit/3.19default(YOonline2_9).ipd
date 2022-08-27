@@ -164,7 +164,7 @@
 //	[Type]== "Viridian Jewel" && [Rarity] == "Unique" # [local_jewel_copy_stats_from_unallocated_non_notable_passives_in_radius] >= "1" && 	[ForceSellItem]	 == "true" // 		//神感 翠綠珠寶																							
 	[Type] == "Viridian Jewel" && [Rarity] == "Unique" # [minion_chance_to_dodge_%] >= "1" && 	[ForceSellItem]	 == "true" // 		//映像 翠綠珠寶																							
 	[Type] == "Viridian Jewel" && [Rarity] == "Unique" # [recover_%_maximum_life_when_corpse_destroyed_or_consumed] >= "1" && 	[ForceSellItem]	 == "true" // 		//翠綠珠寶																							
-	[Type] == "Viridian Jewel" && [Rarity] == "Unique" # [local_jewel_nearby_passives_int_to_dex] >= "1" && 	[ForceSellItem]	 == "true" // 		//審慎計畫 翠綠珠寶																							
+//	[Type] == "Viridian Jewel" && [Rarity] == "Unique" # [local_jewel_nearby_passives_int_to_dex] >= "1" && 	[ForceSellItem]	 == "true" // 		//審慎計畫 翠綠珠寶																							
 	[Type] == "Viridian Jewel" && [Rarity] == "Unique" # [number_of_additional_traps_allowed] >= "1" && 	[ForceSellItem]	 == "true" // 		//廉價建設 翠綠珠寶																							
 	[Type] == "Viridian Jewel" && [Rarity] == "Unique" # [chance_to_gain_vaal_soul_on_enemy_shatter_%] >= "1" && 	[ForceSellItem]	 == "true" // 		//腐化寒息 翠綠珠寶																							
 	[Type] == "Viridian Jewel" && [Rarity] == "Unique" # [local_unique_jewel_physical_damage_increases_applies_to_cold_damage] >= "1" &&	[ForceSellItem]	 == "true" // 		//冷鋼 翠綠珠寶																							
