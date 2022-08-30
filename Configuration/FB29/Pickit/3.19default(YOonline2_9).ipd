@@ -1,4 +1,4 @@
-[Type] == "Leather Hood" && [Rarity] == "Unique" # [cold_damage_+%_if_you_have_used_a_fire_skill_recently] >= "1" && [StashItem] == "true" // Heatshiver
+[Type] == "Leather Hood" && [Rarity] == "Unique" # [cold_damage_%_to_add_as_fire_per_1%_chill_effect_on_enemy] >= "1" && [StashItem] == "true" // Heatshiver
 [Type] == "Onyx Amulet" && [Rarity] == "Unique" # [StashItem] == "true" // Astramentis / Carnage Heart / Hinekora's Sight / Impresense / Yoke of Suffering / Presence of Chayula
 
 //20220821	//以下是 獵首的親兄弟，除了獵首通通賣掉																											
