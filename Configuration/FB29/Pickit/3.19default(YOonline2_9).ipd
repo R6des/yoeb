@@ -854,7 +854,7 @@
 //	 [Type] == "Sacred Mana Flask" # 	[StashItem]	 == "true" 	//	//聖語魔力藥劑	不撿不存倉																						
 //	 [Type] == "Hallowed Mana Flask" # 	[StashItem]	 == "true" 	//	//祝福魔力藥劑	不撿不存倉																						
 //	 [Type] == "Sanctified Mana Flask" # 	[StashItem]	 == "true" 	//	//聖化魔力藥劑	不撿不存倉																						
-	 [Type] == "Divine Mana Flask" # 	[StashItem]	 == "true" 	//	//不朽魔力藥劑	不撿不存倉																						
+//	 [Type] == "Divine Mana Flask" # 	[StashItem]	 == "true" 	//	//不朽魔力藥劑	不撿不存倉																						
 //	 [Type] == "Eternal Mana Flask" # 	[StashItem]	 == "true" 	//	//永恆魔力藥劑	不撿不存倉																						
 //	 [Type] == "Small Hybrid Flask" # 	[StashItem]	 == "true" 	//	//小型複合藥劑	不撿不存倉																						
 //	 [Type] == "Medium Hybrid Flask" # 	[StashItem]	 == "true" 	//	//中型複合藥劑	不撿不存倉																						
