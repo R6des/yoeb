@@ -1,6 +1,6 @@
 ﻿//編輯時間：2022/7/5 ex比水餃便宜的季末
 [Type] == "Orb of Alteration" # [StashItem] == "true"////改造石拾取且存倉
-//[Type] == "Chaos Orb" # [StashItem] == "true"////混沌石拾取且存倉
+[Type] == "Chaos Orb" # [StashItem] == "true"////混沌石拾取且存倉
 [Type] == "Divine Orb" # [StashItem] == "true"////神聖石拾取且存倉
 [Type] == "Exalted Orb" # [StashItem] == "true"////崇高石拾取且存倉
 [Type] == "Mirror of Kalandra" # [StashItem] == "true"////卡蘭德的魔鏡拾取且存倉
@@ -10,22 +10,22 @@
 [Type] == "Exalted Shard"# [StashItem] == "true"////崇高石碎片拾取且存倉
 //[Type] == "Timeless Eternal Empire Splinter" # [StashItem] == "true"////永恆不朽帝國裂片不撿不存倉
 //[Type] == "Timeless Karui Splinter"# [StashItem] == "true"////永恆卡魯裂片不撿不存倉
-[Type] == "Timeless Maraketh Splinter"# [StashItem] == "true"////永恆馬拉克斯裂片拾取且存倉
-[Type] == "Timeless Templar Splinter"# [StashItem] == "true"////永恆聖宗裂片拾取且存倉
+//[Type] == "Timeless Maraketh Splinter"# [StashItem] == "true"////永恆馬拉克斯裂片拾取且存倉
+//[Type] == "Timeless Templar Splinter"# [StashItem] == "true"////永恆聖宗裂片拾取且存倉
 //[Type] == "Timeless Vaal Splinter" # [StashItem] == "true"////永恆瓦爾裂片不撿不存倉
-[Type] == "Timeless Eternal Emblem" # [StashItem] == "true"////永恆不朽帝國徽印拾取且存倉
-[Type] == "Timeless Karui Emblem"# [StashItem] == "true"////永恆卡魯徽印拾取且存倉
-[Type] == "Timeless Maraketh Emblem" # [StashItem] == "true"////永恆馬拉克斯徽印拾取且存倉
-[Type] == "Timeless Templar Emblem" # [StashItem] == "true"////永恆聖宗徽印拾取且存倉
-[Type] == "Timeless Vaal Emblem"# [StashItem] == "true"////永恆瓦爾徽印拾取且存倉
+//[Type] == "Timeless Eternal Emblem" # [StashItem] == "true"////永恆不朽帝國徽印拾取且存倉
+//[Type] == "Timeless Karui Emblem"# [StashItem] == "true"////永恆卡魯徽印拾取且存倉
+//[Type] == "Timeless Maraketh Emblem" # [StashItem] == "true"////永恆馬拉克斯徽印拾取且存倉
+//[Type] == "Timeless Templar Emblem" # [StashItem] == "true"////永恆聖宗徽印拾取且存倉
+//[Type] == "Timeless Vaal Emblem"# [StashItem] == "true"////永恆瓦爾徽印拾取且存倉
 //[Type] == "Empower Support" #[StashItem] == "true"////賦予輔助拾取且存倉
 //[Type] == "Enhance Support" #[StashItem] == "true"////增幅輔助不撿不存倉
 //[Type] == "Enlighten Support" #[StashItem] == "true"////啟蒙輔助拾取且存倉
 [Type] == "The Apothecary" #[StashItem] == "true"////(魔血 5/5)拾取且存倉
 [Type] =="Incandescent Invitation" #[StashItem] == "true" ////熾熱之邀拾取且存倉
-//[Type] =="Polaric Invitation" #[StashItem] == "true" ////極地之邀不撿不存倉
+[Type] =="Polaric Invitation" #[StashItem] == "true" ////極地之邀不撿不存倉
 [Type] == "Screaming Invitation" #[StashItem] == "true" ////尖哮之邀拾取且存倉
-//[Type] =="Writhing Invitation" #[StashItem] == "true" ////纏繞之邀不撿不存倉
+[Type] =="Writhing Invitation" #[StashItem] == "true" ////纏繞之邀不撿不存倉
 [Type] == "Humility" # [StashItem] == "true" // 1.0 C//謙遜(無盡之衣)拾取且存倉
 [Type] == "House of Mirrors" # [StashItem] == "true" // 2220 C//明鏡(卡蘭德的魔鏡)拾取且存倉30E
 [Type] == "The Doctor" # [StashItem] == "true" // 1536 C//瘋醫(獵首)拾取且存倉8E
