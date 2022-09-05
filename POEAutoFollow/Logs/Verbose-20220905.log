@@ -1,0 +1,11 @@
+2022-09-05 20:59:31.715 +08:00 [INF] PerfTimer =-> Load files from memory (119.6781 ms) Thread #[5]
+2022-09-05 21:20:04.204 +08:00 [ERR] System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 POEAutoFollow.frmMain.wyys7NLuhBCte5e6J3P(Object )
+   在 POEAutoFollow.frmMain.ClickPartyIcon()
+   在 POEAutoFollow.frmMain.Follow()
+   在 POEAutoFollow.frmMain.RenderEvent()
+2022-09-05 22:14:54.904 +08:00 [ERR] System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 POEAutoFollow.frmMain.wyys7NLuhBCte5e6J3P(Object )
+   在 POEAutoFollow.frmMain.ClickPartyIcon()
+   在 POEAutoFollow.frmMain.Follow()
+   在 POEAutoFollow.frmMain.RenderEvent()
