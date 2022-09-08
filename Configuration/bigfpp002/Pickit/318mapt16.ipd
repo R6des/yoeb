@@ -24,7 +24,8 @@
 [Type] == "Exalted Shard"# [StashItem] == "true"////崇高石碎片拾取且存倉
 [Type] == "Orb of Regret"# [StashItem] == "true"////後悔石拾取且存倉
 [Type] == "Orb of Unmaking"# [StashItem] == "true"////撤銷石拾取且存倉
-[Type] == "Orb of Horizons"# [StashItem] == "true"////撤銷石拾取且存倉
+[Type] == "Orb of Horizons"# [StashItem] == "true"////地平石拾取且存倉
+[Type] == "Enkindling Orb"# [StashItem] == "true"////點燃石拾取且存倉
 [Type] == "Timeless Eternal Empire Splinter" # [StashItem] == "true"////永恆不朽帝國裂片不撿不存倉
 [Type] == "Timeless Karui Splinter"# [StashItem] == "true"////永恆卡魯裂片不撿不存倉
 [Type] == "Timeless Maraketh Splinter"# [StashItem] == "true"////永恆馬拉克斯裂片拾取且存倉
@@ -93,7 +94,7 @@
 	[Type] == "Leather Belt" && [Rarity] == "Unique" # [mana_leech_from_physical_attack_damage_permyriad] >= "1" &&	[ForceSellItem]	 == "true" // 		//龍蛻之帶 皮革腰帶																							
 	//以下是 魔血的親兄弟，除了魔血通通賣掉//																											
 	[Type] == "Heavy Belt" && [Rarity] == "Unique" #	[StashItem]	 == "true" // 		//重革腰帶 基底																							
-//	[Type] == "Heavy Belt" && [Rarity] == "Unique" # [local_display_nearby_enemies_are_intimidated] >= "1" &&	[ForceSellItem]	 == "true" // 		//重革腰帶																							
+	[Type] == "Heavy Belt" && [Rarity] == "Unique" # [local_display_nearby_enemies_are_intimidated] >= "1" &&	[ForceSellItem]	 == "true" // 		//重革腰帶																							
 	[Type] == "Heavy Belt" && [Rarity] == "Unique" # [item_found_rarity_+1%_per_X_rampage_stacks] >= "1" && 	[ForceSellItem]	 == "true" // 		//畢斯寇繫帶 重革腰帶																							
 	[Type] == "Heavy Belt" && [Rarity] == "Unique" # [faster_burn_from_attacks_%] >= "1" && 	[ForceSellItem]	 == "true" // 		//戴亞迪安的晨曦 重革腰帶																							
 	[Type] == "Heavy Belt" && [Rarity] == "Unique" # [flask_life_recovery_rate_+%] >= "1" && 	[ForceSellItem]	 == "true" // 		//梅吉諾德的力量泉源 重革腰帶																							
@@ -179,21 +180,21 @@
 //	[Type] == "Ezomyte Burgonet" && [Rarity] == "Unique" # [physical_damage_taken_+%] <= "40" && [melee_weapon_critical_strike_multiplier_+] >= "120" && 	[ForceSellItem]	 == "true" // 		//深淵之喚 艾茲麥堅盔																							
 	[Type] == "Ezomyte Burgonet" && [Rarity] == "Unique" # [local_item_can_have_x_additional_enchantments] >= "1" && [ForceSellItem] == "true" // Cowl of the Thermophile	[ForceSellItem]	 == "true" // 		//嗜炎斗篷 艾茲麥堅盔																							
 	//暗雷																											
-	[Type] == "Dragonscale Boots" && [Rarity] == "Unique" # 	[StashItem]	 == "true" // 																									
+//	[Type] == "Dragonscale Boots" && [Rarity] == "Unique" # 	[StashItem]	 == "true" // 																									
 	//冰冷之眼																											
-	[Type] == "Goathide Gloves" && [Rarity] == "Unique" # [base_physical_damage_%_to_convert_to_cold] >= "1" && 	[StashItem]	 == "true" // 																									
+//	[Type] == "Goathide Gloves" && [Rarity] == "Unique" # [base_physical_damage_%_to_convert_to_cold] >= "1" && 	[StashItem]	 == "true" // 																									
 	//雙玉戒指：冰火、火雷、雷冰戒、意志呼喚、狼王戒																											
 	[Type]== "Two-Stone Ring" && [Rarity] == "Unique" # 	[StashItem]	 == "true" // 																									
 	//三相戒指：竊罪、羅里																											
-	[Type]== "Prismatic Ring" && [Rarity] == "Unique" # 	[StashItem]	 == "true" // 																									
+//	[Type]== "Prismatic Ring" && [Rarity] == "Unique" # 	[StashItem]	 == "true" // 																									
 	//裂心刃																											
-	[Type] == "Royal Skean" && [Rarity] == "Unique" # 	[StashItem]	 == "true" // 																									
+//	[Type] == "Royal Skean" && [Rarity] == "Unique" # 	[StashItem]	 == "true" // 																									
 	//開膛斧																											
-	[Type]== "Siege Axe" && [Rarity] == "Unique" # 	[StashItem]	 == "true" // 																									
+//	[Type]== "Siege Axe" && [Rarity] == "Unique" # 	[StashItem]	 == "true" // 																									
 	//獅吼、魯米都撿																											
-	[Type] == "Granite Flask" && [Rarity] == "Unique" # 	[StashItem]	 == "true" // 																									
+//	[Type] == "Granite Flask" && [Rarity] == "Unique" # 	[StashItem]	 == "true" // 																									
 	//大小傷腰 堅毅之環 都撿																											
-	[Type]== "Studded Belt" && [Rarity] == "Unique" # 	[StashItem]	 == "true" // 																									
+//	[Type]== "Studded Belt" && [Rarity] == "Unique" # 	[StashItem]	 == "true" // 																									
 	//赤紅珠寶																											
 	[Type]== "Crimson Jewel" && [Rarity] == "Unique" 	[StashItem]	 == "true" // 																									
 //	[Type]== "Crimson Jewel" && [Rarity] == "Unique" # [local_unique_jewel_with_4_notables_gain_X_random_rare_monster_mods_on_kill] >= "1" && 	[ForceSellItem]	 == "true" // 		//求知的熱情																							
