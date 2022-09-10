@@ -1,3 +1,17 @@
+[Type]=="Niko's Memory" # [StashItem]  == "true" // 
+[Type]=="Alva's Memory" # [StashItem]  == "true" // 
+[Type]=="Kirac's Memory" # [StashItem]  == "true" // 
+[Type]=="Einhar's Memory" # [StashItem]  == "true" // 
+[Type]=="Engraved Ultimatum" # [StashItem]  == "true" // 
+[Type]=="Mirrored Tablet" # [StashItem]  == "true" // 
+[Type]=="Forgotten Reliquary Key" # [StashItem]  == "true" // 
+[Type]=="Visceral Reliquary Key" # [StashItem]  == "true" // 
+[Type]=="Shiny Reliquary Key" # [StashItem]  == "true" // 
+[Type]=="Archive Reliquary Key" # [StashItem]  == "true" // 
+[Type]=="Oubliette Reliquary Key" # [StashItem]  == "true" // 
+[Type]=="Cosmic Reliquary Key" # [StashItem]  == "true" // 
+[Type]=="Decaying Reliquary Key" # [StashItem]  == "true" //
+
 //編輯時間：2022/9/7
 [Type]=="Tainted Chromatic Orb" # [StashItem]  == "true"
 [Type]=="Tainted Orb of Fusing" # [StashItem]  == "true"
