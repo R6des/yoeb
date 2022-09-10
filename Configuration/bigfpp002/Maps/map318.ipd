@@ -1,3 +1,13 @@
+[MapTier]>= "1" && [MapTier] <= "16" && [Rarity] == "Rare" # [IgnoreMap]== "true" // 金圖全部不打
+[Area_is_influenced_by_the_edler] >= "1" && [Rarity] == "Magic" #	[RerollMods]	=="true"	//尊師圖避打																		
+[Area_is_influenced_by_the_edler] >= "1" && [Rarity] == "Rare" #	[RerollMods]	=="true"	//尊師圖避打	
+
+[Area_is_influenced_by_the_shaper] >= "1" && [Rarity] == "Magic" #	[RerollMods]	=="true"	//四聖獸避打																		
+[Area_is_influenced_by_the_shaper] >= "1" && [Rarity] == "Rare" #	[RerollMods]	=="true"	//四聖獸避打
+
+[Area_is_influenced_by_the_conqueror] >= "1" && [Rarity] == "Magic" #	[RerollMods]	=="true"	//征服者避打																		
+[Area_is_influenced_by_the_conqueror] >= "1" && [Rarity] == "Rare" #	[RerollMods]	=="true"	//征服者避打	
+
 //	//				//中文判斷																				
 	//3.17 橘貓輿圖檔 ////藍色文字代表不能更改的欄位，不要去改																								
 //	[Quality]<="16"&& [Rarity]=="Normal"#[UpgradeQuality]== "true"//使用製圖釘			//使用製圖釘	不//使用製圖釘																				
