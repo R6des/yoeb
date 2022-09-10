@@ -1,4 +1,4 @@
-//[MapTier]>= "1" && [MapTier] <= "16" && [Rarity] == "Rare" # [IgnoreMap]== "true" // 金圖全部不打
+[MapTier]>= "1" && [MapTier] <= "16" && [Rarity] == "Rare" # [IgnoreMap]== "true" // 金圖全部不打
 //[Area_is_influenced_by_the_edler] >= "1" && [Rarity] == "Magic" #	[RerollMods]	=="true"	//尊師圖避打																		
 //[Area_is_influenced_by_the_edler] >= "1" && [Rarity] == "Rare" #	[RerollMods]	=="true"	//尊師圖避打	
 
