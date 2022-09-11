@@ -1,11 +1,14 @@
+[Type] == "Awakened Sextant" # [StashItem] == "true"////六分
+
+
 [Type] == "Lingering Remnants" # [StashItem] == "true" // 殘墟 拾取且存倉
 
-[Type]=="Niko's Memory" # [StashItem]  == "true" // 
-[Type]=="Alva's Memory" # [StashItem]  == "true" // 
-[Type]=="Kirac's Memory" # [StashItem]  == "true" // 
+//[Type]=="Niko's Memory" # [StashItem]  == "true" // 
+//[Type]=="Alva's Memory" # [StashItem]  == "true" // 
+//[Type]=="Kirac's Memory" # [StashItem]  == "true" // 
 [Type]=="Einhar's Memory" # [StashItem]  == "true" // 
-[Type]=="Engraved Ultimatum" # [StashItem]  == "true" // 
-[Type]=="Mirrored Tablet" # [StashItem]  == "true" // 
+//[Type]=="Engraved Ultimatum" # [StashItem]  == "true" // 
+//[Type]=="Mirrored Tablet" # [StashItem]  == "true" // 
 [Type]=="Forgotten Reliquary Key" # [StashItem]  == "true" // 
 [Type]=="Visceral Reliquary Key" # [StashItem]  == "true" // 
 [Type]=="Shiny Reliquary Key" # [StashItem]  == "true" // 
