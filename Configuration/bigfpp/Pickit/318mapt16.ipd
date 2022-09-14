@@ -1,6 +1,7 @@
 [Type] == "Regal Orb" # [StashItem] == "true"////富豪
 [Type] == "Awakened Sextant" # [StashItem] == "true"////六分
 
+ [Type] =="Maven's Invitation: The Elderslayers" # [StashItem]  == "true"   //殺手 拾取且存倉
 
 [Type] == "Lingering Remnants" # [StashItem] == "true" // 殘墟 拾取且存倉
 
