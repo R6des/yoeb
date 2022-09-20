@@ -56,7 +56,7 @@ Show # 特殊語法 - 六連裝備
 
 # 【特殊語法-六洞裝備】0002
 
-Show # 特殊語法 - 六洞裝備
+Hide # 特殊語法 - 六洞裝備
     Sockets = 6
     SetTextColor 0 0 0
     SetBackgroundColor 224 224 224
@@ -645,31 +645,31 @@ Show # 通貨 - 初始 - 滴注石
 
 #【通貨-垃圾】1005
 
-Show # 通貨 - 垃圾 - 磨刀石
+Hide # 通貨 - 垃圾 - 磨刀石
     Class "Currency"
     BaseType "Blacksmith's Whetstone"
     SetTextColor 210 150 255
     SetFontSize 45
 
-Show # 通貨 - 垃圾 - 護甲片
+Hide # 通貨 - 垃圾 - 護甲片
     Class "Currency"
     BaseType "Armourer's Scrap"
     SetTextColor 210 150 255
     SetFontSize 45
 
-Show # 通貨 - 垃圾 - 蛻變石
+Hide # 通貨 - 垃圾 - 蛻變石
     Class "Currency"
     BaseType "Orb of Transmutation"
     SetTextColor 210 150 255
     SetFontSize 45
 
-Show # 通貨 - 垃圾 - 增幅石
+Hide # 通貨 - 垃圾 - 增幅石
     Class "Currency"
     BaseType "Orb of Augmentation"
     SetTextColor 210 150 255
     SetFontSize 45
 
-Show # 通貨 - 垃圾 - 普蘭德斯金幣
+Hide # 通貨 - 垃圾 - 普蘭德斯金幣
     Class "Currency"
     BaseType "Perandus Coin"
     SetTextColor 255 255 0 152
@@ -709,7 +709,7 @@ Hide # 通貨 - 垃圾 - 改造石碎片
     BaseType "Alteration Shard"
     SetTextColor 215 190 160
 
-Show # 通貨 - 垃圾 - 點金石碎片
+Hide # 通貨 - 垃圾 - 點金石碎片
     Class "Currency"
     BaseType "Alchemy Shard"
     SetTextColor 215 190 160
@@ -765,7 +765,7 @@ Show # 通貨 - 特殊 - 充能的羅盤
     MinimapIcon 2 Red Diamond
     PlayEffect Red
 
-Show # 通貨 - 特殊 - 偵查報告
+Hide # 通貨 - 特殊 - 偵查報告
     Class "Currency"
     BaseType "Scouting Report"
     SetTextColor 100 50 0
@@ -1947,7 +1947,7 @@ Show # 聯盟 - 3.7戰亂 - 永恆珠寶
 
 # 【聯盟-3.6追憶】3014
 
-Show # 聯盟 - 3.6追憶 - 破裂物品
+Hide # 聯盟 - 3.6追憶 - 破裂物品
     FracturedItem True
     SetTextColor 237 240 235 255
     SetBackgroundColor 106 172 220
@@ -3022,7 +3022,7 @@ Show # 技能 - 等級15+
 
 # 【技能寶石-一般技能】6005
 
-Show # 技能 - 瓦爾技能
+Hide # 技能 - 瓦爾技能
     Class "Gems"
     BaseType "Vaal"
 
@@ -3988,7 +3988,7 @@ Hide # 藥劑 - 生命藥劑 - 中階(高階/聖語/祝福)
     SetBorderColor 153 0 0
     SetFontSize 40
 
-Hide # 藥劑 - 生命藥劑 - 高階(聖化/不朽/永恆)
+Show # 藥劑 - 生命藥劑 - 高階(聖化/不朽/永恆)
     Class "Life Flasks"
     BaseType "Sanctified Life Flask" "Divine Life Flask" "Eternal Life Flask"
     SetTextColor 153 0 0
