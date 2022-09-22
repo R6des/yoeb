@@ -5,7 +5,7 @@
 
 [Type] =="Maven's Invitation: The Elderslayers" # [StashItem]  == "true"   //殺手 拾取且存倉
 
-[Type] == "Lingering Remnants" # [StashItem] == "true" // 殘墟 拾取且存倉
+//[Type] == "Lingering Remnants" # [StashItem] == "true" // 殘墟 拾取且存倉
 
 //[Type]=="Niko's Memory" # [StashItem]  == "true" // 
 //[Type]=="Alva's Memory" # [StashItem]  == "true" // 
