@@ -1,3 +1,8 @@
+[Type] == "Feathered Arrow Quiver" &&  [Rarity] == "Unique" # [StashItem] == "true"
+[Type] == "Feathered Arrow Quiver" &&  [Rarity] == "Unique" # [base_cast_speed_+%] >= "1" &&   [ForceSellItem]	 == "true" //
+[Type] == "Feathered Arrow Quiver" &&  [Rarity] == "Unique" # [local_display_grants_skill_call_of_steel] >= "1" &&   [ForceSellItem]	 == "true" //
+
+
 [Type] =="Maven's Invitation: The Elderslayers" # [StashItem]  == "true"   //殺手 拾取且存倉
 
 [Type] == "Lingering Remnants" # [StashItem] == "true" // 殘墟 拾取且存倉
