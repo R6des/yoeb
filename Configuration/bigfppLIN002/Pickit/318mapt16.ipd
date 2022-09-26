@@ -231,7 +231,7 @@
 	[Type]== "Crimson Jewel" && [Rarity] == "Unique" # [totem_number_of_additional_projectiles] >= "1" && 	[ForceSellItem]	 == "true" // 		//碎鏃雨																							
 	[Type] == "Crimson Jewel" && [Rarity] == "Unique" # [mana_cost_+%_on_totemified_aura_skills] >= "-60" && 	[ForceSellItem]	 == "true" // 		//遠古基石 赤紅珠寶																							
 	[Type] == "Crimson Jewel" && [Rarity] == "Unique" # [vaal_skill_soul_refund_chance_%] >= "1" && 	[ForceSellItem]	 == "true" // 		//阿茲里之權 赤紅珠寶																							
-	[Type] == "Crimson Jewel" && [Rarity] == "Unique" # [maximum_life_%_lost_on_kill] <= "1" && 	[ForceSellItem]	 == "true" // 		//血犧 赤紅珠寶																							
+	[Type] == "Crimson Jewel" && [Rarity] == "Unique" # [maximum_life_+%_lost_on_kill] >= "1" && 	[ForceSellItem]	 == "true" // 		//血犧 赤紅珠寶																							
 	[Type] == "Crimson Jewel" && [Rarity] == "Unique" # [dexterity_+%] >= "4" && 	[ForceSellItem]	 == "true" // 		//筋骨強化 赤紅珠寶																							
 	[Type] == "Crimson Jewel" && [Rarity] == "Unique" # [local_unique_jewel_passives_in_radius_give_trap_and_mine_maximum_added_physical_damage] >= "1" && 	[ForceSellItem]	 == "true" // 		//榴星 赤紅珠寶																							
 	[Type] == "Crimson Jewel" && [Rarity] == "Unique" # [local_unique_jewel_elemental_hit_cannot_roll_cold_damage_with_40_int_+_str_in_radius] >= "1" && 	[ForceSellItem]	 == "true" // 		//赤紅珠寶																							
