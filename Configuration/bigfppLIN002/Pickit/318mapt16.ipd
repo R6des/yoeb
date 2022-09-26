@@ -175,11 +175,11 @@
 //	[Type] == "Saint's Hauberk" && [Rarity] == "Unique" # [nearby_enemies_lightning_resist_equal_to_yours] >= "1" && 	[ForceSellItem]	 == "true" // 		//聖者鏈甲																							
 	[Type] == "Saint's Hauberk" && [Rarity] == "Unique" # [chaos_damage_%_taken_from_mana_before_life] >= "1" && 	[ForceSellItem]	 == "true" // 		//象牙塔 聖者鏈甲																							
 	//西里的戰衣=2D																											
-	[Type]== "Zodiac Leather" && [Rarity] == "Unique" # 	[StashItem]	 == "true" // 																									
+//	[Type]== "Zodiac Leather" && [Rarity] == "Unique" # 	[StashItem]	 == "true" // 																									
 	//轟天雷=1.5D																											
-	[Type]== "Murder Mitts" && [Rarity] == "Unique" # 	[StashItem]	 == "true" // 		//轟天雷 暗殺者護手																							
-	[Type] == "Murder Mitts" && [Rarity] == "Unique" # [thaumaturgy_rotation_active] >= "1" && 	[ForceSellItem]	 == "true" // 		//瑪拉凱之面 暗殺者護手																							
-	[Type] == "Murder Mitts" && [Rarity] == "Unique" # [lose_power_charge_each_second_if_not_detonated_mines_recently] >= "1" && 	[ForceSellItem]	 == "true" // 		//詭計魔手 暗殺者護手																							
+//	[Type]== "Murder Mitts" && [Rarity] == "Unique" # 	[StashItem]	 == "true" // 		//轟天雷 暗殺者護手																							
+//	[Type] == "Murder Mitts" && [Rarity] == "Unique" # [thaumaturgy_rotation_active] >= "1" && 	[ForceSellItem]	 == "true" // 		//瑪拉凱之面 暗殺者護手																							
+//	[Type] == "Murder Mitts" && [Rarity] == "Unique" # [lose_power_charge_each_second_if_not_detonated_mines_recently] >= "1" && 	[ForceSellItem]	 == "true" // 		//詭計魔手 暗殺者護手																							
 //	[Type] == "Murder Mitts" && [Rarity] == "Unique" # [local_display_socketed_gems_get_added_lightning_damage_level] >= "1" && 	[ForceSellItem]	 == "true" // 		//轟天雷 暗殺者護手																							
 	//帝王的戒心=1.5D																											
 //	[Type] == "Steel Kite Shield" && [Rarity] == "Unique" # 	[StashItem]	 == "true" // 																									
@@ -231,7 +231,7 @@
 	[Type]== "Crimson Jewel" && [Rarity] == "Unique" # [totem_number_of_additional_projectiles] >= "1" && 	[ForceSellItem]	 == "true" // 		//碎鏃雨																							
 	[Type] == "Crimson Jewel" && [Rarity] == "Unique" # [mana_cost_+%_on_totemified_aura_skills] >= "-60" && 	[ForceSellItem]	 == "true" // 		//遠古基石 赤紅珠寶																							
 	[Type] == "Crimson Jewel" && [Rarity] == "Unique" # [vaal_skill_soul_refund_chance_%] >= "1" && 	[ForceSellItem]	 == "true" // 		//阿茲里之權 赤紅珠寶																							
-	[Type] == "Crimson Jewel" && [Rarity] == "Unique" # [maximum_life_%_lost_on_kill] >= "1" && 	[ForceSellItem]	 == "true" // 		//血犧 赤紅珠寶																							
+	[Type] == "Crimson Jewel" && [Rarity] == "Unique" # [maximum_life_%_lost_on_kill] <= "1" && 	[ForceSellItem]	 == "true" // 		//血犧 赤紅珠寶																							
 	[Type] == "Crimson Jewel" && [Rarity] == "Unique" # [dexterity_+%] >= "4" && 	[ForceSellItem]	 == "true" // 		//筋骨強化 赤紅珠寶																							
 	[Type] == "Crimson Jewel" && [Rarity] == "Unique" # [local_unique_jewel_passives_in_radius_give_trap_and_mine_maximum_added_physical_damage] >= "1" && 	[ForceSellItem]	 == "true" // 		//榴星 赤紅珠寶																							
 	[Type] == "Crimson Jewel" && [Rarity] == "Unique" # [local_unique_jewel_elemental_hit_cannot_roll_cold_damage_with_40_int_+_str_in_radius] >= "1" && 	[ForceSellItem]	 == "true" // 		//赤紅珠寶																							
