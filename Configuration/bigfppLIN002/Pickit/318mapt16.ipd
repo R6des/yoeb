@@ -135,8 +135,8 @@
 	[Type] =="Elegant Round Shield" && [Rarity] == "Unique" # [base_block_%_damage_taken]>="1" &&	[ForceSellItem]	 == "true" // 		壓迫者																							
 //武器																												
 	//蜘蛛刀=6D																											
-	[Type]== "Fiend Dagger" && [Rarity] == "Unique" #  	[StashItem]	 == "true" // 																									
-	[Type] == "Fiend Dagger" && [Rarity] == "Unique" # [chaos_damage_chance_to_poison_%] >= "1" &&	[ForceSellItem]	 == "true" // 		蠶食之闇 妖魔短匕																							
+//	[Type]== "Fiend Dagger" && [Rarity] == "Unique" #  	[StashItem]	 == "true" // 																									
+//	[Type] == "Fiend Dagger" && [Rarity] == "Unique" # [chaos_damage_chance_to_poison_%] >= "1" &&	[ForceSellItem]	 == "true" // 		蠶食之闇 妖魔短匕																							
 	//潛能魔棒	 																									
 	[Type]== "Prophecy Wand" && [Rarity] == "Unique" # 	[StashItem]	 == "true" // 																									
 	//夜吟=2D	 																									
@@ -182,9 +182,9 @@
 //	[Type] == "Murder Mitts" && [Rarity] == "Unique" # [lose_power_charge_each_second_if_not_detonated_mines_recently] >= "1" && 	[ForceSellItem]	 == "true" // 		//詭計魔手 暗殺者護手																							
 //	[Type] == "Murder Mitts" && [Rarity] == "Unique" # [local_display_socketed_gems_get_added_lightning_damage_level] >= "1" && 	[ForceSellItem]	 == "true" // 		//轟天雷 暗殺者護手																							
 	//帝王的戒心=1.5D																											
-//	[Type] == "Steel Kite Shield" && [Rarity] == "Unique" # 	[StashItem]	 == "true" // 																									
+	[Type] == "Steel Kite Shield" && [Rarity] == "Unique" # 	[StashItem]	 == "true" // 																									
 //	[Type] == "Steel Kite Shield" && [Rarity] == "Unique" # [keystone_glancing_blows] >= "1" && 	[ForceSellItem]	 == "true" // 		帝王戒心																							
-//	[Type] == "Steel Kite Shield" && [Rarity] == "Unique" # [keystone_corrupted_defences] >= "1" && 	[ForceSellItem]	 == "true" // 		瑪哈薩多																							
+	[Type] == "Steel Kite Shield" && [Rarity] == "Unique" # [keystone_corrupted_defences] >= "1" && 	[ForceSellItem]	 == "true" // 		瑪哈薩多																							
 	//歐喙=1.5D																											
 //	[Type] == "Raven Mask" && [Rarity] == "Unique" # 	[StashItem]	 == "true" // 		//鷗喙 禍鴉之面
 	//水道仔或閃打仔會用到的散件																											
