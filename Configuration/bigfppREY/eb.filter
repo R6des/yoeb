@@ -2364,7 +2364,7 @@ Show # 聯盟 - 2.5裂痕 - 裂痕祝福
 
 # 【聯盟-2.4精髓】3005
 
-Show # 聯盟 - 2.4精髓 - 精髓 -污染精華&污染器皿
+Hide # 聯盟 - 2.4精髓 - 精髓 -污染精華&污染器皿
     Class "Currency"
     BaseType "Essence of Hysteria" "Essence of Insanity" "Essence of Horror" "Essence of Delirium" "Remnant of Corruption"
     SetTextColor 0 0 0
@@ -2374,28 +2374,28 @@ Show # 聯盟 - 2.4精髓 - 精髓 -污染精華&污染器皿
     PlayAlertSound 9 300
     PlayEffect Red
 
-Show # 聯盟 - 2.4精髓 - 精髓 -T1
+Hide # 聯盟 - 2.4精髓 - 精髓 -T1
     Class "Currency"
     BaseType "Deafening Essence of"
     SetTextColor 150 255 255
     SetFontSize 40
     PlayAlertSound 9 300
 
-Show # 聯盟 - 2.4精髓 - 精髓 -T2
+Hide # 聯盟 - 2.4精髓 - 精髓 -T2
     Class "Currency"
     BaseType "Shrieking Essence of"
     SetTextColor 65 255 255
     SetFontSize 40
     PlayAlertSound 9 200
 
-Show # 聯盟 - 2.4精髓 - 精髓 -T3
+Hide # 聯盟 - 2.4精髓 - 精髓 -T3
     Class "Currency"
     BaseType "Screaming Essence of"
     SetTextColor 0 255 255
     SetFontSize 39
     PlayAlertSound 9 150
 
-Show # 聯盟 - 2.4精髓 - 精髓 -T4
+Hide # 聯盟 - 2.4精髓 - 精髓 -T4
     Class "Currency"
     BaseType "Wailing Essence of" "Weeping Essence of" "Muttering Essence of" "Whispering Essence of"
     SetTextColor 0 210 255
