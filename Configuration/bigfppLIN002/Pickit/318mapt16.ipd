@@ -1,3 +1,34 @@
+//3.20新增 1111208
+
+[Type]=="Man With Bear" #[StashItem] == "true" //				
+[Type]=="Alivia's Grace" #[StashItem] == "true" //				
+[Type]=="Auspicious Ambitions" #[StashItem] == "true" //				劫盜百等武器
+[Type]=="Divine Beauty" #[StashItem] == "true" //				神聖石卡（有價）
+[Type]=="The Wedding Gift" #[StashItem] == "true" //				蜘蛛刀卡（有價）
+[Type]=="The Insane Cat" #[StashItem] == "true" //				魔血卡（有價）
+[Type]=="Ever-Changing" #[StashItem] == "true" //				
+[Type]=="A Dusty Memory" #[StashItem] == "true" //				
+[Type]=="The Return of the Rat" #[StashItem] == "true" //				
+[Type]=="The Finishing Touch" #[StashItem] == "true" //				
+				
+				
+[Type]=="Fracturing Orb" #[StashItem] == "true" //				破裂石
+[Type]=="Fracturing Shard" #[StashItem] == "true" //				破裂石碎片
+				
+				
+[Type]=="Urn Relic" #[StashItem] == "true" //				聖物1
+[Type]=="Tome Relic" #[StashItem] == "true" //				聖物2
+[Type]=="Coffer Relic" #[StashItem] == "true" //				聖物3
+[Type]=="Censer Relic" #[StashItem] == "true" //				聖物4
+[Type]=="Papyrus Relic" #[StashItem] == "true" //				聖物5
+[Type]=="Candlestick Relic" #[StashItem] == "true" //				聖物6
+[Type]=="Processional Relic" #[StashItem] == "true" //				聖物7
+				
+				
+[Type]=="Sanctified Relic" #[StashItem] == "true" //				3.20專屬聖物道具
+
+
+//下面是3.19以前ㄉ
 //[Type] == "Feathered Arrow Quiver" &&  [Rarity] == "Unique" # [StashItem] == "true"
 //[Type] == "Feathered Arrow Quiver" &&  [Rarity] == "Unique" # [base_cast_speed_+%] >= "1" &&   [ForceSellItem]	 == "true" //
 //[Type] == "Feathered Arrow Quiver" &&  [Rarity] == "Unique" # [local_display_grants_skill_call_of_steel] >= "1" &&   [ForceSellItem]	 == "true" //
