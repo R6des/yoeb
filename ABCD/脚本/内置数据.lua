@@ -52,7 +52,7 @@ SetUseTuTengData("artillery_ballista_totem","Metadata/Monsters/Totems/MortarTote
 --buffClassName 增益类名 字符串型 如果有这个增益 就不使用
 --funcNeedUse 使用的检测函数，你们不需要填，是给作者用来添加特殊技能的接口 填nil忽略
 AddUseSkillData(2,"暗影迷踪","phase_run")
-AddUseSkillData(2,"凋零之步","wlither")
+AddUseSkillData(1,"凋零之步","slither")
 AddUseSkillData(1,"骨制战甲","bone_armour")
 AddUseSkillData(1,"熔岩护盾","molten_shell_barrier")
 AddUseSkillData(1,"钢铁之肤","steelskin")
@@ -78,9 +78,9 @@ AddUseSkillData(1,"瘟疫使徒","corrosive_shroud",nil,nil,g_funcCheckWyst)
 --funcNeedUse=使用的检测函数，你们不需要填，是给作者用来添加特殊技能的接口 填nil忽略
 SetUseBuffSkill("法术回音","spellslinger",nil,nil,g_funcCheckFshy)
 
-SetUseBuffSkill("戰爭之旗","banner_war","戰爭之旗","bloodstained_banner_buff_aura")
-SetUseBuffSkill("恐懼之旗","banner_dread","恐懼之旗","puresteel_banner_buff_aura")
-SetUseBuffSkill("反抗之旗","banner_armour_evasion","反抗之旗","armour_evasion_banner_buff_aura")
+SetUseBuffSkill("战旗","banner_war","征戰之旗","bloodstained_banner_buff_aura")
+--SetUseBuffSkill("恐懼之旗","banner_dread","恐懼之旗","puresteel_banner_buff_aura")
+SetUseBuffSkill("恐懼之旗","banner_armour_evasion","恐懼之旗","armour_evasion_banner_buff_aura")
 SetUseBuffSkill("冰霜之捷","herald_of_ice")--
 SetUseBuffSkill("苦痛之捷","herald_of_agony")--
 SetUseBuffSkill("灰烬之捷","herald_of_ash")
