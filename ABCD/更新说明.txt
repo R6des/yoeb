@@ -1,9 +1,11 @@
 所有命令的使用设置请看 使用说明 必看.chm
+8.31
+1、新增变量型命令  g_needZhuangYuanLv=nil--数字型 满多少级打古灵庄园 nil为一直不打
 7.27
 1、SetNeedSkillLineData命令新增技能打品质功能 详情见说明书
 2、SetAtuoChangeEquipData命令新增DPS属性名
 3、新增变量型命令 g_changeHunDunLv=nil--多少级前不换C  他就不会换C和捡换C装备了 如果只搬改造的话非常好用
-4、新增药剂打品质功能，详情见说明书
+4、SetNeedFlaskData 新增药剂打品质功能，详情见说明书
 5、SetJiaoYiGoods 命令的 属性限制 参数 已经支持判断基底属性与随机属性了 详情见说明书
 6、支持空手技能，不需要任何设置
 7、新增变量型命令 g_useMinLvMapTianFuCnt 取图时，地图天赋满多少点后 就从低阶地图开始取
