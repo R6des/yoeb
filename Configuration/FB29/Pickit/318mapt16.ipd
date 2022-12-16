@@ -332,7 +332,7 @@
 	[Category] == "Ring"         && [Rarity]         == "Rare" # [base_maximum_life] >= "999" && [TotalResistances] >= "999" && 	[StashItem]	 == "true"	//	戒指
 	[Category] == "Belt"         && [Rarity]         == "Rare" # [base_maximum_life] >= "999" && [TotalResistances] >= "999" && 	[StashItem]	 == "true"	//	腰帶
 //	[Category] == "Gloves"         && [Rarity]         == "Rare" # [base_maximum_life] >= "999" && [TotalResistances] >= "999" && 	[StashItem]	 == "true"	//	手套
-	[Category] == "Boots"         && [Rarity]         == "Rare" # [base_maximum_life] >= "999"&& 	[StashItem]	 == "true"	//	鞋子
+//	[Category] == "Boots"         && [Rarity]         == "Rare" # [base_maximum_life] >= "999"&& 	[StashItem]	 == "true"	//	鞋子
 	[Category] == "Weapon"         && [Rarity]         == "Rare" # [DPS] > "999" && 	[StashItem]	 == "true"	//	武器
 //	[Category] == "Shield"         && [Rarity]         == "Rare" # [base_maximum_life] >= "999" && [TotalResistances] >= "999" && 	[StashItem]	 == "true"	//	盾牌
 	//// 2F 基礎通貨//																								
