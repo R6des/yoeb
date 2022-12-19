@@ -203,8 +203,8 @@
 //	[Type]== "Assassin Bow" && [Rarity] == "Unique" # 	[StashItem]	 == "true" // 																									
 //	[Type] == "Assassin Bow" && [Rarity] == "Unique" # [unique_chin_sol_close_range_knockback] >= "1" && 	[ForceSellItem]	 == "true" // 		亂矢之弦																							
 	//學富之2.5D																											
-	[Type]== "Carved Wand" && [Rarity] == "Unique" # 	[StashItem]	 == "true" // 																									
-	[Type]== "Carved Wand" && [Rarity] == "Unique" # [max_power_charges] >= "1" &&	[ForceSellItem]	 == "true" // 		禁錮暴風
+//	[Type]== "Carved Wand" && [Rarity] == "Unique" # 	[StashItem]	 == "true" // 																									
+//	[Type]== "Carved Wand" && [Rarity] == "Unique" # [max_power_charges] >= "1" &&	[ForceSellItem]	 == "true" // 		禁錮暴風
 	//爾奇
 	[Type] == "Karui Maul" && [Rarity] == "Unique" # [StashItem] == "true" // Marohi Erqi
 //3.20新增 111/12/13
@@ -283,17 +283,17 @@
 	//暗雷																											
 	[Type] == "Dragonscale Boots" && [Rarity] == "Unique" # 	[StashItem]	 == "true" // 																									
 	//冰冷之眼																											
-	[Type] == "Goathide Gloves" && [Rarity] == "Unique" # [base_physical_damage_%_to_convert_to_cold] >= "1" && 	[StashItem]	 == "true" // 																									
+//	[Type] == "Goathide Gloves" && [Rarity] == "Unique" # [base_physical_damage_%_to_convert_to_cold] >= "1" && 	[StashItem]	 == "true" // 																									
 	//雙玉戒指：冰火、火雷、雷冰戒、意志呼喚、狼王戒																											
 	[Type]== "Two-Stone Ring" && [Rarity] == "Unique" # 	[StashItem]	 == "true" // 																									
 	//三相戒指：竊罪、羅里																											
 //	[Type]== "Prismatic Ring" && [Rarity] == "Unique" # 	[StashItem]	 == "true" // 																									
 	//裂心刃																											
-	[Type] == "Royal Skean" && [Rarity] == "Unique" # 	[StashItem]	 == "true" // 																									
+//	[Type] == "Royal Skean" && [Rarity] == "Unique" # 	[StashItem]	 == "true" // 																									
 	//開膛斧																											
 	[Type]== "Siege Axe" && [Rarity] == "Unique" # 	[StashItem]	 == "true" // 																									
 	//獅吼、魯米都撿																											
-	[Type] == "Granite Flask" && [Rarity] == "Unique" # 	[StashItem]	 == "true" // 																									
+//	[Type] == "Granite Flask" && [Rarity] == "Unique" # 	[StashItem]	 == "true" // 																									
 	//大小傷腰 堅毅之環 都撿																											
 	[Type]== "Studded Belt" && [Rarity] == "Unique" # 	[StashItem]	 == "true" // 																									
 
