@@ -56,9 +56,9 @@
 [Type] == "Awakened Sextant" # 	[StashItem]	 == "true"	//	//ÑuˆDÁù·Öƒx£®ÓXĞÑ	Ê°È¡ÇÒ´æ‚}
 //[Type] == "Stacked Deck" # 	[StashItem]	 == "true"	//	//ØSÔ£ÅÆ½M	Ê°È¡ÇÒ´æ‚}
 
-[Type]=="Niko's Memory" # [StashItem]  == "true" // 
-[Type]=="Alva's Memory" # [StashItem]  == "true" // 
-[Type]=="Kirac's Memory" # [StashItem]  == "true" // 
+//[Type]=="Niko's Memory" # [StashItem]  == "true" // 
+//[Type]=="Alva's Memory" # [StashItem]  == "true" // 
+//[Type]=="Kirac's Memory" # [StashItem]  == "true" // 
 [Type]=="Einhar's Memory" # [StashItem]  == "true" // 
 [Type]=="Engraved Ultimatum" # [StashItem]  == "true" // 
 [Type]=="Mirrored Tablet" # [StashItem]  == "true" // 
@@ -118,7 +118,7 @@
 [Type] == "Timeless Vaal Emblem"# [StashItem] == "true"////ÓÀaÍß –»ÕÓ¡Ê°È¡ÇÒ´æ‚}
 
 [Type] == "Empower Support" #[StashItem] == "true"////ÙxÓèİoÖúÊ°È¡ÇÒ´æ‚}
-[Type] == "Enhance Support" #[StashItem] == "true"////Ôö·ùİoÖú²»“ì²»´æ‚}
+//[Type] == "Enhance Support" #[StashItem] == "true"////Ôö·ùİoÖú²»“ì²»´æ‚}
 [Type] == "Enlighten Support" #[StashItem] == "true"////†¢ÃÉİoÖúÊ°È¡ÇÒ´æ‚}
 
 [Type] == "The Apothecary" #[StashItem] == "true"////(Ä§Ñª 5/5)Ê°È¡ÇÒ´æ‚}
@@ -191,11 +191,11 @@
 
 //ÎäÆ÷																												
 //Ä§±¬Ö®ºÛ=3D~10D
-	[Type]== "Spine Bow" && [Rarity] == "Unique" # [StashItem] == "true" // Reach of the Council / Voltaxic Rift
+//	[Type]== "Spine Bow" && [Rarity] == "Unique" # [StashItem] == "true" // Reach of the Council / Voltaxic Rift
 
 	//Ö©Öëµ¶=6D																											
-	[Type]== "Fiend Dagger" && [Rarity] == "Unique" #  	[StashItem]	 == "true" // 																									
-	[Type] == "Fiend Dagger" && [Rarity] == "Unique" # [chaos_damage_chance_to_poison_%] >= "1" &&	[ForceSellItem]	 == "true" // 		ĞQÊ³Ö®éœ ÑıÄ§¶ÌØ°																							
+//	[Type]== "Fiend Dagger" && [Rarity] == "Unique" #  	[StashItem]	 == "true" // 																									
+//	[Type] == "Fiend Dagger" && [Rarity] == "Unique" # [chaos_damage_chance_to_poison_%] >= "1" &&	[ForceSellItem]	 == "true" // 		ĞQÊ³Ö®éœ ÑıÄ§¶ÌØ°																							
 	//“ÄÜÄ§°ô	 																									
 	[Type]== "Prophecy Wand" && [Rarity] == "Unique" # 	[StashItem]	 == "true" // 																									
 	//Ò¹Ò÷=2D	 																									
@@ -205,18 +205,18 @@
 //	[Type]== "Carved Wand" && [Rarity] == "Unique" # 	[StashItem]	 == "true" // 																									
 //	[Type]== "Carved Wand" && [Rarity] == "Unique" # [max_power_charges] >= "1" &&	[ForceSellItem]	 == "true" // 		½ûåd±©ïL
 	// –Ææ
-	[Type] == "Karui Maul" && [Rarity] == "Unique" # [StashItem] == "true" // Marohi Erqi
+//	[Type] == "Karui Maul" && [Rarity] == "Unique" # [StashItem] == "true" // Marohi Erqi
 //3.20ĞÂÔö 111/12/13
 	//The Winds of Fate 20D
-	[Type] == "Foul Staff" && [Rarity] == "Unique" # [StashItem] == "true" // The Winds of Fate
+//	[Type] == "Foul Staff" && [Rarity] == "Unique" # [StashItem] == "true" // The Winds of Fate
 	//Ä§±¬Ö®ºÛ 3D
-	[Type] == "Spine Bow" && [Rarity] == "Unique" # [StashItem] == "true" // Ä§±¬+×h•ş¹­
+//	[Type] == "Spine Bow" && [Rarity] == "Unique" # [StashItem] == "true" // Ä§±¬+×h•ş¹­
 	//ª{ÑÛ¹­ 2.5D
-	[Type] == "Imperial Bow" && [Rarity] == "Unique" # [StashItem] == "true" // ª{ÑÛ+ÁÑïL
+//	[Type] == "Imperial Bow" && [Rarity] == "Unique" # [StashItem] == "true" // ª{ÑÛ+ÁÑïL
 	//Nµ¶
-	[Type] == "Slaughter Knife" && [Rarity] == "Unique" # [StashItem] == "true" // 
+//	[Type] == "Slaughter Knife" && [Rarity] == "Unique" # [StashItem] == "true" // 
 	//ÊÈÑªÖ®×¦
-	[Type] == "Hellion's Paw" && [Rarity] == "Unique" # [StashItem] == "true" //	
+//	[Type] == "Hellion's Paw" && [Rarity] == "Unique" # [StashItem] == "true" //	
 //·À¾ß																												
 	//AA¶Ü=5D																											
 	[Type]== "Champion Kite Shield" && [Rarity] == "Unique" #	[StashItem]	 == "true" // 																									
