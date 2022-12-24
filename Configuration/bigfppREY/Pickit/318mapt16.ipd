@@ -1,3 +1,26 @@
+//2022/12/24
+	[Category] == "Map" && [Rarity] == "Normal" #	[StashItem]	=="true"	
+	[Category] == "Map" && [Rarity] == "Magic" #	[StashItem]	=="true"	
+	[Category] == "Map" && [Rarity] == "Rare" #	[StashItem]	=="true"	
+	[Category] == "Map" && [map_monsters_reflect_%_elemental_damage] >= "1" && [Rarity] == "Rare" #	[ForceSellItem]	=="true"	//怪物反射_%_元素傷害
+	[Category] == "Map" && [map_monsters_reflect_%_physical_damage]>= "1" && [Rarity] == "Rare" #	[ForceSellItem]	=="true"	//怪物反射_%_物理傷害
+	[Category] == "Map" && [map_players_no_regeneration_including_es]>= "1" && [Rarity] == "Rare" #	[ForceSellItem]	=="true"	//玩家無法回復生命、魔力和能量護盾
+	[Category] == "Map" && [map_player_has_level_X_temporal_chains]>= "1" && [Rarity]="Rare" #	[ForceSellItem]	=="true"	//玩家受到時空鎖鍊詛咒影響
+	[Category] == "Map" && [map_player_has_level_X_vulnerability]>= "1" && [Rarity]="Rare" #	[ForceSellItem]	=="true"	//玩家受到脆弱詛咒
+//	[Category] == "Map" && [map_player_has_level_X_enfeeble]>= "1" && [Rarity]="Rare" #	[ForceSellItem]	=="true"	//玩家受到衰弱詛咒影響
+	[Category] == "Map" && [map_player_has_level_X_elemental_weakness]>= "1" && [Rarity]="Rare" #	[ForceSellItem]	=="true"	//玩家受到元素要害詛咒影響
+	[Category] == "Map" && [map_rare_monsters_have_nemesis_mod]>= "1" && [Rarity]="Rare" #	[ForceSellItem]	=="true"	//稀有怪有復仇屬性
+//	[Category] == "Map" && [map_base_ground_fire_damage_to_deal_per_minute]>= "1" && [Rarity]="Rare" #	[ForceSellItem]	=="true"	//地圖裡有燃燒地面
+//	[Category] == "Map" && [map_ground_ice]>= "1" && [Rarity]="Rare" #	[ForceSellItem]	=="true"	//地圖裡有冰緩地面
+	[Category] == "Map" && [map_ground_lightning]>= "1" && [Rarity]="Rare" #	[ForceSellItem]	=="true"	//地圖裡有感電地面
+	[Category] == "Map" && [map_base_ground_desecration_damage_to_deal_per_minute] >= "1" && [Rarity] == "Rare" #	[ForceSellItem]	=="true"	//汙染地面
+//	[Category] == "Map" && [map_players_block_chance_+%] < "0" && [Rarity] == "Rare" #	[ForceSellItem]	=="true"	//降低格檔
+//	[Category] == "Map" && [map_monsters_avoid_ailments_%] >= "1" && [Rarity] == "Rare #	[ForceSellItem]	=="true"	//地圖怪物避免元素異常狀態
+//	[Category] == "Map" && [map_additional_player_maximum_resistances_%] < "0" && [Rarity] == "Rare" #	[ForceSellItem]	=="true"	//降低最大抗
+	[Category] == "Map" && [map_monsters_cannot_be_leeched_from]  > "0" && [Rarity] == "Rare" # 	[ForceSellItem]	=="true"	//無法偷取
+	[Category] == "Map" && [map_monsters_steal_charges] >= "1" && [Rarity] == "Rare" # 	[ForceSellItem]	=="true"	//怪物偷球
+
+
 //3.20新增 111年12月13日
 
 //3.20 12/11 開啟大量有價物品版本//
@@ -160,7 +183,7 @@
 [Type] == "The Hoarder" # [StashItem] == "true" // 8.0 C//寶箱(崇高石)拾取且存倉ex
 [Category] == "Map" && [MapTier] >= "1"  && [Rarity] == "Normal"  #[StashItem] == "true" // //普通地圖普通地圖撿取，普通地圖存倉
 [Category] == "Map" && [MapTier] >= "1"  && [Rarity] == "Magic"  #[StashItem] == "true" // //藍地圖藍地圖撿取，藍地圖存倉
-//[Category] == "Map" && [MapTier] >= "1"  && [Rarity] == "Rare"  #[StashItem] == "true" // //黃地圖黃地圖不撿，黃地圖售出
+[Category] == "Map" && [MapTier] >= "1"  && [Rarity] == "Rare"  #[StashItem] == "true" // //黃地圖黃地圖不撿，黃地圖售出
 //[Category] == "Map" && [MapTier] >= "1"  && [Rarity] == "Unique"  #[ForceSellItem] == "true" // //傳奇地圖傳奇地圖不撿，傳奇地圖售出
  [Sockets] == "6" && [Linked] >= "6"   #[ForceSellItem] == "true" // //六連全賣
 //20220821	//以下是 獵首的親兄弟，除了獵首通通賣掉																											
