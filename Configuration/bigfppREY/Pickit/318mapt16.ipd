@@ -474,71 +474,71 @@
 //	 [Type] == "Sulphur Flask" # 	[StashItem]	 == "true" 	//	//硫磺藥劑	不撿不存倉																						
 //	 [Type] == "Basalt Flask" # 	[StashItem]	 == "true" 	//	//石化藥劑	不撿不售出
 
-	[Type] == "Rusted Ambush Scarab"        # [StashItem] == "true"			//	//聖甲蟲：鏽蝕伏擊	不拾取																						
-	[Type] == "Polished Ambush Scarab"      # [StashItem] == "true"			//	//聖甲蟲：圓滑伏擊	不拾取																						
-	[Type] == "Gilded Ambush Scarab"        # [StashItem] == "true"			//	//聖甲蟲：鍍金伏擊	不拾取																						
-	[Type] == "Winged Ambush Scarab"        # [StashItem] == "true"			//		不拾取																						
-	[Type] == "Rusted Bestiary Scarab"      # [StashItem] == "true"			//	//聖甲蟲：鏽蝕獸獵	不拾取																						
-	[Type] == "Polished Bestiary Scarab"    # [StashItem] == "true"			//	//聖甲蟲：圓滑獸獵	不拾取																						
-	[Type] == "Gilded Bestiary Scarab"      # [StashItem] == "true"			//	//聖甲蟲：鍍金獸獵	不拾取																						
-	[Type] == "Winged Bestiary Scarab"      # [StashItem] == "true"			//		不拾取																						
-	[Type] == "Rusted Breach Scarab"        # [StashItem] == "true"			//	//聖甲蟲：鏽蝕裂痕	不拾取																						
-	[Type] == "Polished Breach Scarab"      # [StashItem] == "true"			//	//聖甲蟲：圓滑裂痕	不拾取																						
-	[Type] == "Gilded Breach Scarab"        # [StashItem] == "true"			//	//聖甲蟲：鍍金裂痕	不拾取																						
-	[Type] == "Winged Breach Scarab"        # [StashItem] == "true"			//		不拾取																						
-	[Type] == "Rusted Cartography Scarab"   # [StashItem] == "true"			//	//聖甲蟲：鏽蝕製圖	不拾取																						
-	[Type] == "Polished Cartography Scarab" # [StashItem] == "true"			//	//聖甲蟲：圓滑製圖	不拾取																						
-	[Type] == "Gilded Cartography Scarab"   # [StashItem] == "true"			//	//聖甲蟲：鍍金製圖	不拾取																						
-	[Type] == "Winged Cartography Scarab"   # [StashItem] == "true"			//		不拾取																						
-	[Type] == "Rusted Divination Scarab"    # [StashItem] == "true"			//	//聖甲蟲：鏽蝕命運	不拾取																						
-	[Type] == "Polished Divination Scarab"  # [StashItem] == "true"			//	//聖甲蟲：圓滑命運	不拾取																						
-	[Type] == "Gilded Divination Scarab"    # [StashItem] == "true"			//	//聖甲蟲：鍍金命運	不拾取																						
-	[Type] == "Winged Divination Scarab"    # [StashItem] == "true"			//		不拾取																						
-	[Type] == "Rusted Elder Scarab"         # [StashItem] == "true"			//	//聖甲蟲：鏽蝕尊師	不拾取																						
-	[Type] == "Polished Elder Scarab"       # [StashItem] == "true"			//	//聖甲蟲：圓滑尊師	不拾取																						
-	[Type] == "Gilded Elder Scarab"         # [StashItem] == "true"			//	//聖甲蟲：鍍金尊師	不拾取																						
-	[Type] == "Winged Elder Scarab"         # [StashItem] == "true"			//		不拾取																						
-	[Type] == "Rusted Harbinger Scarab"     # [StashItem] == "true"			//	//聖甲蟲：鏽蝕神諭	不拾取																						
-	[Type] == "Polished Harbinger Scarab"   # [StashItem] == "true"			//	//聖甲蟲：圓滑神諭	不拾取																						
-	[Type] == "Gilded Harbinger Scarab"     # [StashItem] == "true"			//	//聖甲蟲：鍍金神諭	不拾取																						
-	[Type] == "Winged Harbinger Scarab"     # [StashItem] == "true"			//		不拾取																						
-	[Type] == "Rusted Legion Scarab"        # [StashItem] == "true"			//	//聖甲蟲：鏽蝕戰亂	不拾取																						
-	[Type] == "Polished Legion Scarab"      # [StashItem] == "true"			//	//聖甲蟲：圓滑戰亂	不拾取																						
-	[Type] == "Gilded Legion Scarab"        # [StashItem] == "true"			//	//聖甲蟲：鍍金戰亂	不拾取																						
-	[Type] == "Winged Legion Scarab"        # [StashItem] == "true"			//		不拾取																						
-	[Type] == "Rusted Metamorph Scarab"     # [StashItem] == "true"			//	//聖甲蟲：鏽蝕鍊魔	不拾取																						
-	[Type] == "Polished Metamorph Scarab"   # [StashItem] == "true"			//	//聖甲蟲：圓滑鍊魔	不拾取																						
-	[Type] == "Gilded Metamorph Scarab"     # [StashItem] == "true"			//	//聖甲蟲：鍍金鍊魔	不拾取																						
-	[Type] == "Winged Metamorph Scarab"     # [StashItem] == "true"			//		不拾取																						
-	[Type] == "Rusted Perandus Scarab"      # [StashItem] == "true"			//	//聖甲蟲：鏽蝕普蘭德斯	不拾取																						
-	[Type] == "Polished Perandus Scarab"    # [StashItem] == "true"			//	//聖甲蟲：圓滑普蘭德斯	不拾取																						
-	[Type] == "Gilded Perandus Scarab"      # [StashItem] == "true"			//	//聖甲蟲：鍍金普蘭德斯	不拾取																						
-	[Type] == "Winged Perandus Scarab"      # [StashItem] == "true"			//		不拾取																						
-	[Type] == "Rusted Reliquary Scarab"     # [StashItem] == "true"			//	//聖甲蟲：鏽蝕聖物	不拾取																						
-	[Type] == "Polished Reliquary Scarab"   # [StashItem] == "true"			//	//聖甲蟲：圓滑聖物	不拾取																						
-	[Type] == "Gilded Reliquary Scarab"     # [StashItem] == "true"			//	//聖甲蟲：鍍金聖物	不拾取																						
-	[Type] == "Winged Reliquary Scarab"     # [StashItem] == "true"			//		不拾取																						
-	[Type] == "Rusted Shaper Scarab"        # [StashItem] == "true"			//	//聖甲蟲：鏽蝕塑者	不拾取																						
-	[Type] == "Polished Shaper Scarab"      # [StashItem] == "true"			//	//聖甲蟲：圓滑塑者	不拾取																						
-	[Type] == "Gilded Shaper Scarab"        # [StashItem] == "true"			//	//聖甲蟲：鍍金塑者	不拾取																						
-	[Type] == "Winged Shaper Scarab"        # [StashItem] == "true"			//		不拾取																						
-	[Type] == "Rusted Sulphite Scarab"      # [StashItem] == "true"			//	//聖甲蟲：鏽蝕硫酸	不拾取																						
-	[Type] == "Polished Sulphite Scarab"    # [StashItem] == "true"			//	//聖甲蟲：圓滑硫酸	不拾取																						
-	[Type] == "Gilded Sulphite Scarab"      # [StashItem] == "true"			//	//聖甲蟲：鍍金硫酸	不拾取																						
-	[Type] == "Winged Sulphite Scarab"      # [StashItem] == "true"			//		不拾取																						
-	[Type] == "Rusted Torment Scarab"       # [StashItem] == "true"			//	//聖甲蟲：鏽蝕苦痛	不拾取																						
-	[Type] == "Polished Torment Scarab"     # [StashItem] == "true"			//	//聖甲蟲：圓滑苦痛	不拾取																						
-	[Type] == "Gilded Torment Scarab"       # [StashItem] == "true"			//	//聖甲蟲：鍍金苦痛	不拾取																						
-	[Type] == "Winged Torment Scarab"       # [StashItem] == "true"			//		不拾取																						
-	[Type] == "Gilded Abyss Scarab"    # [StashItem] == "true"			//	//聖甲蟲：鍍金深淵	不拾取																						
-	[Type] == "Gilded Blight Scarab"   # [StashItem] == "true"			//	//聖甲蟲：鍍金凋落	不拾取																						
-	[Type] == "Polished Abyss Scarab"  # [StashItem] == "true"			//		不拾取
-	[Type] == "Polished Blight Scarab" # [StashItem] == "true"			//		不拾取
-	[Type] == "Rusted Abyss Scarab"    # [StashItem] == "true"			//		不拾取
-	[Type] == "Rusted Blight Scarab"   # [StashItem] == "true"			//		不拾取
-	[Type] == "Winged Abyss Scarab"    # [StashItem] == "true"			//		不拾取
-	[Type] == "Winged Blight Scarab"   # [StashItem] == "true"			//		不拾取
-	[Type] == "Gilded Expedition Scarab" # [StashItem] == "true"				//探險鏽蝕	不拾取
-	[Type] == "Polished Expedition Scarab" # [StashItem] == "true"			//	//探險圓滑	不拾取
-	[Type] == "Rusted Expedition Scarab" # [StashItem] == "true"			//	//探險鍍金	不拾取
-	[Type] == "Winged Expedition Scarab" # [StashItem] == "true"			//	//探險展翅	不拾取
+//	[Type] == "Rusted Ambush Scarab"        # [StashItem] == "true"			//	//聖甲蟲：鏽蝕伏擊	不拾取																						
+//	[Type] == "Polished Ambush Scarab"      # [StashItem] == "true"			//	//聖甲蟲：圓滑伏擊	不拾取																						
+//	[Type] == "Gilded Ambush Scarab"        # [StashItem] == "true"			//	//聖甲蟲：鍍金伏擊	不拾取																						
+//	[Type] == "Winged Ambush Scarab"        # [StashItem] == "true"			//		不拾取																						
+//	[Type] == "Rusted Bestiary Scarab"      # [StashItem] == "true"			//	//聖甲蟲：鏽蝕獸獵	不拾取																						
+//	[Type] == "Polished Bestiary Scarab"    # [StashItem] == "true"			//	//聖甲蟲：圓滑獸獵	不拾取																						
+//	[Type] == "Gilded Bestiary Scarab"      # [StashItem] == "true"			//	//聖甲蟲：鍍金獸獵	不拾取																						
+//	[Type] == "Winged Bestiary Scarab"      # [StashItem] == "true"			//		不拾取																						
+//	[Type] == "Rusted Breach Scarab"        # [StashItem] == "true"			//	//聖甲蟲：鏽蝕裂痕	不拾取																						
+//	[Type] == "Polished Breach Scarab"      # [StashItem] == "true"			//	//聖甲蟲：圓滑裂痕	不拾取																						
+//	[Type] == "Gilded Breach Scarab"        # [StashItem] == "true"			//	//聖甲蟲：鍍金裂痕	不拾取																						
+//	[Type] == "Winged Breach Scarab"        # [StashItem] == "true"			//		不拾取																						
+//	[Type] == "Rusted Cartography Scarab"   # [StashItem] == "true"			//	//聖甲蟲：鏽蝕製圖	不拾取																						
+//	[Type] == "Polished Cartography Scarab" # [StashItem] == "true"			//	//聖甲蟲：圓滑製圖	不拾取																						
+//	[Type] == "Gilded Cartography Scarab"   # [StashItem] == "true"			//	//聖甲蟲：鍍金製圖	不拾取																						
+//	[Type] == "Winged Cartography Scarab"   # [StashItem] == "true"			//		不拾取																						
+//	[Type] == "Rusted Divination Scarab"    # [StashItem] == "true"			//	//聖甲蟲：鏽蝕命運	不拾取																						
+//	[Type] == "Polished Divination Scarab"  # [StashItem] == "true"			//	//聖甲蟲：圓滑命運	不拾取																						
+//	[Type] == "Gilded Divination Scarab"    # [StashItem] == "true"			//	//聖甲蟲：鍍金命運	不拾取																						
+//	[Type] == "Winged Divination Scarab"    # [StashItem] == "true"			//		不拾取																						
+//	[Type] == "Rusted Elder Scarab"         # [StashItem] == "true"			//	//聖甲蟲：鏽蝕尊師	不拾取																						
+//	[Type] == "Polished Elder Scarab"       # [StashItem] == "true"			//	//聖甲蟲：圓滑尊師	不拾取																						
+//	[Type] == "Gilded Elder Scarab"         # [StashItem] == "true"			//	//聖甲蟲：鍍金尊師	不拾取																						
+//	[Type] == "Winged Elder Scarab"         # [StashItem] == "true"			//		不拾取																						
+//	[Type] == "Rusted Harbinger Scarab"     # [StashItem] == "true"			//	//聖甲蟲：鏽蝕神諭	不拾取																						
+//	[Type] == "Polished Harbinger Scarab"   # [StashItem] == "true"			//	//聖甲蟲：圓滑神諭	不拾取																						
+//	[Type] == "Gilded Harbinger Scarab"     # [StashItem] == "true"			//	//聖甲蟲：鍍金神諭	不拾取																						
+//	[Type] == "Winged Harbinger Scarab"     # [StashItem] == "true"			//		不拾取																						
+//	[Type] == "Rusted Legion Scarab"        # [StashItem] == "true"			//	//聖甲蟲：鏽蝕戰亂	不拾取																						
+//	[Type] == "Polished Legion Scarab"      # [StashItem] == "true"			//	//聖甲蟲：圓滑戰亂	不拾取																						
+//	[Type] == "Gilded Legion Scarab"        # [StashItem] == "true"			//	//聖甲蟲：鍍金戰亂	不拾取																						
+//	[Type] == "Winged Legion Scarab"        # [StashItem] == "true"			//		不拾取																						
+//	[Type] == "Rusted Metamorph Scarab"     # [StashItem] == "true"			//	//聖甲蟲：鏽蝕鍊魔	不拾取																						
+//	[Type] == "Polished Metamorph Scarab"   # [StashItem] == "true"			//	//聖甲蟲：圓滑鍊魔	不拾取																						
+//	[Type] == "Gilded Metamorph Scarab"     # [StashItem] == "true"			//	//聖甲蟲：鍍金鍊魔	不拾取																						
+//	[Type] == "Winged Metamorph Scarab"     # [StashItem] == "true"			//		不拾取																						
+//	[Type] == "Rusted Perandus Scarab"      # [StashItem] == "true"			//	//聖甲蟲：鏽蝕普蘭德斯	不拾取																						
+//	[Type] == "Polished Perandus Scarab"    # [StashItem] == "true"			//	//聖甲蟲：圓滑普蘭德斯	不拾取																						
+//	[Type] == "Gilded Perandus Scarab"      # [StashItem] == "true"			//	//聖甲蟲：鍍金普蘭德斯	不拾取																						
+//	[Type] == "Winged Perandus Scarab"      # [StashItem] == "true"			//		不拾取																						
+//	[Type] == "Rusted Reliquary Scarab"     # [StashItem] == "true"			//	//聖甲蟲：鏽蝕聖物	不拾取																						
+//	[Type] == "Polished Reliquary Scarab"   # [StashItem] == "true"			//	//聖甲蟲：圓滑聖物	不拾取																						
+//	[Type] == "Gilded Reliquary Scarab"     # [StashItem] == "true"			//	//聖甲蟲：鍍金聖物	不拾取																						
+//	[Type] == "Winged Reliquary Scarab"     # [StashItem] == "true"			//		不拾取																						
+//	[Type] == "Rusted Shaper Scarab"        # [StashItem] == "true"			//	//聖甲蟲：鏽蝕塑者	不拾取																						
+//	[Type] == "Polished Shaper Scarab"      # [StashItem] == "true"			//	//聖甲蟲：圓滑塑者	不拾取																						
+//	[Type] == "Gilded Shaper Scarab"        # [StashItem] == "true"			//	//聖甲蟲：鍍金塑者	不拾取																						
+//	[Type] == "Winged Shaper Scarab"        # [StashItem] == "true"			//		不拾取																						
+//	[Type] == "Rusted Sulphite Scarab"      # [StashItem] == "true"			//	//聖甲蟲：鏽蝕硫酸	不拾取																						
+//	[Type] == "Polished Sulphite Scarab"    # [StashItem] == "true"			//	//聖甲蟲：圓滑硫酸	不拾取																						
+//	[Type] == "Gilded Sulphite Scarab"      # [StashItem] == "true"			//	//聖甲蟲：鍍金硫酸	不拾取																						
+//	[Type] == "Winged Sulphite Scarab"      # [StashItem] == "true"			//		不拾取																						
+//	[Type] == "Rusted Torment Scarab"       # [StashItem] == "true"			//	//聖甲蟲：鏽蝕苦痛	不拾取																						
+//	[Type] == "Polished Torment Scarab"     # [StashItem] == "true"			//	//聖甲蟲：圓滑苦痛	不拾取																						
+//	[Type] == "Gilded Torment Scarab"       # [StashItem] == "true"			//	//聖甲蟲：鍍金苦痛	不拾取																						
+//	[Type] == "Winged Torment Scarab"       # [StashItem] == "true"			//		不拾取																						
+//	[Type] == "Gilded Abyss Scarab"    # [StashItem] == "true"			//	//聖甲蟲：鍍金深淵	不拾取																						
+//	[Type] == "Gilded Blight Scarab"   # [StashItem] == "true"			//	//聖甲蟲：鍍金凋落	不拾取																						
+//	[Type] == "Polished Abyss Scarab"  # [StashItem] == "true"			//		不拾取
+//	[Type] == "Polished Blight Scarab" # [StashItem] == "true"			//		不拾取
+//	[Type] == "Rusted Abyss Scarab"    # [StashItem] == "true"			//		不拾取
+//	[Type] == "Rusted Blight Scarab"   # [StashItem] == "true"			//		不拾取
+//	[Type] == "Winged Abyss Scarab"    # [StashItem] == "true"			//		不拾取
+//	[Type] == "Winged Blight Scarab"   # [StashItem] == "true"			//		不拾取
+//	[Type] == "Gilded Expedition Scarab" # [StashItem] == "true"				//探險鏽蝕	不拾取
+//	[Type] == "Polished Expedition Scarab" # [StashItem] == "true"			//	//探險圓滑	不拾取
+//	[Type] == "Rusted Expedition Scarab" # [StashItem] == "true"			//	//探險鍍金	不拾取
+//	[Type] == "Winged Expedition Scarab" # [StashItem] == "true"			//	//探險展翅	不拾取
