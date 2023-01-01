@@ -3,7 +3,7 @@
 [Category] == "Map" && [MapTier] >= "1"  && [Rarity] == "Magic"  #[StashItem] == "true" // //撿藍圖
 [Category] == "Map" && [MapTier] >= "1"  && [Rarity] == "Rare"  #[StashItem] == "true" // //撿黃圖
 [Category] == "Map" && [map_contains_citadel]>= "1"  #[StashItem] == "true" // //存勢力圖(不論稀有度)
-[Category] == "Map" && [MapTier] >= "1"  && [Rarity] == "Unique"  #[StashItem] == "true" // // 存傳奇圖
+//[Category] == "Map" && [MapTier] >= "1"  && [Rarity] == "Unique"  #[StashItem] == "true" // // 存傳奇圖
 	[Category] == "Map" && [map_monsters_reflect_%_elemental_damage] >= "1" && [Rarity] == "Rare" #	[ForceSellItem]	=="true"	//怪物反射_%_元素傷害
 	[Category] == "Map" && [map_monsters_reflect_%_physical_damage]>= "1" && [Rarity] == "Rare" #	[ForceSellItem]	=="true"	//怪物反射_%_物理傷害
 	[Category] == "Map" && [map_players_no_regeneration_including_es]>= "1" && [Rarity] == "Rare" #	[ForceSellItem]	=="true"	//玩家無法回復生命、魔力和能量護盾
@@ -57,8 +57,8 @@
 
 
 //下面是3.19以前
-[Type] == "Feathered Arrow Quiver" &&  	[Rarity] == "Unique" # [StashItem] == "true"
-[Type] == "Feathered Arrow Quiver" &&  [Rarity] == "Unique" # [base_cast_speed_+%] >= "1" &&   [ForceSellItem]	 == "true" //
+//[Type] == "Feathered Arrow Quiver" &&  	[Rarity] == "Unique" # [StashItem] == "true"
+//[Type] == "Feathered Arrow Quiver" &&  [Rarity] == "Unique" # [base_cast_speed_+%] >= "1" &&   [ForceSellItem]	 == "true" //
 //[Type] == "Feathered Arrow Quiver" &&  [Rarity] == "Unique" # [local_display_grants_skill_call_of_steel] >= "1" &&   [ForceSellItem]	 == "true" //
 
 [Type] =="Maven's Invitation: The Elderslayers" #	[StashItem]	 == "true" 		//殺手	拾取且存倉
