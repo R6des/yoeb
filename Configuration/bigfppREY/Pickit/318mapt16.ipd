@@ -30,6 +30,7 @@
 
 //卡蘭德之觸
 [Type] == "Ring" && [Rarity] == "Unique" # 	[StashItem]	 == "true" // 
+[Type] == "Riveted Boots" && [Rarity] == "Unique" # 	[StashItem]	 == "true" // 
 //[Type]=="Man With Bear" #[StashItem] == "true" //				
 //[Type]=="Alivia's Grace" #[StashItem] == "true" //				
 //[Type]=="Auspicious Ambitions" #[StashItem] == "true" //				劫盜百等武器
