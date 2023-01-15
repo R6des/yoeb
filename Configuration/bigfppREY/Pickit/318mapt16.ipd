@@ -1,3 +1,6 @@
+//2023/1/15
+[Type] == "Voidborn Reliquary Key" #  [StashItem]  == "true" // 虛誕鑰匙
+
 //2022/12/24
 [Category] == "Map" && [MapTier] >= "16"  && [Rarity] == "Normal"  #[StashItem] == "true" // //撿白圖
 [Category] == "Map" && [MapTier] >= "16"  && [Rarity] == "Magic"  #[StashItem] == "true" // //撿藍圖
