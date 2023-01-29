@@ -33,7 +33,7 @@
 
 //卡蘭德之觸
 [Type] == "Ring" && [Rarity] == "Unique" # 	[StashItem]	 == "true" // 
-[Type] == "Riveted Boots" && [Rarity] == "Unique" # 	[StashItem]	 == "true" // 
+//[Type] == "Riveted Boots" && [Rarity] == "Unique" # 	[StashItem]	 == "true" // 
 //[Type]=="Man With Bear" #[StashItem] == "true" //				
 //[Type]=="Alivia's Grace" #[StashItem] == "true" //				
 //[Type]=="Auspicious Ambitions" #[StashItem] == "true" //				劫盜百等武器
@@ -65,10 +65,10 @@
 //[Type] == "Feathered Arrow Quiver" &&  [Rarity] == "Unique" # [base_cast_speed_+%] >= "1" &&   [ForceSellItem]	 == "true" //
 //[Type] == "Feathered Arrow Quiver" &&  [Rarity] == "Unique" # [local_display_grants_skill_call_of_steel] >= "1" &&   [ForceSellItem]	 == "true" //
 
-[Type] =="Maven's Invitation: The Elderslayers" #	[StashItem]	 == "true" 		//殺手	拾取且存倉
-[Type] =="Maven's Invitation: The Forgotten" #	[StashItem]	 == "true" 		//釋界之邀：遺忘	拾取且存倉
-[Type] =="Maven's Invitation: The Formed" #	[StashItem]	 == "true" 		//釋界之邀：塑型	拾取且存倉
-[Type] =="Maven's Invitation: The Twisted" #	[StashItem]	 == "true" 		//釋界之邀：扭曲	拾取且存倉
+//[Type] =="Maven's Invitation: The Elderslayers" #	[StashItem]	 == "true" 		//殺手	拾取且存倉
+//[Type] =="Maven's Invitation: The Forgotten" #	[StashItem]	 == "true" 		//釋界之邀：遺忘	拾取且存倉
+//[Type] =="Maven's Invitation: The Formed" #	[StashItem]	 == "true" 		//釋界之邀：塑型	拾取且存倉
+//[Type] =="Maven's Invitation: The Twisted" #	[StashItem]	 == "true" 		//釋界之邀：扭曲	拾取且存倉
 //[Type] == "Mortal Grief"             # 	[StashItem]	 == "true" 	//	//凡人的哀傷	拾取且存倉
 //[Type] == "Mortal Rage"              # 	[StashItem]	 == "true" 	//	//凡人的憤怒	拾取且存倉
 //[Type] == "Mortal Ignorance"         # 	[StashItem]	 == "true" 	//	//凡人的無知	拾取且存倉
@@ -135,18 +135,18 @@
 //[Type] == "Vaal Orb" # [StashItem] == "true"////瓦寶
 [Type] == "Awakened Sextant" # [StashItem] == "true"////六分
 
-[Type] == "Timeless Eternal Empire Splinter" # [StashItem] == "true"////永恆不朽帝國裂片不撿不存倉
-[Type] == "Timeless Karui Splinter"# [StashItem] == "true"////永恆卡魯裂片不撿不存倉
+//[Type] == "Timeless Eternal Empire Splinter" # [StashItem] == "true"////永恆不朽帝國裂片不撿不存倉
+//[Type] == "Timeless Karui Splinter"# [StashItem] == "true"////永恆卡魯裂片不撿不存倉
 [Type] == "Timeless Maraketh Splinter"# [StashItem] == "true"////永恆馬拉克斯裂片拾取且存倉
 [Type] == "Timeless Templar Splinter"# [StashItem] == "true"////永恆聖宗裂片拾取且存倉
-[Type] == "Timeless Vaal Splinter" # [StashItem] == "true"////永恆瓦爾裂片不撿不存倉
+//[Type] == "Timeless Vaal Splinter" # [StashItem] == "true"////永恆瓦爾裂片不撿不存倉
 [Type] == "Timeless Eternal Emblem" # [StashItem] == "true"////永恆不朽帝國徽印拾取且存倉
 [Type] == "Timeless Karui Emblem"# [StashItem] == "true"////永恆卡魯徽印拾取且存倉
 [Type] == "Timeless Maraketh Emblem" # [StashItem] == "true"////永恆馬拉克斯徽印拾取且存倉
 [Type] == "Timeless Templar Emblem" # [StashItem] == "true"////永恆聖宗徽印拾取且存倉
 [Type] == "Timeless Vaal Emblem"# [StashItem] == "true"////永恆瓦爾徽印拾取且存倉
 
-[Type] == "Empower Support" #[StashItem] == "true"////賦予輔助拾取且存倉
+//[Type] == "Empower Support" #[StashItem] == "true"////賦予輔助拾取且存倉
 //[Type] == "Enhance Support" #[StashItem] == "true"////增幅輔助不撿不存倉
 [Type] == "Enlighten Support" #[StashItem] == "true"////啟蒙輔助拾取且存倉
 
@@ -166,14 +166,14 @@
 [Type] == "The Immortal" # [StashItem] == "true" // 207.9 C//永恆不朽(明鏡)拾取且存倉鏡子
 [Type] == "The Nurse" # [StashItem] == "true" // 184.8 C//護理師(瘋醫)拾取且存倉獵首
 [Type] == "The Cheater" # [StashItem] == "true" // 173.3 C//詐欺師(等級6覺醒輔助寶石-品質:+20%-已汙染)拾取且存倉很貴
-[Type] == "Alluring Bounty" # [StashItem] == "true" // 160.0 C//誘惑之寶(10x 崇高石)拾取且存倉崇高
+//[Type] == "Alluring Bounty" # [StashItem] == "true" // 160.0 C//誘惑之寶(10x 崇高石)拾取且存倉崇高
 [Type] == "Gift of Asenath" # [StashItem] == "true" // 138.6 C//Gift of Asenath拾取且存倉不知道是啥
 [Type] == "Succor of the Sinless" # [StashItem] == "true" // 123.3 C//無罪救贖(瓶中信仰)拾取且存倉貴
 [Type] == "Wealth and Power" # [StashItem] == "true" // 115.5 C//錢與權(等級 4 啟蒙-已汙染)拾取且存倉貴
-[Type] == "The Scout" # [StashItem] == "true" // 95.0 C//The Scout拾取且存倉童子軍（崇高卡）
+//[Type] == "The Scout" # [StashItem] == "true" // 95.0 C//The Scout拾取且存倉童子軍（崇高卡）
 [Type] == "Nook's Crown" # [StashItem] == "true" // 75.0 C//邊緣之冠(喚骨頭盔-物品等級:100-尊師之物)拾取且存倉4E
 [Type] == "Desecrated Virtue" # [StashItem] == "true" // 72.0 C//褻瀆d Virtue拾取且存倉3E
-[Type] == "Abandoned Wealth" # [StashItem] == "true" // 65.0 C//棄財求生(3 X 崇高石)拾取且存倉3E卡
+//[Type] == "Abandoned Wealth" # [StashItem] == "true" // 65.0 C//棄財求生(3 X 崇高石)拾取且存倉3E卡
 [Type] == "Seven Years Bad Luck" # [StashItem] == "true" // 63.0 C//七年霉運(魔鏡碎片)拾取且存倉鏡子
 [Type] == "Pride of the First Ones" # [StashItem] == "true" // 57.0 C//初始者的驕傲(費爾羅羽衣)拾取且存倉貓衣
 [Type] == "The Enlightened" # [StashItem] == "true" // 55.0 C//智慧啟蒙(等級 3 啟蒙)拾取且存倉啟蒙卡
@@ -183,10 +183,10 @@
 [Type] == "The Sacrifice" # [StashItem] == "true" // 35.0 C//犧牲(6連祭禮束衣-物品等級:100)拾取且存倉1E
 [Type] == "The Strategist" # [StashItem] == "true" // 35.0 C//策略家(求知的熱情-已汙染)拾取且存倉1E
 [Type] == "The Artist" # [StashItem] == "true" // 24.0 C//藝者(等級 4 增幅)拾取且存倉增幅4
-[Type] == "The Saint's Treasure" # [StashItem] == "true" // 21.0 C//聖徒之財(2x 崇高石)拾取且存倉ex
+//[Type] == "The Saint's Treasure" # [StashItem] == "true" // 21.0 C//聖徒之財(2x 崇高石)拾取且存倉ex
 [Type] == "The Patient" # [StashItem] == "true" // 18.0 C//病患拾取且存倉病患
 [Type] == "Council of Cats" # [StashItem] == "true" // 10.0 C//貓咪議會(費爾羅之物)拾取且存倉貓貓
-[Type] == "The Hoarder" # [StashItem] == "true" // 8.0 C//寶箱(崇高石)拾取且存倉ex
+//[Type] == "The Hoarder" # [StashItem] == "true" // 8.0 C//寶箱(崇高石)拾取且存倉ex
  [Sockets] == "6" && [Linked] >= "6"   #[ForceSellItem] == "true" // //六連全賣
 //20220821	//以下是 獵首的親兄弟，除了獵首通通賣掉																											
 	[Type] == "Leather Belt" && [Rarity] == "Unique" # 	[StashItem]	 == "true" // 		//皮革腰帶 基底																							
@@ -244,7 +244,7 @@
 //	[Type] == "Hellion's Paw" && [Rarity] == "Unique" # [StashItem] == "true" //	
 //防具																												
 	//AA盾=5D																											
-	[Type]== "Champion Kite Shield" && [Rarity] == "Unique" #	[StashItem]	 == "true" // 																									
+//	[Type]== "Champion Kite Shield" && [Rarity] == "Unique" #	[StashItem]	 == "true" // 																									
 	//光環盾=4D																											
 //	[Type] == "Archon Kite Shield" && [Rarity] == "Unique" #	[StashItem]	 == "true" // 																									
 //	[Type] == "Archon Kite Shield" && [Rarity] == "Unique" # [unholy_might_while_you_have_no_energy_shield] >= "1" && 	[ForceSellItem]	 == "true" // 		破碎信念																							
