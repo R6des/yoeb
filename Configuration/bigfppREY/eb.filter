@@ -2347,7 +2347,7 @@ Show # 聯盟 - 2.5裂痕 - 裂痕石
     MinimapIcon 1 Red Circle
     PlayEffect Red
 
-Show # 聯盟 - 2.5裂痕 - 裂痕裂片
+Hide # 聯盟 - 2.5裂痕 - 裂痕裂片
     Class "Currency"
     BaseType "Splinter of Xoph" "Splinter of Tul" "Splinter of Esh" "Splinter of Uul-Netol" "Splinter of Chayula"
     SetTextColor 255 192 203
