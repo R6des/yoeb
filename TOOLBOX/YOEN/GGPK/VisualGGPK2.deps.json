@@ -1,0 +1,104 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0/win-x64",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {},
+    ".NETCoreApp,Version=v5.0/win-x64": {
+      "VisualGGPK2/0.12.15": {
+        "dependencies": {
+          "BrotliSharpLib": "0.3.3",
+          "LibDat2": "0.12.15",
+          "LibGGPK2": "0.12.12",
+          "Pfim": "0.10.1"
+        },
+        "runtime": {
+          "VisualGGPK2.dll": {}
+        }
+      },
+      "BrotliSharpLib/0.3.3": {
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "4.5.2"
+        },
+        "runtime": {
+          "lib/netstandard2.0/BrotliSharpLib.dll": {
+            "assemblyVersion": "0.3.2.0",
+            "fileVersion": "0.3.3.0"
+          }
+        }
+      },
+      "Pfim/0.10.1": {
+        "runtime": {
+          "lib/netstandard2.0/Pfim.dll": {
+            "assemblyVersion": "0.10.1.0",
+            "fileVersion": "0.10.1.0"
+          }
+        }
+      },
+      "System.Runtime.CompilerServices.Unsafe/4.5.2": {},
+      "LibBundle/2.5.0": {
+        "runtime": {
+          "LibBundle.dll": {}
+        }
+      },
+      "LibDat2/0.12.15": {
+        "runtime": {
+          "LibDat2.dll": {}
+        }
+      },
+      "LibGGPK2/0.12.12": {
+        "dependencies": {
+          "LibBundle": "2.5.0"
+        },
+        "runtime": {
+          "LibGGPK2.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "VisualGGPK2/0.12.15": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BrotliSharpLib/0.3.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/z74VNg6etlQK/N1mSD5Tz2qQUZqc3RMiuv2F8Q/MOfvg4l7a6lDYhQQTPd9s9saSokh1GqUD7JTuunOiQid8w==",
+      "path": "brotlisharplib/0.3.3",
+      "hashPath": "brotlisharplib.0.3.3.nupkg.sha512"
+    },
+    "Pfim/0.10.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-pNJM4ALeW8mTInBSnPwCz+rc7j0sLE32Ncilz7q5LxxQSZaTEBTeC261M2iVMrAsy7gLka1/2IZejLs8y2uzEg==",
+      "path": "pfim/0.10.1",
+      "hashPath": "pfim.0.10.1.nupkg.sha512"
+    },
+    "System.Runtime.CompilerServices.Unsafe/4.5.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-wprSFgext8cwqymChhrBLu62LMg/1u92bU+VOwyfBimSPVFXtsNqEWC92Pf9ofzJFlk4IHmJA75EDJn1b2goAQ==",
+      "path": "system.runtime.compilerservices.unsafe/4.5.2",
+      "hashPath": "system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512"
+    },
+    "LibBundle/2.5.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "LibDat2/0.12.15": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "LibGGPK2/0.12.12": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
