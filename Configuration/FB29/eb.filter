@@ -27,7 +27,6 @@ Hide
 　　Corrupted True
     Class "Maps"
     MapTier <= 16
-    Rarity <= Rare
     SetTextColor 255 255 255
     SetBackgroundColor 33 19 38
     SetBorderColor 255 0 0
@@ -38,7 +37,6 @@ Hide
 　　Mirrored True
     Class "Maps"
     MapTier <= 16
-    Rarity <= Rare
     SetTextColor 255 255 255
     SetBackgroundColor 33 19 38
     SetBorderColor 255 0 0
@@ -178,16 +176,16 @@ Show # 通貨 - 頂級 - 喚醒者之玉
     PlayEffect Red
     PlayAlertSound ShExalted 250
 
-Show # 通貨 - 頂級 - 統領之玉(原釋界之玉)
-    Class "Currency"
-    BaseType "Orb of Dominance"
-    SetTextColor 0 0 0
-    SetBackgroundColor 255 192 203
-    SetBorderColor 255 255 255
-    SetFontSize 45
-    MinimapIcon 0 Red Diamond
-    PlayEffect Red
-    PlayAlertSound ShExalted 250
+#Show # 通貨 - 頂級 - 統領之玉(原釋界之玉)
+#    Class "Currency"
+#    BaseType "Orb of Dominance"
+#    SetTextColor 0 0 0
+#    SetBackgroundColor 255 192 203
+#    SetBorderColor 255 255 255
+#    SetFontSize 45
+#    MinimapIcon 0 Red Diamond
+#    PlayEffect Red
+#    PlayAlertSound ShExalted 250
 
 Show # 通貨 - 頂級 - 白化的羽毛
     Class "Currency"
@@ -745,108 +743,47 @@ Show # 通貨 - 特殊 - 六分儀．高尚
     MinimapIcon 1 Blue Triangle
     PlayAlertSound 16 250
 
-Show # 通貨 - 特殊 - 測量員的羅盤
-    Class "Currency"
-    BaseType "Surveyor's Compass"
-    SetTextColor 100 50 0
-    SetBackgroundColor 255 178 102
-    SetBorderColor 204 102 0
-    SetFontSize 40
-    MinimapIcon 2 Red Diamond
-    PlayEffect Red
+#Show # 通貨 - 特殊 - 測量員的羅盤
+#    Class "Currency"
+#    BaseType "Surveyor's Compass"
+#    SetTextColor 100 50 0
+#    SetBackgroundColor 255 178 102
+#    SetBorderColor 204 102 0
+#    SetFontSize 40
+#    MinimapIcon 2 Red Diamond
+#    PlayEffect Red
 
-Show # 通貨 - 特殊 - 充能的羅盤
-    Class "Currency"
-    BaseType "Charged Compass"
-    SetTextColor 100 50 0
-    SetBackgroundColor 255 178 102
-    SetBorderColor 204 102 0
-    SetFontSize 40
-    MinimapIcon 2 Red Diamond
-    PlayEffect Red
+#Show # 通貨 - 特殊 - 充能的羅盤
+#    Class "Currency"
+#    BaseType "Charged Compass"
+#    SetTextColor 100 50 0
+#    SetBackgroundColor 255 178 102
+ #   SetBorderColor 204 102 0
+ #   SetFontSize 40
+ #   MinimapIcon 2 Red Diamond
+ #   PlayEffect Red
 
-Show # 通貨 - 特殊 - 偵查報告
-    Class "Currency"
-    BaseType "Scouting Report"
-    SetTextColor 100 50 0
-    SetBackgroundColor 255 178 102
-    SetBorderColor 204 102 0
-    SetFontSize 40
-    MinimapIcon 2 Red Diamond
-    PlayEffect Red
+#Show # 通貨 - 特殊 - 偵查報告
+#    Class "Currency"
+#    BaseType "Scouting Report"
+#    SetTextColor 100 50 0
+#    SetBackgroundColor 255 178 102
+#    SetBorderColor 204 102 0
+#    SetFontSize 40
+#    MinimapIcon 2 Red Diamond
+#    PlayEffect Red
 
-Show # 通貨 - 特殊 - 挖油機
-    Class "Currency"
-    BaseType "Oil Extractor"
-    SetTextColor 255 255 200
-    SetBackgroundColor 136 139 52
-    SetBorderColor 0 255 255
-    SetFontSize 40
+#Show # 通貨 - 特殊 - 挖油機
+#    Class "Currency"
+#    BaseType "Oil Extractor"
+#    SetTextColor 255 255 200
+#    SetBackgroundColor 136 139 52
+#    SetBorderColor 0 255 255
+#    SetFontSize 40
 
 #【通貨-異能】1008
 
-Show # 通貨 - 異能 - 異能灰燼
-    Class "Currency"
-    BaseType "Eldritch Ember"
-    SetTextColor 219 48 14
-    SetBackgroundColor 0 0 0
-    SetBorderColor 204 102 0
-    SetFontSize 40
-    MinimapIcon 2 Red Diamond
-    PlayEffect Red
 
-Show # 通貨 - 異能 - 異能靈液
-    Class "Currency"
-    BaseType "Eldritch Ichor"
-    SetTextColor 0 255 255
-    SetBackgroundColor 0 0 0
-    SetBorderColor 0 255 255
-    SetFontSize 40
-    PlayAlertSound 6 300
-    MinimapIcon 2 Cyan Diamond
-    PlayEffect Cyan
-
-Show # 通貨 - 異能 - 衝突寶珠
-    Class "Currency"
-    BaseType "Orb of Conflict"
-    SetTextColor 219 48 14
-    SetBackgroundColor 255 192 203
-    SetBorderColor 0 255 255
-    SetFontSize 45
-    MinimapIcon 0 Red Diamond
-    PlayEffect Red
-    PlayAlertSound ShMirror 300
-
-Show # 通貨 - 異能 - 異能崇高石
-    Class "Currency"
-    BaseType "Eldritch Exalted Orb"
-    SetTextColor 219 48 14
-    SetBackgroundColor 255 192 203
-    SetBorderColor 0 255 255
-    SetFontSize 45
-    MinimapIcon 0 Red Diamond
-    PlayEffect Red
-    PlayAlertSound ShMirror 300
-
-Show # 通貨 - 異能 - 異能無效石
-    Class "Currency"
-    BaseType "Eldritch Orb of Annulment"
-    SetTextColor 219 48 14
-    SetBackgroundColor 255 192 203
-    SetBorderColor 0 255 255
-    SetFontSize 45
-    MinimapIcon 0 Red Diamond
-    PlayEffect Red
-
-Show # 通貨 - 異能 - 異能混沌石
-    Class "Currency"
-    BaseType "Eldritch Chaos Orb"
-    SetTextColor 219 48 14
-    SetBackgroundColor 255 192 203
-    SetBorderColor 0 255 255
-    SetFontSize 45
-    MinimapIcon 0 Red Diamond
-    PlayEffect Red
 
 #============
 # 【地圖說明欄】2000
@@ -1159,14 +1096,7 @@ Show # 地圖 - 普通輿圖 - T1~5魔法/稀有
 
 # 【聯盟-3.17宿敵】3025
 
-Show # 聯盟 - 3.17宿敵 - 宿敵
-    Class "Archnemesis Mod"
-    SetFontSize 45
-    SetTextColor 170 158 129
-    SetBorderColor 74 230 58 255
-    SetBackgroundColor 0 0 0 255
-    PlayEffect Green
-    MinimapIcon 1 Green Pentagon
+
 
 # 【聯盟-3.16災魘】3024
 
@@ -1431,7 +1361,7 @@ Show # 聯盟 - 3.13祭祀 - 鞋子 - 攻擊格擋鞋
 
 # 【聯盟-3.12劫盜】3020
 
-Hide # 聯盟 - 3.12劫盜 - 盜賊之印
+Show # 聯盟 - 3.12劫盜 - 盜賊之印
     Class "Currency"
     BaseType "Rogue's Marker"
     SetTextColor 255 178 102
@@ -2583,22 +2513,12 @@ Show # 命運卡 - T1
 
 # 【命運卡-T2】
 
-Show # 命運卡 - T2
-    Class "Divination"
-    BaseType "A Note in the Wind" "Broken Promises" "Chaotic Disposition" "Council of Cats" "Dark Dreams" "Dementophobia" "Desecrated Virtue" "Draped in Dreams" "Hunter's Reward" "Keeper's Corruption" "The Academic" "The Artist" "The Bargain" "The Celestial Justicar" "The Dragon's Heart" "The Enlightened" "The Escape" "The Eye of Terror" "The Greatest Intentions" "The Gulf" "The Life Thief" "The Long Con" "The Offspring" "The Patient" "The Price of Loyalty" "The Progeny of Lunaris" "The Sacrifice" "The Saint's Treasure" "The Spark and the Flame" "The Strategist" "The Sustenance" "The Void" "The White Knight" "Wealth and Power" "Winter's Embrace" "The Rabbit's Foot" "Chasing Risk" "The Catch" "The Forgotten Treasure" "The Aspirant" "Judging Voices" "Justified Ambition" "Misery in Darkness" "Duality" "The Transformation" "Magnum Opus" "Imperfect Memories" "The Magma Crab"
-    SetFontSize 45
-    SetTextColor 255 255 255 255
-    SetBorderColor 255 255 255 255
-    SetBackgroundColor 0 20 180 255
-    PlayAlertSound 1 300
-    PlayEffect Red
-    MinimapIcon 0 Red Triangle
 
 # 【命運卡-T3】
 
 Show # 命運卡 - T3
     Class "Divination"
-    BaseType "A Familiar Call" "A Modest Request" "Ambitious Obsession" "Azyran's Reward" "Blessing of God" "Boon of the First Ones" "Bowyer's Dream" "Brotherhood in Exile" "Divine Justice" "Dying Anguish" "Fateful Meeting" "Humility" "Lachrymal Necrosis" "Mawr Blaidd" "Peaceful Moments" "Pride Before the Fall" "Reckless Ambition" "Remembrance" "Squandered Prosperity" "Terrible Secret of Space" "The Astromancer" "The Bitter Blossom" "The Bones" "The Breach" "The Cartographer" "The Celestial Stone" "The Chosen" "The Damned" "The Dapper Prodigy" "The Dark Mage" "The Dreamer" "The Eldritch Decay" "The Endless Darkness" "The Enthusiasts" "The Eternal War" "The Ethereal" "The Hive of Knowledge" "The Hoarder" "The Innocent" "The Jeweller's Boon" "The Landing" "The Mayor" "The Mind's Eyes" "The Obscured" "The Offering" "The Old Man" "The Pact" "The Polymath" "The Porcupine" "The Primordial" "The Professor" "The Queen" "The Risk" "The Sephirot" "The Soul" "The Tinkerer's Table" "The Undaunted" "The Valkyrie" "The Warlord" "The Wolven King's Bite" "The World Eater" "Vanity" "Void of the Elements" "A Stone Perfected" "Treasures of the Vaal" "The Prince of Darkness" "Disdain" "Guardian's Challenge" "Bijoux" "Silence and Frost" "Parasitic Passengers" "The One That Got Away"
+    BaseType "A Familiar Call" "A Modest Request" "Ambitious Obsession" "Azyran's Reward" "Blessing of God" "Boon of the First Ones" "Bowyer's Dream" "Brotherhood in Exile" "Divine Justice" "Dying Anguish" "Fateful Meeting" "Humility" "Lachrymal Necrosis" "Mawr Blaidd" "Peaceful Moments" "Pride Before the Fall" "Reckless Ambition" "Remembrance" "Squandered Prosperity" "Terrible Secret of Space" "The Astromancer" "The Bitter Blossom" "The Bones" "The Breach" "The Cartographer" "The Celestial Stone" "The Chosen" "The Damned" "The Dapper Prodigy" "The Dark Mage" "The Dreamer" "The Eldritch Decay" "The Endless Darkness" "The Enthusiasts" "The Eternal War" "The Ethereal" "The Hive of Knowledge" "The Hoarder" "The Innocent" "The Jeweller's Boon" "The Landing" "The Mayor" "The Mind's Eyes" "The Obscured" "The Offering" "The Old Man" "The Pact" "The Polymath" "The Porcupine" "The Primordial" "The Professor" "The Queen" "The Risk" "The Sephirot" "The Soul" "The Tinkerer's Table" "The Undaunted" "The Valkyrie" "The Warlord" "The Wolven King's Bite" "The World Eater" "Vanity" "Void of the Elements" "A Stone Perfected" "Treasures of the Vaal" "The Prince of Darkness" "Disdain" "Guardian's Challenge" 
     SetFontSize 45
     SetTextColor 0 0 0 255
     SetBorderColor 0 0 0 255
@@ -2610,7 +2530,7 @@ Show # 命運卡 - T3
 # 【命運卡-T4】
 Show # 命運卡 - T4
     Class "Divination"
-    BaseType "Acclimatisation" "Boon of Justice" "Buried Treasure" "Coveted Possession" "Demigod's Wager" "Emperor of Purity" "Emperor's Luck" "Harmony of Souls" "Imperial Legacy" "Last Hope" "Loyalty" "Lucky Connections" "Lucky Deck" "Monochrome" "More is Never Enough" "No Traces" "Sambodhi's Vow" "Sambodhi's Wisdom" "Society's Remorse" "The Cacophony" "The Card Sharp" "The Chains that Bind" "The Deal" "The Fool" "The Gemcutter" "The Heroic Shot" "The Inventor" "The Journey" "The Master Artisan" "The Seeker" "The Side Quest" "The Survivalist" "The Union" "The Wrath" "Three Faces in the Dark" "Three Voices" "Vinia's Token" "Desperate Crusade" "The Fox in the Brambles" "The Tireless Extractor"
+    BaseType "Acclimatisation" "Boon of Justice" "Buried Treasure" "Coveted Possession" "Demigod's Wager" "Emperor of Purity" "Emperor's Luck" "Harmony of Souls" "Imperial Legacy" "Last Hope" "Loyalty" "Lucky Connections" "Lucky Deck" "Monochrome" "More is Never Enough" "No Traces" "Sambodhi's Vow" "Sambodhi's Wisdom" "Society's Remorse" "The Cacophony" "The Card Sharp" "The Chains that Bind" "The Deal" "The Fool" "The Gemcutter" "The Heroic Shot" "The Inventor" "The Journey" "The Master Artisan" "The Seeker" "The Side Quest" "The Survivalist" "The Union" "The Wrath" "Three Faces in the Dark" "Three Voices" "Vinia's Token" "Desperate Crusade" "The Fox in the Brambles" 
     SetFontSize 45
     SetTextColor 0 0 0 255
     SetBorderColor 0 0 0 255
@@ -2676,16 +2596,7 @@ Show # 輿圖物品 - 任務道具
     MinimapIcon 0 Green Triangle
     PlayEffect Green
 
-Show # 輿圖物品 - 虛空石
-    Class "Atlas Upgrade Item"
-    BaseType "Voidstone" 
-    SetTextColor 101 183 161
-    SetBackgroundColor 0 0 0 
-    SetBorderColor 101 183 161
-    SetFontSize 50
-    PlayAlertSound 16 200
-    MinimapIcon 0 White Cross	
-    PlayEffect White
+
 
 Show # 輿圖物品 - 釋界之邀
     Class "Misc Map Items"
@@ -2816,49 +2727,7 @@ Show # 輿圖物品 - 九頭蛇斷片
     MinimapIcon 0 Red Circle
     PlayEffect Red
 
-Show # 輿圖物品 - 總督軍碎片
-    Class "Map Fragments"
-    BaseType "Drox's Crest" 
-    SetTextColor 51 25 0
-    SetBackgroundColor 224 204 20
-    SetBorderColor 51 25 0
-    SetFontSize 43
-    PlayAlertSound 6 200
-    MinimapIcon 0 Yellow Pentagon
-    PlayEffect Yellow
 
-Show # 輿圖物品 - 聖戰士碎片
-    Class "Map Fragments"
-    BaseType "Baran's Crest" 
-    SetTextColor 51 25 0
-    SetBackgroundColor 205 38 38
-    SetBorderColor 51 25 0
-    SetFontSize 43
-    PlayAlertSound 6 200
-    MinimapIcon 0 Red Pentagon
-    PlayEffect Red
-
-Show # 輿圖物品 - 狩獵者碎片
-    Class "Map Fragments"
-    BaseType "Al-Hezmin's Crest" 
-    SetTextColor 51 25 0
-    SetBackgroundColor 154 205 50
-    SetBorderColor 51 25 0
-    SetFontSize 43
-    PlayAlertSound 6 200
-    MinimapIcon 0 Green Pentagon
-    PlayEffect Green
-
-Show # 輿圖物品 - 救贖者碎片
-    Class "Map Fragments"
-    BaseType "Veritania's Crest" 
-    SetTextColor 51 25 0
-    SetBackgroundColor 0 191 255
-    SetBorderColor 51 25 0
-    SetFontSize 43
-    PlayAlertSound 6 200
-    MinimapIcon 0 Cyan Pentagon
-    PlayEffect Cyan
 
 Show # 輿圖物品 - 女神祭品
     BaseType "Offering to the Goddess" "Dedication to the Goddess" "Tribute to the Goddess"
@@ -4730,26 +4599,11 @@ Show # 裝備 - 高亮基底 - 雙手武器 - 雙手錘 - 花冠重錘(20%範圍
 
 # 【裝備-高亮基底-副手-箭袋】
 
-Show # 裝備 - 高亮基底 - 副手 - 箭袋 - 箭袋(30%元傷)
-    Class "Quivers"
-    BaseType "Primal Arrow Quiver"
-    Rarity = Rare
-    SetTextColor 255 255 0
-    SetFontSize 40
 
-Show # 裝備 - 高亮基底 - 副手 - 箭袋 - 箭袋(物點傷)
-    Class "Quivers"
-    BaseType "Heavy Arrow Quiver"
-    Rarity = Rare
-    SetTextColor 255 255 0
-    SetFontSize 40
 
-Show # 裝備 - 高亮基底 - 副手 - 箭袋 - 箭袋(額外混)
-    Class "Quivers"
-    BaseType "Vile Arrow Quiver"
-    Rarity = Rare
-    SetTextColor 255 255 0
-    SetFontSize 40
+
+
+
 
 Show # 裝備 - 高亮基底 - 副手 - 箭袋 - 寬矢箭袋(攻速)
     Class "Quivers"
@@ -5138,36 +4992,12 @@ Show # 裝備 - 高亮基底 - 飾品 - 腰帶 - 水晶腰帶(80能量護盾)
     SetTextColor 255 255 0
     SetFontSize 40
 
-Hide # 裝備 - 高亮基底 獵首 魔血 # 複製隱藏
-    Mirrored True 
+Show # 裝備 - 高亮基底 獵首 魔血
     Rarity = Normal
     Class "Belts"
     BaseType "Leather Belt" "Heavy Belt"
     SetTextColor 255 255 0
     SetFontSize 40
-
-Hide # 裝備 - 高亮基底 獵首 魔血 # 汙染隱藏
-    Corrupted True
-    Rarity = Normal
-    Class "Belts"
-    BaseType "Leather Belt" "Heavy Belt"
-    SetTextColor 255 255 0
-    SetFontSize 40
-
-Show # 裝備 - 高亮基底 獵首 魔血 AA盾 # 
-    Rarity = Normal
-    Class "Belts"
-    BaseType "Leather Belt" "Heavy Belt" 
-    SetTextColor 255 255 0
-    SetFontSize 40
-	
-Show # 裝備 - 高亮基底  AA盾 # 
-    Rarity = Normal
-    Class "Shields"
-    BaseType  "Champion Kite Shield"
-    SetTextColor 255 255 0
-    SetFontSize 40
-
 
 Show # 裝備 - 高亮基底 - 飾品 - 腰帶 - 先鋒腰帶(320護甲和閃避)
     Class "Belts"
