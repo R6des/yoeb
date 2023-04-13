@@ -21,6 +21,14 @@
 //埋火
 [Type] == "Wyrmscale Gauntlets" && [Rarity] == "Unique" # 	[StashItem]	 == "true" // 埋火
 
+	[Sockets] == "6" && [Linked] >= "6"                          # [StashItem] =="true"     // Keep 6L6S			//																								
+//	[Sockets] == "6" && [Linked] >= "6"  && [Rarity] == "Normal" # [ForceSellItem] =="true" // Sell Normal 6L6S			//		加上//的話是存六連裝																						
+//	[Sockets] == "6" && [Linked] >= "6"  && [Rarity] == "Magic"  # [ForceSellItem] =="true" // Sell Magic 6L6S			//		加上//的話是存六連裝																						
+//	[Sockets] == "6" && [Linked] >= "6"  && [Rarity] == "Rare"   # [ForceSellItem] =="true" // Sell Rare 6L6S			//		加上//的話是存六連裝																						
+	 [Sockets] == "6" && [Linked] <= "5" && [Rarity] == "Normal"  # [SellUnid] == "true"     // Sell 6S Whites			//																								
+	 [Sockets] == "6" && [Linked] <= "5" && [Rarity] == "Magic"          # [SellUnid] == "true"     // Sell 6S Magic			//																								
+	 [Sockets] == "6" && [Linked] <= "5" && [Rarity] == "Rare"          # [SellUnid] == "true"     // Sell 6S Rare			//	
+
 
 
 
