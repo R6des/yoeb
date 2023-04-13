@@ -1,3 +1,9 @@
+//2023/04/13 新增要撿的雜物
+//沙塵暴怒手
+[Type] == "Clasped Mitts" && [Rarity] == "Unique" # 	[StashItem]	 == "true"
+//埋火
+[Type] == "Wyrmscale Gauntlets" && [Rarity] == "Unique" # 	[StashItem]	 == "true" // 埋火
+
 //2023/04/11//3.21 新物品清單
 [Type] == "Igneous Geode" # [StashItem] == "true" // 火成晶洞
 [Type] == "Crystalline Geode" # [StashItem] == "true" // 水晶晶洞
