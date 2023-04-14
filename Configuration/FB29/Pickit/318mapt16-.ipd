@@ -21,13 +21,13 @@
 //埋火
 [Type] == "Wyrmscale Gauntlets" && [Rarity] == "Unique" # 	[StashItem]	 == "true" // 埋火
 
-	[Sockets] == "6" && [Linked] >= "6"                          # [StashItem] =="true"     // Keep 6L6S			//																								
+[Sockets] == "6" && [Linked] >= "6"                          # [StashItem] =="true"     // Keep 6L6S			//																								
 //	[Sockets] == "6" && [Linked] >= "6"  && [Rarity] == "Normal" # [ForceSellItem] =="true" // Sell Normal 6L6S			//		加上//的話是存六連裝																						
 //	[Sockets] == "6" && [Linked] >= "6"  && [Rarity] == "Magic"  # [ForceSellItem] =="true" // Sell Magic 6L6S			//		加上//的話是存六連裝																						
 //	[Sockets] == "6" && [Linked] >= "6"  && [Rarity] == "Rare"   # [ForceSellItem] =="true" // Sell Rare 6L6S			//		加上//的話是存六連裝																						
-	 [Sockets] == "6" && [Linked] <= "5" && [Rarity] == "Normal"  # [SellUnid] == "true"     // Sell 6S Whites			//																								
-	 [Sockets] == "6" && [Linked] <= "5" && [Rarity] == "Magic"          # [SellUnid] == "true"     // Sell 6S Magic			//																								
-	 [Sockets] == "6" && [Linked] <= "5" && [Rarity] == "Rare"          # [SellUnid] == "true"     // Sell 6S Rare			//	
+[Sockets] == "6" && [Linked] <= "5" && [Rarity] == "Normal"  # [SellUnid] == "true"     // Sell 6S Whites			//																								
+[Sockets] == "6" && [Linked] <= "5" && [Rarity] == "Magic"          # [SellUnid] == "true"     // Sell 6S Magic			//																								
+[Sockets] == "6" && [Linked] <= "5" && [Rarity] == "Rare"          # [SellUnid] == "true"     // Sell 6S Rare			//	
 
 
 
@@ -327,21 +327,21 @@
 //	[Type] == "Raven Mask" && [Rarity] == "Unique" # 	[StashItem]	 == "true" // 		//鷗喙 禍鴉之面
 	//水道仔或閃打仔會用到的散件																											
 	//熊頭 鳥頭																											
-//	[Type] == "Silken Hood" && [Rarity] == "Unique" # 	[StashItem]	 == "true" // 																									
+	[Type] == "Silken Hood" && [Rarity] == "Unique" # 	[StashItem]	 == "true" // 																									
 //	[Type] == "Silken Hood" && [Rarity] == "Unique" # [evasion_rating_+%_when_on_low_life] >= "1" && 	[ForceSellItem]	 == "true" // 		//斯塔空加之首 綢緞之兜																							
-//	[Type] == "Silken Hood" && [Rarity] == "Unique" # [local_display_trigger_level_20_tornado_when_you_gain_avians_flight_or_avians_might_%] >= "1" && 	[ForceSellItem]	 == "true" // 		//斯卡沃之徒 綢緞之兜																							
-//	[Type] == "Silken Hood" && [Rarity] == "Unique" # [local_item_can_have_x_additional_enchantments] >= "1" && 	[ForceSellItem]	 == "true" // 		//酷寒斗篷 綢緞之兜																							
+	[Type] == "Silken Hood" && [Rarity] == "Unique" # [local_display_trigger_level_20_tornado_when_you_gain_avians_flight_or_avians_might_%] >= "1" && 	[ForceSellItem]	 == "true" // 		//斯卡沃之徒 綢緞之兜																							
+	[Type] == "Silken Hood" && [Rarity] == "Unique" # [local_item_can_have_x_additional_enchantments] >= "1" && 	[ForceSellItem]	 == "true" // 		//酷寒斗篷 綢緞之兜																							
 	//白風																											
 	[Type] == "Imperial Skean" && [Rarity] == "Unique" # 	[StashItem]	 == "true" // 																									
 //	[Type] == "Imperial Skean" && [Rarity] == "Unique" # [critical_strike_chance_+%_for_spells_if_you_have_killed_recently] >= "1" && 	[ForceSellItem]	 == "true" //戒律之影 帝國雙刃匕																							
 //	[Type] == "Imperial Skean" && [Rarity] == "Unique" # [cold_damage_+%_while_off_hand_is_empty] >= "1" && 	[ForceSellItem]	 == "true" //白風 帝國雙刃匕																							
 	//畢斯扣項鍊																											
-//	[Type] == "Gold Amulet" && [Rarity] == "Unique" # 	[StashItem]	 == "true" // 																									
+	[Type] == "Gold Amulet" && [Rarity] == "Unique" # 	[StashItem]	 == "true" // 																									
 //	[Type] == "Gold Amulet" && [Rarity] == "Unique" # [normal_monster_dropped_item_quantity_+%] >= "1" && 	[ForceSellItem]	 == "true" //畢斯寇的項圈 帝金護身符																							
-//	[Type] == "Gold Amulet" && [Rarity] == "Unique" # [local_display_nearby_allies_extra_damage_rolls] >= "1" && 	[ForceSellItem]	 == "true" //珀奎爾的指頭 帝金護身符																							
-//	[Type] == "Gold Amulet" && [Rarity] == "Unique" # [item_found_quantity_+%_if_wearing_a_magic_item] >= "1" && 	[ForceSellItem]	 == "true" //苦行 帝金護身符																							
-//	[Type] == "Gold Amulet" && [Rarity] == "Unique" # [attack_maximum_added_fire_damage] >= "1" && 	[ForceSellItem]	 == "true" //帝金護身符																							
-//	[Type] == "Gold Amulet" && [Rarity] == "Unique" # [life_regeneration_per_minute_%_while_frozen] >= "1" && 	[ForceSellItem]	 == "true" //冬之心 帝金護身符																							
+	[Type] == "Gold Amulet" && [Rarity] == "Unique" # [local_display_nearby_allies_extra_damage_rolls] >= "1" && 	[ForceSellItem]	 == "true" //珀奎爾的指頭 帝金護身符																							
+	[Type] == "Gold Amulet" && [Rarity] == "Unique" # [item_found_quantity_+%_if_wearing_a_magic_item] >= "1" && 	[ForceSellItem]	 == "true" //苦行 帝金護身符																							
+	[Type] == "Gold Amulet" && [Rarity] == "Unique" # [attack_maximum_added_fire_damage] >= "1" && 	[ForceSellItem]	 == "true" //帝金護身符																							
+	[Type] == "Gold Amulet" && [Rarity] == "Unique" # [life_regeneration_per_minute_%_while_frozen] >= "1" && 	[ForceSellItem]	 == "true" //冬之心 帝金護身符																							
 	//自殺頭																											
 	[Type] == "Ezomyte Burgonet" && [Rarity] == "Unique" # 	[StashItem]	 == "true" // 																									
 //	[Type] == "Ezomyte Burgonet" && [Rarity] == "Unique" # [physical_damage_taken_+%] <= "40" && [melee_weapon_critical_strike_multiplier_+] >= "120" && 	[ForceSellItem]	 == "true" //深淵之喚 艾茲麥堅盔																							
@@ -393,14 +393,14 @@
 //以下水道仔，進輿圖階段之後全部斜線//
 //	//// 1F 黃裝鑑定售出 ///請務必看說明書複製副本後再自定義
 	[Category] == "Helm"         && [Rarity]         == "Rare" # [base_maximum_life] >= "999" && [TotalResistances] >= "999" && 	[StashItem]	 == "true"	//	頭盔
-//	[Category] == "Chest"         && [Rarity]         == "Rare" # [base_maximum_life] >= "999" && [TotalResistances] >= "999" && 	[StashItem]	 == "true"	//	胸甲
+	[Category] == "Chest"         && [Rarity]         == "Rare" # [base_maximum_life] >= "999" && [TotalResistances] >= "999" && 	[StashItem]	 == "true"	//	胸甲
 	[Category] == "Amulet"         && [Rarity]         == "Rare" # [base_maximum_life] >= "999" && [TotalResistances] >= "999" && 	[StashItem]	 == "true"	//	護身符
 	[Category] == "Ring"         && [Rarity]         == "Rare" # [base_maximum_life] >= "999" && [TotalResistances] >= "999" && 	[StashItem]	 == "true"	//	戒指
 	[Category] == "Belt"         && [Rarity]         == "Rare" # [base_maximum_life] >= "999" && [TotalResistances] >= "999" && 	[StashItem]	 == "true"	//	腰帶
 	[Category] == "Gloves"         && [Rarity]         == "Rare" # [base_maximum_life] >= "999" && [TotalResistances] >= "999" && 	[StashItem]	 == "true"	//	手套
 	[Category] == "Boots"         && [Rarity]         == "Rare" # [base_maximum_life] >= "999"&& 	[StashItem]	 == "true"	//	鞋子
 //	[Category] == "Weapon"         && [Rarity]         == "Rare" # [DPS] > "999" && 	[StashItem]	 == "true"	//	武器
-//	[Category] == "Shield"         && [Rarity]         == "Rare" # [base_maximum_life] >= "999" && [TotalResistances] >= "999" && 	[StashItem]	 == "true"	//	盾牌
+	[Category] == "Shield"         && [Rarity]         == "Rare" # [base_maximum_life] >= "999" && [TotalResistances] >= "999" && 	[StashItem]	 == "true"	//	盾牌
 	//// 2F 基礎通貨//																								
 //	[Type] == "Alchemy Shard" # 	[StashItem]	 == "true"	//	//點金石碎片																							
 //	[Type] == "Alteration Shard" # 	[StashItem]	 == "true"	//	//改造石碎片																							
