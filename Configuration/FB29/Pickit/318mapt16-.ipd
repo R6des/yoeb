@@ -313,7 +313,7 @@
 //	[Type] == "Saint's Hauberk" && [Rarity] == "Unique" # [nearby_enemies_lightning_resist_equal_to_yours] >= "1" && 	[ForceSellItem]	 == "true" // 		//聖者鏈甲																							
 //	[Type] == "Saint's Hauberk" && [Rarity] == "Unique" # [chaos_damage_%_taken_from_mana_before_life] >= "1" && 	[ForceSellItem]	 == "true" // 		//象牙塔 聖者鏈甲																							
 //西里的戰衣=2D																											
-//	[Type]== "Zodiac Leather" && [Rarity] == "Unique" # 	[StashItem]	 == "true" // 																									
+	[Type]== "Zodiac Leather" && [Rarity] == "Unique" # 	[StashItem]	 == "true" // 																									
 	//轟天雷=1.5D																											
 //	[Type] == "Murder Mitts" && [Rarity] == "Unique" # 	[StashItem]	 == "true" // 		//轟天雷 暗殺者護手																							
 //	[Type] == "Murder Mitts" && [Rarity] == "Unique" # [thaumaturgy_rotation_active] >= "1" && 	[ForceSellItem]	 == "true" // 		//瑪拉凱之面 暗殺者護手																							
@@ -383,11 +383,11 @@
 	//靈護																											
 	[Type] == "Basket Rapier" && [Rarity] == "Unique" # 	[StashItem]	 == "true" // 																									
 	//塑界者之籽																											
-	[Type] == "Agate Amulet" && [Rarity] == "Unique" #	[StashItem]	 == "true" // 																									
-	[Type] == "Agate Amulet" && [Rarity] == "Unique" # [gain_endurance_charge_on_power_charge_expiry] >= "1" && 	[ForceSellItem]	 == "true" // 		//福爾的忠誠之符 瑪瑙護身符																							
-	[Type] == "Agate Amulet" && [Rarity] == "Unique" # [chance_to_grant_nearby_enemies_unholy_might_on_kill_%] >= "1" && 	[ForceSellItem]	 == "true" // 		//心靈抽取 瑪瑙護身符																							
+//	[Type] == "Agate Amulet" && [Rarity] == "Unique" #	[StashItem]	 == "true" // 																									
+//	[Type] == "Agate Amulet" && [Rarity] == "Unique" # [gain_endurance_charge_on_power_charge_expiry] >= "1" && 	[ForceSellItem]	 == "true" // 		//福爾的忠誠之符 瑪瑙護身符																							
+//	[Type] == "Agate Amulet" && [Rarity] == "Unique" # [chance_to_grant_nearby_enemies_unholy_might_on_kill_%] >= "1" && 	[ForceSellItem]	 == "true" // 		//心靈抽取 瑪瑙護身符																							
 //	[Type] == "Agate Amulet" && [Rarity] == "Unique" # [local_display_aura_mana_regeneration_rate_+%] >= "1" &&	[ForceSellItem]	 == "true" // 		//塑界者之籽 瑪瑙護身符																							
-	[Type] == "Agate Amulet" && [Rarity] == "Unique" # [max_power_charges] >= "1" && 	[ForceSellItem]	 == "true" // 		//艾拉黛絲 瑪瑙護身符	
+//	[Type] == "Agate Amulet" && [Rarity] == "Unique" # [max_power_charges] >= "1" && 	[ForceSellItem]	 == "true" // 		//艾拉黛絲 瑪瑙護身符	
 
 
 //以下水道仔，進輿圖階段之後全部斜線//
@@ -406,13 +406,13 @@
 //	[Type] == "Alteration Shard" # 	[StashItem]	 == "true"	//	//改造石碎片																							
 //	[Type] == "Scroll Fragment" # 	[StashItem]	 == "true"	//	//卷軸碎片																							
 //	[Type] == "Transmutation Shard" # 	[StashItem]	 == "true"	//	//蛻變石碎片																							
-//	[Type] == "Instilling Orb" #	[StashItem]	 == "true"	//	//滴注石																							
-//	[Type] =="Enkindling Orb"#	[StashItem]	 == "true"	//	//點燃石																							
+	[Type] == "Instilling Orb" #	[StashItem]	 == "true"	//	//滴注石																							
+	[Type] =="Enkindling Orb"#	[StashItem]	 == "true"	//	//點燃石																							
 //特例請勿更動//[Type] == "Wisdom Scroll" # 	[StashItem]	 == "true"	//	//知識卷軸																							
 //特例請勿更動//[Type] == "Portal Scroll" # 	[StashItem]	 == "true"	//	//傳送卷軸																							
 //	[Type] == "Blacksmith's Whetstone" # 	[StashItem]	 == "true"	//	//磨刀石																							
 //	[Type] == "Armourer's Scrap" # 	[StashItem]	 == "true"	//	//護甲片																							
-//	[Type] == "Glassblower's Bauble" # 	[StashItem]	 == "true"	//	//玻璃彈珠																							
+	[Type] == "Glassblower's Bauble" # 	[StashItem]	 == "true"	//	//玻璃彈珠																							
 //	[Type] == "Blessed Orb" # 	[StashItem]	 == "true"	//	//祝福石																							
 //	[Type] == "Chaos Orb" # 	[StashItem]	 == "true"	//	//混沌石																							
 //	[Type] == "Chromatic Orb" # 	[StashItem]	 == "true"	//	//幻色石																							
