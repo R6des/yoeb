@@ -1,6 +1,15 @@
 ﻿# Script edited with Filtration - https://github.com/ben-wallis/Filtration
 # EnableBlockGroups
 
+Show # 裝備 - 高T詞綴裝備 - 魔法 - 珠寶
+Corrupted False
+Rarity = Magic
+Class "Crimson Jewel"
+SetBorderColor 180 255 0
+SetFontSize 42
+PlayAlertSound 9 300
+PlayEffect Blue Temp
+
 #============
 # 【===總目錄===】
 # 【特殊語法】0000
