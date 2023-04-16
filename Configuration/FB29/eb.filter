@@ -4,7 +4,7 @@
 Show # 裝備 - 高T詞綴裝備 - 魔法 - 珠寶
 Corrupted False
 Rarity = Magic
-Class "Crimson Jewel"
+B "Crimson Jewel"
 SetBorderColor 180 255 0
 SetFontSize 42
 PlayAlertSound 9 300
