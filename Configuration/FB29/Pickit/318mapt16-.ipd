@@ -1,3 +1,7 @@
+//赤紅珠寶																											
+[Type]== "Crimson Jewel" # [StashItem]	 == "true" //
+
+
 //2023/04/11//3.21 新物品清單
 [Type] == "Igneous Geode" # [StashItem] == "true" // 火成晶洞
 [Type] == "Crystalline Geode" # [StashItem] == "true" // 水晶晶洞
