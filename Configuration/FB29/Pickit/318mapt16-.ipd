@@ -1,7 +1,3 @@
-//赤紅珠寶																											
-[Type]== "Crimson Jewel" # [StashItem]	 == "true" //
-
-
 //2023/04/11//3.21 新物品清單
 [Type] == "Igneous Geode" # [StashItem] == "true" // 火成晶洞
 [Type] == "Crystalline Geode" # [StashItem] == "true" // 水晶晶洞
@@ -515,7 +511,7 @@
 //	 [Type] == "Ruby Flask" # 	[StashItem]	 == "true" 	//	//紅玉藥劑	不撿不存倉																						
 //	 [Type] == "Sapphire Flask" # 	[StashItem]	 == "true" 	//	//藍玉藥劑	不撿不存倉																						
 //	 [Type] == "Topaz Flask" # 	[StashItem]	 == "true" 	//	//黃玉藥劑	不撿不存倉																						
-//	 [Type] == "Silver Flask" # 	[StashItem]	 == "true" 	//	//真銀藥劑	不撿不存倉																						
+	 [Type] == "Silver Flask" # 	[StashItem]	 == "true" 	//	//真銀藥劑	不撿不存倉																						
 //	 [Type] == "Aquamarine Flask" # 	[StashItem]	 == "true" 	//	//海藍藥劑	不撿不存倉																						
 //	 [Type] == "Diamond Flask" # 	[StashItem]	 == "true" 	//	//寶鑽藥劑	不撿不存倉																						
 //	 [Type] == "Granite Flask" # 	[StashItem]	 == "true" 	//	//堅岩藥劑	不撿不存倉																						
