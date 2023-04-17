@@ -1,6 +1,6 @@
 //	//				//中文判斷		
 
-//[MapTier]>= "1" && [MapTier] <= "16" && [Rarity] == "Rare" # [IgnoreMap]== "true" // 金圖全部不打
+[MapTier]>= "1" && [MapTier] <= "16" && [Rarity] == "Rare" # [IgnoreMap]== "true" // 金圖全部不打
 [MapTier]>= "1" && [MapTier] <= "16" && [Rarity] == "Unique" # [IgnoreMap]== "true" // 橘圖不打
 [MapTier]>= "1" && [MapTier] <= "16" && [map_contains_citadel]>= "1" # [IgnoreMap]== "true" // 勢力圖不打
 																		
