@@ -221,7 +221,7 @@
 	[Type] == "Leather Belt" && [Rarity] == "Unique" # [cannot_be_frozen_with_dex_higher_than_int] >= "1" && 	[ForceSellItem]	 == "true" //巨岩之環皮革腰帶																							
 	[Type] == "Leather Belt" && [Rarity] == "Unique" # [culling_strike_vs_cursed_enemies] >= "1" &&	[ForceSellItem]	 == "true" //貪食腰皮革腰帶																							
 	[Type] == "Leather Belt" && [Rarity] == "Unique" # [chill_nearby_enemies_when_you_focus] >= "1" &&	[ForceSellItem]	 == "true" //極地束腹皮革腰帶																							
-//	[Type] == "Leather Belt" && [Rarity] == "Unique" # [physical_damage_reduction_rating_+%_while_not_ignited_frozen_shocked] >= "1" &&	[ForceSellItem]	 == "true" //永生皮革腰帶																							
+	[Type] == "Leather Belt" && [Rarity] == "Unique" # [physical_damage_reduction_rating_+%_while_not_ignited_frozen_shocked] >= "1" &&	[ForceSellItem]	 == "true" //永生皮革腰帶																							
 	[Type] == "Leather Belt" && [Rarity] == "Unique" # [allow_multiple_offerings] >= "1" &&	[ForceSellItem]	 == "true" // 		//祭品之繫 皮革腰帶																							
 	[Type] == "Leather Belt" && [Rarity] == "Unique" # [enemies_ignited_by_you_have_physical_damage_%_converted_to_fire] >= "1" &&	[ForceSellItem]	 == "true" //皮革腰帶																							
 	[Type] == "Leather Belt" && [Rarity] == "Unique" # [flasks_apply_to_your_zombies_and_spectres] >= "1" &&	[ForceSellItem]	 == "true" //皮革腰帶																							
@@ -230,7 +230,7 @@
 	[Type] == "Heavy Belt" && [Rarity] == "Unique" #	[StashItem]	 == "true" // 		//重革腰帶 基底																							
 //	[Type] == "Heavy Belt" && [Rarity] == "Unique" # [local_display_nearby_enemies_are_intimidated] >= "1" &&	[ForceSellItem]	 == "true" // 		//重革腰帶																							
 	[Type] == "Heavy Belt" && [Rarity] == "Unique" # [item_found_rarity_+1%_per_X_rampage_stacks] >= "1" && 	[ForceSellItem]	 == "true" // 		//畢斯寇繫帶 重革腰帶																							
-//	[Type] == "Heavy Belt" && [Rarity] == "Unique" # [faster_burn_from_attacks_%] >= "1" && 	[ForceSellItem]	 == "true" // 		//戴亞迪安的晨曦 重革腰帶																							
+	[Type] == "Heavy Belt" && [Rarity] == "Unique" # [faster_burn_from_attacks_%] >= "1" && 	[ForceSellItem]	 == "true" // 		//戴亞迪安的晨曦 重革腰帶																							
 	[Type] == "Heavy Belt" && [Rarity] == "Unique" # [flask_life_recovery_rate_+%] >= "1" && 	[ForceSellItem]	 == "true" // 		//梅吉諾德的力量泉源 重革腰帶																							
 	[Type] == "Heavy Belt" && [Rarity] == "Unique" # [minions_use_parents_flasks_on_summon] >= "1" &&	[ForceSellItem]	 == "true" // 		//母親的擁抱 重革腰帶																							
 	[Type] == "Heavy Belt" && [Rarity] == "Unique" # [minion_caustic_cloud_on_death_maximum_life_per_minute_to_deal_as_chaos_damage_%] >= "1" && 	[ForceSellItem]	 == "true" // 		//突圍 重革腰帶																							
