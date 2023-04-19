@@ -1,6 +1,6 @@
 //2023/04/13 新增要撿的雜物
 //沙塵暴怒手
-[Type] == "Clasped Mitts" && [Rarity] == "Unique" # 	[StashItem]	 == "true"
+//[Type] == "Clasped Mitts" && [Rarity] == "Unique" # 	[StashItem]	 == "true"
 //埋火
 [Type] == "Wyrmscale Gauntlets" && [Rarity] == "Unique" # 	[StashItem]	 == "true" // 埋火
 
