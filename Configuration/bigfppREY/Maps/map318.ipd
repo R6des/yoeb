@@ -1,4 +1,20 @@
-//	//				//中文判斷		
+// Shaper / Elder
+[6831] >= "1" # [IgnoreMap] == "true" // Shaper/Elder maps
+// [6831] == "1" # [IgnoreMap] == "true" // Shaper maps
+// [6831] == "2" # [IgnoreMap] == "true" // Elder maps
+
+// Conquerors
+[13855] >= "1" # [IgnoreMap] == "true" // Conq maps
+// [13855] == "1" # [IgnoreMap] == "true" // Baron maps
+// [13855] == "2" # [IgnoreMap] == "true" // Veritania maps
+// [13855] == "3" # [IgnoreMap] == "true" // Drox maps
+// [13855] == "4" # [IgnoreMap] == "true" // Al-Hezmin maps
+
+// Synthesized maps
+[Type] == "Synthesised Map" # [IgnoreMap] == "true" 
+
+// Delirium maps
+[11508] >= "1" # [IgnoreMap] == "true" // Delirium maps
 
 [MapTier]>= "1" && [MapTier] <= "16" && [Rarity] == "Rare" # [IgnoreMap]== "true" // 金圖全部不打
 [MapTier]>= "1" && [MapTier] <= "16" && [Rarity] == "Unique" # [IgnoreMap]== "true" // 橘圖不打
