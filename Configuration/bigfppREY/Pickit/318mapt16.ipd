@@ -2,7 +2,7 @@
 //¨F¹Ð¼É«ã¤â
 //[Type] == "Clasped Mitts" && [Rarity] == "Unique" # 	[StashItem]	 == "true"
 //®I¤õ
-[Type] == "Wyrmscale Gauntlets" && [Rarity] == "Unique" # [StashItem]	 == "true" // ®I¤õ
+[Type] == "Wyrmscale Gauntlets" && [attack_speed_+_%] >= "1" && [Rarity] == "Unique" # [StashItem]	 == "true" // ®I¤õ
 
 //2023/04/11//3.21 ·sª««~²M³æ
 [Type] == "Igneous Geode" # [StashItem] == "true" // ¤õ¦¨´¹¬}
