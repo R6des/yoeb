@@ -2,7 +2,7 @@
 //沙塵暴怒手
 //[Type] == "Clasped Mitts" && [Rarity] == "Unique" # 	[StashItem]	 == "true"
 //埋火
-[Type] == "Wyrmscale Gauntlets" && [attack_speed_+_%] >= "1" && [Rarity] == "Unique" # [StashItem]	 == "true" // 埋火
+//[Type] == "Wyrmscale Gauntlets" && [attack_speed_+_%] >= "1" && [Rarity] == "Unique" # [StashItem]	 == "true" // 埋火
 
 //2023/04/11//3.21 新物品清單
 [Type] == "Igneous Geode" # [StashItem] == "true" // 火成晶洞
@@ -31,7 +31,7 @@
 [Category] == "Map" && [MapTier] >= "16"  && [Rarity] == "Magic"  #[StashItem] == "true" // //藍地圖藍地圖撿取，藍地圖存倉
 [Category] == "Map" && [MapTier] >= "16"  && [Rarity] == "Rare"  #[StashItem] == "true" // //黃地圖黃地圖不撿，黃地圖售出
 [Category] == "Map" && [map_contains_citadel]>= "1"  #[StashItem] == "true" // //勢力圖拾取並存倉
-[Category] == "Map" && [MapTier] >= "1"  && [Rarity] == "Unique"  #[StashItem] == "true" // //傳奇地圖傳奇地圖不撿，傳奇地圖售出
+//[Category] == "Map" && [MapTier] >= "1"  && [Rarity] == "Unique"  #[StashItem] == "true" // //傳奇地圖傳奇地圖不撿，傳奇地圖售出
 
 //	Players are Cursed with Vulnerability	
 	[Category] == "Map" && [map_contains_citadel] >= "1" && [Rarity] == "Rare" #	[StashItem]	=="true"	//存征服者
@@ -228,7 +228,7 @@
 	[Type] == "Leather Belt" && [Rarity] == "Unique" # [mana_leech_from_physical_attack_damage_permyriad] >= "1" &&	[ForceSellItem]	 == "true" //龍蛻之帶 皮革腰帶																							
 //以下是 魔血的親兄弟，除了魔血通通賣掉//																											
 	[Type] == "Heavy Belt" && [Rarity] == "Unique" #	[StashItem]	 == "true" // 		//重革腰帶 基底																							
-//	[Type] == "Heavy Belt" && [Rarity] == "Unique" # [local_display_nearby_enemies_are_intimidated] >= "1" &&	[ForceSellItem]	 == "true" // 		//重革腰帶																							
+	[Type] == "Heavy Belt" && [Rarity] == "Unique" # [local_display_nearby_enemies_are_intimidated] >= "1" &&	[ForceSellItem]	 == "true" // 		//重革腰帶																							
 	[Type] == "Heavy Belt" && [Rarity] == "Unique" # [item_found_rarity_+1%_per_X_rampage_stacks] >= "1" && 	[ForceSellItem]	 == "true" // 		//畢斯寇繫帶 重革腰帶																							
 	[Type] == "Heavy Belt" && [Rarity] == "Unique" # [faster_burn_from_attacks_%] >= "1" && 	[ForceSellItem]	 == "true" // 		//戴亞迪安的晨曦 重革腰帶																							
 	[Type] == "Heavy Belt" && [Rarity] == "Unique" # [flask_life_recovery_rate_+%] >= "1" && 	[ForceSellItem]	 == "true" // 		//梅吉諾德的力量泉源 重革腰帶																							
@@ -289,8 +289,8 @@
 	[Type] == "Sage's Robe" && [Rarity] == "Unique" # 	[StashItem]	 == "true" // 																									
 	[Type] == "Sage's Robe" && [Rarity] == "Unique" # [light_radius_+%] >= "1" &&	[ForceSellItem]	 == "true" // 		札德圖斯的聖衣																							
 	//印卜薩=2.5D		 == "true" // 																									
-	[Type]== "Sadist Garb" && [Rarity] == "Unique" # 	[StashItem]	 == "true" // 																									
-	[Type] == "Sadist Garb" && [Rarity] == "Unique" # [placing_traps_cooldown_recovery_+%] >= "1" && 	[ForceSellItem]	 == "true" // 		陷阱衣																							
+//	[Type]== "Sadist Garb" && [Rarity] == "Unique" # 	[StashItem]	 == "true" // 																									
+//	[Type] == "Sadist Garb" && [Rarity] == "Unique" # [placing_traps_cooldown_recovery_+%] >= "1" && 	[ForceSellItem]	 == "true" // 		陷阱衣																							
 	//安賽娜絲的迅敏之冠 鐵鍛之冠=2.5D																											
 //	[Type] == "Iron Circlet" && [Rarity] == "Unique" # 	[StashItem]	 == "true" // 																									
 //	[Type] == "Iron Circlet" && [Rarity] == "Unique" # [base_movement_velocity_+%] >= "1" && 	[ForceSellItem]	 == "true" // 		安賽娜絲的迅敏之冠																							
@@ -332,15 +332,15 @@
 //	[Type] == "Gold Amulet" && [Rarity] == "Unique" # [attack_maximum_added_fire_damage] >= "1" && 	[ForceSellItem]	 == "true" //帝金護身符																							
 //	[Type] == "Gold Amulet" && [Rarity] == "Unique" # [life_regeneration_per_minute_%_while_frozen] >= "1" && 	[ForceSellItem]	 == "true" //冬之心 帝金護身符																							
 	//自殺頭																											
-	[Type] == "Ezomyte Burgonet" && [Rarity] == "Unique" # 	[StashItem]	 == "true" // 																									
+//	[Type] == "Ezomyte Burgonet" && [Rarity] == "Unique" # 	[StashItem]	 == "true" // 																									
 //	[Type] == "Ezomyte Burgonet" && [Rarity] == "Unique" # [physical_damage_taken_+%] <= "40" && [melee_weapon_critical_strike_multiplier_+] >= "120" && 	[ForceSellItem]	 == "true" //深淵之喚 艾茲麥堅盔																							
-	[Type] == "Ezomyte Burgonet" && [Rarity] == "Unique" # [local_item_can_have_x_additional_enchantments] >= "1" && [ForceSellItem] == "true" // Cowl of the Thermophile	[ForceSellItem]	 == "true" //嗜炎斗篷 艾茲麥堅盔
+//	[Type] == "Ezomyte Burgonet" && [Rarity] == "Unique" # [local_item_can_have_x_additional_enchantments] >= "1" && [ForceSellItem] == "true" // Cowl of the Thermophile	[ForceSellItem]	 == "true" //嗜炎斗篷 艾茲麥堅盔
 	//暗雷																											
 //	[Type] == "Dragonscale Boots" && [Rarity] == "Unique" # 	[StashItem]	 == "true" // 																									
 	//冰冷之眼																											
 //	[Type] == "Goathide Gloves" && [Rarity] == "Unique" # [base_physical_damage_%_to_convert_to_cold] >= "1" && 	[StashItem]	 == "true" // 																									
 	//雙玉戒指：冰火、火雷、雷冰戒、意志呼喚、狼王戒																											
-	[Type]== "Two-Stone Ring" && [Rarity] == "Unique" # 	[StashItem]	 == "true" // 																									
+//	[Type]== "Two-Stone Ring" && [Rarity] == "Unique" # 	[StashItem]	 == "true" // 																									
 	//三相戒指：竊罪、羅里																											
 //	[Type]== "Prismatic Ring" && [Rarity] == "Unique" # 	[StashItem]	 == "true" // 																									
 	//裂心刃																											
@@ -348,9 +348,9 @@
 	//開膛斧																											
 	[Type]== "Siege Axe" && [Rarity] == "Unique" # 	[StashItem]	 == "true" // 																									
 	//獅吼、魯米都撿																											
-	[Type] == "Granite Flask" && [Rarity] == "Unique" # 	[StashItem]	 == "true" // 																									
+//	[Type] == "Granite Flask" && [Rarity] == "Unique" # 	[StashItem]	 == "true" // 																									
 	//大小傷腰 堅毅之環 都撿																											
-	[Type]== "Studded Belt" && [Rarity] == "Unique" # 	[StashItem]	 == "true" // 																									
+//	[Type]== "Studded Belt" && [Rarity] == "Unique" # 	[StashItem]	 == "true" // 																									
 
 
 ////////////重要分隔線///////////////
