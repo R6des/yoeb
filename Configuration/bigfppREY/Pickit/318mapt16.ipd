@@ -50,8 +50,8 @@
 //	[Category] == "Map" && [map_players_block_chance_+%] < "0" && [Rarity] == "Rare" #	[ForceSellItem]	=="true"	//降低格檔
 //	[Category] == "Map" && [map_monsters_avoid_ailments_%] >= "1" && [Rarity] == "Rare #	[ForceSellItem]	=="true"	//地圖怪物避免元素異常狀態
 //	[Category] == "Map" && [map_additional_player_maximum_resistances_%] < "0" && [Rarity] == "Rare" #	[ForceSellItem]	=="true"	//降低最大抗
-	[Category] == "Map" && [map_monsters_cannot_be_leeched_from]  > "0" && [Rarity] == "Rare" # 	[ForceSellItem]	=="true"	//無法偷取
-	[Category] == "Map" && [map_monsters_steal_charges] >= "1" && [Rarity] == "Rare" # 	[ForceSellItem]	=="true"	//怪物偷球
+//	[Category] == "Map" && [map_monsters_cannot_be_leeched_from]  > "0" && [Rarity] == "Rare" # 	[ForceSellItem]	=="true"	//無法偷取
+//	[Category] == "Map" && [map_monsters_steal_charges] >= "1" && [Rarity] == "Rare" # 	[ForceSellItem]	=="true"	//怪物偷球
 
 
 //3.20新增 111年12月13日
@@ -93,7 +93,7 @@
 //[Type] == "Feathered Arrow Quiver" &&  [Rarity] == "Unique" # [local_display_grants_skill_call_of_steel] >= "1" &&   [ForceSellItem]	 == "true" //
 
 [Type] =="Maven's Invitation: The Elderslayers" #	[StashItem]	 == "true" 		//殺手	拾取且存倉
-[Type] =="Maven's Invitation: The Forgotten" #	[StashItem]	 == "true" 		//釋界之邀：遺忘	拾取且存倉
+//[Type] =="Maven's Invitation: The Forgotten" #	[StashItem]	 == "true" 		//釋界之邀：遺忘	拾取且存倉
 [Type] =="Maven's Invitation: The Formed" #	[StashItem]	 == "true" 		//釋界之邀：塑型	拾取且存倉
 [Type] =="Maven's Invitation: The Twisted" #	[StashItem]	 == "true" 		//釋界之邀：扭曲	拾取且存倉
 //[Type] == "Mortal Grief"             # 	[StashItem]	 == "true" 	//	//凡人的哀傷	拾取且存倉
