@@ -122,10 +122,10 @@
 [Type] =="Maven's Invitation: The Twisted" #		[StashItem]	 == "true" 		//釋界之邀：扭曲	拾取且存倉
 
 //綠門
-[Type] == "Mortal Grief"             # 	[StashItem]	 == "true" 	//	//凡人的哀傷	拾取且存倉
-[Type] == "Mortal Rage"              # 	[StashItem]	 == "true" 	//	//凡人的憤怒	拾取且存倉
-[Type] == "Mortal Ignorance"         # 	[StashItem]	 == "true" 	//	//凡人的無知	拾取且存倉
-[Type] == "Mortal Hope"              # 	[StashItem]	 == "true" 	//	//凡人的希望	拾取且存倉
+//[Type] == "Mortal Grief"             # 	[StashItem]	 == "true" 	//	//凡人的哀傷	拾取且存倉
+//[Type] == "Mortal Rage"              # 	[StashItem]	 == "true" 	//	//凡人的憤怒	拾取且存倉
+//[Type] == "Mortal Ignorance"         # 	[StashItem]	 == "true" 	//	//凡人的無知	拾取且存倉
+//[Type] == "Mortal Hope"              # 	[StashItem]	 == "true" 	//	//凡人的希望	拾取且存倉
 
 //紅門
 //[Type] == "Sacrifice at Dawn"        # 	[StashItem]	 == "true" 	//	//黎明的奉獻	拾取且存倉
@@ -143,9 +143,9 @@
 
 
 //記憶
-[Type]=="Niko's Memory" # 	[StashItem]  == "true" // 
-[Type]=="Alva's Memory" # 	[StashItem]  == "true" // 
-[Type]=="Kirac's Memory" # 	[StashItem]  == "true" // 
+//[Type]=="Niko's Memory" # 	[StashItem]  == "true" // 
+//[Type]=="Alva's Memory" # 	[StashItem]  == "true" // 
+//[Type]=="Kirac's Memory" # 	[StashItem]  == "true" // 
 [Type]=="Einhar's Memory" # 	[StashItem]  == "true" // 
 [Type]=="Engraved Ultimatum" # 	[StashItem]  == "true" // 
 [Type]=="Mirrored Tablet" # 	[StashItem]  == "true" // 
