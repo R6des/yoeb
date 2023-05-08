@@ -5,6 +5,7 @@
 [MapTier]>= "1" && [MapTier] <= "16" && [Rarity] == "Unique" # [IgnoreMap]== "true" // 橘圖不打
 [map_contains_citadel]>= "1" 		# [IgnoreMap]== "true" // 勢力圖不打
 [map_elder_boss_variation] >= "1"       # [IgnoreMap] == "true"
+[map_atlas_influence_type] >= "1"        # [IgnoreMap] == "true"
 																		
 	//3.17 橘貓輿圖檔 ////藍色文字代表不能更改的欄位，不要去改																								
 //	[Quality]<="16"&& [Rarity]=="Normal"#[UpgradeQuality]== "true"//使用製圖釘			//使用製圖釘	不//使用製圖釘																				
