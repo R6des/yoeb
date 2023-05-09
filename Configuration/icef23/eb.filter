@@ -776,15 +776,26 @@ Show # 通貨 - 特殊 - 充能的羅盤
     MinimapIcon 2 Red Diamond
     PlayEffect Red
 
-Show # 通貨 - 特殊 - 偵查報告
+Show # 通貨 - 特殊 - 超凡偵查報告
     Class "Currency"
-    BaseType "Scouting Report"
+    BaseType "Otherworldly Scouting Report"
     SetTextColor 100 50 0
     SetBackgroundColor 255 178 102
     SetBorderColor 204 102 0
     SetFontSize 40
     MinimapIcon 2 Red Diamond
     PlayEffect Red
+
+Hide # 通貨 - 特殊 - 偵查報告
+    Class "Currency"
+    BaseType "Scouting Report"
+    SetTextColor 100 50 0
+    SetBackgroundColor 255 178 102
+    SetBorderColor 204 102 0
+    SetFontSize 40
+#    MinimapIcon 2 Red Diamond
+#    PlayEffect Red
+
 
 Show # 通貨 - 特殊 - 挖油機
     Class "Currency"
