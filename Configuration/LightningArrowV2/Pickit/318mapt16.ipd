@@ -6,7 +6,7 @@
 [Type] == "Otherworldly Scouting Report" 			#[StashItem] == "true" // 超凡
 
 //福爾頭
-[Type]=="Praetor Crown" && [Rarity] == "Unique" #[UniqueName]=="Voll's Vision"	#[StashItem] == "true"
+//[Type]=="Praetor Crown" && [Rarity] == "Unique" #[UniqueName]=="Voll's Vision"	#[StashItem] == "true"
 
 //岡姆手
 [Type]=="Titan Gauntlets" && [Rarity] == "Unique" # [UniqueName] == "Kaom's Spirit" && [StashItem] == "true"
@@ -15,7 +15,7 @@
 [Type]=="Rawhide Boots" && [Rarity] == "Unique" #[UniqueName]=="Seven-League Step"	#[StashItem] == "true"
 
 //西里項鍊
-[Type]=="Jade Amulet" && [Rarity] == "Unique" #[UniqueName]=="Hyrri's Truth"	#[StashItem] == "true"
+//[Type]=="Jade Amulet" && [Rarity] == "Unique" #[UniqueName]=="Hyrri's Truth"	#[StashItem] == "true"
 
 //2023/05/01解挑戰用
 //勢力物品
@@ -52,7 +52,7 @@
 //2023/04/11//3.21 新物品清單
 [Type] == "Igneous Geode" # 	[StashItem] == "true" // 火成晶洞
 [Type] == "Crystalline Geode" # [StashItem] == "true" // 水晶晶洞
-[Type] == "Magmatic Ore" # 	[StashItem] == "true" // 岩漿礦
+[Type] == "Magmatic Ore" # 	[StashItem] == "true" // 岩礦
  
 [Type] == "Brother's Gift" # 	[StashItem] == "true" // 兄弟之贈 有價
 [Type] == "Soul Quenched" # 	[StashItem] == "true" // 靈魂安息 
@@ -105,7 +105,7 @@
 
 
 //卡蘭德之觸
-[Type] == "Ring" && [Rarity] == "Unique" # 	[StashItem]	 == "true" // 
+[Type] == "Ring" && [Rarity] == "Unique" # 	[StashItem] == "true" // 
 //[Type]=="Man With Bear" #			[StashItem] == "true" //				
 //[Type]=="Alivia's Grace" #			[StashItem] == "true" //				
 //[Type]=="Auspicious Ambitions" #		[StashItem] == "true" //劫盜百等武器
@@ -135,22 +135,22 @@
 //下面是3.19以前
 
 //邀請
-[Type] =="Maven's Invitation: The Elderslayers" #	[StashItem]	 == "true" 		//殺手	拾取且存倉
-//[Type] =="Maven's Invitation: The Forgotten" #	[StashItem]	 == "true" 		//釋界之邀：遺忘	拾取且存倉
-[Type] =="Maven's Invitation: The Formed" #		[StashItem]	 == "true" 		//釋界之邀：塑型	拾取且存倉
-[Type] =="Maven's Invitation: The Twisted" #		[StashItem]	 == "true" 		//釋界之邀：扭曲	拾取且存倉
+[Type] =="Maven's Invitation: The Elderslayers" #	[StashItem]	 == "true" 		//殺手
+//[Type] =="Maven's Invitation: The Forgotten" #	[StashItem]	 == "true" 		//遺忘
+[Type] =="Maven's Invitation: The Formed" #		[StashItem]	 == "true" 		//塑型
+[Type] =="Maven's Invitation: The Twisted" #		[StashItem]	 == "true" 		//扭曲
 
 //綠門
-//[Type] == "Mortal Grief"             # 	[StashItem]	 == "true" 	//	//凡人的哀傷	拾取且存倉
-//[Type] == "Mortal Rage"              # 	[StashItem]	 == "true" 	//	//凡人的憤怒	拾取且存倉
-//[Type] == "Mortal Ignorance"         # 	[StashItem]	 == "true" 	//	//凡人的無知	拾取且存倉
-//[Type] == "Mortal Hope"              # 	[StashItem]	 == "true" 	//	//凡人的希望	拾取且存倉
+//[Type] == "Mortal Grief"             # 	[StashItem]	 == "true" 	//凡人的哀傷
+//[Type] == "Mortal Rage"              # 	[StashItem]	 == "true" 	//凡人的憤怒
+//[Type] == "Mortal Ignorance"         # 	[StashItem]	 == "true" 	//凡人的無知
+//[Type] == "Mortal Hope"              # 	[StashItem]	 == "true" 	//凡人的希望
 
 //紅門
-//[Type] == "Sacrifice at Dawn"        # 	[StashItem]	 == "true" 	//	//黎明的奉獻	拾取且存倉
-//[Type] == "Sacrifice at Noon"        # 	[StashItem]	 == "true" 	//	//正午的奉獻	拾取且存倉
-//[Type] == "Sacrifice at Dusk"        # 	[StashItem]	 == "true" 	//	//黃昏的奉獻	拾取且存倉
-//[Type] == "Sacrifice at Midnight"    # 	[StashItem]	 == "true" 	//	//午夜的奉獻	拾取且存倉
+//[Type] == "Sacrifice at Dawn"        # 	[StashItem]	 == "true" 	//黎明的奉獻
+//[Type] == "Sacrifice at Noon"        # 	[StashItem]	 == "true" 	//正午的奉獻
+//[Type] == "Sacrifice at Dusk"        # 	[StashItem]	 == "true" 	//黃昏的奉獻
+//[Type] == "Sacrifice at Midnight"    # 	[StashItem]	 == "true" 	//午夜的奉獻
 
 //[Type] == "Lingering Remnants" # 	[StashItem]	 == "true"	//殘墟(瓦爾密殿-物品等級:83-已汙染)	拾取且存倉
 //[Type] == "Last Hope" # 		[StashItem]	 == "true"	//最後希望(凡人的希望)	拾取且存倉
