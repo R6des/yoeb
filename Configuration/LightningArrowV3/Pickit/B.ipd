@@ -74,11 +74,13 @@
 
 [Category] 	== "Map" && [MapTier] >= "16"  && [Rarity] == "Normal"  #	[StashItem] == "true" // //普通地圖普通地圖撿取，普通地圖存倉
 [Category] 	== "Map" && [MapTier] >= "16"  && [Rarity] == "Magic"  #	[StashItem] == "true" // //藍地圖藍地圖撿取，藍地圖存倉
-//[Category] 	== "Map" && [MapTier] >= "16"  && [Rarity] == "Rare"  #		[StashItem] == "true" // //黃地圖黃地圖不撿，黃地圖售出
-s
+[Category] 	== "Map" && [MapTier] >= "16"  && [Rarity] == "Rare"  #		[StashItem] == "true" // //黃地圖黃地圖不撿，黃地圖售出
+[Category] 	== "Map" && [map_contains_citadel]>= "1"  #			[StashItem] == "true" // //勢力圖拾取並存倉
+//[Category] 	== "Map" && [MapTier] >= "1"  && [Rarity] == "Unique"  #	[StashItem] == "true" // //傳奇地圖傳
+[Category] 	== "Map" && [map_contains_citadel]>= "1"  #			[StashItem] == "true" // //勢力圖拾
+[Category] 	== "Map" && [map_elder_boss_variation] >= "1"  #		[StashItem] == "true" //
+[Category] 	== "Map" && [map_atlas_influence_type] >= "1"  #		[StashItem] == "true" //奇地圖不撿，傳奇地圖售出
 
-取並存倉
-//[Category] 	== "Map" && [MapTier] >= "1"  && [Rarity] == "Unique"  #	[StashItem] == "true" // //傳奇地圖傳奇地圖不撿，傳奇地圖售出
 
 //	Players are Cursed with Vulnerability	
 	[Category] == "Map" && [map_contains_citadel] >= "1" && [Rarity] == "Rare" #			[StashItem]	=="true"	//存征服者
@@ -570,4 +572,5 @@ s
 //	 [Type] == "Basalt Flask" # 	[StashItem]	 == "true" 	//	//石化藥劑	不撿不售== "true" 	//	//石化藥劑	不撿不售ㄟ?= "true" 	//	//石化藥劑	不撿不售滹?= "true" 	//	//石?化藥劑	不撿不售shItem]	 == "true" 	//	//堅岩藥劑	不撿不存倉																						
 //	 [Type] == "Jade Flask" # 	[StashItem]	 == "true" 	//	//翠玉藥劑	不撿不存倉																						
 //	 [Type] == "Quartz Flask" # 	[StashItem]	 == "true" 	//	//石英藥劑	不撿不存倉																						
-//	 [Type] == "Sulphur Flask" # 	[StashItem]	 == "true" 	//	//硫磺藥劑	不撿不存倉															
+//	 [Type] == "Sulphur Flask" # 	[StashItem]	 == "true" 	//	//硫磺藥劑	不撿不存倉																										
+//	 [Type] == "Basalt Flask" # 	[ashIt
