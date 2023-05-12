@@ -72,14 +72,14 @@
 
 //2022/12/24
 
-[Category] 	== "Map" && [MapTier] >= "16"  && [Rarity] == "Normal"  #	[StashItem] == "true" // //普通地圖普通地圖撿取，普通地圖存倉
-[Category] 	== "Map" && [MapTier] >= "16"  && [Rarity] == "Magic"  #	[StashItem] == "true" // //藍地圖藍地圖撿取，藍地圖存倉
-//[Category] 	== "Map" && [MapTier] >= "16"  && [Rarity] == "Rare"  #		[StashItem] == "true" // //黃地圖黃地圖不撿，黃地圖售出
-[Category] 	== "Map" && [map_contains_citadel]>= "1"  #			[StashItem] == "true" // //勢力圖拾取並存倉
-//[Category] 	== "Map" && [MapTier] >= "1"  && [Rarity] == "Unique"  #	[StashItem] == "true" // //傳奇地圖傳
-[Category] 	== "Map" && [map_contains_citadel]>= "1"  #			[StashItem] == "true" // //勢力圖拾
-[Category] 	== "Map" && [map_elder_boss_variation] >= "1"  #		[StashItem] == "true" //
-[Category] 	== "Map" && [map_atlas_influence_type] >= "1"  #		[StashItem] == "true" //奇地圖不撿，傳奇地圖售出
+[Category] 	== "Map" && [MapTier] >= "16"  && [Rarity] == "Normal"  #	[StashItem] == "true" //白
+[Category] 	== "Map" && [MapTier] >= "16"  && [Rarity] == "Magic"  #	[StashItem] == "true" //藍
+[Category] 	== "Map" && [MapTier] >= "16"  && [Rarity] == "Rare"  #		[StashItem] == "true" //黃
+[Category] 	== "Map" && [map_contains_citadel]>= "1"  #			[StashItem] == "true" //征服
+//[Category] 	== "Map" && [MapTier] >= "1"  && [Rarity] == "Unique"  #	[StashItem] == "true" //傳奇
+[Category] 	== "Map" && [map_contains_citadel]>= "1"  #			[StashItem] == "true" //征服
+//[Category] 	== "Map" && [map_elder_boss_variation] >= "1"  #		[StashItem] == "true" //尊師
+[Category] 	== "Map" && [map_atlas_influence_type] >= "1"  #		[StashItem] == "true" //四聖
 
 
 //	Players are Cursed with Vulnerability	
