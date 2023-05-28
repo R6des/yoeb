@@ -1,4 +1,8 @@
 所有命令的使用设置请看 使用说明 必看.chm
+1.7
+1、准确获取了怪物颜色，涉及到以下3个命令 如果有用到这3个命令区分怪物颜色的话，需要修改一下 分别为 AddAttackSkillData、SetUseTuTengMonsterShuXingCnt、SetDebuffSkill 详情请看说明
+记得搜索BD 内置数据 通用设置 使用到这3个命令的地方 都检查修改一下，不然有可能一直报错
+2、新增变量型命令  g_notAttackMonsterShuXingClassNameArr 不打含有某些属性的怪 默认为 不打 物理免疫、混沌免疫、火焰免疫、闪电免疫、冰凉免疫 自己可以编辑 详情看说明
 8.31
 1、新增变量型命令  g_needZhuangYuanLv=nil--数字型 满多少级打古灵庄园 nil为一直不打
 7.27
