@@ -12,10 +12,10 @@
 //[Type]=="Titan Gauntlets" && [Rarity] == "Unique" # [UniqueName] == "Kaom's Spirit" && [StashItem] == "true"
 
 //盟誓
-[Type]=="Rawhide Boots" && [Rarity] == "Unique" #[UniqueName]=="Seven-League Step"	#[StashItem] == "true"
+//[Type]=="Rawhide Boots" && [Rarity] == "Unique" #[UniqueName]=="Seven-League Step"	#[StashItem] == "true"
 
 //西里項鍊
-//[Type]=="Jade Amulet" && [Rarity] == "Unique" #[UniqueName]=="Hyrri's Truth"	#[StashItem] == "true"
+//[Type]=="Jade Amulet" && [Rarity] == "Unique" #[UniqueName]=="Hyrri's Truth"		#[StashItem] == "true"
 
 //2023/05/01解挑戰用
 //勢力物品
@@ -78,7 +78,7 @@
 [Category] 	== "Map" && [map_contains_citadel]>= "1"  #			[StashItem] == "true" //征服
 //[Category] 	== "Map" && [MapTier] >= "1"  && [Rarity] == "Unique"  #	[StashItem] == "true" //傳奇
 [Category] 	== "Map" && [map_contains_citadel]>= "1"  #			[StashItem] == "true" //征服
-//[Category] 	== "Map" && [map_elder_boss_variation] >= "1"  #		[StashItem] == "true" //尊師
+[Category] 	== "Map" && [map_elder_boss_variation] >= "1"  #		[StashItem] == "true" //尊師
 [Category] 	== "Map" && [map_atlas_influence_type] >= "1"  #		[StashItem] == "true" //四聖
 
 
@@ -208,13 +208,13 @@
 [Type] == "Mirror Shard"# 		[StashItem] == "true"//魔鏡碎片
 [Type] == "Ancient Shard"# 		[StashItem] == "true"//古變石碎片
 [Type] == "Exalted Shard"# 		[StashItem] == "true"//崇高石碎片
-[Type] == "Orb of Regret"# 		[StashItem] == "true"//後悔石
-[Type] == "Orb of Unmaking"# 		[StashItem] == "true"//撤銷石
+//[Type] == "Orb of Regret"# 		[StashItem] == "true"//後悔石
+//[Type] == "Orb of Unmaking"# 		[StashItem] == "true"//撤銷石
 //[Type] == "Orb of Horizons"# 		[StashItem] == "true"//地平石
 //[Type] == "Enkindling Orb"# 		[StashItem] == "true"//點燃石
 [Type] == "Orb of Annulment"# 		[StashItem] == "true"//無效
 //[Type] == "Orb of Scouring"# 		[StashItem] == "true"//重鑄
-[Type] == "Gemcutter's Prism"# 		[StashItem] == "true"//GCP
+//[Type] == "Gemcutter's Prism"# 	[StashItem] == "true"//GCP
 //[Type] == "Regal Orb" # 		[StashItem] == "true"//富豪
 //[Type] == "Vaal Orb" # 		[StashItem] == "true"//瓦寶
 [Type] == "Awakened Sextant" # 		[StashItem] == "true"//六分
@@ -231,16 +231,16 @@
 [Type] == "Timeless Templar Emblem" # 			[StashItem] == "true"//永恆聖宗徽印拾取且存倉
 [Type] == "Timeless Vaal Emblem"# 			[StashItem] == "true"//永恆瓦爾徽印拾取且存倉
 
-[Type] == "Empower Support" #		[StashItem] == "true"//賦予輔助拾取且存倉
+//[Type] == "Empower Support" #		[StashItem] == "true"//賦予輔助拾取且存倉
 //[Type] == "Enhance Support" #		[StashItem] == "true"//增幅輔助不撿不存倉
-[Type] == "Enlighten Support" #		[StashItem] == "true"//啟蒙輔助拾取且存倉
+//[Type] == "Enlighten Support" #	[StashItem] == "true"//啟蒙輔助拾取且存倉
 
 [Type] == "The Apothecary" #		[StashItem] == "true" //藥劑師
 [Type] =="Incandescent Invitation" #	[StashItem] == "true" //熾熱之邀
 //[Type] =="Polaric Invitation" #	[StashItem] == "true" //極地之邀
 [Type] == "Screaming Invitation" #	[StashItem] == "true" //尖哮之邀
 //[Type] =="Writhing Invitation" #	[StashItem] == "true" //纏繞之邀
-[Type] == "Humility" # 			[StashItem] == "true" //謙遜
+//[Type] == "Humility" # 		[StashItem] == "true" //謙遜
 [Type] == "House of Mirrors" # 		[StashItem] == "true" //明鏡
 [Type] == "The Doctor" # 		[StashItem] == "true" //瘋醫
 [Type] == "The Demon" # 		[StashItem] == "true" //惡魔
@@ -555,22 +555,21 @@
 //	[Type] == "Bismuth Flask" # 	[StashItem]	 == "true" 	//	//灰岩藥劑	不撿不存倉																						
 //	[Type] == "Stibnite Flask" # 	[StashItem]	 == "true" 	//	//迷霧藥劑	不撿不存倉																						
 //	[Type] == "Amethyst Flask"# 	[StashItem]	 == "true"	//	//紫晶藥劑	不撿不存倉																						
-//	 [Type] == "Ruby Flask" # 	[StashItem]	 == "true" 	//	//紅玉藥劑	不撿不存倉																						
-//	 [Type] == "Sapphire Flask" # 	[StashItem]	 == "true" 	//	//藍玉藥劑	不撿不存倉																						
-//	 [Type] == "Topaz Flask" # 	[StashItem]	 == "true" 	//	//黃玉藥劑	不撿不存倉																						
-//	 [Type] == "Silver Flask" # 	[StashItem]	 == "true" 	//	//真銀藥劑	不撿不存倉																						
-//	 [Type] == "Aquamarine Flask" # [StashItem]	 == "true" 	//	//海藍藥劑	不撿不存倉																						
-//	 [Type] == "Diamond Flask" # 	[StashItem]	 == "true" 	//	//寶鑽藥劑	不撿不存倉																						
-//	 [Type] == "Granite Flask" # 	[StashItem]	 == "true" 	//	//堅岩藥劑	不撿不存倉																						
-//	 [Type] == "Jade Flask" # 	[StashItem]	 == "true" 	//	//翠玉藥劑	不撿不存倉																						
-//	 [Type] == "Quartz Flask" # 	[StashItem]	 == "true" 	//	//石英藥劑	不撿不存倉																						
-//	 [Type] == "Sulphur Flask" # 	[StashItem]	 == "true" 	//	//硫磺藥劑	不撿不存倉																						
-//	 [Type] == "Basalt Flask" # 	[StashItem]	 == "true" 	//	//石化藥劑	不撿不售== "true" 	//	//石化藥劑	不撿不售ㄟ?= "true" 	//	//石化藥劑	不撿不售滹?= "true" 	//	//石化藥劑	不撿不售shItem]	 == "true" 	//	//堅岩藥劑	不撿不存倉																						
-//	 [Type] == "Jade Flask" # 	[StashItem]	 == "true" 	//	//翠玉藥劑	不撿不存倉																						
-//	 [Type] == "Quartz Flask" # 	[StashItem]	 == "true" 	//	//石英藥劑	不撿不存倉																						
-//	 [Type] == "Sulphur Flask" # 	[StashItem]	 == "true" 	//	//硫磺藥劑	不撿不存倉																						
-//	 [Type] == "Basalt Flask" # 	[StashItem]	 == "true" 	//	//石化藥劑	不撿不售== "true" 	//	//石化藥劑	不撿不售ㄟ?= "true" 	//	//石化藥劑	不撿不售滹?= "true" 	//	//石?化藥劑	不撿不售shItem]	 == "true" 	//	//堅岩藥劑	不撿不存倉																						
-//	 [Type] == "Jade Flask" # 	[StashItem]	 == "true" 	//	//翠玉藥劑	不撿不存倉																						
-//	 [Type] == "Quartz Flask" # 	[StashItem]	 == "true" 	//	//石英藥劑	不撿不存倉																						
-//	 [Type] == "Sulphur Flask" # 	[StashItem]	 == "true" 	//	//硫磺藥劑	不撿不存倉																										
-//	 [Type] == "Basalt Flask" # 	[ashIt
+//	[Type] == "Ruby Flask" # 	[StashItem]	 == "true" 	//	//紅玉藥劑	不撿不存倉																						
+//	[Type] == "Sapphire Flask" # 	[StashItem]	 == "true" 	//	//藍玉藥劑	不撿不存倉																						
+//	[Type] == "Topaz Flask" # 	[StashItem]	 == "true" 	//	//黃玉藥劑	不撿不存倉																						
+//	[Type] == "Silver Flask" # 	[StashItem]	 == "true" 	//	//真銀藥劑	不撿不存倉																						
+//	[Type] == "Aquamarine Flask" # [StashItem]	 == "true" 	//	//海藍藥劑	不撿不存倉																						
+//	[Type] == "Diamond Flask" # 	[StashItem]	 == "true" 	//	//寶鑽藥劑	不撿不存倉																						
+//	[Type] == "Granite Flask" # 	[StashItem]	 == "true" 	//	//堅岩藥劑	不撿不存倉																						
+//	[Type] == "Jade Flask" # 	[StashItem]	 == "true" 	//	//翠玉藥劑	不撿不存倉																						
+//	[Type] == "Quartz Flask" # 	[StashItem]	 == "true" 	//	//石英藥劑	不撿不存倉																						
+//	[Type] == "Sulphur Flask" # 	[StashItem]	 == "true" 	//	//硫磺藥劑	不撿不存倉																						
+//	[Type] == "Basalt Flask" # 	[StashItem]	 == "true" 	//	//石化藥劑	不撿不售
+//	[Type] == "Jade Flask" # 	[StashItem]	 == "true" 	//	//翠玉藥劑	不撿不存倉																						
+//	[Type] == "Quartz Flask" # 	[StashItem]	 == "true" 	//	//石英藥劑	不撿不存倉																						
+//	[Type] == "Sulphur Flask" # 	[StashItem]	 == "true" 	//	//硫磺藥劑	不撿不存倉																						
+//	[Type] == "Basalt Flask" # 	[StashItem]	 == "true" 	//	//石化藥劑	不撿不售
+//	[Type] == "Jade Flask" # 	[StashItem]	 == "true" 	//	//翠玉藥劑	不撿不存倉																						
+//	[Type] == "Quartz Flask" # 	[StashItem]	 == "true" 	//	//石英藥劑	不撿不存倉																						
+//	[Type] == "Sulphur Flask" # 	[StashItem]	 == "true" 	//	//硫磺藥劑	不撿不存倉
