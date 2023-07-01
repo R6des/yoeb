@@ -139,10 +139,10 @@
 //下面是3.19以前
 
 //邀請
-//[Type] =="Maven's Invitation: The Elderslayers" #	[StashItem]	 == "true" 		//殺手
+[Type] =="Maven's Invitation: The Elderslayers" #	[StashItem]	 == "true" 		//殺手
 //[Type] =="Maven's Invitation: The Forgotten" #	[StashItem]	 == "true" 		//遺忘
-//[Type] =="Maven's Invitation: The Formed" #		[StashItem]	 == "true" 		//塑型
-//[Type] =="Maven's Invitation: The Twisted" #		[StashItem]	 == "true" 		//扭曲
+[Type] =="Maven's Invitation: The Formed" #		[StashItem]	 == "true" 		//塑型
+[Type] =="Maven's Invitation: The Twisted" #		[StashItem]	 == "true" 		//扭曲
 
 //綠門
 //[Type] == "Mortal Grief"             # 	[StashItem]	 == "true" 	//凡人的哀傷
@@ -572,5 +572,4 @@
 //	[Type] == "Basalt Flask" # 	[StashItem]	 == "true" 	//	//石化藥劑	不撿不售
 //	[Type] == "Jade Flask" # 	[StashItem]	 == "true" 	//	//翠玉藥劑	不撿不存倉																						
 //	[Type] == "Quartz Flask" # 	[StashItem]	 == "true" 	//	//石英藥劑	不撿不存倉																						
-//	[Type] == "Sulphur Flask" # 	[StashItem]	 == "true" 	//	//硫磺藥劑	不撿不存倉[Type] == "Quartz Flask" # 	[StashItem]	 == "true" 	//	//石英藥劑	不撿不存倉																						
-//	[Type] == "Sulphur Flask" # 	[StashItem]	 == "true" 	//	//硫磺藥劑	不撿不存倉								
+//	[Type] == "Sulphur Flask" # 	[StashItem]	 == "true" 	//	//硫磺藥劑	不撿不存倉
