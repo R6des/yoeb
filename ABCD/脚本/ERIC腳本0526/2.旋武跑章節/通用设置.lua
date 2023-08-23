@@ -25,17 +25,17 @@ g_addTianFu=true				--自动按设定好的配置加天赋 true为加 nil或false为不加
 g_shengJiBaoShi=true			--自动升级宝石 true为升级 nil或false为不升级
 g_sellSkillGem=true				--自动卖超过40品质的技能宝石
 g_notHuanYaoLv=82				--大于等于多少级只捡蓝色以上药 
-g_needAutoChangeEquip=false		--开启自动换装 true为换 nil或false为不换
-g_needAutoSetBaoShi=false		--开启自动换宝石 true为换 nil或false为不换
-g_bossGiveZhuangBei=false		--交易时仓库号给予缺少的高级换装中的装备 true为给 false为不给 是对仓库号设置的
+g_needAutoChangeEquip=true		--开启自动换装 true为换 nil或false为不换
+g_needAutoSetBaoShi=true		--开启自动换宝石 true为换 nil或false为不换
+g_bossGiveZhuangBei=true		--交易时仓库号给予缺少的高级换装中的装备 true为给 false为不给 是对仓库号设置的
 g_xiaoHaoGetZhuangBei=false		--挂机号向发装仓库号申请领高级换装中的装备 true为申请 false为不申请 
 
 --SetZhuangBeiBoss(bossName,srvName)--设置发装仓库号 bossName=发装号名字 字符串型 srvName=服务器名字，如果多个区用同一份配置的话填上服务器名字可单独区分 如果不是可忽略 或填nil 
 --SetZhuangBeiBoss("这里填上你自己的发装仓库号名字","区名字")--发装备的仓库号 如果不需要 就注释掉 只有挂机号跟仓库号都是 外挂账号 才有效
 
---SetNeedAddTianFu(tfStr)--设置异界天赋加点 
-SetNeedAddTianFu("异界地图天赋=atlas_boss_adjacent_maps_2-相鄰地圖掉落機率|atlas_path_11-相鄰地圖掉落機率|atlas_path_23_-相鄰地圖掉落機率|atlas_boss_adjacent_maps_1-相鄰地圖掉落機率|atlas_boss_adjacent_maps_8-相鄰地圖掉落機率|atlas_kirac_1_10-基拉克任務機率|atlas_kirac_1_9-基拉克任務機率|atlas_zana_1_6-重點偵察|atlas_kirac_1_8_-基拉克任務機率|atlas_kirac_1_7-基拉克任務機率|atlas_path_96-掉落複製地圖|atlas_map_tier_5_1-高階地圖機率|atlas_map_tier_5_2-高階地圖機率|atlas_map_tier_4_1-高階地圖機率|atlas_map_tier_3_1-高階地圖機率|atlas_map_tier_3_2-高階地圖機率|atlas_path_94-掉落複製地圖|atlas_map_drops_8-掉落複製地圖|atlas_path_92-掉落複製地圖|atlas_path_61-物品數量|atlas_path_44-物品數量|atlas_path_35-物品數量|atlas_path_90-掉落複製地圖|atlas_keystone_smallnodes_1-流浪之路|atlas_path_38-相鄰地圖掉落機率|atlas_path_21-相鄰地圖掉落機率|atlas_path_27-相鄰地圖掉落機率|atlas_map_tier_2_1-高階地圖機率|atlas_map_tier_2_2-高階地圖機率|atlas_path_37-相鄰地圖掉落機率|atlas_path_30-相鄰地圖掉落機率|atlas_path_18-相鄰地圖掉落機率|atlas_map_tier_1_2_-高階地圖機率|atlas_map_tier_1_1-高階地圖機率|atlas_path_15-相鄰地圖掉落機率|atlas_path_2-相鄰地圖掉落機率|atlas_kirac_2_1-基拉克任務機率|atlas_kirac_2_2-基拉克任務機率|atlas_kirac_2_3-基拉克任務機率|atlas_path_6-相鄰地圖掉落機率|atlas_path_8-相鄰地圖掉落機率|atlas_path_5-相鄰地圖掉落機率|atlas_path_13-相鄰地圖掉落機率|atlas_path_10-相鄰地圖掉落機率|atlas_path_19-相鄰地圖掉落機率|atlas_path_1-相鄰地圖掉落機率|atlas_path_20-相鄰地圖掉落機率|atlas_path_9-相鄰地圖掉落機率|atlas_path_22-相鄰地圖掉落機率|atlas_path_12-相鄰地圖掉落機率|atlas_path_24_-相鄰地圖掉落機率|atlas_path_16-相鄰地圖掉落機率|atlas_path_25_-相鄰地圖掉落機率|atlas_map_drops_4-掉落複製地圖|atlas_path_83-掉落複製地圖|atlas_map_drops_5-掉落複製地圖|atlas_path_84-掉落複製地圖|atlas_path_95-掉落複製地圖|atlas_map_drops_9-掉落複製地圖|atlas_map_drops_15-掉落複製地圖|atlas_path_82-掉落複製地圖|atlas_map_drops_14-掉落複製地圖|atlas_path_85-掉落複製地圖|atlas_map_drops_16-掉落複製地圖|atlas_map_drops_1-掉落複製地圖|atlas_map_drops_2-掉落複製地圖|atlas_map_drops_20-掉落複製地圖|atlas_path_93-掉落複製地圖|")
 
+--SetNeedAddTianFu(tfStr)--设置异界天赋加点 
+SetNeedAddTianFu("异界地图天赋=atlas_boss_adjacent_maps_2-相鄰地圖掉落機率|atlas_path_11-相鄰地圖掉落機率|atlas_path_23_-相鄰地圖掉落機率|atlas_boss_adjacent_maps_1-相鄰地圖掉落機率|atlas_boss_adjacent_maps_8-相鄰地圖掉落機率|atlas_kirac_1_10-基拉克任務機率|atlas_kirac_1_9-基拉克任務機率|atlas_zana_1_6-重點偵察|atlas_kirac_1_8_-基拉克任務機率|atlas_kirac_1_7-基拉克任務機率|atlas_path_96-掉落複製地圖|atlas_map_tier_5_1-高階地圖機率|atlas_map_tier_5_2-高階地圖機率|atlas_map_tier_4_1-高階地圖機率|atlas_map_tier_3_1-高階地圖機率|atlas_map_tier_3_2-高階地圖機率|atlas_path_94-掉落複製地圖|atlas_map_drops_8-掉落複製地圖|atlas_path_92-掉落複製地圖|atlas_path_61-物品數量|atlas_path_44-物品數量|atlas_path_35-物品數量|atlas_path_90-掉落複製地圖|atlas_keystone_smallnodes_1-流浪之路|atlas_path_38-相鄰地圖掉落機率|atlas_path_21-相鄰地圖掉落機率|atlas_path_27-相鄰地圖掉落機率|atlas_map_tier_2_1-高階地圖機率|atlas_map_tier_2_2-高階地圖機率|atlas_path_37-相鄰地圖掉落機率|atlas_path_30-相鄰地圖掉落機率|atlas_path_18-相鄰地圖掉落機率|atlas_map_tier_1_2_-高階地圖機率|atlas_map_tier_1_1-高階地圖機率|atlas_path_6-相鄰地圖掉落機率|atlas_path_8-相鄰地圖掉落機率|atlas_path_5-相鄰地圖掉落機率|atlas_path_13-相鄰地圖掉落機率|atlas_path_10-相鄰地圖掉落機率|atlas_path_19-相鄰地圖掉落機率|atlas_path_1-相鄰地圖掉落機率|atlas_path_20-相鄰地圖掉落機率|atlas_path_9-相鄰地圖掉落機率|atlas_path_22-相鄰地圖掉落機率|atlas_path_12-相鄰地圖掉落機率|atlas_path_24_-相鄰地圖掉落機率|atlas_path_16-相鄰地圖掉落機率|atlas_path_25_-相鄰地圖掉落機率|atlas_map_drops_4-掉落複製地圖|atlas_path_83-掉落複製地圖|atlas_map_drops_5-掉落複製地圖|atlas_path_84-掉落複製地圖|atlas_path_95-掉落複製地圖|atlas_map_drops_9-掉落複製地圖|atlas_map_drops_15-掉落複製地圖|atlas_path_82-掉落複製地圖|atlas_map_drops_14-掉落複製地圖|atlas_map_drops_16-掉落複製地圖|atlas_map_drops_1-掉落複製地圖|atlas_map_drops_2-掉落複製地圖|atlas_map_drops_20-掉落複製地圖|")
 
 --添加在做到某个任务时购买技能宝石
 --AddNeedBuySkillTime(city,task)-- city=城市索引数值型 1-11 task=任务类名 字符串型 任务类名可以在调试窗口中点击 所有任务 按钮查看到
@@ -49,13 +49,20 @@ AddNeedBuySkillTime(1,"a1q6")
 AddNeedBuySkillTime(1,"a1q9")
 AddNeedBuySkillTime(1,"a1q7")
 ----A2
-AddNeedBuySkillTime(2,"a2q7")
+AddNeedBuySkillTime(2,"a2q11")
+AddNeedBuySkillTime(1,"a2q11")
+AddNeedBuySkillTime(2,"a2q6")
 AddNeedBuySkillTime(1,"a2q6")
+AddNeedBuySkillTime(2,"a2q7")
+AddNeedBuySkillTime(1,"a2q7")
+AddNeedBuySkillTime(2,"a2q4")
+AddNeedBuySkillTime(1,"a2q4")
 AddNeedBuySkillTime(2,"a2q9")
 AddNeedBuySkillTime(1,"a2q9")
 AddNeedBuySkillTime(2,"a2q2")
-AddNeedBuySkillTime(1,"a2q8")
 AddNeedBuySkillTime(1,"a2q2")
+AddNeedBuySkillTime(2,"a2q8")
+AddNeedBuySkillTime(1,"a2q8")
 -----A3
 AddNeedBuySkillTime(2,"a3q1")
 AddNeedBuySkillTime(2,"a3q11")
@@ -91,9 +98,9 @@ AddNeedBuySkillTime(11,"a11q1")	--在拾取碎片 这个任务时检测购买一遍
 
 
 --药瓶摆放
---SetNeedFlaskData(pos,flask)--设置药  pos=位置 1-5  flask=药 字符串型，支持以下 (生命药剂,魔力药剂,复合药剂,宝钻药剂,红玉药剂,蓝玉药剂,黄玉药剂,坚岩药剂,水银药剂,紫晶药剂,石英药剂,翠玉药剂,石化药剂,海蓝药剂,迷雾药剂,硫磺药剂,真银药剂,灰岩药剂)
-SetNeedFlaskData(1,"生命药剂","nil")
-SetNeedFlaskData(2,"魔力药剂","nil")
+--SetNeedFlaskData(pos,flask,modsData,minLv)--设置药瓶摆放
+SetNeedFlaskData(1,"生命药剂","熱情洋溢的,FlaskPartialInstantRecovery3|密封之,FlaskBleedCorruptingBloodImmunity1",90)
+SetNeedFlaskData(2,"魔力药剂","耐久的,FlaskEffectNotRemovedOnFullMana1|奧術師之FlaskBuffReducedManaCostWhileHealing4",90)
 SetNeedFlaskData(3,"宝钻药剂","nil")
 SetNeedFlaskData(4,"紫晶药剂","nil")
 SetNeedFlaskData(5,"水银药剂","nil")
@@ -131,9 +138,9 @@ SetZhongShenData("Lunaris","Gruthkul")--设置月影女神之魂与绝望之母 格鲁丝克之魂
 
 -------注意要大类在前 小类 单独设置在后面添加
 SetSaveIndex("通货|可堆叠通货","1")
-SetSaveIndex("异界地图","2|3|4")
+SetSaveIndex("异界地图","2")
 SetSaveIndex("项链|戒指|爪|匕首|法杖|单手剑|细剑|单手斧|单手锤|符文匕首|短杖|战杖|弓|长杖|双手剑|双手斧|双手锤|腰带|手套|鞋子|头盔","3|4")
-SetSaveIndex("珠宝|命运卡|衣服|盾|箭袋|地图碎片","4")
+SetSaveIndex("主动技能宝石|辅助技能宝石|珠宝|命运卡|衣服|盾|箭袋|地图碎片","4")
 SetSaveIndex("生命药剂|魔力药剂|复合药剂|功能药剂","4")
 SetSaveIndex(nil,"4","鍊魔眼睛","Metadata/Items/Metamorphosis/MetamorphosisEye")
 SetSaveIndex(nil,"4","预言","Metadata/Items/Currency/CurrencyItemisedProphecy")
@@ -159,14 +166,14 @@ g_yuyanCnt=nil				--够多少银币去预言，小于10银币或填nil将不会触发 如果设定去预言
 --SetNotMapGoMap(className,cnt) 设置无地图或未到等级时要刷的剧情地图 className字符串型 地图类名 cnt=次数
 SetNotMapGoMap("2_9_1",10)	--无地图时刷血色通道
 
-g_yiJieLv=72				--够了多少级才去刷异界
-g_checkSellMapCnt=60		--地图超过这个数量才会检测出售地图
-g_destroyNoUseMap=false		--销毁上面设置不使用的地图 nil或false为不销毁
-g_mapUseFuHaoLv=76			--大于等于多少级对蓝图使用富豪石 nil为永远不使用
-g_mapUseZengFuLv=nil			--大于等于多少级对蓝图使用增幅石 nil为永远不使用
+g_yiJieLv=90				--够了多少级才去刷异界
+g_checkSellMapCnt=100		--地图超过这个数量才会检测出售地图
+g_destroyNoUseMap=true		--销毁上面设置不使用的地图 nil或false为不销毁
+g_mapUseFuHaoLv=78			--大于等于多少级对蓝图使用富豪石 nil为永远不使用
+g_mapUseZengFuLv=78			--大于等于多少级对蓝图使用增幅石 nil为永远不使用
 g_mapUseDianJingLv=76		--大于等于多少级对白图使用点金石 nil为永远不使用
 g_mapUseTuiBianLv=72		--大于等于多少级对白图使用蜕变石 nil为永远不使用
-g_mapUseJiHuiLv=nil			--大于等于多少级对白图使用机会石 nil为永远不使用
+g_mapUseJiHuiLv=83			--大于等于多少级对白图使用机会石 nil为永远不使用
 g_mapUseWaErLv=83			--大于等于多少级对白、蓝地图使用瓦尔宝珠 nil为永远不使用
 g_mapUseDingZiLv=nil			--大于等于多少级使用制图钉 nil为永远不使用
 g_noUseMapLv=0				--不使用、不捡多少阶及以上的地图 nil或0为忽略 设置优先的地图除外
@@ -179,9 +186,11 @@ g_mapUseOrangeMap=false		--true为使用橙图 nil或false为不使用
 
 
 -- SetNoUseMapShuXing(className)--设置不使用带有某种属性的地图,参数 className为属性类名
+SetNoUseMapShuXing("map_monsters_reflect_%_physical_damage")--设置不打物理反射属性
 SetNoUseMapShuXing("map_monsters_reflect_%_elemental_damage")--设置不打魔法反射属性
 SetNoUseMapShuXing("map_players_no_regeneration_including_es")--无法回复
 SetNoUseMapShuXing("is_blighted_map")--凋落地图
+
 
 --SetLastEnterSmallMap(mapClassName)--设置需要后进小房间的异界地图
 --mapClassName 异界地图类名 字符串型
@@ -198,63 +207,18 @@ SetLastEnterSmallMap("MapWorldsArena")--競技場
 SetLastEnterSmallMap("MapWorldsOvergrownRuin")--長草遺跡
 SetLastEnterSmallMap("MapWorldsGorge")--冰川山丘
 
-
-
 --SetSellGoodsData(name,className,cnt,color)--设置卖(换)的地图 
 --name=物品名 className=物品类名 先识别物品名 识别不到就识别类名 cnt=够多少去卖 color=颜色 0白 1蓝 2黄 多个用|隔开
 
-SetSellGoodsData("露台花園","Metadata/Items/Maps/MapWorldsTerrace",3,"0|1|2|")
-SetSellGoodsData("岩漿熔湖","Metadata/Items/Maps/MapWorldsLavaLake",3,"0|1|2|")
-SetSellGoodsData("致命岩灘","Metadata/Items/Maps/MapWorldsStrand",9,"0|1|2|")
-SetSellGoodsData("靜縊陵墓","Metadata/Items/Maps/MapWorldsMausoleum",3,"0|1|2|")
-
-SetSellGoodsData("岔河","Metadata/Items/Maps/MapWorldsForkingRiver",3,"0|1|2|")
-SetSellGoodsData("危城巷弄","Metadata/Items/Maps/MapWorldsAlleyways",3,"0|1|2|")
-SetSellGoodsData("巨蛛之林","Metadata/Items/Maps/MapWorldsSpiderForest",3,"0|1|2|")
-SetSellGoodsData("遺跡廢墟","Metadata/Items/Maps/MapWorldsCastleRuins",3,"0|1|2|")
-SetSellGoodsData("異蛛墓塚","Metadata/Items/Maps/MapWorldsArachnidTomb",3,"0|1|2|")
-SetSellGoodsData("嬋娟神殿","Metadata/Items/Maps/MapWorldsMoonTemple",3,"0|1|2|")
-SetSellGoodsData("緋紅神殿","Metadata/Items/Maps/MapWorldsCrimsonTemple",3,"0|1|2|")
-
-SetSellGoodsData("海風高原","Metadata/Items/Maps/MapWorldsPlateauk",3,"0|1|2|")
-SetSellGoodsData("火山炎口","Metadata/Items/Maps/MapWorldsCaldera",3,"0|1|2|")
-SetSellGoodsData("失落城塢","Metadata/Items/Maps/MapWorldsPort",3,"0|1|2|")
-SetSellGoodsData("疾風峽灣","Metadata/Items/Maps/MapWorldsCoves",3,"0|1|2|")
-SetSellGoodsData("魔靈幻獄","Metadata/Items/Maps/MapWorldsPhantasmagoria",3,"0|1|2|")
-SetSellGoodsData("骨跡陵墓","Metadata/Items/Maps/MapWorldsBoneCrypt",3,"0|1|2|")
-SetSellGoodsData("陰暗墓塚","Metadata/Items/Maps/MapWorldsSepulchre",3,"0|1|2|")
-SetSellGoodsData("古博物館","Metadata/Items/Maps/MapWorldsMuseum",3,"0|1|2|")
-
-SetSellGoodsData("破碎堡礁","Metadata/Items/Maps/MapWorldsCoralRuins",3,"0|1|2|")
-SetSellGoodsData("濱海山丘","Metadata/Items/Maps/MapWorldsAtoll",3,"0|1|2|")
-SetSellGoodsData("暮光海灘","Metadata/Items/Maps/MapWorldsShore",3,"0|1|2|")
-SetSellGoodsData("巨蛛巢穴","Metadata/Items/Maps/MapWorldsSpiderLair",3,"0|1|2|")
-SetSellGoodsData("異蛛巢穴","Metadata/Items/Maps/MapWorldsArachnidNest",3,"0|1|2|")
-SetSellGoodsData("驚懼樹叢","Metadata/Items/Maps/MapWorldsThicket",3,"0|1|2|")
-SetSellGoodsData("瓦爾金字塔","Metadata/Items/Maps/MapWorldsVaalPyramid",3,"0|1|2|")
-SetSellGoodsData("神主居所","Metadata/Items/Maps/MapWorldsResidence",3,"0|1|2|")
-
-SetSellGoodsData("瘴氣泥沼","Metadata/Items/Maps/MapWorldsBog",3,"0|1|2|")
-SetSellGoodsData("奇術之庭","Metadata/Items/Maps/MapWorldsCourtyard",3,"0|1|2|")
-SetSellGoodsData("怒浪之港","Metadata/Items/Maps/MapWorldsPier",3,"0|1|2|")
-SetSellGoodsData("象牙神殿","Metadata/Items/Maps/MapWorldsIvoryTemple",3,"0|1|2|")
-SetSellGoodsData("儲物倉","Metadata/Items/Maps/MapWorldsSilo",3,"0|1|2|")
-SetSellGoodsData("酸岩酸嶼","Metadata/Items/Maps/MapWorldsAcidCaverns",3,"0|1|2|")
-SetSellGoodsData("實驗居所","Metadata/Items/Maps/MapWorldsLaboratory",3,"0|1|2|")
-SetSellGoodsData("奪魂之殿","Metadata/Items/Maps/MapWorldsTemple",3,"0|1|2|")
-
-SetSellGoodsData("密草神殿","Metadata/Items/Maps/MapWorldsOvergrownShrine",3,"0|1|2|")
-SetSellGoodsData("鐵鏽工廠","Metadata/Items/Maps/MapWorldsFactory",3,"0|1|2|")
-
-
-
 SetSellGoodsData("劇毒林谷","Metadata/Items/Maps/MapWorldsJungleValley",3,"0|1|2|")
+SetSellGoodsData("毒牙海港","Metadata/Items/Maps/MapWorldsWharf",3,"0|1|2|")
 SetSellGoodsData("怒浪之港","Metadata/Items/Maps/MapWorldsPier",3,"0|1|2|")
 SetSellGoodsData("白沙灘頭","Metadata/Items/Maps/MapWorldsBeach",3,"0|1|2|")
 SetSellGoodsData("魅影別墅","Metadata/Items/Maps/MapWorldsVilla",3,"0|1|2|")
 SetSellGoodsData("密林果園","Metadata/Items/Maps/MapWorldsOrchard",3,"0|1|2|")
 SetSellGoodsData("惡咒陵墓","Metadata/Items/Maps/MapWorldsCursedCrypt",9,"0|1|2|")
 SetSellGoodsData("軍械庫","Metadata/Items/Maps/MapWorldsArmoury",3,"0|1|2|")
+SetSellGoodsData("實驗居所","Metadata/Items/Maps/MapWorldsLaboratory",3,"0|1|2|")
 SetSellGoodsData("濱海堡壘","Metadata/Items/Maps/MapWorldsRamparts",3,"0|1|2|")
 SetSellGoodsData("濱海幽穴","Metadata/Items/Maps/MapWorldsUndergroundSea",9,"0|1|2|")
 SetSellGoodsData("旱木林地","Metadata/Items/Maps/MapWorldsAshenWood",9,"0|1|2|")
@@ -262,6 +226,7 @@ SetSellGoodsData("靜縊陵墓","Metadata/Items/Maps/MapWorldsMausoleum",3,"0|1|2|")
 SetSellGoodsData("幽魂宅邸","Metadata/Items/Maps/MapWorldsHauntedMansion",3,"0|1|2|")
 SetSellGoodsData("無疆田野","Metadata/Items/Maps/MapWorldsFields",3,"0|1|2|")
 SetSellGoodsData("冰川山丘","Metadata/Items/Maps/MapWorldsGorge",3,"0|1|2|")
+SetSellGoodsData("致命岩灘","Metadata/Items/Maps/MapWorldsStrand",9,"0|1|2|")
 SetSellGoodsData("乾潮林地","Metadata/Items/Maps/MapWorldsPeninsula",3,"0|1|2|")
 SetSellGoodsData("毒菌魔域","Metadata/Items/Maps/MapWorldsSprings",9,"0|1|2|")
 SetSellGoodsData("貧瘠之地","Metadata/Items/Maps/MapWorldsDesert",3,"0|1|2|")
@@ -273,9 +238,14 @@ SetSellGoodsData("疾風峽灣","Metadata/Items/Maps/MapWorldsCoves",3,"0|1|2|")
 SetSellGoodsData("瘴氣泥沼","Metadata/Items/Maps/MapWorldsBog",3,"0|1|2|")
 SetSellGoodsData("荒地","Metadata/Items/Maps/MapWorldsWasteland",3,"0|1|2|")
 SetSellGoodsData("雲頂鐘樓","Metadata/Items/Maps/MapWorldsBelfry",3,"0|1|2|")
+SetSellGoodsData("古博物館","Metadata/Items/Maps/MapWorldsMuseum",3,"0|1|2|")
 SetSellGoodsData("競技場","Metadata/Items/Maps/MapWorldsArena",3,"0|1|2|")
 SetSellGoodsData("晨曦墓地","Metadata/Items/Maps/MapWorldsCemetery",3,"0|1|2|")
 SetSellGoodsData("魔金寶庫","Metadata/Items/Maps/MapWorldsVault",3,"0|1|2|")
+SetSellGoodsData("危機水道","Metadata/Items/Maps/MapWorldsWaterways",3,"0|1|2|")
+SetSellGoodsData("嬋娟神殿","Metadata/Items/Maps/MapWorldsMoonTemple",3,"0|1|2|")
+SetSellGoodsData("瓦爾金字塔","Metadata/Items/Maps/MapWorldsVaalPyramid",3,"0|1|2|")
+SetSellGoodsData("長草遺跡","Metadata/Items/Maps/MapWorldsOvergrownRuin",3,"0|1|2|")
 SetSellGoodsData("遠古市集","Metadata/Items/Maps/MapWorldsBazaar",9,"0|1|2|")
 SetSellGoodsData("暮色沙丘","Metadata/Items/Maps/MapWorldsDunes",9,"0|1|2|")
 SetSellGoodsData("奪魂之殿","Metadata/Items/Maps/MapWorldsTemple",3,"0|1|2|")
@@ -284,18 +254,21 @@ SetSellGoodsData("腐敗下水道","Metadata/Items/Maps/MapWorldsToxicSewer",3,"0|1|2
 SetSellGoodsData("火山炎域","Metadata/Items/Maps/MapWorldsVolcano",9,"0|1|2|")
 SetSellGoodsData("古典密室","Metadata/Items/Maps/MapWorldsRelicChambers",3,"0|1|2|")
 SetSellGoodsData("崩壞長廊","Metadata/Items/Maps/MapWorldsArcade",9,"0|1|2|")
+SetSellGoodsData("羈破牢","Metadata/Items/Maps/MapWorldsCage",3,"0|1|2|")
 SetSellGoodsData("穢陰獄牢","Metadata/Items/Maps/MapWorldsPen",3,"0|1|2|")
 SetSellGoodsData("紫晶礦山","Metadata/Items/Maps/MapWorldsCrystalOre",3,"0|1|2|")
+SetSellGoodsData("不潔教堂","Metadata/Items/Maps/MapWorldsDefiledCathedral",3,"0|1|2|")
 SetSellGoodsData("巨坑","Metadata/Items/Maps/MapWorldsPit",3,"0|1|2|")
 SetSellGoodsData("異蛛墓塚","Metadata/Items/Maps/MapWorldsArachnidTomb",9,"0|1|2|")
 SetSellGoodsData("死寂泥溝","Metadata/Items/Maps/MapWorldsWastePool",3,"0|1|2|")
 SetSellGoodsData("詭譎晶洞","Metadata/Items/Maps/MapWorldsGeode",3,"0|1|2|")
+SetSellGoodsData("骨跡陵墓","Metadata/Items/Maps/MapWorldsBoneCrypt",3,"0|1|2|")
 SetSellGoodsData("熔岩之室","Metadata/Items/Maps/MapWorldsLavaChamber",3,"0|1|2|")
 SetSellGoodsData("熱林塚墓","Metadata/Items/Maps/MapWorldsBarrows",9,"0|1|2|")
+SetSellGoodsData("魔靈幻獄","Metadata/Items/Maps/MapWorldsPhantasmagoria",3,"0|1|2|")
 SetSellGoodsData("惡靈學院","Metadata/Items/Maps/MapWorldsAcademy",3,"0|1|2|")
 SetSellGoodsData("闇獄尖塔","Metadata/Items/Maps/MapWorldsTower",3,"0|1|2|")
-
-
+SetSellGoodsData("火山炎口","Metadata/Items/Maps/MapWorldsCaldera",3,"0|1|2|")
 
 
 
@@ -327,20 +300,20 @@ SetCompoundDivinationCard("赌徒","Metadata/Items/DivinationCards/DivinationCardT
 SetCompoundDivinationCard("工匠大师","Metadata/Items/DivinationCards/DivinationCardTheMasterArtisan")--设置合成忠诚命运卡
 SetCompoundDivinationCard("情人","Metadata/Items/DivinationCards/DivinationCardTheLover")--设置合成忠诚命运卡
 SetCompoundDivinationCard("净白","Metadata/Items/DivinationCards/DivinationCardTheOpulecent")--设置合成忠诚命运卡
-SetCompoundDivinationCard("谦逊","Metadata/Items/DivinationCards/DivinationCardHumility")--设置合成忠诚命运卡
+SetCompoundDivinationCard("谦逊","Metadata/Items/DivinationCards/DivinationCardHumility",0)--设置合成忠诚命运卡
 
 --SetNeedBuyGoodsData(name,className,cnt,buyName,buyClassName)--设置开始刷异界时间检测购买指定物品
 --name=自己有的通货名 className=自己有的通货类名 cnt=够多少个触发 0或nil 不会触发 buyName=需要购买的物品名 buyClassName=需要购买的物品类名
 
 g_buyNpcData={
-mapClassName="1_3_town"
-,className="Metadata/NPC/Act3/ClarissaTown"
-}--将会在3章 1_3_town 此NPC下购买 name:卡尔丽莎
+mapClassName="1_1_town"
+,className="Metadata/NPC/Act1/NessaTown"
+}--将会在1章 1_1_town 此NPC下购买 name:奈沙
 
---SetNeedBuyGoodsData("知识卷轴","Metadata/Items/Currency/CurrencyIdentification",nil,"传送卷轴","Metadata/Items/Currency/CurrencyPortal")
---SetNeedBuyGoodsData("传送卷轴","Metadata/Items/Currency/CurrencyPortal",nil,"蜕变石","Metadata/Items/Currency/CurrencyUpgradeToMagic")
-SetNeedBuyGoodsData("蜕变石","Metadata/Items/Currency/CurrencyUpgradeToMagic",200,"增幅石","Metadata/Items/Currency/CurrencyAddModToMagic")
-SetNeedBuyGoodsData("增幅石","Metadata/Items/Currency/CurrencyAddModToMagic",200,"改造石","Metadata/Items/Currency/CurrencyRerollMagic")
+SetNeedBuyGoodsData("知识卷轴","Metadata/Items/Currency/CurrencyIdentification",nil,"传送卷轴","Metadata/Items/Currency/CurrencyPortal")
+SetNeedBuyGoodsData("传送卷轴","Metadata/Items/Currency/CurrencyPortal",nil,"蜕变石","Metadata/Items/Currency/CurrencyUpgradeToMagic")
+--SetNeedBuyGoodsData("蜕变石","Metadata/Items/Currency/CurrencyUpgradeToMagic",200,"增幅石","Metadata/Items/Currency/CurrencyAddModToMagic")
+--SetNeedBuyGoodsData("增幅石","Metadata/Items/Currency/CurrencyAddModToMagic",200,"改造石","Metadata/Items/Currency/CurrencyRerollMagic")
 --SetNeedBuyGoodsData("改造石","Metadata/Items/Currency/CurrencyRerollMagic",nil,"工匠石","Metadata/Items/Currency/CurrencyRerollSocketNumbers")
 --SetNeedBuyGoodsData("工匠石","Metadata/Items/Currency/CurrencyRerollSocketNumbers",100,"链结石","Metadata/Items/Currency/CurrencyRerollSocketLinks")
 --SetNeedBuyGoodsData("链结石","Metadata/Items/Currency/CurrencyRerollSocketLinks",100,"机会石","Metadata/Items/Currency/CurrencyUpgradeRandomly")
@@ -362,14 +335,13 @@ SetNeedBuyGoodsData("增幅石","Metadata/Items/Currency/CurrencyAddModToMagic",200
 --socketCnt 数字型 总洞数量 忽略则填 nil
 --lineCnt 数字型 连洞数量 忽略则填 nil
 --checkCangKu 计算保留数量时是否连仓库内的数量也计算进去 nil或false为不计算仓库 true 为需要计算
-SetGoodsCaoZuo("通货|可堆叠通货","0|2")--多个大类设置捡存
-SetGoodsCaoZuo("异界地图","0|2|4")
-SetGoodsCaoZuo("主动技能宝石|辅助技能宝石","0|1",nil,nil,nil,nil,20)--拾取品质超过5的技能宝石
+SetGoodsCaoZuo("通货|可堆叠通货|异界地图","0|2")--多个大类设置捡存
+SetGoodsCaoZuo("主动技能宝石|辅助技能宝石","0|2",nil,nil,nil,nil,5)--拾取品质超过5的技能宝石
+
 SetGoodsCaoZuo(nil,"0|1|4",nil,nil,nil,nil,nil,nil,"3")--拾取 鉴定 出售橙色物品
-SetGoodsCaoZuo(nil,nil,"点金石","Metadata/Items/Currency/CurrencyUpgradeToRare",nil,nil,nil,40)--身上保留40
-SetGoodsCaoZuo(nil,nil,"机会石","Metadata/Items/Currency/CurrencyUpgradeRandomly",nil,nil,nil,40)--身上保留40
 SetGoodsCaoZuo(nil,nil,"知识卷轴","Metadata/Items/Currency/CurrencyIdentification",nil,nil,nil,40)--够了就不捡了
 SetGoodsCaoZuo(nil,nil,"传送卷轴","Metadata/Items/Currency/CurrencyPortal",nil,nil,nil,80)--够了就不捡了
+SetGoodsCaoZuo(nil,nil,"点金石","Metadata/Items/Currency/CurrencyUpgradeToRare",nil,nil,nil,40)--身上保留40
 SetGoodsCaoZuo(nil,"0|1",nil,nil,nil,nil,nil,nil,"0|1|2",6)--6洞装设置捡卖
 SetGoodsCaoZuo(nil,"0|1",nil,nil,nil,nil,nil,nil,"0|1|2",nil,6)--6连洞装设置捡卖
 SetGoodsCaoZuo("爪","0|1|4",nil,nil,nil,nil,5,nil,"2")--捡卖精良的黄爪子
@@ -392,6 +364,35 @@ SetGoodsCaoZuo(nil,"1|3",nil,"Metadata/Items/Metamorphosis/MetamorphosisLiver")-
 SetGoodsCaoZuo(nil,"1|3",nil,"Metadata/Items/Metamorphosis/MetamorphosisLung")--鍊魔肺臟不捡
 SetGoodsCaoZuo(nil,"1|3",nil,"Metadata/Items/Metamorphosis/MetamorphosisHeart")--鍊魔心臟不捡
 
+SetGoodsCaoZuo("异界地图","1|3","怒浪之港","Metadata/Items/Maps/MapWorldsPier")
+SetGoodsCaoZuo("异界地图","1|3","硫磺蚀岸","Metadata/Items/Maps/MapWorldsSulphurVents")
+SetGoodsCaoZuo("异界地图","1|3","如履危牆","Metadata/Items/Maps/MapWorldsLookout")
+SetGoodsCaoZuo("异界地图","1|3","古競速場","Metadata/Items/Maps/MapWorldsRacecourse")
+SetGoodsCaoZuo("异界地图","1|3","血腥沼澤","Metadata/Items/Maps/MapWorldsPrimordialPool")
+SetGoodsCaoZuo("异界地图","1|3","陰晦泥灘","Metadata/Items/Maps/MapWorldsMudGeyser")
+SetGoodsCaoZuo("异界地图","1|3","魔金寶庫","Metadata/Items/Maps/MapWorldsVault")
+SetGoodsCaoZuo("异界地图","1|3","荒涼牧野","Metadata/Items/Maps/MapWorldsLeyline")
+SetGoodsCaoZuo("异界地图","1|3","廣場","Metadata/Items/Maps/MapWorldsPlaza")
+SetGoodsCaoZuo("异界地图","1|3","園林苑","Metadata/Items/Maps/MapWorldsPark")
+SetGoodsCaoZuo("异界地图","1|3","激戰柱廊","Metadata/Items/Maps/MapWorldsColonnade")
+SetGoodsCaoZuo("异界地图","1|3","熔火岩灘","Metadata/Items/Maps/MapWorldsEstuary")
+SetGoodsCaoZuo("异界地图","1|3","暮光海灘","Metadata/Items/Maps/MapWorldsShore")
+SetGoodsCaoZuo("异界地图","1|3","奇術之庭","Metadata/Items/Maps/MapWorldsCourtyard")
+SetGoodsCaoZuo("异界地图","1|3","驚懼樹叢","Metadata/Items/Maps/MapWorldsThicket")
+SetGoodsCaoZuo("异界地图","1|3","寧逸溫房","Metadata/Items/Maps/MapWorldsConservatory")
+SetGoodsCaoZuo("异界地图","1|3","聖殿","Metadata/Items/Maps/MapWorldsBasilica")
+SetGoodsCaoZuo("异界地图","1|3","危機海礁","Metadata/Items/Maps/MapWorldsReef")
+SetGoodsCaoZuo("异界地图","1|3","遺跡廢墟","Metadata/Items/Maps/MapWorldsCastleRuins")
+SetGoodsCaoZuo("异界地图","1|3","炙陽峽谷","Metadata/Items/Maps/MapWorldsCanyon")
+SetGoodsCaoZuo("异界地图","1|3","古堡","Metadata/Items/Maps/MapWorldsChateau")
+SetGoodsCaoZuo("异界地图","1|3","荒地","Metadata/Items/Maps/MapWorldsWasteland")
+SetGoodsCaoZuo("异界地图","1|3","雲頂鐘樓","Metadata/Items/Maps/MapWorldsBelfry")
+SetGoodsCaoZuo("异界地图","1|3","魔金寶庫","Metadata/Items/Maps/MapWorldsVault")
+SetGoodsCaoZuo("异界地图","1|3","火山炎域","Metadata/Items/Maps/MapWorldsVolcano")
+SetGoodsCaoZuo("异界地图","1|3","古典密室","Metadata/Items/Maps/MapWorldsRelicChambers")
+SetGoodsCaoZuo("异界地图","1|3","死寂泥溝","Metadata/Items/Maps/MapWorldsWastePool")
+SetGoodsCaoZuo("异界地图","1|3","闇獄尖塔","Metadata/Items/Maps/MapWorldsTower")
+SetGoodsCaoZuo("异界地图","1|3","火山炎口","Metadata/Items/Maps/MapWorldsCaldera")
 
 SetGoodsCaoZuo("异界地图","1|3","致命岩灘","Metadata/Items/Maps/MapWorldsCursedCrypt",nil,nil,nil,nil,"3")
 SetGoodsCaoZuo("异界地图","1|3","濱海山丘","Metadata/Items/Maps/MapWorldsAtoll",nil,nil,nil,nil,"3")
@@ -413,7 +414,7 @@ SetGoodsCaoZuo(nil,"1|3","琥珀油瓶","Metadata/Items/Currency/Mushrune3")
 SetGoodsCaoZuo(nil,"1|3","翠綠油瓶","Metadata/Items/Currency/Mushrune4")
 SetGoodsCaoZuo(nil,"1|3","清綠油瓶","Metadata/Items/Currency/Mushrune5")
 SetGoodsCaoZuo(nil,"1|3","碧藍油瓶","Metadata/Items/Currency/Mushrune6")
-SetGoodsCaoZuo(nil,"1|3","预言","Metadata/Items/Currency/CurrencyItemisedProphecy")
+--SetGoodsCaoZuo(nil,"1|3","预言","Metadata/Items/Currency/CurrencyItemisedProphecy")
 SetGoodsCaoZuo(nil,"1|3","暴炎化石","Metadata/Items/Currency/CurrencyDelveCraftingFire")--可堆疊通貨
 SetGoodsCaoZuo(nil,"1|3","寒風化石","Metadata/Items/Currency/CurrencyDelveCraftingCold")--可堆疊通貨
 SetGoodsCaoZuo(nil,"1|3","金鋼化石","Metadata/Items/Currency/CurrencyDelveCraftingLightning")--可堆疊通貨

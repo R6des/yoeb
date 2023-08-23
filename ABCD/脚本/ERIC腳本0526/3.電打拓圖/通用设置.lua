@@ -131,7 +131,7 @@ SetZhongShenData("Lunaris","Gruthkul")--设置月影女神之魂与绝望之母 格鲁丝克之魂
 
 -------注意要大类在前 小类 单独设置在后面添加
 SetSaveIndex("通货|可堆叠通货","1")
-SetSaveIndex("异界地图","2|3|4")
+SetSaveIndex("异界地图","2")
 SetSaveIndex("项链|戒指|爪|匕首|法杖|单手剑|细剑|单手斧|单手锤|符文匕首|短杖|战杖|弓|长杖|双手剑|双手斧|双手锤|腰带|手套|鞋子|头盔","3|4")
 SetSaveIndex("珠宝|命运卡|衣服|盾|箭袋|地图碎片","4")
 SetSaveIndex("生命药剂|魔力药剂|复合药剂|功能药剂","4")
@@ -159,7 +159,7 @@ g_yuyanCnt=nil				--够多少银币去预言，小于10银币或填nil将不会触发 如果设定去预言
 --SetNotMapGoMap(className,cnt) 设置无地图或未到等级时要刷的剧情地图 className字符串型 地图类名 cnt=次数
 SetNotMapGoMap("2_9_1",10)	--无地图时刷血色通道
 
-g_yiJieLv=72				--够了多少级才去刷异界
+g_yiJieLv=73				--够了多少级才去刷异界
 g_checkSellMapCnt=60		--地图超过这个数量才会检测出售地图
 g_destroyNoUseMap=false		--销毁上面设置不使用的地图 nil或false为不销毁
 g_mapUseFuHaoLv=76			--大于等于多少级对蓝图使用富豪石 nil为永远不使用
@@ -203,56 +203,54 @@ SetLastEnterSmallMap("MapWorldsGorge")--冰川山丘
 --SetSellGoodsData(name,className,cnt,color)--设置卖(换)的地图 
 --name=物品名 className=物品类名 先识别物品名 识别不到就识别类名 cnt=够多少去卖 color=颜色 0白 1蓝 2黄 多个用|隔开
 
-SetSellGoodsData("露台花園","Metadata/Items/Maps/MapWorldsTerrace",3,"0|1|2|")
-SetSellGoodsData("岩漿熔湖","Metadata/Items/Maps/MapWorldsLavaLake",3,"0|1|2|")
-SetSellGoodsData("致命岩灘","Metadata/Items/Maps/MapWorldsStrand",9,"0|1|2|")
-SetSellGoodsData("靜縊陵墓","Metadata/Items/Maps/MapWorldsMausoleum",3,"0|1|2|")
-
-SetSellGoodsData("岔河","Metadata/Items/Maps/MapWorldsForkingRiver",3,"0|1|2|")
+SetSellGoodsData("激戰柱廊","Metadata/Items/Maps/MapWorldsColonnade",3,"0|1|2|")
 SetSellGoodsData("危城巷弄","Metadata/Items/Maps/MapWorldsAlleyways",3,"0|1|2|")
-SetSellGoodsData("巨蛛之林","Metadata/Items/Maps/MapWorldsSpiderForest",3,"0|1|2|")
-SetSellGoodsData("遺跡廢墟","Metadata/Items/Maps/MapWorldsCastleRuins",3,"0|1|2|")
-SetSellGoodsData("異蛛墓塚","Metadata/Items/Maps/MapWorldsArachnidTomb",3,"0|1|2|")
-SetSellGoodsData("嬋娟神殿","Metadata/Items/Maps/MapWorldsMoonTemple",3,"0|1|2|")
-SetSellGoodsData("緋紅神殿","Metadata/Items/Maps/MapWorldsCrimsonTemple",3,"0|1|2|")
-
-SetSellGoodsData("海風高原","Metadata/Items/Maps/MapWorldsPlateauk",3,"0|1|2|")
-SetSellGoodsData("火山炎口","Metadata/Items/Maps/MapWorldsCaldera",3,"0|1|2|")
-SetSellGoodsData("失落城塢","Metadata/Items/Maps/MapWorldsPort",3,"0|1|2|")
-SetSellGoodsData("疾風峽灣","Metadata/Items/Maps/MapWorldsCoves",3,"0|1|2|")
-SetSellGoodsData("魔靈幻獄","Metadata/Items/Maps/MapWorldsPhantasmagoria",3,"0|1|2|")
+SetSellGoodsData("墓影書坊","Metadata/Items/Maps/MapWorldsScriptorium",3,"0|1|2|")
 SetSellGoodsData("骨跡陵墓","Metadata/Items/Maps/MapWorldsBoneCrypt",3,"0|1|2|")
-SetSellGoodsData("陰暗墓塚","Metadata/Items/Maps/MapWorldsSepulchre",3,"0|1|2|")
-SetSellGoodsData("古博物館","Metadata/Items/Maps/MapWorldsMuseum",3,"0|1|2|")
 
-SetSellGoodsData("破碎堡礁","Metadata/Items/Maps/MapWorldsCoralRuins",3,"0|1|2|")
-SetSellGoodsData("濱海山丘","Metadata/Items/Maps/MapWorldsAtoll",3,"0|1|2|")
-SetSellGoodsData("暮光海灘","Metadata/Items/Maps/MapWorldsShore",3,"0|1|2|")
-SetSellGoodsData("巨蛛巢穴","Metadata/Items/Maps/MapWorldsSpiderLair",3,"0|1|2|")
-SetSellGoodsData("異蛛巢穴","Metadata/Items/Maps/MapWorldsArachnidNest",3,"0|1|2|")
-SetSellGoodsData("驚懼樹叢","Metadata/Items/Maps/MapWorldsThicket",3,"0|1|2|")
+SetSellGoodsData("乾海","Metadata/Items/Maps/MapWorldsDrySea",3,"0|1|2|")
+SetSellGoodsData("暮色沙丘","Metadata/Items/Maps/MapWorldsDunes",3,"0|1|2|")
+SetSellGoodsData("雲頂鐘樓","Metadata/Items/Maps/MapWorldsBelfry",3,"0|1|2|")
+SetSellGoodsData("苦行之域","Metadata/Items/Maps/MapWorldsPrecinct",3,"0|1|2|")
+SetSellGoodsData("淤塞水道","Metadata/Items/Maps/MapWorldsStagnation",3,"0|1|2|")
+SetSellGoodsData("挖掘場","Metadata/Items/Maps/MapWorldsExcavation",3,"0|1|2|")
+SetSellGoodsData("儲物倉","Metadata/Items/Maps/MapWorldsSilo",3,"0|1|2|")
+SetSellGoodsData("幽暗地穴","Metadata/Items/Maps/MapWorldsGrotto",3,"0|1|2|")
+
+SetSellGoodsData("血腥沼澤","Metadata/Items/Maps/MapWorldsPrimordialPool",3,"0|1|2|")
+SetSellGoodsData("血腥陣地","Metadata/Items/Maps/MapWorldsPrimordialBlocks",3,"0|1|2|")
+SetSellGoodsData("病疫林谷","Metadata/Items/Maps/MapWorldsInfestedValley",3,"0|1|2|")
+SetSellGoodsData("餓獸巢穴","Metadata/Items/Maps/MapWorldsLair",3,"0|1|2|")
+SetSellGoodsData("無疆田野","Metadata/Items/Maps/MapWorldsFields",3,"0|1|2|")
+SetSellGoodsData("致命岩灘","Metadata/Items/Maps/MapWorldsStrand",3,"0|1|2|")
+SetSellGoodsData("奇術秘殿","Metadata/Items/Maps/MapWorldsShrine",3,"0|1|2|")
+SetSellGoodsData("密草神殿","Metadata/Items/Maps/MapWorldsOvergrownShrine",3,"0|1|2|")
+
+SetSellGoodsData("密林果園","Metadata/Items/Maps/MapWorldsOrchard",3,"0|1|2|")
+SetSellGoodsData("絕望燈塔","Metadata/Items/Maps/MapWorldsLighthouse",3,"0|1|2|")
+SetSellGoodsData("晨曦墓地","Metadata/Items/Maps/MapWorldsCemetery",3,"0|1|2|")
+SetSellGoodsData("失落城塢","Metadata/Items/Maps/MapWorldsPort",3,"0|1|2|")
 SetSellGoodsData("瓦爾金字塔","Metadata/Items/Maps/MapWorldsVaalPyramid",3,"0|1|2|")
+SetSellGoodsData("嬋娟神殿","Metadata/Items/Maps/MapWorldsMoonTemple",3,"0|1|2|")
+SetSellGoodsData("實驗居所","Metadata/Items/Maps/MapWorldsLaboratory",3,"0|1|2|")
+SetSellGoodsData("闇獄尖塔","Metadata/Items/Maps/MapWorldsTower",3,"0|1|2|")
+
+SetSellGoodsData("惡臭沼地","Metadata/Items/Maps/MapWorldsMarshes",3,"0|1|2|")
+SetSellGoodsData("崩壞長廊","Metadata/Items/Maps/MapWorldsArcade",3,"0|1|2|")
+SetSellGoodsData("危城廣場","Metadata/Items/Maps/MapWorldsCitySquare",3,"0|1|2|")
+SetSellGoodsData("奇術之庭","Metadata/Items/Maps/MapWorldsCourtyard",3,"0|1|2|")
+SetSellGoodsData("濱海山丘","Metadata/Items/Maps/MapWorldsAtoll",3,"0|1|2|")
+SetSellGoodsData("海風高原","Metadata/Items/Maps/MapWorldsPlateau",3,"0|1|2|")
+SetSellGoodsData("濕地礦山","Metadata/Items/Maps/MapWorldsMineralPools",3,"0|1|2|")
 SetSellGoodsData("神主居所","Metadata/Items/Maps/MapWorldsResidence",3,"0|1|2|")
 
-SetSellGoodsData("瘴氣泥沼","Metadata/Items/Maps/MapWorldsBog",3,"0|1|2|")
-SetSellGoodsData("奇術之庭","Metadata/Items/Maps/MapWorldsCourtyard",3,"0|1|2|")
-SetSellGoodsData("怒浪之港","Metadata/Items/Maps/MapWorldsPier",3,"0|1|2|")
-SetSellGoodsData("象牙神殿","Metadata/Items/Maps/MapWorldsIvoryTemple",3,"0|1|2|")
-SetSellGoodsData("儲物倉","Metadata/Items/Maps/MapWorldsSilo",3,"0|1|2|")
-SetSellGoodsData("酸岩酸嶼","Metadata/Items/Maps/MapWorldsAcidCaverns",3,"0|1|2|")
-SetSellGoodsData("實驗居所","Metadata/Items/Maps/MapWorldsLaboratory",3,"0|1|2|")
-SetSellGoodsData("奪魂之殿","Metadata/Items/Maps/MapWorldsTemple",3,"0|1|2|")
-
-SetSellGoodsData("密草神殿","Metadata/Items/Maps/MapWorldsOvergrownShrine",3,"0|1|2|")
 SetSellGoodsData("鐵鏽工廠","Metadata/Items/Maps/MapWorldsFactory",3,"0|1|2|")
 
 
 
 SetSellGoodsData("劇毒林谷","Metadata/Items/Maps/MapWorldsJungleValley",3,"0|1|2|")
-SetSellGoodsData("怒浪之港","Metadata/Items/Maps/MapWorldsPier",3,"0|1|2|")
 SetSellGoodsData("白沙灘頭","Metadata/Items/Maps/MapWorldsBeach",3,"0|1|2|")
 SetSellGoodsData("魅影別墅","Metadata/Items/Maps/MapWorldsVilla",3,"0|1|2|")
-SetSellGoodsData("密林果園","Metadata/Items/Maps/MapWorldsOrchard",3,"0|1|2|")
 SetSellGoodsData("惡咒陵墓","Metadata/Items/Maps/MapWorldsCursedCrypt",9,"0|1|2|")
 SetSellGoodsData("軍械庫","Metadata/Items/Maps/MapWorldsArmoury",3,"0|1|2|")
 SetSellGoodsData("濱海堡壘","Metadata/Items/Maps/MapWorldsRamparts",3,"0|1|2|")
@@ -272,9 +270,7 @@ SetSellGoodsData("平頂荒漠","Metadata/Items/Maps/MapWorldsMesa",3,"0|1|2|")
 SetSellGoodsData("疾風峽灣","Metadata/Items/Maps/MapWorldsCoves",3,"0|1|2|")
 SetSellGoodsData("瘴氣泥沼","Metadata/Items/Maps/MapWorldsBog",3,"0|1|2|")
 SetSellGoodsData("荒地","Metadata/Items/Maps/MapWorldsWasteland",3,"0|1|2|")
-SetSellGoodsData("雲頂鐘樓","Metadata/Items/Maps/MapWorldsBelfry",3,"0|1|2|")
 SetSellGoodsData("競技場","Metadata/Items/Maps/MapWorldsArena",3,"0|1|2|")
-SetSellGoodsData("晨曦墓地","Metadata/Items/Maps/MapWorldsCemetery",3,"0|1|2|")
 SetSellGoodsData("魔金寶庫","Metadata/Items/Maps/MapWorldsVault",3,"0|1|2|")
 SetSellGoodsData("遠古市集","Metadata/Items/Maps/MapWorldsBazaar",9,"0|1|2|")
 SetSellGoodsData("暮色沙丘","Metadata/Items/Maps/MapWorldsDunes",9,"0|1|2|")
@@ -293,7 +289,6 @@ SetSellGoodsData("詭譎晶洞","Metadata/Items/Maps/MapWorldsGeode",3,"0|1|2|")
 SetSellGoodsData("熔岩之室","Metadata/Items/Maps/MapWorldsLavaChamber",3,"0|1|2|")
 SetSellGoodsData("熱林塚墓","Metadata/Items/Maps/MapWorldsBarrows",9,"0|1|2|")
 SetSellGoodsData("惡靈學院","Metadata/Items/Maps/MapWorldsAcademy",3,"0|1|2|")
-SetSellGoodsData("闇獄尖塔","Metadata/Items/Maps/MapWorldsTower",3,"0|1|2|")
 
 
 
@@ -362,8 +357,7 @@ SetNeedBuyGoodsData("增幅石","Metadata/Items/Currency/CurrencyAddModToMagic",200
 --socketCnt 数字型 总洞数量 忽略则填 nil
 --lineCnt 数字型 连洞数量 忽略则填 nil
 --checkCangKu 计算保留数量时是否连仓库内的数量也计算进去 nil或false为不计算仓库 true 为需要计算
-SetGoodsCaoZuo("通货|可堆叠通货","0|2")--多个大类设置捡存
-SetGoodsCaoZuo("异界地图","0|2|4")
+SetGoodsCaoZuo("通货|可堆叠通货|异界地图","0|2")--多个大类设置捡存
 SetGoodsCaoZuo("主动技能宝石|辅助技能宝石","0|1",nil,nil,nil,nil,20)--拾取品质超过5的技能宝石
 SetGoodsCaoZuo(nil,"0|1|4",nil,nil,nil,nil,nil,nil,"3")--拾取 鉴定 出售橙色物品
 SetGoodsCaoZuo(nil,nil,"点金石","Metadata/Items/Currency/CurrencyUpgradeToRare",nil,nil,nil,40)--身上保留40
