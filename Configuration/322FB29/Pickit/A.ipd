@@ -1,13 +1,24 @@
-//3.22季初珠寶
+//3.22季初珠寶 飾品 藥劑
 [Type] == "Viridian Jewel" && [Rarity] == "Unique" # 		[UniqueName] == "Stormshroud" && [StashItem] == "true"				//風暴籠罩 綠
 [Type] == "Viridian Jewel" && [Rarity] == "Unique" # 		[UniqueName] == "Quickening Covenant" && [StashItem] == "true"		//復甦誓約 綠
+[Type] == "Cobalt Jewel" && [Rarity] == "Unique" # 			[UniqueName] == "Fortress Covenant" && [StashItem] == "true"		//壁壘誓約 藍 
 [Type] == "Crimson Jewel" && [Rarity] == "Unique" # 		[UniqueName] == "Primordial Might" && [StashItem] == "true"			//先祖力量 紅
+[Type] == "Topaz Ring" && [Rarity] == "Unique" # 			[UniqueName] == "Nimis" && [StashItem] == "true"					//尼米斯
+[Type] == "Topaz Ring" && [Rarity] == "Unique" # 			[UniqueName] == "Astral Projector" && [StashItem] == "true"			//星空之影
+[Type] == "Sapphire Flask" && [Rarity] == "Unique" # 		[UniqueName] == "Taste of Hate" && [StashItem] == "true"			//恨意
 
 //3.22季初武器
 [Type] == "Short Bow" && [Rarity] == "Unique" # 			[UniqueName] == "Quill Rain" && [StashItem] == "true"				//小雨
 [Type] == "Prophecy Wand" && [Rarity] == "Unique" # 		[UniqueName] == "Void Battery" && [StashItem] == "true"				//電池
 [Type] == "Fiend Dagger" && [Rarity] == "Unique" # 			[UniqueName] == "Arakaali's Fang" && [StashItem] == "true"			//蜘蛛刀
 [Type] == "Spine Bow" && [Rarity] == "Unique" # 			[UniqueName] == "Voltaxic Rift" && [StashItem] == "true"			//魔暴
+[Type] == "Imperial Skean" && [Rarity] == "Unique" # 		[UniqueName] == "Divinarius" && [StashItem] == "true"				//戒律之影
+[Type] == "Imperial Bow" && [Rarity] == "Unique" # 			[UniqueName] == "Lioneye's Glare" && [StashItem] == "true"			//獅眼弓
+
+//3.22季初防具
+[Type] == "Necromancer Silks" && [Rarity] == "Unique" # 	[UniqueName] == "Fleshcrafter" && [StashItem] == "true"				//人體匠師
+[Type] == "Sadist Garb" && [Rarity] == "Unique" # 			[UniqueName] == "Inpulsa's Broken Heart" && [StashItem] == "true"	//印卜薩
+[Type] == "Riveted Boots" && [Rarity] == "Unique" # 		[UniqueName] == "Ralakesh's Impatience" && [StashItem] == "true"	//靜止三球鞋
 
 //3.22季初傳送門
 [Type] == "Portal" #		[StashItem] == "true"//傳送門
@@ -316,8 +327,12 @@
 [Type] == "The Hoarder" # 			[StashItem] == "true" //寶箱
 [Type] == "Fire Of Unknown Origin" #[StashItem] == "true" //3.22尼米斯(7張換尼米斯)
 [Type] == "The Fortunate" #			[StashItem] == "true" //3.22幸運的人(12張2D)
+[Type] == "The Fortunate" #			[StashItem] == "true" //3.22幸運的人(12張2D)
+[Type] == "The Shieldbearer" #		[StashItem] == "true" //3.22持盾者(8張大地主)
+[Type] == "The Academic" #			[StashItem] == "true" //3.22學術界(8張求知熱情)
 
-[Sockets] == "6" && [Linked] >= "6"   #[ForceSellItem] == "true" //六連全賣
+[Sockets] == "6" && [Linked] >= "6"   #[StashItem] == "true" //六連存倉
+
 
 	[Type] == "Spiraled Wand" && [Rarity] == "Unique" # 		[UniqueName] == "Amplification Rod" && [StashItem] == "true"			//增幅杖 螺紋法杖
 	[Type] == "Fishing Rod" && [Rarity] == "Unique" #			[UniqueName] == "Song of the Sirens" && [StashItem] == "true"			//海妖魅曲 魚竿
