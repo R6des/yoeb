@@ -61,14 +61,14 @@
 //[Type]=="Auspicious Ambitions" #[StashItem] == "true" //
 
 //2023/4/27  85ËŽ„©
-[Type] == "Divine Life Flask"&& 	[ItemLevel] >= "60" && [ItemLevel] <="100" # [StashItem] == "true" //²»ÐàÉúÃüËŽ„©
-[Type] == "Amethyst Flask"&& 		[ItemLevel] >= "60" && [ItemLevel] <="100" # [StashItem] == "true" //×Ï¾§
-[Type] == "Bismuth Flask"&& 		[ItemLevel] >= "60" && [ItemLevel] <="100" # [StashItem] == "true" //»ÒÑÒ
-[Type] == "Silver Flask"&& 		[ItemLevel] >= "60" && [ItemLevel] <="100" # [StashItem] == "true" //ÃÍ¹¥
-[Type] == "Diamond Flask"&& 		[ItemLevel] >= "60" && [ItemLevel] <="100" # [StashItem] == "true" //Œšè
-[Type] == "Granite Flask"&& 		[ItemLevel] >= "60" && [ItemLevel] <="100" # [StashItem] == "true" //+1500×o¼×
-[Type] == "Jade Flask"&& 		[ItemLevel] >= "60" && [ItemLevel] <="100" # [StashItem] == "true" //+1500éW±Ü
-[Type] == "Quicksilver Flask"&& 	[ItemLevel] >= "60" && [ItemLevel] <="100" # [StashItem] == "true" //ÅÜË®
+//[Type] == "Divine Life Flask"&& 	[ItemLevel] >= "60" && [ItemLevel] <="100" # [StashItem] == "true" //²»ÐàÉúÃüËŽ„©
+//[Type] == "Amethyst Flask"&& 		[ItemLevel] >= "60" && [ItemLevel] <="100" # [StashItem] == "true" //×Ï¾§
+//[Type] == "Bismuth Flask"&& 		[ItemLevel] >= "60" && [ItemLevel] <="100" # [StashItem] == "true" //»ÒÑÒ
+//[Type] == "Silver Flask"&& 		[ItemLevel] >= "60" && [ItemLevel] <="100" # [StashItem] == "true" //ÃÍ¹¥
+//[Type] == "Diamond Flask"&& 		[ItemLevel] >= "60" && [ItemLevel] <="100" # [StashItem] == "true" //Œšè
+//[Type] == "Granite Flask"&& 		[ItemLevel] >= "60" && [ItemLevel] <="100" # [StashItem] == "true" //+1500×o¼×
+//[Type] == "Jade Flask"&& 			[ItemLevel] >= "60" && [ItemLevel] <="100" # [StashItem] == "true" //+1500éW±Ü
+//[Type] == "Quicksilver Flask"&& 	[ItemLevel] >= "60" && [ItemLevel] <="100" # [StashItem] == "true" //ÅÜË®
 
 
 
@@ -294,7 +294,7 @@
 //[Type] =="Polaric Invitation" #	[StashItem] == "true" //˜OµØÖ®Ñû
 [Type] == "Screaming Invitation" #	[StashItem] == "true" //¼âÏøÖ®Ñû
 //[Type] =="Writhing Invitation" #	[StashItem] == "true" //ÀpÀ@Ö®Ñû
-[Type] == "Humility" # 			[StashItem] == "true" //Ötßd
+[Type] == "Humility" # 				[StashItem] == "true" //Ötßd
 [Type] == "House of Mirrors" # 		[StashItem] == "true" //Ã÷çR
 [Type] == "The Doctor" # 			[StashItem] == "true" //¯‚át
 [Type] == "The Demon" # 			[StashItem] == "true" //ºÄ§
