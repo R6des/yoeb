@@ -293,7 +293,7 @@
 //[Type] =="Polaric Invitation" #	[StashItem] == "true" //極地之邀
 [Type] == "Screaming Invitation" #	[StashItem] == "true" //尖哮之邀
 //[Type] =="Writhing Invitation" #	[StashItem] == "true" //纏繞之邀
-//[Type] == "Humility" # 			[StashItem] == "true" //謙遜
+[Type] == "Humility" # 			[StashItem] == "true" //謙遜
 [Type] == "House of Mirrors" # 		[StashItem] == "true" //明鏡
 [Type] == "The Doctor" # 			[StashItem] == "true" //瘋醫
 [Type] == "The Demon" # 			[StashItem] == "true" //惡魔
