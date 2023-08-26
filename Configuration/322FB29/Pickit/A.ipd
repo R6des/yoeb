@@ -1,51 +1,51 @@
-//3.22¼¾³õÖéŒš ï—Æ· Ë„©
-[Type] == "Viridian Jewel" && [Rarity] == "Unique" # 		[UniqueName] == "Stormshroud" && [StashItem] == "true"				//ïL±©»\ÕÖ ¾G
-[Type] == "Viridian Jewel" && [Rarity] == "Unique" # 		[UniqueName] == "Quickening Covenant" && [StashItem] == "true"		//Í®dÊÄ¼s ¾G
-[Type] == "Cobalt Jewel" && [Rarity] == "Unique" # 			[UniqueName] == "Fortress Covenant" && [StashItem] == "true"		//±Ú‰¾ÊÄ¼s Ë{ 
-[Type] == "Crimson Jewel" && [Rarity] == "Unique" # 		[UniqueName] == "Primordial Might" && [StashItem] == "true"			//ÏÈ×æÁ¦Á¿ ¼t
-[Type] == "Topaz Ring" && [Rarity] == "Unique" # 			[UniqueName] == "Nimis" && [StashItem] == "true"					//ÄáÃ×Ë¹
-[Type] == "Topaz Ring" && [Rarity] == "Unique" # 			[UniqueName] == "Astral Projector" && [StashItem] == "true"			//ĞÇ¿ÕÖ®Ó°
-[Type] == "Sapphire Flask" && [Rarity] == "Unique" # 		[UniqueName] == "Taste of Hate" && [StashItem] == "true"			//ºŞÒâ
+//3.22å­£åˆç å¯¶ é£¾å“ è—¥åŠ‘
+[Type] == "Viridian Jewel" && [Rarity] == "Unique" # 		[UniqueName] == "Stormshroud" && [StashItem] == "true"				//é¢¨æš´ç± ç½© ç¶ 
+[Type] == "Viridian Jewel" && [Rarity] == "Unique" # 		[UniqueName] == "Quickening Covenant" && [StashItem] == "true"		//å¾©ç”¦èª“ç´„ ç¶ 
+[Type] == "Cobalt Jewel" && [Rarity] == "Unique" # 			[UniqueName] == "Fortress Covenant" && [StashItem] == "true"		//å£å£˜èª“ç´„ è— 
+[Type] == "Crimson Jewel" && [Rarity] == "Unique" # 		[UniqueName] == "Primordial Might" && [StashItem] == "true"			//å…ˆç¥–åŠ›é‡ ç´…
+[Type] == "Topaz Ring" && [Rarity] == "Unique" # 			[UniqueName] == "Nimis" && [StashItem] == "true"					//å°¼ç±³æ–¯
+[Type] == "Topaz Ring" && [Rarity] == "Unique" # 			[UniqueName] == "Astral Projector" && [StashItem] == "true"			//æ˜Ÿç©ºä¹‹å½±
+[Type] == "Sapphire Flask" && [Rarity] == "Unique" # 		[UniqueName] == "Taste of Hate" && [StashItem] == "true"			//æ¨æ„
 
-//3.22¼¾³õÎäÆ÷
-[Type] == "Short Bow" && [Rarity] == "Unique" # 			[UniqueName] == "Quill Rain" && [StashItem] == "true"				//Ğ¡Óê
-[Type] == "Prophecy Wand" && [Rarity] == "Unique" # 		[UniqueName] == "Void Battery" && [StashItem] == "true"				//ëŠ³Ø
-[Type] == "Fiend Dagger" && [Rarity] == "Unique" # 			[UniqueName] == "Arakaali's Fang" && [StashItem] == "true"			//Ö©Öëµ¶
-[Type] == "Spine Bow" && [Rarity] == "Unique" # 			[UniqueName] == "Voltaxic Rift" && [StashItem] == "true"			//Ä§±©
-[Type] == "Imperial Skean" && [Rarity] == "Unique" # 		[UniqueName] == "Divinarius" && [StashItem] == "true"				//½äÂÉÖ®Ó°
-[Type] == "Imperial Bow" && [Rarity] == "Unique" # 			[UniqueName] == "Lioneye's Glare" && [StashItem] == "true"			//ª{ÑÛ¹­
+//3.22å­£åˆæ­¦å™¨
+[Type] == "Short Bow" && [Rarity] == "Unique" # 			[UniqueName] == "Quill Rain" && [StashItem] == "true"				//å°é›¨
+[Type] == "Prophecy Wand" && [Rarity] == "Unique" # 		[UniqueName] == "Void Battery" && [StashItem] == "true"				//é›»æ± 
+[Type] == "Fiend Dagger" && [Rarity] == "Unique" # 			[UniqueName] == "Arakaali's Fang" && [StashItem] == "true"			//èœ˜è››åˆ€
+[Type] == "Spine Bow" && [Rarity] == "Unique" # 			[UniqueName] == "Voltaxic Rift" && [StashItem] == "true"			//é­”æš´
+[Type] == "Imperial Skean" && [Rarity] == "Unique" # 		[UniqueName] == "Divinarius" && [StashItem] == "true"				//æˆ’å¾‹ä¹‹å½±
+[Type] == "Imperial Bow" && [Rarity] == "Unique" # 			[UniqueName] == "Lioneye's Glare" && [StashItem] == "true"			//ç…çœ¼å¼“
 
-//3.22¼¾³õ·À¾ß
-[Type] == "Necromancer Silks" && [Rarity] == "Unique" # 	[UniqueName] == "Fleshcrafter" && [StashItem] == "true"				//ÈËów½³Ÿ
-[Type] == "Sadist Garb" && [Rarity] == "Unique" # 			[UniqueName] == "Inpulsa's Broken Heart" && [StashItem] == "true"	//Ó¡²·Ë_
-[Type] == "Riveted Boots" && [Rarity] == "Unique" # 		[UniqueName] == "Ralakesh's Impatience" && [StashItem] == "true"	//ìoÖ¹ÈıÇòĞ¬
+//3.22å­£åˆé˜²å…·
+[Type] == "Necromancer Silks" && [Rarity] == "Unique" # 	[UniqueName] == "Fleshcrafter" && [StashItem] == "true"				//äººé«”åŒ å¸«
+[Type] == "Sadist Garb" && [Rarity] == "Unique" # 			[UniqueName] == "Inpulsa's Broken Heart" && [StashItem] == "true"	//å°åœè–©
+[Type] == "Riveted Boots" && [Rarity] == "Unique" # 		[UniqueName] == "Ralakesh's Impatience" && [StashItem] == "true"	//éœæ­¢ä¸‰çƒé‹
 
-//3.22¼¾³õ‚÷ËÍéT
-[Type] == "Portal" #		[StashItem] == "true"//‚÷ËÍéT
+//3.22å­£åˆå‚³é€é–€
+[Type] == "Portal" #		[StashItem] == "true"//å‚³é€é–€
 
 
-//‚É²éˆó¸æ
-[Type] == "Influenced Scouting Report" 			#[StashItem] == "true" // „İÁ¦
-[Type] == "Vaal Scouting Report" 				#[StashItem] == "true" // Íß –
-[Type] == "Singular Scouting Report" 			#[StashItem] == "true" // ×¿Ô½
-[Type] == "Explorer's Scouting Report" 			#[StashItem] == "true" // Ì½ëU¼Ò
-[Type] == "Otherworldly Scouting Report" 		#[StashItem] == "true" // ³¬·²
+//åµæŸ¥å ±å‘Š
+[Type] == "Influenced Scouting Report" 			#[StashItem] == "true" // å‹¢åŠ›
+[Type] == "Vaal Scouting Report" 				#[StashItem] == "true" // ç“¦çˆ¾
+[Type] == "Singular Scouting Report" 			#[StashItem] == "true" // å“è¶Š
+[Type] == "Explorer's Scouting Report" 			#[StashItem] == "true" // æ¢éšªå®¶
+[Type] == "Otherworldly Scouting Report" 		#[StashItem] == "true" // è¶…å‡¡
 
-//¹­¼ıÊÖÌ×Ñb//
-[Type] == "Praetor Crown" && [Rarity] == "Unique" # 	[UniqueName] == "Voll's Vision" && [StashItem] == "true"			//¸£ –µÄßhÒŠ
-[Type] == "Zodiac Leather" && [Rarity] == "Unique" # 	[UniqueName] == "Hyrri's Ire" && [StashItem] == "true"				//Î÷ÀïµÄ‘ğÒÂĞÇ³½Æ¤¼×
-[Type] == "Titan Gauntlets" && [Rarity] == "Unique" # 	[UniqueName] == "Kaom's Spirit" && [StashItem] == "true"			//ŒùÄ·Ö®»ê
-[Type] == "Rawhide Boots" && [Rarity] == "Unique" # 	[UniqueName] == "Seven-League Step" && [StashItem] == "true"		//ÃËÊÄÖ®ÛE
-[Type] == "Rustic Sash" && [Rarity] == "Unique" # 		[UniqueName] == "Prismweave" && [StashItem] == "t¨Ë¨Ërue"			//»Ã²ÊÁâ¿— Ñü§
-[Type] == "Two-Stone Ring" && [Rarity] == "Unique" # 	[UniqueName] == "Berek's Respite Two-" && [StashItem] == "true"		//ØÀ×¿ËµÄ»ğÅcÀ×Ö®˜·
-[Type] == "Two-Stone Ring" && [Rarity] == "Unique" # 	[UniqueName] == "Berek's Grip Two-" && [StashItem] == "true"		//ØÀ×¿ËµÄ±ùÅcÀ×Ö®Çú
-[Type] == "Two-Stone Ring" && [Rarity] == "Unique" # 	[UniqueName] == "Berek's Pass Two-" && [StashItem] == "true"		//ØÀ×¿ËµÄ±ùÅc»ğÖ®¸è
-[Type] == "Amethyst Ring" && [Rarity] == "Unique" # 	[UniqueName] == "Death Rush" && [StashItem] == "true"				//ÍöÕßºô†¾ ×Ï¾§½äÖ¸
-[Type] == "Jade Amulet" && [Rarity] == "Unique" # 		[UniqueName] == "Hyrri's Truth" && [StashItem] == "true"			//Î÷ÀïµÄÕæÀí
-[Type] == "Primal Arrow Quiver" && [Rarity] == "Unique" # [UniqueName] == "The Poised Prism" && [StashItem] == "true"		//ƒÑÅÃÔçR
+//å¼“ç®­æ‰‹å¥—è£//
+[Type] == "Praetor Crown" && [Rarity] == "Unique" # 	[UniqueName] == "Voll's Vision" && [StashItem] == "true"			//ç¦çˆ¾çš„é è¦‹
+[Type] == "Zodiac Leather" && [Rarity] == "Unique" # 	[UniqueName] == "Hyrri's Ire" && [StashItem] == "true"				//è¥¿é‡Œçš„æˆ°è¡£æ˜Ÿè¾°çš®ç”²
+[Type] == "Titan Gauntlets" && [Rarity] == "Unique" # 	[UniqueName] == "Kaom's Spirit" && [StashItem] == "true"			//å²¡å§†ä¹‹é­‚
+[Type] == "Rawhide Boots" && [Rarity] == "Unique" # 	[UniqueName] == "Seven-League Step" && [StashItem] == "true"		//ç›Ÿèª“ä¹‹è·¡
+[Type] == "Rustic Sash" && [Rarity] == "Unique" # 		[UniqueName] == "Prismweave" && [StashItem] == "tã„‹ã„‹rue"			//å¹»å½©è±ç¹” è…°å¸¶
+[Type] == "Two-Stone Ring" && [Rarity] == "Unique" # 	[UniqueName] == "Berek's Respite Two-" && [StashItem] == "true"		//è²é›·å…‹çš„ç«èˆ‡é›·ä¹‹æ¨‚
+[Type] == "Two-Stone Ring" && [Rarity] == "Unique" # 	[UniqueName] == "Berek's Grip Two-" && [StashItem] == "true"		//è²é›·å…‹çš„å†°èˆ‡é›·ä¹‹æ›²
+[Type] == "Two-Stone Ring" && [Rarity] == "Unique" # 	[UniqueName] == "Berek's Pass Two-" && [StashItem] == "true"		//è²é›·å…‹çš„å†°èˆ‡ç«ä¹‹æ­Œ
+[Type] == "Amethyst Ring" && [Rarity] == "Unique" # 	[UniqueName] == "Death Rush" && [StashItem] == "true"				//äº¡è€…å‘¼å–š ç´«æ™¶æˆ’æŒ‡
+[Type] == "Jade Amulet" && [Rarity] == "Unique" # 		[UniqueName] == "Hyrri's Truth" && [StashItem] == "true"			//è¥¿é‡Œçš„çœŸç†
+[Type] == "Primal Arrow Quiver" && [Rarity] == "Unique" # [UniqueName] == "The Poised Prism" && [StashItem] == "true"		//å„ªé›…è¿·é¡
 
-//2023/05/01½âÌô‘ğÓÃ
-//„İÁ¦ÎïÆ·
+//2023/05/01è§£æŒ‘æˆ°ç”¨
+//å‹¢åŠ›ç‰©å“
 //[Type]=="The Jeweller's Boon" #[StashItem] == "true" //
 //[Type]=="Immortal Resolve" #[StashItem] == "true" //
 //[Type]=="Prometheus' Armoury" #[StashItem] == "true" //
@@ -59,139 +59,139 @@
 //[Type]=="The Dungeon Master" #[StashItem] == "true" //
 //[Type]=="Auspicious Ambitions" #[StashItem] == "true" //
 
-//2023/4/27  85Ë„©
-//[Type] == "Divine Life Flask"&& 	[ItemLevel] >= "60" && [ItemLevel] <="100" # [StashItem] == "true" //²»ĞàÉúÃüË„©
-//[Type] == "Amethyst Flask"&& 		[ItemLevel] >= "60" && [ItemLevel] <="100" # [StashItem] == "true" //×Ï¾§
-//[Type] == "Bismuth Flask"&& 		[ItemLevel] >= "60" && [ItemLevel] <="100" # [StashItem] == "true" //»ÒÑÒ
-//[Type] == "Silver Flask"&& 		[ItemLevel] >= "60" && [ItemLevel] <="100" # [StashItem] == "true" //ÃÍ¹¥
-//[Type] == "Diamond Flask"&& 		[ItemLevel] >= "60" && [ItemLevel] <="100" # [StashItem] == "true" //Œšè
-//[Type] == "Granite Flask"&& 		[ItemLevel] >= "60" && [ItemLevel] <="100" # [StashItem] == "true" //+1500×o¼×
-//[Type] == "Jade Flask"&& 			[ItemLevel] >= "60" && [ItemLevel] <="100" # [StashItem] == "true" //+1500éW±Ü
-//[Type] == "Quicksilver Flask"&& 	[ItemLevel] >= "60" && [ItemLevel] <="100" # [StashItem] == "true" //ÅÜË®
+//2023/4/27  85è—¥åŠ‘
+//[Type] == "Divine Life Flask"&& 	[ItemLevel] >= "60" && [ItemLevel] <="100" # [StashItem] == "true" //ä¸æœ½ç”Ÿå‘½è—¥åŠ‘
+//[Type] == "Amethyst Flask"&& 		[ItemLevel] >= "60" && [ItemLevel] <="100" # [StashItem] == "true" //ç´«æ™¶
+//[Type] == "Bismuth Flask"&& 		[ItemLevel] >= "60" && [ItemLevel] <="100" # [StashItem] == "true" //ç°å²©
+//[Type] == "Silver Flask"&& 		[ItemLevel] >= "60" && [ItemLevel] <="100" # [StashItem] == "true" //çŒ›æ”»
+//[Type] == "Diamond Flask"&& 		[ItemLevel] >= "60" && [ItemLevel] <="100" # [StashItem] == "true" //å¯¶é‘½
+//[Type] == "Granite Flask"&& 		[ItemLevel] >= "60" && [ItemLevel] <="100" # [StashItem] == "true" //+1500è­·ç”²
+//[Type] == "Jade Flask"&& 			[ItemLevel] >= "60" && [ItemLevel] <="100" # [StashItem] == "true" //+1500é–ƒé¿
+//[Type] == "Quicksilver Flask"&& 	[ItemLevel] >= "60" && [ItemLevel] <="100" # [StashItem] == "true" //è·‘æ°´
 
 
 
-//2023/04/13 ĞÂÔöÒª“ìµÄësÎï
-//É³‰m±©Å­ÊÖ
+//2023/04/13 æ–°å¢è¦æ’¿çš„é›œç‰©
+//æ²™å¡µæš´æ€’æ‰‹
 //[Type] == "Clasped Mitts" && [Rarity] == "Unique" # 	[StashItem]	 == "true"
-//Âñ»ğ
-//[Type] == "Wyrmscale Gauntlets" && [attack_speed_+_%] >= "1" && [Rarity] == "Unique" # [StashItem]	 == "true" // Âñ»ğ
+//åŸ‹ç«
+//[Type] == "Wyrmscale Gauntlets" && [attack_speed_+_%] >= "1" && [Rarity] == "Unique" # [StashItem]	 == "true" // åŸ‹ç«
 
-//2023/04/11//3.21 ĞÂÎïÆ·Çå†Î
-[Type] == "Igneous Geode" # 	[StashItem] == "true" // »ğ³É¾§¶´
-[Type] == "Crystalline Geode" # [StashItem] == "true" // Ë®¾§¾§¶´
-[Type] == "Magmatic Ore" # 		[StashItem] == "true" // ÑÒµV
+//2023/04/11//3.21 æ–°ç‰©å“æ¸…å–®
+[Type] == "Igneous Geode" # 	[StashItem] == "true" // ç«æˆæ™¶æ´
+[Type] == "Crystalline Geode" # [StashItem] == "true" // æ°´æ™¶æ™¶æ´
+[Type] == "Magmatic Ore" # 		[StashItem] == "true" // å²©ç¤¦
  
-[Type] == "Brother's Gift" # 	[StashItem] == "true" // ĞÖµÜÖ®Ù› ÓĞƒr
-[Type] == "Soul Quenched" # 	[StashItem] == "true" // ì`»ê°²Ï¢ 
-[Type] == "Poisoned Faith" # 	[StashItem] == "true" // ÓĞ¶¾ĞÅÑö ³õÆÚÓĞƒr
-[Type] == "A Chilling Wind" # 	[StashItem] == "true" // „CÙıÖ®ïL 
-[Type] == "Matryoshka" # 		[StashItem] == "true" // ¶íÁ_Ë¹ÍŞÍŞ ÓĞƒr
+[Type] == "Brother's Gift" # 	[StashItem] == "true" // å…„å¼Ÿä¹‹è´ˆ æœ‰åƒ¹
+[Type] == "Soul Quenched" # 	[StashItem] == "true" // éˆé­‚å®‰æ¯ 
+[Type] == "Poisoned Faith" # 	[StashItem] == "true" // æœ‰æ¯’ä¿¡ä»° åˆæœŸæœ‰åƒ¹
+[Type] == "A Chilling Wind" # 	[StashItem] == "true" // å‡œå†½ä¹‹é¢¨ 
+[Type] == "Matryoshka" # 		[StashItem] == "true" // ä¿„ç¾…æ–¯å¨ƒå¨ƒ æœ‰åƒ¹
 
-[Type] == "Xoph's Flawless Breachstone" 		# [StashItem] == "true" // Ë÷·üµÄŸoÏ¾ÁÑºÛÊ¯
-[Type] == "Tul's Flawless Breachstone" 			# [StashItem] == "true" // ÍĞÎÖµÄŸoÏ¾ÁÑºÛÊ¯
-[Type] == "Esh's Flawless Breachstone" 			# [StashItem] == "true" // °¬ÔSµÄŸoÏ¾ÁÑºÛÊ¯
-[Type] == "Uul-Netol's Flawless Breachstone" 	# [StashItem] == "true" // õ –Äá¶àµÄŸoÏ¾ÁÑºÛÊ¯
-[Type] == "Chayula's Flawless Breachstone" 		# [StashItem] == "true" // ÏÄõÀ­µÄŸoÏ¾ÁÑºÛÊ¯
+[Type] == "Xoph's Flawless Breachstone" 		# [StashItem] == "true" // ç´¢ä¼çš„ç„¡æš‡è£‚ç—•çŸ³
+[Type] == "Tul's Flawless Breachstone" 			# [StashItem] == "true" // æ‰˜æ²ƒçš„ç„¡æš‡è£‚ç—•çŸ³
+[Type] == "Esh's Flawless Breachstone" 			# [StashItem] == "true" // è‰¾è¨±çš„ç„¡æš‡è£‚ç—•çŸ³
+[Type] == "Uul-Netol's Flawless Breachstone" 	# [StashItem] == "true" // çƒçˆ¾å°¼å¤šçš„ç„¡æš‡è£‚ç—•çŸ³
+[Type] == "Chayula's Flawless Breachstone" 		# [StashItem] == "true" // å¤çƒæ‹‰çš„ç„¡æš‡è£‚ç—•çŸ³
 
 
 //2023/01
-[Type] == "Voidborn Reliquary Key" #  [StashItem]  == "true" // Ì“ÕQßzè€
+[Type] == "Voidborn Reliquary Key" #  [StashItem]  == "true" // è™›èª•éºé‘°
 
 //2022/12/24
 
-[Category] 	== "Map" && [MapTier] >= "16"  && [Rarity] == "Normal"  #			[StashItem] == "true" //°×
-[Category] 	== "Map" && [MapTier] >= "16"  && [Rarity] == "Magic"  #			[StashItem] == "true" //Ë{
-[Category] 	== "Map" && [MapTier] >= "16"  && [Rarity] == "Rare"  #				[StashItem] == "true" //üS
-[Category] 	== "Map" && [MapTier] >= "1"  && [Rarity] == "Unique"  #			[StashItem] == "true" //éÙ
-[Category] 	== "Map" && [map_contains_citadel]>= "1"  #							[StashItem] == "true" //Õ÷·ş
-[Category] 	== "Map" && [map_elder_boss_variation] >= "1"  #					[StashItem] == "true" //×ğŸ
-[Category] 	== "Map" && [map_atlas_influence_type] >= "1"  #					[StashItem] == "true" //ËÄÂ}
+[Category] 	== "Map" && [MapTier] >= "16"  && [Rarity] == "Normal"  #			[StashItem] == "true" //ç™½
+[Category] 	== "Map" && [MapTier] >= "16"  && [Rarity] == "Magic"  #			[StashItem] == "true" //è—
+[Category] 	== "Map" && [MapTier] >= "16"  && [Rarity] == "Rare"  #				[StashItem] == "true" //é»ƒ
+[Category] 	== "Map" && [MapTier] >= "1"  && [Rarity] == "Unique"  #			[StashItem] == "true" //æ©˜
+[Category] 	== "Map" && [map_contains_citadel]>= "1"  #							[StashItem] == "true" //å¾æœ
+[Category] 	== "Map" && [map_elder_boss_variation] >= "1"  #					[StashItem] == "true" //å°Šå¸«
+[Category] 	== "Map" && [map_atlas_influence_type] >= "1"  #					[StashItem] == "true" //å››è–
 
 //	Players are Cursed with Vulnerability	
-	[Category] == "Map" && [map_contains_citadel] >= "1" && [Rarity] == "Rare" #			[StashItem]	=="true"	//´æÕ÷·şÕß
-//	[Category] == "Map" && [map_monsters_reflect_%_elemental_damage] >= "1" && [Rarity] == "Rare" #	[ForceSellItem]	=="true"	//¹ÖÎï·´Éä_%_ÔªËØ‚ûº¦
-//	[Category] == "Map" && [map_monsters_reflect_%_physical_damage]>= "1" && [Rarity] == "Rare" #	[ForceSellItem]	=="true"	//¹ÖÎï·´Éä_%_ÎïÀí‚ûº¦
-//	[Category] == "Map" && [map_players_no_regeneration_including_es]>= "1" && [Rarity] == "Rare" #	[ForceSellItem]	=="true"	//Íæ¼ÒŸo·¨»ØÍÉúÃü¡¢Ä§Á¦ºÍÄÜÁ¿×o¶Ü
-//	[Category] == "Map" && [map_player_has_level_X_temporal_chains]>= "1" && [Rarity]="Rare" #	[ForceSellItem]	=="true"	//Íæ¼ÒÊÜµ½•r¿Õæiå€Ô{ÖäÓ°í‘
-//	[Category] == "Map" && [map_player_has_level_X_vulnrability]>= "1" && [Rarity]="Rare" #		[ForceSellItem]	=="true"	//Íæ¼ÒÊÜµ½´àÈõÔ{Öä
-//	[Category] == "Map" && [map_player_has_level_X_enfeeble]>= "1" && [Rarity]="Rare" #		[ForceSellItem]	=="true"	//Íæ¼ÒÊÜµ½Ë¥ÈõÔ{ÖäÓ°í‘
-//	[Category] == "Map" && [map_player_has_level_X_elemental_weakness]>= "1" && [Rarity]="Rare" #	[ForceSellItem]	=="true"	//Íæ¼ÒÊÜµ½ÔªËØÒªº¦Ô{ÖäÓ°í‘
-//	[Category] == "Map" && [map_rare_monsters_have_nemesis_mod]>= "1" && [Rarity]="Rare" #		[ForceSellItem]	=="true"	//Ï¡ÓĞ¹ÖÓĞÍ³ğŒÙĞÔ
-//	[Category] == "Map" && [map_base_ground_fire_damage_to_deal_per_minute]>= "1"&&[Rarity]="Rare" #[ForceSellItem]	=="true"	//µØˆDÑeÓĞÈ¼ŸıµØÃæ
-//	[Category] == "Map" && [map_ground_ice]>= "1" && [Rarity]="Rare" #				[ForceSellItem]	=="true"	//µØˆDÑeÓĞ±ù¾µØÃæ
-//	[Category] == "Map" && [map_ground_lightning]>= "1" && [Rarity]="Rare" #			[ForceSellItem]	=="true"	//µØˆDÑeÓĞ¸ĞëŠµØÃæ
-//	[Category] == "Map" && [map_base_ground_desecration_damage_to_deal_per_minute] >= "1"&&[Rarity]=="Rare" #[ForceSellItem]	=="true"	//›@È¾µØÃæ
-//	[Category] == "Map" && [map_players_block_chance_+%] < "0" && [Rarity] == "Rare" #		[ForceSellItem]	=="true"	//½µµÍ¸ñ™n
-//	[Category] == "Map" && [map_monsters_avoid_ailments_%] >= "1" && [Rarity] == "Rare #		[ForceSellItem]	=="true"	//µØˆD¹ÖÎï±ÜÃâÔªËØ®³£ î‘B
-//	[Category] == "Map" && [map_additional_player_maximum_resistances_%] <"0"&&[Rarity]=="Rare" #	[ForceSellItem]	=="true"	//½µµÍ×î´ó¿¹
-//	[Category] == "Map" && [map_monsters_cannot_be_leeched_from]  > "0" && [Rarity] == "Rare" # 	[ForceSellItem]	=="true"	//Ÿo·¨ÍµÈ¡
-//	[Category] == "Map" && [map_monsters_steal_charges] >= "1" && [Rarity] == "Rare" # 		[ForceSellItem]	=="true"	//¹ÖÎïÍµÇò
+	[Category] == "Map" && [map_contains_citadel] >= "1" && [Rarity] == "Rare" #			[StashItem]	=="true"	//å­˜å¾æœè€…
+//	[Category] == "Map" && [map_monsters_reflect_%_elemental_damage] >= "1" && [Rarity] == "Rare" #	[ForceSellItem]	=="true"	//æ€ªç‰©åå°„_%_å…ƒç´ å‚·å®³
+//	[Category] == "Map" && [map_monsters_reflect_%_physical_damage]>= "1" && [Rarity] == "Rare" #	[ForceSellItem]	=="true"	//æ€ªç‰©åå°„_%_ç‰©ç†å‚·å®³
+//	[Category] == "Map" && [map_players_no_regeneration_including_es]>= "1" && [Rarity] == "Rare" #	[ForceSellItem]	=="true"	//ç©å®¶ç„¡æ³•å›å¾©ç”Ÿå‘½ã€é­”åŠ›å’Œèƒ½é‡è­·ç›¾
+//	[Category] == "Map" && [map_player_has_level_X_temporal_chains]>= "1" && [Rarity]="Rare" #	[ForceSellItem]	=="true"	//ç©å®¶å—åˆ°æ™‚ç©ºé–éŠè©›å’’å½±éŸ¿
+//	[Category] == "Map" && [map_player_has_level_X_vulnrability]>= "1" && [Rarity]="Rare" #		[ForceSellItem]	=="true"	//ç©å®¶å—åˆ°è„†å¼±è©›å’’
+//	[Category] == "Map" && [map_player_has_level_X_enfeeble]>= "1" && [Rarity]="Rare" #		[ForceSellItem]	=="true"	//ç©å®¶å—åˆ°è¡°å¼±è©›å’’å½±éŸ¿
+//	[Category] == "Map" && [map_player_has_level_X_elemental_weakness]>= "1" && [Rarity]="Rare" #	[ForceSellItem]	=="true"	//ç©å®¶å—åˆ°å…ƒç´ è¦å®³è©›å’’å½±éŸ¿
+//	[Category] == "Map" && [map_rare_monsters_have_nemesis_mod]>= "1" && [Rarity]="Rare" #		[ForceSellItem]	=="true"	//ç¨€æœ‰æ€ªæœ‰å¾©ä»‡å±¬æ€§
+//	[Category] == "Map" && [map_base_ground_fire_damage_to_deal_per_minute]>= "1"&&[Rarity]="Rare" #[ForceSellItem]	=="true"	//åœ°åœ–è£¡æœ‰ç‡ƒç‡’åœ°é¢
+//	[Category] == "Map" && [map_ground_ice]>= "1" && [Rarity]="Rare" #				[ForceSellItem]	=="true"	//åœ°åœ–è£¡æœ‰å†°ç·©åœ°é¢
+//	[Category] == "Map" && [map_ground_lightning]>= "1" && [Rarity]="Rare" #			[ForceSellItem]	=="true"	//åœ°åœ–è£¡æœ‰æ„Ÿé›»åœ°é¢
+//	[Category] == "Map" && [map_base_ground_desecration_damage_to_deal_per_minute] >= "1"&&[Rarity]=="Rare" #[ForceSellItem]	=="true"	//æ±™æŸ“åœ°é¢
+//	[Category] == "Map" && [map_players_block_chance_+%] < "0" && [Rarity] == "Rare" #		[ForceSellItem]	=="true"	//é™ä½æ ¼æª”
+//	[Category] == "Map" && [map_monsters_avoid_ailments_%] >= "1" && [Rarity] == "Rare #		[ForceSellItem]	=="true"	//åœ°åœ–æ€ªç‰©é¿å…å…ƒç´ ç•°å¸¸ç‹€æ…‹
+//	[Category] == "Map" && [map_additional_player_maximum_resistances_%] <"0"&&[Rarity]=="Rare" #	[ForceSellItem]	=="true"	//é™ä½æœ€å¤§æŠ—
+//	[Category] == "Map" && [map_monsters_cannot_be_leeched_from]  > "0" && [Rarity] == "Rare" # 	[ForceSellItem]	=="true"	//ç„¡æ³•å·å–
+//	[Category] == "Map" && [map_monsters_steal_charges] >= "1" && [Rarity] == "Rare" # 		[ForceSellItem]	=="true"	//æ€ªç‰©å·çƒ
 
 
-//3.20ĞÂÔö 111Äê12ÔÂ13ÈÕ
+//3.20æ–°å¢ 111å¹´12æœˆ13æ—¥
 
-//3.20 12/11 é_†¢´óÁ¿ÓĞƒrÎïÆ·°æ±¾//
+//3.20 12/11 é–‹å•Ÿå¤§é‡æœ‰åƒ¹ç‰©å“ç‰ˆæœ¬//
 
 
-//¿¨ÌmµÂÖ®Ó|
-[Type] == "Ring" && [Rarity] == "Unique" # 	[StashItem] == "true" // ¿¨ÌmµÂ½äÖ¸
-//[Type]=="Man With Bear" #					[StashItem] == "true" // ¿¨£ºĞÜÄĞ(á÷«CÂ}¼×Ïx)
-//[Type]=="Alivia's Grace" #				[StashItem] == "true" // ¿¨£ºÉ­ºó
-//[Type]=="Auspicious Ambitions" #			[StashItem] == "true" //½Ù±I°ÙµÈÎäÆ÷
-[Type]=="Divine Beauty" #					[StashItem] == "true" //ÉñÂ}Ê¯¿¨£¨ÓĞƒr£©
-[Type]=="The Wedding Gift" #				[StashItem] == "true" //Ö©Öëµ¶¿¨£¨ÓĞƒr£©
-[Type]=="The Insane Cat" #					[StashItem] == "true" //Ä§Ñª¿¨£¨ÓĞƒr£©
-//[Type]=="Ever-Changing" #					[StashItem] == "true" //³·äN
+//å¡è˜­å¾·ä¹‹è§¸
+[Type] == "Ring" && [Rarity] == "Unique" # 	[StashItem] == "true" // å¡è˜­å¾·æˆ’æŒ‡
+//[Type]=="Man With Bear" #					[StashItem] == "true" // å¡ï¼šç†Šç”·(ç‹©çµè–ç”²èŸ²)
+//[Type]=="Alivia's Grace" #				[StashItem] == "true" // å¡ï¼šæ£®å
+//[Type]=="Auspicious Ambitions" #			[StashItem] == "true" //åŠ«ç›œç™¾ç­‰æ­¦å™¨
+[Type]=="Divine Beauty" #					[StashItem] == "true" //ç¥è–çŸ³å¡ï¼ˆæœ‰åƒ¹ï¼‰
+[Type]=="The Wedding Gift" #				[StashItem] == "true" //èœ˜è››åˆ€å¡ï¼ˆæœ‰åƒ¹ï¼‰
+[Type]=="The Insane Cat" #					[StashItem] == "true" //é­”è¡€å¡ï¼ˆæœ‰åƒ¹ï¼‰
+//[Type]=="Ever-Changing" #					[StashItem] == "true" //æ’¤éŠ·
 //[Type]=="A Dusty Memory" #				[StashItem] == "true" //
 //[Type]=="The Return of the Rat" #			[StashItem] == "true" //
 [Type]=="The Finishing Touch" #				[StashItem] == "true" //
 				
-[Type]=="Fracturing Orb" #					[StashItem] == "true" //ÆÆÁÑÊ¯
-[Type]=="Fracturing Shard" #				[StashItem] == "true" //ÆÆÁÑÊ¯ËéÆ¬
+[Type]=="Fracturing Orb" #					[StashItem] == "true" //ç ´è£‚çŸ³
+[Type]=="Fracturing Shard" #				[StashItem] == "true" //ç ´è£‚çŸ³ç¢ç‰‡
 				
-//[Type]=="Urn Relic" #						[StashItem] == "true" //Â}Îï1
-//[Type]=="Tome Relic" #					[StashItem] == "true" //Â}Îï2
-//[Type]=="Coffer Relic" #					[StashItem] == "true" //Â}Îï3
-//[Type]=="Censer Relic" #					[StashItem] == "true" //Â}Îï4
-//[Type]=="Papyrus Relic" #					[StashItem] == "true" //Â}Îï5
-//[Type]=="Candlestick Relic" #				[StashItem] == "true" //Â}Îï6
-//[Type]=="Processional Relic"#				[StashItem] == "true" //Â}Îï7
+//[Type]=="Urn Relic" #						[StashItem] == "true" //è–ç‰©1
+//[Type]=="Tome Relic" #					[StashItem] == "true" //è–ç‰©2
+//[Type]=="Coffer Relic" #					[StashItem] == "true" //è–ç‰©3
+//[Type]=="Censer Relic" #					[StashItem] == "true" //è–ç‰©4
+//[Type]=="Papyrus Relic" #					[StashItem] == "true" //è–ç‰©5
+//[Type]=="Candlestick Relic" #				[StashItem] == "true" //è–ç‰©6
+//[Type]=="Processional Relic"#				[StashItem] == "true" //è–ç‰©7
 				
 				
-//[Type]=="Sanctified Relic" #[StashItem] == "true" //3.20Œ£ŒÙÂ}ÎïµÀ¾ß
+//[Type]=="Sanctified Relic" #[StashItem] == "true" //3.20å°ˆå±¬è–ç‰©é“å…·
 
 
-//ÏÂÃæÊÇ3.19ÒÔÇ°
+//ä¸‹é¢æ˜¯3.19ä»¥å‰
 
-//ÑûÕˆ
-[Type] =="Maven's Invitation: The Elderslayers" #	[StashItem]	 == "true" 		//š¢ÊÖ
-[Type] =="Maven's Invitation: The Forgotten" #		[StashItem]	 == "true" 		//ßzÍü
-[Type] =="Maven's Invitation: The Formed" #			[StashItem]	 == "true" 		//ËÜĞÍ
-[Type] =="Maven's Invitation: The Twisted" #		[StashItem]	 == "true" 		//Å¤Çú
+//é‚€è«‹
+[Type] =="Maven's Invitation: The Elderslayers" #	[StashItem]	 == "true" 		//æ®ºæ‰‹
+[Type] =="Maven's Invitation: The Forgotten" #		[StashItem]	 == "true" 		//éºå¿˜
+[Type] =="Maven's Invitation: The Formed" #			[StashItem]	 == "true" 		//å¡‘å‹
+[Type] =="Maven's Invitation: The Twisted" #		[StashItem]	 == "true" 		//æ‰­æ›²
 
-//¾GéT
-//[Type] == "Mortal Grief"             # 	[StashItem]	 == "true" 	//·²ÈËµÄ°§‚û
-//[Type] == "Mortal Rage"              # 	[StashItem]	 == "true" 	//·²ÈËµÄ‘Å­
-//[Type] == "Mortal Ignorance"         # 	[StashItem]	 == "true" 	//·²ÈËµÄŸoÖª
-//[Type] == "Mortal Hope"              # 	[StashItem]	 == "true" 	//·²ÈËµÄÏ£Íû
+//ç¶ é–€
+//[Type] == "Mortal Grief"             # 	[StashItem]	 == "true" 	//å‡¡äººçš„å“€å‚·
+//[Type] == "Mortal Rage"              # 	[StashItem]	 == "true" 	//å‡¡äººçš„æ†¤æ€’
+//[Type] == "Mortal Ignorance"         # 	[StashItem]	 == "true" 	//å‡¡äººçš„ç„¡çŸ¥
+//[Type] == "Mortal Hope"              # 	[StashItem]	 == "true" 	//å‡¡äººçš„å¸Œæœ›
 
-//¼téT
-//[Type] == "Sacrifice at Dawn"        # 	[StashItem]	 == "true" 	//ÀèÃ÷µÄ·î«I
-//[Type] == "Sacrifice at Noon"        # 	[StashItem]	 == "true" 	//ÕıÎçµÄ·î«I
-//[Type] == "Sacrifice at Dusk"        # 	[StashItem]	 == "true" 	//üS»èµÄ·î«I
-//[Type] == "Sacrifice at Midnight"    # 	[StashItem]	 == "true" 	//ÎçÒ¹µÄ·î«I
+//ç´…é–€
+//[Type] == "Sacrifice at Dawn"        # 	[StashItem]	 == "true" 	//é»æ˜çš„å¥‰ç»
+//[Type] == "Sacrifice at Noon"        # 	[StashItem]	 == "true" 	//æ­£åˆçš„å¥‰ç»
+//[Type] == "Sacrifice at Dusk"        # 	[StashItem]	 == "true" 	//é»ƒæ˜çš„å¥‰ç»
+//[Type] == "Sacrifice at Midnight"    # 	[StashItem]	 == "true" 	//åˆå¤œçš„å¥‰ç»
 
-//[Type] == "Lingering Remnants" # 	[StashItem]	 == "true"	//šˆĞæ(Íß –ÃÜµî-ÎïÆ·µÈ¼‰:83-ÒÑ›@È¾)	Ê°È¡ÇÒ´æ‚}
-//[Type] == "Last Hope" # 			[StashItem]	 == "true"	//×îááÏ£Íû(·²ÈËµÄÏ£Íû)	Ê°È¡ÇÒ´æ‚}
-//[Type] == "Sambodhi's Vow" # 		[StashItem]	 == "true"	//ÆĞÌáÊÄ¼s(·²ÈËËéÆ¬)	Ê°È¡ÇÒ´æ‚}
-//[Type]=="Something Dark" #		[StashItem]	 == "true"	//ºÚ°µµÄ–|Î÷(Ë{ˆD)	Ê°È¡ÇÒ´æ‚}
-[Type] =="Gemcutter's Mercy" #		[StashItem]	 == "true"	//ŒšÊ¯ÇĞ¸îÕßµÄ‘z‘‘(×¿Ô½ŒšÊ¯)	Ê°È¡ÇÒ´æ‚}
-[Type] == "Awakened Sextant" # 		[StashItem]	 == "true"	//ÑuˆDÁù·Öƒx£®ÓXĞÑ	Ê°È¡ÇÒ´æ‚}
-[Type] == "Stacked Deck" # 			[StashItem]	 == "true"	//ØSÔ£ÅÆ½M	Ê°È¡ÇÒ´æ‚}
+//[Type] == "Lingering Remnants" # 	[StashItem]	 == "true"	//æ®˜å¢Ÿ(ç“¦çˆ¾å¯†æ®¿-ç‰©å“ç­‰ç´š:83-å·²æ±™æŸ“)	æ‹¾å–ä¸”å­˜å€‰
+//[Type] == "Last Hope" # 			[StashItem]	 == "true"	//æœ€å¾Œå¸Œæœ›(å‡¡äººçš„å¸Œæœ›)	æ‹¾å–ä¸”å­˜å€‰
+//[Type] == "Sambodhi's Vow" # 		[StashItem]	 == "true"	//è©æèª“ç´„(å‡¡äººç¢ç‰‡)	æ‹¾å–ä¸”å­˜å€‰
+//[Type]=="Something Dark" #		[StashItem]	 == "true"	//é»‘æš—çš„æ±è¥¿(è—åœ–)	æ‹¾å–ä¸”å­˜å€‰
+[Type] =="Gemcutter's Mercy" #		[StashItem]	 == "true"	//å¯¶çŸ³åˆ‡å‰²è€…çš„æ†æ†«(å“è¶Šå¯¶çŸ³)	æ‹¾å–ä¸”å­˜å€‰
+[Type] == "Awakened Sextant" # 		[StashItem]	 == "true"	//è£½åœ–å…­åˆ†å„€ï¼è¦ºé†’	æ‹¾å–ä¸”å­˜å€‰
+[Type] == "Stacked Deck" # 			[StashItem]	 == "true"	//è±è£•ç‰Œçµ„	æ‹¾å–ä¸”å­˜å€‰
 
 
-//Ó›‘›
+//è¨˜æ†¶
 //[Type]=="Niko's Memory" # 	[StashItem]  == "true" // 
 //[Type]=="Alva's Memory" # 	[StashItem]  == "true" // 
 //[Type]=="Kirac's Memory" # 	[StashItem]  == "true" // 
@@ -199,7 +199,7 @@
 [Type]=="Engraved Ultimatum" # 	[StashItem]  == "true" // 
 [Type]=="Mirrored Tablet" # 	[StashItem]  == "true" // 
 
-//ßzè€
+//éºé‘°
 [Type]=="Forgotten Reliquary Key" # 	[StashItem]  == "true" // 
 [Type]=="Visceral Reliquary Key" # 		[StashItem]  == "true" // 
 [Type]=="Shiny Reliquary Key" # 		[StashItem]  == "true" // 
@@ -208,8 +208,8 @@
 [Type]=="Cosmic Reliquary Key" #		[StashItem]  == "true" // 
 [Type]=="Decaying Reliquary Key" # 		[StashItem]  == "true" //
 
-//¾İ‹•rég£º2022/9/7
-//›@È¾Í¨Ø›
+//ç·¨è¼¯æ™‚é–“ï¼š2022/9/7
+//æ±™æŸ“é€šè²¨
 [Type]=="Tainted Chromatic Orb" # 			[StashItem]  == "true"
 [Type]=="Tainted Orb of Fusing" # 			[StashItem]  == "true"
 [Type]=="Tainted Jeweller's Orb" # 			[StashItem]  == "true"
@@ -224,414 +224,414 @@
  
  
 
- //¾İ‹•rég£º2022/7/5 ex±ÈË®ïœ±ãÒËµÄ¼¾Ä©
- //Í¨Ø›
-[Type] == "Orb of Unmaking"# 			[StashItem]  == "true"	//³·äNÊ¯
-[Type] == "Enkindling Orb"# 			[StashItem]  == "true"	//ücÈ¼Ê¯
-[Type] == "Orb of Annulment"# 			[StashItem]  == "true"	//ŸoĞ§
-[Type] == "Awakened Sextant" # 			[StashItem]  == "true"	//Áù·Ö
-[Type] == "Blacksmith's Whetstone" # 	[StashItem]	 == "true"	//Ä¥µ¶Ê¯
-[Type] == "Armourer's Scrap" # 			[StashItem]	 == "true"	//×o¼×Æ¬
-[Type] == "Glassblower's Bauble" # 		[StashItem]	 == "true"	//²£Á§—Öé
-[Type] == "Blessed Orb" # 				[StashItem]	 == "true"	//×£¸£Ê¯
-[Type] == "Chaos Orb" # 				[StashItem]	 == "true"	//»ìãçÊ¯
-[Type] == "Chromatic Orb" # 			[StashItem]	 == "true"	//»ÃÉ«Ê¯
-[Type] == "Divine Orb" # 				[StashItem]	 == "true"	//ÉñÂ}Ê¯
-[Type] == "Exalted Orb" # 				[StashItem]	 == "true"	//³ç¸ßÊ¯
-[Type] == "Gemcutter's Prism" # 		[StashItem]	 == "true"	//ŒšÊ¯½³µÄ¶ çR
-[Type] == "Jeweller's Orb" # 			[StashItem]	 == "true"	//¹¤½³Ê¯
-[Type] == "Mirror of Kalandra" # 		[StashItem]	 == "true"	//¿¨ÌmµÂµÄÄ§çR
-[Type] == "Orb of Alchemy" # 			[StashItem]	 == "true"	//üc½ğÊ¯
-[Type] == "Orb of Alteration" # 		[StashItem]	 == "true"	//¸ÄÔìÊ¯
-[Type] == "Orb of Transmutation" # 		[StashItem]	 == "true"	//Í‘×ƒÊ¯
-[Type] == "Orb of Augmentation" # 		[StashItem]	 == "true"	//Ôö·ùÊ¯
-[Type] == "Orb of Chance" # 			[StashItem]	 == "true"	//™C•şÊ¯
-[Type] == "Orb of Fusing" # 			[StashItem]	 == "true"	//æœ½YÊ¯
-[Type] == "Orb of Regret" # 			[StashItem]	 == "true"	//áá»ÚÊ¯
-[Type] == "Orb of Scouring" # 			[StashItem]	 == "true"	//ÖØèTÊ¯
-[Type] == "Perandus Coin" # 			[StashItem]	 == "true"	//ÆÕÌmµÂË¹½ğÅ
-[Type] == "Regal Orb" # 				[StashItem]	 == "true"	//¸»ºÀÊ¯
-[Type] == "Silver Coin" # 				[StashItem]	 == "true"	//ãyÅ
-[Type] == "Vaal Orb" # 					[StashItem]	 == "true"	//Íß –ŒšÖé
-[Type] == "Cartographer's Chisel" # 	[StashItem]	 == "true"	//ÑuˆDá”
-[Type] == "Orb of Annulment" # 			[StashItem]	 == "true"	//ŸoĞ§Ê¯
-[Type] == "Orb of Binding" # 			[StashItem]	 == "true"	//Êø¿`Ê¯
-[Type] == "Orb of Horizons"         # 	[StashItem]	 == "true"	//µØÆ½Ê¯
-[Type] == "Harbinger's Orb"         # 	[StashItem]	 == "true"	//ÉñÖIÊ¯
-[Type] == "Engineer's Orb" # 			[StashItem]	 == "true"	//¹¤³ÌÊ¯
-[Type] == "Ancient Orb" # 				[StashItem]	 == "true"	//¹Å×ƒÊ¯
-[Type] == "Annulment Shard"  #			[StashItem]	 == "true"	//ŸoĞ§Ê¯ËéÆ¬
-[Type] == "Binding Shard"# 				[StashItem]	 == "true"	//Êø¿`Ê¯ËéÆ¬
-[Type] == "Horizon Shard" # 			[StashItem]	 == "true"	//µØÆ½Ê¯ËéÆ¬
-[Type] == "Harbinger's Shard" # 		[StashItem]	 == "true"	//ÉñÖIÊ¯ËéÆ¬
-[Type] == "Engineer's Shard" # 			[StashItem]	 == "true"	//¹¤³ÌÊ¯ËéÆ¬
-[Type] == "Ancient Shard" # 			[StashItem]	 == "true"	//¹Å×ƒÊ¯ËéÆ¬
-[Type] == "Chaos Shard" # 				[StashItem]	 == "true"	//»ìãçÊ¯ËéÆ¬
-[Type] == "Mirror Shard" # 				[StashItem]	 == "true"	//Ä§çRËéÆ¬
-[Type] == "Exalted Shard"# 				[StashItem]	 == "true"	//³ç¸ßÊ¯ËéÆ¬
-[Type] == "Regal Shard" # 				[StashItem]	 == "true"	//¸»ºÀÊ¯ËéÆ¬
-[Type] == "Veiled Chaos Orb"			[StashItem]	 == "true"	//ë[Ää»ìãçÊ¯
+ //ç·¨è¼¯æ™‚é–“ï¼š2022/7/5 exæ¯”æ°´é¤ƒä¾¿å®œçš„å­£æœ«
+ //é€šè²¨
+[Type] == "Orb of Unmaking"# 			[StashItem]  == "true"	//æ’¤éŠ·çŸ³
+[Type] == "Enkindling Orb"# 			[StashItem]  == "true"	//é»ç‡ƒçŸ³
+[Type] == "Orb of Annulment"# 			[StashItem]  == "true"	//ç„¡æ•ˆ
+[Type] == "Awakened Sextant" # 			[StashItem]  == "true"	//å…­åˆ†
+[Type] == "Blacksmith's Whetstone" # 	[StashItem]	 == "true"	//ç£¨åˆ€çŸ³
+[Type] == "Armourer's Scrap" # 			[StashItem]	 == "true"	//è­·ç”²ç‰‡
+[Type] == "Glassblower's Bauble" # 		[StashItem]	 == "true"	//ç»ç’ƒå½ˆç 
+[Type] == "Blessed Orb" # 				[StashItem]	 == "true"	//ç¥ç¦çŸ³
+[Type] == "Chaos Orb" # 				[StashItem]	 == "true"	//æ··æ²ŒçŸ³
+[Type] == "Chromatic Orb" # 			[StashItem]	 == "true"	//å¹»è‰²çŸ³
+[Type] == "Divine Orb" # 				[StashItem]	 == "true"	//ç¥è–çŸ³
+[Type] == "Exalted Orb" # 				[StashItem]	 == "true"	//å´‡é«˜çŸ³
+[Type] == "Gemcutter's Prism" # 		[StashItem]	 == "true"	//å¯¶çŸ³åŒ çš„ç¨œé¡
+[Type] == "Jeweller's Orb" # 			[StashItem]	 == "true"	//å·¥åŒ çŸ³
+[Type] == "Mirror of Kalandra" # 		[StashItem]	 == "true"	//å¡è˜­å¾·çš„é­”é¡
+[Type] == "Orb of Alchemy" # 			[StashItem]	 == "true"	//é»é‡‘çŸ³
+[Type] == "Orb of Alteration" # 		[StashItem]	 == "true"	//æ”¹é€ çŸ³
+[Type] == "Orb of Transmutation" # 		[StashItem]	 == "true"	//è›»è®ŠçŸ³
+[Type] == "Orb of Augmentation" # 		[StashItem]	 == "true"	//å¢å¹…çŸ³
+[Type] == "Orb of Chance" # 			[StashItem]	 == "true"	//æ©ŸæœƒçŸ³
+[Type] == "Orb of Fusing" # 			[StashItem]	 == "true"	//éˆçµçŸ³
+[Type] == "Orb of Regret" # 			[StashItem]	 == "true"	//å¾Œæ‚”çŸ³
+[Type] == "Orb of Scouring" # 			[StashItem]	 == "true"	//é‡é‘„çŸ³
+[Type] == "Perandus Coin" # 			[StashItem]	 == "true"	//æ™®è˜­å¾·æ–¯é‡‘å¹£
+[Type] == "Regal Orb" # 				[StashItem]	 == "true"	//å¯Œè±ªçŸ³
+[Type] == "Silver Coin" # 				[StashItem]	 == "true"	//éŠ€å¹£
+[Type] == "Vaal Orb" # 					[StashItem]	 == "true"	//ç“¦çˆ¾å¯¶ç 
+[Type] == "Cartographer's Chisel" # 	[StashItem]	 == "true"	//è£½åœ–é‡˜
+[Type] == "Orb of Annulment" # 			[StashItem]	 == "true"	//ç„¡æ•ˆçŸ³
+[Type] == "Orb of Binding" # 			[StashItem]	 == "true"	//æŸç¸›çŸ³
+[Type] == "Orb of Horizons"         # 	[StashItem]	 == "true"	//åœ°å¹³çŸ³
+[Type] == "Harbinger's Orb"         # 	[StashItem]	 == "true"	//ç¥è«­çŸ³
+[Type] == "Engineer's Orb" # 			[StashItem]	 == "true"	//å·¥ç¨‹çŸ³
+[Type] == "Ancient Orb" # 				[StashItem]	 == "true"	//å¤è®ŠçŸ³
+[Type] == "Annulment Shard"  #			[StashItem]	 == "true"	//ç„¡æ•ˆçŸ³ç¢ç‰‡
+[Type] == "Binding Shard"# 				[StashItem]	 == "true"	//æŸç¸›çŸ³ç¢ç‰‡
+[Type] == "Horizon Shard" # 			[StashItem]	 == "true"	//åœ°å¹³çŸ³ç¢ç‰‡
+[Type] == "Harbinger's Shard" # 		[StashItem]	 == "true"	//ç¥è«­çŸ³ç¢ç‰‡
+[Type] == "Engineer's Shard" # 			[StashItem]	 == "true"	//å·¥ç¨‹çŸ³ç¢ç‰‡
+[Type] == "Ancient Shard" # 			[StashItem]	 == "true"	//å¤è®ŠçŸ³ç¢ç‰‡
+[Type] == "Chaos Shard" # 				[StashItem]	 == "true"	//æ··æ²ŒçŸ³ç¢ç‰‡
+[Type] == "Mirror Shard" # 				[StashItem]	 == "true"	//é­”é¡ç¢ç‰‡
+[Type] == "Exalted Shard"# 				[StashItem]	 == "true"	//å´‡é«˜çŸ³ç¢ç‰‡
+[Type] == "Regal Shard" # 				[StashItem]	 == "true"	//å¯Œè±ªçŸ³ç¢ç‰‡
+[Type] == "Veiled Chaos Orb"			[StashItem]	 == "true"	//éš±åŒ¿æ··æ²ŒçŸ³
 
-//ÎåÜŠ
-//[Type] == "Timeless Eternal Empire Splinter" #[StashItem] == "true"//ÓÀa²»ĞàµÛ‡øÁÑÆ¬²»“ì²»´æ‚}
-//[Type] == "Timeless Karui Splinter"# 			[StashItem] == "true"//ÓÀa¿¨ô”ÁÑÆ¬²»“ì²»´æ‚}
-[Type] == "Timeless Maraketh Splinter"# 		[StashItem] == "true"//ÓÀañRÀ­¿ËË¹ÁÑÆ¬Ê°È¡ÇÒ´æ‚}
-[Type] == "Timeless Templar Splinter"# 			[StashItem] == "true"//ÓÀaÂ}×ÚÁÑÆ¬Ê°È¡ÇÒ´æ‚}
-//[Type] == "Timeless Vaal Splinter" # 			[StashItem] == "true"//ÓÀaÍß –ÁÑÆ¬²»“ì²»´æ‚}
-[Type] == "Timeless Eternal Emblem" # 			[StashItem] == "true"//ÓÀa²»ĞàµÛ‡ø»ÕÓ¡Ê°È¡ÇÒ´æ‚}
-[Type] == "Timeless Karui Emblem"# 				[StashItem] == "true"//ÓÀa¿¨ô”»ÕÓ¡Ê°È¡ÇÒ´æ‚}
-[Type] == "Timeless Maraketh Emblem" # 			[StashItem] == "true"//ÓÀañRÀ­¿ËË¹»ÕÓ¡Ê°È¡ÇÒ´æ‚}
-[Type] == "Timeless Templar Emblem" # 			[StashItem] == "true"//ÓÀaÂ}×Ú»ÕÓ¡Ê°È¡ÇÒ´æ‚}
-[Type] == "Timeless Vaal Emblem"# 				[StashItem] == "true"//ÓÀaÍß –»ÕÓ¡Ê°È¡ÇÒ´æ‚}
+//äº”è»
+//[Type] == "Timeless Eternal Empire Splinter" #[StashItem] == "true"//æ°¸æ†ä¸æœ½å¸åœ‹è£‚ç‰‡ä¸æ’¿ä¸å­˜å€‰
+//[Type] == "Timeless Karui Splinter"# 			[StashItem] == "true"//æ°¸æ†å¡é­¯è£‚ç‰‡ä¸æ’¿ä¸å­˜å€‰
+[Type] == "Timeless Maraketh Splinter"# 		[StashItem] == "true"//æ°¸æ†é¦¬æ‹‰å…‹æ–¯è£‚ç‰‡æ‹¾å–ä¸”å­˜å€‰
+[Type] == "Timeless Templar Splinter"# 			[StashItem] == "true"//æ°¸æ†è–å®—è£‚ç‰‡æ‹¾å–ä¸”å­˜å€‰
+//[Type] == "Timeless Vaal Splinter" # 			[StashItem] == "true"//æ°¸æ†ç“¦çˆ¾è£‚ç‰‡ä¸æ’¿ä¸å­˜å€‰
+[Type] == "Timeless Eternal Emblem" # 			[StashItem] == "true"//æ°¸æ†ä¸æœ½å¸åœ‹å¾½å°æ‹¾å–ä¸”å­˜å€‰
+[Type] == "Timeless Karui Emblem"# 				[StashItem] == "true"//æ°¸æ†å¡é­¯å¾½å°æ‹¾å–ä¸”å­˜å€‰
+[Type] == "Timeless Maraketh Emblem" # 			[StashItem] == "true"//æ°¸æ†é¦¬æ‹‰å…‹æ–¯å¾½å°æ‹¾å–ä¸”å­˜å€‰
+[Type] == "Timeless Templar Emblem" # 			[StashItem] == "true"//æ°¸æ†è–å®—å¾½å°æ‹¾å–ä¸”å­˜å€‰
+[Type] == "Timeless Vaal Emblem"# 				[StashItem] == "true"//æ°¸æ†ç“¦çˆ¾å¾½å°æ‹¾å–ä¸”å­˜å€‰
 
-[Type] == "Empower Support" #		[StashItem] == "true"//ÙxÓèİoÖúÊ°È¡ÇÒ´æ‚}
-[Type] == "Enhance Support" #		[StashItem] == "true"//Ôö·ùİoÖú²»“ì²»´æ‚}
-[Type] == "Enlighten Support" #		[StashItem] == "true"//†¢ÃÉİoÖúÊ°È¡ÇÒ´æ‚}
+[Type] == "Empower Support" #		[StashItem] == "true"//è³¦äºˆè¼”åŠ©æ‹¾å–ä¸”å­˜å€‰
+[Type] == "Enhance Support" #		[StashItem] == "true"//å¢å¹…è¼”åŠ©ä¸æ’¿ä¸å­˜å€‰
+[Type] == "Enlighten Support" #		[StashItem] == "true"//å•Ÿè’™è¼”åŠ©æ‹¾å–ä¸”å­˜å€‰
 
-[Type] == "The Apothecary" #		[StashItem] == "true" //Ë„©Ÿ
-[Type] =="Incandescent Invitation" #[StashItem] == "true" //ŸëŸáÖ®Ñû
-//[Type] =="Polaric Invitation" #	[StashItem] == "true" //˜OµØÖ®Ñû
-[Type] == "Screaming Invitation" #	[StashItem] == "true" //¼âÏøÖ®Ñû
-//[Type] =="Writhing Invitation" #	[StashItem] == "true" //ÀpÀ@Ö®Ñû
-//[Type] == "Humility" # 			[StashItem] == "true" //Ötßd
-[Type] == "House of Mirrors" # 		[StashItem] == "true" //Ã÷çR
-[Type] == "The Doctor" # 			[StashItem] == "true" //¯‚át
-[Type] == "The Demon" # 			[StashItem] == "true" //ºÄ§
+[Type] == "The Apothecary" #		[StashItem] == "true" //è—¥åŠ‘å¸«
+[Type] =="Incandescent Invitation" #[StashItem] == "true" //ç†¾ç†±ä¹‹é‚€
+//[Type] =="Polaric Invitation" #	[StashItem] == "true" //æ¥µåœ°ä¹‹é‚€
+[Type] == "Screaming Invitation" #	[StashItem] == "true" //å°–å“®ä¹‹é‚€
+//[Type] =="Writhing Invitation" #	[StashItem] == "true" //çºç¹ä¹‹é‚€
+[Type] == "Humility" # 			[StashItem] == "true" //è¬™éœ
+[Type] == "House of Mirrors" # 		[StashItem] == "true" //æ˜é¡
+[Type] == "The Doctor" # 			[StashItem] == "true" //ç˜‹é†«
+[Type] == "The Demon" # 			[StashItem] == "true" //æƒ¡é­”
 [Type] == "Unrequited Love" # 		[StashItem] == "true" //Unrequited Love
-[Type] == "The Fiend" # 			[StashItem] == "true" //Ä§¹í
+[Type] == "The Fiend" # 			[StashItem] == "true" //é­”é¬¼
 [Type] == "Brother's Stash" # 		[StashItem] == "true" //Brother's Stash
-[Type] == "Love Through Ice" # 		[StashItem] == "true" //±ùÀäÛ‘Ù
-[Type] == "The Immortal" #			[StashItem] == "true" //ÓÀa²»Ğà
-[Type] == "The Nurse" # 			[StashItem] == "true" //×oÀíŸ
-[Type] == "The Cheater" # 			[StashItem] == "true" //ÔpÆÛŸ
-[Type] == "Alluring Bounty" # 		[StashItem] == "true" //ÕT»óÖ®Œš
+[Type] == "Love Through Ice" # 		[StashItem] == "true" //å†°å†·æ„›æˆ€
+[Type] == "The Immortal" #			[StashItem] == "true" //æ°¸æ†ä¸æœ½
+[Type] == "The Nurse" # 			[StashItem] == "true" //è­·ç†å¸«
+[Type] == "The Cheater" # 			[StashItem] == "true" //è©æ¬ºå¸«
+[Type] == "Alluring Bounty" # 		[StashItem] == "true" //èª˜æƒ‘ä¹‹å¯¶
 [Type] == "Gift of Asenath" # 		[StashItem] == "true" //Gift of Asenath
-[Type] == "Succor of the Sinless" # [StashItem] == "true" //Ÿo×ï¾ÈÚH
-[Type] == "Wealth and Power" # 		[StashItem] == "true" //åXÅc™à
-[Type] == "The Scout" # 			[StashItem] == "true" //Í¯×ÓÜŠ
-[Type] == "Nook's Crown" # 			[StashItem] == "true" //ß…¾‰Ö®¹Ú(†¾¹Çî^¿ø-ÎïÆ·µÈ¼‰:100-×ğŸÖ®Îï)
-[Type] == "Desecrated Virtue" # 	[StashItem] == "true" //ÒC^
-[Type] == "Abandoned Wealth" # 		[StashItem] == "true" //—‰Ø”ÇóÉú
-[Type] == "Seven Years Bad Luck" # 	[StashItem] == "true" //ÆßÄêÃ¹ß\
-[Type] == "Pride of the First Ones"#[StashItem] == "true" //³õÊ¼ÕßµÄòœ°Á
-[Type] == "The Enlightened" # 		[StashItem] == "true" //ÖÇ»Û†¢ÃÉ
-[Type] == "The Samurai's Eye" # 	[StashItem] == "true" //ÎäÊ¿Ö®ÑÛ
-[Type] == "Judging Voices" # 		[StashItem] == "true" //É¤Òô
-[Type] == "The Dragon's Heart" #	[StashItem] == "true" //ıˆÖ®ĞÄ
-[Type] == "The Sacrifice" # 		[StashItem] == "true" // ŞÉü
-[Type] == "The Strategist" # 		[StashItem] == "true" //²ßÂÔ¼Ò(ÇóÖªµÄŸáÇé-ÒÑ›@È¾)
-[Type] == "The Artist" # 			[StashItem] == "true" //Ë‡Õß(µÈ¼‰ 4 Ôö·ù)
-[Type] == "The Saint's Treasure" # 	[StashItem] == "true" //Â}Í½Ö®Ø”
-[Type] == "The Patient" # 			[StashItem] == "true" //²¡»¼
-[Type] == "Council of Cats" # 		[StashItem] == "true" //Øˆßä×h•ş
-[Type] == "The Hoarder" # 			[StashItem] == "true" //ŒšÏä
-[Type] == "Fire Of Unknown Origin" #[StashItem] == "true" //3.22ÄáÃ×Ë¹(7ˆ“QÄáÃ×Ë¹)
-[Type] == "The Fortunate" #			[StashItem] == "true" //3.22ĞÒß\µÄÈË(12ˆ2D)
-[Type] == "The Fortunate" #			[StashItem] == "true" //3.22ĞÒß\µÄÈË(12ˆ2D)
-[Type] == "The Shieldbearer" #		[StashItem] == "true" //3.22³Ö¶ÜÕß(8ˆ´óµØÖ÷)
-[Type] == "The Academic" #			[StashItem] == "true" //3.22ŒWĞg½ç(8ˆÇóÖªŸáÇé)
+[Type] == "Succor of the Sinless" # [StashItem] == "true" //ç„¡ç½ªæ•‘è´–
+[Type] == "Wealth and Power" # 		[StashItem] == "true" //éŒ¢èˆ‡æ¬Š
+[Type] == "The Scout" # 			[StashItem] == "true" //ç«¥å­è»
+[Type] == "Nook's Crown" # 			[StashItem] == "true" //é‚Šç·£ä¹‹å† (å–šéª¨é ­ç›”-ç‰©å“ç­‰ç´š:100-å°Šå¸«ä¹‹ç‰©)
+[Type] == "Desecrated Virtue" # 	[StashItem] == "true" //è¤»ç€†
+[Type] == "Abandoned Wealth" # 		[StashItem] == "true" //æ£„è²¡æ±‚ç”Ÿ
+[Type] == "Seven Years Bad Luck" # 	[StashItem] == "true" //ä¸ƒå¹´éœ‰é‹
+[Type] == "Pride of the First Ones"#[StashItem] == "true" //åˆå§‹è€…çš„é©•å‚²
+[Type] == "The Enlightened" # 		[StashItem] == "true" //æ™ºæ…§å•Ÿè’™
+[Type] == "The Samurai's Eye" # 	[StashItem] == "true" //æ­¦å£«ä¹‹çœ¼
+[Type] == "Judging Voices" # 		[StashItem] == "true" //å—“éŸ³
+[Type] == "The Dragon's Heart" #	[StashItem] == "true" //é¾ä¹‹å¿ƒ
+[Type] == "The Sacrifice" # 		[StashItem] == "true" //çŠ§ç‰²
+[Type] == "The Strategist" # 		[StashItem] == "true" //ç­–ç•¥å®¶(æ±‚çŸ¥çš„ç†±æƒ…-å·²æ±™æŸ“)
+[Type] == "The Artist" # 			[StashItem] == "true" //è—è€…(ç­‰ç´š 4 å¢å¹…)
+[Type] == "The Saint's Treasure" # 	[StashItem] == "true" //è–å¾’ä¹‹è²¡
+[Type] == "The Patient" # 			[StashItem] == "true" //ç—…æ‚£
+[Type] == "Council of Cats" # 		[StashItem] == "true" //è²“å’ªè­°æœƒ
+[Type] == "The Hoarder" # 			[StashItem] == "true" //å¯¶ç®±
+[Type] == "Fire Of Unknown Origin" #[StashItem] == "true" //3.22å°¼ç±³æ–¯(7å¼µæ›å°¼ç±³æ–¯)
+[Type] == "The Fortunate" #			[StashItem] == "true" //3.22å¹¸é‹çš„äºº(12å¼µ2D)
+[Type] == "The Fortunate" #			[StashItem] == "true" //3.22å¹¸é‹çš„äºº(12å¼µ2D)
+[Type] == "The Shieldbearer" #		[StashItem] == "true" //3.22æŒç›¾è€…(8å¼µå¤§åœ°ä¸»)
+[Type] == "The Academic" #			[StashItem] == "true" //3.22å­¸è¡“ç•Œ(8å¼µæ±‚çŸ¥ç†±æƒ…)
 
-[Sockets] == "6" && [Linked] >= "6"   	#[StashItem] == "true" //ÁùßB´æ‚}
-[Sockets] == "6" && 					#[ForceSellItem] == "true" //Áù¶´ÊÛ
+[Sockets] == "6" && [Linked] >= "6"   	#[StashItem] == "true" //å…­é€£å­˜å€‰
+[Sockets] == "6" && 					#[ForceSellItem] == "true" //å…­æ´å”®
 
 
-	[Type] == "Spiraled Wand" && [Rarity] == "Unique" # 		[UniqueName] == "Amplification Rod" && [StashItem] == "true"			//Ôö·ùÕÈ Âİ¼y·¨ÕÈ
-	[Type] == "Fishing Rod" && [Rarity] == "Unique" #			[UniqueName] == "Song of the Sirens" && [StashItem] == "true"			//º£Ñı÷ÈÇú ô~¸Í
-	[Type] == "Fishing Rod" && [Rarity] == "Unique" # 			[UniqueName] == "Reefbane" && [StashItem] == "true"						//ÄµœÖ®½¸ ô~¸Í
-	[Type] == "Ring" && [Rarity] == "Unique" # 					[UniqueName] == "Kalandra's Touch" && [StashItem] == "true"				//¿¨ÌmµÂÖ®Ó| ½äÖ¸
-	[Type] == "Amber Amulet" && [Rarity] == "Unique" # 			[UniqueName] == "Xoph's Heart" && [StashItem] == "true"					//Ë÷·üÖ®ĞÄ çúçê×oÉí·û
-	[Type] == "Jade Amulet" && [Rarity] == "Unique" # 			[UniqueName] == "The Halcyon" && [StashItem] == "true"					//Ì«Æ½ ´äÓñ×oÉí·û
-	[Type] == "Turquoise Amulet" && [Rarity] == "Unique" # 		[UniqueName] == "Badge of the Brotherhood" && [StashItem] == "true"		//¼¤ÇéÖ®ÕÂ ÇàÓñ×oÉí·û
-	[Type] == "Unset Amulet" && [Rarity] == "Unique" # 			[UniqueName] == "Uul-Netol's Vow" && [StashItem] == "true"				//õ –Äá¶àÖ®ÊÄ Ï¦Äº×oÉí·û
-	[Type] == "Leather Belt" && [Rarity] == "Unique" # 			[UniqueName] == "Headhunter" && [StashItem] == "true"					//«CÊ× Æ¤¸ïÑü§
-	[Type] == "Heavy Belt" && [Rarity] == "Unique" # 			[UniqueName] == "Mageblood" && [StashItem] == "true"					//Ä§Ñª ÖØ¸ïÑü§
-	[Type] == "Crimson Jewel" && [Rarity] == "Unique" # 		[UniqueName] == "Inspired Learning" && [StashItem] == "true"			//ÇóÖªµÄŸáÇé ³à¼tÖéŒš
-	[Type] == "Crimson Jewel" && [Rarity] == "Unique" # 		[UniqueName] == "Rain of Splinters" && [StashItem] == "true"			//Ëéæ—Óê ³à¼tÖéŒš
-	[Type] == "Crimson Jewel" && [Rarity] == "Unique" # 		[UniqueName] == "Thread of Hope" && [StashItem] == "true"				//Ï£ÍûÖ®½L ³à¼tÖéŒš
-	[Type] == "Crimson Jewel" && [Rarity] == "Unique" # 		[UniqueName] == "Immutable Force" && [StashItem] == "true"				//²»×ƒÖ®Á¦ ³à¼tÖéŒš
-	[Type] == "Crimson Jewel" && [Rarity] == "Unique" # 		[UniqueName] == "Bloodnotch" && [StashItem] == "true"					//È±ÑªÖ¢ ³à¼tÖéŒš
-	[Type] == "Viridian Jewel" && [Rarity] == "Unique" # 		[UniqueName] == "Intuitive Leap" && [StashItem] == "true"				//Ö±ÓXÖ®ÜS ´ä¾GÖéŒš
-	[Type] == "Viridian Jewel" && [Rarity] == "Unique" # 		[UniqueName] == "Lioneye's Fall" && [StashItem] == "true"				//ª{ÑÛµÄëEÂä ´ä¾GÖéŒš
-	[Type] == "Viridian Jewel" && [Rarity] == "Unique" # 		[UniqueName] == "Impossible Escape" && [StashItem] == "true"			//ÌÓÃ“²»ÄÜ ´ä¾GÖéŒš
-	[Type] == "Viridian Jewel" && [Rarity] == "Unique" # 		[UniqueName] == "Ancestral Vision" && [StashItem] == "true"				//ÏÈ×æîAÒ• ´ä¾GÖéŒš
-	[Type] == "Cobalt Jewel" && [Rarity] == "Unique" # 			[UniqueName] == "Energy From Within" && [StashItem] == "true"			//“ÄÜ·À×o â’Ë{ÖéŒš
-	[Type] == "Synthesised Map" && [Rarity] == "Unique" # 		[UniqueName] == "Cortex" && [StashItem] == "true"						//Éî³ÁÓ›‘› Œ¤‰ô×·‘›
-	[Type] == "Synthesised Map" && [Rarity] == "Unique" # 		[UniqueName] == "Altered Distant Memory" && [StashItem] == "true"		//ßbßhÓ›‘›£º¾Ôì Œ¤‰ô×·‘›
-	[Type] == "Synthesised Map" && [Rarity] == "Unique" # 		[UniqueName] == "Augmented Distant Memory" && [StashItem] == "true"		//ßbßhÓ›‘›£ºÔö·ù Œ¤‰ô×·‘›
-	[Type] == "Synthesised Map" && [Rarity] == "Unique" # 		[UniqueName] == "Twisted Distant Memory" && [StashItem] == "true"		//ßbßhÓ›‘›£ºÅ¤Çú Œ¤‰ô×·‘›
-	[Type] == "Synthesised Map" && [Rarity] == "Unique" # 		[UniqueName] == "Rewritten Distant Memory" && [StashItem] == "true"		//ßbßhÓ›‘›£º¸ÄŒ‘ Œ¤‰ô×·‘›
-	[Type] == "Prophecy Wand" && [Rarity] == "Unique" # 		[UniqueName] == "Void Battery" && [StashItem] == "true"					//“ÄÜÄ§°ô óğÑÔ·¨ÕÈ
-	[Type] == "Archon Kite Shield" && [Rarity] == "Unique" # 	[UniqueName] == "Prism Guardian" && [StashItem] == "true"				//ÔªËØµÄ±Ó×oÍşÄÜøS¶Ü
-	[Type] == "Champion Kite Shield" && [Rarity] == "Unique" # 	[UniqueName] == "Aegis Aurora" && [StashItem] == "true"					//»ÃÃ¢Â}¶ÜôYÊ¿øS¶Ü
-	[Type] == "Spidersilk Robe" && [Rarity] == "Unique" # 		[UniqueName] == "The Covenant" && [StashItem] == "true"					//ÑªÊÄÖë½zÖ®ÅÛ
-	[Type] == "Sage's Robe" && [Rarity] == "Unique" # 			[UniqueName] == "Dialla's Malefaction" && [StashItem] == "true"			//ß_À­µÄ×ïĞÌÙtÕßÖ®ÅÛ
-	[Type] == "Siege Axe" && [Rarity] == "Unique" # 			[UniqueName] == "Soul Taker" && [StashItem] == "true"					//é_ÌÅ¸« ÆÆ³Ç¸«
-	[Type] == "Elegant Round Shield" && [Rarity] == "Unique" # 	[UniqueName] == "The Squire" && [StashItem] == "true"					//´óµØÖ÷™àÙFˆA¶Ü
-	[Type] == "Carnal Armour" && [Rarity] == "Unique" # 		[UniqueName] == "Stasis Prison" && [StashItem] == "true"				//ìoÖ¹ÀÎ»\½û¶YÖ®¼×
+	[Type] == "Spiraled Wand" && [Rarity] == "Unique" # 		[UniqueName] == "Amplification Rod" && [StashItem] == "true"			//å¢å¹…æ– èºç´‹æ³•æ–
+	[Type] == "Fishing Rod" && [Rarity] == "Unique" #			[UniqueName] == "Song of the Sirens" && [StashItem] == "true"			//æµ·å¦–é­…æ›² é­šç«¿
+	[Type] == "Fishing Rod" && [Rarity] == "Unique" # 			[UniqueName] == "Reefbane" && [StashItem] == "true"						//ç½ç¦ä¹‹ç¤ é­šç«¿
+	[Type] == "Ring" && [Rarity] == "Unique" # 					[UniqueName] == "Kalandra's Touch" && [StashItem] == "true"				//å¡è˜­å¾·ä¹‹è§¸ æˆ’æŒ‡
+	[Type] == "Amber Amulet" && [Rarity] == "Unique" # 			[UniqueName] == "Xoph's Heart" && [StashItem] == "true"					//ç´¢ä¼ä¹‹å¿ƒ ç¥ç€è­·èº«ç¬¦
+	[Type] == "Jade Amulet" && [Rarity] == "Unique" # 			[UniqueName] == "The Halcyon" && [StashItem] == "true"					//å¤ªå¹³ ç¿ ç‰è­·èº«ç¬¦
+	[Type] == "Turquoise Amulet" && [Rarity] == "Unique" # 		[UniqueName] == "Badge of the Brotherhood" && [StashItem] == "true"		//æ¿€æƒ…ä¹‹ç«  é’ç‰è­·èº«ç¬¦
+	[Type] == "Unset Amulet" && [Rarity] == "Unique" # 			[UniqueName] == "Uul-Netol's Vow" && [StashItem] == "true"				//çƒçˆ¾å°¼å¤šä¹‹èª“ å¤•æš®è­·èº«ç¬¦
+	[Type] == "Leather Belt" && [Rarity] == "Unique" # 			[UniqueName] == "Headhunter" && [StashItem] == "true"					//çµé¦– çš®é©è…°å¸¶
+	[Type] == "Heavy Belt" && [Rarity] == "Unique" # 			[UniqueName] == "Mageblood" && [StashItem] == "true"					//é­”è¡€ é‡é©è…°å¸¶
+	[Type] == "Crimson Jewel" && [Rarity] == "Unique" # 		[UniqueName] == "Inspired Learning" && [StashItem] == "true"			//æ±‚çŸ¥çš„ç†±æƒ… èµ¤ç´…ç å¯¶
+	[Type] == "Crimson Jewel" && [Rarity] == "Unique" # 		[UniqueName] == "Rain of Splinters" && [StashItem] == "true"			//ç¢éƒé›¨ èµ¤ç´…ç å¯¶
+	[Type] == "Crimson Jewel" && [Rarity] == "Unique" # 		[UniqueName] == "Thread of Hope" && [StashItem] == "true"				//å¸Œæœ›ä¹‹çµƒ èµ¤ç´…ç å¯¶
+	[Type] == "Crimson Jewel" && [Rarity] == "Unique" # 		[UniqueName] == "Immutable Force" && [StashItem] == "true"				//ä¸è®Šä¹‹åŠ› èµ¤ç´…ç å¯¶
+	[Type] == "Crimson Jewel" && [Rarity] == "Unique" # 		[UniqueName] == "Bloodnotch" && [StashItem] == "true"					//ç¼ºè¡€ç—‡ èµ¤ç´…ç å¯¶
+	[Type] == "Viridian Jewel" && [Rarity] == "Unique" # 		[UniqueName] == "Intuitive Leap" && [StashItem] == "true"				//ç›´è¦ºä¹‹èº ç¿ ç¶ ç å¯¶
+	[Type] == "Viridian Jewel" && [Rarity] == "Unique" # 		[UniqueName] == "Lioneye's Fall" && [StashItem] == "true"				//ç…çœ¼çš„éš•è½ ç¿ ç¶ ç å¯¶
+	[Type] == "Viridian Jewel" && [Rarity] == "Unique" # 		[UniqueName] == "Impossible Escape" && [StashItem] == "true"			//é€ƒè„«ä¸èƒ½ ç¿ ç¶ ç å¯¶
+	[Type] == "Viridian Jewel" && [Rarity] == "Unique" # 		[UniqueName] == "Ancestral Vision" && [StashItem] == "true"				//å…ˆç¥–é è¦– ç¿ ç¶ ç å¯¶
+	[Type] == "Cobalt Jewel" && [Rarity] == "Unique" # 			[UniqueName] == "Energy From Within" && [StashItem] == "true"			//æ½›èƒ½é˜²è­· éˆ·è—ç å¯¶
+	[Type] == "Synthesised Map" && [Rarity] == "Unique" # 		[UniqueName] == "Cortex" && [StashItem] == "true"						//æ·±æ²‰è¨˜æ†¶ å°‹å¤¢è¿½æ†¶
+	[Type] == "Synthesised Map" && [Rarity] == "Unique" # 		[UniqueName] == "Altered Distant Memory" && [StashItem] == "true"		//é™é è¨˜æ†¶ï¼šç·¨é€  å°‹å¤¢è¿½æ†¶
+	[Type] == "Synthesised Map" && [Rarity] == "Unique" # 		[UniqueName] == "Augmented Distant Memory" && [StashItem] == "true"		//é™é è¨˜æ†¶ï¼šå¢å¹… å°‹å¤¢è¿½æ†¶
+	[Type] == "Synthesised Map" && [Rarity] == "Unique" # 		[UniqueName] == "Twisted Distant Memory" && [StashItem] == "true"		//é™é è¨˜æ†¶ï¼šæ‰­æ›² å°‹å¤¢è¿½æ†¶
+	[Type] == "Synthesised Map" && [Rarity] == "Unique" # 		[UniqueName] == "Rewritten Distant Memory" && [StashItem] == "true"		//é™é è¨˜æ†¶ï¼šæ”¹å¯« å°‹å¤¢è¿½æ†¶
+	[Type] == "Prophecy Wand" && [Rarity] == "Unique" # 		[UniqueName] == "Void Battery" && [StashItem] == "true"					//æ½›èƒ½é­”æ£’ ç®´è¨€æ³•æ–
+	[Type] == "Archon Kite Shield" && [Rarity] == "Unique" # 	[UniqueName] == "Prism Guardian" && [StashItem] == "true"				//å…ƒç´ çš„åº‡è­·å¨èƒ½é³¶ç›¾
+	[Type] == "Champion Kite Shield" && [Rarity] == "Unique" # 	[UniqueName] == "Aegis Aurora" && [StashItem] == "true"					//å¹»èŠ’è–ç›¾é¬¥å£«é³¶ç›¾
+	[Type] == "Spidersilk Robe" && [Rarity] == "Unique" # 		[UniqueName] == "The Covenant" && [StashItem] == "true"					//è¡€èª“è››çµ²ä¹‹è¢
+	[Type] == "Sage's Robe" && [Rarity] == "Unique" # 			[UniqueName] == "Dialla's Malefaction" && [StashItem] == "true"			//é”æ‹‰çš„ç½ªåˆ‘è³¢è€…ä¹‹è¢
+	[Type] == "Siege Axe" && [Rarity] == "Unique" # 			[UniqueName] == "Soul Taker" && [StashItem] == "true"					//é–‹è†›æ–§ ç ´åŸæ–§
+	[Type] == "Elegant Round Shield" && [Rarity] == "Unique" # 	[UniqueName] == "The Squire" && [StashItem] == "true"					//å¤§åœ°ä¸»æ¬Šè²´åœ“ç›¾
+	[Type] == "Carnal Armour" && [Rarity] == "Unique" # 		[UniqueName] == "Stasis Prison" && [StashItem] == "true"				//éœæ­¢ç‰¢ç± ç¦ç¦®ä¹‹ç”²
 
-//20220821	//ÒÔÏÂÊÇ «CÊ×µÄÓHĞÖµÜ£¬³ıÁË«CÊ×Í¨Í¨Ùuµô																											
-//	[Type] == "Leather Belt" && [Rarity] == "Unique" # [StashItem]== "true" // 		//Æ¤¸ïÑü§ »ùµ×																							
-//	[Type] == "Leather Belt" && [Rarity] == "Unique" # [nearby_enemies_are_crushed_while_you_have_X_rage] >= "1" && 	[ForceSellItem]	 == "true" // Æ¤¸ïÑü§																							
-//	[Type] == "Leather Belt" && [Rarity] == "Unique" # [cannot_be_frozen_with_dex_higher_than_int] >= "1" && 	[ForceSellItem]	 == "true" //¾ŞÑÒÖ®­hÆ¤¸ïÑü§																							
-//	[Type] == "Leather Belt" && [Rarity] == "Unique" # [culling_strike_vs_cursed_enemies] >= "1" &&	[ForceSellItem]	 == "true" //ØÊ³ÑüÆ¤¸ïÑü§																							
-//	[Type] == "Leather Belt" && [Rarity] == "Unique" # [chill_nearby_enemies_when_you_focus] >= "1" &&	[ForceSellItem]	 == "true" //˜OµØÊø¸¹Æ¤¸ïÑü§																							
-//	[Type] == "Leather Belt" && [Rarity] == "Unique" # [physical_damage_reduction_rating_+%_while_not_ignited_frozen_shocked] >= "1" &&	[ForceSellItem]	 == "true" //ÓÀÉúÆ¤¸ïÑü§																							
-//	[Type] == "Leather Belt" && [Rarity] == "Unique" # [allow_multiple_offerings] >= "1" &&	[ForceSellItem]	 == "true" // 		//¼ÀÆ·Ö®ÀM Æ¤¸ïÑü§																							
-//	[Type] == "Leather Belt" && [Rarity] == "Unique" # [enemies_ignited_by_you_have_physical_damage_%_converted_to_fire] >= "1" &&	[ForceSellItem]	 == "true" //Æ¤¸ïÑü§																							
-//	[Type] == "Leather Belt" && [Rarity] == "Unique" # [flasks_apply_to_your_zombies_and_spectres] >= "1" &&	[ForceSellItem]	 == "true" //Æ¤¸ïÑü§																							
-//	[Type] == "Leather Belt" && [Rarity] == "Unique" # [mana_leech_from_physical_attack_damage_permyriad] >= "1" &&	[ForceSellItem]	 == "true" //ıˆÍ‘Ö®§ Æ¤¸ïÑü§																							
-//ÒÔÏÂÊÇ Ä§ÑªµÄÓHĞÖµÜ£¬³ıÁËÄ§ÑªÍ¨Í¨Ùuµô//																											
-//	[Type] == "Heavy Belt" && [Rarity] == "Unique" # [StashItem]== "true" // 		//ÖØ¸ïÑü§ »ùµ×																							
-//	[Type] == "Heavy Belt" && [Rarity] == "Unique" # [local_display_nearby_enemies_are_intimidated] >= "1" &&	[ForceSellItem]	 == "true" // 		//ÖØ¸ïÑü§																							
-//	[Type] == "Heavy Belt" && [Rarity] == "Unique" # [item_found_rarity_+1%_per_X_rampage_stacks] >= "1" && 	[ForceSellItem]	 == "true" // 		//®…Ë¹¿ÜÀM§ ÖØ¸ïÑü§																							
-//	[Type] == "Heavy Belt" && [Rarity] == "Unique" # [faster_burn_from_attacks_%] >= "1" && 	[ForceSellItem]	 == "true" // 		//´÷†µÏ°²µÄ³¿êØ ÖØ¸ïÑü§																							
-//	[Type] == "Heavy Belt" && [Rarity] == "Unique" # [flask_life_recovery_rate_+%] >= "1" && 	[ForceSellItem]	 == "true" // 		//Ã·¼ªÖZµÂµÄÁ¦Á¿ÈªÔ´ ÖØ¸ïÑü§																							
-//	[Type] == "Heavy Belt" && [Rarity] == "Unique" # [minions_use_parents_flasks_on_summon] >= "1" &&	[ForceSellItem]	 == "true" // 		//Ä¸ÓHµÄ“í±§ ÖØ¸ïÑü§																							
-//	[Type] == "Heavy Belt" && [Rarity] == "Unique" # [minion_caustic_cloud_on_death_maximum_life_per_minute_to_deal_as_chaos_damage_%] >= "1" && 	[ForceSellItem]	 == "true" // 		//Í»‡ú ÖØ¸ïÑü§																							
-//	[Type] == "Heavy Belt" && [Rarity] == "Unique" # [keystone_sacred_bastion] >= "1" &&	[ForceSellItem]	 == "true" // 		//ÖØ¸ïÑü§																							
-//´óµØÖ÷																											
+//20220821	//ä»¥ä¸‹æ˜¯ çµé¦–çš„è¦ªå…„å¼Ÿï¼Œé™¤äº†çµé¦–é€šé€šè³£æ‰																											
+//	[Type] == "Leather Belt" && [Rarity] == "Unique" # [StashItem]== "true" // 		//çš®é©è…°å¸¶ åŸºåº•																							
+//	[Type] == "Leather Belt" && [Rarity] == "Unique" # [nearby_enemies_are_crushed_while_you_have_X_rage] >= "1" && 	[ForceSellItem]	 == "true" // çš®é©è…°å¸¶																							
+//	[Type] == "Leather Belt" && [Rarity] == "Unique" # [cannot_be_frozen_with_dex_higher_than_int] >= "1" && 	[ForceSellItem]	 == "true" //å·¨å²©ä¹‹ç’°çš®é©è…°å¸¶																							
+//	[Type] == "Leather Belt" && [Rarity] == "Unique" # [culling_strike_vs_cursed_enemies] >= "1" &&	[ForceSellItem]	 == "true" //è²ªé£Ÿè…°çš®é©è…°å¸¶																							
+//	[Type] == "Leather Belt" && [Rarity] == "Unique" # [chill_nearby_enemies_when_you_focus] >= "1" &&	[ForceSellItem]	 == "true" //æ¥µåœ°æŸè…¹çš®é©è…°å¸¶																							
+//	[Type] == "Leather Belt" && [Rarity] == "Unique" # [physical_damage_reduction_rating_+%_while_not_ignited_frozen_shocked] >= "1" &&	[ForceSellItem]	 == "true" //æ°¸ç”Ÿçš®é©è…°å¸¶																							
+//	[Type] == "Leather Belt" && [Rarity] == "Unique" # [allow_multiple_offerings] >= "1" &&	[ForceSellItem]	 == "true" // 		//ç¥­å“ä¹‹ç¹« çš®é©è…°å¸¶																							
+//	[Type] == "Leather Belt" && [Rarity] == "Unique" # [enemies_ignited_by_you_have_physical_damage_%_converted_to_fire] >= "1" &&	[ForceSellItem]	 == "true" //çš®é©è…°å¸¶																							
+//	[Type] == "Leather Belt" && [Rarity] == "Unique" # [flasks_apply_to_your_zombies_and_spectres] >= "1" &&	[ForceSellItem]	 == "true" //çš®é©è…°å¸¶																							
+//	[Type] == "Leather Belt" && [Rarity] == "Unique" # [mana_leech_from_physical_attack_damage_permyriad] >= "1" &&	[ForceSellItem]	 == "true" //é¾è›»ä¹‹å¸¶ çš®é©è…°å¸¶																							
+//ä»¥ä¸‹æ˜¯ é­”è¡€çš„è¦ªå…„å¼Ÿï¼Œé™¤äº†é­”è¡€é€šé€šè³£æ‰//																											
+//	[Type] == "Heavy Belt" && [Rarity] == "Unique" # [StashItem]== "true" // 		//é‡é©è…°å¸¶ åŸºåº•																							
+//	[Type] == "Heavy Belt" && [Rarity] == "Unique" # [local_display_nearby_enemies_are_intimidated] >= "1" &&	[ForceSellItem]	 == "true" // 		//é‡é©è…°å¸¶																							
+//	[Type] == "Heavy Belt" && [Rarity] == "Unique" # [item_found_rarity_+1%_per_X_rampage_stacks] >= "1" && 	[ForceSellItem]	 == "true" // 		//ç•¢æ–¯å¯‡ç¹«å¸¶ é‡é©è…°å¸¶																							
+//	[Type] == "Heavy Belt" && [Rarity] == "Unique" # [faster_burn_from_attacks_%] >= "1" && 	[ForceSellItem]	 == "true" // 		//æˆ´äºè¿ªå®‰çš„æ™¨æ›¦ é‡é©è…°å¸¶																							
+//	[Type] == "Heavy Belt" && [Rarity] == "Unique" # [flask_life_recovery_rate_+%] >= "1" && 	[ForceSellItem]	 == "true" // 		//æ¢…å‰è«¾å¾·çš„åŠ›é‡æ³‰æº é‡é©è…°å¸¶																							
+//	[Type] == "Heavy Belt" && [Rarity] == "Unique" # [minions_use_parents_flasks_on_summon] >= "1" &&	[ForceSellItem]	 == "true" // 		//æ¯è¦ªçš„æ“æŠ± é‡é©è…°å¸¶																							
+//	[Type] == "Heavy Belt" && [Rarity] == "Unique" # [minion_caustic_cloud_on_death_maximum_life_per_minute_to_deal_as_chaos_damage_%] >= "1" && 	[ForceSellItem]	 == "true" // 		//çªåœ é‡é©è…°å¸¶																							
+//	[Type] == "Heavy Belt" && [Rarity] == "Unique" # [keystone_sacred_bastion] >= "1" &&	[ForceSellItem]	 == "true" // 		//é‡é©è…°å¸¶																							
+//å¤§åœ°ä¸»																											
 //	[Type] =="Elegant Round Shield" && [Rarity] == "Unique" #	[StashItem]	 == "true" // 																									
-//	[Type] =="Elegant Round Shield" && [Rarity] == "Unique" # [base_block_%_damage_taken]>="1" &&	[ForceSellItem]	 == "true" //‰ºÆÈÕß																							
+//	[Type] =="Elegant Round Shield" && [Rarity] == "Unique" # [base_block_%_damage_taken]>="1" &&	[ForceSellItem]	 == "true" //å£“è¿«è€…																							
 
-////3.20·Ö¸ô¾€////
+////3.20åˆ†éš”ç·š////
 
-//ÎäÆ÷																												
-	//Ä§±¬Ö®ºÛ=3D~10D
+//æ­¦å™¨																												
+	//é­”çˆ†ä¹‹ç—•=3D~10D
 //	[Type]== "Spine Bow" && [Rarity] == "Unique" # [StashItem] == "true" // Reach of the Council / Voltaxic Rift
-	//Ö©Öëµ¶=6D																											
+	//èœ˜è››åˆ€=6D																											
 //	[Type] == "Fiend Dagger" && [Rarity] == "Unique" #  	[StashItem]	 == "true" // 																									
-//	[Type] == "Fiend Dagger" && [Rarity] == "Unique" # [chaos_damage_chance_to_poison_%] >= "1" &&	[ForceSellItem]	 == "true" //ĞQÊ³Ö®éœ ÑıÄ§¶ÌØ°																							
-	//“ÄÜÄ§°ô	 																									
+//	[Type] == "Fiend Dagger" && [Rarity] == "Unique" # [chaos_damage_chance_to_poison_%] >= "1" &&	[ForceSellItem]	 == "true" //è ¶é£Ÿä¹‹é—‡ å¦–é­”çŸ­åŒ•																							
+	//æ½›èƒ½é­”æ£’	 																									
 //	[Type]== "Prophecy Wand" && [Rarity] == "Unique" # 	[StashItem]	 == "true" // 																									
-	//Ò¹Ò÷=2D	 																									
+	//å¤œåŸ=2D	 																									
 //	[Type]== "Assassin Bow" && [Rarity] == "Unique" # 	[StashItem]	 == "true" // 																									
-//	[Type] == "Assassin Bow" && [Rarity] == "Unique" # [unique_chin_sol_close_range_knockback] >= "1" && 	[ForceSellItem]	 == "true" //yÊ¸Ö®ÏÒ																							
-	//ŒW¸»Ö®¹P2.5D																											
+//	[Type] == "Assassin Bow" && [Rarity] == "Unique" # [unique_chin_sol_close_range_knockback] >= "1" && 	[ForceSellItem]	 == "true" //äº‚çŸ¢ä¹‹å¼¦																							
+	//å­¸å¯Œä¹‹ç­†2.5D																											
 //	[Type]== "Carved Wand" && [Rarity] == "Unique" # 	[StashItem]	 == "true" // 																									
-//	[Type]== "Carved Wand" && [Rarity] == "Unique" # [max_power_charges] >= "1" &&	[ForceSellItem]	 == "true" //½ûåd±©ïL
-	// –Ææ
+//	[Type]== "Carved Wand" && [Rarity] == "Unique" # [max_power_charges] >= "1" &&	[ForceSellItem]	 == "true" //ç¦éŒ®æš´é¢¨
+	//çˆ¾å¥‡
 //	[Type] == "Karui Maul" && [Rarity] == "Unique" # [StashItem] == "true" // Marohi Erqi
-//3.20ĞÂÔö 111/12/13
+//3.20æ–°å¢ 111/12/13
 	//The Winds of Fate 20D
 //	[Type] == "Foul Staff" && [Rarity] == "Unique" # [StashItem] == "true" // The Winds of Fate
-	//Ä§±¬Ö®ºÛ 3D
-//	[Type] == "Spine Bow" && [Rarity] == "Unique" # [StashItem] == "true" // Ä§±¬+×h•ş¹­
-	//ª{ÑÛ¹­ 2.5D
-//	[Type] == "Imperial Bow" && [Rarity] == "Unique" # [StashItem] == "true" // ª{ÑÛ+ÁÑïL
-	//Nµ¶
+	//é­”çˆ†ä¹‹ç—• 3D
+//	[Type] == "Spine Bow" && [Rarity] == "Unique" # [StashItem] == "true" // é­”çˆ†+è­°æœƒå¼“
+	//ç…çœ¼å¼“ 2.5D
+//	[Type] == "Imperial Bow" && [Rarity] == "Unique" # [StashItem] == "true" // ç…çœ¼+è£‚é¢¨
+	//å»šåˆ€
 //	[Type] == "Slaughter Knife" && [Rarity] == "Unique" # [StashItem] == "true" // 
-	//ÊÈÑªÖ®×¦
+	//å—œè¡€ä¹‹çˆª
 //	[Type] == "Hellion's Paw" && [Rarity] == "Unique" # [StashItem] == "true" //	
-	//Ğ¡Óê¹­
+	//å°é›¨å¼“
 //	[Type] == "Short Bow" && [Rarity] == "Unique" # [StashItem] == "true" //	
-//·À¾ß																												
-	//AA¶Ü=5D																											
+//é˜²å…·																												
+	//AAç›¾=5D																											
 //	[Type]== "Champion Kite Shield" && [Rarity] == "Unique" #	[StashItem]	 == "true" // 	
-	//Å£î^¼×
+	//ç‰›é ­ç”²
 //	[Type]== "Gladiator Plate" && [Rarity] == "Unique" #	[StashItem]	 == "true" // 																								
-	//¹â­h¶Ü=4D																											
+	//å…‰ç’°ç›¾=4D																											
 //	[Type] == "Archon Kite Shield" && [Rarity] == "Unique" #	[StashItem]	 == "true" // 																									
-//	[Type] == "Archon Kite Shield" && [Rarity] == "Unique" # [unholy_might_while_you_have_no_energy_shield] >= "1" && 	[ForceSellItem]	 == "true" // 		ÆÆËéĞÅÄî																							
-//	[Type] == "Archon Kite Shield" && [Rarity] == "Unique" # [local_display_cast_fire_aegis_on_gain_skill] >= "1" && 	[ForceSellItem]	 == "true" // 		ˆÔÒãÈÕÒ«																							
-//	[Type] == "Archon Kite Shield" && [Rarity] == "Unique" # [local_display_trigger_commandment_of_inferno_on_crit_%] >= "1" && 	[ForceSellItem]	 == "true" // 		²»Çüº»ğ																							
-//	[Type] == "Archon Kite Shield" && [Rarity] == "Unique" # [local_display_summon_harbinger_x_on_equip] >= "9" && 	[ForceSellItem]	 == "true" // 		²»ĞàÖ®ÒâÖ¾																							
-	//ÑªÊÄ=5D		  																									
+//	[Type] == "Archon Kite Shield" && [Rarity] == "Unique" # [unholy_might_while_you_have_no_energy_shield] >= "1" && 	[ForceSellItem]	 == "true" // 		ç ´ç¢ä¿¡å¿µ																							
+//	[Type] == "Archon Kite Shield" && [Rarity] == "Unique" # [local_display_cast_fire_aegis_on_gain_skill] >= "1" && 	[ForceSellItem]	 == "true" // 		å …æ¯…æ—¥è€€																							
+//	[Type] == "Archon Kite Shield" && [Rarity] == "Unique" # [local_display_trigger_commandment_of_inferno_on_crit_%] >= "1" && 	[ForceSellItem]	 == "true" // 		ä¸å±ˆæƒ¡ç«																							
+//	[Type] == "Archon Kite Shield" && [Rarity] == "Unique" # [local_display_summon_harbinger_x_on_equip] >= "9" && 	[ForceSellItem]	 == "true" // 		ä¸æœ½ä¹‹æ„å¿—																							
+	//è¡€èª“=5D		  																									
 //	[Type] == "Spidersilk Robe" && [Rarity] == "Unique" #	[StashItem]	 == "true" // 																									
-//	[Type] == "Spidersilk Robe" && [Rarity] == "Unique" #   [totem_life_+%] >= "1" &&	[ForceSellItem]	 == "true" // 		ˆDòvÒÂ																							
-	//ß_À­=4D		  																									
+//	[Type] == "Spidersilk Robe" && [Rarity] == "Unique" #   [totem_life_+%] >= "1" &&	[ForceSellItem]	 == "true" // 		åœ–é¨°è¡£																							
+	//é”æ‹‰=4D		  																									
 //	[Type] == "Sage's Robe" && [Rarity] == "Unique" # 	[StashItem]	 == "true" // 																									
-//	[Type] == "Sage's Robe" && [Rarity] == "Unique" # [light_radius_+%] >= "1" &&	[ForceSellItem]	 == "true" // 		ÔıµÂˆDË¹µÄÂ}ÒÂ																							
-	//Ó¡²·Ë_=2.5D		 == "true" // 																									
+//	[Type] == "Sage's Robe" && [Rarity] == "Unique" # [light_radius_+%] >= "1" &&	[ForceSellItem]	 == "true" // 		æœ­å¾·åœ–æ–¯çš„è–è¡£																							
+	//å°åœè–©=2.5D		 == "true" // 																									
 //	[Type]== "Sadist Garb" && [Rarity] == "Unique" # 	[StashItem]	 == "true" // 																									
-//	[Type] == "Sadist Garb" && [Rarity] == "Unique" # [placing_traps_cooldown_recovery_+%] >= "1" && 	[ForceSellItem]	 == "true" // 		ÏİÚåÒÂ																							
-	//°²ÙÄÈ½zµÄÑ¸ÃôÖ®¹Ú èFå‘Ö®¹Ú=2.5D																											
+//	[Type] == "Sadist Garb" && [Rarity] == "Unique" # [placing_traps_cooldown_recovery_+%] >= "1" && 	[ForceSellItem]	 == "true" // 		é™·é˜±è¡£																							
+	//å®‰è³½å¨œçµ²çš„è¿…æ•ä¹‹å†  éµé›ä¹‹å† =2.5D																											
 //	[Type] == "Iron Circlet" && [Rarity] == "Unique" # 	[StashItem]	 == "true" // 																									
-//	[Type] == "Iron Circlet" && [Rarity] == "Unique" # [base_movement_velocity_+%] >= "1" && 	[ForceSellItem]	 == "true" // 		°²ÙÄÈ½zµÄÑ¸ÃôÖ®¹Ú																							
-//	[Type] == "Iron Circlet" && [Rarity] == "Unique" # [base_deal_no_chaos_damage] >= "1" && 	[ForceSellItem]	 == "true" // 		ÙMÎ÷†Ö®­h																							
-//	[Type] == "Iron Circlet" && [Rarity] == "Unique" # [additive_spell_damage_modifiers_apply_to_attack_damage_at_150%_value] >= "1" && 	[ForceSellItem]	 == "true" // 		ÑÛî^																							
-	//Ø“ëŠ¼×(¶àÀï†ÄáÖ®ĞÍ)=2D °û×ÓÒÂ=1D																											
+//	[Type] == "Iron Circlet" && [Rarity] == "Unique" # [base_movement_velocity_+%] >= "1" && 	[ForceSellItem]	 == "true" // 		å®‰è³½å¨œçµ²çš„è¿…æ•ä¹‹å† 																							
+//	[Type] == "Iron Circlet" && [Rarity] == "Unique" # [base_deal_no_chaos_damage] >= "1" && 	[ForceSellItem]	 == "true" // 		è²»è¥¿äºä¹‹ç’°																							
+//	[Type] == "Iron Circlet" && [Rarity] == "Unique" # [additive_spell_damage_modifiers_apply_to_attack_damage_at_150%_value] >= "1" && 	[ForceSellItem]	 == "true" // 		çœ¼é ­																							
+	//è² é›»ç”²(å¤šé‡Œäºå°¼ä¹‹å‹)=2D èƒå­è¡£=1D																											
 //	[Type]== "Saint's Hauberk" && [Rarity] == "Unique" # 	[StashItem]	 == "true" // 																									
-//	[Type]== "Saint's Hauberk" && [Rarity] == "Unique" # [local_display_trigger_level_x_create_fungal_ground_on_kill] >= "1" && 	[ForceSellItem]	 == "true" // 		//¶¾æßÊØĞl Â}Õßæœ¼×																							
-//	[Type] == "Saint's Hauberk" && [Rarity] == "Unique" # [nearby_enemies_lightning_resist_equal_to_yours] >= "1" && 	[ForceSellItem]	 == "true" // 		//Â}Õßæœ¼×																							
-//	[Type] == "Saint's Hauberk" && [Rarity] == "Unique" # [chaos_damage_%_taken_from_mana_before_life] >= "1" && 	[ForceSellItem]	 == "true" // 		//ÏóÑÀËş Â}Õßæœ¼×																							
-	//Î÷ÀïµÄ‘ğÒÂ=2D																											
+//	[Type]== "Saint's Hauberk" && [Rarity] == "Unique" # [local_display_trigger_level_x_create_fungal_ground_on_kill] >= "1" && 	[ForceSellItem]	 == "true" // 		//æ¯’å­¢å®ˆè¡› è–è€…éˆç”²																							
+//	[Type] == "Saint's Hauberk" && [Rarity] == "Unique" # [nearby_enemies_lightning_resist_equal_to_yours] >= "1" && 	[ForceSellItem]	 == "true" // 		//è–è€…éˆç”²																							
+//	[Type] == "Saint's Hauberk" && [Rarity] == "Unique" # [chaos_damage_%_taken_from_mana_before_life] >= "1" && 	[ForceSellItem]	 == "true" // 		//è±¡ç‰™å¡” è–è€…éˆç”²																							
+	//è¥¿é‡Œçš„æˆ°è¡£=2D																											
 //	[Type]== "Zodiac Leather" && [Rarity] == "Unique" # 	[StashItem]	 == "true" // 																									
-	//ŞZÌìÀ×=1.5D																											
-//	[Type] == "Murder Mitts" && [Rarity] == "Unique" # 	[StashItem]	 == "true" // 		//ŞZÌìÀ× °µš¢Õß×oÊÖ																							
-//	[Type] == "Murder Mitts" && [Rarity] == "Unique" # [thaumaturgy_rotation_active] >= "1" && 	[ForceSellItem]	 == "true" // 		//¬”À­„PÖ®Ãæ °µš¢Õß×oÊÖ																							
-//	[Type] == "Murder Mitts" && [Rarity] == "Unique" # [lose_power_charge_each_second_if_not_detonated_mines_recently] >= "1" && 	[ForceSellItem]	 == "true" // 		//ÔÓ‹Ä§ÊÖ °µš¢Õß×oÊÖ																							
-//	[Type] == "Murder Mitts" && [Rarity] == "Unique" # [local_display_socketed_gems_get_added_lightning_damage_level] >= "1" && 	[ForceSellItem]	 == "true" // 		//ŞZÌìÀ× °µš¢Õß×oÊÖ																							
-	//µÛÍõµÄ½äĞÄ=1.5D																											
+	//è½Ÿå¤©é›·=1.5D																											
+//	[Type] == "Murder Mitts" && [Rarity] == "Unique" # 	[StashItem]	 == "true" // 		//è½Ÿå¤©é›· æš—æ®ºè€…è­·æ‰‹																							
+//	[Type] == "Murder Mitts" && [Rarity] == "Unique" # [thaumaturgy_rotation_active] >= "1" && 	[ForceSellItem]	 == "true" // 		//ç‘ªæ‹‰å‡±ä¹‹é¢ æš—æ®ºè€…è­·æ‰‹																							
+//	[Type] == "Murder Mitts" && [Rarity] == "Unique" # [lose_power_charge_each_second_if_not_detonated_mines_recently] >= "1" && 	[ForceSellItem]	 == "true" // 		//è©­è¨ˆé­”æ‰‹ æš—æ®ºè€…è­·æ‰‹																							
+//	[Type] == "Murder Mitts" && [Rarity] == "Unique" # [local_display_socketed_gems_get_added_lightning_damage_level] >= "1" && 	[ForceSellItem]	 == "true" // 		//è½Ÿå¤©é›· æš—æ®ºè€…è­·æ‰‹																							
+	//å¸ç‹çš„æˆ’å¿ƒ=1.5D																											
 //	[Type] == "Steel Kite Shield" && [Rarity] == "Unique" # 	[StashItem]	 == "true" // 																									
-//	[Type] == "Steel Kite Shield" && [Rarity] == "Unique" # [keystone_glancing_blows] >= "1" && 	[ForceSellItem]	 == "true" // 		µÛÍõ½äĞÄ																							
-//	[Type] == "Steel Kite Shield" && [Rarity] == "Unique" # [keystone_corrupted_defences] >= "1" && 	[ForceSellItem]	 == "true" // 		¬”¹şË_¶à																							
-	//šWà¹=1.5D																											
-//	[Type] == "Raven Mask" && [Rarity] == "Unique" # 	[StashItem]	 == "true" // 		//útà¹ µœøfÖ®Ãæ
-	//Ë®µÀ×Ğ»òéW´ò×Ğ•şÓÃµ½µÄÉ¢¼ş																											
-	//ĞÜî^ øBî^																											
+//	[Type] == "Steel Kite Shield" && [Rarity] == "Unique" # [keystone_glancing_blows] >= "1" && 	[ForceSellItem]	 == "true" // 		å¸ç‹æˆ’å¿ƒ																							
+//	[Type] == "Steel Kite Shield" && [Rarity] == "Unique" # [keystone_corrupted_defences] >= "1" && 	[ForceSellItem]	 == "true" // 		ç‘ªå“ˆè–©å¤š																							
+	//æ­å–™=1.5D																											
+//	[Type] == "Raven Mask" && [Rarity] == "Unique" # 	[StashItem]	 == "true" // 		//é·—å–™ ç¦é´‰ä¹‹é¢
+	//æ°´é“ä»”æˆ–é–ƒæ‰“ä»”æœƒç”¨åˆ°çš„æ•£ä»¶																											
+	//ç†Šé ­ é³¥é ­																											
 //	[Type] == "Silken Hood" && [Rarity] == "Unique" # 	[StashItem]	 == "true" // 																									
-//	[Type] == "Silken Hood" && [Rarity] == "Unique" # [evasion_rating_+%_when_on_low_life] >= "1" && 	[ForceSellItem]	 == "true" // 		//Ë¹Ëş¿Õ¼ÓÖ®Ê× ¾I¾„Ö®¶µ																							
-//	[Type] == "Silken Hood" && [Rarity] == "Unique" # [local_display_trigger_level_20_tornado_when_you_gain_avians_flight_or_avians_might_%] >= "1" && 	[ForceSellItem]	 == "true" // 		//Ë¹¿¨ÎÖÖ®Í½ ¾I¾„Ö®¶µ																							
-//	[Type] == "Silken Hood" && [Rarity] == "Unique" # [local_item_can_have_x_additional_enchantments] >= "1" && 	[ForceSellItem]	 == "true" // 		//¿áº®¶·Åñ ¾I¾„Ö®¶µ																							
-	//°×ïL																											
+//	[Type] == "Silken Hood" && [Rarity] == "Unique" # [evasion_rating_+%_when_on_low_life] >= "1" && 	[ForceSellItem]	 == "true" // 		//æ–¯å¡”ç©ºåŠ ä¹‹é¦– ç¶¢ç·ä¹‹å…œ																							
+//	[Type] == "Silken Hood" && [Rarity] == "Unique" # [local_display_trigger_level_20_tornado_when_you_gain_avians_flight_or_avians_might_%] >= "1" && 	[ForceSellItem]	 == "true" // 		//æ–¯å¡æ²ƒä¹‹å¾’ ç¶¢ç·ä¹‹å…œ																							
+//	[Type] == "Silken Hood" && [Rarity] == "Unique" # [local_item_can_have_x_additional_enchantments] >= "1" && 	[ForceSellItem]	 == "true" // 		//é…·å¯’æ–—ç¯· ç¶¢ç·ä¹‹å…œ																							
+	//ç™½é¢¨																											
 //	[Type] == "Imperial Skean" && [Rarity] == "Unique" # 	[StashItem]	 == "true" // 																									
-//	[Type] == "Imperial Skean" && [Rarity] == "Unique" # [critical_strike_chance_+%_for_spells_if_you_have_killed_recently] >= "1" && 	[ForceSellItem]	 == "true" //½äÂÉÖ®Ó° µÛ‡øëpÈĞØ°																							
-//	[Type] == "Imperial Skean" && [Rarity] == "Unique" # [cold_damage_+%_while_off_hand_is_empty] >= "1" && 	[ForceSellItem]	 == "true" //°×ïL µÛ‡øëpÈĞØ°																							
-	//®…Ë¹¿Ûí—å€																											
+//	[Type] == "Imperial Skean" && [Rarity] == "Unique" # [critical_strike_chance_+%_for_spells_if_you_have_killed_recently] >= "1" && 	[ForceSellItem]	 == "true" //æˆ’å¾‹ä¹‹å½± å¸åœ‹é›™åˆƒåŒ•																							
+//	[Type] == "Imperial Skean" && [Rarity] == "Unique" # [cold_damage_+%_while_off_hand_is_empty] >= "1" && 	[ForceSellItem]	 == "true" //ç™½é¢¨ å¸åœ‹é›™åˆƒåŒ•																							
+	//ç•¢æ–¯æ‰£é …éŠ																											
 //	[Type] == "Gold Amulet" && [Rarity] == "Unique" # 	[StashItem]	 == "true" // 																									
-//	[Type] == "Gold Amulet" && [Rarity] == "Unique" # [normal_monster_dropped_item_quantity_+%] >= "1" && 	[ForceSellItem]	 == "true" //®…Ë¹¿ÜµÄí—È¦ µÛ½ğ×oÉí·û																							
-//	[Type] == "Gold Amulet" && [Rarity] == "Unique" # [local_display_nearby_allies_extra_damage_rolls] >= "1" && 	[ForceSellItem]	 == "true" //çê¿ü –µÄÖ¸î^ µÛ½ğ×oÉí·û																							
-//	[Type] == "Gold Amulet" && [Rarity] == "Unique" # [item_found_quantity_+%_if_wearing_a_magic_item] >= "1" && 	[ForceSellItem]	 == "true" //¿àĞĞ µÛ½ğ×oÉí·û																							
-//	[Type] == "Gold Amulet" && [Rarity] == "Unique" # [attack_maximum_added_fire_damage] >= "1" && 	[ForceSellItem]	 == "true" //µÛ½ğ×oÉí·û																							
-//	[Type] == "Gold Amulet" && [Rarity] == "Unique" # [life_regeneration_per_minute_%_while_frozen] >= "1" && 	[ForceSellItem]	 == "true" //¶¬Ö®ĞÄ µÛ½ğ×oÉí·û																							
-	//×Ôš¢î^																											
+//	[Type] == "Gold Amulet" && [Rarity] == "Unique" # [normal_monster_dropped_item_quantity_+%] >= "1" && 	[ForceSellItem]	 == "true" //ç•¢æ–¯å¯‡çš„é …åœˆ å¸é‡‘è­·èº«ç¬¦																							
+//	[Type] == "Gold Amulet" && [Rarity] == "Unique" # [local_display_nearby_allies_extra_damage_rolls] >= "1" && 	[ForceSellItem]	 == "true" //ç€å¥çˆ¾çš„æŒ‡é ­ å¸é‡‘è­·èº«ç¬¦																							
+//	[Type] == "Gold Amulet" && [Rarity] == "Unique" # [item_found_quantity_+%_if_wearing_a_magic_item] >= "1" && 	[ForceSellItem]	 == "true" //è‹¦è¡Œ å¸é‡‘è­·èº«ç¬¦																							
+//	[Type] == "Gold Amulet" && [Rarity] == "Unique" # [attack_maximum_added_fire_damage] >= "1" && 	[ForceSellItem]	 == "true" //å¸é‡‘è­·èº«ç¬¦																							
+//	[Type] == "Gold Amulet" && [Rarity] == "Unique" # [life_regeneration_per_minute_%_while_frozen] >= "1" && 	[ForceSellItem]	 == "true" //å†¬ä¹‹å¿ƒ å¸é‡‘è­·èº«ç¬¦																							
+	//è‡ªæ®ºé ­																											
 //	[Type] == "Ezomyte Burgonet" && [Rarity] == "Unique" # 	[StashItem]	 == "true" // 																									
-//	[Type] == "Ezomyte Burgonet" && [Rarity] == "Unique" # [physical_damage_taken_+%] <= "40" && [melee_weapon_critical_strike_multiplier_+] >= "120" && 	[ForceSellItem]	 == "true" //ÉîœYÖ®†¾ °¬ÆûœˆÔ¿ø																							
-//	[Type] == "Ezomyte Burgonet" && [Rarity] == "Unique" # [local_item_can_have_x_additional_enchantments] >= "1" && [ForceSellItem] == "true" // Cowl of the Thermophile	[ForceSellItem]	 == "true" //ÊÈÑ×¶·Åñ °¬ÆûœˆÔ¿ø
-	//°µÀ×																											
+//	[Type] == "Ezomyte Burgonet" && [Rarity] == "Unique" # [physical_damage_taken_+%] <= "40" && [melee_weapon_critical_strike_multiplier_+] >= "120" && 	[ForceSellItem]	 == "true" //æ·±æ·µä¹‹å–š è‰¾èŒ²éº¥å …ç›”																							
+//	[Type] == "Ezomyte Burgonet" && [Rarity] == "Unique" # [local_item_can_have_x_additional_enchantments] >= "1" && [ForceSellItem] == "true" // Cowl of the Thermophile	[ForceSellItem]	 == "true" //å—œç‚æ–—ç¯· è‰¾èŒ²éº¥å …ç›”
+	//æš—é›·																											
 //	[Type] == "Dragonscale Boots" && [Rarity] == "Unique" # 	[StashItem]	 == "true" // 																									
-	//±ùÀäÖ®ÑÛ																											
+	//å†°å†·ä¹‹çœ¼																											
 //	[Type] == "Goathide Gloves" && [Rarity] == "Unique" # [base_physical_damage_%_to_convert_to_cold] >= "1" && 	[StashItem]	 == "true" // 																									
-	//ëpÓñ½äÖ¸£º±ù»ğ¡¢»ğÀ×¡¢À×±ù½ä¡¢ÒâÖ¾ºô†¾¡¢ÀÇÍõ½ä																											
+	//é›™ç‰æˆ’æŒ‡ï¼šå†°ç«ã€ç«é›·ã€é›·å†°æˆ’ã€æ„å¿—å‘¼å–šã€ç‹¼ç‹æˆ’																											
 //	[Type]== "Two-Stone Ring" && [Rarity] == "Unique" # 	[StashItem]	 == "true" // 																									
-	//ÈıÏà½äÖ¸£º¸`×ï¡¢Á_Àï																											
+	//ä¸‰ç›¸æˆ’æŒ‡ï¼šç«Šç½ªã€ç¾…é‡Œ																											
 //	[Type]== "Prismatic Ring" && [Rarity] == "Unique" # 	[StashItem]	 == "true" // 																									
-	//ÁÑĞÄÈĞ																											
+	//è£‚å¿ƒåˆƒ																											
 //	[Type] == "Royal Skean" && [Rarity] == "Unique" # 	[StashItem]	 == "true" // 																									
-	//é_ÌÅ¸«																											
+	//é–‹è†›æ–§																											
 //	[Type]== "Siege Axe" && [Rarity] == "Unique" # 	[StashItem]	 == "true" // 																									
-	//ª{ºğ¡¢ô”Ã×¶¼“ì																											
+	//ç…å¼ã€é­¯ç±³éƒ½æ’¿																											
 //	[Type] == "Granite Flask" && [Rarity] == "Unique" # 	[StashItem]	 == "true" //
-	//´óĞ¡‚ûÑü ˆÔÒãÖ®­h ¶¼“ì																											
+	//å¤§å°å‚·è…° å …æ¯…ä¹‹ç’° éƒ½æ’¿																											
 //	[Type]== "Studded Belt" && [Rarity] == "Unique" # 	[StashItem]	 == "true" //
 
 
-//ÒÔÏÂË®µÀ×Ğ£¬ßMİ›ˆDëA¶ÎÖ®ááÈ«²¿Ğ±¾€//
-//	//// 1F üSÑbèa¶¨ÊÛ³ö ///Õˆ„Õ±Ø¿´ÕfÃ÷•øÑ}Ñu¸±±¾ááÔÙ×Ô¶¨Áx
-	[Category] == "Helm"        && [Rarity]== "Rare" # [base_maximum_life] >= "999" && [TotalResistances] >= "999" && 	[StashItem]	 == "true"	//	î^¿ø
-	[Category] == "Chest"       && [Rarity]== "Rare" # [base_maximum_life] >= "999" && [TotalResistances] >= "999" && 	[StashItem]	 == "true"	//	ĞØ¼×
-	[Category] == "Amulet"      && [Rarity]== "Rare" # [base_maximum_life] >= "999" && [TotalResistances] >= "999" && 	[StashItem]	 == "true"	//	×oÉí·û
-	[Category] == "Ring"        && [Rarity]== "Rare" # [base_maximum_life] >= "999" && [TotalResistances] >= "999" && 	[StashItem]	 == "true"	//	½äÖ¸
-	[Category] == "Belt"        && [Rarity]== "Rare" # [base_maximum_life] >= "999" && [TotalResistances] >= "999" && 	[StashItem]	 == "true"	//	Ñü§
-	[Category] == "Gloves"      && [Rarity]== "Rare" # [base_maximum_life] >= "999" && [TotalResistances] >= "999" && 	[StashItem]	 == "true"	//	ÊÖÌ×
-	[Category] == "Boots"       && [Rarity]== "Rare" # [base_maximum_life] >= "999"&& 									[StashItem]	 == "true"	//	Ğ¬×Ó
-//	[Category] == "Weapon"      && [Rarity]== "Rare" # [DPS] > "999" && 												[StashItem]	 == "true"	//	ÎäÆ÷
-	[Category] == "Shield"      && [Rarity]== "Rare" # [base_maximum_life] >= "999" && [TotalResistances] >= "999" && 	[StashItem]	 == "true"	//	¶ÜÅÆ
-	//// 2F »ùµAÍ¨Ø›//																								
-//	[Type] == "Alchemy Shard" # 		[StashItem]	 == "true"	//üc½ğÊ¯ËéÆ¬
-//	[Type] == "Alteration Shard" # 		[StashItem]	 == "true"	//¸ÄÔìÊ¯ËéÆ¬
-//	[Type] == "Scroll Fragment" # 		[StashItem]	 == "true"	//¾íİSËéÆ¬
-//	[Type] == "Transmutation Shard" # 	[StashItem]	 == "true"	//Í‘×ƒÊ¯ËéÆ¬
-//	[Type] == "Instilling Orb" #		[StashItem]	 == "true"	//µÎ×¢Ê¯
-	[Type] =="Enkindling Orb"#			[StashItem]	 == "true"	//ücÈ¼Ê¯
-//ÌØÀıÕˆÎğ¸ü„Ó//[Type] == "Wisdom Scroll" # 	[StashItem]	 == "true"	//Öª×R¾íİS
-//ÌØÀıÕˆÎğ¸ü„Ó//[Type] == "Portal Scroll" # 	[StashItem]	 == "true"	//‚÷ËÍ¾íİS
-//	[Type] == "Blacksmith's Whetstone" # 	[StashItem]	 == "true"	//Ä¥µ¶Ê¯
-//	[Type] == "Armourer's Scrap" # 			[StashItem]	 == "true"	//×o¼×Æ¬
-//	[Type] == "Glassblower's Bauble" # 		[StashItem]	 == "true"	//²£Á§—Öé
-//	[Type] == "Blessed Orb" # 				[StashItem]	 == "true"	//×£¸£Ê¯
-//	[Type] == "Chaos Orb" # 				[StashItem]	 == "true"	//»ìãçÊ¯
-//	[Type] == "Chromatic Orb" # 			[StashItem]	 == "true"	//»ÃÉ«Ê¯
-//	[Type] == "Divine Orb" # 				[StashItem]	 == "true"	//ÉñÂ}Ê¯
-//	[Type] == "Exalted Orb" # 				[StashItem]	 == "true"	//³ç¸ßÊ¯
-//	[Type] == "Gemcutter's Prism" # 		[StashItem]	 == "true"	//ŒšÊ¯½³µÄ¶ çR
-//	[Type] == "Jeweller's Orb" # 			[StashItem]	 == "true"	//¹¤½³Ê¯
-//	[Type] == "Mirror of Kalandra" # 		[StashItem]	 == "true"	//¿¨ÌmµÂµÄÄ§çR
-//	[Type] == "Orb of Alchemy" # 			[StashItem]	 == "true"	//üc½ğÊ¯
-//	[Type] == "Orb of Alteration" # 		[StashItem]	 == "true"	//¸ÄÔìÊ¯
-//	[Type] == "Orb of Transmutation" # 		[StashItem]	 == "true"	//Í‘×ƒÊ¯
-//	[Type] == "Orb of Augmentation" # 		[StashItem]	 == "true"	//Ôö·ùÊ¯
-//	[Type] == "Orb of Chance" # 			[StashItem]	 == "true"	//™C•şÊ¯
-//	[Type] == "Orb of Fusing" # 			[StashItem]	 == "true"	//æœ½YÊ¯
-//	[Type] == "Orb of Regret" # 			[StashItem]	 == "true"	//áá»ÚÊ¯
-//	[Type] == "Orb of Scouring" # 			[StashItem]	 == "true"	//ÖØèTÊ¯
-//	[Type] == "Perandus Coin" # 			[StashItem]	 == "true"	//ÆÕÌmµÂË¹½ğÅ
-//	[Type] == "Regal Orb" # 				[StashItem]	 == "true"	//¸»ºÀÊ¯
-//	[Type] == "Silver Coin" # 				[StashItem]	 == "true"	//ãyÅ
-//	[Type] == "Vaal Orb" # 					[StashItem]	 == "true"	//Íß –ŒšÖé
-//	[Type] == "Cartographer's Chisel" # 	[StashItem]	 == "true"	//ÑuˆDá”
-//	[Type] == "Orb of Annulment" # 			[StashItem]	 == "true"	//ŸoĞ§Ê¯
-//	[Type] == "Orb of Binding" # 			[StashItem]	 == "true"	//Êø¿`Ê¯
-//	[Type] == "Orb of Horizons"         # 	[StashItem]	 == "true"	//µØÆ½Ê¯
-//	[Type] == "Harbinger's Orb"         # 	[StashItem]	 == "true"	//ÉñÖIÊ¯
-//	[Type] == "Engineer's Orb" # 			[StashItem]	 == "true"	//¹¤³ÌÊ¯
-//	[Type] == "Ancient Orb" # 				[StashItem]	 == "true"	//¹Å×ƒÊ¯
-//	[Type] == "Annulment Shard"  #			[StashItem]	 == "true"	//ŸoĞ§Ê¯ËéÆ¬
-//	[Type] == "Binding Shard"# 				[StashItem]	 == "true"	//Êø¿`Ê¯ËéÆ¬
-//	[Type] == "Horizon Shard" # 			[StashItem]	 == "true"	//µØÆ½Ê¯ËéÆ¬
-//	[Type] == "Harbinger's Shard" # 		[StashItem]	 == "true"	//ÉñÖIÊ¯ËéÆ¬
-//	[Type] == "Engineer's Shard" # 			[StashItem]	 == "true"	//¹¤³ÌÊ¯ËéÆ¬
-//	[Type] == "Ancient Shard" # 			[StashItem]	 == "true"	//¹Å×ƒÊ¯ËéÆ¬
-//	[Type] == "Chaos Shard" # 				[StashItem]	 == "true"	//»ìãçÊ¯ËéÆ¬
-//	[Type] == "Mirror Shard" # 				[StashItem]	 == "true"	//Ä§çRËéÆ¬
-//	[Type] == "Exalted Shard"# 				[StashItem]	 == "true"	//³ç¸ßÊ¯ËéÆ¬
-//	[Type] == "Regal Shard" # 				[StashItem]	 == "true"	//¸»ºÀÊ¯ËéÆ¬
-//	[Type] == "Veiled Chaos Orb"			[StashItem]	 == "true"	//ë[Ää»ìãçÊ¯
-//	[Type] == "Journeyman Cartographer's Seal" # 	[StashItem]	 == "true"	//ÑuˆD·âÓ¡£®ŒWÕß
-//	[Type] == "Master Cartographer's Seal" # 	[StashItem]	 == "true"	//ÑuˆD·âÓ¡£®´óŸ
-//	[Type] == "Simple Sextant" # 			[StashItem]	 == "true"	//ÑuˆDÁù·Öƒx£®º†Ò×
-//	[Type] == "Prime Sextant" # 			[StashItem]	 == "true"	//ÑuˆDÁù·Öƒx£®¾«ÈA
-//	[Type] == "Awakened Sextant" # 			[StashItem]	 == "true"	//ÑuˆDÁù·Öƒx£®ÓXĞÑ
-//	[Type] == "Prophecy" # 					[StashItem]	 == "true"	//	//îAÑÔ
-//	[Type] == "Stacked Deck" # 				[StashItem]	 == "true"	//ØSÔ£ÅÆ½M
-//	[Type] == "Unshaping Orb" # 			[StashItem]	 == "true"	//ß€Ô­Óñ
-//	[Type] == "Albino Rhoa Feather" # 		[StashItem]	 == "true"	//°×»¯µÄÓğÃ«
-//	[Type] == "Offering to the Goddess" # 	[StashItem]	 == "true"	//Å®Éñ¼ÀÆ·
-//	[Type] == "Dedication to the Goddess" # [StashItem]	 == "true"//Å®Éñ·î«I
+//ä»¥ä¸‹æ°´é“ä»”ï¼Œé€²è¼¿åœ–éšæ®µä¹‹å¾Œå…¨éƒ¨æ–œç·š//
+//	//// 1F é»ƒè£é‘‘å®šå”®å‡º ///è«‹å‹™å¿…çœ‹èªªæ˜æ›¸è¤‡è£½å‰¯æœ¬å¾Œå†è‡ªå®šç¾©
+	[Category] == "Helm"        && [Rarity]== "Rare" # [base_maximum_life] >= "999" && [TotalResistances] >= "999" && 	[StashItem]	 == "true"	//	é ­ç›”
+	[Category] == "Chest"       && [Rarity]== "Rare" # [base_maximum_life] >= "999" && [TotalResistances] >= "999" && 	[StashItem]	 == "true"	//	èƒ¸ç”²
+	[Category] == "Amulet"      && [Rarity]== "Rare" # [base_maximum_life] >= "999" && [TotalResistances] >= "999" && 	[StashItem]	 == "true"	//	è­·èº«ç¬¦
+	[Category] == "Ring"        && [Rarity]== "Rare" # [base_maximum_life] >= "999" && [TotalResistances] >= "999" && 	[StashItem]	 == "true"	//	æˆ’æŒ‡
+	[Category] == "Belt"        && [Rarity]== "Rare" # [base_maximum_life] >= "999" && [TotalResistances] >= "999" && 	[StashItem]	 == "true"	//	è…°å¸¶
+	[Category] == "Gloves"      && [Rarity]== "Rare" # [base_maximum_life] >= "999" && [TotalResistances] >= "999" && 	[StashItem]	 == "true"	//	æ‰‹å¥—
+	[Category] == "Boots"       && [Rarity]== "Rare" # [base_maximum_life] >= "999"&& 									[StashItem]	 == "true"	//	é‹å­
+//	[Category] == "Weapon"      && [Rarity]== "Rare" # [DPS] > "999" && 												[StashItem]	 == "true"	//	æ­¦å™¨
+	[Category] == "Shield"      && [Rarity]== "Rare" # [base_maximum_life] >= "999" && [TotalResistances] >= "999" && 	[StashItem]	 == "true"	//	ç›¾ç‰Œ
+	//// 2F åŸºç¤é€šè²¨//																								
+//	[Type] == "Alchemy Shard" # 		[StashItem]	 == "true"	//é»é‡‘çŸ³ç¢ç‰‡
+//	[Type] == "Alteration Shard" # 		[StashItem]	 == "true"	//æ”¹é€ çŸ³ç¢ç‰‡
+//	[Type] == "Scroll Fragment" # 		[StashItem]	 == "true"	//å·è»¸ç¢ç‰‡
+//	[Type] == "Transmutation Shard" # 	[StashItem]	 == "true"	//è›»è®ŠçŸ³ç¢ç‰‡
+//	[Type] == "Instilling Orb" #		[StashItem]	 == "true"	//æ»´æ³¨çŸ³
+	[Type] =="Enkindling Orb"#			[StashItem]	 == "true"	//é»ç‡ƒçŸ³
+//ç‰¹ä¾‹è«‹å‹¿æ›´å‹•//[Type] == "Wisdom Scroll" # 	[StashItem]	 == "true"	//çŸ¥è­˜å·è»¸
+//ç‰¹ä¾‹è«‹å‹¿æ›´å‹•//[Type] == "Portal Scroll" # 	[StashItem]	 == "true"	//å‚³é€å·è»¸
+//	[Type] == "Blacksmith's Whetstone" # 	[StashItem]	 == "true"	//ç£¨åˆ€çŸ³
+//	[Type] == "Armourer's Scrap" # 			[StashItem]	 == "true"	//è­·ç”²ç‰‡
+//	[Type] == "Glassblower's Bauble" # 		[StashItem]	 == "true"	//ç»ç’ƒå½ˆç 
+//	[Type] == "Blessed Orb" # 				[StashItem]	 == "true"	//ç¥ç¦çŸ³
+//	[Type] == "Chaos Orb" # 				[StashItem]	 == "true"	//æ··æ²ŒçŸ³
+//	[Type] == "Chromatic Orb" # 			[StashItem]	 == "true"	//å¹»è‰²çŸ³
+//	[Type] == "Divine Orb" # 				[StashItem]	 == "true"	//ç¥è–çŸ³
+//	[Type] == "Exalted Orb" # 				[StashItem]	 == "true"	//å´‡é«˜çŸ³
+//	[Type] == "Gemcutter's Prism" # 		[StashItem]	 == "true"	//å¯¶çŸ³åŒ çš„ç¨œé¡
+//	[Type] == "Jeweller's Orb" # 			[StashItem]	 == "true"	//å·¥åŒ çŸ³
+//	[Type] == "Mirror of Kalandra" # 		[StashItem]	 == "true"	//å¡è˜­å¾·çš„é­”é¡
+//	[Type] == "Orb of Alchemy" # 			[StashItem]	 == "true"	//é»é‡‘çŸ³
+//	[Type] == "Orb of Alteration" # 		[StashItem]	 == "true"	//æ”¹é€ çŸ³
+//	[Type] == "Orb of Transmutation" # 		[StashItem]	 == "true"	//è›»è®ŠçŸ³
+//	[Type] == "Orb of Augmentation" # 		[StashItem]	 == "true"	//å¢å¹…çŸ³
+//	[Type] == "Orb of Chance" # 			[StashItem]	 == "true"	//æ©ŸæœƒçŸ³
+//	[Type] == "Orb of Fusing" # 			[StashItem]	 == "true"	//éˆçµçŸ³
+//	[Type] == "Orb of Regret" # 			[StashItem]	 == "true"	//å¾Œæ‚”çŸ³
+//	[Type] == "Orb of Scouring" # 			[StashItem]	 == "true"	//é‡é‘„çŸ³
+//	[Type] == "Perandus Coin" # 			[StashItem]	 == "true"	//æ™®è˜­å¾·æ–¯é‡‘å¹£
+//	[Type] == "Regal Orb" # 				[StashItem]	 == "true"	//å¯Œè±ªçŸ³
+//	[Type] == "Silver Coin" # 				[StashItem]	 == "true"	//éŠ€å¹£
+//	[Type] == "Vaal Orb" # 					[StashItem]	 == "true"	//ç“¦çˆ¾å¯¶ç 
+//	[Type] == "Cartographer's Chisel" # 	[StashItem]	 == "true"	//è£½åœ–é‡˜
+//	[Type] == "Orb of Annulment" # 			[StashItem]	 == "true"	//ç„¡æ•ˆçŸ³
+//	[Type] == "Orb of Binding" # 			[StashItem]	 == "true"	//æŸç¸›çŸ³
+//	[Type] == "Orb of Horizons"         # 	[StashItem]	 == "true"	//åœ°å¹³çŸ³
+//	[Type] == "Harbinger's Orb"         # 	[StashItem]	 == "true"	//ç¥è«­çŸ³
+//	[Type] == "Engineer's Orb" # 			[StashItem]	 == "true"	//å·¥ç¨‹çŸ³
+//	[Type] == "Ancient Orb" # 				[StashItem]	 == "true"	//å¤è®ŠçŸ³
+//	[Type] == "Annulment Shard"  #			[StashItem]	 == "true"	//ç„¡æ•ˆçŸ³ç¢ç‰‡
+//	[Type] == "Binding Shard"# 				[StashItem]	 == "true"	//æŸç¸›çŸ³ç¢ç‰‡
+//	[Type] == "Horizon Shard" # 			[StashItem]	 == "true"	//åœ°å¹³çŸ³ç¢ç‰‡
+//	[Type] == "Harbinger's Shard" # 		[StashItem]	 == "true"	//ç¥è«­çŸ³ç¢ç‰‡
+//	[Type] == "Engineer's Shard" # 			[StashItem]	 == "true"	//å·¥ç¨‹çŸ³ç¢ç‰‡
+//	[Type] == "Ancient Shard" # 			[StashItem]	 == "true"	//å¤è®ŠçŸ³ç¢ç‰‡
+//	[Type] == "Chaos Shard" # 				[StashItem]	 == "true"	//æ··æ²ŒçŸ³ç¢ç‰‡
+//	[Type] == "Mirror Shard" # 				[StashItem]	 == "true"	//é­”é¡ç¢ç‰‡
+//	[Type] == "Exalted Shard"# 				[StashItem]	 == "true"	//å´‡é«˜çŸ³ç¢ç‰‡
+//	[Type] == "Regal Shard" # 				[StashItem]	 == "true"	//å¯Œè±ªçŸ³ç¢ç‰‡
+//	[Type] == "Veiled Chaos Orb"			[StashItem]	 == "true"	//éš±åŒ¿æ··æ²ŒçŸ³
+//	[Type] == "Journeyman Cartographer's Seal" # 	[StashItem]	 == "true"	//è£½åœ–å°å°ï¼å­¸è€…
+//	[Type] == "Master Cartographer's Seal" # 	[StashItem]	 == "true"	//è£½åœ–å°å°ï¼å¤§å¸«
+//	[Type] == "Simple Sextant" # 			[StashItem]	 == "true"	//è£½åœ–å…­åˆ†å„€ï¼ç°¡æ˜“
+//	[Type] == "Prime Sextant" # 			[StashItem]	 == "true"	//è£½åœ–å…­åˆ†å„€ï¼ç²¾è¯
+//	[Type] == "Awakened Sextant" # 			[StashItem]	 == "true"	//è£½åœ–å…­åˆ†å„€ï¼è¦ºé†’
+//	[Type] == "Prophecy" # 					[StashItem]	 == "true"	//	//é è¨€
+//	[Type] == "Stacked Deck" # 				[StashItem]	 == "true"	//è±è£•ç‰Œçµ„
+//	[Type] == "Unshaping Orb" # 			[StashItem]	 == "true"	//é‚„åŸç‰
+//	[Type] == "Albino Rhoa Feather" # 		[StashItem]	 == "true"	//ç™½åŒ–çš„ç¾½æ¯›
+//	[Type] == "Offering to the Goddess" # 	[StashItem]	 == "true"	//å¥³ç¥ç¥­å“
+//	[Type] == "Dedication to the Goddess" # [StashItem]	 == "true"//å¥³ç¥å¥‰ç»
 //	[Type] == "Tribute to the Goddess" # 	[StashItem]	 == "true"	//
-//	[Type] == "Gift to the Goddess" # 		[StashItem]	 == "true"	//Å®ÉñÖ®Ù›
-//	[Type] == "Awakener's Orb" # 			[StashItem]	 == "true"	//	//†¾ĞÑÕßÖ®Óñ
-//	[Type] == "Crusader's Exalted Orb" # 	[StashItem]	 == "true"	//Â}‘ğÊ¿µÄ³ç¸ßÊ¯
-//	[Type] == "Hunter's Exalted Orb" # 		[StashItem]	 == "true"	//á÷«CÕßµÄ³ç¸ßÊ¯
-//	[Type] == "Redeemer's Exalted Orb" # 	[StashItem]	 == "true"	//¾ÈÚHÕßµÄ³ç¸ßÊ¯
-//	[Type] == "Warlord's Exalted Orb" # 	[StashItem]	 == "true"	//¿‚¶½ÜŠµÄ³ç¸ßÊ¯
+//	[Type] == "Gift to the Goddess" # 		[StashItem]	 == "true"	//å¥³ç¥ä¹‹è´ˆ
+//	[Type] == "Awakener's Orb" # 			[StashItem]	 == "true"	//	//å–šé†’è€…ä¹‹ç‰
+//	[Type] == "Crusader's Exalted Orb" # 	[StashItem]	 == "true"	//è–æˆ°å£«çš„å´‡é«˜çŸ³
+//	[Type] == "Hunter's Exalted Orb" # 		[StashItem]	 == "true"	//ç‹©çµè€…çš„å´‡é«˜çŸ³
+//	[Type] == "Redeemer's Exalted Orb" # 	[StashItem]	 == "true"	//æ•‘è´–è€…çš„å´‡é«˜çŸ³
+//	[Type] == "Warlord's Exalted Orb" # 	[StashItem]	 == "true"	//ç¸½ç£è»çš„å´‡é«˜çŸ³
 
-	//// 18F ËË®£¨îAÔOêPé]£©			//																								
+	//// 18F è—¥æ°´ï¼ˆé è¨­é—œé–‰ï¼‰			//																								
 				//																								
-//	[Type] == "Quicksilver Flask" # 	[StashItem]	 == "true"	//	//Ë®ãyË„©	²»“ì²»´æ‚}
-//	[Type] == "Gold Flask"     # 		[StashItem]	 == "true" 	//	//üS½ğË„©	²»“ì²»´æ‚}																						
+//	[Type] == "Quicksilver Flask" # 	[StashItem]	 == "true"	//	//æ°´éŠ€è—¥åŠ‘	ä¸æ’¿ä¸å­˜å€‰
+//	[Type] == "Gold Flask"     # 		[StashItem]	 == "true" 	//	//é»ƒé‡‘è—¥åŠ‘	ä¸æ’¿ä¸å­˜å€‰																						
 				//																								
-//	[Type] == "Small Life Flask" # 		[StashItem]	 == "true" 	//	//Ğ¡ĞÍÉúÃüË„©	²»“ì²»´æ‚}																						
-//	[Type] == "Medium Life Flask" # 	[StashItem]	 == "true" 	//	//ÉúÃüË„©£¨ÖĞ£©	²»“ì²»´æ‚}																						
-//	[Type] == "Large Life Flask" # 		[StashItem]	 == "true" 	//	//ÉúÃüË„©£¨´ó£©	²»“ì²»´æ‚}																						
-//	[Type] == "Greater Life Flask" # 	[StashItem]	 == "true" 	//	//Á¼Ù|ÉúÃüË„©	²»“ì²»´æ‚}																						
-//	[Type] == "Grand Life Flask" # 		[StashItem]	 == "true" 	//	//ƒÙ|ÉúÃüË„©	²»“ì²»´æ‚}																						
-//	[Type] == "Giant Life Flask" # 		[StashItem]	 == "true" 	//	//¾ŞĞÍÉúÃüË„©	²»“ì²»´æ‚}																						
-//	[Type] == "Colossal Life Flask" # 	[StashItem]	 == "true" 	//	//¸ßëAÉúÃüË„©	²»“ì²»´æ‚}																						
-//	[Type] == "Sacred Life Flask" # 	[StashItem]	 == "true" 	//	//Â}ÕZÉúÃüË„©	²»“ì²»´æ‚}																						
-//	[Type] == "Hallowed Life Flask" # 	[StashItem]	 == "true" 	//	//×£¸£ÉúÃüË„©	²»“ì²»´æ‚}																						
-//	[Type] == "Sanctified Life Flask" # [StashItem]	 == "true" 	//	//Â}»¯ÉúÃüË„©	²»“ì²»´æ‚}																						
-//	[Type] == "Divine Life Flask" # 	[StashItem]	 == "true" 	//	//²»ĞàÉúÃüË„©	²»“ì²»´æ‚}																						
-//	[Type] == "Eternal Life Flask" # 	[StashItem]	 == "true" 	//	//ÓÀaÉúÃüË„©	²»“ì²»´æ‚}																						
-//	[Type] == "Small Mana Flask" # 		[StashItem]	 == "true" 	//	//Ğ¡ĞÍÄ§Á¦Ë„©	²»“ì²»´æ‚}																						
-//	[Type] == "Medium Mana Flask" # 	[StashItem]	 == "true" 	//	//ÖĞĞÍÄ§Á¦Ë„©	²»“ì²»´æ‚}																						
-//	[Type] == "Large Mana Flask" # 		[StashItem]	 == "true" 	//	//´óĞÍÄ§Á¦Ë„©	²»“ì²»´æ‚}																						
-//	[Type] == "Greater Mana Flask" # 	[StashItem]	 == "true" 	//	//Á¼Ù|Ä§Á¦Ë„©	²»“ì²»´æ‚}																						
-//	[Type] == "Grand Mana Flask" # 		[StashItem]	 == "true" 	//	//ƒÙ|Ä§Á¦Ë„©	²»“ì²»´æ‚}																						
-//	[Type] == "Giant Mana Flask" # 		[StashItem]	 == "true" 	//	//¾ŞĞÍÄ§Á¦Ë„©	²»“ì²»´æ‚}																						
-//	[Type] == "Colossal Mana Flask" # 	[StashItem]	 == "true" 	//	//¸ßëAÄ§Á¦Ë„©	²»“ì²»´æ‚}																						
-//	[Type] == "Sacred Mana Flask" # 	[StashItem]	 == "true" 	//	//Â}ÕZÄ§Á¦Ë„©	²»“ì²»´æ‚}																						
-//	[Type] == "Hallowed Mana Flask" # 	[StashItem]	 == "true" 	//	//×£¸£Ä§Á¦Ë„©	²»“ì²»´æ‚}																						
-//	[Type] == "Sanctified Mana Flask" # [StashItem]	 == "true" 	//	//Â}»¯Ä§Á¦Ë„©	²»“ì²»´æ‚}																						
-//	[Type] == "Divine Mana Flask" # 	[StashItem]	 == "true" 	//	//²»ĞàÄ§Á¦Ë„©	²»“ì²»´æ‚}																						
-//	[Type] == "Eternal Mana Flask" # 	[StashItem]	 == "true" 	//	//ÓÀaÄ§Á¦Ë„©	²»“ì²»´æ‚}																						
-//	[Type] == "Small Hybrid Flask" # 	[StashItem]	 == "true" 	//	//Ğ¡ĞÍÑ}ºÏË„©	²»“ì²»´æ‚}																						
-//	[Type] == "Medium Hybrid Flask" # 	[StashItem]	 == "true" 	//	//ÖĞĞÍÑ}ºÏË„©	²»“ì²»´æ‚}																						
-//	[Type] == "Large Hybrid Flask" # 	[StashItem]	 == "true" 	//	//´óĞÍÑ}ºÏË„©	²»“ì²»´æ‚}																						
-//	[Type] == "Colossal Hybrid Flask" # [StashItem]	 == "true" 	//	//¸ßëAÑ}ºÏË„©	²»“ì²»´æ‚}																						
-//	[Type] == "Sacred Hybrid Flask" # 	[StashItem]	 == "true" 	//	//Â}ÕZÑ}ºÏË„©	²»“ì²»´æ‚}																						
-//	[Type] == "Hallowed Hybrid Flask" # [StashItem]	 == "true" 	//	//×£¸£Ñ}ºÏË„©	²»“ì²»´æ‚}																						
-//	[Type] == "Bismuth Flask" # 		[StashItem]	 == "true" 	//	//»ÒÑÒË„©	²»“ì²»´æ‚}																						
-//	[Type] == "Stibnite Flask" # 		[StashItem]	 == "true" 	//	//ÃÔìFË„©	²»“ì²»´æ‚}																						
-//	[Type] == "Amethyst Flask"# 		[StashItem]	 == "true"	//	//×Ï¾§Ë„©	²»“ì²»´æ‚}																						
-//	 [Type] == "Ruby Flask" # 			[StashItem]	 == "true" 	//	//¼tÓñË„©	²»“ì²»´æ‚}																						
-//	 [Type] == "Sapphire Flask" # 		[StashItem]	 == "true" 	//	//Ë{ÓñË„©	²»“ì²»´æ‚}																						
-//	 [Type] == "Topaz Flask" # 			[StashItem]	 == "true" 	//	//üSÓñË„©	²»“ì²»´æ‚}																						
-//	 [Type] == "Silver Flask" # 		[StashItem]	 == "true" 	//	//ÕæãyË„©	²»“ì²»´æ‚}																						
-//	 [Type] == "Aquamarine Flask" # 	[StashItem]	 == "true" 	//	//º£Ë{Ë„©	²»“ì²»´æ‚}																						
-//	 [Type] == "Diamond Flask" # 		[StashItem]	 == "true" 	//	//ŒšèË„©	²»“ì²»´æ‚}																						
-//	 [Type] == "Granite Flask" # 		[StashItem]	 == "true" 	//	//ˆÔÑÒË„©	²»“ì²»´æ‚}																						
-//	 [Type] == "Jade Flask" #			[StashItem]	 == "true" 	//	//´äÓñË„©	²»“ì²»´æ‚}																						
-//	 [Type] == "Quartz Flask" # 		[StashItem]	 == "true" 	//	//Ê¯Ó¢Ë„©	²»“ì²»´æ‚}																						
-//	 [Type] == "Sulphur Flask" # 		[StashItem]	 == "true" 	//	//Áò»ÇË„©	²»“ì²»´æ‚}																						
-//	 [Type] == "Basalt Flask" # 		[StashItem]	 == "true" 	//	//Ê¯»¯Ë„©	²»“ì²»ÊÛ= "true" 	//	//Ê¯»¯Ë„©	²»“ì²»ÊÛ? "true" 	//	//Ê¯»¯Ë„©	²»“ì²»ÊÛ
+//	[Type] == "Small Life Flask" # 		[StashItem]	 == "true" 	//	//å°å‹ç”Ÿå‘½è—¥åŠ‘	ä¸æ’¿ä¸å­˜å€‰																						
+//	[Type] == "Medium Life Flask" # 	[StashItem]	 == "true" 	//	//ç”Ÿå‘½è—¥åŠ‘ï¼ˆä¸­ï¼‰	ä¸æ’¿ä¸å­˜å€‰																						
+//	[Type] == "Large Life Flask" # 		[StashItem]	 == "true" 	//	//ç”Ÿå‘½è—¥åŠ‘ï¼ˆå¤§ï¼‰	ä¸æ’¿ä¸å­˜å€‰																						
+//	[Type] == "Greater Life Flask" # 	[StashItem]	 == "true" 	//	//è‰¯è³ªç”Ÿå‘½è—¥åŠ‘	ä¸æ’¿ä¸å­˜å€‰																						
+//	[Type] == "Grand Life Flask" # 		[StashItem]	 == "true" 	//	//å„ªè³ªç”Ÿå‘½è—¥åŠ‘	ä¸æ’¿ä¸å­˜å€‰																						
+//	[Type] == "Giant Life Flask" # 		[StashItem]	 == "true" 	//	//å·¨å‹ç”Ÿå‘½è—¥åŠ‘	ä¸æ’¿ä¸å­˜å€‰																						
+//	[Type] == "Colossal Life Flask" # 	[StashItem]	 == "true" 	//	//é«˜éšç”Ÿå‘½è—¥åŠ‘	ä¸æ’¿ä¸å­˜å€‰																						
+//	[Type] == "Sacred Life Flask" # 	[StashItem]	 == "true" 	//	//è–èªç”Ÿå‘½è—¥åŠ‘	ä¸æ’¿ä¸å­˜å€‰																						
+//	[Type] == "Hallowed Life Flask" # 	[StashItem]	 == "true" 	//	//ç¥ç¦ç”Ÿå‘½è—¥åŠ‘	ä¸æ’¿ä¸å­˜å€‰																						
+//	[Type] == "Sanctified Life Flask" # [StashItem]	 == "true" 	//	//è–åŒ–ç”Ÿå‘½è—¥åŠ‘	ä¸æ’¿ä¸å­˜å€‰																						
+//	[Type] == "Divine Life Flask" # 	[StashItem]	 == "true" 	//	//ä¸æœ½ç”Ÿå‘½è—¥åŠ‘	ä¸æ’¿ä¸å­˜å€‰																						
+//	[Type] == "Eternal Life Flask" # 	[StashItem]	 == "true" 	//	//æ°¸æ†ç”Ÿå‘½è—¥åŠ‘	ä¸æ’¿ä¸å­˜å€‰																						
+//	[Type] == "Small Mana Flask" # 		[StashItem]	 == "true" 	//	//å°å‹é­”åŠ›è—¥åŠ‘	ä¸æ’¿ä¸å­˜å€‰																						
+//	[Type] == "Medium Mana Flask" # 	[StashItem]	 == "true" 	//	//ä¸­å‹é­”åŠ›è—¥åŠ‘	ä¸æ’¿ä¸å­˜å€‰																						
+//	[Type] == "Large Mana Flask" # 		[StashItem]	 == "true" 	//	//å¤§å‹é­”åŠ›è—¥åŠ‘	ä¸æ’¿ä¸å­˜å€‰																						
+//	[Type] == "Greater Mana Flask" # 	[StashItem]	 == "true" 	//	//è‰¯è³ªé­”åŠ›è—¥åŠ‘	ä¸æ’¿ä¸å­˜å€‰																						
+//	[Type] == "Grand Mana Flask" # 		[StashItem]	 == "true" 	//	//å„ªè³ªé­”åŠ›è—¥åŠ‘	ä¸æ’¿ä¸å­˜å€‰																						
+//	[Type] == "Giant Mana Flask" # 		[StashItem]	 == "true" 	//	//å·¨å‹é­”åŠ›è—¥åŠ‘	ä¸æ’¿ä¸å­˜å€‰																						
+//	[Type] == "Colossal Mana Flask" # 	[StashItem]	 == "true" 	//	//é«˜éšé­”åŠ›è—¥åŠ‘	ä¸æ’¿ä¸å­˜å€‰																						
+//	[Type] == "Sacred Mana Flask" # 	[StashItem]	 == "true" 	//	//è–èªé­”åŠ›è—¥åŠ‘	ä¸æ’¿ä¸å­˜å€‰																						
+//	[Type] == "Hallowed Mana Flask" # 	[StashItem]	 == "true" 	//	//ç¥ç¦é­”åŠ›è—¥åŠ‘	ä¸æ’¿ä¸å­˜å€‰																						
+//	[Type] == "Sanctified Mana Flask" # [StashItem]	 == "true" 	//	//è–åŒ–é­”åŠ›è—¥åŠ‘	ä¸æ’¿ä¸å­˜å€‰																						
+//	[Type] == "Divine Mana Flask" # 	[StashItem]	 == "true" 	//	//ä¸æœ½é­”åŠ›è—¥åŠ‘	ä¸æ’¿ä¸å­˜å€‰																						
+//	[Type] == "Eternal Mana Flask" # 	[StashItem]	 == "true" 	//	//æ°¸æ†é­”åŠ›è—¥åŠ‘	ä¸æ’¿ä¸å­˜å€‰																						
+//	[Type] == "Small Hybrid Flask" # 	[StashItem]	 == "true" 	//	//å°å‹è¤‡åˆè—¥åŠ‘	ä¸æ’¿ä¸å­˜å€‰																						
+//	[Type] == "Medium Hybrid Flask" # 	[StashItem]	 == "true" 	//	//ä¸­å‹è¤‡åˆè—¥åŠ‘	ä¸æ’¿ä¸å­˜å€‰																						
+//	[Type] == "Large Hybrid Flask" # 	[StashItem]	 == "true" 	//	//å¤§å‹è¤‡åˆè—¥åŠ‘	ä¸æ’¿ä¸å­˜å€‰																						
+//	[Type] == "Colossal Hybrid Flask" # [StashItem]	 == "true" 	//	//é«˜éšè¤‡åˆè—¥åŠ‘	ä¸æ’¿ä¸å­˜å€‰																						
+//	[Type] == "Sacred Hybrid Flask" # 	[StashItem]	 == "true" 	//	//è–èªè¤‡åˆè—¥åŠ‘	ä¸æ’¿ä¸å­˜å€‰																						
+//	[Type] == "Hallowed Hybrid Flask" # [StashItem]	 == "true" 	//	//ç¥ç¦è¤‡åˆè—¥åŠ‘	ä¸æ’¿ä¸å­˜å€‰																						
+//	[Type] == "Bismuth Flask" # 		[StashItem]	 == "true" 	//	//ç°å²©è—¥åŠ‘	ä¸æ’¿ä¸å­˜å€‰																						
+//	[Type] == "Stibnite Flask" # 		[StashItem]	 == "true" 	//	//è¿·éœ§è—¥åŠ‘	ä¸æ’¿ä¸å­˜å€‰																						
+//	[Type] == "Amethyst Flask"# 		[StashItem]	 == "true"	//	//ç´«æ™¶è—¥åŠ‘	ä¸æ’¿ä¸å­˜å€‰																						
+//	 [Type] == "Ruby Flask" # 			[StashItem]	 == "true" 	//	//ç´…ç‰è—¥åŠ‘	ä¸æ’¿ä¸å­˜å€‰																						
+//	 [Type] == "Sapphire Flask" # 		[StashItem]	 == "true" 	//	//è—ç‰è—¥åŠ‘	ä¸æ’¿ä¸å­˜å€‰																						
+//	 [Type] == "Topaz Flask" # 			[StashItem]	 == "true" 	//	//é»ƒç‰è—¥åŠ‘	ä¸æ’¿ä¸å­˜å€‰																						
+//	 [Type] == "Silver Flask" # 		[StashItem]	 == "true" 	//	//çœŸéŠ€è—¥åŠ‘	ä¸æ’¿ä¸å­˜å€‰																						
+//	 [Type] == "Aquamarine Flask" # 	[StashItem]	 == "true" 	//	//æµ·è—è—¥åŠ‘	ä¸æ’¿ä¸å­˜å€‰																						
+//	 [Type] == "Diamond Flask" # 		[StashItem]	 == "true" 	//	//å¯¶é‘½è—¥åŠ‘	ä¸æ’¿ä¸å­˜å€‰																						
+//	 [Type] == "Granite Flask" # 		[StashItem]	 == "true" 	//	//å …å²©è—¥åŠ‘	ä¸æ’¿ä¸å­˜å€‰																						
+//	 [Type] == "Jade Flask" #			[StashItem]	 == "true" 	//	//ç¿ ç‰è—¥åŠ‘	ä¸æ’¿ä¸å­˜å€‰																						
+//	 [Type] == "Quartz Flask" # 		[StashItem]	 == "true" 	//	//çŸ³è‹±è—¥åŠ‘	ä¸æ’¿ä¸å­˜å€‰																						
+//	 [Type] == "Sulphur Flask" # 		[StashItem]	 == "true" 	//	//ç¡«ç£ºè—¥åŠ‘	ä¸æ’¿ä¸å­˜å€‰																						
+//	 [Type] == "Basalt Flask" # 		[StashItem]	 == "true" 	//	//çŸ³åŒ–è—¥åŠ‘	ä¸æ’¿ä¸å”®= "true" 	//	//çŸ³åŒ–è—¥åŠ‘	ä¸æ’¿ä¸å”®? "true" 	//	//çŸ³åŒ–è—¥åŠ‘	ä¸æ’¿ä¸å”®
