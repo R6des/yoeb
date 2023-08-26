@@ -64,11 +64,11 @@
 //[Type] == "Divine Life Flask"&& 	[ItemLevel] >= "60" && [ItemLevel] <="100" # [StashItem] == "true" //不朽生命藥劑
 //[Type] == "Amethyst Flask"&& 		[ItemLevel] >= "60" && [ItemLevel] <="100" # [StashItem] == "true" //紫晶
 //[Type] == "Bismuth Flask"&& 		[ItemLevel] >= "60" && [ItemLevel] <="100" # [StashItem] == "true" //灰岩
-//[Type] == "Silver Flask"&& 		[ItemLevel] >= "60" && [ItemLevel] <="100" # [StashItem] == "true" //猛攻
-//[Type] == "Diamond Flask"&& 		[ItemLevel] >= "60" && [ItemLevel] <="100" # [StashItem] == "true" //寶鑽
+[Type] == "Silver Flask"&& 		[ItemLevel] >= "60" && [ItemLevel] <="100" # [StashItem] == "true" //猛攻
+[Type] == "Diamond Flask"&& 		[ItemLevel] >= "60" && [ItemLevel] <="100" # [StashItem] == "true" //寶鑽
 //[Type] == "Granite Flask"&& 		[ItemLevel] >= "60" && [ItemLevel] <="100" # [StashItem] == "true" //+1500護甲
-//[Type] == "Jade Flask"&& 			[ItemLevel] >= "60" && [ItemLevel] <="100" # [StashItem] == "true" //+1500閃避
-//[Type] == "Quicksilver Flask"&& 	[ItemLevel] >= "60" && [ItemLevel] <="100" # [StashItem] == "true" //跑水
+[Type] == "Jade Flask"&& 			[ItemLevel] >= "60" && [ItemLevel] <="100" # [StashItem] == "true" //+1500閃避
+[Type] == "Quicksilver Flask"&& 	[ItemLevel] >= "60" && [ItemLevel] <="100" # [StashItem] == "true" //跑水
 
 
 
@@ -244,7 +244,7 @@
 [Type] == "Mirror of Kalandra" # 		[StashItem]	 == "true"	//卡蘭德的魔鏡
 [Type] == "Orb of Alchemy" # 			[StashItem]	 == "true"	//點金石
 [Type] == "Orb of Alteration" # 		[StashItem]	 == "true"	//改造石
-[Type] == "Orb of Transmutation" # 		[StashItem]	 == "true"	//蛻變石
+//[Type] == "Orb of Transmutation" # 		[StashItem]	 == "true"	//蛻變石
 [Type] == "Orb of Augmentation" # 		[StashItem]	 == "true"	//增幅石
 [Type] == "Orb of Chance" # 			[StashItem]	 == "true"	//機會石
 [Type] == "Orb of Fusing" # 			[StashItem]	 == "true"	//鏈結石
@@ -252,7 +252,7 @@
 [Type] == "Orb of Scouring" # 			[StashItem]	 == "true"	//重鑄石
 [Type] == "Perandus Coin" # 			[StashItem]	 == "true"	//普蘭德斯金幣
 [Type] == "Regal Orb" # 				[StashItem]	 == "true"	//富豪石
-[Type] == "Silver Coin" # 				[StashItem]	 == "true"	//銀幣
+//[Type] == "Silver Coin" # 				[StashItem]	 == "true"	//銀幣
 [Type] == "Vaal Orb" # 					[StashItem]	 == "true"	//瓦爾寶珠
 [Type] == "Cartographer's Chisel" # 	[StashItem]	 == "true"	//製圖釘
 [Type] == "Orb of Annulment" # 			[StashItem]	 == "true"	//無效石
@@ -586,53 +586,3 @@
 //	[Type] == "Hunter's Exalted Orb" # 		[StashItem]	 == "true"	//狩獵者的崇高石
 //	[Type] == "Redeemer's Exalted Orb" # 	[StashItem]	 == "true"	//救贖者的崇高石
 //	[Type] == "Warlord's Exalted Orb" # 	[StashItem]	 == "true"	//總督軍的崇高石
-
-	//// 18F 藥水（預設關閉）			//																								
-				//																								
-//	[Type] == "Quicksilver Flask" # 	[StashItem]	 == "true"	//	//水銀藥劑	不撿不存倉
-//	[Type] == "Gold Flask"     # 		[StashItem]	 == "true" 	//	//黃金藥劑	不撿不存倉																						
-				//																								
-//	[Type] == "Small Life Flask" # 		[StashItem]	 == "true" 	//	//小型生命藥劑	不撿不存倉																						
-//	[Type] == "Medium Life Flask" # 	[StashItem]	 == "true" 	//	//生命藥劑（中）	不撿不存倉																						
-//	[Type] == "Large Life Flask" # 		[StashItem]	 == "true" 	//	//生命藥劑（大）	不撿不存倉																						
-//	[Type] == "Greater Life Flask" # 	[StashItem]	 == "true" 	//	//良質生命藥劑	不撿不存倉																						
-//	[Type] == "Grand Life Flask" # 		[StashItem]	 == "true" 	//	//優質生命藥劑	不撿不存倉																						
-//	[Type] == "Giant Life Flask" # 		[StashItem]	 == "true" 	//	//巨型生命藥劑	不撿不存倉																						
-//	[Type] == "Colossal Life Flask" # 	[StashItem]	 == "true" 	//	//高階生命藥劑	不撿不存倉																						
-//	[Type] == "Sacred Life Flask" # 	[StashItem]	 == "true" 	//	//聖語生命藥劑	不撿不存倉																						
-//	[Type] == "Hallowed Life Flask" # 	[StashItem]	 == "true" 	//	//祝福生命藥劑	不撿不存倉																						
-//	[Type] == "Sanctified Life Flask" # [StashItem]	 == "true" 	//	//聖化生命藥劑	不撿不存倉																						
-//	[Type] == "Divine Life Flask" # 	[StashItem]	 == "true" 	//	//不朽生命藥劑	不撿不存倉																						
-//	[Type] == "Eternal Life Flask" # 	[StashItem]	 == "true" 	//	//永恆生命藥劑	不撿不存倉																						
-//	[Type] == "Small Mana Flask" # 		[StashItem]	 == "true" 	//	//小型魔力藥劑	不撿不存倉																						
-//	[Type] == "Medium Mana Flask" # 	[StashItem]	 == "true" 	//	//中型魔力藥劑	不撿不存倉																						
-//	[Type] == "Large Mana Flask" # 		[StashItem]	 == "true" 	//	//大型魔力藥劑	不撿不存倉																						
-//	[Type] == "Greater Mana Flask" # 	[StashItem]	 == "true" 	//	//良質魔力藥劑	不撿不存倉																						
-//	[Type] == "Grand Mana Flask" # 		[StashItem]	 == "true" 	//	//優質魔力藥劑	不撿不存倉																						
-//	[Type] == "Giant Mana Flask" # 		[StashItem]	 == "true" 	//	//巨型魔力藥劑	不撿不存倉																						
-//	[Type] == "Colossal Mana Flask" # 	[StashItem]	 == "true" 	//	//高階魔力藥劑	不撿不存倉																						
-//	[Type] == "Sacred Mana Flask" # 	[StashItem]	 == "true" 	//	//聖語魔力藥劑	不撿不存倉																						
-//	[Type] == "Hallowed Mana Flask" # 	[StashItem]	 == "true" 	//	//祝福魔力藥劑	不撿不存倉																						
-//	[Type] == "Sanctified Mana Flask" # [StashItem]	 == "true" 	//	//聖化魔力藥劑	不撿不存倉																						
-//	[Type] == "Divine Mana Flask" # 	[StashItem]	 == "true" 	//	//不朽魔力藥劑	不撿不存倉																						
-//	[Type] == "Eternal Mana Flask" # 	[StashItem]	 == "true" 	//	//永恆魔力藥劑	不撿不存倉																						
-//	[Type] == "Small Hybrid Flask" # 	[StashItem]	 == "true" 	//	//小型複合藥劑	不撿不存倉																						
-//	[Type] == "Medium Hybrid Flask" # 	[StashItem]	 == "true" 	//	//中型複合藥劑	不撿不存倉																						
-//	[Type] == "Large Hybrid Flask" # 	[StashItem]	 == "true" 	//	//大型複合藥劑	不撿不存倉																						
-//	[Type] == "Colossal Hybrid Flask" # [StashItem]	 == "true" 	//	//高階複合藥劑	不撿不存倉																						
-//	[Type] == "Sacred Hybrid Flask" # 	[StashItem]	 == "true" 	//	//聖語複合藥劑	不撿不存倉																						
-//	[Type] == "Hallowed Hybrid Flask" # [StashItem]	 == "true" 	//	//祝福複合藥劑	不撿不存倉																						
-//	[Type] == "Bismuth Flask" # 		[StashItem]	 == "true" 	//	//灰岩藥劑	不撿不存倉																						
-//	[Type] == "Stibnite Flask" # 		[StashItem]	 == "true" 	//	//迷霧藥劑	不撿不存倉																						
-//	[Type] == "Amethyst Flask"# 		[StashItem]	 == "true"	//	//紫晶藥劑	不撿不存倉																						
-//	 [Type] == "Ruby Flask" # 			[StashItem]	 == "true" 	//	//紅玉藥劑	不撿不存倉																						
-//	 [Type] == "Sapphire Flask" # 		[StashItem]	 == "true" 	//	//藍玉藥劑	不撿不存倉																						
-//	 [Type] == "Topaz Flask" # 			[StashItem]	 == "true" 	//	//黃玉藥劑	不撿不存倉																						
-//	 [Type] == "Silver Flask" # 		[StashItem]	 == "true" 	//	//真銀藥劑	不撿不存倉																						
-//	 [Type] == "Aquamarine Flask" # 	[StashItem]	 == "true" 	//	//海藍藥劑	不撿不存倉																						
-//	 [Type] == "Diamond Flask" # 		[StashItem]	 == "true" 	//	//寶鑽藥劑	不撿不存倉																						
-//	 [Type] == "Granite Flask" # 		[StashItem]	 == "true" 	//	//堅岩藥劑	不撿不存倉																						
-//	 [Type] == "Jade Flask" #			[StashItem]	 == "true" 	//	//翠玉藥劑	不撿不存倉																						
-//	 [Type] == "Quartz Flask" # 		[StashItem]	 == "true" 	//	//石英藥劑	不撿不存倉																						
-//	 [Type] == "Sulphur Flask" # 		[StashItem]	 == "true" 	//	//硫磺藥劑	不撿不存倉																						
-//	 [Type] == "Basalt Flask" # 		[StashItem]	 == "true" 	//	//石化藥劑	不撿不售= "true" 	//	//石化藥劑	不撿不售? "true" 	//	//石化藥劑	不撿不售? "true" 	//	//石化藥劑	不撿不售
