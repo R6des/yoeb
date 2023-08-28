@@ -8,7 +8,7 @@
 [Type] == "Sapphire Flask" && [Rarity] == "Unique" # 		[UniqueName] == "Taste of Hate" && [StashItem] == "true"			//恨意
 
 //3.22季初武器
-[Type] == "Short Bow" && [Rarity] == "Unique" # 			[UniqueName] == "Quill Rain" && [StashItem] == "true"				//小雨
+//[Type] == "Short Bow" && [Rarity] == "Unique" # 			[UniqueName] == "Quill Rain" && [StashItem] == "true"				//小雨
 [Type] == "Prophecy Wand" && [Rarity] == "Unique" # 		[UniqueName] == "Void Battery" && [StashItem] == "true"				//電池
 [Type] == "Fiend Dagger" && [Rarity] == "Unique" # 			[UniqueName] == "Arakaali's Fang" && [StashItem] == "true"			//蜘蛛刀
 [Type] == "Spine Bow" && [Rarity] == "Unique" # 			[UniqueName] == "Voltaxic Rift" && [StashItem] == "true"			//魔暴
@@ -19,7 +19,7 @@
 [Type] == "Necromancer Silks" && [Rarity] == "Unique" # 	[UniqueName] == "Fleshcrafter" && [StashItem] == "true"				//人體匠師
 [Type] == "Sadist Garb" && [Rarity] == "Unique" # 			[UniqueName] == "Inpulsa's Broken Heart" && [StashItem] == "true"	//印卜薩
 [Type] == "Riveted Boots" && [Rarity] == "Unique" # 		[UniqueName] == "Ralakesh's Impatience" && [StashItem] == "true"	//靜止三球鞋
-[Type] == "Barbute Helmet" && [Rarity] == "Unique" # 		[UniqueName] == "Thrillsteel" && [StashItem] == "true"	//猛攻頭
+//[Type] == "Barbute Helmet" && [Rarity] == "Unique" # 		[UniqueName] == "Thrillsteel" && [StashItem] == "true"				//猛攻頭
 
 //3.22季初傳送門
 [Type] == "Portal" #		[StashItem] == "true"//傳送門
@@ -37,10 +37,10 @@
 [Type] == "Zodiac Leather" && [Rarity] == "Unique" # 	[UniqueName] == "Hyrri's Ire" && [StashItem] == "true"				//西里的戰衣星辰皮甲
 [Type] == "Titan Gauntlets" && [Rarity] == "Unique" # 	[UniqueName] == "Kaom's Spirit" && [StashItem] == "true"			//岡姆之魂
 [Type] == "Rawhide Boots" && [Rarity] == "Unique" # 	[UniqueName] == "Seven-League Step" && [StashItem] == "true"		//盟誓之跡
-[Type] == "Rustic Sash" && [Rarity] == "Unique" # 		[UniqueName] == "Prismweave" && [StashItem] == "true"			//幻彩菱織 腰帶
-[Type] == "Two-Stone Ring" && [Rarity] == "Unique" # 	[UniqueName] == "Berek's Respite" && [StashItem] == "true"		//貝雷克的火與雷之樂
-[Type] == "Two-Stone Ring" && [Rarity] == "Unique" # 	[UniqueName] == "Berek's Grip" && [StashItem] == "true"		//貝雷克的冰與雷之曲
-[Type] == "Two-Stone Ring" && [Rarity] == "Unique" # 	[UniqueName] == "Berek's Pass" && [StashItem] == "true"		//貝雷克的冰與火之歌
+[Type] == "Rustic Sash" && [Rarity] == "Unique" # 		[UniqueName] == "Prismweave" && [StashItem] == "true"				//幻彩菱織 腰帶
+[Type] == "Two-Stone Ring" && [Rarity] == "Unique" # 	[UniqueName] == "Berek's Respite" && [StashItem] == "true"			//貝雷克的火與雷之樂
+[Type] == "Two-Stone Ring" && [Rarity] == "Unique" # 	[UniqueName] == "Berek's Grip" && [StashItem] == "true"				//貝雷克的冰與雷之曲
+[Type] == "Two-Stone Ring" && [Rarity] == "Unique" # 	[UniqueName] == "Berek's Pass" && [StashItem] == "true"				//貝雷克的冰與火之歌
 [Type] == "Amethyst Ring" && [Rarity] == "Unique" # 	[UniqueName] == "Death Rush" && [StashItem] == "true"				//亡者呼喚 紫晶戒指
 [Type] == "Jade Amulet" && [Rarity] == "Unique" # 		[UniqueName] == "Hyrri's Truth" && [StashItem] == "true"			//西里的真理
 [Type] == "Primal Arrow Quiver" && [Rarity] == "Unique" # [UniqueName] == "The Poised Prism" && [StashItem] == "true"		//優雅迷鏡
