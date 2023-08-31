@@ -5,18 +5,18 @@
 [Type] == "Crimson Jewel" && [Rarity] == "Unique" # 		[UniqueName] == "Primordial Might" && [StashItem] == "true"			//先祖力量 紅
 [Type] == "Topaz Ring" && [Rarity] == "Unique" # 		[UniqueName] == "Nimis" && [StashItem] == "true"				//尼米斯
 [Type] == "Topaz Ring" && [Rarity] == "Unique" # 		[UniqueName] == "Astral Projector" && [StashItem] == "true"			//星空之影
-[Type] == "Sapphire Flask" && [Rarity] == "Unique" # 		[UniqueName] == "Taste of Hate" && [StashItem] == "true"			//恨意
+//[Type] == "Sapphire Flask" && [Rarity] == "Unique" # 		[UniqueName] == "Taste of Hate" && [StashItem] == "true"			//恨意
 
 //3.22季初武器
 //[Type] == "Short Bow" && [Rarity] == "Unique" # 		[UniqueName] == "Quill Rain" && [StashItem] == "true"				//小雨
-[Type] == "Prophecy Wand" && [Rarity] == "Unique" # 		[UniqueName] == "Void Battery" && [StashItem] == "true"				//?池
-[Type] == "Fiend Dagger" && [Rarity] == "Unique" # 		[UniqueName] == "Arakaali's Fang" && [StashItem] == "true"			//蜘蛛刀
+//[Type] == "Prophecy Wand" && [Rarity] == "Unique" # 		[UniqueName] == "Void Battery" && [StashItem] == "true"				//電池
+//[Type] == "Fiend Dagger" && [Rarity] == "Unique" # 		[UniqueName] == "Arakaali's Fang" && [StashItem] == "true"			//蜘蛛刀
 [Type] == "Spine Bow" && [Rarity] == "Unique" # 		[UniqueName] == "Voltaxic Rift" && [StashItem] == "true"			//魔暴
-[Type] == "Imperial Skean" && [Rarity] == "Unique" # 		[UniqueName] == "Divinarius" && [StashItem] == "true"				//戒律之影
-[Type] == "Imperial Bow" && [Rarity] == "Unique" # 		[UniqueName] == "Lioneye's Glare" && [StashItem] == "true"			//獅眼弓
+//[Type] == "Imperial Skean" && [Rarity] == "Unique" # 		[UniqueName] == "Divinarius" && [StashItem] == "true"				//戒律之影
+//[Type] == "Imperial Bow" && [Rarity] == "Unique" # 		[UniqueName] == "Lioneye's Glare" && [StashItem] == "true"			//獅眼弓
 
 //3.22季初防具
-[Type] == "Necromancer Silks" && [Rarity] == "Unique" # 	[UniqueName] == "Fleshcrafter" && [StashItem] == "true"				//人體匠?
+[Type] == "Necromancer Silks" && [Rarity] == "Unique" # 	[UniqueName] == "Fleshcrafter" && [StashItem] == "true"				//人體匠師
 [Type] == "Sadist Garb" && [Rarity] == "Unique" # 		[UniqueName] == "Inpulsa's Broken Heart" && [StashItem] == "true"		//印卜薩
 [Type] == "Riveted Boots" && [Rarity] == "Unique" # 		[UniqueName] == "Ralakesh's Impatience" && [StashItem] == "true"		//靜止三球鞋
 //[Type] == "Barbute Helmet" && [Rarity] == "Unique" # 		[UniqueName] == "Thrillsteel" && [StashItem] == "true"				//猛攻頭
@@ -31,7 +31,7 @@
 
 //偵查報告
 [Type] == "Influenced Scouting Report" 			#[StashItem] == "true" // 勢力
-[Type] == "Vaal Scouting Report" 			#[StashItem] == "true" // 瓦?
+[Type] == "Vaal Scouting Report" 			#[StashItem] == "true" // 瓦爾
 [Type] == "Singular Scouting Report" 			#[StashItem] == "true" // 卓越
 [Type] == "Explorer's Scouting Report" 			#[StashItem] == "true" // 探險家
 [Type] == "Otherworldly Scouting Report" 		#[StashItem] == "true" // 超凡
@@ -96,7 +96,7 @@
 [Type] == "Xoph's Flawless Breachstone" 		# [StashItem] == "true" // 索伏的無暇裂痕石
 [Type] == "Tul's Flawless Breachstone" 			# [StashItem] == "true" // 托沃的無暇裂痕石
 [Type] == "Esh's Flawless Breachstone" 			# [StashItem] == "true" // 艾許的無暇裂痕石
-[Type] == "Uul-Netol's Flawless Breachstone" 	# [StashItem] == "true" // 烏?尼多的無暇裂痕石
+[Type] == "Uul-Netol's Flawless Breachstone" 		# [StashItem] == "true" // 烏?尼多的無暇裂痕石
 [Type] == "Chayula's Flawless Breachstone" 		# [StashItem] == "true" // 夏烏拉的無暇裂痕石
 
 
@@ -171,7 +171,7 @@
 
 //邀?
 [Type] =="Maven's Invitation: The Elderslayers" #	[StashItem]	 == "true" 		//殺手
-[Type] =="Maven's Invitation: The Forgotten" #		[StashItem]	 == "true" 		//遺忘
+//[Type] =="Maven's Invitation: The Forgotten" #		[StashItem]	 == "true" 		//遺忘
 [Type] =="Maven's Invitation: The Formed" #		[StashItem]	 == "true" 		//塑型
 [Type] =="Maven's Invitation: The Twisted" #		[StashItem]	 == "true" 		//扭曲
 
@@ -188,12 +188,12 @@
 //[Type] == "Sacrifice at Midnight"    # 	[StashItem]	 == "true" 	//午夜的奉獻
 
 //[Type] == "Lingering Remnants" # 	[StashItem]	 == "true"	//?墟(瓦?密殿-物品等?:83-已汙染)	拾取且存倉
-//[Type] == "Last Hope" # 			[StashItem]	 == "true"	//最後希望(凡人的希望)	拾取且存倉
+//[Type] == "Last Hope" # 		[StashItem]	 == "true"	//最後希望(凡人的希望)	拾取且存倉
 //[Type] == "Sambodhi's Vow" # 		[StashItem]	 == "true"	//菩提誓約(凡人碎片)	拾取且存倉
 //[Type]=="Something Dark" #		[StashItem]	 == "true"	//黑暗的東西(藍圖)	拾取且存倉
 [Type] =="Gemcutter's Mercy" #		[StashItem]	 == "true"	//?石切割者的憐?(卓越?石)	拾取且存倉
 [Type] == "Awakened Sextant" # 		[StashItem]	 == "true"	//製圖六分儀．覺醒	拾取且存倉
-[Type] == "Stacked Deck" # 			[StashItem]	 == "true"	//豐裕牌組	拾取且存倉
+[Type] == "Stacked Deck" # 		[StashItem]	 == "true"	//豐裕牌組	拾取且存倉
 
 
 //??
@@ -336,8 +336,8 @@
 [Type] == "The Shieldbearer" #		[StashItem] == "true" //3.22持盾者(8?大地主)
 [Type] == "The Academic" #		[StashItem] == "true" //3.22學術界(8?求知熱情)
 
-[Sockets] == "6" && [Linked] >= "6"   	#[StashItem] == "true" //六連存倉
-[Sockets] == "6" && 			#[ForceSellItem] == "true" //六洞售
+[Sockets] == "6" && [Linked] >= "6"   	#[ForceSellItem] == "true" //六連存倉
+//[Sockets] == "6" && 			#[ForceSellItem] == "true" //六洞售
 
 
 	[Type] == "Spiraled Wand" && [Rarity] == "Unique" # 		[UniqueName] == "Amplification Rod" && [StashItem] == "true"			//增幅杖 螺紋法杖
