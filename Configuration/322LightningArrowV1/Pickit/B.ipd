@@ -24,6 +24,8 @@
 //3.22季初傳送門
 [Type] == "Portal" #		[StashItem] == "true"//傳送門
 
+[Type] == "Forbidden Tome" #[StashItem] == "true" // 禁忌之書
+
 
 //偵查報告
 [Type] == "Influenced Scouting Report" 			#[StashItem] == "true" // 勢力
