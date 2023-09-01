@@ -31,7 +31,7 @@
 
 //‚É²éˆó¸æ
 [Type] == "Influenced Scouting Report" 			#[StashItem] == "true" // „ÝÁ¦
-[Type] == "Vaal Scouting Report" 			#[StashItem] == "true" // Íß –
+[Type] == "Vaal Scouting Report" 				#[StashItem] == "true" // Íß –
 [Type] == "Singular Scouting Report" 			#[StashItem] == "true" // ×¿Ô½
 [Type] == "Explorer's Scouting Report" 			#[StashItem] == "true" // Ì½ëU¼Ò
 [Type] == "Otherworldly Scouting Report" 		#[StashItem] == "true" // ³¬·²
@@ -71,7 +71,7 @@
 //[Type] == "Silver Flask"&& 		[ItemLevel] >= "60" && [ItemLevel] <="100" # [StashItem] == "true" //ÃÍ¹¥
 //[Type] == "Diamond Flask"&& 		[ItemLevel] >= "60" && [ItemLevel] <="100" # [StashItem] == "true" //??
 //[Type] == "Granite Flask"&& 		[ItemLevel] >= "60" && [ItemLevel] <="100" # [StashItem] == "true" //+1500×o¼×
-//[Type] == "Jade Flask"&& 		[ItemLevel] >= "60" && [ItemLevel] <="100" # [StashItem] == "true" //+1500éW±Ü
+//[Type] == "Jade Flask"&& 			[ItemLevel] >= "60" && [ItemLevel] <="100" # [StashItem] == "true" //+1500éW±Ü
 //[Type] == "Quicksilver Flask"&& 	[ItemLevel] >= "60" && [ItemLevel] <="100" # [StashItem] == "true" //ÅÜË®
 
 
@@ -107,7 +107,10 @@
 
 [Category] 	== "Map" && [MapTier] >= "16"  && [Rarity] == "Normal"  #			[StashItem] == "true" //°×
 [Category] 	== "Map" && [MapTier] >= "16"  && [Rarity] == "Magic"  #			[StashItem] == "true" //Ë{
-//[Category] 	== "Map" && [MapTier] >= "16"  && [Rarity] == "Rare"  #				[StashItem] == "true" //üS
+[Category] 	== "Map" && [MapTier] >= "16"  && [Rarity] == "Rare"  #				[StashItem] == "true" //üS
+
+[Type] == "City Square Map" && [Rarity] == "Rare" # [ForceSellItem] == "true" //
+
 //[Category] 	== "Map" && [MapTier] >= "1"  && [Rarity] == "Unique"  #			[StashItem] == "true" //éÙ
 [Category] 	== "Map" && [map_contains_citadel]>= "1"  #							[StashItem] == "true" //Õ÷·þ
 [Category] 	== "Map" && [map_elder_boss_variation] >= "1"  #					[StashItem] == "true" //×ð?
