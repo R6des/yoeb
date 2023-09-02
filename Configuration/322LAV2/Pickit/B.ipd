@@ -106,7 +106,7 @@
 //2022/12/24
 
 [Category] 	== "Map" && [MapTier] >= "16"  && [Rarity] == "Normal"  #			[StashItem] == "true" //°×
-[Category] 	== "Map" && [MapTier] >= "16"  && [Rarity] == "Magic"  #			[StashItem] == "true" //Ë{
+//[Category] 	== "Map" && [MapTier] >= "16"  && [Rarity] == "Magic"  #			[StashItem] == "true" //Ë{
 //[Category] 	== "Map" && [MapTier] >= "16"  && [Rarity] == "Rare"  #				[StashItem] == "true" //üS
 //[Category] 	== "Map" && [MapTier] >= "1"  && [Rarity] == "Unique"  #			[StashItem] == "true" //éÙ
 [Category] 	== "Map" && [map_contains_citadel]>= "1"  #							[StashItem] == "true" //Õ÷·þ
