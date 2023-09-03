@@ -870,6 +870,17 @@ Show # 通貨 - 異能 - 異能混沌石
     MinimapIcon 0 Red Diamond
     PlayEffect Red
 
+
+Hide # 通貨 -銀幣
+    Class "Currency"
+    BaseType "Silver Coin"
+    SetTextColor 219 48 14
+    SetBackgroundColor 255 192 203
+    SetBorderColor 0 255 255
+    SetFontSize 45
+    MinimapIcon 0 Red Diamond
+    PlayEffect Red
+
 #============
 # 【地圖說明欄】2000
 # 【地圖-凋落地圖】2005
