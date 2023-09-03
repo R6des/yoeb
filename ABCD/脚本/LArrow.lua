@@ -138,7 +138,7 @@ SetTaskShengJiData("a9q3",nil,"2_9_1",68,true)--做 到風暴飛刃 的时候刷滲血水道到
 
 SetTaskMiGongData("a8q7",nil,1)--大于等于a9q1级 做迷宫1
 SetTaskMiGongData("a10q1",nil,2)--大于等于a10q1 做迷宫2
-SetTaskMiGongDataByLv(79,3)--大于等于80级 做迷宫3
+SetTaskMiGongDataByLv(75,3)--大于等于80级 做迷宫3
 
 g_openQlkMaxMapTianFuCnt=nil--数值型 满多少天赋后不开奇拉克任务nil为一直开
 g_useMinLvMapTianFuCnt=100--地图天赋满多少点后 就从低阶地图开始取
