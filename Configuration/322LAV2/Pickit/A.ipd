@@ -247,20 +247,20 @@
 [Type] == "Divine Orb" # 			[StashItem]	 == "true"	//神聖石
 [Type] == "Exalted Orb" # 			[StashItem]	 == "true"	//崇高石
 [Type] == "Gemcutter's Prism" # 		[StashItem]	 == "true"	//?石匠的?鏡
-//[Type] == "Jeweller's Orb" # 			[StashItem]	 == "true"	//工匠石
+[Type] == "Jeweller's Orb" # 			[StashItem]	 == "true"	//工匠石
 [Type] == "Mirror of Kalandra" # 		[StashItem]	 == "true"	//卡蘭德的魔鏡
 //[Type] == "Orb of Alchemy" # 			[StashItem]	 == "true"	//點金石
 [Type] == "Orb of Alteration" # 		[StashItem]	 == "true"	//改造石
 //[Type] == "Orb of Transmutation" # 		[StashItem]	 == "true"	//??石
 //[Type] == "Orb of Augmentation" # 		[StashItem]	 == "true"	//增幅石
-//[Type] == "Orb of Chance" # 			[StashItem]	 == "true"	//機會石
+[Type] == "Orb of Chance" # 			[StashItem]	 == "true"	//機會石
 [Type] == "Orb of Fusing" # 			[StashItem]	 == "true"	//?結石
 //[Type] == "Orb of Regret" # 			[StashItem]	 == "true"	//後悔石
 //[Type] == "Orb of Scouring" # 			[StashItem]	 == "true"	//重鑄石
 [Type] == "Perandus Coin" # 			[StashItem]	 == "true"	//普蘭德斯金幣
 //[Type] == "Regal Orb" # 			[StashItem]	 == "true"	//富豪石
 //[Type] == "Silver Coin" # 			[StashItem]	 == "true"	//銀幣
-//[Type] == "Vaal Orb" # 				[StashItem]	 == "true"	//瓦??珠
+[Type] == "Vaal Orb" # 				[StashItem]	 == "true"	//瓦??珠
 //[Type] == "Cartographer's Chisel" # 		[StashItem]	 == "true"	//製圖?
 [Type] == "Orb of Annulment" # 			[StashItem]	 == "true"	//無效石
 //[Type] == "Orb of Binding" # 			[StashItem]	 == "true"	//束縛石
