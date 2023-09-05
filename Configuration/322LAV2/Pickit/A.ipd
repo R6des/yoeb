@@ -37,17 +37,17 @@
 //[Type] == "Otherworldly Scouting Report" 		#[StashItem] == "true" // 超凡
 
 //弓箭手套裝//
-//[Type] == "Praetor Crown" && [Rarity] == "Unique" # 	[UniqueName] == "Voll's Vision" && [StashItem] == "true"			//福?的遠?
+[Type] == "Praetor Crown" && [Rarity] == "Unique" # 	[UniqueName] == "Voll's Vision" && [StashItem] == "true"			//福?的遠?
 [Type] == "Zodiac Leather" && [Rarity] == "Unique" # 	[UniqueName] == "Hyrri's Ire" && [StashItem] == "true"				//西里的戰衣星辰皮甲
-//[Type] == "Titan Gauntlets" && [Rarity] == "Unique" # 	[UniqueName] == "Kaom's Spirit" && [StashItem] == "true"			//岡姆之魂
-//[Type] == "Rawhide Boots" && [Rarity] == "Unique" # 	[UniqueName] == "Seven-League Step" && [StashItem] == "true"			//盟誓之跡
-//[Type] == "Rustic Sash" && [Rarity] == "Unique" # 		[UniqueName] == "Prismweave" && [StashItem] == "true"			//幻彩菱? 腰帶
+[Type] == "Titan Gauntlets" && [Rarity] == "Unique" # 	[UniqueName] == "Kaom's Spirit" && [StashItem] == "true"			//岡姆之魂
+[Type] == "Rawhide Boots" && [Rarity] == "Unique" # 	[UniqueName] == "Seven-League Step" && [StashItem] == "true"			//盟誓之跡
+[Type] == "Rustic Sash" && [Rarity] == "Unique" # 		[UniqueName] == "Prismweave" && [StashItem] == "true"			//幻彩菱? 腰帶
 [Type] == "Two-Stone Ring" && [Rarity] == "Unique" # 	[UniqueName] == "Berek's Respite" && [StashItem] == "true"			//?雷克的火與雷之樂
 [Type] == "Two-Stone Ring" && [Rarity] == "Unique" # 	[UniqueName] == "Berek's Grip" && [StashItem] == "true"				//?雷克的冰與雷之曲
-//[Type] == "Two-Stone Ring" && [Rarity] == "Unique" # 	[UniqueName] == "Berek's Pass" && [StashItem] == "true"				//?雷克的冰與火之歌
+[Type] == "Two-Stone Ring" && [Rarity] == "Unique" # 	[UniqueName] == "Berek's Pass" && [StashItem] == "true"				//?雷克的冰與火之歌
 //[Type] == "Amethyst Ring" && [Rarity] == "Unique" # 	[UniqueName] == "Death Rush" && [StashItem] == "true"				//亡者呼喚 紫晶戒指
-//[Type] == "Jade Amulet" && [Rarity] == "Unique" # 		[UniqueName] == "Hyrri's Truth" && [StashItem] == "true"		//西里的真理
-//[Type] == "Primal Arrow Quiver" && [Rarity] == "Unique" # [UniqueName] == "The Poised Prism" && [StashItem] == "true"			//?雅迷鏡
+[Type] == "Jade Amulet" && [Rarity] == "Unique" # 		[UniqueName] == "Hyrri's Truth" && [StashItem] == "true"		//西里的真理
+[Type] == "Primal Arrow Quiver" && [Rarity] == "Unique" # [UniqueName] == "The Poised Prism" && [StashItem] == "true"			//?雅迷鏡
 
 //2023/05/01解挑戰用
 //勢力物品
