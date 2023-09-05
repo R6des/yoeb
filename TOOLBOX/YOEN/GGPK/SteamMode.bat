@@ -1,1 +1,0 @@
-start VisualGGPK2 -steam
