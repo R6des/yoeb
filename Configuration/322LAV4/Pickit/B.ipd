@@ -337,8 +337,8 @@
 [Type] == "The Shieldbearer" #		[StashItem] == "true" //3.22持盾者(8?大地主)
 [Type] == "The Academic" #		[StashItem] == "true" //3.22學術界(8?求知熱情)
 
-[Sockets] == "6" && [Linked] >= "6"   	#[ForceSellItem] == "true" //六連存倉
-[Sockets] == "6" && 			#[ForceSellItem] == "true" //六洞售
+//[Sockets] == "6" && [Linked] >= "6"   	#[ForceSellItem] == "true" //六連存倉
+//[Sockets] == "6" && 			#[ForceSellItem] == "true" //六洞售
 
 
 	[Type] == "Spiraled Wand" && [Rarity] == "Unique" # 		[UniqueName] == "Amplification Rod" && [StashItem] == "true"			//增幅杖 螺紋法杖
