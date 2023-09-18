@@ -2,255 +2,255 @@
 [Type] == "Arcade Map" 		# [ExitAfterBossKill] == "true"
 
 [Type] == "Crimson Temple Map" 	# [ExitAfterBossKill] == "true"
-[Type] == "City Square Map" 	# [ExitAfterBossKill] == "true"
+//[Type] == "City Square Map" 	# [ExitAfterBossKill] == "true"
 
-//[MapTier]>= "1" && [MapTier] <= "16" && [Rarity] == "Rare" 	# [IgnoreMap]== "true" // 金圖全部不打
-[MapTier]>= "1" && [MapTier] <= "16" && [Rarity] == "Unique" 	# [IgnoreMap]== "true" // 橘圖不打
-[map_contains_citadel]>= "1" 					# [IgnoreMap]== "true" // 勢力圖不�?
+//[MapTier]>= "1" && [MapTier] <= "16" && [Rarity] == "Rare" 	# [IgnoreMap]== "true" // ���券銝�
+[MapTier]>= "1" && [MapTier] <= "16" && [Rarity] == "Unique" 	# [IgnoreMap]== "true" // 璈�銝�
+[map_contains_citadel]>= "1" 					# [IgnoreMap]== "true" // �Ｗ����?
 [map_elder_boss_variation] >= "1"       			# [IgnoreMap] == "true"
 [map_atlas_influence_type] >= "1"        			# [IgnoreMap] == "true"
 																		
-	//3.17 橘貓輿圖�?////藍色文字代表不能更改的欄位，不要去改																								
-//	[Quality]<="16"&& [Rarity]=="Normal"#[UpgradeQuality]== "true"//使用製圖�?		//使用製圖�?�?/使用製圖�?																			
-//	[MapTier]>= "1" && [MapTier] <= "16"#[RunMap]== "true"//執行輿圖			//這橫行請勿更�?																				
-//	[Rarity]== "Normal"#[UpgradeToMagic]== "true"//使用蛻變�?		//使用蛻變	�?/使用蛻變																				
-//	[Rarity]== "Magic"#[AugmentIfPossible]== "true"//使用增幅�?		//使用增幅	�?/使用增幅																				
-//	[Rarity]== "Normal"#[UpgradeToRare]== "true"//使用點金�?		//使用點金	�?/使用點金																				
-	//避開王房地圖//(預設)				//中文判斷																				
-	[Type]=="Graveyard Map" #	[SkipBossArena]	=="true"	//墮影墓場	不打這張圖的�?																			
-	[Type]=="Dungeon Map" #	[SkipBossArena]	=="true"	//禁魂炎獄	不打這張圖的�?																			
-	[Type]=="Foundry Map" #	[SkipBossArena]	=="true"	//鍊金�?不打這張圖的�?																			
-	[Type]=="Cells Map" #	[SkipBossArena]	=="true"	//幽魂監牢	不打這張圖的�?																			
-	[Type]=="Relic Chambers Map" #	[SkipBossArena]	=="true"	//古典密室	不打這張圖的�?																			
-	[Type]=="Frozen Cabins Map" #	[SkipBossArena]	=="true"	//凍原小屋	不打這張圖的�?																			
-	[Type]=="Grave Trough Map" #	[SkipBossArena]	=="true"	//墓地�?不打這張圖的�?																			
-	[Type]=="Crimson Township Map" #	[SkipBossArena]	=="true"	//緋紅之鎮	不打這張圖的�?																			
-	[Type]=="Toxic Sewer Map" #	[SkipBossArena]	=="true"	//腐敗下水�?不打這張圖的�?																			
-	[Type]=="Ivory Temple Map" #	[SkipBossArena]	=="true"	//象牙神殿	不打這張圖的�?																			
-	[Type]=="Lava Chamber Map" #	[SkipBossArena]	=="true"	//熔岩之室	不打這張圖的�?																			
-	[Type]=="Residence Map" #	[SkipBossArena]	=="true"	//神主居所	不打這張圖的�?																			
-	[Type]=="Bone Crypt Map" #	[SkipBossArena]	=="true"	//骨跡陵墓	不打這張圖的�?																			
-	[Type]=="Underground River Map" #	[SkipBossArena]	=="true"	//地底之河	不打這張圖的�?																			
-	[Type]=="Laboratory Map" #	[SkipBossArena]	=="true"	//實驗居所	不打這張圖的�?																			
-	[Type]=="Overgrown Ruin Map" #	[SkipBossArena]	=="true"	//長草遺跡	不打這張圖的�?																			
-	[Type]=="Vaal Pyramid Map" #	[SkipBossArena]	=="true"	//瓦爾金字�?不打這張圖的�?																			
-	[Type]=="Tower Map" #	[SkipBossArena]	=="true"	//闇獄尖塔	不打這張圖的�?																			
-	[Type]=="Waste Pool Map" #	[SkipBossArena]	=="true"	//死寂泥溝	不打這張圖的�?																			
-	[Type]=="Vault Map" #	[SkipBossArena]	=="true"	//魔金寶庫	不打這張圖的�?																			
-	[Type]=="Shipyard Map" #	[SkipBossArena]	=="true"	//熾炎船塢	不打這張圖的�?																			
-	[Type]=="Belfry Map" #	[SkipBossArena]	=="true"	//雲頂鐘樓	不打這張圖的�?																			
-	[Type]=="Lair Map" #	[SkipBossArena]	=="true"	//餓獸巢穴	不打這張圖的�?																			
-	[Type]=="Primordial Pool Map" #	[SkipBossArena]	=="true"	//血腥沼�?不打這張圖的�?																			
-	[Type]=="Factory Map" #	[SkipBossArena]	=="true"	//鐵鏽工廠	不打這張圖的�?																			
-	[Type]=="Summit Map" #	[SkipBossArena]	=="true"	//寒頂之巔	不打這張圖的�?																			
-	[Type]=="Primordial Blocks Map" #	[SkipBossArena]	=="true"	//血腥陣�?不打這張圖的�?																			
-	[Type]=="Necropolis Map" #	[SkipBossArena]	=="true"	//魔影墓場	不打這張圖的�?																			
-	[Type]=="Malformation Map" #	[SkipBossArena]	=="true"	//畸形亡域	不打這張圖的�?																			
-	[Type]=="Terrace Map" #	[SkipBossArena]	=="true"	//露台花園	不打這張圖的�?																			
-	[Type]=="Shrine Map" #	[SkipBossArena]	=="true"	//奇術秘殿	不打這張圖的�?																			
-	[Type]=="Arsenal Map" #	[SkipBossArena]	=="true"	//古兵工廠	不打這張圖的�?																			
-	[Type]=="Core Map" #	[SkipBossArena]	=="true"	//核心	不打這張圖的�?																			
-	[Type]=="Colosseum Map" #	[SkipBossArena]	=="true"	//大決鬥場	不打這張圖的�?																			
-	[Type]=="Dark Forest Map" #	[SkipBossArena]	=="true"	//夜語幽林	不打這張圖的�?																			
-	[Type]=="Plaza Map" #	[SkipBossArena]	=="true"	//廣場	不打這張圖的�?																			
-	[Type]=="Lava Lake Map" #	[SkipBossArena]	=="true"	//岩漿熔湖	不打這張圖的�?																			
-	[Type]=="Basilica Map" #	[SkipBossArena]	=="true"	//聖殿	不打這張圖的�?																			
-	[Type]=="Sunken City Map" #	[SkipBossArena]	=="true"	//亞特蘭提�?不打這張圖的�?																			
-	[Type]=="Reef Map" #	[SkipBossArena]	=="true"	//危機海礁	不打這張圖的�?																			
-	[Type]=="Bramble Valley Map" #	[SkipBossArena]	=="true"	//荊棘�?不打這張圖的�?																			
-	[Type]=="Pit of the Chimera Map" #	[SkipBossArena]	=="true"	//奇美拉魔�?不打這張圖的�?																			
-	[Type]=="Lair of the Hydra Map" #	[SkipBossArena]	=="true"	//九頭蛇冰�?不打這張圖的�?																			
-	[Type]=="Maze of the Minotaur Map" #	[SkipBossArena]	=="true"	//牛頭人謎�?不打這張圖的�?																			
-	[Type]=="Forge of the Phoenix Map" #	[SkipBossArena]	=="true"	//火鳳凰熔�?不打這張圖的�?																			
-	[Type]=="Vaal Temple Map" #	[SkipBossArena]	=="true"	//瓦爾密殿	不打這張圖的�?																			
-	[Type]=="Harbinger Map" #	[SkipBossArena]	=="true"	//神諭之殿．煉�?不打這張圖的�?																			
-//	//3.17 打圖設定 //																								
-	[Type]=="Lookout Map" #	[RunMap]	=="true"	//如履危牆	打這張�?																			
-	[Type]=="Beach Map" #	[RunMap]	=="true"	//白沙灘頭	打這張�?																			
-	[Type]=="Graveyard Map" #	[RunMap]	=="true"	//墮影墓場	打這張�?																			
-	[Type]=="Dungeon Map" #	[IgnoreMap]	=="true"	//禁魂炎獄	不打這張�?																			
-	[Type]=="Foundry Map" #	[RunMap]	=="true"	//鍊金�?打這張�?																			
-	[Type]=="Alleyways Map" #	[RunMap]	=="true"	//危城巷弄	打這張�?																			
-	[Type]=="Pen Map" #	[RunMap]	=="true"	//穢陰獄牢	打這張�?																			
-	[Type]=="Desert Map" #	[RunMap]	=="true"	//貧瘠之地	打這張�?																			
-	[Type]=="Arid Lake Map" #	[RunMap]	=="true"	//乾枯湖岸	打這張�?																			
-	[Type]=="Flooded Mine Map" #	[RunMap]	=="true"	//洪災礦坑	打這張�?																			
-	[Type]=="Marshes Map" #	[RunMap]	=="true"	//惡臭沼地	打這張�?																			
-	[Type]=="Iceberg Map" #	[RunMap]	=="true"	//極原冰帽	打這張�?																			
-	[Type]=="Cage Map" #	[RunMap]	=="true"	//羈破牢籠	打這張�?																			
-	[Type]=="Fungal Hollow Map" #	[RunMap]	=="true"	//毒菌魔域	打這張�?																			
-	[Type]=="Excavation Map" #	[RunMap]	=="true"	//挖掘�?打這張�?																			
-	[Type]=="Leyline Map" #	[RunMap]	=="true"	//荒涼牧野	打這張�?																			
-	[Type]=="Peninsula Map" #	[RunMap]	=="true"	//乾潮林地	打這張�?																			
-	[Type]=="Port Map" #	[RunMap]	=="true"	//失落城塢	打這張�?																			
-	[Type]=="Burial Chambers Map" #	[RunMap]	=="true"	//旱地墓室	打這張�?																			
-	[Type]=="Cells Map" #	[RunMap]	=="true"	//幽魂監牢	打這張�?																			
-	[Type]=="Arcade Map" #	[RunMap]	=="true"	//崩壞長廊	打這張�?																			
-	[Type]=="City Square Map" #	[RunMap]	=="true"	//危城廣場	打這張�?																			
-	[Type]=="Relic Chambers Map" #	[IgnoreMap]	=="true"	//古典密室	不打這張�?																			
-	[Type]=="Courthouse Map" #	[RunMap]	=="true"	//失序教院	打這張�?																			
-	[Type]=="Strand Map" #	[RunMap]	=="true"	//致命岩灘	打這張�?																			
-	[Type]=="Chateau Map" #	[RunMap]	=="true"	//古堡	打這張�?																			
-	[Type]=="Grotto Map" #	[RunMap]	=="true"	//幽暗地穴	打這張�?																			
-	[Type]=="Glacier Map" #	[RunMap]	=="true"	//冰川山丘	打這張�?																			
-	[Type]=="Volcano Map" #	[RunMap]	=="true"	//火山炎域	打這張�?																			
-	[Type]=="Lighthouse Map" #	[RunMap]	=="true"	//絕望燈塔	打這張�?																			
-	[Type]=="Canyon Map" #	[RunMap]	=="true"	//炙陽峽谷	打這張�?																			
-	[Type]=="Frozen Cabins Map" #	[IgnoreMap]	=="true"	//凍原小屋	不打這張�?																			
-	[Type]=="Grave Trough Map" #	[IgnoreMap]	=="true"	//墓地�?不打這張�?																			
-	[Type]=="Crimson Township Map" #	[RunMap]	=="true"	//緋紅之鎮	打這張�?																			
-	[Type]=="Forking River Map" #	[RunMap]	=="true"	//岔河	打這張�?																			
-	[Type]=="Cold River Map" #	[RunMap]	=="true"	//寒河	打這張�?																			
-	[Type]=="Forbidden Woods Map" #	[RunMap]	=="true"	//禁忌之森	打這張�?																			
-	[Type]=="Conservatory Map" #	[RunMap]	=="true"	//寧逸溫�?打這張�?																			
-	[Type]=="Sulphur Vents Map" #	[RunMap]	=="true"	//硫磺蝕岸	打這張�?																			
-	[Type]=="Haunted Mansion Map" #	[RunMap]	=="true"	//幽魂宅邸	打這張�?																			
-	[Type]=="Maze Map" #	[RunMap]	=="true"	//冥神之域	打這張�?																			
-	[Type]=="Channel Map" #	[RunMap]	=="true"	//秘密通道	打這張�?																			
-	[Type]=="Toxic Sewer Map" #	[RunMap]	=="true"	//腐敗下水�?打這張�?																			
-	[Type]=="Ancient City Map" #	[RunMap]	=="true"	//遠古危城	打這張�?																			
-	[Type]=="Ivory Temple Map" #	[RunMap]	=="true"	//象牙神殿	打這張�?																			
-	[Type]=="Spider Lair Map" #	[RunMap]	=="true"	//巨蛛巢穴	打這張�?																			
-	[Type]=="Barrows Map" #	[RunMap]	=="true"	//熱林塚墓	打這張�?																			
-	[Type]=="Mausoleum Map" #	[RunMap]	=="true"	//靜縊陵墓	打這張�?																			
-	[Type]=="Fields Map" #	[RunMap]	=="true"	//無疆田野	打這張�?																			
-	[Type]=="Jungle Valley Map" #	[RunMap]	=="true"	//劇毒林谷	打這張�?																			
-	[Type]=="Phantasmagoria Map" #	[RunMap]	=="true"	//魔靈幻獄	打這張�?																			
-	[Type]=="Academy Map" #	[RunMap]	=="true"	//惡靈學院	打這張�?																			
-	[Type]=="Thicket Map" #	[RunMap]	=="true"	//驚懼樹叢	打這張�?																			
-	[Type]=="Wharf Map" #	[RunMap]	=="true"	//毒牙海港	打這張�?																			
-	[Type]=="Ashen Wood Map" #	[RunMap]	=="true"	//旱木林地	打這張�?																			
-	[Type]=="Atoll Map" #	[RunMap]	=="true"	//濱海山丘	打這張�?																			
-	[Type]=="Cemetery Map" #	[RunMap]	=="true"	//晨曦墓地	打這張�?																			
-	[Type]=="Underground Sea Map" #	[RunMap]	=="true"	//濱海幽穴	打這張�?																			
-	[Type]=="Crater Map" #	[RunMap]	=="true"	//殘破殞坑	打這張�?																			
-	[Type]=="Coral Ruins Map" #	[RunMap]	=="true"	//破碎堡礁	打這張�?																			
-	[Type]=="Lava Chamber Map" #	[RunMap]	=="true"	//熔岩之室	打這張�?																			
-	[Type]=="Residence Map" #	[RunMap]	=="true"	//神主居所	打這張�?																			
-	[Type]=="Ramparts Map" #	[RunMap]	=="true"	//濱海堡壘	打這張�?																			
-	[Type]=="Dunes Map" #	[RunMap]	=="true"	//暮色沙丘	打這張�?																			
-	[Type]=="Bone Crypt Map" #	[RunMap]	=="true"	//骨跡陵墓	打這張�?																			
-	[Type]=="Underground River Map" #	[RunMap]	=="true"	//地底之河	打這張�?																			
-	[Type]=="Gardens Map" #	[RunMap]	=="true"	//迷宮花園	打這張�?																			
-	[Type]=="Arachnid Nest Map" #	[RunMap]	=="true"	//異蛛巢穴	打這張�?																			
-	[Type]=="Bazaar Map" #	[RunMap]	=="true"	//遠古市集	打這張�?																			
-	[Type]=="Laboratory Map" #	[RunMap]	=="true"	//實驗居所	打這張�?																			
-	[Type]=="Infested Valley Map" #	[IgnoreMap]	=="true"	//病疫林谷	不打這張�?																			
-	[Type]=="Overgrown Ruin Map" #	[RunMap]	=="true"	//長草遺跡	打這張�?																			
-	[Type]=="Vaal Pyramid Map" #	[IgnoreMap]	=="true"	//瓦爾金字�?不打這張�?																			
-	[Type]=="Geode Map" #	[RunMap]	=="true"	//詭譎晶洞	打這張�?																			
-	[Type]=="Armoury Map" #	[RunMap]	=="true"	//軍械�?打這張�?																			
-	[Type]=="Courtyard Map" #	[RunMap]	=="true"	//奇術之庭	打這張�?																			
-	[Type]=="Mud Geyser Map" #	[RunMap]	=="true"	//陰晦泥灘	打這張�?																			
-	[Type]=="Shore Map" #	[RunMap]	=="true"	//暮光海灘	打這張�?																			
-	[Type]=="Tropical Island Map" #	[RunMap]	=="true"	//晴空幽島	打這張�?																			
-	[Type]=="Mineral Pools Map" #	[RunMap]	=="true"	//濕地礦山	打這張�?																			
-	[Type]=="Moon Temple Map" #	[RunMap]	=="true"	//嬋娟神殿	打這張�?																			
-	[Type]=="Sepulchre Map" #	[RunMap]	=="true"	//陰暗墓塚	打這張�?																			
-	[Type]=="Tower Map" #	[IgnoreMap]	=="true"	//闇獄尖塔	不打這張�?																			
-	[Type]=="Waste Pool Map" #	[RunMap]	=="true"	//死寂泥溝	打這張�?																			
-	[Type]=="Plateau Map" #	[RunMap]	=="true"	//海風高原	打這張�?																			
-	[Type]=="Estuary Map" #	[RunMap]	=="true"	//熔火岩灘	打這張�?																			
-	[Type]=="Vault Map" #	[IgnoreMap]	=="true"	//魔金寶庫	不打這張�?																			
-	[Type]=="Temple Map" #	[RunMap]	=="true"	//奪魂之殿	打這張�?																			
-	[Type]=="Arena Map" #	[IgnoreMap]	=="true"	//競技�?不打這張�?																			
-	[Type]=="Museum Map" #	[RunMap]	=="true"	//古博物館	打這張�?																			
-	[Type]=="Scriptorium Map" #	[RunMap]	=="true"	//墓影書坊	打這張�?																			
-	[Type]=="Siege Map" #	[RunMap]	=="true"	//禁斷圍城	打這張�?																			
-	[Type]=="Shipyard Map" #	[RunMap]	=="true"	//熾炎船塢	打這張�?																			
-	[Type]=="Belfry Map" #	[RunMap]	=="true"	//雲頂鐘樓	打這張�?																			
-	[Type]=="Arachnid Tomb Map" #	[RunMap]	=="true"	//異蛛墓塚	打這張�?																			
-	[Type]=="Wasteland Map" #	[RunMap]	=="true"	//荒地	打這張�?																			
-	[Type]=="Precinct Map" #	[RunMap]	=="true"	//苦行之域	打這張�?																			
-	[Type]=="Bog Map" #	[RunMap]	=="true"	//瘴氣泥沼	打這張�?																			
-	[Type]=="Pier Map" #	[RunMap]	=="true"	//怒浪之港	打這張�?																			
-	[Type]=="Cursed Crypt Map" #	[RunMap]	=="true"	//惡咒陵墓	打這張�?																			
-	[Type]=="Orchard Map" #	[RunMap]	=="true"	//密林果園	打這張�?																			
-	[Type]=="Promenade Map" #	[RunMap]	=="true"	//月色迴廊	打這張�?																			
-	[Type]=="Lair Map" #	[RunMap]	=="true"	//餓獸巢穴	打這張�?																			
-	[Type]=="Colonnade Map" #	[RunMap]	=="true"	//激戰柱�?打這張�?																			
-	[Type]=="Primordial Pool Map" #	[RunMap]	=="true"	//血腥沼�?打這張�?																			
-	[Type]=="Spider Forest Map" #	[RunMap]	=="true"	//巨蛛之林	打這張�?																			
-	[Type]=="Coves Map" #	[RunMap]	=="true"	//疾風峽灣	打這張�?																			
-	[Type]=="Waterways Map" #	[RunMap]	=="true"	//危機水道	打這張�?																			
-	[Type]=="Factory Map" #	[RunMap]	=="true"	//鐵鏽工廠	打這張�?																			
-	[Type]=="Mesa Map" #	[RunMap]	=="true"	//平頂荒漠	打這張�?																			
-	[Type]=="Pit Map" #	[IgnoreMap]	=="true"	//巨坑	不打這張�?																			
-	[Type]=="Dry Sea Map" #	[RunMap]	=="true"	//乾海	打這張�?																			
-	[Type]=="Defiled Cathedral Map" #	[RunMap]	=="true"	//不潔教堂	打這張�?																			
-	[Type]=="Summit Map" #	[RunMap]	=="true"	//寒頂之巔	打這張�?																			
-	[Type]=="Overgrown Shrine Map" #	[RunMap]	=="true"	//密草神殿	打這張�?																			
-	[Type]=="Castle Ruins Map" #	[RunMap]	=="true"	//遺跡廢墟	打這張�?																			
-	[Type]=="Crystal Ore Map" #	[RunMap]	=="true"	//紫晶礦山	打這張�?																			
-	[Type]=="Villa Map" #	[RunMap]	=="true"	//魅影別墅	打這張�?																			
-	[Type]=="Primordial Blocks Map" #	[RunMap]	=="true"	//血腥陣�?打這張�?																			
-	[Type]=="Necropolis Map" #	[RunMap]	=="true"	//魔影墓場	打這張�?																			
-	[Type]=="Racecourse Map" #	[RunMap]	=="true"	//古競速場	打這張�?																			
-	[Type]=="Caldera Map" #	[RunMap]	=="true"	//火山炎口	打這張�?																			
-	[Type]=="Ghetto Map" #	[RunMap]	=="true"	//赤貧居所	打這張�?																			
-	[Type]=="Park Map" #	[RunMap]	=="true"	//園林�?打這張�?																			
-	[Type]=="Malformation Map" #	[RunMap]	=="true"	//畸形亡域	打這張�?																			
-	[Type]=="Terrace Map" #	[RunMap]	=="true"	//露台花園	打這張�?																			
-	[Type]=="Shrine Map" #	[RunMap]	=="true"	//奇術秘殿	打這張�?																			
-	[Type]=="Arsenal Map" #	[RunMap]	=="true"	//古兵工廠	打這張�?																			
-	[Type]=="Desert Spring Map" #	[RunMap]	=="true"	//硫磺荒漠	打這張�?																			
-	[Type]=="Core Map" #	[IgnoreMap]	=="true"	//核心	不打這張�?																			
-	[Type]=="Colosseum Map" #	[RunMap]	=="true"	//大決鬥場	打這張�?																			
-	[Type]=="Acid Caverns Map" #	[RunMap]	=="true"	//酸岩酸嶼	打這張�?																			
-	[Type]=="Dark Forest Map" #	[RunMap]	=="true"	//夜語幽林	打這張�?																			
-	[Type]=="Crimson Temple Map" #	[RunMap]	=="true"	//緋紅神殿	打這張�?																			
-	[Type]=="Plaza Map" #	[RunMap]	=="true"	//廣場	打這張�?																			
-	[Type]=="Dig Map" #	[RunMap]	=="true"	//違禁掘坑	打這張�?																			
-	[Type]=="Palace Map" #	[RunMap]	=="true"	//神域之殿	打這張�?																			
-	[Type]=="Lava Lake Map" #	[RunMap]	=="true"	//岩漿熔湖	打這張�?																			
-	[Type]=="Basilica Map" #	[RunMap]	=="true"	//聖殿	打這張�?																			
-	[Type]=="Sunken City Map" #	[RunMap]	=="true"	//亞特蘭提�?打這張�?																			
-	[Type]=="Reef Map" #	[RunMap]	=="true"	//危機海礁	打這張�?																			
-	[Type]=="Carcass Map" #	[RunMap]	=="true"	//惡臭屍域	打這張�?																			
-	[Type]=="Stagnation Map" #	[RunMap]	=="true"	//淤塞水道	打這張�?																			
-	[Type]=="Bramble Valley Map" #	[IgnoreMap]	=="true"	//荊棘�?不打這張�?																			
-	[Type]=="Silo Map" #	[RunMap]	=="true"	//儲物�?打這張�?																			
-	[Type]=="Pit of the Chimera Map" #	[IgnoreMap]	=="true"	//奇美拉魔�?不打這張�?																			
-	[Type]=="Lair of the Hydra Map" #	[IgnoreMap]	=="true"	//九頭蛇冰�?不打這張�?																			
-	[Type]=="Maze of the Minotaur Map" #	[IgnoreMap]	=="true"	//牛頭人謎�?不打這張�?																			
-	[Type]=="Forge of the Phoenix Map" #	[IgnoreMap]	=="true"	//火鳳凰熔�?不打這張�?																			
-	[Type]=="Vaal Temple Map" #	[IgnoreMap]	=="true"	//瓦爾密殿	不打這張�?																			
-	[Type]=="Harbinger Map" #	[IgnoreMap]	=="true"	//神諭之殿．煉�?不打這張�?																			
+	//3.17 璈�頛踹�瑼?////���隞�”銝�湔��雿�銝��餅																								
+//	[Quality]<="16"&& [Rarity]=="Normal"#[UpgradeQuality]== "true"//雿輻鋆賢��?		//雿輻鋆賢��?銝?/雿輻鋆賢��?																			
+//	[MapTier]>= "1" && [MapTier] <= "16"#[RunMap]== "true"//�瑁�頛踹�			//�帖銵��踵�?																				
+//	[Rarity]== "Normal"#[UpgradeToMagic]== "true"//雿輻�餉��?		//雿輻�餉�	銝?/雿輻�餉�																				
+//	[Rarity]== "Magic"#[AugmentIfPossible]== "true"//雿輻憓��?		//雿輻憓�	銝?/雿輻憓�																				
+//	[Rarity]== "Normal"#[UpgradeToRare]== "true"//雿輻暺��?		//雿輻暺�	銝?/雿輻暺�																				
+	//�輸���啣�//(�身)				//銝剜��斗																				
+	[Type]=="Graveyard Map" #	[SkipBossArena]	=="true"	//憓桀蔣憓	銝��撐���?																			
+	[Type]=="Dungeon Map" #	[SkipBossArena]	=="true"	//蝳���	銝��撐���?																			
+	[Type]=="Foundry Map" #	[SkipBossArena]	=="true"	//���?銝��撐���?																			
+	[Type]=="Cells Map" #	[SkipBossArena]	=="true"	//撟賡���	銝��撐���?																			
+	[Type]=="Relic Chambers Map" #	[SkipBossArena]	=="true"	//�文撖恕	銝��撐���?																			
+	[Type]=="Frozen Cabins Map" #	[SkipBossArena]	=="true"	//��撠�	銝��撐���?																			
+	[Type]=="Grave Trough Map" #	[SkipBossArena]	=="true"	//憓靚?銝��撐���?																			
+	[Type]=="Crimson Township Map" #	[SkipBossArena]	=="true"	//蝺�銋	銝��撐���?																			
+	[Type]=="Toxic Sewer Map" #	[SkipBossArena]	=="true"	//��銝偌�?銝��撐���?																			
+	[Type]=="Ivory Temple Map" #	[SkipBossArena]	=="true"	//鞊∠�蟡挪	銝��撐���?																			
+	[Type]=="Lava Chamber Map" #	[SkipBossArena]	=="true"	//�痔銋恕	銝��撐���?																			
+	[Type]=="Residence Map" #	[SkipBossArena]	=="true"	//蟡蜓撅�	銝��撐���?																			
+	[Type]=="Bone Crypt Map" #	[SkipBossArena]	=="true"	//撉刻楚�萄�	銝��撐���?																			
+	[Type]=="Underground River Map" #	[SkipBossArena]	=="true"	//�啣�銋眾	銝��撐���?																			
+	[Type]=="Laboratory Map" #	[SkipBossArena]	=="true"	//撖阡�撅�	銝��撐���?																			
+	[Type]=="Overgrown Ruin Map" #	[SkipBossArena]	=="true"	//�瑁��箄楚	銝��撐���?																			
+	[Type]=="Vaal Pyramid Map" #	[SkipBossArena]	=="true"	//�衣��憛?銝��撐���?																			
+	[Type]=="Tower Map" #	[SkipBossArena]	=="true"	//��撠�	銝��撐���?																			
+	[Type]=="Waste Pool Map" #	[SkipBossArena]	=="true"	//甇餃�瘜交�	銝��撐���?																			
+	[Type]=="Vault Map" #	[SkipBossArena]	=="true"	//擳�撖嗅澈	銝��撐���?																			
+	[Type]=="Shipyard Map" #	[SkipBossArena]	=="true"	//�曄��孵﹜	銝��撐���?																			
+	[Type]=="Belfry Map" #	[SkipBossArena]	=="true"	//�脤���	銝��撐���?																			
+	[Type]=="Lair Map" #	[SkipBossArena]	=="true"	//擗撌Ｙ庖	銝��撐���?																			
+	[Type]=="Primordial Pool Map" #	[SkipBossArena]	=="true"	//銵�交票瞉?銝��撐���?																			
+	[Type]=="Factory Map" #	[SkipBossArena]	=="true"	//�菟撌亙�	銝��撐���?																			
+	[Type]=="Summit Map" #	[SkipBossArena]	=="true"	//撖�銋�	銝��撐���?																			
+	[Type]=="Primordial Blocks Map" #	[SkipBossArena]	=="true"	//銵�仿�?銝��撐���?																			
+	[Type]=="Necropolis Map" #	[SkipBossArena]	=="true"	//擳蔣憓	銝��撐���?																			
+	[Type]=="Malformation Map" #	[SkipBossArena]	=="true"	//�詨耦鈭∪�	銝��撐���?																			
+	[Type]=="Terrace Map" #	[SkipBossArena]	=="true"	//�脣�勗�	銝��撐���?																			
+	[Type]=="Shrine Map" #	[SkipBossArena]	=="true"	//憟�蝘挪	銝��撐���?																			
+	[Type]=="Arsenal Map" #	[SkipBossArena]	=="true"	//�文撌亙�	銝��撐���?																			
+	[Type]=="Core Map" #	[SkipBossArena]	=="true"	//�詨�	銝��撐���?																			
+	[Type]=="Colosseum Map" #	[SkipBossArena]	=="true"	//憭扳捱擛亙	銝��撐���?																			
+	[Type]=="Dark Forest Map" #	[SkipBossArena]	=="true"	//憭�撟賣�	銝��撐���?																			
+	[Type]=="Plaza Map" #	[SkipBossArena]	=="true"	//撱�	銝��撐���?																			
+	[Type]=="Lava Lake Map" #	[SkipBossArena]	=="true"	//撗拇撚��	銝��撐���?																			
+	[Type]=="Basilica Map" #	[SkipBossArena]	=="true"	//�挪	銝��撐���?																			
+	[Type]=="Sunken City Map" #	[SkipBossArena]	=="true"	//鈭�剜��?銝��撐���?																			
+	[Type]=="Reef Map" #	[SkipBossArena]	=="true"	//�望�瘚瑞�	銝��撐���?																			
+	[Type]=="Bramble Valley Map" #	[SkipBossArena]	=="true"	//��靚?銝��撐���?																			
+	[Type]=="Pit of the Chimera Map" #	[SkipBossArena]	=="true"	//憟����?銝��撐���?																			
+	[Type]=="Lair of the Hydra Map" #	[SkipBossArena]	=="true"	//銋�蝒?銝��撐���?																			
+	[Type]=="Maze of the Minotaur Map" #	[SkipBossArena]	=="true"	//�鈭箄��?銝��撐���?																			
+	[Type]=="Forge of the Phoenix Map" #	[SkipBossArena]	=="true"	//�恍陶�啁��?銝��撐���?																			
+	[Type]=="Vaal Temple Map" #	[SkipBossArena]	=="true"	//�衣撖挪	銝��撐���?																			
+	[Type]=="Harbinger Map" #	[SkipBossArena]	=="true"	//蟡垠銋挪嚗��?銝��撐���?																			
+//	//3.17 ��閮剖� //																								
+	[Type]=="Lookout Map" #	[RunMap]	=="true"	//憒悼�梁�	�撐�?																			
+	[Type]=="Beach Map" #	[RunMap]	=="true"	//�賣��	�撐�?																			
+	[Type]=="Graveyard Map" #	[RunMap]	=="true"	//憓桀蔣憓	�撐�?																			
+	[Type]=="Dungeon Map" #	[IgnoreMap]	=="true"	//蝳���	銝��撐�?																			
+	[Type]=="Foundry Map" #	[RunMap]	=="true"	//���?�撐�?																			
+	[Type]=="Alleyways Map" #	[RunMap]	=="true"	//�勗�撌瑕�	�撐�?																			
+	[Type]=="Pen Map" #	[RunMap]	=="true"	//蝛ａ�	�撐�?																			
+	[Type]=="Desert Map" #	[RunMap]	=="true"	//鞎抒�銋	�撐�?																			
+	[Type]=="Arid Lake Map" #	[RunMap]	=="true"	//銋暹皝硫	�撐�?																			
+	[Type]=="Flooded Mine Map" #	[RunMap]	=="true"	//瘣芰蝷血�	�撐�?																			
+	[Type]=="Marshes Map" #	[RunMap]	=="true"	//�∟瘝澆	�撐�?																			
+	[Type]=="Iceberg Map" #	[RunMap]	=="true"	//璆萄��啣蜇	�撐�?																			
+	[Type]=="Cage Map" #	[RunMap]	=="true"	//蝢�Ｙ�	�撐�?																			
+	[Type]=="Fungal Hollow Map" #	[RunMap]	=="true"	//瘥�擳�	�撐�?																			
+	[Type]=="Excavation Map" #	[RunMap]	=="true"	//���?�撐�?																			
+	[Type]=="Leyline Map" #	[RunMap]	=="true"	//�飲�折�	�撐�?																			
+	[Type]=="Peninsula Map" #	[RunMap]	=="true"	//銋暹蔭�	�撐�?																			
+	[Type]=="Port Map" #	[RunMap]	=="true"	//憭梯�﹜	�撐�?																			
+	[Type]=="Burial Chambers Map" #	[RunMap]	=="true"	//�勗憓恕	�撐�?																			
+	[Type]=="Cells Map" #	[RunMap]	=="true"	//撟賡���	�撐�?																			
+	[Type]=="Arcade Map" #	[RunMap]	=="true"	//撏拙��瑕�	�撐�?																			
+	[Type]=="City Square Map" #	[RunMap]	=="true"	//�勗�撱�	�撐�?																			
+	[Type]=="Relic Chambers Map" #	[IgnoreMap]	=="true"	//�文撖恕	銝��撐�?																			
+	[Type]=="Courthouse Map" #	[RunMap]	=="true"	//憭勗��	�撐�?																			
+	[Type]=="Strand Map" #	[RunMap]	=="true"	//�游撗拍�	�撐�?																			
+	[Type]=="Chateau Map" #	[RunMap]	=="true"	//�文	�撐�?																			
+	[Type]=="Grotto Map" #	[RunMap]	=="true"	//撟賣��啁庖	�撐�?																			
+	[Type]=="Glacier Map" #	[RunMap]	=="true"	//�啣�撅曹�	�撐�?																			
+	[Type]=="Volcano Map" #	[RunMap]	=="true"	//�怠控��	�撐�?																			
+	[Type]=="Lighthouse Map" #	[RunMap]	=="true"	//蝯���	�撐�?																			
+	[Type]=="Canyon Map" #	[RunMap]	=="true"	//�撜質健	�撐�?																			
+	[Type]=="Frozen Cabins Map" #	[IgnoreMap]	=="true"	//��撠�	銝��撐�?																			
+	[Type]=="Grave Trough Map" #	[IgnoreMap]	=="true"	//憓靚?銝��撐�?																			
+	[Type]=="Crimson Township Map" #	[RunMap]	=="true"	//蝺�銋	�撐�?																			
+	[Type]=="Forking River Map" #	[RunMap]	=="true"	//撗眾	�撐�?																			
+	[Type]=="Cold River Map" #	[RunMap]	=="true"	//撖眾	�撐�?																			
+	[Type]=="Forbidden Woods Map" #	[RunMap]	=="true"	//蝳�銋ㄝ	�撐�?																			
+	[Type]=="Conservatory Map" #	[RunMap]	=="true"	//撖折豢澈�?�撐�?																			
+	[Type]=="Sulphur Vents Map" #	[RunMap]	=="true"	//蝖怎ㄩ�硫	�撐�?																			
+	[Type]=="Haunted Mansion Map" #	[RunMap]	=="true"	//撟賡�摰	�撐�?																			
+	[Type]=="Maze Map" #	[RunMap]	=="true"	//�亦�銋�	�撐�?																			
+	[Type]=="Channel Map" #	[RunMap]	=="true"	//蝘���	�撐�?																			
+	[Type]=="Toxic Sewer Map" #	[RunMap]	=="true"	//��銝偌�?�撐�?																			
+	[Type]=="Ancient City Map" #	[RunMap]	=="true"	//��勗�	�撐�?																			
+	[Type]=="Ivory Temple Map" #	[RunMap]	=="true"	//鞊∠�蟡挪	�撐�?																			
+	[Type]=="Spider Lair Map" #	[RunMap]	=="true"	//撌刻�撌Ｙ庖	�撐�?																			
+	[Type]=="Barrows Map" #	[RunMap]	=="true"	//�望�憛�	�撐�?																			
+	[Type]=="Mausoleum Map" #	[RunMap]	=="true"	//���萄�	�撐�?																			
+	[Type]=="Fields Map" #	[RunMap]	=="true"	//�∠��圈�	�撐�?																			
+	[Type]=="Jungle Valley Map" #	[RunMap]	=="true"	//���健	�撐�?																			
+	[Type]=="Phantasmagoria Map" #	[RunMap]	=="true"	//擳�撟餌�	�撐�?																			
+	[Type]=="Academy Map" #	[RunMap]	=="true"	//�⊿�摮賊	�撐�?																			
+	[Type]=="Thicket Map" #	[RunMap]	=="true"	//撽璅孵	�撐�?																			
+	[Type]=="Wharf Map" #	[RunMap]	=="true"	//瘥�瘚瑟葛	�撐�?																			
+	[Type]=="Ashen Wood Map" #	[RunMap]	=="true"	//�望�	�撐�?																			
+	[Type]=="Atoll Map" #	[RunMap]	=="true"	//瞈望絲撅曹�	�撐�?																			
+	[Type]=="Cemetery Map" #	[RunMap]	=="true"	//�冽憓	�撐�?																			
+	[Type]=="Underground Sea Map" #	[RunMap]	=="true"	//瞈望絲撟賜庖	�撐�?																			
+	[Type]=="Crater Map" #	[RunMap]	=="true"	//畾畾�	�撐�?																			
+	[Type]=="Coral Ruins Map" #	[RunMap]	=="true"	//�渡��∠�	�撐�?																			
+	[Type]=="Lava Chamber Map" #	[RunMap]	=="true"	//�痔銋恕	�撐�?																			
+	[Type]=="Residence Map" #	[RunMap]	=="true"	//蟡蜓撅�	�撐�?																			
+	[Type]=="Ramparts Map" #	[RunMap]	=="true"	//瞈望絲�∪�	�撐�?																			
+	[Type]=="Dunes Map" #	[RunMap]	=="true"	//�株瘝�	�撐�?																			
+	[Type]=="Bone Crypt Map" #	[RunMap]	=="true"	//撉刻楚�萄�	�撐�?																			
+	[Type]=="Underground River Map" #	[RunMap]	=="true"	//�啣�銋眾	�撐�?																			
+	[Type]=="Gardens Map" #	[RunMap]	=="true"	//餈瑕悅�勗�	�撐�?																			
+	[Type]=="Arachnid Nest Map" #	[RunMap]	=="true"	//�啗�撌Ｙ庖	�撐�?																			
+	[Type]=="Bazaar Map" #	[RunMap]	=="true"	//�撣�	�撐�?																			
+	[Type]=="Laboratory Map" #	[RunMap]	=="true"	//撖阡�撅�	�撐�?																			
+	[Type]=="Infested Valley Map" #	[IgnoreMap]	=="true"	//��健	銝��撐�?																			
+	[Type]=="Overgrown Ruin Map" #	[RunMap]	=="true"	//�瑁��箄楚	�撐�?																			
+	[Type]=="Vaal Pyramid Map" #	[IgnoreMap]	=="true"	//�衣��憛?銝��撐�?																			
+	[Type]=="Geode Map" #	[RunMap]	=="true"	//閰剛��嗆�	�撐�?																			
+	[Type]=="Armoury Map" #	[RunMap]	=="true"	//頠１摨?�撐�?																			
+	[Type]=="Courtyard Map" #	[RunMap]	=="true"	//憟�銋滬	�撐�?																			
+	[Type]=="Mud Geyser Map" #	[RunMap]	=="true"	//�唳瘜亦�	�撐�?																			
+	[Type]=="Shore Map" #	[RunMap]	=="true"	//�桀�瘚瑞�	�撐�?																			
+	[Type]=="Tropical Island Map" #	[RunMap]	=="true"	//�渡征撟賢雀	�撐�?																			
+	[Type]=="Mineral Pools Map" #	[RunMap]	=="true"	//瞈蝷血控	�撐�?																			
+	[Type]=="Moon Temple Map" #	[RunMap]	=="true"	//戭�蟡挪	�撐�?																			
+	[Type]=="Sepulchre Map" #	[RunMap]	=="true"	//�唳�憓�	�撐�?																			
+	[Type]=="Tower Map" #	[IgnoreMap]	=="true"	//��撠�	銝��撐�?																			
+	[Type]=="Waste Pool Map" #	[RunMap]	=="true"	//甇餃�瘜交�	�撐�?																			
+	[Type]=="Plateau Map" #	[RunMap]	=="true"	//瘚琿◢擃�	�撐�?																			
+	[Type]=="Estuary Map" #	[RunMap]	=="true"	//�撗拍�	�撐�?																			
+	[Type]=="Vault Map" #	[IgnoreMap]	=="true"	//擳�撖嗅澈	銝��撐�?																			
+	[Type]=="Temple Map" #	[RunMap]	=="true"	//憟芷�銋挪	�撐�?																			
+	[Type]=="Arena Map" #	[IgnoreMap]	=="true"	//蝡嗆��?銝��撐�?																			
+	[Type]=="Museum Map" #	[RunMap]	=="true"	//�文��拚尹	�撐�?																			
+	[Type]=="Scriptorium Map" #	[RunMap]	=="true"	//憓蔣�詨�	�撐�?																			
+	[Type]=="Siege Map" #	[RunMap]	=="true"	//蝳��	�撐�?																			
+	[Type]=="Shipyard Map" #	[RunMap]	=="true"	//�曄��孵﹜	�撐�?																			
+	[Type]=="Belfry Map" #	[RunMap]	=="true"	//�脤���	�撐�?																			
+	[Type]=="Arachnid Tomb Map" #	[RunMap]	=="true"	//�啗�憓�	�撐�?																			
+	[Type]=="Wasteland Map" #	[RunMap]	=="true"	//�	�撐�?																			
+	[Type]=="Precinct Map" #	[RunMap]	=="true"	//�西�銋�	�撐�?																			
+	[Type]=="Bog Map" #	[RunMap]	=="true"	//�湔除瘜交票	�撐�?																			
+	[Type]=="Pier Map" #	[RunMap]	=="true"	//�答銋葛	�撐�?																			
+	[Type]=="Cursed Crypt Map" #	[RunMap]	=="true"	//�∪��萄�	�撐�?																			
+	[Type]=="Orchard Map" #	[RunMap]	=="true"	//撖���	�撐�?																			
+	[Type]=="Promenade Map" #	[RunMap]	=="true"	//�餈游�	�撐�?																			
+	[Type]=="Lair Map" #	[RunMap]	=="true"	//擗撌Ｙ庖	�撐�?																			
+	[Type]=="Colonnade Map" #	[RunMap]	=="true"	//瞈�唳撱?�撐�?																			
+	[Type]=="Primordial Pool Map" #	[RunMap]	=="true"	//銵�交票瞉?�撐�?																			
+	[Type]=="Spider Forest Map" #	[RunMap]	=="true"	//撌刻�銋�	�撐�?																			
+	[Type]=="Coves Map" #	[RunMap]	=="true"	//�暸◢撜賜	�撐�?																			
+	[Type]=="Waterways Map" #	[RunMap]	=="true"	//�望�瘞湧�	�撐�?																			
+	[Type]=="Factory Map" #	[RunMap]	=="true"	//�菟撌亙�	�撐�?																			
+	[Type]=="Mesa Map" #	[RunMap]	=="true"	//撟喲���	�撐�?																			
+	[Type]=="Pit Map" #	[IgnoreMap]	=="true"	//撌典�	銝��撐�?																			
+	[Type]=="Dry Sea Map" #	[RunMap]	=="true"	//銋暹絲	�撐�?																			
+	[Type]=="Defiled Cathedral Map" #	[RunMap]	=="true"	//銝���	�撐�?																			
+	[Type]=="Summit Map" #	[RunMap]	=="true"	//撖�銋�	�撐�?																			
+	[Type]=="Overgrown Shrine Map" #	[RunMap]	=="true"	//撖�蟡挪	�撐�?																			
+	[Type]=="Castle Ruins Map" #	[RunMap]	=="true"	//�箄楚撱Ｗ�	�撐�?																			
+	[Type]=="Crystal Ore Map" #	[RunMap]	=="true"	//蝝急蝷血控	�撐�?																			
+	[Type]=="Villa Map" #	[RunMap]	=="true"	//擳蔣�亙�	�撐�?																			
+	[Type]=="Primordial Blocks Map" #	[RunMap]	=="true"	//銵�仿�?�撐�?																			
+	[Type]=="Necropolis Map" #	[RunMap]	=="true"	//擳蔣憓	�撐�?																			
+	[Type]=="Racecourse Map" #	[RunMap]	=="true"	//�斤奎�	�撐�?																			
+	[Type]=="Caldera Map" #	[RunMap]	=="true"	//�怠控�	�撐�?																			
+	[Type]=="Ghetto Map" #	[RunMap]	=="true"	//韏方異撅�	�撐�?																			
+	[Type]=="Park Map" #	[RunMap]	=="true"	//���?�撐�?																			
+	[Type]=="Malformation Map" #	[RunMap]	=="true"	//�詨耦鈭∪�	�撐�?																			
+	[Type]=="Terrace Map" #	[RunMap]	=="true"	//�脣�勗�	�撐�?																			
+	[Type]=="Shrine Map" #	[RunMap]	=="true"	//憟�蝘挪	�撐�?																			
+	[Type]=="Arsenal Map" #	[RunMap]	=="true"	//�文撌亙�	�撐�?																			
+	[Type]=="Desert Spring Map" #	[RunMap]	=="true"	//蝖怎ㄩ��	�撐�?																			
+	[Type]=="Core Map" #	[IgnoreMap]	=="true"	//�詨�	銝��撐�?																			
+	[Type]=="Colosseum Map" #	[RunMap]	=="true"	//憭扳捱擛亙	�撐�?																			
+	[Type]=="Acid Caverns Map" #	[RunMap]	=="true"	//�詨痔�詨飲	�撐�?																			
+	[Type]=="Dark Forest Map" #	[RunMap]	=="true"	//憭�撟賣�	�撐�?																			
+	[Type]=="Crimson Temple Map" #	[RunMap]	=="true"	//蝺�蟡挪	�撐�?																			
+	[Type]=="Plaza Map" #	[RunMap]	=="true"	//撱�	�撐�?																			
+	[Type]=="Dig Map" #	[RunMap]	=="true"	//����	�撐�?																			
+	[Type]=="Palace Map" #	[RunMap]	=="true"	//蟡�銋挪	�撐�?																			
+	[Type]=="Lava Lake Map" #	[RunMap]	=="true"	//撗拇撚��	�撐�?																			
+	[Type]=="Basilica Map" #	[RunMap]	=="true"	//�挪	�撐�?																			
+	[Type]=="Sunken City Map" #	[RunMap]	=="true"	//鈭�剜��?�撐�?																			
+	[Type]=="Reef Map" #	[RunMap]	=="true"	//�望�瘚瑞�	�撐�?																			
+	[Type]=="Carcass Map" #	[RunMap]	=="true"	//�∟撅�	�撐�?																			
+	[Type]=="Stagnation Map" #	[RunMap]	=="true"	//瘛文�瘞湧�	�撐�?																			
+	[Type]=="Bramble Valley Map" #	[IgnoreMap]	=="true"	//��靚?銝��撐�?																			
+	[Type]=="Silo Map" #	[RunMap]	=="true"	//�脩�?�撐�?																			
+	[Type]=="Pit of the Chimera Map" #	[IgnoreMap]	=="true"	//憟����?銝��撐�?																			
+	[Type]=="Lair of the Hydra Map" #	[IgnoreMap]	=="true"	//銋�蝒?銝��撐�?																			
+	[Type]=="Maze of the Minotaur Map" #	[IgnoreMap]	=="true"	//�鈭箄��?銝��撐�?																			
+	[Type]=="Forge of the Phoenix Map" #	[IgnoreMap]	=="true"	//�恍陶�啁��?銝��撐�?																			
+	[Type]=="Vaal Temple Map" #	[IgnoreMap]	=="true"	//�衣撖挪	銝��撐�?																			
+	[Type]=="Harbinger Map" #	[IgnoreMap]	=="true"	//蟡垠銋挪嚗��?銝��撐�?																			
 																									
-	//3.17 忽略圖與忽略傳奇�?																							
-	[Type]== "Forge of the Phoenix Map"#[IgnoreMap]== "true"//火鳳凰熔�?#																								
-	[Type]== "Lair of the Hydra Map"#[IgnoreMap]== "true"//九頭蛇冰�?#																								
-	[Type]== "Maze of the Minotaur Map"#[IgnoreMap]== "true"//牛頭人謎�?#																								
-	[Type]== "Pit of the Chimera Map"#[IgnoreMap]== "true"//奇美拉魔�?#																								
+	//3.17 敹賜��敹賜�喳��?																							
+	[Type]== "Forge of the Phoenix Map"#[IgnoreMap]== "true"//�恍陶�啁��?#																								
+	[Type]== "Lair of the Hydra Map"#[IgnoreMap]== "true"//銋�蝒?#																								
+	[Type]== "Maze of the Minotaur Map"#[IgnoreMap]== "true"//�鈭箄��?#																								
+	[Type]== "Pit of the Chimera Map"#[IgnoreMap]== "true"//憟����?#																								
 	////Unique Map//// #																								
-//請勿更動//	//[Type]== "Overgrown Shrine Map"&& [Rarity] == "Unique"#[IgnoreMap]== "true"// #																								
+//隢�游�//	//[Type]== "Overgrown Shrine Map"&& [Rarity] == "Unique"#[IgnoreMap]== "true"// #																								
 	[Type]== "Siege Map"&& [Rarity] == "Unique"#[IgnoreMap]== "true"// #																								
 	[Type]== "Courthouse Map"&& [Rarity] == "Unique"#[IgnoreMap]== "true"// #																								
 	[Type]== "Underground River Map"&& [Rarity] == "Unique"#[IgnoreMap]== "true"// #																								
 	[Type]== "Relic Chambers Map"&& [Rarity] == "Unique"#[IgnoreMap]== "true"// #																								
 	[Type]== "Necropolis Map"&& [Rarity] == "Unique"#[IgnoreMap]== "true"// #																								
 	[Type]== "Maze Map"&& [Rarity] == "Unique"#[IgnoreMap]== "true"// #																								
-//請勿更動//	//[Type]== "Promenade Map"&& [Rarity] == "Unique"#[IgnoreMap]== "true"// #																								
-//請勿更動//	//[Type]== "Cemetery Map"&& [Rarity] == "Unique"#[IgnoreMap]== "true"// #																								
+//隢�游�//	//[Type]== "Promenade Map"&& [Rarity] == "Unique"#[IgnoreMap]== "true"// #																								
+//隢�游�//	//[Type]== "Cemetery Map"&& [Rarity] == "Unique"#[IgnoreMap]== "true"// #																								
 	[Type]== "Atoll Map"&& [Rarity] == "Unique"#[IgnoreMap]== "true"// #																								
 	[Type]== "Shore Map"&& [Rarity] == "Unique"#[IgnoreMap]== "true"// #																								
 	[Type]== "Underground Sea Map"&& [Rarity] == "Unique"#[IgnoreMap]== "true"// #																								
 	[Type]== "Bone Crypt Map"&& [Rarity] == "Unique"#[IgnoreMap]== "true"// #																								
 	[Type]== "Dunes Map"&& [Rarity] == "Unique"#[IgnoreMap]== "true"// #																								
 	[Type]== "Temple Map"&& [Rarity] == "Unique"#[IgnoreMap]== "true"// #																								
-//請勿更動//	//[Type]== "Basilica Map"&& [Rarity] == "Unique"#[IgnoreMap]== "true"// #																								
+//隢�游�//	//[Type]== "Basilica Map"&& [Rarity] == "Unique"#[IgnoreMap]== "true"// #																								
 	[Type]== "Harbinger Map"&& [Rarity] == "Unique"#[IgnoreMap]== "true"// #																								
 	[Type]== "Cursed Crypt Map"&& [Rarity] == "Unique"#[IgnoreMap]== "true"// #																								
-//請勿更動//	//[Type]== "Chateau Map"&& [Rarity] == "Unique"#[IgnoreMap]== "true"// #																								
+//隢�游�//	//[Type]== "Chateau Map"&& [Rarity] == "Unique"#[IgnoreMap]== "true"// #																								
 	[Type]== "Museum Map"&& [Rarity] == "Unique"#[IgnoreMap]== "true"// #																								
 	[Type]== "Moon Temple Map"&& [Rarity] == "Unique"#[IgnoreMap]== "true"// #																								
 	[Type]== "Courtyard Map"&& [Rarity] == "Unique"#[IgnoreMap]== "true"// #																								
 	[Type]== "Park Map"&& [Rarity] == "Unique"#[IgnoreMap]== "true"// #																								
 	[Type]== "Tropical Island Map"&& [Rarity] == "Unique"#[IgnoreMap]== "true"// #																								
 	[Type]== "Vaal Pyramid Map"&& [Rarity] == "Unique"#[IgnoreMap]== "true"// #																								
-//請勿更動//	//[Type]== "Strand Map"&& [Rarity] == "Unique"#[IgnoreMap]== "true"// #																								
+//隢�游�//	//[Type]== "Strand Map"&& [Rarity] == "Unique"#[IgnoreMap]== "true"// #																								
 	[Type]== "Temple Map"&& [Rarity] == "Unique"#[IgnoreMap]== "true"//																								
 																									
-	//3.17 討厭的詞綴避�?重骰 （務必兩個、兩個一起改�?[1001] >=  "1" && [Rarity] == "Rare" # [Rerollmods] == "true"
+	//3.17 閮��蝬湧�?�狐 嚗�敹���韏瑟嚗?[1001] >=  "1" && [Rarity] == "Rare" # [Rerollmods] == "true"
 [1001] >=  "1" && [Rarity] == "Magic" # [Rerollmods] == "true"
-	[map_monsters_reflect_%_elemental_damage] >= "1" && [Rarity] == "Magic" #	[RerollMods]	=="true"	//怪物反射_%_元素傷害	我不怕這�?	[map_monsters_reflect_%_elemental_damage] >= "1" && [Rarity] == "Rare" #	[RerollMods]	=="true"	//怪物反射_%_元素傷害	我不怕這�?	[map_monsters_reflect_%_physical_damage]>= "1" && [Rarity] == "Magic" #	[RerollMods]	=="true"	//怪物反射_%_物理傷害	我不怕這�?	[map_monsters_reflect_%_physical_damage]>= "1" && [Rarity] == "Rare" #	[RerollMods]	=="true"	//怪物反射_%_物理傷害	我不怕這�?	[map_players_no_regeneration_including_es]>= "1" && [Rarity] == "Magic" #	[RerollMods]	=="true"	//玩家無法回復生命、魔力和能量護盾	我不怕這�?	[map_players_no_regeneration_including_es]>= "1" && [Rarity] == "Rare" #	[RerollMods]	=="true"	//玩家無法回復生命、魔力和能量護盾	我不怕這�?//	[map_player_has_level_X_temporal_chains]>= "1" && [Rarity]="Magic" #	[RerollMods]	=="true"	//玩家受到時空鎖鍊詛咒影響	我不怕�?//	[map_player_has_level_X_temporal_chains]>= "1" && [Rarity]="Rare" #	[RerollMods]	=="true"	//玩家受到時空鎖鍊詛咒影響	我不怕�?//X	[map_player_has_level_X_vulnerability]>= "1" && [Rarity]="Magic" #	[RerollMods]	=="true"	//玩家受到脆弱詛咒	我不怕這�?//X	[map_player_has_level_X_vulnerability]>= "1" && [Rarity]="Rare" #	[RerollMods]	=="true"	//玩家受到脆弱詛咒	我不怕這�?//X	[map_player_has_level_X_enfeeble]>= "1" && [Rarity]="Magic" #	[RerollMods]	=="true"	//玩家受到衰弱詛咒影響	我不怕這�?//X	[map_player_has_level_X_enfeeble]>= "1" && [Rarity]="Rare" #	[RerollMods]	=="true"	//玩家受到衰弱詛咒影響	我不怕這�?//X	[map_player_has_level_X_elemental_weakness]>= "1" && [Rarity]="Magic" #	[RerollMods]	=="true"	//玩家受到元素要害詛咒影響	我不怕這�?//X	[map_player_has_level_X_elemental_weakness]>= "1" && [Rarity]="Rare" #	[RerollMods]	=="true"	//玩家受到元素要害詛咒影響	我不怕這�?//	[map_rare_monsters_have_nemesis_mod]>= "1" && [Rarity]="Magic" #	[RerollMods]	=="true"	//稀有怪有復仇屬�?我不怕這�?//	[map_rare_monsters_have_nemesis_mod]>= "1" && [Rarity]="Rare" #	[RerollMods]	=="true"	//稀有怪有復仇屬�?我不怕這�?//X	[map_base_ground_fire_damage_to_deal_per_minute]>= "1" && [Rarity]="Magic" #	[RerollMods]	=="true"	//地圖裡有燃燒地面	我不怕這�?//X	[map_base_ground_fire_damage_to_deal_per_minute]>= "1" && [Rarity]="Rare" #	[RerollMods]	=="true"	//地圖裡有燃燒地面	我不怕這�?//X	[map_ground_ice]>= "1" && [Rarity]="Magic" #	[RerollMods]	=="true"	//地圖裡有冰緩地面	我不怕這�?//X	[map_ground_ice]>= "1" && [Rarity]="Rare" #	[RerollMods]	=="true"	//地圖裡有冰緩地面	我不怕這�?//X	[map_ground_lightning]>= "1" && [Rarity]="Magic" #	[RerollMods]	=="true"	//地圖裡有感電地面	我不怕這�?//X	[map_ground_lightning]>= "1" && [Rarity]="Rare" #	[RerollMods]	=="true"	//地圖裡有感電地面	我不怕這�?	[map_base_ground_desecration_damage_to_deal_per_minute] >= "1" && [Rarity] == "Magic" #	[RerollMods]	=="true"	//汙染地面	我不怕這�?	[map_base_ground_desecration_damage_to_deal_per_minute] >= "1" && [Rarity] == "Rare" #	[RerollMods]	=="true"	//汙染地面	我不怕這�?//	[map_players_block_chance_+%] < "0" && [Rarity] == "Magic" #	[RerollMods]	=="true"	//降低格檔	我不怕這�?//	[map_players_block_chance_+%] < "0" && [Rarity] == "Rare" #	[RerollMods]	=="true"	//降低格檔	我不怕這�?//X	[map_player_has_level_X_vulnerability] >= "1" && [Rarity] == "Magic" #	[RerollMods]	=="true"	//脆弱詛咒	我不怕這�?//X	[map_player_has_level_X_vulnerability] >= "1" && [Rarity] == "Rare" #	[RerollMods]	=="true"	//脆弱詛咒	我不怕這�?//	[map_monsters_avoid_ailments_%] >= "1" && [Rarity] == "Magic" #	[RerollMods]	=="true"	//地圖怪物避免元素異常狀�?我不怕這�?//	[map_monsters_avoid_ailments_%] >= "1" && [Rarity] == "Rare #	[RerollMods]	=="true"	//地圖怪物避免元素異常狀�?我不怕這�?//	[map_additional_player_maximum_resistances_%] < "0" && [Rarity] == "Magic" #	[IgnoreMap]	=="true"	//降低最大抗	我不怕這�?//	[map_additional_player_maximum_resistances_%] < "0" && [Rarity] == "Rare" #	[IgnoreMap]	=="true"	//降低最大抗	我不怕這�?	[map_monsters_cannot_be_leeched_from] > "0" && [Rarity] == "Magic" # 	[RerollMods]	=="true"	//無法偷取	我不怕這�?	[map_monsters_cannot_be_leeched_from]  > "0" && [Rarity] == "Rare" # 	[RerollMods]	=="true"	//無法偷取	我不怕這�?	[map_monsters_steal_charges] >= "1" && [Rarity] == "Magic" #  	[RerollMods]	=="true"	//怪物偷球	我不怕這�?	[map_monsters_steal_charges] >= "1" && [Rarity] == "Rare" # 	[RerollMods]	=="true"	//怪物偷球	我不怕這�?//	[map_player_cooldown_speed_+%_final] < "0" && [Rarity] == "Magic" #	[IgnoreMap]	=="true"	//玩家冷卻回復降低	我不怕這�?//	[map_player_cooldown_speed_+%_final] < "0" && [Rarity] == "Rare" #	[IgnoreMap]	=="true"	//玩家冷卻回復降低	我不怕這�?//X	[map_player_non_curse_aura_effect_+%] >= "1" && [Rarity] == "Magic" #	[IgnoreMap]	=="true"	//玩家光環效果減少	我不怕這�?//X	[map_player_non_curse_aura_effect_+%] >= "1" && [Rarity] == "Rare" #	[IgnoreMap]	=="true"	//玩家光環效果減少	我不怕這�?
+	[map_monsters_reflect_%_elemental_damage] >= "1" && [Rarity] == "Magic" #	[RerollMods]	=="true"	//�芰��_%_���瑕拿	���?	[map_monsters_reflect_%_elemental_damage] >= "1" && [Rarity] == "Rare" #	[RerollMods]	=="true"	//�芰��_%_���瑕拿	���?	[map_monsters_reflect_%_physical_damage]>= "1" && [Rarity] == "Magic" #	[RerollMods]	=="true"	//�芰��_%_�拍��瑕拿	���?	[map_monsters_reflect_%_physical_damage]>= "1" && [Rarity] == "Rare" #	[RerollMods]	=="true"	//�芰��_%_�拍��瑕拿	���?	[map_players_no_regeneration_including_es]>= "1" && [Rarity] == "Magic" #	[RerollMods]	=="true"	//�拙振�⊥��儔������賡�霅瑞	���?	[map_players_no_regeneration_including_es]>= "1" && [Rarity] == "Rare" #	[RerollMods]	=="true"	//�拙振�⊥��儔������賡�霅瑞	���?//	[map_player_has_level_X_temporal_chains]>= "1" && [Rarity]="Magic" #	[RerollMods]	=="true"	//�拙振��征��閰�敶梢	���?//	[map_player_has_level_X_temporal_chains]>= "1" && [Rarity]="Rare" #	[RerollMods]	=="true"	//�拙振��征��閰�敶梢	���?//X	[map_player_has_level_X_vulnerability]>= "1" && [Rarity]="Magic" #	[RerollMods]	=="true"	//�拙振��摹閰�	���?//X	[map_player_has_level_X_vulnerability]>= "1" && [Rarity]="Rare" #	[RerollMods]	=="true"	//�拙振��摹閰�	���?//X	[map_player_has_level_X_enfeeble]>= "1" && [Rarity]="Magic" #	[RerollMods]	=="true"	//�拙振�銵啣摹閰�敶梢	���?//X	[map_player_has_level_X_enfeeble]>= "1" && [Rarity]="Rare" #	[RerollMods]	=="true"	//�拙振�銵啣摹閰�敶梢	���?//X	[map_player_has_level_X_elemental_weakness]>= "1" && [Rarity]="Magic" #	[RerollMods]	=="true"	//�拙振���閬拿閰�敶梢	���?//X	[map_player_has_level_X_elemental_weakness]>= "1" && [Rarity]="Rare" #	[RerollMods]	=="true"	//�拙振���閬拿閰�敶梢	���?//	[map_rare_monsters_have_nemesis_mod]>= "1" && [Rarity]="Magic" #	[RerollMods]	=="true"	//蝔�芣�敺拐�撅祆?���?//	[map_rare_monsters_have_nemesis_mod]>= "1" && [Rarity]="Rare" #	[RerollMods]	=="true"	//蝔�芣�敺拐�撅祆?���?//X	[map_base_ground_fire_damage_to_deal_per_minute]>= "1" && [Rarity]="Magic" #	[RerollMods]	=="true"	//�啣�鋆⊥����圈	���?//X	[map_base_ground_fire_damage_to_deal_per_minute]>= "1" && [Rarity]="Rare" #	[RerollMods]	=="true"	//�啣�鋆⊥����圈	���?//X	[map_ground_ice]>= "1" && [Rarity]="Magic" #	[RerollMods]	=="true"	//�啣�鋆⊥��啁楨�圈	���?//X	[map_ground_ice]>= "1" && [Rarity]="Rare" #	[RerollMods]	=="true"	//�啣�鋆⊥��啁楨�圈	���?//X	[map_ground_lightning]>= "1" && [Rarity]="Magic" #	[RerollMods]	=="true"	//�啣�鋆⊥���圈	���?//X	[map_ground_lightning]>= "1" && [Rarity]="Rare" #	[RerollMods]	=="true"	//�啣�鋆⊥���圈	���?	[map_base_ground_desecration_damage_to_deal_per_minute] >= "1" && [Rarity] == "Magic" #	[RerollMods]	=="true"	//瘙��圈	���?	[map_base_ground_desecration_damage_to_deal_per_minute] >= "1" && [Rarity] == "Rare" #	[RerollMods]	=="true"	//瘙��圈	���?//	[map_players_block_chance_+%] < "0" && [Rarity] == "Magic" #	[RerollMods]	=="true"	//���潭�	���?//	[map_players_block_chance_+%] < "0" && [Rarity] == "Rare" #	[RerollMods]	=="true"	//���潭�	���?//X	[map_player_has_level_X_vulnerability] >= "1" && [Rarity] == "Magic" #	[RerollMods]	=="true"	//�摹閰�	���?//X	[map_player_has_level_X_vulnerability] >= "1" && [Rarity] == "Rare" #	[RerollMods]	=="true"	//�摹閰�	���?//	[map_monsters_avoid_ailments_%] >= "1" && [Rarity] == "Magic" #	[RerollMods]	=="true"	//�啣��芰�踹����啣虜��?���?//	[map_monsters_avoid_ailments_%] >= "1" && [Rarity] == "Rare #	[RerollMods]	=="true"	//�啣��芰�踹����啣虜��?���?//	[map_additional_player_maximum_resistances_%] < "0" && [Rarity] == "Magic" #	[IgnoreMap]	=="true"	//���憭扳�	���?//	[map_additional_player_maximum_resistances_%] < "0" && [Rarity] == "Rare" #	[IgnoreMap]	=="true"	//���憭扳�	���?	[map_monsters_cannot_be_leeched_from] > "0" && [Rarity] == "Magic" # 	[RerollMods]	=="true"	//�⊥��瑕�	���?	[map_monsters_cannot_be_leeched_from]  > "0" && [Rarity] == "Rare" # 	[RerollMods]	=="true"	//�⊥��瑕�	���?	[map_monsters_steal_charges] >= "1" && [Rarity] == "Magic" #  	[RerollMods]	=="true"	//�芰�瑞�	���?	[map_monsters_steal_charges] >= "1" && [Rarity] == "Rare" # 	[RerollMods]	=="true"	//�芰�瑞�	���?//	[map_player_cooldown_speed_+%_final] < "0" && [Rarity] == "Magic" #	[IgnoreMap]	=="true"	//�拙振�瑕�儔��	���?//	[map_player_cooldown_speed_+%_final] < "0" && [Rarity] == "Rare" #	[IgnoreMap]	=="true"	//�拙振�瑕�儔��	���?//X	[map_player_non_curse_aura_effect_+%] >= "1" && [Rarity] == "Magic" #	[IgnoreMap]	=="true"	//�拙振���皜�	���?//X	[map_player_non_curse_aura_effect_+%] >= "1" && [Rarity] == "Rare" #	[IgnoreMap]	=="true"	//�拙振���皜�	���?
