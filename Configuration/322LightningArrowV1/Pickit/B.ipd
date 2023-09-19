@@ -21,12 +21,12 @@
 //[Type] == "Riveted Boots" && [Rarity] == "Unique" # 		[UniqueName] == "Ralakesh's Impatience" && [StashItem] == "true"		//ìoÖ¹ÈıÇòĞ¬
 //[Type] == "Barbute Helmet" && [Rarity] == "Unique" # 		[UniqueName] == "Thrillsteel" && [StashItem] == "true"				//ÃÍ¹¥î^
 
-[Type] == "Forbidden Tome" #[StashItem] == "true" // ½û¼ÉÖ®•ø
+//[Type] == "Forbidden Tome" #[StashItem] == "true" // ½û¼ÉÖ®•ø
 
 //3.22¼¾³õ‚÷ËÍéT
-[Type] == "Portal" #		[StashItem] == "true"//‚÷ËÍéT
+//[Type] == "Portal" #		[StashItem] == "true"//‚÷ËÍéT
 
-[Type] == "Forbidden Tome" #[StashItem] == "true" // ¸T§Ò¤§®Ñ
+//[Type] == "Forbidden Tome" #[StashItem] == "true" // ¸T§Ò¤§®Ñ
 
 
 //‚É²éˆó¸æ
