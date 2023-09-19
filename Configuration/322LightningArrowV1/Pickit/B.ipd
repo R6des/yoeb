@@ -46,7 +46,7 @@
 //[Type] == "Two-Stone Ring" && [Rarity] == "Unique" # 	[UniqueName] == "Berek's Grip" && [StashItem] == "true"				//?雷克的冰與雷之曲
 //[Type] == "Two-Stone Ring" && [Rarity] == "Unique" # 	[UniqueName] == "Berek's Pass" && [StashItem] == "true"				//?雷克的冰與火之歌
 //[Type] == "Amethyst Ring" && [Rarity] == "Unique" # 	[UniqueName] == "Death Rush" && [StashItem] == "true"				//亡者呼喚 紫晶戒指
-[Type] == "Jade Amulet" && [Rarity] == "Unique" # 		[UniqueName] == "Hyrri's Truth" && [StashItem] == "true"		//西里的真理
+//[Type] == "Jade Amulet" && [Rarity] == "Unique" # 		[UniqueName] == "Hyrri's Truth" && [StashItem] == "true"		//西里的真理
 //[Type] == "Primal Arrow Quiver" && [Rarity] == "Unique" # [UniqueName] == "The Poised Prism" && [StashItem] == "true"			//?雅迷鏡
 
 
@@ -290,9 +290,9 @@
 [Type] == "Timeless Templar Emblem" # 			[StashItem] == "true"//永恆聖宗徽印拾取且存倉
 [Type] == "Timeless Vaal Emblem"# 			[StashItem] == "true"//永恆瓦?徽印拾取且存倉
 
-[Type] == "Empower Support" #		[StashItem] == "true"//賦予輔助拾取且存倉
+//[Type] == "Empower Support" #		[StashItem] == "true"//賦予輔助拾取且存倉
 //[Type] == "Enhance Support" #		[StashItem] == "true"//增幅輔助不撿不存倉
-[Type] == "Enlighten Support" #		[StashItem] == "true"//啟蒙輔助拾取且存倉
+//[Type] == "Enlighten Support" #		[StashItem] == "true"//啟蒙輔助拾取且存倉
 
 [Type] == "The Apothecary" #		[StashItem] == "true" //?劑?
 [Type] =="Incandescent Invitation" #	[StashItem] == "true" //熾熱之邀
