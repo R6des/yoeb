@@ -41,13 +41,13 @@
 [Type] == "Zodiac Leather" && [Rarity] == "Unique" # 	[UniqueName] == "Hyrri's Ire" && [StashItem] == "true"				//西里的戰衣星辰皮甲
 [Type] == "Titan Gauntlets" && [Rarity] == "Unique" # 	[UniqueName] == "Kaom's Spirit" && [StashItem] == "true"			//岡姆之魂
 [Type] == "Rawhide Boots" && [Rarity] == "Unique" # 	[UniqueName] == "Seven-League Step" && [StashItem] == "true"			//盟誓之跡
-//[Type] == "Rustic Sash" && [Rarity] == "Unique" # 		[UniqueName] == "Prismweave" && [StashItem] == "true"			//幻彩菱? 腰帶
+[Type] == "Rustic Sash" && [Rarity] == "Unique" # 		[UniqueName] == "Prismweave" && [StashItem] == "true"			//幻彩菱? 腰帶
 [Type] == "Two-Stone Ring" && [Rarity] == "Unique" # 	[UniqueName] == "Berek's Respite" && [StashItem] == "true"			//?雷克的火與雷之樂
-//[Type] == "Two-Stone Ring" && [Rarity] == "Unique" # 	[UniqueName] == "Berek's Grip" && [StashItem] == "true"				//?雷克的冰與雷之曲
-//[Type] == "Two-Stone Ring" && [Rarity] == "Unique" # 	[UniqueName] == "Berek's Pass" && [StashItem] == "true"				//?雷克的冰與火之歌
+[Type] == "Two-Stone Ring" && [Rarity] == "Unique" # 	[UniqueName] == "Berek's Grip" && [StashItem] == "true"				//?雷克的冰與雷之曲
+[Type] == "Two-Stone Ring" && [Rarity] == "Unique" # 	[UniqueName] == "Berek's Pass" && [StashItem] == "true"				//?雷克的冰與火之歌
 //[Type] == "Amethyst Ring" && [Rarity] == "Unique" # 	[UniqueName] == "Death Rush" && [StashItem] == "true"				//亡者呼喚 紫晶戒指
 [Type] == "Jade Amulet" && [Rarity] == "Unique" # 		[UniqueName] == "Hyrri's Truth" && [StashItem] == "true"		//西里的真理
-//[Type] == "Primal Arrow Quiver" && [Rarity] == "Unique" # [UniqueName] == "The Poised Prism" && [StashItem] == "true"			//?雅迷鏡
+[Type] == "Primal Arrow Quiver" && [Rarity] == "Unique" # [UniqueName] == "The Poised Prism" && [StashItem] == "true"			//?雅迷鏡
 
 //2023/05/01解挑戰用
 //勢力物品
@@ -241,27 +241,27 @@
 [Type] == "Awakened Sextant" # 			[StashItem]  == "true"	//六分
 //[Type] == "Blacksmith's Whetstone" # 		[StashItem]	 == "true"	//磨刀石
 //[Type] == "Armourer's Scrap" # 			[StashItem]	 == "true"	//護甲片
-//[Type] == "Glassblower's Bauble" # 		[StashItem]	 == "true"	//玻璃?珠
+[Type] == "Glassblower's Bauble" # 		[StashItem]	 == "true"	//玻璃?珠
 //[Type] == "Blessed Orb" # 			[StashItem]	 == "true"	//祝福石
 [Type] == "Chaos Orb" # 			[StashItem]	 == "true"	//混沌石
-//[Type] == "Chromatic Orb" # 			[StashItem]	 == "true"	//幻色石
+[Type] == "Chromatic Orb" # 			[StashItem]	 == "true"	//幻色石
 [Type] == "Divine Orb" # 			[StashItem]	 == "true"	//神聖石
 [Type] == "Exalted Orb" # 			[StashItem]	 == "true"	//崇高石
-//[Type] == "Gemcutter's Prism" # 		[StashItem]	 == "true"	//?石匠的?鏡
-//[Type] == "Jeweller's Orb" # 			[StashItem]	 == "true"	//工匠石
+[Type] == "Gemcutter's Prism" # 		[StashItem]	 == "true"	//?石匠的?鏡
+[Type] == "Jeweller's Orb" # 			[StashItem]	 == "true"	//工匠石
 [Type] == "Mirror of Kalandra" # 		[StashItem]	 == "true"	//卡蘭德的魔鏡
-//[Type] == "Orb of Alchemy" # 			[StashItem]	 == "true"	//點金石
+[Type] == "Orb of Alchemy" # 			[StashItem]	 == "true"	//點金石
 [Type] == "Orb of Alteration" # 		[StashItem]	 == "true"	//改造石
 //[Type] == "Orb of Transmutation" # 		[StashItem]	 == "true"	//??石
 //[Type] == "Orb of Augmentation" # 		[StashItem]	 == "true"	//增幅石
-//[Type] == "Orb of Chance" # 			[StashItem]	 == "true"	//機會石
-//[Type] == "Orb of Fusing" # 			[StashItem]	 == "true"	//?結石
+[Type] == "Orb of Chance" # 			[StashItem]	 == "true"	//機會石
+[Type] == "Orb of Fusing" # 			[StashItem]	 == "true"	//?結石
 //[Type] == "Orb of Regret" # 			[StashItem]	 == "true"	//後悔石
 //[Type] == "Orb of Scouring" # 			[StashItem]	 == "true"	//重鑄石
 [Type] == "Perandus Coin" # 			[StashItem]	 == "true"	//普蘭德斯金幣
 //[Type] == "Regal Orb" # 			[StashItem]	 == "true"	//富豪石
 //[Type] == "Silver Coin" # 			[StashItem]	 == "true"	//銀幣
-//[Type] == "Vaal Orb" # 				[StashItem]	 == "true"	//瓦??珠
+[Type] == "Vaal Orb" # 				[StashItem]	 == "true"	//瓦??珠
 //[Type] == "Cartographer's Chisel" # 		[StashItem]	 == "true"	//製圖?
 [Type] == "Orb of Annulment" # 			[StashItem]	 == "true"	//無效石
 //[Type] == "Orb of Binding" # 			[StashItem]	 == "true"	//束縛石
@@ -293,9 +293,9 @@
 [Type] == "Timeless Templar Emblem" # 			[StashItem] == "true"//永恆聖宗徽印拾取且存倉
 [Type] == "Timeless Vaal Emblem"# 			[StashItem] == "true"//永恆瓦?徽印拾取且存倉
 
-[Type] == "Empower Support" #		[StashItem] == "true"//賦予輔助拾取且存倉
+//[Type] == "Empower Support" #		[StashItem] == "true"//賦予輔助拾取且存倉
 //[Type] == "Enhance Support" #		[StashItem] == "true"//增幅輔助不撿不存倉
-[Type] == "Enlighten Support" #		[StashItem] == "true"//啟蒙輔助拾取且存倉
+//[Type] == "Enlighten Support" #		[StashItem] == "true"//啟蒙輔助拾取且存倉
 
 [Type] == "The Apothecary" #		[StashItem] == "true" //?劑?
 [Type] =="Incandescent Invitation" #	[StashItem] == "true" //熾熱之邀
