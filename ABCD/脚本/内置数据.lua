@@ -52,7 +52,7 @@ SetUseTuTengData("artillery_ballista_totem","Metadata/Monsters/Totems/MortarTote
 --buffClassName ÔöÒæÀàÃû ×Ö·û´®ÐÍ Èç¹ûÓÐÕâ¸öÔöÒæ ¾Í²»Ê¹ÓÃ
 --funcNeedUse Ê¹ÓÃµÄ¼ì²âº¯Êý£¬ÄãÃÇ²»ÐèÒªÌî£¬ÊÇ¸ø×÷ÕßÓÃÀ´Ìí¼ÓÌØÊâ¼¼ÄÜµÄ½Ó¿Ú ÌînilºöÂÔ
 AddUseSkillData(2,"°µÓ°ÃÔ×Ù","phase_run")
-AddUseSkillData(1,"µòÁãÖ®²½","slither")
+AddUseSkillData(1,"µòÁãÖ®²½","wlither")
 AddUseSkillData(1,"¹ÇÖÆÕ½¼×","bone_armour")
 AddUseSkillData(1,"ÈÛÑÒ»¤¶Ü","molten_shell_barrier")
 AddUseSkillData(1,"¸ÖÌúÖ®·ô","steelskin")
@@ -99,8 +99,8 @@ SetUseBuffSkill("»îÁ¦","vitality","»îÁ¦¹â­h","player_aura_life_regen")--
 SetUseBuffSkill("òœ°Á","physical_damage_aura","òœ°Á","player_physical_damage_aura")--
 
 SetUseBuffSkill("¾«œÊ","aura_accuracy_and_crits","¾«œÊ¹â­h","player_aura_accuracy_and_crits")--
-SetUseBuffSkill("Ñ¸½Ý","haste","Ñ¸½Ý¹â­h","player_aura_speed")--
-SetUseBuffSkill("ƒžÑÅ","grace","ƒžÑÅ¹â­h","player_aura_evasion")--
+--SetUseBuffSkill("Ñ¸½Ý","haste","Ñ¸½Ý¹â­h","player_aura_speed")--
+--SetUseBuffSkill("ƒžÑÅ","grace","ƒžÑÅ¹â­h","player_aura_evasion")--
 SetUseBuffSkill("Ô÷ºÞ","hatred","Ô÷ºÞ¹â­h","player_aura_cold_damage")--
 SetUseBuffSkill("±ùËªœQ»¯","cold_resist_aura","±ùÀäœQ»¯¹â­h","player_aura_cold_resist")--
 
@@ -154,7 +154,6 @@ SetAtuoChangeEquipData("°µÓ°|Ò°ÂùÈË|¾ö¶·Õß|Å®Î×|ÓÎÏÀ|Ê¥ÌÃÎäÉ®","½äÖ¸|ÏîÁ´|Ñü´ø|Ð
 SetAtuoChangeEquipData("°µÓ°|Ò°ÂùÈË|¾ö¶·Õß|Å®Î×|ÓÎÏÀ|Ê¥ÌÃÎäÉ®","Ä§Á¦Ò©¼Á","local_flask_mana_recovery_occurs_instantly_at_end_of_flask_effect",-3000)--¶Ô°üº¬ CD½áÊøÊ±²Å»Ø¸´À¶ µÄÒ©Æ¿½øÐÐ¼õ·Ö²Ù×÷
 SetAtuoChangeEquipData("°µÓ°|Ò°ÂùÈË|¾ö¶·Õß|Å®Î×|ÓÎÏÀ|Ê¥ÌÃÎäÉ®","ÉúÃüÒ©¼Á","local_unique_flask_cannot_recover_life_while_healing",-3000)--¶Ô°üº¬ CD½áÊøÊ±²Å»Ø¸´ÉúÃü µÄÒ©Æ¿½øÐÐ¼õ·Ö²Ù×÷
 
-SetGoodsCaoZuo(nil,"0|1",nil,nil,nil,nil,nil,nil,"0|1|2",nil,nil,nil,true,nil,function(gd)return not g_setAllSkillGemOk end )--¼¼ÄÜ±¦Ê¯Î´È«²¿×°±¸ÉÏ¾Í Ê°È¡ ³öÊÛÀ¶É« °×É« »ÆÉ«µÄÈýÉ«ÏàÁ¬×°±¸
 --ÏÂÃæÕâÌõ¿É°´ÖÖ×ÓµÈ¼¶ÉèÖÃ½»Ò× ÐèÒªµÄ¿ÉÒÔÊ¹ÓÃËû
 --SetJiaoYiGoods("HarvestSeed",nil,nil,nil,nil,nil,nil,nil,nil,nil,nil,nil,function(goodsData)return goodsData.harvestSeedLv>=76 end)--ÉèÖÃÖÖ×ÓµÈ¼¶´óÓÚµÈÓÚ76µÄÖÖ×Ó½»Ò×
 

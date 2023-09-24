@@ -35,7 +35,7 @@ g_xiaoHaoGetZhuangBei=false		--挂机号向发装仓库号申请领高级换装中的装备 true为申
 
 
 --SetNeedAddTianFu(tfStr)--设置异界天赋加点 
-
+SetNeedAddTianFu("异界地图天赋=atlas_boss_adjacent_maps_2-相鄰地圖掉落機率|atlas_path_11-相鄰地圖掉落機率|atlas_path_23_-相鄰地圖掉落機率|atlas_boss_adjacent_maps_1-相鄰地圖掉落機率|atlas_boss_adjacent_maps_8-相鄰地圖掉落機率|atlas_kirac_1_10-基拉克任務機率|atlas_kirac_1_9-基拉克任務機率|atlas_zana_1_6-重點偵察|atlas_kirac_1_8_-基拉克任務機率|atlas_kirac_1_7-基拉克任務機率|atlas_path_96-掉落複製地圖|atlas_map_tier_5_1-高階地圖機率|atlas_map_tier_5_2-高階地圖機率|atlas_map_tier_4_1-高階地圖機率|atlas_map_tier_3_1-高階地圖機率|atlas_map_tier_3_2-高階地圖機率|atlas_path_94-掉落複製地圖|atlas_map_drops_8-掉落複製地圖|atlas_path_92-掉落複製地圖|atlas_path_61-物品數量|atlas_path_44-物品數量|atlas_path_35-物品數量|atlas_path_90-掉落複製地圖|atlas_keystone_smallnodes_1-流浪之路|atlas_path_38-相鄰地圖掉落機率|atlas_path_21-相鄰地圖掉落機率|atlas_path_27-相鄰地圖掉落機率|atlas_map_tier_2_1-高階地圖機率|atlas_map_tier_2_2-高階地圖機率|atlas_path_37-相鄰地圖掉落機率|atlas_path_30-相鄰地圖掉落機率|atlas_path_18-相鄰地圖掉落機率|atlas_map_tier_1_2_-高階地圖機率|atlas_map_tier_1_1-高階地圖機率|atlas_path_6-相鄰地圖掉落機率|atlas_path_8-相鄰地圖掉落機率|atlas_path_5-相鄰地圖掉落機率|atlas_path_13-相鄰地圖掉落機率|atlas_path_10-相鄰地圖掉落機率|atlas_path_19-相鄰地圖掉落機率|atlas_path_1-相鄰地圖掉落機率|atlas_path_20-相鄰地圖掉落機率|atlas_path_9-相鄰地圖掉落機率|atlas_path_22-相鄰地圖掉落機率|atlas_path_12-相鄰地圖掉落機率|atlas_path_24_-相鄰地圖掉落機率|atlas_path_16-相鄰地圖掉落機率|atlas_path_25_-相鄰地圖掉落機率|atlas_map_drops_4-掉落複製地圖|atlas_path_83-掉落複製地圖|atlas_map_drops_5-掉落複製地圖|atlas_path_84-掉落複製地圖|atlas_path_95-掉落複製地圖|atlas_map_drops_9-掉落複製地圖|atlas_map_drops_15-掉落複製地圖|atlas_path_82-掉落複製地圖|atlas_map_drops_14-掉落複製地圖|atlas_map_drops_16-掉落複製地圖|atlas_map_drops_1-掉落複製地圖|atlas_map_drops_2-掉落複製地圖|atlas_map_drops_20-掉落複製地圖|")
 
 --添加在做到某个任务时购买技能宝石
 --AddNeedBuySkillTime(city,task)-- city=城市索引数值型 1-11 task=任务类名 字符串型 任务类名可以在调试窗口中点击 所有任务 按钮查看到
@@ -166,7 +166,7 @@ g_yuyanCnt=nil				--够多少银币去预言，小于10银币或填nil将不会触发 如果设定去预言
 --SetNotMapGoMap(className,cnt) 设置无地图或未到等级时要刷的剧情地图 className字符串型 地图类名 cnt=次数
 SetNotMapGoMap("2_9_1",10)	--无地图时刷血色通道
 
-g_yiJieLv=90				--够了多少级才去刷异界
+g_yiJieLv=72				--够了多少级才去刷异界
 g_checkSellMapCnt=100		--地图超过这个数量才会检测出售地图
 g_destroyNoUseMap=true		--销毁上面设置不使用的地图 nil或false为不销毁
 g_mapUseFuHaoLv=78			--大于等于多少级对蓝图使用富豪石 nil为永远不使用
@@ -364,8 +364,35 @@ SetGoodsCaoZuo(nil,"1|3",nil,"Metadata/Items/Metamorphosis/MetamorphosisLiver")-
 SetGoodsCaoZuo(nil,"1|3",nil,"Metadata/Items/Metamorphosis/MetamorphosisLung")--鍊魔肺臟不捡
 SetGoodsCaoZuo(nil,"1|3",nil,"Metadata/Items/Metamorphosis/MetamorphosisHeart")--鍊魔心臟不捡
 
-
-
+SetGoodsCaoZuo("异界地图","1|3","怒浪之港","Metadata/Items/Maps/MapWorldsPier")
+SetGoodsCaoZuo("异界地图","1|3","硫磺蚀岸","Metadata/Items/Maps/MapWorldsSulphurVents")
+SetGoodsCaoZuo("异界地图","1|3","如履危牆","Metadata/Items/Maps/MapWorldsLookout")
+SetGoodsCaoZuo("异界地图","1|3","古競速場","Metadata/Items/Maps/MapWorldsRacecourse")
+SetGoodsCaoZuo("异界地图","1|3","血腥沼澤","Metadata/Items/Maps/MapWorldsPrimordialPool")
+SetGoodsCaoZuo("异界地图","1|3","陰晦泥灘","Metadata/Items/Maps/MapWorldsMudGeyser")
+SetGoodsCaoZuo("异界地图","1|3","魔金寶庫","Metadata/Items/Maps/MapWorldsVault")
+SetGoodsCaoZuo("异界地图","1|3","荒涼牧野","Metadata/Items/Maps/MapWorldsLeyline")
+SetGoodsCaoZuo("异界地图","1|3","廣場","Metadata/Items/Maps/MapWorldsPlaza")
+SetGoodsCaoZuo("异界地图","1|3","園林苑","Metadata/Items/Maps/MapWorldsPark")
+SetGoodsCaoZuo("异界地图","1|3","激戰柱廊","Metadata/Items/Maps/MapWorldsColonnade")
+SetGoodsCaoZuo("异界地图","1|3","熔火岩灘","Metadata/Items/Maps/MapWorldsEstuary")
+SetGoodsCaoZuo("异界地图","1|3","暮光海灘","Metadata/Items/Maps/MapWorldsShore")
+SetGoodsCaoZuo("异界地图","1|3","奇術之庭","Metadata/Items/Maps/MapWorldsCourtyard")
+SetGoodsCaoZuo("异界地图","1|3","驚懼樹叢","Metadata/Items/Maps/MapWorldsThicket")
+SetGoodsCaoZuo("异界地图","1|3","寧逸溫房","Metadata/Items/Maps/MapWorldsConservatory")
+SetGoodsCaoZuo("异界地图","1|3","聖殿","Metadata/Items/Maps/MapWorldsBasilica")
+SetGoodsCaoZuo("异界地图","1|3","危機海礁","Metadata/Items/Maps/MapWorldsReef")
+SetGoodsCaoZuo("异界地图","1|3","遺跡廢墟","Metadata/Items/Maps/MapWorldsCastleRuins")
+SetGoodsCaoZuo("异界地图","1|3","炙陽峽谷","Metadata/Items/Maps/MapWorldsCanyon")
+SetGoodsCaoZuo("异界地图","1|3","古堡","Metadata/Items/Maps/MapWorldsChateau")
+SetGoodsCaoZuo("异界地图","1|3","荒地","Metadata/Items/Maps/MapWorldsWasteland")
+SetGoodsCaoZuo("异界地图","1|3","雲頂鐘樓","Metadata/Items/Maps/MapWorldsBelfry")
+SetGoodsCaoZuo("异界地图","1|3","魔金寶庫","Metadata/Items/Maps/MapWorldsVault")
+SetGoodsCaoZuo("异界地图","1|3","火山炎域","Metadata/Items/Maps/MapWorldsVolcano")
+SetGoodsCaoZuo("异界地图","1|3","古典密室","Metadata/Items/Maps/MapWorldsRelicChambers")
+SetGoodsCaoZuo("异界地图","1|3","死寂泥溝","Metadata/Items/Maps/MapWorldsWastePool")
+SetGoodsCaoZuo("异界地图","1|3","闇獄尖塔","Metadata/Items/Maps/MapWorldsTower")
+SetGoodsCaoZuo("异界地图","1|3","火山炎口","Metadata/Items/Maps/MapWorldsCaldera")
 
 SetGoodsCaoZuo("异界地图","1|3","致命岩灘","Metadata/Items/Maps/MapWorldsCursedCrypt",nil,nil,nil,nil,"3")
 SetGoodsCaoZuo("异界地图","1|3","濱海山丘","Metadata/Items/Maps/MapWorldsAtoll",nil,nil,nil,nil,"3")
