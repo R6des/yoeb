@@ -20,6 +20,8 @@
 //[Type] == "Sadist Garb" && [Rarity] == "Unique" # 		[UniqueName] == "Inpulsa's Broken Heart" && [StashItem] == "true"		//印卜薩
 //[Type] == "Riveted Boots" && [Rarity] == "Unique" # 		[UniqueName] == "Ralakesh's Impatience" && [StashItem] == "true"		//靜止三球鞋
 //[Type] == "Barbute Helmet" && [Rarity] == "Unique" # 		[UniqueName] == "Thrillsteel" && [StashItem] == "true"				//猛攻頭
+//[Type] == "Heatshiver" && [Rarity] == "Unique" # 	[UniqueName] == "Fleshcrafter" && [StashItem] == "true"				//
+
 
 //[Type] == "Forbidden Tome" #[StashItem] == "true" // 禁忌之書
 
@@ -47,7 +49,7 @@
 //[Type] == "Two-Stone Ring" && [Rarity] == "Unique" # 	[UniqueName] == "Berek's Pass" && [StashItem] == "true"				//?雷克的冰與火之歌
 //[Type] == "Amethyst Ring" && [Rarity] == "Unique" # 	[UniqueName] == "Death Rush" && [StashItem] == "true"				//亡者呼喚 紫晶戒指
 //[Type] == "Jade Amulet" && [Rarity] == "Unique" # 		[UniqueName] == "Hyrri's Truth" && [StashItem] == "true"		//西里的真理
-[Type] == "Primal Arrow Quiver" && [Rarity] == "Unique" # [UniqueName] == "The Poised Prism" && [StashItem] == "true"			//?雅迷鏡
+//[Type] == "Primal Arrow Quiver" && [Rarity] == "Unique" # [UniqueName] == "The Poised Prism" && [StashItem] == "true"			//?雅迷鏡
 
 //2023/05/01解挑戰用
 //勢力物品
