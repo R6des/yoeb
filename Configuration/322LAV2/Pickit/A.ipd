@@ -20,7 +20,7 @@
 //[Type] == "Sadist Garb" && [Rarity] == "Unique" # 		[UniqueName] == "Inpulsa's Broken Heart" && [StashItem] == "true"		//Ó¡²·Ë_
 //[Type] == "Riveted Boots" && [Rarity] == "Unique" # 		[UniqueName] == "Ralakesh's Impatience" && [StashItem] == "true"		//ìoÖ¹ÈýÇòÐ¬
 //[Type] == "Barbute Helmet" && [Rarity] == "Unique" # 		[UniqueName] == "Thrillsteel" && [StashItem] == "true"				//ÃÍ¹¥î^
-//[Type] == "Heatshiver" && [Rarity] == "Unique" # 	[UniqueName] == "Fleshcrafter" && [StashItem] == "true"				//
+[Type] == "Leather Hood" && [Rarity] == "Unique" # 	[UniqueName] == "Heatshiver" && [StashItem] == "true"				//
 
 
 //[Type] == "Forbidden Tome" #[StashItem] == "true" // ½û¼ÉÖ®•ø
