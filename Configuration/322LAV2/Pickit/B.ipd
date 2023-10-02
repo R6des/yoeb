@@ -39,7 +39,7 @@
 //[Type] == "Otherworldly Scouting Report" 		#[StashItem] == "true" // ³¬·²
 
 //¹­¼ýÊÖÌ×Ñb//
-//[Type] == "Praetor Crown" && [Rarity] == "Unique" # 	[UniqueName] == "Voll's Vision" && [StashItem] == "true"			//¸£?µÄßh?
+[Type] == "Praetor Crown" && [Rarity] == "Unique" # 	[UniqueName] == "Voll's Vision" && [StashItem] == "true"			//¸£?µÄßh?
 [Type] == "Zodiac Leather" && [Rarity] == "Unique" # 	[UniqueName] == "Hyrri's Ire" && [StashItem] == "true"				//Î÷ÀïµÄ‘ðÒÂÐÇ³½Æ¤¼×
 //[Type] == "Titan Gauntlets" && [Rarity] == "Unique" # 	[UniqueName] == "Kaom's Spirit" && [StashItem] == "true"			//ŒùÄ·Ö®»ê
 [Type] == "Rawhide Boots" && [Rarity] == "Unique" # 	[UniqueName] == "Seven-League Step" && [StashItem] == "true"			//ÃËÊÄÖ®ÛE
@@ -71,11 +71,11 @@
 //[Type] == "Divine Life Flask"&& 	[ItemLevel] >= "60" && [ItemLevel] <="100" # [StashItem] == "true" //²»ÐàÉúÃü?„©
 //[Type] == "Amethyst Flask"&& 		[ItemLevel] >= "84" && [ItemLevel] <="100" # [StashItem] == "true" //×Ï¾§
 //[Type] == "Bismuth Flask"&& 		[ItemLevel] >= "84" && [ItemLevel] <="100" # [StashItem] == "true" //»ÒÑÒ
-[Type] == "Silver Flask"&&	 		[ItemLevel] >= "85" && [ItemLevel] <="100" # [StashItem] == "true" //ÃÍ¹¥
-[Type] == "Diamond Flask"&& 		[ItemLevel] >= "85" && [ItemLevel] <="100" # [StashItem] == "true" //??
+//[Type] == "Silver Flask"&&	 		[ItemLevel] >= "85" && [ItemLevel] <="100" # [StashItem] == "true" //ÃÍ¹¥
+//[Type] == "Diamond Flask"&& 		[ItemLevel] >= "85" && [ItemLevel] <="100" # [StashItem] == "true" //??
 //[Type] == "Granite Flask"&& 		[ItemLevel] >= "84" && [ItemLevel] <="100" # [StashItem] == "true" //+1500×o¼×
 //[Type] == "Jade Flask"&& 			[ItemLevel] >= "84" && [ItemLevel] <="100" # [StashItem] == "true" //+1500éW±Ü
-[Type] == "Quicksilver Flask"&& 	[ItemLevel] >= "85" && [ItemLevel] <="100" # [StashItem] == "true" //ÅÜË®
+//[Type] == "Quicksilver Flask"&& 	[ItemLevel] >= "85" && [ItemLevel] <="100" # [StashItem] == "true" //ÅÜË®
 
 
 
