@@ -756,7 +756,7 @@ Show # 通貨 - 特殊 - 六分儀．高尚
     MinimapIcon 1 Blue Triangle
     PlayAlertSound 16 250
 
-Show # 通貨 - 特殊 - 測量員的羅盤
+Hide # 通貨 - 特殊 - 測量員的羅盤
     Class "Currency"
     BaseType "Surveyor's Compass"
     SetTextColor 100 50 0
@@ -766,7 +766,7 @@ Show # 通貨 - 特殊 - 測量員的羅盤
     MinimapIcon 2 Red Diamond
     PlayEffect Red
 
-Show # 通貨 - 特殊 - 充能的羅盤
+Hide # 通貨 - 特殊 - 充能的羅盤
     Class "Currency"
     BaseType "Charged Compass"
     SetTextColor 100 50 0
@@ -863,6 +863,17 @@ Show # 通貨 - 異能 - 異能無效石
 Show # 通貨 - 異能 - 異能混沌石
     Class "Currency"
     BaseType "Eldritch Chaos Orb"
+    SetTextColor 219 48 14
+    SetBackgroundColor 255 192 203
+    SetBorderColor 0 255 255
+    SetFontSize 45
+    MinimapIcon 0 Red Diamond
+    PlayEffect Red
+
+
+Hide # 通貨 -銀幣
+    Class "Currency"
+    BaseType "Silver Coin"
     SetTextColor 219 48 14
     SetBackgroundColor 255 192 203
     SetBorderColor 0 255 255
