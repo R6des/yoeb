@@ -1,18 +1,18 @@
 //3.22季初珠? ?品 ?劑
-[Type] == "Viridian Jewel" && [Rarity] == "Unique" # 		[UniqueName] == "Stormshroud" && [StashItem] == "true"				//風暴籠罩 綠
-[Type] == "Viridian Jewel" && [Rarity] == "Unique" # 		[UniqueName] == "Quickening Covenant" && [StashItem] == "true"			//復甦誓約 綠
-[Type] == "Cobalt Jewel" && [Rarity] == "Unique" # 		[UniqueName] == "Fortress Covenant" && [StashItem] == "true"			//壁壘誓約 藍 
-[Type] == "Crimson Jewel" && [Rarity] == "Unique" # 		[UniqueName] == "Primordial Might" && [StashItem] == "true"			//先祖力量 紅
-[Type] == "Topaz Ring" && [Rarity] == "Unique" # 		[UniqueName] == "Nimis" && [StashItem] == "true"				//尼米斯
-[Type] == "Topaz Ring" && [Rarity] == "Unique" # 		[UniqueName] == "Astral Projector" && [StashItem] == "true"			//星空之影
+//[Type] == "Viridian Jewel" && [Rarity] == "Unique" # 		[UniqueName] == "Stormshroud" && [StashItem] == "true"				//風暴籠罩 綠
+//[Type] == "Viridian Jewel" && [Rarity] == "Unique" # 		[UniqueName] == "Quickening Covenant" && [StashItem] == "true"			//復甦誓約 綠
+//[Type] == "Cobalt Jewel" && [Rarity] == "Unique" # 		[UniqueName] == "Fortress Covenant" && [StashItem] == "true"			//壁壘誓約 藍 
+//[Type] == "Crimson Jewel" && [Rarity] == "Unique" # 		[UniqueName] == "Primordial Might" && [StashItem] == "true"			//先祖力量 紅
+//[Type] == "Topaz Ring" && [Rarity] == "Unique" # 		[UniqueName] == "Nimis" && [StashItem] == "true"				//尼米斯
+//[Type] == "Topaz Ring" && [Rarity] == "Unique" # 		[UniqueName] == "Astral Projector" && [StashItem] == "true"			//星空之影
 //[Type] == "Sapphire Flask" && [Rarity] == "Unique" # 		[UniqueName] == "Taste of Hate" && [StashItem] == "true"			//恨意
 
 //3.22季初武器
 //[Type] == "Short Bow" && [Rarity] == "Unique" # 		[UniqueName] == "Quill Rain" && [StashItem] == "true"				//小雨
 //[Type] == "Prophecy Wand" && [Rarity] == "Unique" # 		[UniqueName] == "Void Battery" && [StashItem] == "true"				//?池
 //[Type] == "Fiend Dagger" && [Rarity] == "Unique" # 		[UniqueName] == "Arakaali's Fang" && [StashItem] == "true"			//蜘蛛刀
-[Type] == "Spine Bow" && [Rarity] == "Unique" # 		[UniqueName] == "Voltaxic Rift" && [StashItem] == "true"			//魔暴
-[Type] == "Imperial Skean" && [Rarity] == "Unique" # 		[UniqueName] == "Divinarius" && [StashItem] == "true"				//戒律之影
+//[Type] == "Spine Bow" && [Rarity] == "Unique" # 		[UniqueName] == "Voltaxic Rift" && [StashItem] == "true"			//魔暴
+//[Type] == "Imperial Skean" && [Rarity] == "Unique" # 		[UniqueName] == "Divinarius" && [StashItem] == "true"				//戒律之影
 //[Type] == "Imperial Bow" && [Rarity] == "Unique" # 		[UniqueName] == "Lioneye's Glare" && [StashItem] == "true"			//獅眼弓
 
 //3.22季初防具
@@ -39,7 +39,7 @@
 //[Type] == "Otherworldly Scouting Report" 		#[StashItem] == "true" // 超凡
 
 //弓箭手套裝//
-[Type] == "Praetor Crown" && [Rarity] == "Unique" # 	[UniqueName] == "Voll's Vision" && [StashItem] == "true"			//福?的遠?
+//[Type] == "Praetor Crown" && [Rarity] == "Unique" # 	[UniqueName] == "Voll's Vision" && [StashItem] == "true"			//福?的遠?
 [Type] == "Zodiac Leather" && [Rarity] == "Unique" # 	[UniqueName] == "Hyrri's Ire" && [StashItem] == "true"				//西里的戰衣星辰皮甲
 //[Type] == "Titan Gauntlets" && [Rarity] == "Unique" # 	[UniqueName] == "Kaom's Spirit" && [StashItem] == "true"			//岡姆之魂
 [Type] == "Rawhide Boots" && [Rarity] == "Unique" # 	[UniqueName] == "Seven-League Step" && [StashItem] == "true"			//盟誓之跡
@@ -196,7 +196,7 @@
 //[Type]=="Something Dark" #		[StashItem]	 == "true"	//黑暗的東西(藍圖)	拾取且存倉
 [Type] =="Gemcutter's Mercy" #		[StashItem]	 == "true"	//?石切割者的憐?(卓越?石)	拾取且存倉
 [Type] == "Awakened Sextant" # 		[StashItem]	 == "true"	//製圖六分儀．覺醒	拾取且存倉
-[Type] == "Stacked Deck" # 		[StashItem]	 == "true"	//豐裕牌組	拾取且存倉
+//[Type] == "Stacked Deck" # 		[StashItem]	 == "true"	//豐裕牌組	拾取且存倉
 
 
 //??
@@ -235,7 +235,7 @@
  //??時間：2022/7/5 ex比水?便宜的季末
  //通?
 //[Type] == "Orb of Unmaking"# 			[StashItem]  == "true"	//撤銷石
-[Type] == "Enkindling Orb"# 			[StashItem]  == "true"	//點燃石
+//[Type] == "Enkindling Orb"# 			[StashItem]  == "true"	//點燃石
 [Type] == "Orb of Annulment"# 			[StashItem]  == "true"	//無效
 [Type] == "Awakened Sextant" # 			[StashItem]  == "true"	//六分
 //[Type] == "Blacksmith's Whetstone" # 		[StashItem]	 == "true"	//磨刀石
