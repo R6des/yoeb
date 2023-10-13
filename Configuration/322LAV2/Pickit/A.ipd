@@ -117,7 +117,7 @@
 
 //[Category] 	== "Map" && [MapTier] >= "1"  && [Rarity] == "Unique"  #			[StashItem] == "true" //éÙ
 [Category] 	== "Map" && [map_contains_citadel]>= "1"  #							[StashItem] == "true" //Õ÷·ş
-[Category] 	== "Map" && [map_elder_boss_variation] >= "1"  #					[StashItem] == "true" //×ğ?
+[Category] 	== "Map" && [map_elder_boss_variation] >= "1"  #					[ForceSellItem] == "true" //×ğ?
 [Category] 	== "Map" && [map_atlas_influence_type] >= "1"  #					[StashItem] == "true" //ËÄÂ}
 
 //	Players are Cursed with Vulnerability	
