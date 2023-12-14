@@ -13,7 +13,7 @@ g_shengHuaJob="锐眼"
 --设置使用的武器 支持(盾}箭袋}爪}匕首|法杖|单手剑|细剑|单手斧|单手锤|符文匕首|短杖|战杖|弓|长杖|双手剑|双手斧|双手锤) 如果需要用两样中间用|分开
 SetUseWeapon("弓|箭袋")
 --设置自己用的装备类型 
-SetUseZhuangBeiTypeData("Dex|StrDex","衣服")
+SetUseZhuangBeiTypeData("StrDex","衣服")
 SetUseZhuangBeiTypeData("Dex|DexInt","头盔")
 SetUseZhuangBeiTypeData("Str|StrInt|Int","手套")
 SetUseZhuangBeiTypeData("Str|StrDex|Dex","鞋子")
@@ -29,23 +29,25 @@ g_duobiHpVal=0.2
 --pos=指定位置 nil为自动选择 2为衣服 3为主武器 4为副武器 5为头盔 6为项链 7为左戒指 8为右戒指 9为护手 10为鞋子 11为腰带
 --nType 有效场景 nil为无论何时都有效 0为没在刷异界才有效 1为只在刷异界才有效
 
+SetNeedSkillLineData(90,"瓦爾．閃電箭矢,nil",12,nil,nil)
 SetNeedSkillLineData(93,"燃燒箭矢,nil|氣勢輔助,nil",2,nil,0)
-SetNeedSkillLineData(94,"火砲砲塔,nil|快速攻擊輔助,nil|元素攻擊傷害輔助,nil|多重圖騰輔助,nil",nil,nil,0,nil,nil,nil,nil,nil,nil,nil,nil,nil,30)
+SetNeedSkillLineData(94,"火砲砲塔,nil|快速攻擊輔助,nil",nil,nil,0,nil,nil,nil,nil,nil,nil,nil,nil,nil,30)
 SetNeedSkillLineData(95,"魔改箭矢輔助,nil|狂怒,nil|暴擊獲得暴擊球輔助,nil|冰霜射擊,nil",nil,nil,0)
-SetNeedSkillLineData(96,"鋼筋鐵骨,nil|元素淨化,nil|憤怒,nil",nil,nil,0)
+SetNeedSkillLineData(96,"鋼筋鐵骨,nil|元素淨化,nil|憤怒,nil|啟蒙輔助,nil",nil,nil,0)
 SetNeedSkillLineData(97,"狙擊者印記,nil|召喚寒冰魔像,nil|擊中時印記輔助,nil",nil,nil,0)
 SetNeedSkillLineData(98,"彈片砲塔,nil|快速攻擊輔助,nil|猛毒投射物輔助,nil|齊射輔助,nil",30,nil,0)
 SetNeedSkillLineData(99,"電流箭矢,nil|附加冰冷傷害輔助,nil|元素攻擊傷害輔助,nil|幻影射手輔助,nil|附加火焰傷害輔助,nil",12,nil,0)
-SetNeedSkillLineData(100,"閃電箭矢,nil,1|附加冰冷傷害輔助,nil|元素攻擊傷害輔助,nil|三體輔助,nil|啟發輔助,nil|幻影射手輔助,nil|附加火焰傷害輔助,nil",nil,nil,0,nil,nil,nil,nil,nil,nil,nil,nil,nil,12)
+SetNeedSkillLineData(100,"瓦爾．閃電箭矢,nil,1|附加冰冷傷害輔助,nil|元素攻擊傷害輔助,nil|三體輔助,nil|啟發輔助,nil|幻影射手輔助,nil|附加火焰傷害輔助,nil",nil,nil,0,nil,nil,nil,nil,nil,nil,nil,nil,nil,12)
 
 SetNeedSkillLineData(96,"魔改箭矢輔助,nil|冰霜射擊,nil|龍捲射擊,nil|元素打擊,nil",nil,10,1,nil,nil,nil,nil,nil,nil,nil,nil,true,nil)
 SetNeedSkillLineData(97,"元素淨化,nil|啟蒙輔助,nil|憤怒,nil|冰霜之捷,nil",nil,5,1,nil,nil,nil,nil,nil,nil,nil,nil,nil,nil)
 SetNeedSkillLineData(98,"擊中時印記輔助,nil|狙擊者印記,nil|狂戰,nil|鋼筋鐵骨,nil",nil,9,1,nil,nil,nil,nil,nil,nil,nil,nil,true,nil)
 SetNeedSkillLineData(99,"魔改箭矢輔助,nil|狂怒,nil|暴擊獲得暴擊球輔助,nil|箭雨,nil",nil,3,1,nil,nil,nil,nil,nil,nil,nil,nil,true,nil)
-SetNeedSkillLineData(100,"閃電箭矢,nil,1|附加冰冷傷害輔助,nil|元素攻擊傷害輔助,nil|三體輔助,nil|啟發輔助,nil|幻影射手輔助,nil",nil,2,1,nil,nil,nil,nil,nil,nil,nil,nil,nil,nil)
+SetNeedSkillLineData(100,"瓦爾．閃電箭矢,nil,1|附加冰冷傷害輔助,nil|元素攻擊傷害輔助,nil|三體輔助,nil|啟發輔助,nil|幻影射手輔助,nil",nil,2,1,nil,nil,nil,nil,nil,nil,nil,nil,nil,nil)
 
 
 --添加攻击技能 name=技能名 className=技能类名 noLine=不在直线就能攻击 挑选攻击技能会从上到下寻找，要把厉害的技能加在前面
+AddAttackSkillData("瓦爾．閃電箭矢","Lightning Arrow",false,100,0)--添加攻击技能
 AddAttackSkillData("閃電箭矢","Lightning Arrow",false,100,0)--添加攻击技能
 AddAttackSkillData("電流箭矢","Galvanic Arrow",false,50,0)--添加攻击技能
 AddAttackSkillData("燃燒箭矢","Burning Arrow")
@@ -113,11 +115,10 @@ SetZhengTiColorVarData(2,0,1,0,nil,100)
 SetZhengTiColorVarData(2,1,0,0,nil,60)
 SetZhengTiColorVarData(2,0,0,1,nil,50)
 
-SetZhengTiColorVarData(3,0,4,1,nil,500,true)
 SetZhengTiColorVarData(3,0,3,1,nil,400,true)
 SetZhengTiColorVarData(3,0,2,1,nil,300,true)
 SetZhengTiColorVarData(3,0,2,0,nil,200,true)
-SetZhengTiColorVarData(3,0,1,0,nil,10)
+SetZhengTiColorVarData(3,0,1,0,nil,100)
 
 SetZhengTiColorVarData(4,3,0,0,nil,300,true)
 SetZhengTiColorVarData(4,2,0,0,nil,200,true)
@@ -170,9 +171,9 @@ AddShengJiZhuangBeiGoodsData("富豪石","Metadata/Items/Currency/CurrencyUpgradeMa
 --wxWordName 身上跟背包都有没有指定装备时才无效 此为指定装备的词缀名字 如果不需要此功能请填nil
 --wxWordClassName 身上跟背包都有没有指定装备时才无效 此为指定装备的词缀类名 如果不需要此功能请填nil
 --val 分数 自己定义这件装给多少评分，填nil默认为9999分
-SetGaoJiHuanZhuangData("游侠","皇家獵弓","Metadata/Items/Weapons/TwoHandWeapons/Bows/Bow7","滅世","Doomfletch",nil,nil,nil,nil,nil,0,nil,nil,nil,nil,nil,nil,nil,nil,nil)
+
+SetGaoJiHuanZhuangData("游侠","簡易之袍","Metadata/Items/Armours/BodyArmours/BodyInt1","無盡之衣","Tabula Rasa",nil,nil,nil,nil,nil,nil,nil,nil,nil,nil,nil,nil,nil,nil,nil)
 SetGaoJiHuanZhuangData("游侠","領主戰冠","Metadata/Items/Armours/Helmets/HelmetStrInt10","福爾的遠見","Voll's Vision",nil,nil,nil,nil,nil,1,nil,nil,nil,nil,nil,nil,nil,nil,nil)
-SetGaoJiHuanZhuangData("游侠","星辰皮甲","Metadata/Items/Armours/BodyArmours/BodyDex16","西里的戰衣","Hyrri's Ire",nil,nil,nil,nil,nil,1,nil,nil,nil,nil,nil,nil,nil,nil,nil)
 SetGaoJiHuanZhuangData("游侠","蝮鱗手套","Metadata/Items/Armours/Gloves/GlovesStrDex6","埋火","Tanu Ahi",nil,nil,nil,nil,nil,1,nil,nil,nil,nil,nil,nil,nil,nil,nil)
 SetGaoJiHuanZhuangData("游侠","始祖箭袋","Metadata/Items/Quivers/QuiverNew13","優雅迷鏡","The Poised Prism",nil,nil,nil,nil,nil,1,nil,nil,nil,nil,nil,nil,nil,nil,nil)
 SetGaoJiHuanZhuangData("游侠","素布腰帶","Metadata/Items/Belts/Belt1","幻彩菱織","Prismweave",nil,nil,nil,nil,nil,1,nil,nil,nil,nil,nil,nil,nil,nil,nil)
@@ -181,7 +182,6 @@ SetGaoJiHuanZhuangData("游侠","三相戒指","Metadata/Items/Rings/Ring8","元素之章"
 SetGaoJiHuanZhuangData("游侠","黃玉戒指","Metadata/Items/Rings/Ring5","基加薩魯","Kikazaru",nil,nil,nil,8,nil,nil,nil,nil,nil,nil,nil,nil,nil,nil,nil)
 SetGaoJiHuanZhuangData("游侠","翠玉護身符","Metadata/Items/Amulets/Amulet4","西里的真理","Hyrri's Truth",nil,nil,nil,nil,nil,1,nil,nil,nil,nil,nil,nil,nil,nil,nil)
 
-SetJiaoYiGoods(nil,"皇家獵弓","Metadata/Items/Weapons/TwoHandWeapons/Bows/Bow7","滅世","Doomfletch","3",nil)
 SetJiaoYiGoods(nil,"簡易之袍","Metadata/Items/Armours/BodyArmours/BodyInt1","無盡之衣","Tabula Rasa","3",nil)
 SetJiaoYiGoods(nil,"皮帽","Metadata/Items/Armours/Helmets/HelmetDex1","金縷帽","Goldrim","3",nil)
 SetJiaoYiGoods(nil,"領主戰冠","Metadata/Items/Armours/Helmets/HelmetStrInt10","福爾的遠見","Voll's Vision","3",nil)
@@ -197,6 +197,7 @@ SetJiaoYiGoods(nil,"翠玉護身符","Metadata/Items/Amulets/Amulet4","西里的真理","H
 
 
 SetShopNotBuyGoods(啟蒙輔助,nil)--设置不去商店里买的东西
+SetShopNotBuyGoods(瓦爾．閃電箭矢,nil)--设置不去商店里买的东西
 
 --SetTaskShengJiData(taskClassName,taskIndex,shengjiMapClassName,needLv)--设置跑图时升级 taskClassName=任务类名 taskIndex=任务索引 nil为忽略，只匹配任务类名 shengjiMapClassName=要刷的地图类名 needLv=升级到多少级为止
 SetTaskShengJiData("a5q7",nil,"1_5_5",46,true)--做 到奇塔弗的受难 的时候刷纯净圣地到50级再进行下一任务
@@ -204,18 +205,22 @@ SetTaskShengJiData("a9q3",nil,"2_9_1",68,true)--做 到風暴飛刃 的时候刷滲血水道到
 
 SetTaskMiGongData("a8q7",nil,1)--大于等于a8q7级 做迷宫1
 SetTaskMiGongData("a10q1",nil,2)--大于等于a10q1 做迷宫2
-SetTaskMiGongDataByLv(78,3)--大于等于80级 做迷宫3
+SetTaskMiGongDataByLv(75,3)--大于等于80级 做迷宫3
 
+g_openQlkMaxMapTianFuCnt=nil--数值型 满多少天赋后不开奇拉克任务nil为一直开
+g_useMinLvMapTianFuCnt=100--地图天赋满多少点后 就从低阶地图开始取
+SetYiJieShuaTuModeByMapCnt(60,nil,2)--)--根据仓库里的地图数量设置异界刷图模式 可添加多个 他是从地图数量多到少来判断的
+SetOpenMapMasterData(3)
+g_notShuaBaiPao=true
 
-
-SetChangeLimitCnt("武器|衣服|头盔|手套|鞋子",2)
-SetChangeLimitCnt("腰带",3)
-SetChangeLimitCnt("项链|戒指",3)
+SetChangeLimitCnt("武器|衣服|头盔|手套|鞋子",0)
+SetChangeLimitCnt("腰带",0)
+SetChangeLimitCnt("项链|戒指",0)
 
 
 --SetNeedAddTianFu(tfStr)--设置天赋加点 
 
-SetNeedAddTianFu("游侠=attack_speed568-投射物傷害和命中|dexterity990-敏捷|dexterity992-敏捷|dexterity995-敏捷|perfect_aim591-彈道學|mana1479-魔力和藥劑效果|mana1478-原始精神|stun_recovery544-生命和避免暈眩|avoid_stun553-橡木之心|stun_recovery543-生命和避免暈眩|finesse993-嫻熟|intelligence957-智慧|dexterity848-敏捷|dexterity855-敏捷|dexterity856-敏捷|might770-無畏|savant903-盜贼工藝|dexterity872-敏捷|weapon_elemental_damage1263-武器元素傷害|weapon_elemental_damage1264-武器元素傷害|weapon_ele_notable1700-自然之力|dexterity865-敏捷|attack_speed1231-攻擊速度|attack_speed1645-攻擊速度|attack_speed1646-攻擊速度|attack_damage_notable2242-多重射擊|aura_area_of_effect1203-光環效果範圍|reduced_mana_reservation1199-保留效用|aura_effect_reservation_cost_notable1558-魅力|dexterity866-敏捷|dexterity864-敏捷|bow_damage506-弓的傷害|bow_damage_and_speed500-弓的攻擊速度|bow_damage505-弓的攻擊速度|bow_damage_and_speed501-弓的攻擊速度|deadly_draw680-飛矢宗師|mastery_bow34-弓專精-56951|dexterity860-敏捷|dexterity867-敏捷|intelligence927-智慧|intelligence926-智慧|mana1647-魔力|mind_drinker302-汲靈術|mastery_mana164-魔力專精-64875|projectile_damage1233-投射物傷害|projectile_damage_pierce1685-穿透|projectile_pierce_notable1687-穿射箭矢|life1415-生命|life_life_leech1629-嗜血者|mastery_life135-生命專精-47642|accuracy587-命中和暴擊率|accuracy586-命中和暴擊率|deadeye588-潛意識|damage_area_projectile_speed_2296-擊中時獲得生命和魔力|projectile_damage_projectile_speed1628-聰穎盜贼|mastery_leech127-偷取專精-62252|strength815-力量|dexterity981-敏捷|agility965-和諧之體|life703-生命|fitness617-血液抽取|life1220-生命|mental_acuity1046-詭計|critical_strike_chance1019-暴擊率|assassination1239-刺殺|evasion1692-閃避與元素抗性|evasion_resists_notable1691-死裡逃生|bow_damage_and_speed498-弓的傷害|greater_impact638-鷹靈祝福|mark_generic1224-對標記敵人的傷害|mark_generic1225-對標記敵人的傷害|mark_generic_notable1226-標記獵物|dexterity862-敏捷|life1216-生命|life1412-生命|alchemist532-藥草學|mastery_life146-生命專精-34242|dual_wield_damage2125-移動速度和法術壓抑|attack_move_speed_notable1792-疾步|dual_wield_damage726-移動速度和法術壓抑|claws_of_the_pride489-直覺|one_handed_damage636-武器元素傷害|shield_mastery440-自然合一|mastery_elemental99-元素專精-17942|bow_damage_and_speed499-弓暴擊率和加成|bow_damage_and_speed502-弓暴擊率和加成|bow_damage_and_speed496-弓暴擊率和加成|king_of_the_hill529-強弩之弦|mastery_life146-生命專精-34242|attack_channel_charge2394-法術壓抑|attack_channel_charge2393-法術壓抑|attack_channel_charge2395-法術壓抑|attack_channel_charge_notable2396-根深蒂固|mastery_attack14-法術壓抑專精-45317|dexterity861-敏捷|weapon_elemental_damage2163-武器元素傷害|weapon_elemental_damage2161-武器元素傷害，異常狀態機率|weapon_elemental_damage2162-武器元素傷害，異常狀態機率|weapon_elemental_damage_notable2165-太古之力|dexterity873-敏捷|bow_critical_strike_chance675-投射物攻擊暴擊率|bow_critical_strike_chance674-投射物攻擊暴擊率|heartpierce676-致命鋒芒|mastery_bow33-投射物專精-1167|dexterity858-敏捷|projectile_attacks2430-投射物傷害|projectile_attacks2433-投射物傷害和速度|projectile_attacks_notable2434-長射|life1167-生命和避免元素異常狀態|life1156-生命和避免元素異常狀態|life1120-生命和避免元素異常狀態|thick_skin1157-強化之膚|") 
+SetNeedAddTianFu("游侠=attack_speed568-投射物傷害和命中|dexterity990-敏捷|dexterity992-敏捷|dexterity995-敏捷|perfect_aim591-彈道學|mana1479-魔力和藥劑效果|mana1478-原始精神|stun_recovery544-生命和避免暈眩|avoid_stun553-橡木之心|stun_recovery543-生命和避免暈眩|finesse993-嫻熟|intelligence957-智慧|dexterity848-敏捷|dexterity855-敏捷|dexterity856-敏捷|might770-無畏|savant903-盜贼工藝|dexterity872-敏捷|weapon_elemental_damage1263-武器元素傷害|weapon_elemental_damage1264-武器元素傷害|weapon_ele_notable1700-自然之力|dexterity865-敏捷|attack_speed1231-攻擊速度|attack_speed1645-攻擊速度|attack_speed1646-攻擊速度|attack_damage_notable2242-多重射擊|aura_area_of_effect1203-光環效果範圍|reduced_mana_reservation1199-保留效用|aura_effect_reservation_cost_notable1558-魅力|dexterity866-敏捷|dexterity864-敏捷|bow_damage506-弓的傷害|bow_damage_and_speed500-弓的攻擊速度|bow_damage505-弓的攻擊速度|bow_damage_and_speed501-弓的攻擊速度|deadly_draw680-飛矢宗師|mastery_bow34-弓專精-56951|dexterity860-敏捷|dexterity867-敏捷|intelligence927-智慧|intelligence926-智慧|mana1647-魔力|mind_drinker302-汲靈術|mastery_mana164-魔力專精-64875|projectile_damage1233-投射物傷害|projectile_damage_pierce1685-穿透|projectile_pierce_notable1687-穿射箭矢|life1415-生命|life_life_leech1629-嗜血者|mastery_life135-生命專精-47642|accuracy587-命中和暴擊率|accuracy586-命中和暴擊率|deadeye588-潛意識|damage_area_projectile_speed_2296-擊中時獲得生命和魔力|projectile_damage_projectile_speed1628-聰穎盜贼|mastery_leech127-偷取專精-62252|strength815-力量|dexterity981-敏捷|agility965-和諧之體|life703-生命|fitness617-血液抽取|life1220-生命|mental_acuity1046-詭計|critical_strike_chance1019-暴擊率|assassination1239-刺殺|evasion1692-閃避與元素抗性|evasion_resists_notable1691-死裡逃生|bow_damage_and_speed498-弓的傷害|greater_impact638-鷹靈祝福|mark_generic1224-對標記敵人的傷害|mark_generic1225-對標記敵人的傷害|mark_generic_notable1226-標記獵物|dexterity862-敏捷|life1216-生命|life1412-生命|alchemist532-藥草學|mastery_life146-生命專精-34242|dual_wield_damage2125-移動速度和法術壓抑|attack_move_speed_notable1792-疾步|dual_wield_damage726-移動速度和法術壓抑|claws_of_the_pride489-直覺|one_handed_damage636-武器元素傷害|shield_mastery440-自然合一|mastery_elemental99-元素專精-17942|bow_damage_and_speed499-弓暴擊率和加成|bow_damage_and_speed502-弓暴擊率和加成|bow_damage_and_speed496-弓暴擊率和加成|king_of_the_hill529-強弩之弦|intelligence1993-智慧|jewel_slot1961-基礎珠寶插槽|dagger_damage264-匕首傷害|dagger_damage_and_critical_strike_chance465-匕首暴擊率和暴擊加成|dagger_damage_and_critical_strike_multiplier262-匕首暴擊率和加成|dagger_damage_and_critical_strike_multiplier263-匕首暴擊率和加成|dagger_global_crit_notable2527-背刺|claw_damage274-爪的傷害|claw_damage1809-爪的傷害和攻擊速度|claw_damage491-爪的傷害和攻擊速度|claw_damage1810-爪的傷害和攻擊速度|eagle_talons273-鵲爪|mastery_life146-生命專精-34242|attack_channel_charge2394-法術壓抑|attack_channel_charge2393-法術壓抑|attack_channel_charge2395-法術壓抑|attack_channel_charge_notable2396-根深蒂固|mastery_attack14-法術壓抑專精-45317|dexterity861-敏捷|weapon_elemental_damage2163-武器元素傷害|weapon_elemental_damage2161-武器元素傷害，異常狀態機率|weapon_elemental_damage2162-武器元素傷害，異常狀態機率|weapon_elemental_damage_notable2165-太古之力|dexterity873-敏捷|bow_critical_strike_chance675-投射物攻擊暴擊率|bow_critical_strike_chance674-投射物攻擊暴擊率|heartpierce676-致命鋒芒|mastery_bow33-投射物專精-1167|dexterity858-敏捷|projectile_attacks2430-投射物傷害|projectile_attacks2433-投射物傷害和速度|projectile_attacks_notable2434-長射|life1167-生命和避免元素異常狀態|life1156-生命和避免元素異常狀態|life1120-生命和避免元素異常狀態|thick_skin1157-強化之膚|") 
 SetNeedAddTianFu("游侠升华=AscendancyDeadeye3-投射物傷害、攻擊速度|AscendancyDeadeye14-集風|AscendancyDeadeye5-投射物傷害、命中率|AscendancyDeadeye4-彈射|AscendancyDeadeye17-投射物傷害、命中率|AscendancyDeadeye6-無限彈藥|AscendancyDeadeye19-投射物傷害、攻擊速度|AscendancyDeadeye20_-風之守衛|") 
-
+SetNeedAddTianFu("游侠珠宝=jewel_slot1961-基礎珠寶插槽-5-翠綠珠寶-Metadata/Items/Jewels/JewelDex-獅眼的隕落-Lioneye's Fall|") 
 
