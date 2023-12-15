@@ -71,11 +71,11 @@
 
 
 //ËŽË®//
-//[Type] == "Divine Life Flask"&& 	[ItemLevel] >= "60" && [ItemLevel] <="100" # [StashItem] == "true" //²»ÐàÉúÃüËŽ„©
-//[Type] == "Silver Flask"&& 		[ItemLevel] >= "85" && [ItemLevel] <="100" # [StashItem] == "true" //ÃÍ¹¥
-//[Type] == "Diamond Flask"&& 		[ItemLevel] >= "85" && [ItemLevel] <="100" # [StashItem] == "true" //Œšè
-//[Type] == "Jade Flask"&& 			[ItemLevel] >= "85" && [ItemLevel] <="100" # [StashItem] == "true" //+1500éW±Ü
-//[Type] == "Quicksilver Flask"&& 	[ItemLevel] >= "85" && [ItemLevel] <="100" # [StashItem] == "true" //ÅÜË®
+[Type] == "Divine Life Flask"&& 	[ItemLevel] >= "60" && [ItemLevel] <="100" # [StashItem] == "true" //²»ÐàÉúÃüËŽ„©
+[Type] == "Silver Flask"&& 		[ItemLevel] >= "60" && [ItemLevel] <="100" # [StashItem] == "true" //ÃÍ¹¥
+[Type] == "Diamond Flask"&& 		[ItemLevel] >= "60" && [ItemLevel] <="100" # [StashItem] == "true" //Œšè
+[Type] == "Jade Flask"&& 			[ItemLevel] >= "60" && [ItemLevel] <="100" # [StashItem] == "true" //+1500éW±Ü
+[Type] == "Quicksilver Flask"&& 	[ItemLevel] >= "60" && [ItemLevel] <="100" # [StashItem] == "true" //ÅÜË®
 
 
 //[Type] == "Amethyst Flask"&& 		[ItemLevel] >= "85" && [ItemLevel] <="100" # [StashItem] == "true" //×Ï¾§
