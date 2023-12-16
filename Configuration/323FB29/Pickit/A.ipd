@@ -21,7 +21,7 @@
 
 
 //3.22¼¾³õÎäÆ÷
-[Type] == "Short Bow" && [Rarity] == "Unique" #    [UniqueName] == "Quill Rain" && 				[StashItem] == "true"//Ð¡Óê
+//[Type] == "Short Bow" && [Rarity] == "Unique" #    [UniqueName] == "Quill Rain" && 				[StashItem] == "true"//Ð¡Óê
 [Type] == "Prophecy Wand" && [Rarity] == "Unique" #   [UniqueName] == "Void Battery" && 		[StashItem] == "true"//ëŠ³Ø
 [Type] == "Assassin Bow" && [Rarity] == "Unique" # [UniqueName] == "Darkscorn" && 				[StashItem] == "true"//Ò¹Ò÷
 [Type] == "Imperial Skean" && [Rarity] == "Unique" # [UniqueName] == "Divinarius" && 			[StashItem] == "true"//½äÂÉ
@@ -71,11 +71,11 @@
 
 
 //ËŽË®//
-[Type] == "Divine Life Flask"&& 	[ItemLevel] >= "60" && [ItemLevel] <="100" # [StashItem] == "true" //²»ÐàÉúÃüËŽ„©
-[Type] == "Silver Flask"&& 		[ItemLevel] >= "60" && [ItemLevel] <="100" # [StashItem] == "true" //ÃÍ¹¥
-[Type] == "Diamond Flask"&& 		[ItemLevel] >= "60" && [ItemLevel] <="100" # [StashItem] == "true" //Œšè
-[Type] == "Jade Flask"&& 			[ItemLevel] >= "60" && [ItemLevel] <="100" # [StashItem] == "true" //+1500éW±Ü
-[Type] == "Quicksilver Flask"&& 	[ItemLevel] >= "60" && [ItemLevel] <="100" # [StashItem] == "true" //ÅÜË®
+//[Type] == "Divine Life Flask"&& 	[ItemLevel] >= "60" && [ItemLevel] <="100" # [StashItem] == "true" //²»ÐàÉúÃüËŽ„©
+//[Type] == "Silver Flask"&& 		[ItemLevel] >= "60" && [ItemLevel] <="100" # [StashItem] == "true" //ÃÍ¹¥
+//[Type] == "Diamond Flask"&& 		[ItemLevel] >= "60" && [ItemLevel] <="100" # [StashItem] == "true" //Œšè
+//[Type] == "Jade Flask"&& 			[ItemLevel] >= "60" && [ItemLevel] <="100" # [StashItem] == "true" //+1500éW±Ü
+//[Type] == "Quicksilver Flask"&& 	[ItemLevel] >= "60" && [ItemLevel] <="100" # [StashItem] == "true" //ÅÜË®
 
 
 //[Type] == "Amethyst Flask"&& 		[ItemLevel] >= "85" && [ItemLevel] <="100" # [StashItem] == "true" //×Ï¾§
