@@ -115,7 +115,7 @@
 [Category] 	== "Map" && [MapTier] >= "16"  && [Rarity] == "Normal"  #			[StashItem] == "true" //白
 [Category] 	== "Map" && [MapTier] >= "16"  && [Rarity] == "Magic"  #			[StashItem] == "true" //藍
 //[Category] 	== "Map" && [MapTier] >= "16"  && [Rarity] == "Rare"  #				[StashItem] == "true" //黃
-//[Category]  == "Map" && [MapTier] >= "1"  && [Rarity] == "Unique"  #			[StashItem] == "true" //橘
+[Category]  == "Map" && [MapTier] >= "1"  && [Rarity] == "Unique"  #			[StashItem] == "true" //橘
 [Category] 	== "Map" && [map_contains_citadel]>= "1"  #							[StashItem] == "true" //征服
 [Category] 	== "Map" && [map_elder_boss_variation] >= "1"  #					[ForceSellItem] == "true" //尊?
 [Category] 	== "Map" && [map_atlas_influence_type] >= "1"  #					[StashItem] == "true" //四聖
