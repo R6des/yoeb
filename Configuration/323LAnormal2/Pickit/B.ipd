@@ -1,0 +1,419 @@
+//3.23有價紋身、預兆
+[Type] == "Omen of Connections" # 			[StashItem] == "true"////6L預兆
+[Type] == "Omen of Blanching" # 			[StashItem] == "true"////1~3白預兆
+[Type] == "Omen of the Jeweller" # 			[StashItem] == "true"////6S預兆
+[Type] == "Hinekora's Lock" # 				[StashItem] == "true"////髮絲
+[Type] == "Omen of Fortune" # 				[StashItem] == "true"////麻雀變鳳凰
+
+
+//3.22季初珠寶、飾品、藥劑
+[Type] == "Viridian Jewel" && [Rarity] == "Unique" #   	[UniqueName] == "Stormshroud" && [StashItem] == "true"    				//風暴籠罩 綠
+[Type] == "Viridian Jewel" && [Rarity] == "Unique" #   	[UniqueName] == "Quickening Covenant" && [StashItem] == "true"  		//復甦誓約 綠
+[Type] == "Crimson Jewel" && [Rarity] == "Unique" #   	[UniqueName] == "Primordial Might" && [StashItem] == "true"   			//先祖力量 紅
+[Type] == "Crimson Jewel" && [Rarity] == "Unique" # 	[UniqueName] == "Inertia" && [StashItem] == "true" 						//慣性
+[Type] == "Viridian Jewel" && [Rarity] == "Unique" #   	[UniqueName] == "Unnatural Instinct" && [StashItem] == "true"  			//神感
+[Type] == "Cobalt Jewel" && [Rarity] == "Unique" #   	[UniqueName] == "Fortress Covenant" && [StashItem] == "true"  			//堅壁誓約
+[Type] == "Topaz Ring" && [Rarity] == "Unique" # 		[UniqueName] == "Nimis" && [StashItem] == "true"						//尼米斯
+[Type] == "Topaz Ring" && [Rarity] == "Unique" # 		[UniqueName] == "Astral Projector" && [StashItem] == "true"				//星空之影
+[Type] == "Sapphire Flask" && [Rarity] == "Unique" # 	[UniqueName] == "Taste of Hate" && [StashItem] == "true"				//恨意
+
+[Type] == "Cobalt Jewel" && [Rarity] == "Unique" #   	[UniqueName] == "Fertile Mind" && [StashItem] == "true"   				//敏轉智
+[Type] == "A Mother's Parting Gift" #					[StashItem] == "true" //敏轉智卡
+
+//3.22季初武器
+//[Type] == "Short Bow" && [Rarity] == "Unique" #    [UniqueName] == "Quill Rain" && 				[StashItem] == "true"//小雨
+[Type] == "Prophecy Wand" && [Rarity] == "Unique" #   [UniqueName] == "Void Battery" && 		[StashItem] == "true"//電池
+[Type] == "Assassin Bow" && [Rarity] == "Unique" # [UniqueName] == "Darkscorn" && 				[StashItem] == "true"//夜吟
+[Type] == "Imperial Skean" && [Rarity] == "Unique" # [UniqueName] == "Divinarius" && 			[StashItem] == "true"//戒律
+[Type] == "Fiend Dagger" && [Rarity] == "Unique" #    [UniqueName] == "Arakaali's Fang" && 		[StashItem] == "true"//蜘蛛刀
+[Type] == "Spine Bow" && [Rarity] == "Unique" #    [UniqueName] == "Voltaxic Rift" && 			[StashItem] == "true"//魔暴
+[Type] == "Maata's Teaching Karui Sceptre" && [Rarity] == "Unique" # [UniqueName] == "" && 		[StashItem] == "true"//瑪塔的教導 卡魯權杖
+[Type] == "Ezomyte Staff" && [Rarity] == "Unique" # [UniqueName] == "The Fulcrum" && 			[StashItem] == "true"//支點 艾茲麥長杖
+[Type] == "Engraved Greatsword" && [Rarity] == "Unique" # [UniqueName] == "Rakiata's Dance" && 	[StashItem] == "true"//萊基亞塔的舞步
+
+
+//3.22季初防具
+[Type] == "Necromancer Silks" && [Rarity] == "Unique" #  [UniqueName] == "Fleshcrafter" && 		[StashItem] == "true"//人體匠師
+[Type] == "Sadist Garb" && [Rarity] == "Unique" #    [UniqueName] == "Inpulsa's Broken Heart" &&[StashItem] == "true"//印卜薩
+[Type] == "Murder Mitts" && [Rarity] == "Unique" # [UniqueName] == "Thunderfist" && 			[StashItem] == "true"//轟天雷
+[Type] == "Exquisite Leather" && [Rarity] == "Unique" # [UniqueName] == "Yriel's Fostering" && 	[StashItem] == "true"//伊瑞的栽培
+[Type] == "Riveted Boots" && [Rarity] == "Unique" # [UniqueName] == "Ralakesh's Impatience" && 	[StashItem] == "true"//芮勒蓋許的急躁
+[Type] == "Carnal Boots" && [Rarity] == "Unique" # [UniqueName] == "Corpsewalker" && 			[StashItem] == "true"//行屍走肉
+[Type] == "Leather Hood" && [Rarity] == "Unique" # 	[UniqueName] == "Heatshiver" && 			[StashItem] == "true"//寒焰
+//[Type] == "Wyrmscale Gauntlets" && [attack_speed_+_%] >= "1" && [Rarity] == "Unique" # 			[StashItem] == "true"//埋火
+[Type] == "Bone Circlet" && [Rarity] == "Unique" # [UniqueName] == "Wraithlord" && 				[StashItem] == "true"//幽魂頭
+
+
+[Type] == "Forbidden Tome" #[StashItem] == "true" // 禁忌之書
+
+//3.22季初傳送門
+[Type] == "Portal" #		[StashItem] == "true"//傳送門
+
+//偵查報告
+[Type] == "Influenced Scouting Report" 			#[StashItem] == "true" // 勢力
+[Type] == "Vaal Scouting Report" 			#[StashItem] == "true" // 瓦?
+[Type] == "Singular Scouting Report" 			#[StashItem] == "true" // 卓越
+[Type] == "Explorer's Scouting Report" 			#[StashItem] == "true" // 探險家
+[Type] == "Otherworldly Scouting Report" 		#[StashItem] == "true" // 超凡
+
+//弓箭手套裝//
+[Type] == "Praetor Crown" && [Rarity] == "Unique" # [UniqueName] == "Voll's Vision" && 				[StashItem] == "true"	//福爾的遠見
+[Type] == "Zodiac Leather" && [Rarity] == "Unique" # [UniqueName] == "Hyrri's Ire" && 				[StashItem] == "true"	//西里的戰衣星辰皮甲
+[Type] == "Titan Gauntlets" && [Rarity] == "Unique" # [UniqueName] == "Kaom's Spirit" &&			[StashItem] == "true"	//岡姆之魂
+[Type] == "Rawhide Boots" && [Rarity] == "Unique" # [UniqueName] == "Seven-League Step" && 			[StashItem] == "true"	//盟誓之跡
+[Type] == "Rustic Sash" && [Rarity] == "Unique" # [UniqueName] == "Prismweave" && 				[StashItem] == "true"	//幻彩菱織 腰帶
+[Type] == "Two-Stone Ring" && [Rarity] == "Unique" # [UniqueName] == "Berek's Respite" && 			[StashItem] == "true"	//貝雷克的火與雷之樂
+[Type] == "Two-Stone Ring" && [Rarity] == "Unique" # [UniqueName] == "Berek's Grip" && 				[StashItem] == "true"	//貝雷克的冰與雷之曲
+[Type] == "Two-Stone Ring" && [Rarity] == "Unique" # [UniqueName] == "Berek's Pass" && 				[StashItem] == "true"	//貝雷克的冰與火之歌
+[Type] == "Amethyst Ring" && [Rarity] == "Unique" # [UniqueName] == "Death Rush" && 				[StashItem] == "true"	//亡者呼喚 紫晶戒指
+[Type] == "Jade Amulet" && [Rarity] == "Unique" # [UniqueName] == "Hyrri's Truth" && 				[StashItem] == "true"	//西里的真理
+[Type] == "Primal Arrow Quiver" && [Rarity] == "Unique" # [UniqueName] == "The Poised Prism" && 		[StashItem] == "true"	//優雅迷鏡
+
+
+
+///2023/4/27  85?劑
+//[Type] == "Divine Life Flask"&& 	[ItemLevel] >= "60" && [ItemLevel] <="100" # [StashItem] == "true" //不朽生命?劑
+//[Type] == "Amethyst Flask"&& 		[ItemLevel] >= "84" && [ItemLevel] <="100" # [StashItem] == "true" //紫晶
+//[Type] == "Bismuth Flask"&& 		[ItemLevel] >= "84" && [ItemLevel] <="100" # [StashItem] == "true" //灰岩
+//[Type] == "Silver Flask"&&	 	[ItemLevel] >= "85" && [ItemLevel] <="100" # [StashItem] == "true" //猛攻
+//[Type] == "Diamond Flask"&& 		[ItemLevel] >= "85" && [ItemLevel] <="100" # [StashItem] == "true" //??
+//[Type] == "Granite Flask"&& 		[ItemLevel] >= "84" && [ItemLevel] <="100" # [StashItem] == "true" //+1500護甲
+//[Type] == "Jade Flask"&& 		[ItemLevel] >= "84" && [ItemLevel] <="100" # [StashItem] == "true" //+1500閃避
+//[Type] == "Quicksilver Flask"&& 	[ItemLevel] >= "85" && [ItemLevel] <="100" # [StashItem] == "true" //跑水
+
+
+
+
+//2023/04/13 新增要撿的雜物
+//沙塵暴怒手
+//[Type] == "Clasped Mitts" && [Rarity] == "Unique" # 	[StashItem]	 == "true"
+//埋火
+//[Type] == "Wyrmscale Gauntlets" && [attack_speed_+_%] >= "1" && [Rarity] == "Unique" # [StashItem]	 == "true" // 埋火
+
+//2023/04/11//3.21 新物品清單
+[Type] == "Igneous Geode" # 	[StashItem] == "true" // 火成晶洞
+[Type] == "Crystalline Geode" # [StashItem] == "true" // 水晶晶洞
+[Type] == "Magmatic Ore" # 		[StashItem] == "true" // 岩礦
+ 
+[Type] == "Brother's Gift" # 	[StashItem] == "true" // 兄弟之? 有價
+[Type] == "Soul Quenched" # 	[StashItem] == "true" // 靈魂安息 
+[Type] == "Poisoned Faith" # 	[StashItem] == "true" // 有毒信仰 初期有價
+[Type] == "A Chilling Wind" # 	[StashItem] == "true" // 凜冽之風 
+[Type] == "Matryoshka" # 		[StashItem] == "true" // 俄羅斯娃娃 有價
+
+[Type] == "Xoph's Flawless Breachstone" 		# [StashItem] == "true" // 索伏的無暇裂痕石
+[Type] == "Tul's Flawless Breachstone" 			# [StashItem] == "true" // 托沃的無暇裂痕石
+[Type] == "Esh's Flawless Breachstone" 			# [StashItem] == "true" // 艾許的無暇裂痕石
+[Type] == "Uul-Netol's Flawless Breachstone" 		# [StashItem] == "true" // 烏?尼多的無暇裂痕石
+[Type] == "Chayula's Flawless Breachstone" 		# [StashItem] == "true" // 夏烏拉的無暇裂痕石
+
+
+//2023/01
+[Type] == "Voidborn Reliquary Key" #  [StashItem]  == "true" // ?誕遺?
+
+//2022/12/24
+
+[Category] 	== "Map" && [MapTier] >= "16"  && [Rarity] == "Normal"  #			[StashItem] == "true" //白
+//[Category] 	== "Map" && [MapTier] >= "16"  && [Rarity] == "Magic"  #			[StashItem] == "true" //藍
+//[Category] 	== "Map" && [MapTier] >= "16"  && [Rarity] == "Rare"  #				[StashItem] == "true" //黃
+//[Category]  == "Map" && [MapTier] >= "1"  && [Rarity] == "Unique"  #			[StashItem] == "true" //橘
+[Category] 	== "Map" && [map_contains_citadel]>= "1"  #							[StashItem] == "true" //征服
+[Category] 	== "Map" && [map_elder_boss_variation] >= "1"  #					[ForceSellItem] == "true" //尊?
+[Category] 	== "Map" && [map_atlas_influence_type] >= "1"  #					[StashItem] == "true" //四聖
+
+
+//輝哥版
+//[Type] == "Temple Map" # [StashItem] == "true" // 奪魂之殿
+//[Type] == "Crimson Temple Map" # [StashItem] == "true" // 緋紅神殿
+//[Type] == "Temple Map" && [MapTier] <= "13" # [ForceSellItem] == "true"
+//[Type]=="Crimson Temple Map"&& [MapTier] <= "13" # [ForceSellItem] == "true"
+
+[Category] == "Map" && [Rarity] == "Rare" && [map_contains_citadel] >= "1" # [StashItem] == "true" // 13855 Citadel Maps
+[Category] == "Map" && [Rarity] == "Rare" && [map_elder_boss_variation] >= "1" # [StashItem] == "true" // 6551 Elder Maps
+[Type] == "Synthesised Map" # [StashItem] == "true" // 追憶系列地圖
+
+[Category] == "Map" && [Rarity] == "Rare" && [map_contains_citadel] >= "1" # [StashItem] == "true" // 13855 Citadel Maps
+[Category] == "Map" && [Rarity] == "Rare" && [map_elder_boss_variation] >= "1" # [StashItem] == "true" // 6551 Elder Maps																		
+[Type]== "Forge of the Phoenix Map"#[StashItem]== "true"//火鳳凰熔核 #																								
+[Type]== "Lair of the Hydra Map"#[StashItem]== "true"//九頭蛇冰窟 #																								
+[Type]== "Maze of the Minotaur Map"#[StashItem]== "true"//牛頭人謎域 #																								
+[Type]== "Pit of the Chimera Map"#[StashItem]== "true"//奇美拉魔坑 #	
+
+//	Players are Cursed with Vulnerability	
+	[Category] == "Map" && [map_contains_citadel] >= "1" && [Rarity] == "Rare" #			[StashItem]	=="true"	//存征服者
+//	[Category] == "Map" && [map_monsters_reflect_%_elemental_damage] >= "1" && [Rarity] == "Rare" #	[ForceSellItem]	=="true"	//怪物反射_%_元素傷害
+//	[Category] == "Map" && [map_monsters_reflect_%_physical_damage]>= "1" && [Rarity] == "Rare" #	[ForceSellItem]	=="true"	//怪物反射_%_物理傷害
+//	[Category] == "Map" && [map_players_no_regeneration_including_es]>= "1" && [Rarity] == "Rare" #	[ForceSellItem]	=="true"	//玩家無法回復生命、魔力和能量護盾
+//	[Category] == "Map" && [map_player_has_level_X_temporal_chains]>= "1" && [Rarity]="Rare" #	[ForceSellItem]	=="true"	//玩家受到時空鎖?詛咒影?
+//	[Category] == "Map" && [map_player_has_level_X_vulnrability]>= "1" && [Rarity]="Rare" #		[ForceSellItem]	=="true"	//玩家受到脆弱詛咒
+//	[Category] == "Map" && [map_player_has_level_X_enfeeble]>= "1" && [Rarity]="Rare" #		[ForceSellItem]	=="true"	//玩家受到衰弱詛咒影?
+//	[Category] == "Map" && [map_player_has_level_X_elemental_weakness]>= "1" && [Rarity]="Rare" #	[ForceSellItem]	=="true"	//玩家受到元素要害詛咒影?
+//	[Category] == "Map" && [map_rare_monsters_have_nemesis_mod]>= "1" && [Rarity]="Rare" #		[ForceSellItem]	=="true"	//稀有怪有復仇屬性
+//	[Category] == "Map" && [map_base_ground_fire_damage_to_deal_per_minute]>= "1"&&[Rarity]="Rare" #[ForceSellItem]	=="true"	//地圖裡有燃燒地面
+//	[Category] == "Map" && [map_ground_ice]>= "1" && [Rarity]="Rare" #				[ForceSellItem]	=="true"	//地圖裡有冰?地面
+//	[Category] == "Map" && [map_ground_lightning]>= "1" && [Rarity]="Rare" #			[ForceSellItem]	=="true"	//地圖裡有感?地面
+//	[Category] == "Map" && [map_base_ground_desecration_damage_to_deal_per_minute] >= "1"&&[Rarity]=="Rare" #[ForceSellItem]	=="true"	//汙染地面
+//	[Category] == "Map" && [map_players_block_chance_+%] < "0" && [Rarity] == "Rare" #		[ForceSellItem]	=="true"	//降低格檔
+//	[Category] == "Map" && [map_monsters_avoid_ailments_%] >= "1" && [Rarity] == "Rare #		[ForceSellItem]	=="true"	//地圖怪物避免元素?常狀態
+//	[Category] == "Map" && [map_additional_player_maximum_resistances_%] <"0"&&[Rarity]=="Rare" #	[ForceSellItem]	=="true"	//降低最大抗
+//	[Category] == "Map" && [map_monsters_cannot_be_leeched_from]  > "0" && [Rarity] == "Rare" # 	[ForceSellItem]	=="true"	//無法偷取
+//	[Category] == "Map" && [map_monsters_steal_charges] >= "1" && [Rarity] == "Rare" # 		[ForceSellItem]	=="true"	//怪物偷球
+
+
+//3.20新增 111年12月13日
+
+//3.20 12/11 開啟大量有價物品版本//
+
+
+//卡蘭德之觸
+[Type] == "Ring" && [Rarity] == "Unique" # 		[StashItem] == "true" // 卡蘭德戒指
+//[Type]=="Man With Bear" #				[StashItem] == "true" // 卡：熊男(狩獵聖甲蟲)
+//[Type]=="Alivia's Grace" #				[StashItem] == "true" // 卡：森后
+//[Type]=="Auspicious Ambitions" #			[StashItem] == "true" //劫盜百等武器
+[Type]=="Divine Beauty" #				[StashItem] == "true" //神聖石卡（有價）
+[Type]=="The Wedding Gift" #				[StashItem] == "true" //蜘蛛刀卡（有價）
+[Type]=="The Insane Cat" #				[StashItem] == "true" //魔血卡（有價）
+//[Type]=="Ever-Changing" #				[StashItem] == "true" //撤銷
+//[Type]=="A Dusty Memory" #				[StashItem] == "true" //
+//[Type]=="The Return of the Rat" #			[StashItem] == "true" //
+[Type]=="The Finishing Touch" #				[StashItem] == "true" //
+				
+[Type]=="Fracturing Orb" #				[StashItem] == "true" //破裂石
+[Type]=="Fracturing Shard" #				[StashItem] == "true" //破裂石碎片
+				
+//[Type]=="Urn Relic" #					[StashItem] == "true" //聖物1
+//[Type]=="Tome Relic" #				[StashItem] == "true" //聖物2
+//[Type]=="Coffer Relic" #				[StashItem] == "true" //聖物3
+//[Type]=="Censer Relic" #				[StashItem] == "true" //聖物4
+//[Type]=="Papyrus Relic" #				[StashItem] == "true" //聖物5
+//[Type]=="Candlestick Relic" #				[StashItem] == "true" //聖物6
+//[Type]=="Processional Relic"#				[StashItem] == "true" //聖物7
+				
+				
+//[Type]=="Sanctified Relic" #[StashItem] == "true" //3.20專屬聖物道具
+
+
+//下面是3.19以前
+
+//地圖//地圖//地圖//地圖//地圖//地圖//地圖//地圖//地圖//地圖//地圖//地圖//地圖//地圖//地圖//地圖//地圖//地圖//地圖//地圖//地圖//地圖//地圖//地圖//地圖//地圖
+
+
+[Type] == "Ring" && [Rarity] == "Unique" # 	[StashItem]	 == "true" //卡蘭德之觸
+[Type] == "Voidborn Reliquary Key" # 	[StashItem]	 == "true" // 虛誕鑰匙
+
+
+[Type]=="Divine Beauty" #[StashItem] == "true" //				神聖石卡（有價）
+[Type]=="The Wedding Gift" #[StashItem] == "true" //				蜘蛛刀卡（有價）
+[Type]=="The Insane Cat" #[StashItem] == "true" //				魔血卡（有價）
+[Type]=="Ever-Changing" #[StashItem] == "true" //				
+[Type]=="A Dusty Memory" #[StashItem] == "true" //				
+		
+[Type]=="The Finishing Touch" #[StashItem] == "true" //				
+				
+				
+[Type]=="Fracturing Orb" #[StashItem] == "true" //				破裂石
+[Type]=="Fracturing Shard" #[StashItem] == "true" //				破裂石碎片
+			
+ 
+[Type] == "Brother's Gift" # [StashItem] == "true" // 兄弟之贈 有價
+[Type] == "Soul Quenched" # [StashItem] == "true" // 靈魂安息 
+[Type] == "Poisoned Faith" # [StashItem] == "true" // 有毒信仰 初期有價
+[Type] == "A Chilling Wind" # [StashItem] == "true" // 凜冽之風 
+[Type] == "Matryoshka" # [StashItem] == "true" // 俄羅斯娃娃 有價				
+
+//[Type] == "Divine Vessel" # [StashItem] == "true" //
+
+//下面是3.19以前
+
+[Type] =="Maven's Invitation: The Elderslayers" #	[StashItem]	 == "true" 		//殺手	拾取且存倉
+[Type] =="Maven's Invitation: The Forgotten" #	[StashItem]	 == "true" 		//釋界之邀：遺忘	拾取且存倉
+[Type] =="Maven's Invitation: The Formed" #	[StashItem]	 == "true" 		//釋界之邀：塑型	拾取且存倉
+[Type] =="Maven's Invitation: The Twisted" #	[StashItem]	 == "true" 		//釋界之邀：扭曲	拾取且存倉
+
+//[Type] == "Last Hope" # 	[StashItem]	 == "true" // 1.0 C	//	最後希望(凡人的希望)	拾取且存倉
+
+//[Type] == "Sambodhi's Vow" # 	[StashItem]	 == "true" // 1.0 C	//	菩提誓約(凡人碎片)	拾取且存倉
+
+[Type]=="Gemcutter's Mercy" #	[StashItem]	 == "true"	//	//寶石切割者的憐憫(卓越寶石)	拾取且存倉
+
+[Type] == "Awakened Sextant" # 	[StashItem]	 == "true"	//	//製圖六分儀．覺醒	拾取且存倉
+
+[Type] == "Stacked Deck" # 	[StashItem]	 == "true"	//	//豐裕牌組	拾取且存倉
+
+
+//??
+//[Type]=="Niko's Memory" # 	[StashItem]  == "true" // 
+//[Type]=="Alva's Memory" # 	[StashItem]  == "true" // 
+//[Type]=="Kirac's Memory" # 	[StashItem]  == "true" // 
+[Type]=="Einhar's Memory" # 	[StashItem]  == "true" // 
+[Type]=="Engraved Ultimatum" # 	[StashItem]  == "true" // 
+[Type]=="Mirrored Tablet" # 	[StashItem]  == "true" // 
+
+//遺?
+[Type]=="Forgotten Reliquary Key" # 	[StashItem]  == "true" // 
+[Type]=="Visceral Reliquary Key" # 		[StashItem]  == "true" // 
+[Type]=="Shiny Reliquary Key" # 		[StashItem]  == "true" // 
+[Type]=="Archive Reliquary Key" # 		[StashItem]  == "true" // 
+[Type]=="Oubliette Reliquary Key" # 	[StashItem]  == "true" // 
+[Type]=="Cosmic Reliquary Key" #		[StashItem]  == "true" // 
+[Type]=="Decaying Reliquary Key" # 		[StashItem]  == "true" //
+
+//??時間：2022/9/7
+//汙染通?
+[Type]=="Tainted Chromatic Orb" # 			[StashItem]  == "true"
+[Type]=="Tainted Orb of Fusing" # 			[StashItem]  == "true"
+[Type]=="Tainted Jeweller's Orb" # 			[StashItem]  == "true"
+[Type]=="Tainted Chaos Orb" #				[StashItem]  == "true"
+[Type]=="Tainted Exalted Orb" #				[StashItem]  == "true"
+[Type]=="Tainted Mythic Orb" #				[StashItem]  == "true"
+[Type]=="Tainted Armourer's Scrap" # 		[StashItem]  == "true"
+[Type]=="Tainted Blacksmith's Whetstone"#	[StashItem]  == "true"
+[Type]=="Tainted Divine Teardrop" # 		[StashItem]  == "true"
+ 
+ 
+ 
+ 
+ //??時間：2022/7/5 ex比水?便宜的季末
+ //通?
+[Type] == "Orb of Unmaking"# 			[StashItem]  == "true"	//撤銷石
+[Type] == "Enkindling Orb"# 			[StashItem]  == "true"	//點燃石
+[Type] == "Orb of Annulment"# 			[StashItem]  == "true"	//無效
+[Type] == "Awakened Sextant" # 			[StashItem]  == "true"	//六分
+//[Type] == "Blacksmith's Whetstone" # 		[StashItem]	 == "true"	//磨刀石
+//[Type] == "Armourer's Scrap" # 			[StashItem]	 == "true"	//護甲片
+[Type] == "Glassblower's Bauble" # 		[StashItem]	 == "true"	//玻璃?珠
+//[Type] == "Blessed Orb" # 			[StashItem]	 == "true"	//祝福石
+[Type] == "Chaos Orb" # 			[StashItem]	 == "true"	//混沌石
+//[Type] == "Chromatic Orb" # 			[StashItem]	 == "true"	//幻色石
+[Type] == "Divine Orb" # 			[StashItem]	 == "true"	//神聖石
+[Type] == "Exalted Orb" # 			[StashItem]	 == "true"	//崇高石
+[Type] == "Gemcutter's Prism" # 		[StashItem]	 == "true"	//?石匠的?鏡
+[Type] == "Jeweller's Orb" # 			[StashItem]	 == "true"	//工匠石
+[Type] == "Mirror of Kalandra" # 		[StashItem]	 == "true"	//卡蘭德的魔鏡
+//[Type] == "Orb of Alchemy" # 			[StashItem]	 == "true"	//點金石
+[Type] == "Orb of Alteration" # 		[StashItem]	 == "true"	//改造石
+//[Type] == "Orb of Transmutation" # 		[StashItem]	 == "true"	//??石
+//[Type] == "Orb of Augmentation" # 		[StashItem]	 == "true"	//增幅石
+[Type] == "Orb of Chance" # 			[StashItem]	 == "true"	//機會石
+[Type] == "Orb of Fusing" # 			[StashItem]	 == "true"	//?結石
+[Type] == "Orb of Regret" # 			[StashItem]	 == "true"	//後悔石
+[Type] == "Orb of Scouring" # 			[StashItem]	 == "true"	//重鑄石
+[Type] == "Perandus Coin" # 			[StashItem]	 == "true"	//普蘭德斯金幣
+//[Type] == "Regal Orb" # 			[StashItem]	 == "true"	//富豪石
+//[Type] == "Silver Coin" # 			[StashItem]	 == "true"	//銀幣
+[Type] == "Vaal Orb" # 				[StashItem]	 == "true"	//瓦??珠
+//[Type] == "Cartographer's Chisel" # 		[StashItem]	 == "true"	//製圖?
+[Type] == "Orb of Annulment" # 			[StashItem]	 == "true"	//無效石
+//[Type] == "Orb of Binding" # 			[StashItem]	 == "true"	//束縛石
+[Type] == "Orb of Horizons"         # 		[StashItem]	 == "true"	//地平石
+[Type] == "Harbinger's Orb"         # 		[StashItem]	 == "true"	//神諭石
+//[Type] == "Engineer's Orb" # 			[StashItem]	 == "true"	//工程石
+[Type] == "Ancient Orb" # 			[StashItem]	 == "true"	//古?石
+//[Type] == "Annulment Shard"  #			[StashItem]	 == "true"	//無效石碎片
+//[Type] == "Binding Shard"# 			[StashItem]	 == "true"	//束縛石碎片
+//[Type] == "Horizon Shard" # 			[StashItem]	 == "true"	//地平石碎片
+//[Type] == "Harbinger's Shard" # 		[StashItem]	 == "true"	//神諭石碎片
+//[Type] == "Engineer's Shard" # 			[StashItem]	 == "true"	//工程石碎片
+//[Type] == "Ancient Shard" # 			[StashItem]	 == "true"	//古?石碎片
+//[Type] == "Chaos Shard" # 			[StashItem]	 == "true"	//混沌石碎片
+[Type] == "Mirror Shard" # 			[StashItem]	 == "true"	//魔鏡碎片
+//[Type] == "Exalted Shard"# 			[StashItem]	 == "true"	//崇高石碎片
+//[Type] == "Regal Shard" # 			[StashItem]	 == "true"	//富豪石碎片
+//[Type] == "Veiled Chaos Orb"			[StashItem]	 == "true"	//隱匿混沌石
+
+//五?
+//[Type] == "Timeless Eternal Empire Splinter" #	[StashItem] == "true"//永恆不朽帝國裂片不撿不存倉
+//[Type] == "Timeless Karui Splinter"# 			[StashItem] == "true"//永恆卡?裂片不撿不存倉
+[Type] == "Timeless Maraketh Splinter"# 		[StashItem] == "true"//永恆馬拉克斯裂片拾取且存倉
+[Type] == "Timeless Templar Splinter"# 			[StashItem] == "true"//永恆聖宗裂片拾取且存倉
+//[Type] == "Timeless Vaal Splinter" # 			[StashItem] == "true"//永恆瓦?裂片不撿不存倉
+[Type] == "Timeless Eternal Emblem" # 			[StashItem] == "true"//永恆不朽帝國徽印拾取且存倉
+[Type] == "Timeless Karui Emblem"# 			[StashItem] == "true"//永恆卡?徽印拾取且存倉
+[Type] == "Timeless Maraketh Emblem" # 			[StashItem] == "true"//永恆馬拉克斯徽印拾取且存倉
+[Type] == "Timeless Templar Emblem" # 			[StashItem] == "true"//永恆聖宗徽印拾取且存倉
+[Type] == "Timeless Vaal Emblem"# 			[StashItem] == "true"//永恆瓦?徽印拾取且存倉
+
+[Type] == "Empower Support" #		[StashItem] == "true"//賦予輔助拾取且存倉
+[Type] == "Enhance Support" #		[StashItem] == "true"//增幅輔助不撿不存倉
+[Type] == "Enlighten Support" #		[StashItem] == "true"//啟蒙輔助拾取且存倉
+
+[Type] == "The Apothecary" #		[StashItem] == "true" //?劑?
+[Type] =="Incandescent Invitation" #	[StashItem] == "true" //熾熱之邀
+//[Type] =="Polaric Invitation" #	[StashItem] == "true" //極地之邀
+[Type] == "Screaming Invitation" #	[StashItem] == "true" //尖哮之邀
+//[Type] =="Writhing Invitation" #	[StashItem] == "true" //纏繞之邀
+[Type] == "Humility" # 			[StashItem] == "true" //謙遜
+[Type] == "House of Mirrors" # 		[StashItem] == "true" //明鏡
+[Type] == "The Doctor" # 		[StashItem] == "true" //?醫
+[Type] == "The Demon" # 		[StashItem] == "true" //惡魔
+[Type] == "Unrequited Love" # 		[StashItem] == "true" //Unrequited Love
+[Type] == "The Fiend" # 		[StashItem] == "true" //魔鬼
+[Type] == "Brother's Stash" # 		[StashItem] == "true" //Brother's Stash
+[Type] == "Love Through Ice" # 		[StashItem] == "true" //冰冷愛戀
+[Type] == "The Immortal" #		[StashItem] == "true" //永恆不朽
+[Type] == "The Nurse" # 		[StashItem] == "true" //護理?
+[Type] == "The Cheater" # 		[StashItem] == "true" //詐欺?
+[Type] == "Alluring Bounty" # 		[StashItem] == "true" //誘惑之?
+[Type] == "Gift of Asenath" # 		[StashItem] == "true" //Gift of Asenath
+[Type] == "Succor of the Sinless" # 	[StashItem] == "true" //無罪救贖
+[Type] == "Wealth and Power" # 		[StashItem] == "true" //錢與權
+[Type] == "The Scout" # 		[StashItem] == "true" //童子?
+[Type] == "Nook's Crown" # 		[StashItem] == "true" //??之冠(喚骨頭盔-物品等?:100-尊?之物)
+[Type] == "Desecrated Virtue" # 	[StashItem] == "true" //褻瀆
+[Type] == "Abandoned Wealth" # 		[StashItem] == "true" //??求生
+[Type] == "Seven Years Bad Luck" # 	[StashItem] == "true" //七年霉運
+[Type] == "Pride of the First Ones"#	[StashItem] == "true" //初始者的?傲
+[Type] == "The Enlightened" # 		[StashItem] == "true" //智慧啟蒙
+[Type] == "The Samurai's Eye" # 	[StashItem] == "true" //武士之眼
+[Type] == "Judging Voices" # 		[StashItem] == "true" //嗓音
+[Type] == "The Dragon's Heart" #	[StashItem] == "true" //?之心
+[Type] == "The Sacrifice" # 		[StashItem] == "true" //犧牲
+[Type] == "The Strategist" # 		[StashItem] == "true" //策略家(求知的熱情-已汙染)
+[Type] == "The Artist" # 		[StashItem] == "true" //?者(等? 4 增幅)
+[Type] == "The Saint's Treasure" # 	[StashItem] == "true" //聖徒之?
+[Type] == "The Patient" # 		[StashItem] == "true" //病患
+[Type] == "Council of Cats" # 		[StashItem] == "true" //?咪議會
+[Type] == "The Hoarder" # 		[StashItem] == "true" //?箱
+[Type] == "Fire Of Unknown Origin" #	[StashItem] == "true" //3.22尼米斯(7?換尼米斯)
+[Type] == "The Fortunate" #		[StashItem] == "true" //3.22幸運的人(12?2D)
+[Type] == "The Fortunate" #		[StashItem] == "true" //3.22幸運的人(12?2D)
+[Type] == "The Shieldbearer" #		[StashItem] == "true" //3.22持盾者(8?大地主)
+[Type] == "The Academic" #		[StashItem] == "true" //3.22學術界(8?求知熱情)
+
+[Sockets] == "6" && 			#[ForceSellItem] == "true" //六洞售
+[Sockets] == "6" && [Linked] >= "6"   	#[ForceSellItem] == "true" //六連全賣
+
+
+	[Type] == "Spiraled Wand" && [Rarity] == "Unique" # 		[UniqueName] == "Amplification Rod" && [StashItem] == "true"			//增幅杖 螺紋法杖
+	[Type] == "Fishing Rod" && [Rarity] == "Unique" #		[UniqueName] == "Song of the Sirens" && [StashItem] == "true"			//海妖魅曲 魚竿
+	[Type] == "Fishing Rod" && [Rarity] == "Unique" # 		[UniqueName] == "Reefbane" && [StashItem] == "true"				//災?之礁 魚竿
+	[Type] == "Ring" && [Rarity] == "Unique" # 			[UniqueName] == "Kalandra's Touch" && [StashItem] == "true"			//卡蘭德之觸 戒指
+	[Type] == "Amber Amulet" && [Rarity] == "Unique" # 		[UniqueName] == "Xoph's Heart" && [StashItem] == "true"				//索伏之心 琥珀護身符
+	[Type] == "Jade Amulet" && [Rarity] == "Unique" # 		[UniqueName] == "The Halcyon" && [StashItem] == "true"				//太平 翠玉護身符
+//	[Type] == "Turquoise Amulet" && [Rarity] == "Unique" # 		[UniqueName] == "Badge of the Brotherhood" && [StashItem] == "true"		//激情之章 青玉護身符
+	[Type] == "Unset Amulet" && [Rarity] == "Unique" # 		[UniqueName] == "Uul-Netol's Vow" && [StashItem] == "true"			//烏?尼多之誓 夕暮護身符
+	[Type] == "Leather Belt" && [Rarity] == "Unique" # 		[UniqueName] == "Headhunter" && [StashItem] == "true"				//獵首 皮革腰帶
+	[Type] == "Heavy Belt" && [Rarity] == "Unique" # 		[UniqueName] == "Mageblood" && [StashItem] == "true"				//魔血 重革腰帶
+//	[Type] == "Crimson Jewel" && [Rarity] == "Unique" # 		[UniqueName] == "Inspired Learning" && [StashItem] == "true"			//求知的熱情 赤紅珠?
+	[Type] == "Crimson Jewel" && [Rarity] == "Unique" # 		[UniqueName] == "Rain of Splinters" && [StashItem] == "true"			//碎?雨 赤紅珠?
+	[Type] == "Crimson Jewel" && [Rarity] == "Unique" # 		[UniqueName] == "Thread of Hope" && [StashItem] == "true"			//希望之絃 赤紅珠?
+//	[Type] == "Crimson Jewel" && [Rarity] == "Unique" # 		[UniqueName] == "Immutable Force" && [StashItem] == "true"			//不?之力 赤紅珠?
+//	[Type] == "Crimson Jewel" && [Rarity] == "Unique" # 		[UniqueName] == "Bloodnotch" && [StashItem] == "true"				//缺血症 赤紅珠?
+//	[Type] == "Viridian Jewel" && [Rarity] == "Unique" # 		[UniqueName] == "Intuitive Leap" && [StashItem] == "true"			//直覺之躍 翠綠珠?
+	[Type] == "Viridian Jewel" && [Rarity] == "Unique" # 		[UniqueName] == "Lioneye's Fall" && [StashItem] == "true"			//獅眼的隕落 翠綠珠?
+	[Type] == "Viridian Jewel" && [Rarity] == "Unique" # 		[UniqueName] == "Impossible Escape" && [StashItem] == "true"			//逃?不能 翠綠珠?
+	[Type] == "Viridian Jewel" && [Rarity] == "Unique" # 		[UniqueName] == "Ancestral Vision" && [StashItem] == "true"			//先祖預? 翠綠珠?
+//	[Type] == "Cobalt Jewel" && [Rarity] == "Unique" # 		[UniqueName] == "Energy From Within" && [StashItem] == "true"			//?能防護 ?藍珠?
+	[Type] == "Synthesised Map" && [Rarity] == "Unique" # 		[UniqueName] == "Cortex" && [StashItem] == "true"				//深沉?? 尋夢追?
+	[Type] == "Synthesised Map" && [Rarity] == "Unique" # 		[UniqueName] == "Altered Distant Memory" && [StashItem] == "true"		//遙遠??：?造 尋夢追?
+	[Type] == "Synthesised Map" && [Rarity] == "Unique" # 		[UniqueName] == "Augmented Distant Memory" && [StashItem] == "true"		//遙遠??：增幅 尋夢追?
+	[Type] == "Synthesised Map" && [Rarity] == "Unique" # 		[UniqueName] == "Twisted Distant Memory" && [StashItem] == "true"		//遙遠??：扭曲 尋夢追?
+	[Type] == "Synthesised Map" && [Rarity] == "Unique" # 		[UniqueName] == "Rewritten Distant Memory" && [StashItem] == "true"		//遙遠??：改? 尋夢追?
+//	[Type] == "Prophecy Wand" && [Rarity] == "Unique" # 		[UniqueName] == "Void Battery" && [StashItem] == "true"				//?能魔棒 箴言法杖
+//	[Type] == "Archon Kite Shield" && [Rarity] == "Unique" # 	[UniqueName] == "Prism Guardian" && [StashItem] == "true"			//元素的庇護威能鳶盾
+	[Type] == "Champion Kite Shield" && [Rarity] == "Unique" # 	[UniqueName] == "Aegis Aurora" && [StashItem] == "true"				//幻芒聖盾鬥士鳶盾
+//	[Type] == "Spidersilk Robe" && [Rarity] == "Unique" # 		[UniqueName] == "The Covenant" && [StashItem] == "true"				//血誓蛛絲之袍
+	[Type] == "Sage's Robe" && [Rarity] == "Unique" # 		[UniqueName] == "Dialla's Malefaction" && [StashItem] == "true"			//達拉的罪刑賢者之袍
+	[Type] == "Siege Axe" && [Rarity] == "Unique" # 		[UniqueName] == "Soul Taker" && [StashItem] == "true"				//開膛斧 破城斧
+	[Type] == "Elegant Round Shield" && [Rarity] == "Unique" # 	[UniqueName] == "The Squire" && [StashItem] == "true"				//大地主權貴圓盾
+	[Type] == "Carnal Armour" && [Rarity] == "Unique" # 		[UniqueName] == "Stasis Prison" && [StashItem] == "true"			//靜止牢籠禁禮之甲
