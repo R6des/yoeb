@@ -1,3 +1,7 @@
+//垃圾魔幻電弧
+//[Type] == "SLacquered Garb" && [Rarity] == "Unique" # [UniqueName] == "Cloak of Defiance" && [StashItem] == "true"				//衛道
+//[Type] == "Paua Amulet" && [Rarity] == "Unique" # 	[UniqueName] == "Atziri's Foible" && [StashItem] == "true"				//聖徽
+
 //3.23有價紋身、預兆
 [Type] == "Omen of Connections" # 			[StashItem] == "true"////6L預兆
 [Type] == "Omen of Blanching" # 			[StashItem] == "true"////1~3白預兆
