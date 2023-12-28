@@ -1,3 +1,8 @@
+//垃圾魔幻電弧
+//[Type] == "SLacquered Garb" && [Rarity] == "Unique" # [UniqueName] == "Cloak of Defiance" && [StashItem] == "true"				//衛道
+//[Type] == "Paua Amulet" && [Rarity] == "Unique" # 	[UniqueName] == "Atziri's Foible" && [StashItem] == "true"				//聖徽
+
+
 //3.23有價紋身、預兆
 [Type] == "Omen of Connections" # 			[StashItem] == "true"////6L預兆
 [Type] == "Omen of Blanching" # 			[StashItem] == "true"////1~3白預兆
@@ -23,7 +28,7 @@
 
 //3.22季初武器
 //[Type] == "Short Bow" && [Rarity] == "Unique" #    [UniqueName] == "Quill Rain" && 			[StashItem] == "true"//小雨
-//[Type] == "Prophecy Wand" && [Rarity] == "Unique" #   [UniqueName] == "Void Battery" && 		[StashItem] == "true"//電池
+[Type] == "Prophecy Wand" && [Rarity] == "Unique" #   [UniqueName] == "Void Battery" && 		[StashItem] == "true"//電池
 //[Type] == "Assassin Bow" && [Rarity] == "Unique" # [UniqueName] == "Darkscorn" && 			[StashItem] == "true"//夜吟
 //[Type] == "Imperial Skean" && [Rarity] == "Unique" # [UniqueName] == "Divinarius" && 			[StashItem] == "true"//戒律
 //[Type] == "Fiend Dagger" && [Rarity] == "Unique" #    [UniqueName] == "Arakaali's Fang" && 		[StashItem] == "true"//蜘蛛刀
