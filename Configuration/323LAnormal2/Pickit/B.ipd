@@ -248,7 +248,7 @@
 
 
 //??
-[Type]=="Niko's Memory" # 	[StashItem]  == "true" // 
+//[Type]=="Niko's Memory" # 	[StashItem]  == "true" // 
 //[Type]=="Alva's Memory" # 	[StashItem]  == "true" // 
 //[Type]=="Kirac's Memory" # 	[StashItem]  == "true" // 
 [Type]=="Einhar's Memory" # 	[StashItem]  == "true" // 
