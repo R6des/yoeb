@@ -1,6 +1,6 @@
 //À¬»øÄ§»ÃëŠ»¡
-//[Type] == "Lacquered Garb" && [Rarity] == "Unique" # [UniqueName] == "Cloak of Defiance" && [StashItem] == "true"				//ÐlµÀ
-//[Type] == "Paua Amulet" && [Rarity] == "Unique" # 	[UniqueName] == "Atziri's Foible" && [StashItem] == "true"				//Â}»Õ
+[Type] == "Lacquered Garb" && [Rarity] == "Unique" # [UniqueName] == "Cloak of Defiance" && [StashItem] == "true"				//ÐlµÀ
+[Type] == "Paua Amulet" && [Rarity] == "Unique" # 	[UniqueName] == "Atziri's Foible" && [StashItem] == "true"				//Â}»Õ
 
 
 //3.23ÓÐƒr¼yÉí¡¢îAÕ×
@@ -51,7 +51,7 @@
 [Type] == "Sinner Tricorne" && [Rarity] == "Unique" # [UniqueName] == "Alpha's Howl" && [StashItem] == "true" // °×ÀÇî^
 
 
-[Type] == "Forbidden Tome" #[StashItem] == "true" // ½û¼ÉÖ®•ø
+//[Type] == "Forbidden Tome" #[StashItem] == "true" // ½û¼ÉÖ®•ø
 
 //3.22¼¾³õ‚÷ËÍéT
 //[Type] == "Portal" #		[StashItem] == "true"//‚÷ËÍéT
@@ -244,7 +244,7 @@
 
 [Type] == "Awakened Sextant" # 	[StashItem]	 == "true"	//	//ÑuˆDÁù·Öƒx£®ÓXÐÑ	Ê°È¡ÇÒ´æ‚}
 
-[Type] == "Stacked Deck" # 	[StashItem]	 == "true"	//	//ØSÔ£ÅÆ½M	Ê°È¡ÇÒ´æ‚}
+//[Type] == "Stacked Deck" # 	[StashItem]	 == "true"	//	//ØSÔ£ÅÆ½M	Ê°È¡ÇÒ´æ‚}
 
 
 //??
