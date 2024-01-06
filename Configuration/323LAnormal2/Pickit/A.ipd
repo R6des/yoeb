@@ -28,11 +28,11 @@
 
 //3.22季初武器
 //[Type] == "Short Bow" && [Rarity] == "Unique" #    [UniqueName] == "Quill Rain" && 			[StashItem] == "true"//小雨
-[Type] == "Prophecy Wand" && [Rarity] == "Unique" #   [UniqueName] == "Void Battery" && 		[StashItem] == "true"//電池
+//[Type] == "Prophecy Wand" && [Rarity] == "Unique" #   [UniqueName] == "Void Battery" && 		[StashItem] == "true"//電池
 //[Type] == "Assassin Bow" && [Rarity] == "Unique" # [UniqueName] == "Darkscorn" && 			[StashItem] == "true"//夜吟
 //[Type] == "Imperial Skean" && [Rarity] == "Unique" # [UniqueName] == "Divinarius" && 			[StashItem] == "true"//戒律
 //[Type] == "Fiend Dagger" && [Rarity] == "Unique" #    [UniqueName] == "Arakaali's Fang" && 		[StashItem] == "true"//蜘蛛刀
-[Type] == "Spine Bow" && [Rarity] == "Unique" #    [UniqueName] == "Voltaxic Rift" && 			[StashItem] == "true"//魔暴
+//[Type] == "Spine Bow" && [Rarity] == "Unique" #    [UniqueName] == "Voltaxic Rift" && 			[StashItem] == "true"//魔暴
 [Type] == "Maata's Teaching Karui Sceptre" && [Rarity] == "Unique" # [UniqueName] == "" && 		[StashItem] == "true"//瑪塔的教導 卡魯權杖
 [Type] == "Ezomyte Staff" && [Rarity] == "Unique" # [UniqueName] == "The Fulcrum" && 			[StashItem] == "true"//支點 艾茲麥長杖
 [Type] == "Engraved Greatsword" && [Rarity] == "Unique" # [UniqueName] == "Rakiata's Dance" && 		[StashItem] == "true"//萊基亞塔的舞步
@@ -41,14 +41,14 @@
 //3.22季初防具
 //[Type] == "Necromancer Silks" && [Rarity] == "Unique" #  [UniqueName] == "Fleshcrafter" && 		[StashItem] == "true"//人體匠師
 //[Type] == "Sadist Garb" && [Rarity] == "Unique" #    [UniqueName] == "Inpulsa's Broken Heart" &&[StashItem] == "true"//印卜薩
-[Type] == "Murder Mitts" && [Rarity] == "Unique" # [UniqueName] == "Thunderfist" && 			[StashItem] == "true"//轟天雷
+//[Type] == "Murder Mitts" && [Rarity] == "Unique" # [UniqueName] == "Thunderfist" && 			[StashItem] == "true"//轟天雷
 //[Type] == "Exquisite Leather" && [Rarity] == "Unique" # [UniqueName] == "Yriel's Fostering" && 	[StashItem] == "true"//伊瑞的栽培
-[Type] == "Riveted Boots" && [Rarity] == "Unique" # [UniqueName] == "Ralakesh's Impatience" && 	[StashItem] == "true"//芮勒蓋許的急躁
+//[Type] == "Riveted Boots" && [Rarity] == "Unique" # [UniqueName] == "Ralakesh's Impatience" && 	[StashItem] == "true"//芮勒蓋許的急躁
 //[Type] == "Carnal Boots" && [Rarity] == "Unique" # [UniqueName] == "Corpsewalker" && 			[StashItem] == "true"//行屍走肉
 //[Type] == "Leather Hood" && [Rarity] == "Unique" # 	[UniqueName] == "Heatshiver" && 			[StashItem] == "true"//寒焰
 //[Type] == "Wyrmscale Gauntlets" && [attack_speed_+_%] >= "1" && [Rarity] == "Unique" # 			[StashItem] == "true"//埋火
 //[Type] == "Bone Circlet" && [Rarity] == "Unique" # [UniqueName] == "Wraithlord" && 				[StashItem] == "true"//幽魂頭
-[Type] == "Sinner Tricorne" && [Rarity] == "Unique" # [UniqueName] == "Alpha's Howl" && [StashItem] == "true" // 白狼頭
+//[Type] == "Sinner Tricorne" && [Rarity] == "Unique" # [UniqueName] == "Alpha's Howl" && [StashItem] == "true" // 白狼頭
 
 
 //[Type] == "Forbidden Tome" #[StashItem] == "true" // 禁忌之書
@@ -69,7 +69,7 @@
 //[Type] == "Titan Gauntlets" && [Rarity] == "Unique" # [UniqueName] == "Kaom's Spirit" &&			[StashItem] == "true"	//岡姆之魂
 [Type] == "Rawhide Boots" && [Rarity] == "Unique" # [UniqueName] == "Seven-League Step" && 			[StashItem] == "true"	//盟誓之跡
 //[Type] == "Rustic Sash" && [Rarity] == "Unique" # [UniqueName] == "Prismweave" && 				[StashItem] == "true"	//幻彩菱織 腰帶
-[Type] == "Two-Stone Ring" && [Rarity] == "Unique" # [UniqueName] == "Berek's Respite" && 			[StashItem] == "true"	//貝雷克的火與雷之樂
+//[Type] == "Two-Stone Ring" && [Rarity] == "Unique" # [UniqueName] == "Berek's Respite" && 			[StashItem] == "true"	//貝雷克的火與雷之樂
 //[Type] == "Two-Stone Ring" && [Rarity] == "Unique" # [UniqueName] == "Berek's Grip" && 				[StashItem] == "true"	//貝雷克的冰與雷之曲
 //[Type] == "Two-Stone Ring" && [Rarity] == "Unique" # [UniqueName] == "Berek's Pass" && 				[StashItem] == "true"	//貝雷克的冰與火之歌
 //[Type] == "Amethyst Ring" && [Rarity] == "Unique" # [UniqueName] == "Death Rush" && 				[StashItem] == "true"	//亡者呼喚 紫晶戒指
@@ -232,7 +232,7 @@
 //下面是3.19以前
 
 [Type] =="Maven's Invitation: The Elderslayers" #	[StashItem]	 == "true" 		//殺手	拾取且存倉
-[Type] =="Maven's Invitation: The Forgotten" #	[StashItem]	 == "true" 		//釋界之邀：遺忘	拾取且存倉
+//[Type] =="Maven's Invitation: The Forgotten" #	[StashItem]	 == "true" 		//釋界之邀：遺忘	拾取且存倉
 [Type] =="Maven's Invitation: The Formed" #	[StashItem]	 == "true" 		//釋界之邀：塑型	拾取且存倉
 [Type] =="Maven's Invitation: The Twisted" #	[StashItem]	 == "true" 		//釋界之邀：扭曲	拾取且存倉
 
@@ -417,9 +417,79 @@
 	[Type] == "Synthesised Map" && [Rarity] == "Unique" # 		[UniqueName] == "Rewritten Distant Memory" && [StashItem] == "true"		//遙遠??：改? 尋夢追?
 //	[Type] == "Prophecy Wand" && [Rarity] == "Unique" # 		[UniqueName] == "Void Battery" && [StashItem] == "true"				//?能魔棒 箴言法杖
 //	[Type] == "Archon Kite Shield" && [Rarity] == "Unique" # 	[UniqueName] == "Prism Guardian" && [StashItem] == "true"			//元素的庇護威能鳶盾
-	[Type] == "Champion Kite Shield" && [Rarity] == "Unique" # 	[UniqueName] == "Aegis Aurora" && [StashItem] == "true"				//幻芒聖盾鬥士鳶盾
+//	[Type] == "Champion Kite Shield" && [Rarity] == "Unique" # 	[UniqueName] == "Aegis Aurora" && [StashItem] == "true"				//幻芒聖盾鬥士鳶盾
 //	[Type] == "Spidersilk Robe" && [Rarity] == "Unique" # 		[UniqueName] == "The Covenant" && [StashItem] == "true"				//血誓蛛絲之袍
-	[Type] == "Sage's Robe" && [Rarity] == "Unique" # 		[UniqueName] == "Dialla's Malefaction" && [StashItem] == "true"			//達拉的罪刑賢者之袍
+//	[Type] == "Sage's Robe" && [Rarity] == "Unique" # 		[UniqueName] == "Dialla's Malefaction" && [StashItem] == "true"			//達拉的罪刑賢者之袍
 	[Type] == "Siege Axe" && [Rarity] == "Unique" # 		[UniqueName] == "Soul Taker" && [StashItem] == "true"				//開膛斧 破城斧
 	[Type] == "Elegant Round Shield" && [Rarity] == "Unique" # 	[UniqueName] == "The Squire" && [StashItem] == "true"				//大地主權貴圓盾
 	[Type] == "Carnal Armour" && [Rarity] == "Unique" # 		[UniqueName] == "Stasis Prison" && [StashItem] == "true"			//靜止牢籠禁禮之甲
+
+
+[Type] == "Rusted Ambush Scarab"        # [StashItem] == "true"
+[Type] == "Polished Ambush Scarab"      # [StashItem] == "true"
+[Type] == "Gilded Ambush Scarab"        # [StashItem] == "true"
+[Type] == "Winged Ambush Scarab"        # [StashItem] == "true"
+[Type] == "Rusted Bestiary Scarab"      # [StashItem] == "true"
+[Type] == "Polished Bestiary Scarab"    # [StashItem] == "true"
+[Type] == "Gilded Bestiary Scarab"      # [StashItem] == "true"
+[Type] == "Winged Bestiary Scarab"      # [StashItem] == "true"
+[Type] == "Rusted Breach Scarab"        # [StashItem] == "true"
+[Type] == "Polished Breach Scarab"      # [StashItem] == "true"
+[Type] == "Gilded Breach Scarab"        # [StashItem] == "true"
+[Type] == "Winged Breach Scarab"        # [StashItem] == "true"
+[Type] == "Rusted Cartography Scarab"   # [StashItem] == "true"
+[Type] == "Polished Cartography Scarab" # [StashItem] == "true"
+[Type] == "Gilded Cartography Scarab"   # [StashItem] == "true"
+[Type] == "Winged Cartography Scarab"   # [StashItem] == "true"
+[Type] == "Rusted Divination Scarab"    # [StashItem] == "true"
+[Type] == "Polished Divination Scarab"  # [StashItem] == "true"
+[Type] == "Gilded Divination Scarab"    # [StashItem] == "true"
+[Type] == "Winged Divination Scarab"    # [StashItem] == "true"
+[Type] == "Rusted Elder Scarab"         # [StashItem] == "true"
+[Type] == "Polished Elder Scarab"       # [StashItem] == "true"
+[Type] == "Gilded Elder Scarab"         # [StashItem] == "true"
+[Type] == "Winged Elder Scarab"         # [StashItem] == "true"
+[Type] == "Rusted Harbinger Scarab"     # [StashItem] == "true"
+[Type] == "Polished Harbinger Scarab"   # [StashItem] == "true"
+[Type] == "Gilded Harbinger Scarab"     # [StashItem] == "true"
+[Type] == "Winged Harbinger Scarab"     # [StashItem] == "true"
+[Type] == "Rusted Legion Scarab"        # [StashItem] == "true"
+[Type] == "Polished Legion Scarab"      # [StashItem] == "true"
+[Type] == "Gilded Legion Scarab"        # [StashItem] == "true"
+[Type] == "Winged Legion Scarab"        # [StashItem] == "true"
+[Type] == "Rusted Metamorph Scarab"     # [StashItem] == "true"
+[Type] == "Polished Metamorph Scarab"   # [StashItem] == "true"
+[Type] == "Gilded Metamorph Scarab"     # [StashItem] == "true"
+[Type] == "Winged Metamorph Scarab"     # [StashItem] == "true"
+[Type] == "Rusted Perandus Scarab"      # [StashItem] == "true"
+[Type] == "Polished Perandus Scarab"    # [StashItem] == "true"
+[Type] == "Gilded Perandus Scarab"      # [StashItem] == "true"
+[Type] == "Winged Perandus Scarab"      # [StashItem] == "true"
+[Type] == "Rusted Reliquary Scarab"     # [StashItem] == "true"
+[Type] == "Polished Reliquary Scarab"   # [StashItem] == "true"
+[Type] == "Gilded Reliquary Scarab"     # [StashItem] == "true"
+[Type] == "Winged Reliquary Scarab"     # [StashItem] == "true"
+[Type] == "Rusted Shaper Scarab"        # [StashItem] == "true"
+[Type] == "Polished Shaper Scarab"      # [StashItem] == "true"
+[Type] == "Gilded Shaper Scarab"        # [StashItem] == "true"
+[Type] == "Winged Shaper Scarab"        # [StashItem] == "true"
+[Type] == "Rusted Sulphite Scarab"      # [StashItem] == "true"
+[Type] == "Polished Sulphite Scarab"    # [StashItem] == "true"
+[Type] == "Gilded Sulphite Scarab"      # [StashItem] == "true"
+[Type] == "Winged Sulphite Scarab"      # [StashItem] == "true"
+[Type] == "Rusted Torment Scarab"       # [StashItem] == "true"
+[Type] == "Polished Torment Scarab"     # [StashItem] == "true"
+[Type] == "Gilded Torment Scarab"       # [StashItem] == "true"
+[Type] == "Winged Torment Scarab"       # [StashItem] == "true"
+[Type] == "Gilded Abyss Scarab"    # [StashItem] == "true"
+[Type] == "Gilded Blight Scarab"   # [StashItem] == "true"
+[Type] == "Polished Abyss Scarab"  # [StashItem] == "true"
+[Type] == "Polished Blight Scarab" # [StashItem] == "true"
+[Type] == "Rusted Abyss Scarab"    # [StashItem] == "true"
+[Type] == "Rusted Blight Scarab"   # [StashItem] == "true"
+[Type] == "Winged Abyss Scarab"    # [StashItem] == "true"
+[Type] == "Winged Blight Scarab"   # [StashItem] == "true"
+[Type] == "Gilded Expedition Scarab" # [StashItem] == "true"
+[Type] == "Polished Expedition Scarab" # [StashItem] == "true"
+[Type] == "Rusted Expedition Scarab" # [StashItem] == "true"
+[Type] == "Winged Expedition Scarab" # [StashItem] == "true"
