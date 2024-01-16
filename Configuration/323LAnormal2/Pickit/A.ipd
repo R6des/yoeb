@@ -1,6 +1,7 @@
 //垃圾魔幻電弧
-[Type] == "Lacquered Garb" && [Rarity] == "Unique" # [UniqueName] == "Cloak of Defiance" && [StashItem] == "true"				//衛道
-[Type] == "Paua Amulet" && [Rarity] == "Unique" # 	[UniqueName] == "Atziri's Foible" && [StashItem] == "true"				//聖徽
+//[Type] == "Lacquered Garb" && [Rarity] == "Unique" # [UniqueName] == "Cloak of Defiance" && [StashItem] == "true"				//衛道
+//[Type] == "Paua Amulet" && [Rarity] == "Unique" # 	[UniqueName] == "Atziri's Foible" && [StashItem] == "true"				//聖徽
+[Type] == "Gold Ring" && [Rarity] == "Unique" # 	[UniqueName] == "Ventor's Gamble" && [StashItem] == "true"				//賭神芬多
 
 
 //3.23有價紋身、預兆
@@ -65,9 +66,9 @@
 
 //弓箭手套裝//
 //[Type] == "Praetor Crown" && [Rarity] == "Unique" # [UniqueName] == "Voll's Vision" && 				[StashItem] == "true"	//福爾的遠見
-[Type] == "Zodiac Leather" && [Rarity] == "Unique" # [UniqueName] == "Hyrri's Ire" && 				[StashItem] == "true"	//西里的戰衣星辰皮甲
+//[Type] == "Zodiac Leather" && [Rarity] == "Unique" # [UniqueName] == "Hyrri's Ire" && 				[StashItem] == "true"	//西里的戰衣星辰皮甲
 //[Type] == "Titan Gauntlets" && [Rarity] == "Unique" # [UniqueName] == "Kaom's Spirit" &&			[StashItem] == "true"	//岡姆之魂
-[Type] == "Rawhide Boots" && [Rarity] == "Unique" # [UniqueName] == "Seven-League Step" && 			[StashItem] == "true"	//盟誓之跡
+//[Type] == "Rawhide Boots" && [Rarity] == "Unique" # [UniqueName] == "Seven-League Step" && 			[StashItem] == "true"	//盟誓之跡
 //[Type] == "Rustic Sash" && [Rarity] == "Unique" # [UniqueName] == "Prismweave" && 				[StashItem] == "true"	//幻彩菱織 腰帶
 //[Type] == "Two-Stone Ring" && [Rarity] == "Unique" # [UniqueName] == "Berek's Respite" && 			[StashItem] == "true"	//貝雷克的火與雷之樂
 //[Type] == "Two-Stone Ring" && [Rarity] == "Unique" # [UniqueName] == "Berek's Grip" && 				[StashItem] == "true"	//貝雷克的冰與雷之曲
@@ -101,9 +102,9 @@
 [Type] == "Crystalline Geode" # [StashItem] == "true" // 水晶晶洞
 [Type] == "Magmatic Ore" # 		[StashItem] == "true" // 岩礦
  
-[Type] == "Brother's Gift" # 	[StashItem] == "true" // 兄弟之? 有價
-[Type] == "Soul Quenched" # 	[StashItem] == "true" // 靈魂安息 
-[Type] == "Poisoned Faith" # 	[StashItem] == "true" // 有毒信仰 初期有價
+[Type] == "Brother's Gift" # 	[StashItem] == "true" // 兄弟之贈 有價
+//[Type] == "Soul Quenched" # 	[StashItem] == "true" // 靈魂安息 
+//[Type] == "Poisoned Faith" # 	[StashItem] == "true" // 有毒信仰 初期有價
 [Type] == "A Chilling Wind" # 	[StashItem] == "true" // 凜冽之風 
 [Type] == "Matryoshka" # 		[StashItem] == "true" // 俄羅斯娃娃 有價
 
@@ -182,7 +183,7 @@
 //[Type]=="Ever-Changing" #				[StashItem] == "true" //撤銷
 //[Type]=="A Dusty Memory" #				[StashItem] == "true" //
 //[Type]=="The Return of the Rat" #			[StashItem] == "true" //
-[Type]=="The Finishing Touch" #				[StashItem] == "true" //
+//[Type]=="The Finishing Touch" #				[StashItem] == "true" //
 				
 [Type]=="Fracturing Orb" #				[StashItem] == "true" //破裂石
 [Type]=="Fracturing Shard" #				[StashItem] == "true" //破裂石碎片
@@ -240,7 +241,7 @@
 
 //[Type] == "Sambodhi's Vow" # 	[StashItem]	 == "true" // 1.0 C	//	菩提誓約(凡人碎片)	拾取且存倉
 
-[Type] == "Gemcutter's Mercy" #	[StashItem]	 == "true"	//	//寶石切割者的憐憫(卓越寶石)	拾取且存倉
+//[Type] == "Gemcutter's Mercy" #	[StashItem]	 == "true"	//	//寶石切割者的憐憫(卓越寶石)	拾取且存倉
 
 [Type] == "Awakened Sextant" # 	[StashItem]	 == "true"	//	//製圖六分儀．覺醒	拾取且存倉
 
@@ -377,9 +378,9 @@
 [Type] == "The Strategist" # 		[StashItem] == "true" //策略家(求知的熱情-已汙染)
 [Type] == "The Artist" # 		[StashItem] == "true" //?者(等? 4 增幅)
 [Type] == "The Saint's Treasure" # 	[StashItem] == "true" //聖徒之?
-[Type] == "The Patient" # 		[StashItem] == "true" //病患
+//[Type] == "The Patient" # 		[StashItem] == "true" //病患
 [Type] == "Council of Cats" # 		[StashItem] == "true" //?咪議會
-[Type] == "The Hoarder" # 		[StashItem] == "true" //?箱
+//[Type] == "The Hoarder" # 		[StashItem] == "true" //?箱
 [Type] == "Fire Of Unknown Origin" #	[StashItem] == "true" //3.22尼米斯(7?換尼米斯)
 [Type] == "The Fortunate" #		[StashItem] == "true" //3.22幸運的人(12?2D)
 [Type] == "The Fortunate" #		[StashItem] == "true" //3.22幸運的人(12?2D)
