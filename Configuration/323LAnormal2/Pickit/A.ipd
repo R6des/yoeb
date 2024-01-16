@@ -2,6 +2,7 @@
 //[Type] == "Lacquered Garb" && [Rarity] == "Unique" # [UniqueName] == "Cloak of Defiance" && [StashItem] == "true"				//衛道
 //[Type] == "Paua Amulet" && [Rarity] == "Unique" # 	[UniqueName] == "Atziri's Foible" && [StashItem] == "true"				//聖徽
 [Type] == "Gold Ring" && [Rarity] == "Unique" # 	[UniqueName] == "Ventor's Gamble" && [StashItem] == "true"				//賭神芬多
+[Type] == "The Risk" # 	[StashItem] == "true" // 賭神卡
 
 
 //3.23有價紋身、預兆
