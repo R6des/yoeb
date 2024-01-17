@@ -3,6 +3,7 @@
 //[Type] == "Paua Amulet" && [Rarity] == "Unique" # 	[UniqueName] == "Atziri's Foible" && [StashItem] == "true"				//聖徽
 [Type] == "Gold Ring" && [Rarity] == "Unique" # 	[UniqueName] == "Ventor's Gamble" && [StashItem] == "true"				//賭神芬多
 [Type] == "The Risk" # 	[StashItem] == "true" // 賭神卡
+[Type] == "Inscribed Ultimatum" # 	[StashItem] == "true" // 最後通牒雕刻
 
 
 //3.23有價紋身、預兆
