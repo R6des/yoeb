@@ -1795,7 +1795,7 @@ Show # 聯盟 - 3.11花園 - 神聖之花
 
 # 【聯盟-3.10譫妄】3018
 
-Hide # 聯盟 - 3.10譫妄 - 譫妄玉
+Show # 聯盟 - 3.10譫妄 - 譫妄玉
     Class "Currency"
     BaseType "Delirium Orb"
     SetTextColor 0 0 0
