@@ -3,7 +3,7 @@
 //[Type] == "Paua Amulet" && [Rarity] == "Unique" # 	[UniqueName] == "Atziri's Foible" && [StashItem] == "true"				//聖徽
 [Type] == "Gold Ring" && [Rarity] == "Unique" # 	[UniqueName] == "Ventor's Gamble" && [StashItem] == "true"				//賭神芬多
 //[Type] == "The Risk" # 	[StashItem] == "true" // 賭神卡
-//[Type] == "Inscribed Ultimatum" # 	[StashItem] == "true" // 最後通牒雕刻
+[Type] == "Inscribed Ultimatum" # 	[StashItem] == "true" // 最後通牒雕刻
 [Type] == "Delirium Orb" # 	[StashItem]	 == "true"	//	//譫妄玉	拾取且存倉
 
 
@@ -109,8 +109,8 @@
 [Type] == "Brother's Gift" # 	[StashItem] == "true" // 兄弟之贈 有價
 //[Type] == "Soul Quenched" # 	[StashItem] == "true" // 靈魂安息 
 //[Type] == "Poisoned Faith" # 	[StashItem] == "true" // 有毒信仰 初期有價
-[Type] == "A Chilling Wind" # 	[StashItem] == "true" // 凜冽之風 
-[Type] == "Matryoshka" # 		[StashItem] == "true" // 俄羅斯娃娃 有價
+//[Type] == "A Chilling Wind" # 	[StashItem] == "true" // 凜冽之風 
+//[Type] == "Matryoshka" # 		[StashItem] == "true" // 俄羅斯娃娃 有價
 
 [Type] == "Xoph's Flawless Breachstone" 		# [StashItem] == "true" // 索伏的無暇裂痕石
 [Type] == "Tul's Flawless Breachstone" 			# [StashItem] == "true" // 托沃的無暇裂痕石
@@ -182,7 +182,7 @@
 //[Type]=="Alivia's Grace" #				[StashItem] == "true" // 卡：森后
 //[Type]=="Auspicious Ambitions" #			[StashItem] == "true" //劫盜百等武器
 [Type]=="Divine Beauty" #				[StashItem] == "true" //神聖石卡（有價）
-[Type]=="The Wedding Gift" #				[StashItem] == "true" //蜘蛛刀卡（有價）
+//[Type]=="The Wedding Gift" #				[StashItem] == "true" //蜘蛛刀卡（有價）
 [Type]=="The Insane Cat" #				[StashItem] == "true" //魔血卡（有價）
 //[Type]=="Ever-Changing" #				[StashItem] == "true" //撤銷
 //[Type]=="A Dusty Memory" #				[StashItem] == "true" //
@@ -214,12 +214,12 @@
 
 
 [Type]=="Divine Beauty" #[StashItem] == "true" //				神聖石卡（有價）
-[Type]=="The Wedding Gift" #[StashItem] == "true" //				蜘蛛刀卡（有價）
+//[Type]=="The Wedding Gift" #[StashItem] == "true" //				蜘蛛刀卡（有價）
 [Type]=="The Insane Cat" #[StashItem] == "true" //				魔血卡（有價）
-[Type]=="Ever-Changing" #[StashItem] == "true" //				
+//[Type]=="Ever-Changing" #[StashItem] == "true" //				
 [Type]=="A Dusty Memory" #[StashItem] == "true" //				
 		
-[Type]=="The Finishing Touch" #[StashItem] == "true" //				
+//[Type]=="The Finishing Touch" #[StashItem] == "true" //				
 				
 				
 [Type]=="Fracturing Orb" #[StashItem] == "true" //				破裂石
@@ -227,10 +227,10 @@
 			
  
 [Type] == "Brother's Gift" # [StashItem] == "true" // 兄弟之贈 有價
-[Type] == "Soul Quenched" # [StashItem] == "true" // 靈魂安息 
-[Type] == "Poisoned Faith" # [StashItem] == "true" // 有毒信仰 初期有價
-[Type] == "A Chilling Wind" # [StashItem] == "true" // 凜冽之風 
-[Type] == "Matryoshka" # [StashItem] == "true" // 俄羅斯娃娃 有價				
+//[Type] == "Soul Quenched" # [StashItem] == "true" // 靈魂安息 
+//[Type] == "Poisoned Faith" # [StashItem] == "true" // 有毒信仰 初期有價
+//[Type] == "A Chilling Wind" # [StashItem] == "true" // 凜冽之風 
+//[Type] == "Matryoshka" # [StashItem] == "true" // 俄羅斯娃娃 有價				
 
 //[Type] == "Divine Vessel" # [StashItem] == "true" //
 
@@ -344,9 +344,9 @@
 //[Type] == "Timeless Templar Emblem" # 			[StashItem] == "true"//永恆聖宗徽印拾取且存倉
 //[Type] == "Timeless Vaal Emblem"# 			[StashItem] == "true"//永恆瓦?徽印拾取且存倉
 
-[Type] == "Empower Support" #		[StashItem] == "true"//賦予輔助拾取且存倉
+//[Type] == "Empower Support" #		[StashItem] == "true"//賦予輔助拾取且存倉
 //[Type] == "Enhance Support" #		[StashItem] == "true"//增幅輔助不撿不存倉
-[Type] == "Enlighten Support" #		[StashItem] == "true"//啟蒙輔助拾取且存倉
+//[Type] == "Enlighten Support" #		[StashItem] == "true"//啟蒙輔助拾取且存倉
 
 [Type] == "The Apothecary" #		[StashItem] == "true" //?劑?
 [Type] =="Incandescent Invitation" #	[StashItem] == "true" //熾熱之邀
@@ -498,3 +498,27 @@
 [Type] == "Polished Expedition Scarab" # [StashItem] == "true"
 [Type] == "Rusted Expedition Scarab" # [StashItem] == "true"
 [Type] == "Winged Expedition Scarab" # [StashItem] == "true"
+
+[Type] == "Abyssal Delirium Orb" # 	[StashItem]	 == "true"	//	//深淵之譫妄玉	拾取且存倉
+[Type] == "Blighted Delirium Orb" # 	[StashItem]	 == "true"	//	//凋落之譫妄玉	拾取且存倉
+[Type] == "Diviner's Delirium Orb" # 	[StashItem]	 == "true"	//	//聖人之譫妄玉	拾取且存倉
+[Type] == "Fine Delirium Orb" # 	[StashItem]	 == "true"	//	//精良之譫妄玉	拾取且存倉
+[Type] == "Fossilised Delirium Orb" # 	[StashItem]	 == "true"	//	//石化之譫妄玉	拾取且存倉
+[Type] == "Imperial Delirium Orb" # 	[StashItem]	 == "true"	//	//帝王之譫妄玉	拾取且存倉
+[Type] == "Portentous Delirium Orb" # 	[StashItem]	 == "true"	//	//預兆之譫妄玉	拾取且存倉
+[Type] == "Singular Delirium Orb" # 	[StashItem]	 == "true"	//	//卓越之譫妄玉	拾取且存倉
+[Type] == "Skittering Delirium Orb" # 	[StashItem]	 == "true"	//	//飛掠之譫妄玉	拾取且存倉
+[Type] == "Thaumaturge's Delirium Orb" # 	[StashItem]	 == "true"	//	//奇術之譫妄玉	拾取且存倉
+[Type] == "Timeless Delirium Orb" # 	[StashItem]	 == "true"	//	//永恆之譫妄玉	拾取且存倉
+[Type] == "Whispering Delirium Orb" # 	[StashItem]	 == "true"	//	//低語之譫妄玉	拾取且存倉
+[Type] == "Amorphous Delirium Orb" # 	[StashItem]	 == "true"	//	//變態之譫妄玉	拾取且存倉
+[Type] == "Armoursmith's Delirium Orb" # 	[StashItem]	 == "true"	//	//護甲之譫妄玉	拾取且存倉
+[Type] == "Blacksmith's Delirium Orb" # 	[StashItem]	 == "true"	//	//鐵匠之譫妄玉	拾取且存倉
+[Type] == "Cartographer's Delirium Orb" # 	[StashItem]	 == "true"	//	//製圖之譫妄玉	拾取且存倉
+[Type] == "Decadent Delirium Orb" # 	[StashItem]	 == "true"	//	//墮落之譫妄玉	拾取且存倉
+[Type] == "Delirium Orb" # 	[StashItem]	 == "true"	//	//譫妄玉	拾取且存倉
+[Type] == "Foreboding Delirium Orb" # 	[StashItem]	 == "true"	//	//預感之譫妄玉	拾取且存倉
+[Type] == "Fragmented Delirium Orb" # 	[StashItem]	 == "true"	//	//碎片之譫妄玉	拾取且存倉
+[Type] == "Jeweller's Delirium Orb" # 	[StashItem]	 == "true"	//	//飾品之譫妄玉	拾取且存倉
+[Type] == "Obscured Delirium Orb" # 	[StashItem]	 == "true"	//	//晦澀之譫妄玉	拾取且存倉
+[Type] == "Primal Delirium Orb" # 	[StashItem]	 == "true"	//	//初始之譫妄玉	拾取且存倉 # 	[StashItem]	 == "true"	//	//初始之譫妄玉	拾取且存倉
