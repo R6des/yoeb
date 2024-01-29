@@ -1,10 +1,10 @@
 //À¬»øÄ§»ÃëŠ»¡
 //[Type] == "Lacquered Garb" && [Rarity] == "Unique" # [UniqueName] == "Cloak of Defiance" && [StashItem] == "true"				//ĞlµÀ
 //[Type] == "Paua Amulet" && [Rarity] == "Unique" # 	[UniqueName] == "Atziri's Foible" && [StashItem] == "true"				//Â}»Õ
-[Type] == "Gold Ring" && [Rarity] == "Unique" # 	[UniqueName] == "Ventor's Gamble" && [StashItem] == "true"				//Ù€Éñ·Ò¶à
+//[Type] == "Gold Ring" && [Rarity] == "Unique" # 	[UniqueName] == "Ventor's Gamble" && [StashItem] == "true"				//Ù€Éñ·Ò¶à
 //[Type] == "The Risk" # 	[StashItem] == "true" // Ù€Éñ¿¨
-[Type] == "Inscribed Ultimatum" # 	[StashItem] == "true" // ×îááÍ¨ëºµñ¿Ì
-[Type] == "Delirium Orb" # 	[StashItem]	 == "true"	//	//×dÍıÓñ	Ê°È¡ÇÒ´æ‚}
+//[Type] == "Inscribed Ultimatum" # 	[StashItem] == "true" // ×îááÍ¨ëºµñ¿Ì
+//[Type] == "Delirium Orb" # 	[StashItem]	 == "true"	//	//×dÍıÓñ	Ê°È¡ÇÒ´æ‚}
 
 
 
@@ -128,9 +128,9 @@
 //[Category] 	== "Map" && [MapTier] >= "16"  && [Rarity] == "Magic"  #			[StashItem] == "true" //Ë{
 //[Category] 	== "Map" && [MapTier] >= "16"  && [Rarity] == "Rare"  #				[StashItem] == "true" //üS
 //[Category]  	== "Map" && [MapTier] >= "1"  && [Rarity] == "Unique"  #			[StashItem] == "true" //éÙ
-[Category] 	== "Map" && [map_contains_citadel]>= "1"  #						[StashItem] == "true" //Õ÷·ş
-[Category] 	== "Map" && [map_elder_boss_variation] >= "1"  #					[StashItem] == "true" //×ğ?
-[Category] 	== "Map" && [map_atlas_influence_type] >= "1"  #					[StashItem] == "true" //ËÄÂ}
+//[Category] 	== "Map" && [map_contains_citadel]>= "1"  #						[StashItem] == "true" //Õ÷·ş
+//[Category] 	== "Map" && [map_elder_boss_variation] >= "1"  #					[StashItem] == "true" //×ğ?
+//[Category] 	== "Map" && [map_atlas_influence_type] >= "1"  #					[StashItem] == "true" //ËÄÂ}
 
 
 //İx¸ç°æ
@@ -139,12 +139,12 @@
 //[Type] == "Temple Map" && [MapTier] <= "13" # [ForceSellItem] == "true"
 //[Type]=="Crimson Temple Map"&& [MapTier] <= "13" # [ForceSellItem] == "true"
 
-[Category] == "Map" && [Rarity] == "Rare" && [map_contains_citadel] >= "1" # [StashItem] == "true" // 13855 Citadel Maps
-[Category] == "Map" && [Rarity] == "Rare" && [map_elder_boss_variation] >= "1" # [StashItem] == "true" // 6551 Elder Maps
+//[Category] == "Map" && [Rarity] == "Rare" && [map_contains_citadel] >= "1" # [StashItem] == "true" // 13855 Citadel Maps
+//[Category] == "Map" && [Rarity] == "Rare" && [map_elder_boss_variation] >= "1" # [StashItem] == "true" // 6551 Elder Maps
 [Type] == "Synthesised Map" # [StashItem] == "true" // ×·‘›ÏµÁĞµØˆD
 
-[Category] == "Map" && [Rarity] == "Rare" && [map_contains_citadel] >= "1" # [StashItem] == "true" // 13855 Citadel Maps
-[Category] == "Map" && [Rarity] == "Rare" && [map_elder_boss_variation] >= "1" # [StashItem] == "true" // 6551 Elder Maps																		
+//[Category] == "Map" && [Rarity] == "Rare" && [map_contains_citadel] >= "1" # [StashItem] == "true" // 13855 Citadel Maps
+//[Category] == "Map" && [Rarity] == "Rare" && [map_elder_boss_variation] >= "1" # [StashItem] == "true" // 6551 Elder Maps																		
 [Type]== "Forge of the Phoenix Map"#[StashItem]== "true"//»ğøP»ËÈÛºË #																								
 [Type]== "Lair of the Hydra Map"#[StashItem]== "true"//¾Åî^Éß±ù¿ß #																								
 [Type]== "Maze of the Minotaur Map"#[StashItem]== "true"//Å£î^ÈËÖiÓò #																								
@@ -430,95 +430,3 @@
 	[Type] == "Carnal Armour" && [Rarity] == "Unique" # 		[UniqueName] == "Stasis Prison" && [StashItem] == "true"			//ìoÖ¹ÀÎ»\½û¶YÖ®¼×
 
 
-[Type] == "Rusted Ambush Scarab"        # [StashItem] == "true"
-[Type] == "Polished Ambush Scarab"      # [StashItem] == "true"
-[Type] == "Gilded Ambush Scarab"        # [StashItem] == "true"
-[Type] == "Winged Ambush Scarab"        # [StashItem] == "true"
-[Type] == "Rusted Bestiary Scarab"      # [StashItem] == "true"
-[Type] == "Polished Bestiary Scarab"    # [StashItem] == "true"
-[Type] == "Gilded Bestiary Scarab"      # [StashItem] == "true"
-[Type] == "Winged Bestiary Scarab"      # [StashItem] == "true"
-[Type] == "Rusted Breach Scarab"        # [StashItem] == "true"
-[Type] == "Polished Breach Scarab"      # [StashItem] == "true"
-[Type] == "Gilded Breach Scarab"        # [StashItem] == "true"
-[Type] == "Winged Breach Scarab"        # [StashItem] == "true"
-[Type] == "Rusted Cartography Scarab"   # [StashItem] == "true"
-[Type] == "Polished Cartography Scarab" # [StashItem] == "true"
-[Type] == "Gilded Cartography Scarab"   # [StashItem] == "true"
-[Type] == "Winged Cartography Scarab"   # [StashItem] == "true"
-[Type] == "Rusted Divination Scarab"    # [StashItem] == "true"
-[Type] == "Polished Divination Scarab"  # [StashItem] == "true"
-[Type] == "Gilded Divination Scarab"    # [StashItem] == "true"
-[Type] == "Winged Divination Scarab"    # [StashItem] == "true"
-[Type] == "Rusted Elder Scarab"         # [StashItem] == "true"
-[Type] == "Polished Elder Scarab"       # [StashItem] == "true"
-[Type] == "Gilded Elder Scarab"         # [StashItem] == "true"
-[Type] == "Winged Elder Scarab"         # [StashItem] == "true"
-[Type] == "Rusted Harbinger Scarab"     # [StashItem] == "true"
-[Type] == "Polished Harbinger Scarab"   # [StashItem] == "true"
-[Type] == "Gilded Harbinger Scarab"     # [StashItem] == "true"
-[Type] == "Winged Harbinger Scarab"     # [StashItem] == "true"
-[Type] == "Rusted Legion Scarab"        # [StashItem] == "true"
-[Type] == "Polished Legion Scarab"      # [StashItem] == "true"
-[Type] == "Gilded Legion Scarab"        # [StashItem] == "true"
-[Type] == "Winged Legion Scarab"        # [StashItem] == "true"
-[Type] == "Rusted Metamorph Scarab"     # [StashItem] == "true"
-[Type] == "Polished Metamorph Scarab"   # [StashItem] == "true"
-[Type] == "Gilded Metamorph Scarab"     # [StashItem] == "true"
-[Type] == "Winged Metamorph Scarab"     # [StashItem] == "true"
-[Type] == "Rusted Perandus Scarab"      # [StashItem] == "true"
-[Type] == "Polished Perandus Scarab"    # [StashItem] == "true"
-[Type] == "Gilded Perandus Scarab"      # [StashItem] == "true"
-[Type] == "Winged Perandus Scarab"      # [StashItem] == "true"
-[Type] == "Rusted Reliquary Scarab"     # [StashItem] == "true"
-[Type] == "Polished Reliquary Scarab"   # [StashItem] == "true"
-[Type] == "Gilded Reliquary Scarab"     # [StashItem] == "true"
-[Type] == "Winged Reliquary Scarab"     # [StashItem] == "true"
-[Type] == "Rusted Shaper Scarab"        # [StashItem] == "true"
-[Type] == "Polished Shaper Scarab"      # [StashItem] == "true"
-[Type] == "Gilded Shaper Scarab"        # [StashItem] == "true"
-[Type] == "Winged Shaper Scarab"        # [StashItem] == "true"
-[Type] == "Rusted Sulphite Scarab"      # [StashItem] == "true"
-[Type] == "Polished Sulphite Scarab"    # [StashItem] == "true"
-[Type] == "Gilded Sulphite Scarab"      # [StashItem] == "true"
-[Type] == "Winged Sulphite Scarab"      # [StashItem] == "true"
-[Type] == "Rusted Torment Scarab"       # [StashItem] == "true"
-[Type] == "Polished Torment Scarab"     # [StashItem] == "true"
-[Type] == "Gilded Torment Scarab"       # [StashItem] == "true"
-[Type] == "Winged Torment Scarab"       # [StashItem] == "true"
-[Type] == "Gilded Abyss Scarab"    # [StashItem] == "true"
-[Type] == "Gilded Blight Scarab"   # [StashItem] == "true"
-[Type] == "Polished Abyss Scarab"  # [StashItem] == "true"
-[Type] == "Polished Blight Scarab" # [StashItem] == "true"
-[Type] == "Rusted Abyss Scarab"    # [StashItem] == "true"
-[Type] == "Rusted Blight Scarab"   # [StashItem] == "true"
-[Type] == "Winged Abyss Scarab"    # [StashItem] == "true"
-[Type] == "Winged Blight Scarab"   # [StashItem] == "true"
-[Type] == "Gilded Expedition Scarab" # [StashItem] == "true"
-[Type] == "Polished Expedition Scarab" # [StashItem] == "true"
-[Type] == "Rusted Expedition Scarab" # [StashItem] == "true"
-[Type] == "Winged Expedition Scarab" # [StashItem] == "true"
-
-[Type] == "Abyssal Delirium Orb" # 	[StashItem]	 == "true"	//	//ÉîœYÖ®×dÍıÓñ	Ê°È¡ÇÒ´æ‚}
-[Type] == "Blighted Delirium Orb" # 	[StashItem]	 == "true"	//	//µòÂäÖ®×dÍıÓñ	Ê°È¡ÇÒ´æ‚}
-[Type] == "Diviner's Delirium Orb" # 	[StashItem]	 == "true"	//	//Â}ÈËÖ®×dÍıÓñ	Ê°È¡ÇÒ´æ‚}
-[Type] == "Fine Delirium Orb" # 	[StashItem]	 == "true"	//	//¾«Á¼Ö®×dÍıÓñ	Ê°È¡ÇÒ´æ‚}
-[Type] == "Fossilised Delirium Orb" # 	[StashItem]	 == "true"	//	//Ê¯»¯Ö®×dÍıÓñ	Ê°È¡ÇÒ´æ‚}
-[Type] == "Imperial Delirium Orb" # 	[StashItem]	 == "true"	//	//µÛÍõÖ®×dÍıÓñ	Ê°È¡ÇÒ´æ‚}
-[Type] == "Portentous Delirium Orb" # 	[StashItem]	 == "true"	//	//îAÕ×Ö®×dÍıÓñ	Ê°È¡ÇÒ´æ‚}
-[Type] == "Singular Delirium Orb" # 	[StashItem]	 == "true"	//	//×¿Ô½Ö®×dÍıÓñ	Ê°È¡ÇÒ´æ‚}
-[Type] == "Skittering Delirium Orb" # 	[StashItem]	 == "true"	//	//ïwÂÓÖ®×dÍıÓñ	Ê°È¡ÇÒ´æ‚}
-[Type] == "Thaumaturge's Delirium Orb" # 	[StashItem]	 == "true"	//	//ÆæĞgÖ®×dÍıÓñ	Ê°È¡ÇÒ´æ‚}
-[Type] == "Timeless Delirium Orb" # 	[StashItem]	 == "true"	//	//ÓÀaÖ®×dÍıÓñ	Ê°È¡ÇÒ´æ‚}
-[Type] == "Whispering Delirium Orb" # 	[StashItem]	 == "true"	//	//µÍÕZÖ®×dÍıÓñ	Ê°È¡ÇÒ´æ‚}
-[Type] == "Amorphous Delirium Orb" # 	[StashItem]	 == "true"	//	//×ƒ‘BÖ®×dÍıÓñ	Ê°È¡ÇÒ´æ‚}
-[Type] == "Armoursmith's Delirium Orb" # 	[StashItem]	 == "true"	//	//×o¼×Ö®×dÍıÓñ	Ê°È¡ÇÒ´æ‚}
-[Type] == "Blacksmith's Delirium Orb" # 	[StashItem]	 == "true"	//	//èF½³Ö®×dÍıÓñ	Ê°È¡ÇÒ´æ‚}
-[Type] == "Cartographer's Delirium Orb" # 	[StashItem]	 == "true"	//	//ÑuˆDÖ®×dÍıÓñ	Ê°È¡ÇÒ´æ‚}
-[Type] == "Decadent Delirium Orb" # 	[StashItem]	 == "true"	//	//‰™ÂäÖ®×dÍıÓñ	Ê°È¡ÇÒ´æ‚}
-[Type] == "Delirium Orb" # 	[StashItem]	 == "true"	//	//×dÍıÓñ	Ê°È¡ÇÒ´æ‚}
-[Type] == "Foreboding Delirium Orb" # 	[StashItem]	 == "true"	//	//îA¸ĞÖ®×dÍıÓñ	Ê°È¡ÇÒ´æ‚}
-[Type] == "Fragmented Delirium Orb" # 	[StashItem]	 == "true"	//	//ËéÆ¬Ö®×dÍıÓñ	Ê°È¡ÇÒ´æ‚}
-[Type] == "Jeweller's Delirium Orb" # 	[StashItem]	 == "true"	//	//ï—Æ·Ö®×dÍıÓñ	Ê°È¡ÇÒ´æ‚}
-[Type] == "Obscured Delirium Orb" # 	[StashItem]	 == "true"	//	//»Ş­Ö®×dÍıÓñ	Ê°È¡ÇÒ´æ‚}
-[Type] == "Primal Delirium Orb" # 	[StashItem]	 == "true"	//	//³õÊ¼Ö®×dÍıÓñ	Ê°È¡ÇÒ´æ‚} # 	[StashItem]	 == "true"	//	//³õÊ¼Ö®×dÍıÓñ	Ê°È¡ÇÒ´æ‚}
