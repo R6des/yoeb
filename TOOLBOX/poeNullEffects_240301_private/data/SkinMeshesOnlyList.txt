@@ -1,0 +1,30 @@
+//Meshes to remove:
+//(.aoc file names)
+
+//===
+
+//Bladefall:
+rain_of_blade
+
+//They of Thul:
+breach/cold/blizzard
+
+//avian tornado:
+spells/monsters_effects/act9/sandspark/sandspark
+
+//lightning bolts from the sky:
+spells/herald
+lightning_arrow
+
+//beyond portals:
+demon_portal
+
+//harbringer:
+effects/spells/monsters_effects/league_avatar
+
+//3.18+ gore and DD:
+extra_blood
+gore_explode
+goresplosion
+
+//===
