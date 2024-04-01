@@ -429,6 +429,6 @@
 	[Category] == "Belt"        && [Rarity]== "Rare" # [base_maximum_life] >= "999" && [TotalResistances] >= "999" && 	[StashItem]	 == "true"	//	—¸éß
 	[Category] == "Gloves"      && [Rarity]== "Rare" # [base_maximum_life] >= "999" && [TotalResistances] >= "999" && 	[StashItem]	 == "true"	//	 ÷Ã◊
 	[Category] == "Boots"       && [Rarity]== "Rare" # [base_maximum_life] >= "999"&& 					[StashItem]	 == "true"	//	–¨◊”
-//	[Category] == "Weapon"      && [Rarity]== "Rare" # [DPS] > "999" && 							[StashItem]	 == "true"	//	Œ‰∆˜
+	[Category] == "Weapon"      && [Rarity]== "Rare" # [DPS] > "999" && 							[StashItem]	 == "true"	//	Œ‰∆˜
 	[Category] == "Shield"      && [Rarity]== "Rare" # [base_maximum_life] >= "999" && [TotalResistances] >= "999" && 	[StashItem]	 == "true"	//	∂‹≈∆
 																	
